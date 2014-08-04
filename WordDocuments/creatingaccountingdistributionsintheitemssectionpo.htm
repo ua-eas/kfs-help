@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Creating Accounting Distributions in the Items Section (PO)</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_2 PURAP_Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
+<meta name="D2HTheme" content="(Default) v.155" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = false;
+
+
+
+
+
+var next = false;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtransactionedocs2.htm">Standard Transaction E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchaseorder.htm">Purchase Order</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="documentlayout201.htm">Document Layout</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="itemstab5.htm">Items Tab</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="totalssection3.htm">Totals 
+Section</a></div>
+<p class="MsoHeading7">Creating Accounting Distributions in the Items Section 
+(PO)</p>
+<p class="MsoBodyText">Accounting distributions for item lines may be created 
+individually, or a single accounting distribution may be copied to all line <a id="popup_370388" onclick="return d2hpopup(event, this.href)" href="gloss_items.htm">items</a> on the <a id="popup_370382" onclick="return d2hpopup(event, this.href)" href="gloss_requisition.htm">requisition</a>. A valid <a id="popup_370385" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">account</a> 
+string contains a <a id="popup_370389" onclick="return d2hpopup(event, this.href)" href="gloss_chart.htm">chart</a>, an account, and an <a id="popup_370381" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode.htm">object 
+code</a>. The account must be active and the expiration date has not expired. 
+The object code must valid. Valid object codes are active codes in the object 
+code table and are <i>not</i> included in the <a id="popup_370380" onclick="return d2hpopup(event, this.href)" href="gloss_objectconsolidation.htm">OBJECT CONSOLIDATION</a> <a id="popup_370383" onclick="return d2hpopup(event, this.href)" href="gloss_parameter.htm">parameter</a>. </p>
+<p class="MsoBodyText">To create accounting distributions for individual item 
+lines, follow these steps.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">1.     Click 
+<strong>add</strong> in the <strong>Actions</strong> column to add the item 
+line.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">3.     In the 
+<strong>Current Items</strong> section, click the <img title="Description: tinybutton-show" border="0" alt="Description: tinybutton-show" src="../ImagesExt/image15_43.png" /> button for the line to which you want to 
+add an accounting distribution.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">4.     In the 
+<strong>Item Accounting Lines</strong> section, click the <img title="Description: tinybutton-show" border="0" alt="Description: tinybutton-show" src="../ImagesExt/image15_43.png" /> button. </p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">5.     <a id="popup_370384" onclick="return d2hpopup(event, this.href)" href="gloss_complete.htm">Complete</a> the accounting line and specify the 
+percent and/or amount of this item line to be charged to this accounting 
+line.</p>
+<p style="TEXT-INDENT: -18pt; MARGIN-LEFT: 36pt; tab-stops: 18.0pt 58.5pt" class="Note"><img title="Description: go-arrow-red" border="0" alt="Description: go-arrow-red" src="../ImagesExt/image15_144.jpg" />   
+For information about accounting line rule differences for Proportional and 
+Sequential account distribution methods, see <a href="documentoverviewtab9.htm">Document Overview</a> and <a href="creatingaccountingdistributionsintheitemssection.htm">Creating Accounting 
+Distributions in the Items Section</a> under <a href="requisition.htm">Requisition</a>. </p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">6.     Click 
+<img title="Description: tinybutton-add1" border="0" alt="Description: tinybutton-add1" src="../ImagesExt/image15_102.png" /> to 
+add the accounting line.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">7.     If the 
+item needs to be distributed to more than one accounting line, repeat steps 4 
+and 5. The sum of all accounting lines must equal 100 percent when you finish 
+the distribution.</p>
+<p class="Note"><img title="Description: pencil-small" border="0" alt="Description: pencil-small" src="../ImagesExt/image15_12.png" />     This process may also 
+be followed to add accounting distribution lines for items in the 
+<strong>Additional Charges</strong> section. Open the <strong>Accounting Line 
+Items</strong> section for that miscellaneous line item and follow steps 4-6 
+above.</p>
+<p class="MsoBodyText">Line item accounting and line item commodity codes can 
+create considerable repetitive data entry. <a id="popup_370390" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> allows 
+you to load the information to all the line items rather than entering the 
+information to each line item separately. The steps below describe how to 
+distribute this information. This process distributes accounts and commodity 
+codes only to line items that have no accounts and no commodity code. It does 
+not replace accounts or commodity codes that have been set up for individual 
+line items. </p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">1.     Click 
+<img title="Description: tinybutton-add1" border="0" alt="Description: tinybutton-add1" src="../ImagesExt/image15_102.png" /> to 
+add the item line.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">2.     In the 
+<strong>Add Item</strong> section, click the<strong> </strong><img border="0" src="../ImagesExt/image15_145.jpg" alt="" /><strong></strong><strong></strong> button. 
+</p>
+<p class="C1HContinue">The system opens a new <strong><span style="FONT-WEIGHT: normal">Accounting Lines</span></strong> section and a blank 
+Commodity Code field. </p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">3.     Enter a 
+commodity code and the accounting line and indicate the percent of this item 
+line that is to be distributed to the items on this requisition. </p>
+<p style="TEXT-INDENT: -18pt; MARGIN-LEFT: 36pt; tab-stops: 18.0pt 58.5pt" class="Note"><img title="Description: go-arrow-red" border="0" alt="Description: go-arrow-red" src="../ImagesExt/image15_146.jpg" />   
+For information about accounting line rule differences for Proportional and 
+Sequential account distribution methods, see <a href="documentoverviewtab9.htm">Document Overview</a> and <a href="creatingaccountingdistributionsintheitemssection.htm">Creating Accounting 
+Distributions in the Items Section</a> under <a href="requisition.htm">Requisition</a>. </p>
+<p class="Noteindented"><img title="Description: pencil-small" border="0" alt="Description: pencil-small" src="../ImagesExt/image15_12.png" />       The 
+system validates values as you enter the information. </p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">4.     Click 
+<img title="Description: tinybutton-add1" border="0" alt="Description: tinybutton-add1" src="../ImagesExt/image15_102.png" /> to 
+add the accounting line.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">5.     If the 
+items need to be distributed to more than one accounting line, repeat steps 3 
+and 4. The accounting lines distribution should total 100%.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">6.     Click 
+the <img border="0" src="../ImagesExt/image15_147.png" alt="" /><strong></strong><strong></strong> button 
+to apply this distribution to all item lines that do not yet have an accounting 
+line distribution specified. </p>
+<p class="C1HContinue">The system displays the top of the <a id="popup_370386" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> and the <a id="popup_370387" onclick="return d2hpopup(event, this.href)" href="gloss_message.htm">message</a> 
+'The accounts were successfully distributed to all items'.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="removingaccountsfromallitemlines3.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Removing Accounts from all Item 
+Lines</a></p></span></div></div></body></html>

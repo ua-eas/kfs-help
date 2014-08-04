@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Business Rules</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_2 Labor_Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
+<meta name="D2HTheme" content="(Default) v.155" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="laborledgerscrubber.htm"></a><a id="D2HNextAnchor" href="labordemergerprocess.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="labordistribution1.htm">Labor Distribution</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="laborledgerdailyprocess.htm">Labor Ledger Daily Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="laborledgerscrubber.htm">Labor Ledger Scrubber</a></div>
+<h4>Business Rules</h4>
+<p class="MsoBodyText">The main validation rules include validation of values 
+against the lookup tables, setting defaults for blank values, and enforcing 
+rules. The following summarizes the major rules contained in the 'Labor 
+Scrubber' process.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Validate the <a id="popup_368252" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
+year</a>, <a id="popup_368253" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">account</a>, <a id="popup_368250" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount.htm">sub-account</a>, <a id="popup_368249" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode.htm">object 
+code</a>, <a id="popup_368240" onclick="return d2hpopup(event, this.href)" href="gloss_subobjectcode.htm">sub-object code</a>, <a id="popup_368246" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype.htm">balance 
+type</a>, <a id="popup_368239" onclick="return d2hpopup(event, this.href)" href="gloss_accountingperiod.htm">accounting period</a>, <a id="popup_368245" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype.htm">document type</a>, origin code against the lookup 
+tables.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the Fiscal Year field is blank, assign the current fiscal year.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+fiscal year must exist in the <a id="popup_368243" onclick="return d2hpopup(event, this.href)" href="gloss_systemoptions.htm">System Options</a> table and it must be open.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the account is closed, look for a <a id="popup_368237" onclick="return d2hpopup(event, this.href)" href="gloss_continuationaccount.htm">continuation account</a>.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the account is expired and the balance type is not an <a id="popup_368248" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">encumbrance</a> balance type defined in the Systems 
+Options maintenance table, look for a continuation account.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the <strong>Sub-Account</strong>, <strong>Sub-Object</strong>, or <strong><a id="popup_368247" onclick="return d2hpopup(event, this.href)" href="gloss_projectcode.htm"><strong>Project Code</strong></a></strong> field is 
+blank, set it to dashes.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the <strong>Balance Type</strong> field is blank, set it to 'AC' (actual).</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the <strong><a id="popup_368251" onclick="return d2hpopup(event, this.href)" href="gloss_objecttype.htm"><strong>Object Type</strong></a></strong> field is 
+blank, set it to the object type of the object code.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the <strong><a id="popup_368244" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalperiod.htm"><strong>Fiscal Period</strong></a></strong> field 
+is blank, assign the period code of the accounting period containing the run 
+date.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong><a id="popup_368241" onclick="return d2hpopup(event, this.href)" href="gloss_documentnumber.htm"><strong>Document Number</strong></a></strong> 
+field must not be blank or zeroes.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong>Transaction Description</strong> field must not be blank.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong>Amount</strong> field must be numeric.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong>Debit/Credit Code</strong> field must be 'D' or 'C'.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the <strong>Transaction Date</strong> field is blank, set it to the run 
+date.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+transaction date must exist in the Universal Date table.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the <a id="popup_368236" onclick="return d2hpopup(event, this.href)" href="gloss_encumbranceupdatecode.htm">encumbrance update code</a> is 'R,’ in 
+the reference origin code, <a id="popup_368238" onclick="return d2hpopup(event, this.href)" href="gloss_referencedocument.htm">reference document</a> type and reference <a id="popup_368254" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> number must not be blank.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the balance type is an encumbrance balance type and the object type is not a <a id="popup_368255" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a> balance object type, the encumbrance update code 
+must be 'D' (<a id="popup_368242" onclick="return d2hpopup(event, this.href)" href="gloss_disencumbrance.htm">Disencumbrance</a>), 'R' (Reversal), or 'N' 
+(None). In all other cases, the encumbrance update code must be blank.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="labordemergerprocess.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Labor Demerger 
+Process</a></p></span></div></div></body></html>

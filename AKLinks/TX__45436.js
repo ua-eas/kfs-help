@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__45436", [["WordDocuments/useragreementtab2.htm", "right", "User Agreement Tab"],["WordDocuments/useragreementtab3.htm", "right", "User Agreement Tab"]]);

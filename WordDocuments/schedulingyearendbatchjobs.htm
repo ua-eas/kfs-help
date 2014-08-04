@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Scheduling Year-End BatchJobs</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_2 Core_Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
+<meta name="D2HTheme" content="(Default) v.155" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="generalledgerautomatedbalancing.htm"></a><a id="D2HNextAnchor" href="glcorrectionprocessglcp.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="yearendprocesses.htm">Year-End 
+Processes</a></div>
+<h4>Scheduling Year-End BatchJobs </h4>
+<p class="Note">Four <a id="popup_358095" onclick="return d2hpopup(event, this.href)" href="gloss_yearend.htm">year-end</a> <a id="popup_358098" onclick="return d2hpopup(event, this.href)" href="gloss_batch.htm">batch</a> 
+jobs generate GL data files.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_358100" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a>-GL organizationReversionPriorYearAccountJob</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-GL encumbranceForwardJob</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-GL nominalActivityClosingJob</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-GL balanceForwardJob</p>
+<p class="MsoBodyText">Files output by these jobs are <em>not</em> automatically 
+fed into the <a id="popup_358094" onclick="return d2hpopup(event, this.href)" href="gloss_scrubber.htm">scrubber</a>, so an administrator must review the the 
+files to be sure the data seems valid and then use the <a id="popup_358099" onclick="return d2hpopup(event, this.href)" href="gloss_glcp.htm">GLCP</a> to 
+make the data available for the next nightly batch processing.  </p>
+<p class="MsoBodyText">These four jobs may be run over a period of several days. 
+For example, after the <a id="popup_358097" onclick="return d2hpopup(event, this.href)" href="gloss_final.htm">final</a> <a id="popup_358096" onclick="return d2hpopup(event, this.href)" href="gloss_close.htm">close</a>, jobs might be run according to a schedule like 
+the following.</p>
+<p class="MsoBodyText"><strong>Day 1</strong></p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">1.     
+Schedule:</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt" class="C1HBullet2"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-GL organizationReversionPriorYearAccountJob</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt" class="C1HBullet2"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-GL encumbranceForwardJob</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt" class="C1HBullet2"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-GL laborBalanceForwardJob</p>
+<p class="MsoBodyText"><strong>Day 2</strong></p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">1.     Review 
+output from yesterday's:</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt" class="C1HBullet2"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-GL organizationReversionPriorYearAccountJob</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt" class="C1HBullet2"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-GL encumbranceForwardJob</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt" class="C1HBullet2"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-GL laborBalanceForwardJob </p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">2.     For all 
+valid output from those jobs, use the GLCP to input the files into this 
+evening's batch cycle.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">3.     Schedule 
+KFS-GL nominalActivityClosingJob.</p>
+<p class="MsoBodyText"><strong>Day 3</strong></p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">1.     Verify 
+that the entries from the following jobs posted without incident during last 
+night's batch cycle:</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt" class="C1HBullet2"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-GL organizationReversionPriorYearAccountJob</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt" class="C1HBullet2"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-GL encumbranceForwardJob</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt" class="C1HBullet2"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-GL laborBalanceForwardJob</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">2.     Review 
+output from yesterday's KFS-GL nominalActivityClosingJob.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">3.     For all 
+valid output from that job, use the GLCP to input the file into this evening's 
+batch cycle.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">4.     Schedule 
+KFS-GL balanceForwardJob.</p>
+<p class="MsoBodyText"><strong>Day 4</strong></p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">1.     Verify 
+that the entries from yesterday's KFS-GL nominalActivityClosingJob posted 
+without incident.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">2.     Review 
+output from KFS-GL balanceForwardJob.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">3.     For all 
+valid output, use the GLCP to input the file into this evening's batch 
+cycle.</p>
+<p class="MsoBodyText"><strong>Day 5</strong></p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">1.     Verify 
+that the entries from yesterday's KFS-GL balanceForwardJob posted without 
+incident.</p>
+<p class="MsoBodyText">If a problem (for example, if the scrubber finds errors) 
+arises at any point, fix the problem before continuing with the remaining steps. 
+</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="glcorrectionprocessglcp.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />GL Correction Process 
+(GLCP)</a></p></span></div></div></body></html>

@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__43230", [["WordDocuments/assignaccountstab10.htm", "right", "Assign Accounts Tab"],["WordDocuments/debitcreditentries.htm", "right", "Debit/Credit Entries"]]);
