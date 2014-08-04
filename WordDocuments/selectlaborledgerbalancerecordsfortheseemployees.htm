@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Select Labor Ledger Balance Records for these Employees</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_2 Effort_Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
+<meta name="D2HTheme" content="(Default) v.155" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="determinevalidlaborobjectcodesforthisreport.htm"></a><a id="D2HNextAnchor" href="monthlysummation.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="effortcertification1.htm">Effort Certification</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="maintenancefunctions.htm">Maintenance Functions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generatingeffortcertificationreports.htm">Generating Effort Certification 
+Reports</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="extractingeffortdatafromthelaborledger.htm">Extracting Effort Data from 
+the Labor Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="extractprocessing.htm">Extract 
+Processing</a></div>
+<h6>Select Labor Ledger Balance Records for these Employees</h6>
+<p class="MsoBodyText">In this step, balances are retrieved from the Labor Ledger 
+for the employees and object codes identified in the previous steps. Only 
+entries with a <a id="popup_365966" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype.htm">Balance Type</a> Code of 'AC' or 'A2,' an <a id="popup_365968" onclick="return d2hpopup(event, this.href)" href="gloss_objecttype.htm">Object Type</a> Code of 'EX' (Expense) and the <a id="popup_365969" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal year</a>(s) associated with the report will 
+be selected.</p>
+<p class="MsoBodyText">It is possible to exclude the Labor Ledger entries 
+associated with certain types of accounts by using the <a id="popup_365971" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">ACCOUNT</a>_TYPE_CODE_BALANCE_SELECT <a id="popup_365970" onclick="return d2hpopup(event, this.href)" href="gloss_parameter.htm">parameter</a>. ACCOUNT_TYPE_CODE_BALANCE_SELECT gives 
+valid/invalid <a id="popup_365967" onclick="return d2hpopup(event, this.href)" href="gloss_accounttype.htm">account type</a> codes for the extract balance 
+select. For example, perhaps you want to exclude entries that are associated 
+with Work study accounts. This parameter can be used to exclude account type 
+codes by setting the Parameter Constraint Code to 'D. Alternately, if you set 
+the Parameter Constraint Code to 'A,' only the account type codes specified in 
+the <a id="popup_365965" onclick="return d2hpopup(event, this.href)" href="gloss_parametervalue.htm">Parameter Value</a> will be eligible to have 
+their Labor Ledger entries selected.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="monthlysummation.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Monthly Summation</a></p></span></div></div></body></html>

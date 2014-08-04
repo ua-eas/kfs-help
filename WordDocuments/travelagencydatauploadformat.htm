@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Travel Agency Data Upload Format</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_2 TEM_Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
+<meta name="D2HTheme" content="(Default) v.155" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = false;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="travelagencydataupload.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="travelentertainmentandmoving1.htm">Travel, Entertainment and 
+Moving</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="travelbatchfunctions.htm">Travel Batch 
+Functions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="travelagencydataupload.htm">Travel Agency Data 
+Upload</a></div>
+<h5>Travel Agency Data Upload Format </h5>
+<p class="MsoBodyText">In addition to the standard formatting rules that apply to 
+all <a id="popup_375682" onclick="return d2hpopup(event, this.href)" href="gloss_batch.htm">batch</a> upload file formats, keep the following points 
+in mind about the <a id="popup_375689" onclick="return d2hpopup(event, this.href)" href="gloss_xml.htm">XML</a> format:</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+file must begin with the standard XML version line such as:</p>
+<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;?xml version="1.0" 
+encoding="UTF-8"?&gt;</span></span></p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+root (first) tag for <a id="popup_375670" onclick="return d2hpopup(event, this.href)" href="gloss_collector.htm">collector</a> files must be the &lt;agencyData&gt; 
+tag, and the file must contain only one &lt;agencyData&gt;&lt;/ agencyData &gt; 
+tag. This tag also contains attributes that identify the schema the <a id="popup_375672" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> adheres to, such as:</p>
+<p style="TEXT-INDENT: 0pt" class="C1HBullet"> </p>
+<p style="MARGIN-LEFT: 36pt" class="MsoNormal"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;agencyData 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" </span></span></p>
+<p style="MARGIN-LEFT: 36pt" class="MsoNormal"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">                
+xmlns="http://www.<a id="popup_375683" onclick="return d2hpopup(event, this.href)" href="gloss_kuali.htm">kuali</a>.org/<a id="popup_375685" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">kfs</a>/<a id="popup_375688" onclick="return d2hpopup(event, this.href)" href="gloss_tem.htm">tem</a>/AgencyData" </span></span></p>
+<p style="MARGIN-LEFT: 36pt" class="MsoNormal"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">                
+xsi:noNamespaceSchemaLocation="../build/project/xsd/tem/AgencyData.xsd"&gt; 
+</span></span></p>
+<p class="MsoNormal"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt"></span></span> </p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Following the batch tag must be the &lt;importBy&gt; tag. This section 
+indicates how the imported transactions will be handled. <a id="popup_375677" onclick="return d2hpopup(event, this.href)" href="gloss_bytrv.htm">By TRV</a> 
+prepares the record for manual reconciliation to a TEM document and <a id="popup_375676" onclick="return d2hpopup(event, this.href)" href="gloss_bytrp.htm">By TRP</a> prepares the record for automatic 
+reconciliation. Like the agencyData tag, the file must contain only one 
+&lt;importBy&gt;&lt;/importBy&gt; tag. </p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Next 
+comes a &lt;record&gt; tag. This tag contains other tags that represent the 
+fields of the credit card transaction.  There can be many 
+&lt;record&gt;&lt;/record&gt; tags <a id="popup_375684" onclick="return d2hpopup(event, this.href)" href="gloss_back.htm">back</a> to 
+back. The &lt;record&gt; tag includes the following information: </p>
+<p style="TEXT-INDENT: -18.75pt; MARGIN-LEFT: 54pt; tab-stops: 54.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Trip 
+Info</p>
+<p style="TEXT-INDENT: -18.75pt; MARGIN-LEFT: 54pt; tab-stops: 54.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Traveler Info</p>
+<p style="TEXT-INDENT: -18.75pt; MARGIN-LEFT: 54pt; tab-stops: 54.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Accounting Info, this is another tag &lt;accountinginfo&gt; and there can 
+be up to three sets of &lt;accountinginfo&gt; &lt;/accountinginfo&gt; tags. </p>
+<p style="TEXT-INDENT: -18.75pt; MARGIN-LEFT: 54pt; tab-stops: 54.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Airline Record, Lodging Record or Car Rental Record (there will only be 
+one of these per &lt;record&gt;&lt;/record&gt; </p>
+<p style="TEXT-INDENT: -18.75pt; MARGIN-LEFT: 54pt; tab-stops: 54.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Conference Registration</p>
+<p style="TEXT-INDENT: -18.75pt; MARGIN-LEFT: 54pt; tab-stops: 54.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Processing Info</p>
+<p class="TableHeading"> Travel <a id="popup_375675" onclick="return d2hpopup(event, this.href)" href="gloss_agency.htm">Agency</a> 
+Data Upload Format</p>
+<table style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none" class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0">
+  <tbody>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Name</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Type</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">Max Size</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Required?</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Special Formatting</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 474.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="632" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Agency 
+      Information</span></strong></p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Agency Data ID</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Integer</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Credit Card or Agency Code</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">4</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Validated against the Credit Card or Agency 
+    table.</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Agency</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">20</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Other Company Name</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">30</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Agency File Name</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">50</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Merchant Name</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">40</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Billing Cycle Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">YYYY-MM-DD</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 474.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="632" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Trip 
+      Information</span></strong></p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Trip ID</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">12</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Required for By TRP method must match TEM Doc 
+      Number.</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Trip Invoice Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">20</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Trip Traveler Type ID</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">1</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Other Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 474.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="632" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Traveler 
+      Information</span></strong></p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Traveler Name</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">50</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Traveler ID</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">9</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Traveler Network ID</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">9</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Required for by <a id="popup_375686" onclick="return d2hpopup(event, this.href)" href="gloss_trv.htm">TRV</a> 
+      method, employee ID.</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Trip Expense Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Alternate Trip ID</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">20</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Trip Arranger Name</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">50</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 474.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="632" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Accounting Information (up to 
+      three accounts can be identified)</span></strong></p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells"><a id="popup_375681" onclick="return d2hpopup(event, this.href)" href="gloss_chart.htm">Chart</a><a id="popup_375669" onclick="return d2hpopup(event, this.href)" href="gloss_chartcode.htm"> 
+      Code</a></p>
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells"><a id="popup_375671" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">Account</a> Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">7</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells"><a id="popup_375668" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount.htm">Sub-Account</a> Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">5</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells"><a id="popup_375667" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode.htm">Object Code</a> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">4</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells"><a id="popup_375664" onclick="return d2hpopup(event, this.href)" href="gloss_subobjectcode.htm">Sub-Object Code</a> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">3</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells"><a id="popup_375666" onclick="return d2hpopup(event, this.href)" href="gloss_projectcode.htm">Project Code</a> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells"><a id="popup_375665" onclick="return d2hpopup(event, this.href)" href="gloss_organization.htm">Organization</a> Reference </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells"><a id="popup_375680" onclick="return d2hpopup(event, this.href)" href="gloss_group.htm">Group</a> Object Code</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">20</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250"><a id="popup_375663" onclick="return d2hpopup(event, this.href)" href="gloss_distributioncode.htm">
+      <p class="TableCells">Distribution Code</p>
+      <p class="TableCells"></p></a> </td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">4</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Validated against the Agency Service Fee 
+  table.</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 474.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="632" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Airline 
+      Record</span></strong></p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Trip Departure Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">YYYY-MM-DD</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Trip Return Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">YYYY-MM-DD</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Fare Saver Code</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Char </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">1</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air Book Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">YYYY-MM-DD</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air <a id="popup_375673" onclick="return d2hpopup(event, this.href)" href="gloss_carrier.htm">Carrier</a> Code</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">3</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air Ticket Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">20</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells"><a id="popup_375687" onclick="return d2hpopup(event, this.href)" href="gloss_pnr.htm">PNR</a> 
+      Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">20</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air Ticket Class</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">20</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air Transaction Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air Base Fare Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air Tax Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air Low Fare Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air Reason Code</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">1</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air Segment ID</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">100</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air Destination Code</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">3</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air Service Fee Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">20</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Air Service Fee Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Transaction Unique ID</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">40</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 474.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="632" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Lodging 
+      Record</span></strong></p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Itinerary Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">20</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Lodging Prepay Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">YYYY-MM-DD</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Lodging Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Lodging Prepay Days Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">3</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Lodging Property Name</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">30</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Lodging Arrival Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">YYYY-MM-DD</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Lodging Departure Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">YYYY-MM-DD</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Lodging Booking Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">YYYY-MM-DD</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Lodging Property City Name</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">40</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Lodging Property <a id="popup_375679" onclick="return d2hpopup(event, this.href)" href="gloss_state.htm">State</a> Code</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Lodging <a id="popup_375674" onclick="return d2hpopup(event, this.href)" href="gloss_country.htm">Country</a> Name</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">40</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 474.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="632" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Rental Car 
+      Record</span></strong></p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Itinerary Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">20</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Rental Car Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Rental Car Number of Days</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">3</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Rental Car Company Name</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">30</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Rental Car Open Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">YYYY-MM-DD</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Rental Car <a id="popup_375678" onclick="return d2hpopup(event, this.href)" href="gloss_close.htm">Close</a> Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'; FONT-WEIGHT: normal"></span></strong> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">YYYY-MM-DD</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Rental Car Fuel Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Rental Car Additional Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Rental Car Tax Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Rental Car Surcharge Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Rental Car Government Surcharge Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Rental Car Bill Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'; FONT-WEIGHT: normal"></span></strong> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Rental Car Detail Text</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">100</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 474.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="632" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Conference 
+      Registration</span></strong></p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Registration Company Name</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">50</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Registration Amount</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Number</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8,2</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">Money format (two decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 474.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="632" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Processing 
+      Information</span></strong></p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Transaction Posting Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'; FONT-WEIGHT: normal"></span></strong> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">YYYY-MM-DD</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Creation Timestamp</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Timestamp</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells">HH:MM:SS</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Processing Timestamp</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Timestamp</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">8</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 187.8pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="250">
+      <p class="TableCells">Move to History Indicator</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72.1pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Character</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 47.85pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="64">
+      <p class="TableCells">1</p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 83.45pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 82.9pt; PADDING-RIGHT: 5.75pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="111">
+      <p class="TableCells"> </p></td></tr></tbody></table>
+<p class="MsoNormal"> </p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="glossaryofterms.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Glossary of Terms</a></p></span></div></div></body></html>

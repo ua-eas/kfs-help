@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Business Rules</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_2 Core_Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
+<meta name="D2HTheme" content="(Default) v.155" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="beginningbalances.htm"></a><a id="D2HNextAnchor" href="batchassurancereports.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="yearendprocesses.htm">Year-End 
+Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="beginningbalances.htm">Beginning 
+Balances</a></div>
+<h5>Business Rules</h5>
+<p class="MsoBodyText">For establishing beginning balances:</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>From 
+a pre-established list of balance types, actual and <a id="popup_358052" onclick="return d2hpopup(event, this.href)" href="gloss_close.htm">close</a> 
+nominal balances are eligible for beginning balances. The balance types are 
+defined in the <a id="popup_358051" onclick="return d2hpopup(event, this.href)" href="gloss_parameter.htm">parameter</a> 
+BALANCE_TYPES_TO_ROLL_FORWARD_FOR_BALANCE_SHEET.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Object types representing assets, liabilities, and <a id="popup_358054" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a> 
+balance defined in the Systems Options table are eligible for beginning 
+balances.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+annual balance amount plus the <a id="popup_358047" onclick="return d2hpopup(event, this.href)" href="gloss_contractsandgrants.htm">Contracts and Grants</a> balance amount plus 
+the beginning balance amount that is not zero are eligible. (Annual Balance + <a id="popup_358055" onclick="return d2hpopup(event, this.href)" href="gloss_cg.htm">CG</a> Balance Amount + Beginning Balance &lt;&gt; 0)</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the unit of work qualifies for establishing beginning balances, a beginning 
+balance entry is created as a GL pending entry.</p>
+<p class="MsoBodyText">For establishing cumulative balances:</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>From 
+a pre-established list of balance types, actual and current budget balances are 
+eligible for cumulative beginning balances. The balance types are defined in the 
+parameter BALANCE_TYPES_TO_ROLL_FORWARD_FOR_INCOME_EXPENSE?</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>From 
+a pre-established list of object types, those representing expense and revenue 
+are eligible for cumulative beginning balances.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>From 
+a pre-established list of fund groups or sub-fund groups, balances related to CG 
+accounts are eligible to be carried forward into the new <a id="popup_358049" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
+year</a>.</p>
+<p class="Noteindented"><img title="Description: pencil-small" alt="Description: pencil-small" src="../ImagesExt/image21_1.png" />       
+Institutions have the option to set CG as a <a id="popup_358050" onclick="return d2hpopup(event, this.href)" href="gloss_fundgroup.htm">fund 
+group</a> or <a id="popup_358048" onclick="return d2hpopup(event, this.href)" href="gloss_subfundgroup.htm">sub-fund group</a> using the FUND_<a id="popup_358053" onclick="return d2hpopup(event, this.href)" href="gloss_group.htm">GROUP</a>_DENOTES_CG_IND parameter. </p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+annual balance amount plus the Contracts and Grants balance amount that is not 
+zero are eligible.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the unit of work qualifies for establishing cumulative balances, a cumulative 
+beginning balance entry is created as the GL pending entry.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="batchassurancereports.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Batch Assurance 
+Reports</a></p></span></div></div></body></html>

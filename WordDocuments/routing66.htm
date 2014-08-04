@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Routing</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_2 PURAP_Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
+<meta name="D2HTheme" content="(Default) v.155" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules90.htm"></a><a id="D2HNextAnchor" href="processingapodocument.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtransactionedocs2.htm">Standard Transaction E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchaseorder.htm">Purchase Order</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview81.htm">Process Overview</a></div>
+<h5>Routing </h5>
+<p class="MsoBodyText">The <a id="popup_370583" onclick="return d2hpopup(event, this.href)" href="gloss_po.htm">PO</a> <a id="popup_370572" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> does the following types of <a id="popup_370573" onclick="return d2hpopup(event, this.href)" href="gloss_routing.htm">routing</a>:</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><em>Internal Purchasing Review</em>: Triggered if the dollar amount of 
+the PO exceeds the dollar amount for the associated <a id="popup_370563" onclick="return d2hpopup(event, this.href)" href="gloss_contractmanager.htm">contract manager</a> (<strong><a id="popup_370582" onclick="return d2hpopup(event, this.href)" href="gloss_cm.htm"><strong>CM</strong></a> Delegation Dollar Amount</strong> 
+field on the Contract Manager table) and the person submitting the order is not 
+in the Contract Manager <a id="popup_370577" onclick="return d2hpopup(event, this.href)" href="gloss_role.htm">role</a>.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><em>Commodity Code Review</em>:  This route level is triggered if a 
+commodity code on any line <a id="popup_370575" onclick="return d2hpopup(event, this.href)" href="gloss_items.htm">items</a> has 
+been added to the Commodity <a id="popup_370570" onclick="return d2hpopup(event, this.href)" href="gloss_reviewer.htm">Reviewer</a> role. </p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><em><a id="popup_370562" onclick="return d2hpopup(event, this.href)" href="gloss_contractsandgrants.htm"><em>Contracts and Grants</em></a> 
+Review</em>: Triggered if any grant accounts are used in the 
+<strong>Items</strong> section of the PO and the <a id="popup_370571" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">account</a> 
+string contains an <a id="popup_370566" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode.htm">object 
+code</a> that exists in the either the 'CG ROUTE OBJECT CODES BY CHART' or 'CG 
+ROUTE OBJECT LEVELS BY CHART' parameters. The PO document routes to the C&amp;G 
+Processor role with the <a id="popup_370565" onclick="return d2hpopup(event, this.href)" href="gloss_subfundgroup.htm">sub-fund group</a> tied to Contracts and Grants 
+accounts.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><em>Budget Office Review</em>: If the PO is for the current <a id="popup_370568" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal year</a>, all accounts used on the document 
+are checked to see if any of accounts use <a id="popup_370564" onclick="return d2hpopup(event, this.href)" href="gloss_sufficientfunds.htm">sufficient funds</a> checking. If the 
+encumbrances from this order would cause these accounts to have insufficient 
+funds, the PO document routes to the Budget Reviewer role for approval. </p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><em><span style="FONT-STYLE: normal; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span></em><em><a id="popup_370574" onclick="return d2hpopup(event, this.href)" href="gloss_vendor.htm"><em>Vendor</em></a> Tax Review</em>: If the vendor used 
+on the PO is a foreign vendor or the vendor's tax number matches a tax number if 
+the <a id="popup_370581" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> employee table, the document routes to the Tax 
+Manager role. <em></em></p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><em>Document Transmission</em>: If the document is an <a id="popup_370579" onclick="return d2hpopup(event, this.href)" href="gloss_apo.htm">APO</a>, an <a id="popup_370580" onclick="return d2hpopup(event, this.href)" href="gloss_fyi.htm">FYI</a> is generated <a id="popup_370576" onclick="return d2hpopup(event, this.href)" href="gloss_back.htm">back</a> to 
+the <a id="popup_370569" onclick="return d2hpopup(event, this.href)" href="gloss_initiator.htm">initiator</a> of the <a id="popup_370567" onclick="return d2hpopup(event, this.href)" href="gloss_requisition.htm">requisition</a> document. If the document is not an 
+APO, an FYI is generated back to the <a id="popup_370578" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> who 
+submitted the PO.</p>
+<p class="Illustration"><img border="0" src="../ImagesExt/image15_175.png" alt="" /></p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="processingapodocument.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Processing a PO 
+Document</a></p></span></div></div></body></html>

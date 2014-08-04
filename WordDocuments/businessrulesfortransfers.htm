@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Business Rules for Transfers</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_2 Labor_Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
+<meta name="D2HTheme" content="(Default) v.155" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview72.htm"></a><a id="D2HNextAnchor" href="routing58.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="labordistribution1.htm">Labor Distribution</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtransactionedocs1.htm">Standard Transaction E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="salaryexpensetransfer.htm">Salary Expense Transfer</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview72.htm">Process Overview</a></div>
+<h5><a name="_Ref229478147" id="_Ref229478147">Business Rules</a> for Transfers</h5>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+an effort reporting period (defined by the <a id="popup_368524" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> Report 
+Definition <a id="popup_368513" onclick="return d2hpopup(event, this.href)" href="gloss_maintenancedocument.htm">Maintenance document</a>) has a Report 
+Period <a id="popup_368520" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">Status</a> Code of 'C' (Closed), no further transfers of 
+salary expense are allowed for any <a id="popup_368515" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalperiod.htm">fiscal 
+period</a> covered by the report period. This restriction includes transfers 
+made directly through a ST <a id="popup_368519" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> and those made indirectly through 
+re-creating an effort report.</p>
+<p class="Note"><img title="Description: pencil-small" alt="Description: pencil-small" src="../ImagesExt/image9_18.png" />     Members of the KFS-SYS 
+<a id="popup_368514" onclick="return d2hpopup(event, this.href)" href="gloss_contractsandgrants.htm">Contracts and Grants</a> Manager <a id="popup_368522" onclick="return d2hpopup(event, this.href)" href="gloss_role.htm">role</a> may to override this restriction.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+document must have at least one <strong>From</strong> section and one <strong>To 
+</strong>section.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+total of amounts in the<strong> From</strong> section must equal the amount in 
+the <strong>To</strong> section in the <strong>Accounting Lines</strong> 
+tab.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+sign of the amount must be the same as the sign of the original Labor Ledger 
+balance amount.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+amount transferred may not be greater than the original Labor Ledger balance 
+amount.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
+the members of the KFS-SYS Contracts and Grants Processor role are allowed 
+to modify the <a id="popup_368516" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode.htm">object code</a> in the <strong>To</strong> section 
+on initiation. They may not modify the object code later. If changing the object 
+code results in the generation of a positive or negative fringe benefit balance, 
+the difference is applied to the <a id="popup_368518" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">account</a> 
+identified in the BENEFIT_CLEARING_<a id="popup_368521" onclick="return d2hpopup(event, this.href)" href="gloss_chart.htm">CHART</a>_OF_ACCOUNTS and BENEFIT_CLEARING_ACCOUNT_NUMBER 
+parameters.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+object code must exist in the Labor Object Code table and the Financial Object 
+Fringe or Salary Code must have a value of 'S'.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<a id="popup_368517" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">Fiscal Year</a> field in this document is used to 
+load the appropriate data onto the Labor Ledger Balance screen rather than to 
+indicate the <a id="popup_368523" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a> period in which the entry is posted.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing58.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Routing</a></p></span></div></div></body></html>
