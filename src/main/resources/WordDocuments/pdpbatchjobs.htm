@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html><head><title>PDP Batch Jobs</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS_4_Core.css" type="text/css" rel="stylesheet" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_2 Core.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -19,10 +19,10 @@ var _needIndentation = false;
 
 <script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
 
-<meta name="Generator" content="ComponentOne Doc-To-Help v.2009.3.0.500" />
-<meta name="D2HTheme" content="(Default) v.138" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
 </head>
-<body style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 7px; OVERFLOW: hidden; PADDING-TOP: 0px; BACKGROUND-COLOR: #535353" onload="d2hOnLoadToolbar(event);" relpart="../">
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -71,10 +71,10 @@ if (typeof d2hLoadNavUrls != "undefined")
 
 //]]></script>
 
-<div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
-<div class="d2hNavigatorTopic" id="nsbanner">
-<div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="pdpgeneralledgerentrieswithflexiblebankspecification.htm"></a><a id="D2HNextAnchor" href="accessingpdpfunctions.htm"></a></div></div>
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="pdpgeneralledgerentr.htm"></a><a id="D2HNextAnchor" href="accessingpdpfunction.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -85,93 +85,99 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 
 //]]></script>
 </div>
-<div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
-&gt; </span><a class="d2h_breadcrumbsNormal" href="predisbursementprocessor.htm">Pre-Disbursement Processor</a></div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="predisbursementproce1.htm">Pre-Disbursement Processor</a></div>
 <h3>PDP Batch Jobs</h3>
-<p class="MsoBodyText">The <a id="popup_507387" onclick="return d2hpopup(event, this.href)" href="gloss_pdp.htm">PDP</a> module 
-is impacted by <a id="popup_507382" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> jobs associated with the Financial Processing 
-and Purchasing/<a id="popup_507372" onclick="return d2hpopup(event, this.href)" href="gloss_accountspayable.htm">Accounts Payable</a> modules. In addition, this 
-module has several batch jobs that are unique to it. The table below lists these 
-batch jobs in the general order that an institution may encounter them.</p>
-<p class="Note"><img alt="pencil-small" src="../ImagesExt/image159_1.png" border="0" />     Several of these jobs generate .<a id="popup_507388" onclick="return d2hpopup(event, this.href)" href="gloss_xml.htm">xml</a> files containing information about payments <a id="popup_507375" onclick="return d2hpopup(event, this.href)" href="gloss_processed.htm">processed</a> via PDP. <a id="popup_507386" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> does 
+<p class="MsoBodyText">The <a id="popup_601395" onclick="return d2hpopup(event, this.href)" href="gloss_pdp.htm">PDP</a> module 
+is impacted by <a id="popup_601389" onclick="return d2hpopup(event, this.href)" href="gloss_batch.htm">batch</a> jobs associated with the Financial Processing 
+and <a id="popup_601377" onclick="return d2hpopup(event, this.href)" href="gloss_purchasingaccountspa.htm">Purchasing/Accounts Payable</a> modules. 
+In addition, this module has several batch jobs that are unique to it. The table 
+below lists these batch jobs in the general order that an institution may 
+encounter them.</p>
+<p class="Note"><img title="pencil-small" border="0" alt="pencil-small" src="../ImagesExt/image31_1.png" />Â Â Â Â  Several of these jobs 
+generate .<a id="popup_601396" onclick="return d2hpopup(event, this.href)" href="gloss_xml.htm">xml</a> files containing information about payments <a id="popup_601384" onclick="return d2hpopup(event, this.href)" href="gloss_processed.htm">processed</a> via PDP. <a id="popup_601394" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> does 
 not include a check writer, so your institution needs to determine how best to 
 utilize the .xml files provided by PDP to generate checks and/or ACH entries to 
-be sent to your <a id="popup_507384" onclick="return d2hpopup(event, this.href)" href="gloss_bank1.htm">bank</a>.</p>
+be sent to your <a id="popup_601392" onclick="return d2hpopup(event, this.href)" href="gloss_bank.htm">bank</a>.</p>
 <p class="TableHeading">PDP Batch Jobs</p>
-<table class="MsoNormalTable" style="MARGIN-LEFT: 5.75pt; WIDTH: 472.5pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="630" border="0">
+<table style="WIDTH: 472.5pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="630">
   <tbody>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="204">
+    <td style="BORDER-BOTTOM: windowtext 3pt double; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">Job Name</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 3pt double; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">Module</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="331">
+    <td style="BORDER-BOTTOM: windowtext 3pt double; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
       <p class="TableCells">Description</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
-      <p class="TableCells"><a id="popup_507371" onclick="return d2hpopup(event, this.href)" href="gloss_disbursementvoucher1.htm">Disbursement Voucher</a> <a id="popup_507370" onclick="return d2hpopup(event, this.href)" href="gloss_predisbursementprocessor1.htm">Pre-Disbursement Processor</a> 
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
+      <p class="TableCells"><a id="popup_601379" onclick="return d2hpopup(event, this.href)" href="gloss_disbursementvoucher.htm">Disbursement Voucher</a> <a id="popup_601378" onclick="return d2hpopup(event, this.href)" href="gloss_predisbursementproce.htm">Pre-Disbursement Processor</a> 
       Extract Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-FP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
       <p class="TableCells">This job extracts approved disbursement vouchers 
       having a payment method of Check/ACH into PDP. The disbursement vouchers 
-      appear as open payments in PDP.</p></td></tr>
+      appear as open payments in PDP. </p>
+      <p class="Noteintable"><img border="0" src="../ImagesExt/image31_93.gif" alt="" />Â Â Â  No separate batch job 
+      exists for extracting immediate Dibursement Voucher payments to PDP 
+      because these payments are automatically extracted into PDP when the 
+      immediate <a id="popup_601397" onclick="return d2hpopup(event, this.href)" href="gloss_dv.htm">DV</a> reaches <a id="popup_601390" onclick="return d2hpopup(event, this.href)" href="gloss_final.htm">FINAL</a> or PROCESSED <a id="popup_601388" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">status</a>.<b><span style="FONT-SIZE: 14pt"></span></b></p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">Purchasing Pre-Disbursement Extract Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
-      <p class="TableCells">KFS-<a id="popup_507383" onclick="return d2hpopup(event, this.href)" href="gloss_purap.htm">PURAP</a></p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
+      <p class="TableCells">KFS-<a id="popup_601391" onclick="return d2hpopup(event, this.href)" href="gloss_purap.htm">PURAP</a></p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
       <p class="TableCells">Extracts approved payment requests and credit memos 
       into PDP. These will appear as Open payments in PDP. </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">Purchasing Pre-Disbursement Immediates Extract Job 
     </p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-PURAP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
       <p class="TableCells">Extracts approved payment requests marked as immediate 
       payments. These will appear as open payments in PDP. Note that the 
       Purchasing Pre-Disbursement Extract job extracts all payments, including 
       immediates. Consequently, you do not need to use this job unless you want 
       to extract <em>only</em> payments marked as immediates into PDP.</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">PDP Load Payments Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-PDP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
-      <p class="TableCells">Loads non-<a id="popup_507389" onclick="return d2hpopup(event, this.href)" href="gloss_dv.htm">DV</a> or 
-      PURAP payments into PDP. If the Payment File Batch Upload is used to load 
-      payments, this process normally occurs automatically. The PDP Load 
-      Payments job is appropriate to run if your institution has established a 
-      central directory where PDP customers place files to be uploaded directly 
-      into PDP without using the File Batch Upload page.</p></td></tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
+      <p class="TableCells">Loads non-DV or PURAP payments into PDP. If the 
+      Payment File Batch Upload is used to load payments, this process normally 
+      occurs automatically. The PDP Load Payments job is appropriate to run if 
+      your institution has established a central directory where PDP customers 
+      place files to be uploaded directly into PDP without using the File Batch 
+      Upload page.</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">PDP Nightly Load Payments Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-PDP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
       <p class="TableCells">Identical to the PDP Load Payments job except that it 
       has a dependency on both the Disbursement Voucher Pre-Disbursement Extract 
       job and the Purchasing Pre-Disbursement Extract job. Consequently, as part 
       of a nightly batch schedule, this job runs after these two extracts have 
-      <a id="popup_507374" onclick="return d2hpopup(event, this.href)" href="gloss_completed.htm">completed</a>. This job is run separately 
+      <a id="popup_601383" onclick="return d2hpopup(event, this.href)" href="gloss_completed.htm">completed</a>. This job is run separately 
       because your institution may want to arrange one nightly load using this 
       job and set up several loads throughout the day using the PDP Load 
       Payments job (which has no dependencies). </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">PDP Daily Report Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-PDP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
       <p class="TableCells">Generates a report showing a summary of the number and 
-      dollar amounts (by <a id="popup_507378" onclick="return d2hpopup(event, this.href)" href="gloss_customer1.htm">customer</a>) of the payments that should be 
+      dollar amounts (by <a id="popup_601386" onclick="return d2hpopup(event, this.href)" href="gloss_customer.htm">customer</a>) of the payments that should be 
       picked up the next time a format process is run. The report returns 
       information for payments with pay dates equal to or earlier than today. 
       This report is available in the PDP Reports directory (accessible via the 
@@ -179,11 +185,11 @@ be sent to your <a id="popup_507384" onclick="return d2hpopup(event, this.href)"
       run after payments are either uploaded via the upload page or extracted 
       using the jobs noted above.</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">PDP Extract Checks Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-PDP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
       <p class="TableCells">Creates an .xml file containing information for 
       payments that have been recently formatted and have a disbursement type of 
       'Check. By default this job runs immediately upon completion of a Format 
@@ -192,11 +198,11 @@ be sent to your <a id="popup_507384" onclick="return d2hpopup(event, this.href)"
       via the Batch File lookup function on the Administration menu 
   tab).</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">PDP Extract ACH Payments Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-PDP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
       <p class="TableCells">Creates an xml file containing information for 
       payments that have been recently formatted and have a disbursement type of 
       ACH. This job does not automatically run after the Format Checks/ACH 
@@ -204,65 +210,69 @@ be sent to your <a id="popup_507384" onclick="return d2hpopup(event, this.href)"
       Staging/PDP/Payment Extract (accessible via the Batch File lookup function 
       on the Administration menu tab).</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
-      <p class="TableCells">PDP Extract <a id="popup_507377" onclick="return d2hpopup(event, this.href)" href="gloss_canceled.htm">Canceled</a> Checks Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
+      <p class="TableCells">PDP Extract <a id="popup_601385" onclick="return d2hpopup(event, this.href)" href="gloss_canceled.htm">Canceled</a> Checks Job</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-PDP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
       <p class="TableCells">Creates an xml file containing information about 
       disbursements that have been canceled in PDP. This file is available in 
       the directory Staging/PDP/Payment Extract (accessible via the Batch File 
       lookup function on the Administration menu tab).</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">Process PDP Cancels and Paids Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-PDP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
-      <p class="TableCells">Sends information <a id="popup_507385" onclick="return d2hpopup(event, this.href)" href="gloss_back.htm">back</a> 
-      to the Purchasing/Accounts <a id="popup_507380" onclick="return d2hpopup(event, this.href)" href="gloss_payable.htm">Payable</a> module to update payment requests and 
-      credit memos with disbursement information. It also updates the 
-      Pre-Disbursement Processor <a id="popup_507381" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">Status</a> tab on the Disbursement Voucher <a id="popup_507379" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a>. </p></td></tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
+      <p class="TableCells">Sends information <a id="popup_601393" onclick="return d2hpopup(event, this.href)" href="gloss_back.htm">back</a> 
+      to the Purchasing/<a id="popup_601380" onclick="return d2hpopup(event, this.href)" href="gloss_accountspayable.htm">Accounts Payable</a> module to update 
+      payment requests and credit memos with disbursement information. It also 
+      updates the Pre-Disbursement Processor Status tab on the Disbursement 
+      Voucher <a id="popup_601387" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a>. </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">PDP Extract GL Transactions Step Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-PDP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
-      <p class="TableCells">This job generates a file with the appropriate <a id="popup_507373" onclick="return d2hpopup(event, this.href)" href="gloss_generalledger.htm">General Ledger</a> entries for any payments 
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
+      <p class="TableCells">This job generates a file with the appropriate <a id="popup_601381" onclick="return d2hpopup(event, this.href)" href="gloss_generalledger.htm">General Ledger</a> entries for any payments 
       processed through PDP. This file is called gl_glentry_pdp and is sent to 
       the Origin Entry directory to be processed the next time the GL Nightly 
       Out job is run. </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">PDP Clear Pending Transactions Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-PDP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
       <p class="TableCells">Clears the temporary table in which GL entries are 
       stored. It should be run after the PDP Extract GL Transactions Step Job 
       and the GL Nightly Out job run.</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="204">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">PDP Send ACH Advice Notifications Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="95">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-PDP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="331">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
       <p class="TableCells">Generates emails to ACH payees based on the values 
       defined as part of the PDP customer associated with the ACH 
     payments.</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 153pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: medium none" valign="top" width="204">
+    <td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 153pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="204">
       <p class="TableCells">PDP Load Federal Reserve Bank Data Job</p></td>
-    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 71.45pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: medium none" valign="top" width="95">
+    <td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 71.45pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="95">
       <p class="TableCells">KFS-PDP</p></td>
-    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 248.05pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: medium none" valign="top" width="331">
+    <td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 248.05pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="331">
       <p class="TableCells">Populates the ACH Bank table with values from a file 
-      (as defined in the KFS-PDP ACH_BANK_INPUT_FILE <a id="popup_507376" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a>).</p>
-      <p class="Noteintable"><img alt="exclaim" src="../ImagesExt/image159_22.png" border="0" />    Note that the system design assumes that your 
-      institution will <em>either</em> use this job to populate the ACH Bank 
-      table <em>or</em> update the table manually. <strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Doing both—that is, using the 
-      job and updating the bank table manually—may result in data entered 
-      manually being overwritten.</span></strong></p></td></tr></tbody></table>
-<p class="RelatedHead">More:</p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="accessingpdpfunctions.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Accessing PDP Functions</a></p></div></div></body></html>
+      (as defined in the KFS-PDP ACH_BANK_INPUT_FILE <a id="popup_601382" onclick="return d2hpopup(event, this.href)" href="gloss_parameter.htm">parameter</a>).</p>
+      <p class="Noteintable"><img title="exclaim" border="0" alt="exclaim" src="../ImagesExt/image31_22.png" />Â Â Â  Note that the system 
+      design assumes that your institution will <em>either</em> use this job to 
+      populate the ACH Bank table <em>or</em> update the table manually. 
+      <strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Doing bothâ€”that 
+      is, using the job and updating the bank table manuallyâ€”may result in data 
+      entered manually being 
+overwritten.</span></strong></p></td></tr></tbody></table>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="accessingpdpfunction.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Accessing PDP 
+Functions</a></p></span></div></div></body></html>

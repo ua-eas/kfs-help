@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__81612", [["WordDocuments/creatingnewgroups.htm", "right", "Creating New Groups"],["WordDocuments/creatingnewroles.htm", "right", "Creating New Roles"]]);

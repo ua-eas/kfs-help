@@ -36,6 +36,7 @@ var g_BorderMargin = 2;
 
 var g_ScrollNavigator = false;
 
+var d2hDefaultExtension = ".htm";
 
 function dhtml_nonscrolling_resize()
 {
@@ -167,5 +168,5 @@ function d2hGetEMailSubjectTemplate()
 
 function d2hGetProjectID()
 {
-    return "{04F634DE-DF94-48CE-BD4B-623836DA8509}";
+    return "{CCDCBE61-EDD6-40FA-89D9-ABAE7F6D260D}";
 }

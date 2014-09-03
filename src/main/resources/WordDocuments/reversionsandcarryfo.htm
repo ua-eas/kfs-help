@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>Reversions and Carry Forwards</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_2 Core.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrulesforcost.htm"></a><a id="D2HNextAnchor" href="carryforwardandrever.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="yearendprocesses.htm">Year-End 
+Processes</a></div>
+<h4>Reversions and Carry Forwards</h4>
+<p class="MsoBodyText">Reversions and carry forwards are computed at <a id="popup_598948" onclick="return d2hpopup(event, this.href)" href="gloss_yearend.htm">year-end</a> to handle excess budgeted resources or 
+deficits. The process is governed by a set of rules (sometimes known as 'lapsing 
+rules'). These rules may be self-imposed or mandated by an outside <a id="popup_598941" onclick="return d2hpopup(event, this.href)" href="gloss_fundingsource.htm">funding source</a> such as the <a id="popup_598950" onclick="return d2hpopup(event, this.href)" href="gloss_state.htm">state</a>, 
+federal government, or a sponsoring <a id="popup_598949" onclick="return d2hpopup(event, this.href)" href="gloss_agency.htm">agency</a>. 
+This process is intended to encourage good fiscal practices. The process is 
+comprised of three primary actions:</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><i>Budget <a id="popup_598945" onclick="return d2hpopup(event, this.href)" href="gloss_reversion.htm">Reversion</a></i><i>:</i> A pair of pending ledger 
+entries is generated for the year being closed. One entry adjusts the budget in 
+the actual <a id="popup_598946" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">account</a>. The other adjusts the budget in a budget 
+reversion account.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><i>Budget Carry Forward</i><i>:</i> At least one pair of pending ledger 
+entries is generated for the next <a id="popup_598944" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
+year</a>. For each pair the accounts remain unchanged. However, one uses the 
+beginning budget <a id="popup_598951" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> <a id="popup_598943" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode.htm">object 
+code</a>, and the other uses the carry-forward object code (if carrying forward 
+by object code) or the unallocated object code (when consolidating carrying 
+forward transactions).</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><i>Cash Reversion</i><i>:</i> Two pairs of pending ledger entries are 
+generated for the next fiscal year. One moves the cash out of the actual account 
+and into a cash reversion account. The other moves the corresponding <a id="popup_598952" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a> balance out of the actual account and into a cash 
+reversion account.</p>
+<p class="MsoBodyText">The reversion/carry forward rules are defined in the <a id="popup_598940" onclick="return d2hpopup(event, this.href)" href="gloss_organizationreversio.htm">organization reversion</a> function via 
+two standard documents called the <a id="popup_598942" onclick="return d2hpopup(event, this.href)" href="gloss_organization.htm">Organization</a> Reversion (ORGR) <a id="popup_598947" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> and the <a id="popup_598939" onclick="return d2hpopup(event, this.href)" href="gloss_organizationreversio1.htm">Organization Reversion Category</a> 
+(ORGC) document. </p>
+<p class="Note"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image31_4.png" />   For information about these 
+documents, see <a href="organizationreversio.htm">Organization Reversion</a> and 
+<a href="organizationreversio2.htm">Organization Reversion 
+Category</a>.<i></i></p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="carryforwardandrever.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Carry Forward and Reversion 
+Example</a></p></span></div></div></body></html>

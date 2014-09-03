@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__75899", [["WordDocuments/exportoptionslinks.htm", "right", "Export Options Links"],["WordDocuments/transactionanddatasourcescollector.htm", "right", "Transaction and Data Sources ('Collector')"]]);

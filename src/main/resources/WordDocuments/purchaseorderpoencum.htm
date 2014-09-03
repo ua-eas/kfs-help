@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>Purchase Order (PO) Encumbrance Amounts</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_2 Core.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = false;
+
+
+
+
+
+var next = false;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glpostingposter.htm">GL Posting ('Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glaccountbalancepost.htm">GL Account Balance Posting ('Main 
+Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="openandclosedencumbr.htm">Open and Closed 
+Encumbrance Amounts</a></div>
+<p class="MsoHeading7">Purchase Order (PO) Encumbrance Amounts</p>
+<p class="MsoBodyText"><a id="popup_598702" onclick="return d2hpopup(event, this.href)" href="gloss_purchaseorder.htm">Purchase order</a> <a id="popup_598703" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">encumbrance</a> entries are handled differently 
+because a single purchase order may have several <a id="popup_598705" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> numbers in the <a id="popup_598707" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a>. Each 
+time the purchase order is amended or otherwise modified, a new <a id="popup_598701" onclick="return d2hpopup(event, this.href)" href="gloss_documentnumber.htm">document number</a> is generated for that 
+transaction but the purchase order number remains the same. To ensure that the 
+open amount updates correctly and payments are properly associated with the 
+right purchase order number, the <a id="popup_598704" onclick="return d2hpopup(event, this.href)" href="gloss_parameter.htm">parameter</a> 
+ENCUMBRANCE_OPEN_AMOUNT_OVERRIDING_DOCUMENT_TYPES defines the document types 
+that should always update the open amount of the Encumbrance table. This 
+parameter contains all the document types used to identify purchase orders.</p>
+<p class="MsoBodyText">The purchase order number is included in the <a id="popup_598700" onclick="return d2hpopup(event, this.href)" href="gloss_referencedocument.htm">Reference Document</a> Number field of 
+entries from these document types and the Encumbrance Update Code is set to 'R.' 
+This creates a new or edits an existing open encumbrance amount using the 
+purchase order number as the reference. Payment requests or credit memos applied 
+to the <a id="popup_598708" onclick="return d2hpopup(event, this.href)" href="gloss_po.htm">PO</a> also include the purchase order number in the 
+Reference Document Number field and have an Encumbrance Update Code of 'R.' 
+Because these values are not in the 
+ENCUMBRANCE_OPEN_AMOUNT_OVERRIDING_DOCUMENT_TYPES parameter, they always 
+increase or decrease the Encumbrance <a id="popup_598706" onclick="return d2hpopup(event, this.href)" href="gloss_close.htm">Close</a> 
+Amount column for that item.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="futurereversalupdate.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Future Reversal 
+Update</a></p></span></div></div></body></html>

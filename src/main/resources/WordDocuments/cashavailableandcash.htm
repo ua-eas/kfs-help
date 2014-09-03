@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>Cash Available and Cash Needed Calculations</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_2 KEM.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="cashequivalentscalcu.htm"></a><a id="D2HNextAnchor" href="rollfrequencycodespr.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="endowment.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="endowmentbatchproces.htm">Endowment 
+Batch Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="createautomatedcashi.htm">Create Automated 
+Cash Investment Transactions Process</a></div>
+<h4>Cash Available and Cash Needed Calculations</h4>
+<p class="Note"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image46_3.png" />   Unless otherwise indicated, all 
+calculations adhere to the standard rounding rules. For information on those 
+rules, see <a href="standardroundingrule.htm">Standard Rounding Rules</a>. </p>
+<p class="MsoBodyText">If excess income or <a id="popup_609340" onclick="return d2hpopup(event, this.href)" href="gloss_principal.htm">principal</a> <a id="popup_609342" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> is 
+available, the process directs the system to calculate how many units of a <a id="popup_609341" onclick="return d2hpopup(event, this.href)" href="gloss_security.htm">security</a> to purchase. Purchases are made at the 
+current <a id="popup_609343" onclick="return d2hpopup(event, this.href)" href="gloss_unit.htm">unit</a> value for each pool. The system obtains the 
+current unit value from the security record for each <a id="popup_609339" onclick="return d2hpopup(event, this.href)" href="gloss_pooledfund.htm">pooled 
+fund</a> in the model and calculates the number of units to purchase as 
+follows.</p>
+<p style="tab-stops: 36.0pt 117.45pt" class="C1HNumber">1.     
+Using the percentages specified in the model, calculates the amount of cash 
+available for purchase of each security (pooled <a id="popup_609344" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a>). 
+</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">2.     Using 
+the calculated amount available for purchase for each pooled fund, divides the 
+amount by the pooled fund unit value to obtain the number of units of each pool 
+to purchase.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">3.     If the 
+purchase of fractional shares is not allowed in the model, rounds the result 
+<em>down</em> to the nearest whole number to ensure that the <a id="popup_609338" onclick="return d2hpopup(event, this.href)" href="gloss_cashequivalents.htm">cash equivalents</a> are not overdrawn .</p>
+<p class="Noteindented"><strong><img title="exclaim" alt="exclaim" src="../ImagesExt/image46_2.png" /></strong><strong>       
+</strong>The rule noted above is a non-standard rounding rule.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">4.     
+Calculates the actual purchase amount for each pooled fund by taking the number 
+of purchase units times the unit value.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">5.     Rounds 
+the result to two decimals as the actual purchase amount.</p>
+<p class="MsoBodyText">If available income or principal cash funds are less than 
+zero, the system calculates the number of units to sell. Sales are made at the 
+current unit value for each pool. It obtains the current unit value from the 
+security record for each pooled fund in the model and calculates the number of 
+units to sell as follows.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">1.     Using 
+the percentages specified in the model, calculates the amount of cash needed 
+from the sale of each security (pooled fund). </p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">2.     Using 
+the calculated amount needed for sale of each pooled fund, divides the amount by 
+the pooled fund unit value to obtain the number of units of each pool to 
+sell.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">3.     If the 
+sale of fractional shares is not allowed in the model, rounds the result 
+<em>up</em> to the nearest whole number to ensure that adequate cash is 
+withdrawn.</p>
+<p class="Noteindented"><img title="exclaim" alt="exclaim" src="../ImagesExt/image46_2.png" />       The rule 
+noted above is a <em>non-standard rounding rule</em>.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">4.     
+Calculates the actual amount to be sold from each pooled fund by taking the 
+number of units sold times the unit value.</p>
+<p style="tab-stops: 36.0pt" class="C1HNumber">5.     Rounds 
+the result to two decimals as the actual sold amount.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="rollfrequencycodespr.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Roll Frequency Codes 
+Process</a></p></span></div></div></body></html>

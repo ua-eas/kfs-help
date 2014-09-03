@@ -21,3 +21,4 @@ div.clsSearchResultItem { margin: 1px;}
 form.clsSearchFor { margin:0px; padding:0px; font-size: 11px; }
 table.clsSearchFor { font-family: verdana; font-size: 11px; }
 form.clsFrmHidden { margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; height:0px; display: none; visibility: hidden;}
+div.clsSearchDidYouMean { margin:0px; padding:0px; font-family: verdana; font-size: 12px; font-weight: bold; }

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>Create Automated Cash Investment Transactions Process</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_2 KEM.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="feecalculations.htm"></a><a id="D2HNextAnchor" href="cashequivalentscalcu.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="endowment.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="endowmentbatchproces.htm">Endowment 
+Batch Processing</a></div>
+<h3>Create Automated Cash Investment Transactions Process </h3>
+<p class="MsoBodyText">The Create Automated <a id="popup_609331" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">Cash</a> 
+Investment Transactions process directs the system to examine the cash balance 
+for the <a id="popup_609330" onclick="return d2hpopup(event, this.href)" href="gloss_kemid.htm">KEMID</a> and determine how many shares of pooled funds 
+are to be purchased if the balance is greater than zero or sold if the balance 
+is less than zero. Each investment is based upon the investment model that has 
+been designed by your institution and stored in the Automated Cash Investment 
+(ACI) Model <a id="popup_609329" onclick="return d2hpopup(event, this.href)" href="gloss_edoc.htm">e-doc</a> for the KEMID. In this e-doc, each KEMID may 
+have one unique model for investment of <a id="popup_609323" onclick="return d2hpopup(event, this.href)" href="gloss_principal.htm">principal</a> cash and one unique model for 
+investment of income (spending) cash. Each model may split the <a id="popup_609322" onclick="return d2hpopup(event, this.href)" href="gloss_investments.htm">investments</a> into up to four separate pooled 
+funds designated by your institution. </p>
+<p class="MsoBodyText">Based on information in the KEMID's Automated Cash 
+Investment (ACI) Model e-doc, this process instructs the system to generate 
+transactions as needed. </p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the KEMID has excess <a id="popup_609320" onclick="return d2hpopup(event, this.href)" href="gloss_cashequivalents.htm">cash equivalents</a> (including cash) 
+available, the system generates <a id="popup_609328" onclick="return d2hpopup(event, this.href)" href="gloss_asset.htm">Asset</a> 
+Increase (EAI) e-docs to reduce the cash balance for the KEMID and increase the 
+units held of the pooled funds in the model definition.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the KEMID current cash equivalent balance is less than zero, the system 
+generates Asset Decrease e-docs (EAD) to increase the cash balance of the KEMID 
+and reduce the units of pooled funds held.</p>
+<p class="MsoBodyText">This process must be run daily to review your institution's 
+ACI models and determine whether further asset increase or decrease processing 
+is required. In the overall <a id="popup_609327" onclick="return d2hpopup(event, this.href)" href="gloss_batch.htm">batch</a> 
+processing sequence, this process must be run after all processes that generate 
+transactions affecting cash balances are <a id="popup_609324" onclick="return d2hpopup(event, this.href)" href="gloss_complete.htm">complete</a> and the balances are updated. It must be 
+run before the Create Cash Sweep Transactions process and the Create <a id="popup_609321" onclick="return d2hpopup(event, this.href)" href="gloss_pooledfund.htm">Pooled Fund</a> Control Transactions process. 
+Because this process generates transactional e-docs, the batch sequence must 
+include a run of the Post E-Docs process after this process has run to 
+completion.</p>
+<p class="MsoBodyText">Each Asset Decrease and Asset Increase e-doc created by the 
+Create ACI Transactions process includes:</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A <a id="popup_609326" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> header that includes the standard 
+description defined by your institution for this type of document.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A 
+transaction sub-type of Cash (C).</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A 
+transaction source type of Automated Entry (A). </p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>References a single <a id="popup_609325" onclick="return d2hpopup(event, this.href)" href="gloss_security.htm">security</a> (pooled <a id="popup_609332" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a>) 
+record.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="cashequivalentscalcu.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Cash Equivalents Calculations</a></p>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="cashavailableandcash.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Cash Available and Cash Needed 
+Calculations</a></p></span></div></div></body></html>

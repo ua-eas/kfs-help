@@ -9,6 +9,7 @@ var _d2hInlinePopup = null;
 var _d2hIndex = new d2hIndexTable();
 var _d2hPopupMenu = null;
 var _isPrinting = false;
+var _isTopicOpenedFromTOC = false;
 // ------------------------------
 
 // Constants
@@ -31,6 +32,12 @@ function isSafari()
 {
     var strUserAgent = navigator.userAgent.toLowerCase();
     var res = strUserAgent.indexOf("safari") == -1 || strUserAgent.indexOf("chrome") != -1 ? false : true;
+    return res;
+}
+
+function isChrome() {
+    var strUserAgent = navigator.userAgent.toLowerCase();
+    var res = strUserAgent.indexOf("chrome") == -1 ? false : true;
     return res;
 }
 
@@ -304,6 +311,7 @@ function getDoc(wnd)
 {
     return getFrameDocument(wnd);
 }
+
 
 function getWindow(doc)
 {
@@ -731,7 +739,7 @@ function dhtml_popup(evt, url)
 	// load url into frame
 	var anchorIndex = url.indexOf("#", 0);
 	setPopupState(-1, popUpShown);
-	pop.setAttribute("src", d2hGetRelativePath(document, "_d2hblank.htm"));
+	pop.setAttribute("src", d2hGetRelativePath(document, "_d2hblank" + d2hDefaultExtension));
 	pop.style.display = "block";
 	setPopupState(0, popUpShown);
 	var strUrl;
@@ -773,7 +781,7 @@ function dhtml_popup_is_open()
 
 function popDocIsLoad()
 {
-    if (window.popupState == 1 || window.g_d2hIterationCount == 10)
+    if (window.popupState == 1 || window.g_d2hIterationCount == 100)
     {
         // g_d2hIterationCount is used for Opera 8.0 and higher, where OnLoad is not fired if the window is invisible (Opera bug)
         window.g_d2hIterationCount = 0;
@@ -1095,6 +1103,7 @@ function d2hclick(evt)
         var img = getElemById(document, ((id.substring(1, 2) == "m") ? "im" : "it") + sub);
         if (elem.tagName.toLowerCase() == "a" && !needToRevert)
         {
+            _isTopicOpenedFromTOC = true;
             if (elt != null)
             {
                 //open book's tree if user pressed link
@@ -1483,7 +1492,7 @@ function d2hSyncTocMouseMove(evt)
 function SyncTocBody(linkHref, scrollByHorizontal, selectAndExpand)
 {
     var frm = getFrameByName("left");
-    if (frm)
+    if (frm && !_isTopicOpenedFromTOC)
     {
         var doc = getFrameDocument(frm);
         if (doc != null)
@@ -1520,6 +1529,7 @@ function SyncTocBody(linkHref, scrollByHorizontal, selectAndExpand)
             }
         }
     }
+    _isTopicOpenedFromTOC = false;
 }
 
 function d2hSyncDynamicToc(scrollByHorizontal)
@@ -2416,7 +2426,12 @@ function d2hGetServerType()
 	    return platform;
 	}
 	else
-	    return "htm";
+        {
+            var ext = d2hDefaultExtension;
+            if (ext.length > 0 && ext.substring(0, 1) == ".")
+                ext = ext.substring(1);
+	    return ext;
+        }
 }
 
 function d2hGetMainThemeWnd(wnd)
@@ -2703,7 +2718,7 @@ function d2hLinkClick(evt)
 				if (isOpera())
 				{
 					var doc = getDoc(w);
-					wnd = w.open(d2hGetRelativePath(doc, "_d2hblank.htm"), target, sWndFeatures);
+					wnd = w.open(d2hGetRelativePath(doc, "_d2hblank" + d2hDefaultExtension), target, sWndFeatures);
 					wnd.location.href = href;
 				}
 				else
@@ -2768,6 +2783,9 @@ function d2hRegisterEventHandler(obj, altObj, eventName, handler)
 
 function d2hInitMainThemeHandlers(prev, next)
 {
+    var wnd = d2hGetMainWindow();
+    if (isChrome() && window.location.protocol.toLowerCase() == "file:" && (wnd == null || wnd.g_mainLayout == undefined))
+        alert("Due to security limitations, this version of Chrome browser does not work correctly with NetHelp stored in local files on your computer. You can use this Chrome version to view NetHelp deployed on the web without limitations, but for local files please use a different browser.");
 	d2hRegisterEventHandler(window, document.body, "onload", "d2hnsresize(event);d2hSetNavigatorState(" + prev + "," + next + ");d2hProcessTopicLinksForCSH();d2hProcessHighlight();");
 	d2hRegisterEventHandler(window, document.body, "onmousedown", "d2hpopup(event);");
 }
@@ -3196,10 +3214,7 @@ function d2hCoupleINav(evt)
 
 function d2hGetMainWindow()
 {
-    var wnd = window;
-    while (wnd.parent && wnd.parent != wnd)
-        wnd = wnd.parent;
-    return wnd;
+    return d2hGetMainLayoutWnd(window, true);
 }
 
 function d2hUpdateLastHighlightState(checkbox)
@@ -3226,7 +3241,7 @@ function d2hGetSearchFrameDocument()
     else if (dhtml_popup_is_open())
         wndMain = window.parent;
     else if (window.opener)
-        wndMain = window.opener.parent;
+        wndMain = !window.opener.closed ? window.opener.parent : d2hGetMainWindow();
     else if (window.name == "textprovider")
         return document;
 
@@ -3314,6 +3329,63 @@ function d2hProcessHighlightRightFrame()
     {}
 }
 
+function addSpace(str, words, startIndex, checkForEastern)
+{
+    for (var i = startIndex; i < words.length; i++)
+    {
+        var pos = str.indexOf(" ", 0);
+        if (pos != -1)
+            return addSpace(str.substring(0, pos), words, i, checkForEastern) + " " + addSpace(str.substring(pos + 1), words, i, checkForEastern);
+        else if (pos == -1 && (!checkForEastern || isEasternLanguage(str)))
+        {
+            pos = str.indexOf(words[i], 0);
+            if (pos != -1)
+            {
+                var left = addSpace(str.substring(0, pos), words, i, checkForEastern);
+                var right = addSpace(str.substring(pos + words[i].length), words, i, checkForEastern);
+                if (left && left != "\"")
+                    left += " ";
+                if (right && right != "\"")
+                    right = " " + right;
+                var newStr = words[i];
+                if (left)
+                    newStr = left + newStr;
+                if (right)
+                    newStr += right;
+                return newStr;
+            }
+        }
+    }    
+    return str;
+}
+
+function addSpacesBetweenWords(elem)
+{
+    var query = elem.value;
+    query = query.replace(/\u0009|\u000a|\u000b|\u000c|\u000d|\u00a0|\u1680|\u180e|\u2000|\u2001|\u2002|\u2003|\u2004|\u2005|\u2006|\u2007|\u2008|\u2009|\u200a|\u2028|\u2029|\u202f|\u205f|\u3000/g," ");
+    query = query.replace(/\s+/g, " ").replace(/^\s+/g, "").replace(/\s+$/g, "");
+    var mainWindow = d2hGetMainWindow();
+    var words = mainWindow.getWords();  
+    var res = addSpace(query, words, 0, true);
+    elem.value = res;
+    return res;
+}
+
+function isEasternLanguage(s)
+{
+    var codes = [[0x2E80,0x9FFF],[0xA000,0xA63F],[0xA6A0,0xA71F],[0xA800,0xA82F],[0xA840,0xD7FF],[0xF900,0xFAFF],[0xFE30,0xFE4F]];
+    for (var i = 0; i < s.length; i++)
+    {
+        var code = s.charCodeAt(i);
+        if (code < codes[0][0])
+            continue;
+        for (var j = 0; j < codes.length; j++)
+            if (code >= codes[j][0] && code <= codes[j][1])
+                return true;
+    }
+    return false;
+}
+
 function d2hProcessHighlight(doc)
 {
     try
@@ -3348,12 +3420,22 @@ function d2hProcessHighlight(doc)
 
 function getWildcardRegexp(wildcard)
 {
-    wildcard = wildcard.replace(/\^/g, "\\^");
-    wildcard = wildcard.replace(/\$/g, "\\$");
-    wildcard = wildcard.replace(/\./g, "\\.");
-    wildcard = wildcard.replace(/\*/g, "[\\d\\S]*");
-    wildcard = wildcard.replace(/\?/g, ".?");
-    wildcard = "([\\s.?!,:-;\"]|^)" + wildcard + "([\\s.?!,:-;\"]|$)";
+	wildcard = wildcard
+		.replace(/[-[\]{}()+.,\\^$|]/g, '\\$&')
+		.replace(/\*+/g, '\\w*')
+		.replace(/\?/g, '\\w')
+		.replace(/\s+/g, '\\s+');
+    if (wildcard === '\\w*') {
+        wildcard = '\\w+';
+    }
+    if (!isEasternLanguage(wildcard)) {
+        var l = wildcard.length,
+            startIsWordChar = /^(\w|\.|\\w)/,
+            endIsWordChar = /(\w|\.|\*|\\w\+)$/;
+        wildcard = (startIsWordChar.test(wildcard) ? '\\b' : '') + 
+            wildcard +
+            (endIsWordChar.test(wildcard) ? '\\b' : '');
+    }
     return wildcard;
 }
 
@@ -3364,11 +3446,36 @@ function d2hHighlightNode(node, request, caseSensitive, wholeWord)
     if (!request || node.childNodes.length == 0)
         return;
 
+    var mainWindow = d2hGetMainWindow();
     for (var i = 0; i < request.length; i++)
     {
         if (!caseSensitive)
             request[i] = request[i].toLowerCase();
-        request[i] = getWildcardRegexp(request[i]);
+        if (mainWindow && mainWindow.aliasesHT[request[i]] && !mainWindow.isWildcard(request[i]))
+        {
+            var aliasesRows = mainWindow.aliasesHT[request[i]];
+            for (var j = 0; j < aliasesRows.length; j++)
+            {
+                var words = mainWindow.g_sAliases[aliasesRows[j]]
+                for (var w = 0; w < words.length; w++)
+                    if (w == 0)
+                        request[i] = getWildcardRegexp(words[w]);
+                    else
+                        request[i] += "|" + getWildcardRegexp(words[w]);
+            }
+        }
+        else if (mainWindow && mainWindow.isWildcard(request[i]))
+        {
+            var words = mainWindow.getWordsFromIndex(request[i]);
+            if (words.length > 0)
+            {
+                request[i] = getWildcardRegexp(words[0]);
+                for (var j = 1; j < words.length; j++)
+                    request[i] += "|" + getWildcardRegexp(words[j]);
+            }
+        }        
+        else
+            request[i] = getWildcardRegexp(request[i]);
     }
 
     var regexpRequest = new RegExp(request.join("|"), caseSensitive ? "" : "i");
@@ -3379,14 +3486,8 @@ function d2hHighlightNode(node, request, caseSensitive, wholeWord)
         if (match)
         {
             var val = match[0];
-            var delta = (match.index == 0 ? 0 : 1);
-            var lastIndex = 0;
-            if (match.lastIndex)
-                lastIndex = match.lastIndex;
-            else
-                lastIndex = match.index + val.length;
-            var node2 = node.splitText(match.index + delta);
-            var node3 = node2.splitText(val.length - delta - (match.input.length == lastIndex ? 0 : 1));
+            var node2 = node.splitText(match.index);
+            var node3 = node2.splitText(val.length);
             var span = node.ownerDocument.createElement('span');
             node.parentNode.replaceChild(span, node2);
             span.className = style_name;
@@ -3427,7 +3528,41 @@ function d2hRemoveHighlightNode(node)
 
 function d2hSplitRequest(request)
 {
-    return request.split(/\s+/g);
+    var arr = new Array();
+    var i = 0;    
+    var j = 0;
+    var l = -1;
+    while (j < request.length)    
+    {
+        if (request.charAt(j) == '\"')
+        {
+            if (l == -1)
+                l = j;
+            else
+            {
+                arr[i] = request.substring(l+1, j);
+                if (isEasternLanguage(arr[i]))
+                    arr[i] = arr[i].replace(/\s+/gi, "?");                
+                request = request.substring(0, l) + request.substring(j+1, request.length);                
+                i++;
+                j = l - 1;
+                l = -1;
+            }
+        }
+        j++;
+    }  
+    var mainWindow = d2hGetMainWindow();    
+    request = request.replace(mainWindow.searchAndInSpaces, " ")
+        .replace(mainWindow.searchOrInSpaces, " ")
+        .replace(mainWindow.searchNotInSpaces, " ");
+    var words = request.split(/\s+/g);
+    for (var j = 0; j < words.length; j++)
+    {
+        if (!words[j])
+            continue;
+        arr[i++] = words[j];
+    }
+    return arr;
 }
 
 function walkNodes(node, depth, nodeproc)
@@ -4269,7 +4404,10 @@ function d2hIsSecondaryWindow()
 
 function d2hGetFullNetHelpPath()
 {
-    return d2hGetRelativePath(document, window.g_DefaultURL);
+    var res = d2hGetRelativePath(document, window.g_DefaultURL);
+    if (typeof g_hubProject != "undefined" && g_hubProject.length > 0 && res[0] != '/')
+        res = g_hubProject + '/' + res;
+    return res;
 }
 
 function d2hGetTopicRelativePath()

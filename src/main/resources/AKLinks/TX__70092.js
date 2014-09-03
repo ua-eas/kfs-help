@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__70092", [["WordDocuments/kualienterpriseworkf.htm", "right", "Kuali Enterprise Workflow (KEW)"],["WordDocuments/monitoring.htm", "right", "Monitoring"],["WordDocuments/technical.htm", "right", "Technical"],["WordDocuments/workflow.htm", "right", "Workflow"]]);

@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__75410", [["WordDocuments/ledgerbalanceimportingtab.htm", "right", "Ledger Balance Importing Tab"],["WordDocuments/ledgerbalanceimportingtab1.htm", "right", "Ledger Balance Importing Tab"]]);

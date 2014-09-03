@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>Concept of Calculated Salary Foundation</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_2 BC.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="tablessharedwithothe.htm"></a><a id="D2HNextAnchor" href="budgetconstructioncy.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="budgetconstruction.htm">Budget Construction</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="overviewofbudgetcons.htm">Overview of Budget Construction</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="tablessharedwithothe.htm">Tables Shared with Other Modules</a></div>
+<h4>Concept of Calculated Salary Foundation</h4>
+<p class="MsoBodyText">The <a id="popup_603073" onclick="return d2hpopup(event, this.href)" href="gloss_calculatedsalaryfoun.htm">Calculated Salary Foundation</a> (<a id="popup_603078" onclick="return d2hpopup(event, this.href)" href="gloss_csf.htm">CSF</a>) table contains appointment data that normally 
+represents a portion of the ongoing salary commitment for an incumbent in a 
+position that is funded out of a particular <a id="popup_603076" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">account</a>, <a id="popup_603075" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount.htm">sub-account</a>, object and sub-object. Positions 
+that are vacant can still be associated with committed funds.</p>
+<p class="MsoBodyText">The Genesis <a id="popup_603077" onclick="return d2hpopup(event, this.href)" href="gloss_batch.htm">batch</a> 
+process (discussed below) uses information in the CSF table to populate the 
+Budget Construction CSF table, the BC perimeter tables, and the 
+salary-setting-related maintenance tables used in Budget Construction. </p>
+<p class="MsoBodyText">The overrides are applied by Genesis, which first gets the 
+set of CSF rows, then applies the overrides and stores the results in the BC CSF 
+table. So, your institution's version of the CSF tracker process should <i>not 
+</i>need to apply the overrides during the build of the regular CSF table.</p>
+<p class="Note"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image28_1.png" /><span style="FONT-SIZE: 12pt">    </span><strong>When to Override the 
+CSF Tracker Table</strong>: The base functionality overrides only the CSF table 
+during the Genesis process. However, your institution should make a decision as 
+to where it makes sense to see the result of the CSF Tracker overrides (in CSF 
+or in BC CSF) and make modifications accordingly. </p>
+<p class="Note"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image28_1.png" /><span style="FONT-SIZE: 12pt">    </span><strong>Indiana University's 
+Implementation of CSF Tracker Table</strong>: At Indiana University, each time 
+the CSF process runs, it re-populates the CSF table with the current set of 
+commitments from data contained in IU's implementation of PeopleSoft. 
+Optionally, the process also creates a historical picture of changes to each 
+position since the beginning of the <a id="popup_603074" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
+year</a>. Your institution needs to either make a similar process to populate 
+its version of the CSF Tracker table or manually maintain this table for Budget 
+Construction. The required rows are those that are currently in the payroll 
+system or are currently funding a vacant budget line.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="budgetconstructioncy.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Budget Construction 
+Cycle</a></p></span></div></div></body></html>

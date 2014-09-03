@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__81010", [["WordDocuments/depositheadertab.htm", "right", "Deposit Header Tab"],["WordDocuments/depositheadertab1.htm", "right", "Deposit Header Tab"]]);

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>Create Pooled Fund Control Transactions Process</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_2 KEM.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="createcashsweeptrans.htm"></a><a id="D2HNextAnchor" href="updateavailablecashr.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="endowment.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="endowmentbatchproces.htm">Endowment 
+Batch Processing</a></div>
+<h3>Create Pooled Fund Control Transactions Process </h3>
+<p class="MsoBodyText">The purpose of this process is to provide an 
+end-of-the-processing-day total of all purchase and sale activity for pooled 
+funds in <a id="popup_609376" onclick="return d2hpopup(event, this.href)" href="gloss_kem.htm">KEM</a> and a total for the <a id="popup_609363" onclick="return d2hpopup(event, this.href)" href="gloss_pooledfund.htm">pooled 
+fund</a> income distributed as <a id="popup_609374" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> to 
+the KEMIDs during the processing day. This process causes the system to 
+calculate and provide transaction totals for three types of e-docs affecting <a id="popup_609373" onclick="return d2hpopup(event, this.href)" href="gloss_kemid.htm">KEMID</a> <a id="popup_609367" onclick="return d2hpopup(event, this.href)" href="gloss_holdings.htm">holdings</a> of pooled funds:</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_609371" onclick="return d2hpopup(event, this.href)" href="gloss_asset.htm">Asset</a> Increase e-docs: Total of all transactions (<a id="popup_609364" onclick="return d2hpopup(event, this.href)" href="gloss_carryvalue.htm">carry value</a>)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Asset 
+Decrease e-docs: Two totals—carry values and gains/losses</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Cash 
+Increase e-docs (for income distributed): Total of all transactions</p>
+<p class="MsoBodyText">These calculations result in the system generation of Cash 
+Increase (ECI) and Cash Decrease (ECDD) transactions, depending on whether the 
+resulting totals are positive or negative. (This functionality allows for 
+reversed transactions.)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
+totaling asset increases, if the total is positive, the system generates a Cash 
+Increase <a id="popup_609372" onclick="return d2hpopup(event, this.href)" href="gloss_edoc.htm">e-doc</a>; if the total is negative, the system generates 
+a Cash Decrease e-doc. In both cases, the transaction affects the <a id="popup_609365" onclick="return d2hpopup(event, this.href)" href="gloss_principal.htm">principal</a> side of the pooled <a id="popup_609375" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a> 
+control KEMID.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
+totaling asset decreases, if the total is positive, the system generates a Cash 
+Increase e-doc; if the total is negative, the system generates a Cash Decrease 
+e-doc. In both cases, the transaction affects the principal side of the pooled 
+fund control KEMID.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
+totaling gains and losses, if the total is positive (indicating a net gain), the 
+system generates a Cash Decrease e-doc; if the total is negative (indicating a 
+net loss), the system generates a Cash Increase e-doc. In both cases, the 
+transaction also affects the principal side of the pooled fund control 
+KEMID.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
+totaling cash increases, if the total is positive, the system generates a Cash 
+Decrease e-doc; if the total is negative, the system generates a Cash Increase 
+e-doc. In both cases, the transaction affects the income side of the pooled fund 
+control KEMID. </p>
+<p class="MsoBodyText">This process does not post totals that affect the carry 
+value of the underlying assets owned by a pooled fund. Instead, it automatically 
+generates all transactions and posts them to the control accounts individually, 
+provided these individual assets are maintained on the KEM system. </p>
+<p class="Note"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image46_1.png" />     Distributions of 
+unrealized gains and losses to KEMIDs are not included in the totals because 
+these values are already a part of the asset value adjustments made through 
+individual asset transactions in the control <a id="popup_609366" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">account</a>.</p>
+<p class="MsoBodyText">Each Cash Increase and Cash Decrease e-doc generated 
+through this process:</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Has a 
+<a id="popup_609369" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> header that includes the standard 
+description specified by your institution for pooled fund control purchases, 
+pooled fund control sales, pooled fund control sale gains losses, and pooled 
+fund control income distributions, as applicable.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Contains only one transaction line.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Has a 
+transaction sub-type of Cash (C).</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Has a 
+transaction source type of Automated Entry (A). </p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>References a single <a id="popup_609368" onclick="return d2hpopup(event, this.href)" href="gloss_security.htm">security</a> record.</p>
+<p class="MsoBodyText">The Create Pooled Fund Control Transactions process is 
+always run daily. In the <a id="popup_609370" onclick="return d2hpopup(event, this.href)" href="gloss_batch.htm">batch</a> 
+transaction sequence, it must be run after the Automated Cash Investment and 
+Cash Sweeps processes have been run because those processes affect pooled funds. 
+Because this process generates transactional e-docs, the batch sequence must 
+include a run of the Post E-Docs process after this process has run to 
+completion.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="updateavailablecashr.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Update Available Cash Records 
+Process</a></p></span></div></div></body></html>

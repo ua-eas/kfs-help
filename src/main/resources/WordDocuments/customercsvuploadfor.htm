@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>Customer CSV Upload Format</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_2 AR.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="customercsvupload.htm"></a><a id="D2HNextAnchor" href="budgetconstruction.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="accountsreceivable.htm">Accounts Receivable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="arsystemadministrati.htm">AR System Administration Functions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="customercsvupload.htm">Customer CSV Upload</a></div>
+<h4>Customer CSV Upload Format </h4>
+<p class="MsoBodyText">The default system provides a template—<a href="../LinkedDocuments/Customer Upload Template CSV.csv">Customer Upload 
+Template CSV</a>—you may want to use to create the <a id="popup_603021" onclick="return d2hpopup(event, this.href)" href="gloss_customer.htm">customer</a> upload file. You must <a id="popup_603022" onclick="return d2hpopup(event, this.href)" href="gloss_save.htm">save</a> your 
+file in .<a id="popup_603023" onclick="return d2hpopup(event, this.href)" href="gloss_csv.htm">csv</a> format.</p>
+<p class="MsoBodyText">Whether you use the template or not, the system expects 
+each record to contain data in the order shown below.</p>
+<p class="Note"><img border="0" src="../ImagesExt/image18_173.gif" alt="" />     The the CSV upload 
+function does not require a customerName entry in each record. If customerName 
+contains data, the system creates a new Customer record based on the data in the 
+row.  If customerName is empty, the system treats the record as an 
+alternate address for the preceding Customer record.  Note, however, that 
+if <em>all</em> customerName cells are blank in your CSV file, the Customer 
+loading job (which is run after the CSV upload process) will fail because it 
+cannot create a Customer record without a name.</p>
+<p style="MARGIN-RIGHT: 0pt" class="TableHeading">Customer CSV Upload format</p>
+<table style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none" class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0">
+  <tbody>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">Column</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">Name</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">A</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerNumber</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">B</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerName</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">C</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerParentCompanyNumber</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">D</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerTypeCode*</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">E</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerLastActivityDate</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">F</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerTaxTypeCode*</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">G</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerTaxNbr*</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">H</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerActiveIndicator*</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">I</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerPhoneNumber</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">J</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customer800PhoneNumber</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">K</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerContactName</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">L</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerContactPhoneNumber</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">M</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerFaxNumber</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">N</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerBirthDate</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">O</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerTaxExemptIndicator</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">P</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerCreditLimitAmount</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">Q</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerCreditApprovedByName</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">R</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerEmailAddress</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">S</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerAddressName*</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">T</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerLine1StreetAddress</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">U</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerLine2StreetAddress</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">V</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerCityName</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">W</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerStateCode</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">X</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerZipCode</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">Y</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerCountryCode</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">Z</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerAddressInternationalProvinceName</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">AA</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerInternationalMailCode</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">AB</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerAddressEmail</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 63.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="84">
+      <p class="TableCells">AC</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.4pt; WIDTH: 212.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0pt" valign="top" width="283">
+      <p class="TableCells">customerAddressTypeCode</p></td></tr></tbody></table>
+<p class="MsoBodyText">*Indicates a required field.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="budgetconstruction.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Budget Construction</a></p></span></div></div></body></html>

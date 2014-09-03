@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>GL Account Balance Posting</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_2 Core.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="sufficientfundsbusin.htm"></a><a id="D2HNextAnchor" href="gldetailposting.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glpostingposter.htm">GL Posting ('Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glaccountbalancepost.htm">GL Account Balance Posting ('Main 
+Poster')</a></div>
+<h6>GL Account Balance Posting</h6>
+<p class="MsoBodyText">The GL posting function evaluates the pending ledger 
+entries to determine whether or not they affect <a id="popup_598747" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">account</a> 
+balances. For entries that satisfy <i>both</i> the following business rules, the 
+GL account balance is updated:</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_598744" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype.htm">Balance type</a> indicates actuals or budget 
+checking <i>and</i></p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Balance type indicates <a id="popup_598746" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">encumbrance</a> and <a id="popup_598745" onclick="return d2hpopup(event, this.href)" href="gloss_objecttype.htm">object 
+type</a> does not indicate <a id="popup_598749" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a> 
+balance</p>
+<p class="MsoBodyText">GL account balances are updated according to the following 
+rules.</p>
+<p class="TableHeading">GL account balance update business rules</p>
+<table style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="502">
+  <tbody>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 3pt double; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 79.55pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="106">
+      <p class="TableCells">Balance Type</p></td>
+    <td style="BORDER-BOTTOM: windowtext 3pt double; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Debit Credit Code</p></td>
+    <td style="BORDER-BOTTOM: windowtext 3pt double; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells"><a id="popup_598748" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">Offset</a> Generation Code of Balance Type </p></td>
+    <td style="BORDER-BOTTOM: windowtext 3pt double; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">Action on Balance Amount</p></td>
+    <td style="BORDER-BOTTOM: windowtext 3pt double; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 99pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="132">
+      <p class="TableCells">Balance Amount Updated</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 79.55pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="106">
+      <p class="TableCells">Budget (CB)</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Any</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">Any</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">+ (Add)</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 99pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="132">
+      <p class="TableCells">Current budget balance amount</p></td></tr>
+  <tr style="PAGE-BREAK-INSIDE: avoid">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 79.55pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" rowspan="4" width="106">
+      <p class="TableCells">Actual (AC)</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Default Debit/Credit Code for the Object Type</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">Any</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">+ (Add)</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 99pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" rowspan="4" width="132">
+      <p class="TableCells">Actuals balance amount</p></td></tr>
+  <tr style="PAGE-BREAK-INSIDE: avoid">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" rowspan="2" width="96">
+      <p class="TableCells">Null/blank</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">N</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">+ (Add)</p></td></tr>
+  <tr style="PAGE-BREAK-INSIDE: avoid">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">Other</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">- (Subtract)</p></td></tr>
+  <tr style="PAGE-BREAK-INSIDE: avoid">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Other</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">Any</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">- (Subtract)</p></td></tr>
+  <tr style="PAGE-BREAK-INSIDE: avoid">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 79.55pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" rowspan="4" width="106">
+      <p class="TableCells">Encumbrance</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Default Debit/Credit Code for the Object Type</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">Any</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">+ (Add)</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 99pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" rowspan="4" width="132">
+      <p class="TableCells">Encumbrance balance amount</p></td></tr>
+  <tr style="PAGE-BREAK-INSIDE: avoid">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" rowspan="2" width="96">
+      <p class="TableCells">Null/blank</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">N</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">+ (Add)</p></td></tr>
+  <tr style="PAGE-BREAK-INSIDE: avoid">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">Other</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">- (Subtract)</p></td></tr>
+  <tr style="PAGE-BREAK-INSIDE: avoid">
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 72pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="96">
+      <p class="TableCells">Other</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">Other</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 63pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 2.9pt" valign="top" width="84">
+      <p class="TableCells">- (Subtract)</p></td></tr></tbody></table>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="gldetailposting.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />GL Detail Posting</a></p></span></div></div></body></html>

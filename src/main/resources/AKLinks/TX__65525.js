@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__65525", [["WordDocuments/kualienterpriseworkflowkew.htm", "right", "Kuali Enterprise Workflow (KEW)"],["WordDocuments/workflowoverviewandkeyconcepts.htm", "right", "Workflow: Overview and Key Concepts"]]);

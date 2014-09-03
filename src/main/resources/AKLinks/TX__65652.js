@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__65652", [["WordDocuments/fyi.htm", "right", "FYI"],["WordDocuments/usingtheactionlist.htm", "right", "Using the Action List"]]);

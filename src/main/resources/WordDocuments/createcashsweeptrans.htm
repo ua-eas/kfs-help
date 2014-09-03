@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>Create Cash Sweep Transactions Process</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_2 KEM.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="rollfrequencycodespr.htm"></a><a id="D2HNextAnchor" href="createpooledfundcont.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="endowment.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="endowmentbatchproces.htm">Endowment 
+Batch Processing</a></div>
+<h3>Create Cash Sweep Transactions Process </h3>
+<p class="Note"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image46_1.png" />     This process relies on 
+your institution's <a id="popup_609361" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> sweep 
+models for input. These models are created via the Cash Sweep Models <a id="popup_609359" onclick="return d2hpopup(event, this.href)" href="gloss_edoc.htm">e-doc</a>. If your institution does not use cash sweep 
+models, this process need not be included in the <a id="popup_609357" onclick="return d2hpopup(event, this.href)" href="gloss_batch.htm">batch</a> 
+processing sequence. </p>
+<p class="MsoBodyText">The Create Cash Sweep Transactions process directs the 
+system to examine the <a id="popup_609354" onclick="return d2hpopup(event, this.href)" href="gloss_frequency.htm">frequency</a> codes of your institution's cash sweep 
+models. When the appropriate dates arrive, the system generates e-docs for 
+investing excess cash or selling <a id="popup_609353" onclick="return d2hpopup(event, this.href)" href="gloss_investments.htm">investments</a> as needed to return a KEMID's 
+negative cash balance to positive. </p>
+<p class="MsoBodyText">For the overnight investment of cash (cash sweep), the 
+process causes the system to generate <a id="popup_609358" onclick="return d2hpopup(event, this.href)" href="gloss_asset.htm">asset</a> 
+increase (EAI) e-docs for the KEMIDs based upon the cash sweep model assigned to 
+the <a id="popup_609360" onclick="return d2hpopup(event, this.href)" href="gloss_kemid.htm">KEMID</a> record. If a KEMID cash balance is negative, it 
+creates Asset Decrease (EAD) e-docs in attempts to sell sufficient investments 
+to address the shortfall. If the KEMID does not own sufficient <a id="popup_609351" onclick="return d2hpopup(event, this.href)" href="gloss_cashequivalents.htm">cash equivalents</a> to cover the entire 
+negative balance, all will be redeemed to reduce the overdraft.</p>
+<p class="MsoBodyText">Each Asset Increase and Asset Decrease e-doc generated:</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Has a 
+<a id="popup_609356" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> header that includes the description 
+'Increase Cash Sweep Investments' or 'Decrease Cash Sweep Investments,' 
+depending on the type of e-doc.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Has a 
+transaction sub-type of Cash (C).</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Has a 
+transaction source type of Automated Entry (A). </p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>References a single <a id="popup_609355" onclick="return d2hpopup(event, this.href)" href="gloss_security.htm">security</a> record.</p>
+<p class="MsoBodyText">This process must be run daily, and must be run after all 
+transactions—including all batch processes that generate transactions—have been 
+created and balances have been updated. Additionally, it must occur before the 
+<a id="popup_609352" onclick="return d2hpopup(event, this.href)" href="gloss_pooledfund.htm">Pooled Fund</a> Control Transactions process is run. 
+Because this process generates transactional e-docs, the batch sequence must 
+include a run of the Post E-Docs process after this process has run to 
+completion.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="createpooledfundcont.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Create Pooled Fund Control Transactions 
+Process</a></p></span></div></div></body></html>
