@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__105001", [["WordDocuments/documentlayout317.htm", "right", "Document Layout"],["WordDocuments/schedule.htm", "right", "Schedule"]]);

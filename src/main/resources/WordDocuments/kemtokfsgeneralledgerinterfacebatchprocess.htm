@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>KEM to KFS General Ledger Interface Batch Process</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_KEM.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="updateholdinghistoryprocess.htm"></a><a id="D2HNextAnchor" href="rollprocessdateprocess.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="endowment.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="endowmentbatchprocessing.htm">Endowment Batch Processing</a></div>
+<h3>KEM to KFS General Ledger Interface Batch Process </h3>
+<p class="MsoBodyText">The <a id="popup_234315" onclick="return d2hpopup(event, this.href)" href="gloss_kem.htm">KEM</a> to <a id="popup_234314" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> <a id="popup_234293" onclick="return d2hpopup(event, this.href)" href="gloss_generalledger.htm">General Ledger</a> Interface <a id="popup_234308" onclick="return d2hpopup(event, this.href)" href="gloss_batch.htm">batch</a> 
+process consolidates all KEM activity for the day into valid GL debits and 
+credits. This process:</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Collects data from posted KEM transactions (that is, data that have 
+updated the KEM <a id="popup_234312" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> and holding files).</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Translates the collected data into a valid GL entry data file in the flat 
+file format expected by the GL Enterprise Batch Feed.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Places this file along with the requisite reconciliation file into the 
+appropriate KFS directory, where it is picked up by the GL <a id="popup_234306" onclick="return d2hpopup(event, this.href)" href="gloss_scrubber.htm">Scrubber</a>.</p>
+<p class="MsoBodyText">After the process finishes, the KEM debits and credits are 
+picked up by the Enterprise Batch Feed process and are then used to update GL 
+records during the daily run of your institution’s standard GL batch processes. 
+</p>
+<p class="Note"><img title="Description: go-arrow-red.gif" alt="Description: go-arrow-red.gif" src="../ImagesExt/image45_0.gif" />   For information on the Enterprise 
+Batch Feed and GL processes, see <a href="glprocess.htm">GL Process</a>.</p>
+<p class="MsoBodyText">KEM <a id="popup_234307" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> types that can result in entries to the 
+Gl include the following.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Cash 
+Increase (ECI)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Cash 
+Decrease (ECDD)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Cash 
+Transfer (ECT)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_234299" onclick="return d2hpopup(event, this.href)" href="gloss_endowment.htm">Endowment</a> to General Ledger <a id="popup_234292" onclick="return d2hpopup(event, this.href)" href="gloss_transferoffunds.htm">Transfer of funds</a> (EGLT)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>General Ledger to Endowment Transfer of Funds (GLET)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_234310" onclick="return d2hpopup(event, this.href)" href="gloss_asset.htm">Asset</a> Increase (EAI)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Asset 
+Decrease (EAD)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_234298" onclick="return d2hpopup(event, this.href)" href="gloss_liability.htm">Liability</a> Increase (ELI)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Liability Decrease (ELD)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_234305" onclick="return d2hpopup(event, this.href)" href="gloss_security.htm">Security</a> Transfer (EST)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Corporate Reorganization ECCR)</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Holding Adjustment (EHA)</p>
+<p class="Note"><img title="Description: pencil-small.gif" alt="Description: pencil-small.gif" src="../ImagesExt/image45_6.gif" />     Four <a id="popup_234311" onclick="return d2hpopup(event, this.href)" href="gloss_kemid.htm">KEMID</a> transaction documents do not affect the KEMID 
+balances (cash or <a id="popup_234304" onclick="return d2hpopup(event, this.href)" href="gloss_holdings.htm">holdings</a>) and therefore do not result in activity 
+carried to the GL. These e-docs include Corpus Adjustment  (ECA), <a id="popup_234313" onclick="return d2hpopup(event, this.href)" href="gloss_unit.htm">Unit</a>/Share Adjustment (EUSA), Tax Lot Rebalancing , 
+and Holding History <a id="popup_234294" onclick="return d2hpopup(event, this.href)" href="gloss_marketvalue.htm">Market 
+Value</a> Adjustment (EHVA).</p>
+<p class="MsoBodyText">Each KEM transaction that is carried to the GL provides 
+links to the appropriate GL <a id="popup_234302" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">account</a> 
+and <a id="popup_234295" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode.htm">object code</a>. </p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+link from the KEM transaction to the GL account is through the KEMID. If the 
+transaction affects income assets (including cash), the link is the KEMID Income 
+General Ledger account. If the transaction affects <a id="popup_234301" onclick="return d2hpopup(event, this.href)" href="gloss_principal.htm">principal</a> assets (including cash), the link is 
+the KEMID Principal General Ledger account.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+link from the KEM transaction to the GL object code is through the <a id="popup_234297" onclick="return d2hpopup(event, this.href)" href="gloss_etrancode.htm">Etran Code</a> and the <a id="popup_234296" onclick="return d2hpopup(event, this.href)" href="gloss_chartcode.htm">Chart 
+Code</a> for the appropriate GL account.</p>
+<p class="MsoBodyText">System parameters control two important aspects of 
+processing.</p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Since 
+more than one KEMID can link to the same Income GL and/or Principal GL account, 
+<em>and</em> since more than one ETRAN code can link to the same GL object code, 
+the COMBINE_ENDOWMENT_GL_ENTRIES <a id="popup_234300" onclick="return d2hpopup(event, this.href)" href="gloss_parameter.htm">parameter</a> allows your institution to specify 
+whether GL entries will be made for each transaction line or collapsed into 
+summary transactions based on the <a id="popup_234309" onclick="return d2hpopup(event, this.href)" href="gloss_chart.htm">chart</a>/GL 
+account/object code combination. </p>
+<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>For 
+cash-based Asset Decrease transactions where there is a gain or loss on the 
+sale, an additional entry will be made to a gain/loss object to ensure that the 
+GL activity is balanced.  The object for this accounting line is 
+established by your institution through the CASH_SALE_GAIN_LOSS_OBJECT_CODE 
+parameter.  The object must be valid for all charts to which the KEMIDs may 
+be linked.</p>
+<p class="MsoBodyText">This process must be run daily. It must not be scheduled to 
+run until after all transaction-generating batch processes are <a id="popup_234303" onclick="return d2hpopup(event, this.href)" href="gloss_complete.htm">complete</a>. It must be run before the Roll Process 
+Date process. </p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="rollprocessdateprocess.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Roll Process Date 
+Process</a></p></span></div></div></body></html>

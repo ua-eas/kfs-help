@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>PDP-Generated General Ledger Entries</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS_5_0_Core.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="predisbursementprocessor.htm"></a><a id="D2HNextAnchor" href="pdpandflexiblebankspecification.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="predisbursementprocessor.htm">Pre-Disbursement Processor</a></div>
+<h3>PDP-Generated General Ledger Entries </h3>
+<p class="MsoBodyText">The <a id="popup_224973" onclick="return d2hpopup(event, this.href)" href="gloss_pdp.htm">PDP</a> 
+generates ledger entries in <a id="popup_224972" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> as 
+payments are <a id="popup_224967" onclick="return d2hpopup(event, this.href)" href="gloss_processed.htm">processed</a> or <a id="popup_224968" onclick="return d2hpopup(event, this.href)" href="gloss_canceled.htm">canceled</a>. If the associated customer's 
+<strong>Relieved Liabilities</strong> flag is set to <strong>Yes</strong>, the 
+PDP debits a defined <a id="popup_224966" onclick="return d2hpopup(event, this.href)" href="gloss_liability.htm">liability</a> <a id="popup_224965" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode.htm">object 
+code</a>. If the <strong>Relieved Liabilities</strong> flag is set to 
+<strong>No</strong>, the PDP creates a debit for the payment's expense object 
+code. A canceled payment creates similar credit entries.</p>
+<p class="MsoBodyText"><a id="popup_224969" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">Document</a> types assigned to these entries are as 
+follows.</p>
+<p class="TableHeading">PDP document types</p>
+<table style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 3pt double; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 61.55pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="82"><a id="popup_224964" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype.htm">
+      <p class="TableCells">Document Type</p>
+      <p class="TableCells"></p></a> </td>
+    <td style="BORDER-BOTTOM: windowtext 3pt double; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 317.9pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="424">
+      <p class="TableCells">Description</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 61.55pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="82">
+      <p class="TableCells">CHKC</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 317.9pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="424">
+      <p class="TableCells">Check <a id="popup_224970" onclick="return d2hpopup(event, this.href)" href="gloss_cancel.htm">cancel</a></p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 61.55pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="82">
+      <p class="TableCells">CHKD</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 317.9pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="424">
+      <p class="TableCells">Check disbursement (payment <a id="popup_224971" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">status</a> of extracted)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 61.55pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="82">
+      <p class="TableCells">CHKR</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 317.9pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="424">
+      <p class="TableCells">Cancel and reissue</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 61.55pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="82">
+      <p class="TableCells">ACHC</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 317.9pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="424">
+      <p class="TableCells">ACH cancel</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 61.55pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="82">
+      <p class="TableCells">ACHD</p></td>
+    <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 317.9pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="424">
+      <p class="TableCells">ACH disbursement (payment status of 
+  extracted)</p></td></tr>
+  <tr>
+    <td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 61.55pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; PADDING-TOP: 2.9pt" valign="top" width="82">
+      <p class="TableCells">ACHR</p></td>
+    <td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0pt; PADDING-LEFT: 5.75pt; WIDTH: 317.9pt; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2.9pt" valign="top" width="424">
+      <p class="TableCells">ACH cancel and reissue</p></td></tr></tbody></table>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="pdpandflexiblebankspecification.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />PDP and Flexible Bank 
+Specification</a></p></span></div></div></body></html>

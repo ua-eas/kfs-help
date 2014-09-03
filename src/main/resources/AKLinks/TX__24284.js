@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__24284", [["WordDocuments/documentheader3.htm", "right", "Document Header"],["WordDocuments/edocscreenlayout.htm", "right", "E-Doc Screen Layout"]]);
