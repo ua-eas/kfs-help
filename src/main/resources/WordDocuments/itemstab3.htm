@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Items Tab</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu1.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS 4_PURAP.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="vendortab3.htm"></a><a id="D2HNextAnchor" href="capitalassettab.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="vendortab3.htm"></a><a id="D2HNextAnchor" href="deliverytab1.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,22 +86,104 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="transactions.htm">Transactions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="requisition.htm">Requisition</a><span class="d2h_breadcrumbsLinkSeparator"> 
-&gt; </span><a class="d2h_breadcrumbsNormal" href="documentlayout31.htm">Document 
-Layout</a></div>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtransactionedocs3.htm">Standard Transaction E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="receivinglineitemreceiving.htm">Receiving (Line Item Receiving)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="documentlayout244.htm">Document Layout</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="mainlineitemreceivingdocument.htm">Main Line Item Receiving 
+Document</a></div>
 <h6>Items Tab</h6>
-<p class="MsoBodyText">The<strong> <a id="popup_718371" onclick="return d2hpopup(event, this.href)" href="gloss_items.htm">Items</a></strong> tab identifies what is being ordered 
-on this <a id="popup_718370" onclick="return d2hpopup(event, this.href)" href="gloss_requisition1.htm">requisition</a> and establishes an accounting 
-distribution indicating how those items should be charged. It allows multiple 
-items and accounting distributions to be added on a single requisition.</p>
-<p class="MsoBodyText">The <strong>Items</strong> tab includes four sections: 
-<strong>Add Item</strong>, <strong>Current Items</strong>, <strong>Additional 
-Charges</strong>, and <strong>Totals</strong>.</p>
-<p class="Center"><img src="../ImagesExt/image310_630.jpg" border="0" alt="" /></p>
-<p class="MsoCaption">Items tab</p>
+<p class="MsoBodyText">The <b><a id="popup_519236" onclick="return d2hpopup(event, this.href)" href="gloss_items.htm"><b>Items</b></a><strong> </strong></b>tab displays the 
+lines of the <a id="popup_519239" onclick="return d2hpopup(event, this.href)" href="gloss_po.htm">PO</a> that this receiving <a id="popup_519234" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> relates to and provides a way to add 
+lines for unordered items to the Receiving document. On this tab the quantity 
+received for each line item number is recorded. If known at this time, quantity 
+returned and quantity damaged are also recorded; otherwise, this information can 
+be added later by using the Receiving Correction document. When adding lines to 
+the Receiving document, enter all required information and then select the 
+<b>add</b> button.</p>
+<p class="Illustration"><img src="../ImagesExt/image158_78.jpg" alt="" /></p>
+<p class="TableHeading">Items tab definition</p>
+<table class="MsoNormalTable" style="MARGIN-LEFT: 5.75pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="502" border="0">
+  <tbody>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="106"><a id="popup_519237" onclick="return d2hpopup(event, this.href)" href="gloss_title.htm">
+      <p class="TableCells">Title</p>
+      <p class="TableCells"></p></a> </td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="396">
+      <p class="TableCells">Description</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="106">
+      <p class="TableCells">Line #</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="396">
+      <p class="TableCells">Display-only. The line number on the receiving 
+      document. The line number corresponds to the line number on the <a id="popup_519233" onclick="return d2hpopup(event, this.href)" href="gloss_purchaseorder1.htm">purchase order</a>.</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="106">
+      <p class="TableCells">Catalog #</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="396">
+      <p class="TableCells">Display-only. The catalog number for this item on the 
+      Receiving document.</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="106">
+      <p class="TableCells">Description</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="396">
+      <p class="TableCells">Display-only (required for new line items). The 
+      description from the purchase order or a detailed description of the 
+      unordered item that was received.</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="106">
+      <p class="TableCells">Qty Ordered</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="396">
+      <p class="TableCells">Display-only. Indicates the original quantity ordered 
+      from the purchase order.</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="106">
+      <p class="TableCells">UOM</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="396">
+      <p class="TableCells">Display-only (required for new line items). Identifies 
+      the <a id="popup_519232" onclick="return d2hpopup(event, this.href)" href="gloss_unitofmeasure1.htm">unit of measure</a> for this line item. 
+      For a new item, enter a valid <a id="popup_519238" onclick="return d2hpopup(event, this.href)" href="gloss_unit.htm">unit</a> 
+      of measure code (i.e., 'EA') for the item or use the lookup <img alt="searchicon" src="../ImagesExt/image158_79.png" /> to find valid unit 
+      of measure codes. </p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="106">
+      <p class="TableCells">Prior Qty Received</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="396">
+      <p class="TableCells">Display-only. Indicates the sum of total quantity 
+      received minus total quantity returned from all previously submitted Line 
+      Item Receiving documents. </p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="106">
+      <p class="TableCells">To be Received</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="396">
+      <p class="TableCells">Display-only. The <strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Quantity Ordered 
+      </span></strong>minus the <strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Prior Quantity 
+      Received</span></strong>.</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="106">
+      <p class="TableCells">Qty Received</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="396">
+      <p class="TableCells">The quantity of this item received in this 
+      shipment.</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="106">
+      <p class="TableCells">Qty Returned</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="396">
+      <p class="TableCells">The quantity to be returned to the <a id="popup_519235" onclick="return d2hpopup(event, this.href)" href="gloss_vendor2.htm">vendor</a>.</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="106">
+      <p class="TableCells">Qty Damaged</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="396">
+      <p class="TableCells">The quantity received that was damaged.</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="106">
+      <p class="TableCells">Addition Reason</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="396">
+      <p class="TableCells">Required. When adding items, indicates the reason this 
+      line item is being added (i.e., 'substitution' or 'not on 
+  order').</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 79.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: medium none" valign="top" width="106">
+      <p class="TableCells">Actions</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 297pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: medium none" valign="top" width="396">
+      <p class="TableCells">Click the <strong><span style="FONT-FAMILY: 'Arial','sans-serif'">add</span></strong> button to 
+      add this line item to the receiving document.</p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="additemandcurrentitemssections.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Add Item and Current Items Sections</a></p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="additionalchargessection1.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Additional Charges Section</a></p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="totalssection.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Totals Section</a></p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="workingintheitemstab.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Working in the Items Tab</a></p></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="deliverytab1.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Delivery 
+Tab</a></p></div></div></body></html>

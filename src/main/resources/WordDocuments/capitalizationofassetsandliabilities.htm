@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Capitalization of Assets and Liabilities</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Overview.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS_4_Core.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -86,25 +86,24 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General Ledger 
-(G/L)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerglprocess.htm">General Ledger G/L 
-Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactionvalidationscrubber.htm">Transaction 
-Validation ('Scrubber')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="transactiongeneration.htm">Transaction Generation</a></div>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactionvalidationscrubber.htm">Transaction Validation 
+('Scrubber')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactiongeneration.htm">Transaction 
+Generation</a></div>
 <h6>Capitalization of Assets and Liabilities</h6>
 <p class="MsoBodyText">'Scrubber' generates entries and offsets to properly record 
-the capitalization of assets and liabilities. The <a id="popup_714399" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> 
-determines which <a id="popup_714396" onclick="return d2hpopup(event, this.href)" href="gloss_items.htm">items</a> need capitalization entries by looking for 
-transactions affecting 'Actuals' <a id="popup_714388" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">balance type</a> and using an <a id="popup_714391" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
-code</a> with an <a id="popup_714397" onclick="return d2hpopup(event, this.href)" href="gloss_asset1.htm">asset</a>-related <a id="popup_714386" onclick="return d2hpopup(event, this.href)" href="gloss_objectsubtype1.htm">object sub-type</a> (defined in the <a id="popup_714392" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> CAPITALIZATION_OBJECT_SUB_TYPES).</p>
+the capitalization of assets and liabilities. The <a id="popup_504588" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> 
+determines which <a id="popup_504585" onclick="return d2hpopup(event, this.href)" href="gloss_items.htm">items</a> need capitalization entries by looking for 
+transactions affecting 'Actuals' <a id="popup_504577" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">balance type</a> and using an <a id="popup_504580" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
+code</a> with an <a id="popup_504586" onclick="return d2hpopup(event, this.href)" href="gloss_asset1.htm">asset</a>-related <a id="popup_504575" onclick="return d2hpopup(event, this.href)" href="gloss_objectsubtype1.htm">object sub-type</a> (defined in the <a id="popup_504581" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> CAPITALIZATION_OBJECT_SUB_TYPES).</p>
 <p class="MsoBodyText">If is the process determines that a qualifying capital 
 expenditure has occurred, it generates capitalization entries to book an asset 
-to the appropriate plant <a id="popup_714398" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a> <a id="popup_714393" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> under the appropriate plant fund object 
+to the appropriate plant <a id="popup_504587" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a> <a id="popup_504582" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> under the appropriate plant fund object 
 code. The appropriate account is generally the plant fund account associated 
-with the <a id="popup_714390" onclick="return d2hpopup(event, this.href)" href="gloss_organization1.htm">organization</a> owning the account on which the 
+with the <a id="popup_504579" onclick="return d2hpopup(event, this.href)" href="gloss_organization1.htm">organization</a> owning the account on which the 
 original transaction occurred (for movable assets) or the plant fund account 
-associated with that organization's <a id="popup_714395" onclick="return d2hpopup(event, this.href)" href="gloss_campus1.htm">campus</a> 
+associated with that organization's <a id="popup_504584" onclick="return d2hpopup(event, this.href)" href="gloss_campus1.htm">campus</a> 
 (for non-movable assets).</p>
 <p class="MsoBodyText">The KFS includes 'Generated Capitalization' or 'Generated 
 Liability' in the transaction description of the generated entry and also sets 
@@ -112,8 +111,8 @@ the object code type to 'Asset' or 'Liability' as appropriate. The object
 sub-type of the expenditure determines the object code used on the generated 
 entry (defined in the parameter 
 CAPITALIZATION_OBJECT_CODE_BY_OBJECT_SUB_TYPE).</p>
-<p class="MsoBodyText">Transactions created on journal vouchers, <a id="popup_714385" onclick="return d2hpopup(event, this.href)" href="gloss_transferoffunds1.htm">transfer of funds</a>, auxiliary vouchers (<a id="popup_714389" onclick="return d2hpopup(event, this.href)" href="gloss_accrualtype.htm">accrual type</a>) or the Annual Closing (ACLO) <a id="popup_714387" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> are generally excluded from the 
-capitalization process. This list of <a id="popup_714394" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> types is defined and may be modified in 
+<p class="MsoBodyText">Transactions created on journal vouchers, <a id="popup_504574" onclick="return d2hpopup(event, this.href)" href="gloss_transferoffunds1.htm">transfer of funds</a>, auxiliary vouchers (<a id="popup_504578" onclick="return d2hpopup(event, this.href)" href="gloss_accrualtype.htm">accrual type</a>) or the Annual Closing (ACLO) <a id="popup_504576" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> are generally excluded from the 
+capitalization process. This list of <a id="popup_504583" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> types is defined and may be modified in 
 the CAPITALIZATION_DOCUMENT_TYPES parameter. Transactions associated with 
 particular sub-fund groups or charts may also be institutionally excluded from 
 the capitalization process using one or more of these parameters:</p>

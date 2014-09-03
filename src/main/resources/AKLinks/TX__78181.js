@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__78181", [["WordDocuments/securitybatchsubmenu.htm", "right", "Security (Batch submenu)"],["WordDocuments/systembatchsubmenu.htm", "right", "System (Batch submenu)"]]);

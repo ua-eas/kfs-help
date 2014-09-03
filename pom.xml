@@ -25,7 +25,7 @@
     </parent>
     <groupId>org.kuali.kfs</groupId>
     <artifactId>kfs-help</artifactId>
-    <version>4.0.0</version>
+    <version>4.1.0</version>
     <packaging>jar</packaging>
     <description>
         The Kuali Financial System help module contains help files for the Kuali Coeus application.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Setting the Bank Code for a Transaction</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Maintenance.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS_4_Core.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -86,18 +86,19 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="maintenancemenu.htm">Maintenance Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="predisbursementprocessor.htm">Pre-Disbursement Processor</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="pdpandflexiblebankspecification.htm">PDP and Flexible Bank 
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="predisbursementprocessor.htm">Pre-Disbursement Processor</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="pdpandflexiblebankspecification.htm">PDP and Flexible Bank 
 Specification</a></div>
-<h5>Setting the Bank Code for a Transaction</h5>
-<p class="MsoBodyText">The <a id="popup_728848" onclick="return d2hpopup(event, this.href)" href="gloss_bank1.htm">Bank</a> Code 
-value is set at the <a id="popup_728847" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> level and applies to all accounting lines 
+<h4>Setting the Bank Code for a Transaction</h4>
+<p class="MsoBodyText">The <a id="popup_507339" onclick="return d2hpopup(event, this.href)" href="gloss_bank1.htm">Bank</a> Code 
+value is set at the <a id="popup_507338" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> level and applies to all accounting lines 
 on a document.</p>
 <p class="MsoBodyText">In the default configuration, only users who are members of 
-the <a id="popup_728850" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a>-SYS Operations <a id="popup_728849" onclick="return d2hpopup(event, this.href)" href="gloss_role1.htm">role</a> may 
+the <a id="popup_507341" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a>-SYS Operations <a id="popup_507340" onclick="return d2hpopup(event, this.href)" href="gloss_role1.htm">role</a> may 
 modify the Bank Code field on a KFS document.</p>
-<p class="MsoBodyText">When uploading a payment file to the <a id="popup_728851" onclick="return d2hpopup(event, this.href)" href="gloss_pdp.htm">PDP</a>, Bank 
+<p class="MsoBodyText">When uploading a payment file to the <a id="popup_507342" onclick="return d2hpopup(event, this.href)" href="gloss_pdp.htm">PDP</a>, Bank 
 Code is optional. If payments do not specify a bank code, the PDP assigns the 
-code based on the default values found on the associated <a id="popup_728846" onclick="return d2hpopup(event, this.href)" href="gloss_customer1.htm">Customer</a> Profile for ACH and check disbursements. 
+code based on the default values found on the associated <a id="popup_507337" onclick="return d2hpopup(event, this.href)" href="gloss_customer1.htm">Customer</a> Profile for ACH and check disbursements. 
 If an uploaded payment file contains bank codes, these codes must be valid or 
 the system will reject the file during the upload process. Corrections must be 
 made before the file can be successfully uploaded for processing.</p>

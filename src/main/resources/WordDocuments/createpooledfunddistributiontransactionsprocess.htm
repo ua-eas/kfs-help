@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Create Pooled Fund Distribution Transactions Process</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu2.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS 4_KEM.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -86,38 +86,37 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="transactions.htm">Transactions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="endowment1.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> 
-&gt; </span><a class="d2h_breadcrumbsNormal" href="endowmentbatchprocessing.htm">Endowment Batch Processing</a></div>
-<h5>Create Pooled Fund Distribution Transactions Process </h5>
-<p class="MsoBodyText">The Create <a id="popup_719688" onclick="return d2hpopup(event, this.href)" href="gloss_pooledfund.htm">Pooled 
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="endowment.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="endowmentbatchprocessing.htm">Endowment Batch Processing</a></div>
+<h3>Create Pooled Fund Distribution Transactions Process </h3>
+<p class="MsoBodyText">The Create <a id="popup_514966" onclick="return d2hpopup(event, this.href)" href="gloss_pooledfund.htm">Pooled 
 Fund</a> Distribution Transactions process serves two purposes: It generates 
-e-docs for distributing income by generating <a id="popup_719698" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">Cash</a> 
+e-docs for distributing income by generating <a id="popup_514976" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">Cash</a> 
 Increase (ECI) e-docs for KEMIDs holding pooled funds, and if those funds are to 
 be split between other KEMID’s (as per the KEMID’s payout instructions), the 
 process immediately generates cash transfers to those KEMIDs. This process also 
 generates Holding Adjustment (EHA) e-docs to distribute gains or losses to the 
 KEMIDs holding the pooled funds. </p>
-<p class="Note"><img alt="pencil-small" src="../ImagesExt/image318_9.png" />     The prompt for 
-activating the generation of holding adjustment transactions is in the Pooled <a id="popup_719700" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">Fund</a> Value maintenance screen. On this screen, the <a id="popup_719699" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> inputs a per-share value to be distributed and 
+<p class="Note"><img alt="pencil-small" src="../ImagesExt/image156_1.png" />     The prompt for 
+activating the generation of holding adjustment transactions is in the Pooled <a id="popup_514978" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">Fund</a> Value maintenance screen. On this screen, the <a id="popup_514977" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> inputs a per-share value to be distributed and 
 instructs the system when to effect the distribution. </p>
-<p class="MsoBodyText">This process may be run early in the <a id="popup_719695" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> 
-processing sequence. It may be run in parallel with the Create <a id="popup_719694" onclick="return d2hpopup(event, this.href)" href="gloss_accrual.htm">Accrual</a> Transactions process.</p>
-<p class="MsoBodyText">Each Cash Increase <a id="popup_719697" onclick="return d2hpopup(event, this.href)" href="gloss_edoc.htm">e-doc</a> 
+<p class="MsoBodyText">This process may be run early in the <a id="popup_514973" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> 
+processing sequence. It may be run in parallel with the Create <a id="popup_514972" onclick="return d2hpopup(event, this.href)" href="gloss_accrual.htm">Accrual</a> Transactions process.</p>
+<p class="MsoBodyText">Each Cash Increase <a id="popup_514975" onclick="return d2hpopup(event, this.href)" href="gloss_edoc.htm">e-doc</a> 
 generated by this process:</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Has a 
-<a id="popup_719693" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> header that includes the description 
-stated by your institution in the <a id="popup_719689" onclick="return d2hpopup(event, this.href)" href="gloss_endowment6.htm">Endowment</a> <a id="popup_719691" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> for the process.</p>
+<a id="popup_514971" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> header that includes the description 
+stated by your institution in the <a id="popup_514967" onclick="return d2hpopup(event, this.href)" href="gloss_endowment1.htm">Endowment</a> <a id="popup_514969" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> for the process.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Has a 
 transaction sub-type of Cash (C).</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Has a 
 transaction source type of Automated Entry (A). </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>References a single <a id="popup_719692" onclick="return d2hpopup(event, this.href)" href="gloss_security1.htm">security</a> record.</p>
-<p class="MsoBodyText">Additionally, if a <a id="popup_719696" onclick="return d2hpopup(event, this.href)" href="gloss_kemid1.htm">KEMID</a> 
+</span>References a single <a id="popup_514970" onclick="return d2hpopup(event, this.href)" href="gloss_security2.htm">security</a> record.</p>
+<p class="MsoBodyText">Additionally, if a <a id="popup_514974" onclick="return d2hpopup(event, this.href)" href="gloss_kemid1.htm">KEMID</a> 
 holds multiple tax lots of a security, each Cash Increase e-doc contains only 
 one transaction line for each combination of KEMID, security, registration code, 
-and income/<a id="popup_719690" onclick="return d2hpopup(event, this.href)" href="gloss_principal.htm">principal</a> indicator. </p>
+and income/<a id="popup_514968" onclick="return d2hpopup(event, this.href)" href="gloss_principal1.htm">principal</a> indicator. </p>
 <p class="MsoBodyText">Each Holding Adjustment e-doc generated by this 
 process:</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Has a 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Overview.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS_4_Core.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -86,23 +86,21 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General Ledger 
-(G/L)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerglprocess.htm">General Ledger G/L 
-Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactionvalidationscrubber.htm">Transaction 
-Validation ('Scrubber')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="offsetgeneration.htm">Offset 
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactionvalidationscrubber.htm">Transaction Validation 
+('Scrubber')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="offsetgeneration.htm">Offset 
 Generation</a></div>
 <h6>Business Rules</h6>
-<p class="MsoBodyText">The <a id="popup_714377" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> 
+<p class="MsoBodyText">The <a id="popup_504566" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> 
 transactions are generated in the following cases:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_714373" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">Document type</a> is not included in the 
-OFFSET_GENERATION_<a id="popup_714376" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">DOCUMENT</a>_TYPES <a id="popup_714375" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> (<a id="popup_714378" onclick="return d2hpopup(event, this.href)" href="gloss_jv.htm">JV</a> and ACLO 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_504562" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">Document type</a> is not included in the 
+OFFSET_GENERATION_<a id="popup_504565" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">DOCUMENT</a>_TYPES <a id="popup_504564" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> (<a id="popup_504567" onclick="return d2hpopup(event, this.href)" href="gloss_jv.htm">JV</a> and ACLO 
 document types are excluded in the base data).</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_714372" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalperiod.htm">Fiscal period</a> is not included in the 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_504561" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalperiod.htm">Fiscal period</a> is not included in the 
 OFFSET_GENERATION_FISCAL_PERIODS parameter (Periods BB and CB are excluded in 
 the base data.)</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-otherwise eligible and offset generation attribute for the <a id="popup_714374" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">balance type</a> of the pending entry is 'Y.'</p>
+otherwise eligible and offset generation attribute for the <a id="popup_504563" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">balance type</a> of the pending entry is 'Y.'</p>
 <p class="RelatedHead">More:</p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="transactiongeneration.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Transaction Generation</a></p></div></div></body></html>

@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__62909", [["WordDocuments/batchassurancereports.htm", "right", "Batch Assurance Reports"],["WordDocuments/printcashreceiptcoversheetoption.htm", "right", "Print Cash Receipt Cover Sheet Option"]]);

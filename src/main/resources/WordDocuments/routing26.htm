@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Routing</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu1.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS 4_CAM CAB.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules34.htm"></a><a id="D2HNextAnchor" href="processingapodocument.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules40.htm"></a><a id="D2HNextAnchor" href="permissions1.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,43 +86,14 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="transactions.htm">Transactions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchaseorder.htm">Purchase Order</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview28.htm">Process Overview</a></div>
-<h6>Routing </h6>
-<p class="MsoBodyText">The <a id="popup_718960" onclick="return d2hpopup(event, this.href)" href="gloss_po.htm">PO</a> <a id="popup_718949" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> does the following types of <a id="popup_718950" onclick="return d2hpopup(event, this.href)" href="gloss_routing99.htm">routing</a>:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><em>Internal Purchasing Review</em>: Triggered if the dollar amount of 
-the PO exceeds the dollar amount for the associated <a id="popup_718939" onclick="return d2hpopup(event, this.href)" href="gloss_contractmanager1.htm">contract manager</a> (<strong><a id="popup_718959" onclick="return d2hpopup(event, this.href)" href="gloss_cm.htm"><strong>CM</strong></a> Delegation Dollar Amount</strong> 
-field on the Contract Manager table) and the person submitting the order is not 
-in the Contract Manager <a id="popup_718955" onclick="return d2hpopup(event, this.href)" href="gloss_role1.htm">role</a>.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><em>Commodity Code Review</em>:  This route level is triggered if a 
-commodity code on any line <a id="popup_718952" onclick="return d2hpopup(event, this.href)" href="gloss_items.htm">items</a> has 
-a been added to the Commodity <a id="popup_718947" onclick="return d2hpopup(event, this.href)" href="gloss_reviewer.htm">Reviewer</a> role. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><em><a id="popup_718938" onclick="return d2hpopup(event, this.href)" href="gloss_contractsandgrants.htm"><em>Contracts and Grants</em></a> 
-Review</em>: Triggered if any grant accounts are used in the 
-<strong>Items</strong> section of the PO and the <a id="popup_718946" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> string contains an <a id="popup_718942" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
-code</a> that exists in the either the 'CG ROUTE OBJECT CODES BY CHART' or 'CG 
-ROUTE OBJECT LEVELS BY CHART' parameters. The PO document routes to the C&amp;G 
-Processor role with the <a id="popup_718941" onclick="return d2hpopup(event, this.href)" href="gloss_subfundgroup1.htm">sub-fund group</a> tied to Contracts and Grants 
-accounts.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><em>Budget Office Review</em>: If the PO is for the current <a id="popup_718944" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal year</a>, all accounts used on the document 
-are checked to see if any of accounts use <a id="popup_718940" onclick="return d2hpopup(event, this.href)" href="gloss_sufficientfunds1.htm">sufficient funds</a> checking. If the 
-encumbrances from this order would cause these accounts to have insufficient 
-funds, the PO document routes to the Budget Reviewer role for approval. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><em><span style="FONT-STYLE: normal; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span></em><em><a id="popup_718951" onclick="return d2hpopup(event, this.href)" href="gloss_vendor3.htm"><em>Vendor</em></a> Tax Review</em>: If the vendor used 
-on the PO is a foreign vendor or the vendor's tax number matches a tax number if 
-the <a id="popup_718957" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> employee table, the document routes to the Tax 
-Manager role. <em></em></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><em>Document Transmission</em>: If the document is an <a id="popup_718958" onclick="return d2hpopup(event, this.href)" href="gloss_apo.htm">APO</a>, an <a id="popup_718956" onclick="return d2hpopup(event, this.href)" href="gloss_fyi1.htm">FYI</a> is generated <a id="popup_718953" onclick="return d2hpopup(event, this.href)" href="gloss_back.htm">back</a> to 
-the <a id="popup_718945" onclick="return d2hpopup(event, this.href)" href="gloss_initiator.htm">initiator</a> of the <a id="popup_718943" onclick="return d2hpopup(event, this.href)" href="gloss_requisition1.htm">requisition</a> document. If the document is not 
-an APO, an FYI is generated back to the <a id="popup_718954" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> who 
-submitted the PO.</p>
-<p class="Center"><img src="../ImagesExt/image310_695.png" border="0" alt="" /></p>
-<p class="MsoCaption">PO document <a id="popup_718948" onclick="return d2hpopup(event, this.href)" href="gloss_workflow1.htm">workflow</a></p>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="capitalassetmodules.htm">Capital Asset Modules</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanagementcam1.htm">Capital Asset Management (CAM)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="camlookupandmaintenanceedocs.htm">CAM Lookup and Maintenance 
+E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="equipmentreturn.htm">Equipment Return</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview38.htm">Process Overview</a></div>
+<h6>Routing</h6>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<a id="popup_510678" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> is routed to the appropriate <a id="popup_510675" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalofficer.htm">fiscal officer</a> or <a id="popup_510677" onclick="return d2hpopup(event, this.href)" href="gloss_delegate.htm">delegate</a>. The fiscal officer to whom this document 
+is routed is defined by the <a id="popup_510676" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> in the <strong><a id="popup_510679" onclick="return d2hpopup(event, this.href)" href="gloss_asset1.htm"><strong>Asset</strong></a> Information</strong> tab of 
+the document.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+document routes to the borrower ID.</p>
 <p class="RelatedHead">More:</p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="processingapodocument.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Processing a PO Document</a></p></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="permissions1.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Permissions</a></p></div></div></body></html>

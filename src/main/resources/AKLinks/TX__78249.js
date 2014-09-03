@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__78249", [["WordDocuments/chartofaccounts.htm", "right", "Chart of Accounts"],["WordDocuments/kualifinancialsystemkfs.htm", "right", "Kuali Financial System (KFS)"]]);

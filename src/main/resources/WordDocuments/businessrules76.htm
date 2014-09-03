@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu3.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS 4_Fin_Proc.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview67.htm"></a><a id="D2HNextAnchor" href="routing63.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview70.htm"></a><a id="D2HNextAnchor" href="routing56.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,71 +86,236 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="lookupandmaintenance.htm">Lookup and 
-Maintenance</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanagement2.htm">Capital Asset 
-Management</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="equipmentloan.htm">Equipment Loan</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview67.htm">Process Overview</a></div>
-<h6>Business Rules</h6>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Three 
-conditions must be present to initiate the <a id="popup_723131" onclick="return d2hpopup(event, this.href)" href="gloss_equipmentloanreturn.htm">Equipment Loan/Return</a> <a id="popup_723139" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> for the purpose of recording a loan:</p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>The <a id="popup_723143" onclick="return d2hpopup(event, this.href)" href="gloss_asset1.htm">asset</a> 
-must exist in the database, <strong>and</strong></p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>the tag must be attached to 
-the equipment, <strong>and</strong></p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>the <a id="popup_723137" onclick="return d2hpopup(event, this.href)" href="gloss_tagnumber.htm">tag 
-number</a> must be entered in the <strong>Asset</strong> document.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_723135" onclick="return d2hpopup(event, this.href)" href="gloss_assetstatus1.htm">Asset status</a> must be active (active <a id="popup_723141" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">status</a> codes for capital assets include A, C, S, and 
-U; for non-capital assets active asset codes are D and N).</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-an asset is retrieved on the Equipment Loan/Return document, the system checks 
-to see if the asset has a pending <a id="popup_723134" onclick="return d2hpopup(event, this.href)" href="gloss_assettransfer.htm">asset 
-transfer</a> (AT) <a id="popup_723133" onclick="return d2hpopup(event, this.href)" href="gloss_assetretirement.htm">asset retirement</a> (AR) document, or if an 
-existing equipment loan/return (ELR) document is pending. If a document is 
-pending, the edit will not allow the <a id="popup_723144" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> to 
-issue the loan or return document.</p>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="financialprocessing.htm">Financial Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="administrativetransactionedocs.htm">Administrative Transaction 
+E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="servicebilling.htm">Service Billing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview70.htm">Process Overview</a></div>
+<h5>Business Rules</h5>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-value for <strong><a id="popup_723132" onclick="return d2hpopup(event, this.href)" href="gloss_lastinventorydate.htm"><strong>Last Inventory 
-Date</strong></a></strong> will automatically be updated to that of the 
-<strong>Loan Date</strong>.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-issuing a document to place the equipment on loan, the Equipment Loan/Return 
-document requires a borrower ID. The borrower ID must be a valued user ID in the 
-Universal ID table.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-issuing a document to place the equipment on loan, the Equipment Loan/Return 
-document requires a <a id="popup_723138" onclick="return d2hpopup(event, this.href)" href="gloss_complete.htm">complete</a> borrower address (Street Address, City, 
-<a id="popup_723142" onclick="return d2hpopup(event, this.href)" href="gloss_state1.htm">State</a>, <a id="popup_723136" onclick="return d2hpopup(event, this.href)" href="gloss_postalcode1.htm">Postal 
-Code</a>, and <a id="popup_723140" onclick="return d2hpopup(event, this.href)" href="gloss_country1.htm">Country</a>). This requirement is only on for the 
-Borrower Address; the Stored at Address is not required.</p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>The state code is validated 
-against the Postal State Code table.</p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>The country is system-assigned 
-to 'US' if not pre-set by the user.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the asset is untagged, the <strong>Loan</strong> action is not available in the 
-<strong>Actions</strong> column. (The 'loan' action is not underscored for the 
-asset number.) Similarly, the <strong>Loan</strong> link is not available if the 
-asset is already on loan.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>An 
-asset can be identified as currently on loan when an expected return date exists 
-and the return date is NULL.</p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>If the asset is not on loan 
-the word 'loan' is underscored in the <strong>Actions</strong> column.</p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>If the asset is actively on 
-loan the words 'renew' and 'return' are underscored in the 
-<strong>Actions</strong> column.</p>
+<a id="popup_514583" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> <a id="popup_514582" onclick="return d2hpopup(event, this.href)" href="gloss_initiator.htm">initiator</a> must be authorized (via the <a id="popup_514591" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a>-FP <a id="popup_514573" onclick="return d2hpopup(event, this.href)" href="gloss_servicebilling1.htm">Service Billing</a> Processor <a id="popup_514589" onclick="return d2hpopup(event, this.href)" href="gloss_role1.htm">role</a>) to initiate a <a id="popup_514592" onclick="return d2hpopup(event, this.href)" href="gloss_sb.htm">SB</a>, and also 
+to affect the specific income accounts.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Expected Return Date rules:</p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>When issuing a document to 
-place the equipment on loan, the Equipment Loan/Return document requires an 
-expected return date.</p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>When issuing a document to 
-place the equipment on loan, the expected return date cannot be more than two 
-years from the loan date.</p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>The expected return date 
-cannot be earlier than the loan date.</p>
+</span>Negative accounting line amounts are allowed.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>There 
+must be at least one accounting line in the 
+<strong>Income</strong><strong></strong><strong></strong><strong> </strong>section 
+and one accounting line in the 
+<strong>Expense</strong><strong></strong><strong></strong> section.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-equipment loan return date is required when issuing an Equipment Loan Return 
-document.</p>
+income line accepts only a limited set of accounts (listed in the <a id="popup_514570" onclick="return d2hpopup(event, this.href)" href="gloss_servicebillingcontrol.htm">Service Billing Control</a> table).</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+total in the <strong>Income</strong> section must equal the total in the 
+<strong>Expense</strong> section in the <strong>Accounting Lines 
+</strong>tab.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+KFS automatically generates <a id="popup_514588" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> and 
+<a id="popup_514590" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a> balance <a id="popup_514576" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
+code</a> <a id="popup_514584" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> entries as defined by the information entered 
+into the document.</p>
+<p class="TableHeading"><a id="popup_514579" onclick="return d2hpopup(event, this.href)" href="gloss_fundgroup1.htm">Fund 
+Group</a> restrictions for Service Billing documents</p>
+<table class="MsoNormalTable" style="MARGIN-LEFT: 5.75pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+  <tbody>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 102.6pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="137">
+      <p class="TableCells">Fund <a id="popup_514586" onclick="return d2hpopup(event, this.href)" href="gloss_group1.htm">Group</a> Code</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.15pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="159">
+      <p class="TableCells">Description</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 154.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="206">
+      <p class="TableCells">Restrictions</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 102.6pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="137">
+      <p class="TableCells">LF</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.15pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Loan Fund</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 154.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="206">
+      <p class="TableCells">Unallowable</p></td></tr></tbody></table>
+<p class="MsoBodyText">The <a id="popup_514574" onclick="return d2hpopup(event, this.href)" href="gloss_subfundgroup1.htm">Sub-Fund Group</a> restrictions are as 
+follows.</p>
+<p class="TableHeading">Sub Fund Group restrictions for Service Billing 
+documents</p>
+<table class="MsoNormalTable" style="MARGIN-LEFT: 5.75pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+  <tbody>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 102.6pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="137">
+      <p class="TableCells">Sub Fund Group </p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.15pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="159">
+      <p class="TableCells">Description</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 154.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="206">
+      <p class="TableCells">Restrictions</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 102.6pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="137">
+      <p class="TableCells">PFRI</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.15pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells"><a id="popup_514580" onclick="return d2hpopup(event, this.href)" href="gloss_retirement.htm">Retirement</a> of Indebtedness</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 154.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="206">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 102.6pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="137">
+      <p class="TableCells">PFIP</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.15pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Investment in Plant</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 154.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="206">
+      <p class="TableCells">Unallowable</p></td></tr></tbody></table>
+<p class="MsoBodyText">The object code restrictions are as follows.</p>
+<p class="TableHeading"><a id="popup_514577" onclick="return d2hpopup(event, this.href)" href="gloss_objecttype1.htm">Object 
+Type</a> Code restrictions for Service Billing documents</p>
+<table class="MsoNormalTable" style="MARGIN-LEFT: 5.75pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+  <tbody>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 102.6pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="137">
+      <p class="TableCells">Object Type Codes</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.15pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="159">
+      <p class="TableCells">Description</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 154.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="206">
+      <p class="TableCells">Restrictions</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 102.6pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="137">
+      <p class="TableCells">AS</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.15pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159"><a id="popup_514587" onclick="return d2hpopup(event, this.href)" href="gloss_asset1.htm">
+      <p class="TableCells">Asset</p>
+      <p class="TableCells"></p></a> </td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 154.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="206">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 102.6pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="137">
+      <p class="TableCells">CH</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.15pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Cash Not Income</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 154.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="206">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 102.6pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="137">
+      <p class="TableCells">ES</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.15pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Expense Not Expenditure</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 154.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="206">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 102.6pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="137">
+      <p class="TableCells">IC</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.15pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Income Not Cash</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 154.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="206">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 102.6pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="137">
+      <p class="TableCells">LI</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.15pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159"><a id="popup_514581" onclick="return d2hpopup(event, this.href)" href="gloss_liability.htm">
+      <p class="TableCells">Liability</p>
+      <p class="TableCells"></p></a> </td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 154.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="206">
+      <p class="TableCells">Unallowable</p></td></tr></tbody></table>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+Object Code field has the following restrictions:</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_514571" onclick="return d2hpopup(event, this.href)" href="gloss_contractsandgrants.htm">Contracts and Grants</a> Sponsored Programs 
+<a id="popup_514575" onclick="return d2hpopup(event, this.href)" href="gloss_objectlevel1.htm">object level</a> codes are not allowed.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>On an 
+income line, capital object codes may not be used.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Object code sub-type restrictions are as follows.</p>
+<p class="TableHeading">Object Code Sub Type restrictions for Service Billing 
+documents</p>
+<table class="MsoNormalTable" style="MARGIN-LEFT: 5.75pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="502" border="0">
+  <tbody>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="148">
+      <p class="TableCells">Object Code Sub-Type</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="159">
+      <p class="TableCells">Description</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="194">
+      <p class="TableCells">Restrictions</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148">
+      <p class="TableCells">BU</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Budget-Only Object Codes</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148">
+      <p class="TableCells">CP</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Construction Process</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148">
+      <p class="TableCells">FR</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Fringe Benefit</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148">
+      <p class="TableCells">GI</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Gifts</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148">
+      <p class="TableCells">HW</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Hourly Wages</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148">
+      <p class="TableCells">IV</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159"><a id="popup_514578" onclick="return d2hpopup(event, this.href)" href="gloss_investments.htm">
+      <p class="TableCells">Investments</p>
+      <p class="TableCells"></p></a> </td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148">
+      <p class="TableCells">MT</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Mandatory Transfers</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148">
+      <p class="TableCells">PL</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Plant-Capital Assets</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148">
+      <p class="TableCells">RE</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Reserves</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148">
+      <p class="TableCells">SA</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Salary and Wages</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148">
+      <p class="TableCells">ST</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells"><a id="popup_514585" onclick="return d2hpopup(event, this.href)" href="gloss_state1.htm">State</a> Appropriations</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148"><a id="popup_514593" onclick="return d2hpopup(event, this.href)" href="gloss_tf.htm">
+      <p class="TableCells">TF</p>
+      <p class="TableCells"></p></a> </td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159"><a id="popup_514572" onclick="return d2hpopup(event, this.href)" href="gloss_transferoffunds1.htm">
+      <p class="TableCells">Transfer of Funds</p>
+      <p class="TableCells"></p></a> </td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 111.25pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="148">
+      <p class="TableCells">WO</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 119.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="159">
+      <p class="TableCells">Write-off Expenses</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 145.8pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="194">
+      <p class="TableCells">Unallowable</p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing63.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Routing</a></p></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing56.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Routing</a></p></div></div></body></html>

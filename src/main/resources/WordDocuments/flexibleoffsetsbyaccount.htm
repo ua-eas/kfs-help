@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Flexible Offsets by Account</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Overview.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS_4_Core.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -86,26 +86,27 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General Ledger 
-(G/L)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="flexibleoffset.htm">Flexible Offset</a></div>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="flexibleoffsetoptions.htm">Flexible Offset 
+Options</a></div>
 <h4>Flexible Offsets by Account</h4>
-<p class="MsoBodyText">This option allows the <a id="popup_714722" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> to 
-redirect <a id="popup_714720" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> entries for an <a id="popup_714718" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> to another specified account. It allows 
-the KFS to accommodate tracking offsets such as <a id="popup_714721" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> or 
+<p class="MsoBodyText">This option allows the <a id="popup_504892" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> to 
+redirect <a id="popup_504890" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> entries for an <a id="popup_504888" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> to another specified account. It allows 
+the KFS to accommodate tracking offsets such as <a id="popup_504891" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> or 
 liabilities in central designated accounts as opposed to tracking such offset 
-entries in every account. The <a id="popup_714714" onclick="return d2hpopup(event, this.href)" href="gloss_offsetaccount1.htm">Offset Account</a> <a id="popup_714719" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> identifies the offset account for an <a id="popup_714716" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object code</a> and account number combination.</p>
-<p class="MsoBodyText">If the offsets by account option is enabled within the <a id="popup_714717" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> USE_FLEXIBLE_OFFSET_IND, the KFS goes 
-through a special process in e-docs and in 'Scrubber' during <a id="popup_714723" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a> 
-processing to determine the account that the offsets should be made to for a 
-given transaction.</p>
-<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image297_0.png" border="0" />   For more information about flexible offsets by account, 
-see <a href="offsetaccount.htm">Offset Account</a> in the <i>Guide to the KFS 
-Maintenance Menu</i>.</p>
+entries in every account. The <a id="popup_504884" onclick="return d2hpopup(event, this.href)" href="gloss_offsetaccount1.htm">Offset Account</a> <a id="popup_504889" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> identifies the offset account for an <a id="popup_504886" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object code</a> and account number combination.</p>
+<p class="MsoBodyText">If the offsets by account option is enabled within the <a id="popup_504887" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> USE_FLEXIBLE_OFFSET_IND, the KFS goes 
+through a special process in e-docs and in 'Scrubber' during GL processing to 
+determine the account that the offsets should be made to for a given 
+transaction.</p>
+<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image159_4.png" />   For more information about 
+flexible offsets by account, see <a href="offsetaccount.htm">Offset 
+Account</a>.</p>
 <p class="MsoBodyText">When the flexible offsets function is enabled, generation 
 of offsets on e-docs occurs as follows:</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">1.     The 
-offset object code is defined in the <a id="popup_714712" onclick="return d2hpopup(event, this.href)" href="gloss_offsetdefinition1.htm">Offset Definition</a> table.</p>
+offset object code is defined in the <a id="popup_504882" onclick="return d2hpopup(event, this.href)" href="gloss_offsetdefinition1.htm">Offset Definition</a> table.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">2.     The 
 object code and account number are searched from the Offset Account table.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">3.     If a 
@@ -117,7 +118,7 @@ transaction occurred.</p>
 <p class="MsoBodyText">Generation of offsets in 'Scrubber' when the flexible 
 offsets function is enabled occurs as follows:</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt 51.05pt">1.     
-'Scrubber' looks up the <a id="popup_714715" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> for a transaction in the 
+'Scrubber' looks up the <a id="popup_504885" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> for a transaction in the 
 Document Type table.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">2.     
 'Scrubber' checks the document type of the entry against the document types 
@@ -125,7 +126,7 @@ defined in the parameter.</p>
 <p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>OFFSET_GENERATION_DOCUMENT_TYPES: If the document type is found in this 
 parameter, 'Scrubber' does not generate offsets for this entry. This ensures 
-that document types that should not generate offset entries (like <a id="popup_714713" onclick="return d2hpopup(event, this.href)" href="gloss_journalvoucher1.htm">journal voucher</a>) do not have offsets 
+that document types that should not generate offset entries (like <a id="popup_504883" onclick="return d2hpopup(event, this.href)" href="gloss_journalvoucher1.htm">journal voucher</a>) do not have offsets 
 generated during 'Scrubber' processing.</p>
 <p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>DOCUMENT_TYPES_REQUIRING_FLEXIBLE_OFFSET_BALANCING_ENTRIES: If the 

@@ -1,1 +1,1 @@
-d2hStoreMenuItems("TX__65528", [["WordDocuments/drilldown.htm", "right", "Drilldown"],["WordDocuments/pendingactionrequeststab.htm", "right", "Pending Action Requests Tab"]]);
+d2hStoreMenuItems("TX__65528", [["WordDocuments/chartofaccounts.htm", "right", "Chart of Accounts"],["WordDocuments/kualifinancialsystemkfs.htm", "right", "Kuali Financial System (KFS)"]]);

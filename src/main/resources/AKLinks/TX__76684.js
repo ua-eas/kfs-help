@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__76684", [["WordDocuments/importingpayrates.htm", "right", "Importing Pay Rates"],["WordDocuments/importingexportingpayratesunionload.htm", "right", "Importing/Exporting Pay Rates (\"Union Load\")"]]);

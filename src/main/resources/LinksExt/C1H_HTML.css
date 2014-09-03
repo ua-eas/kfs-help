@@ -63,9 +63,9 @@ P.MsoIndex6 {FONT-SIZE: 10pt;  MARGIN: 0pt 0pt 0pt 60pt;  TEXT-INDENT: -10pt;  F
 
 H6 {FONT-WEIGHT: bold;  FONT-SIZE: 14pt;  MARGIN: 12pt 18pt 3pt 0pt;  COLOR: #993300;  FONT-STYLE: italic;  FONT-FAMILY: "Arial","sans-serif"; }
 
-P.Noteintable {FONT-SIZE: 10pt;  MARGIN: 9pt 3.6pt 6pt 21.25pt;  TEXT-INDENT: -22.85pt;  FONT-FAMILY: "Arial","sans-serif";  tab-stops: 18.0pt 21.25pt; }
+P.Noteintable {FONT-SIZE: 10pt;  MARGIN: 9pt 3.6pt 6pt 21.25pt;  TEXT-INDENT: -22.85pt;  FONT-FAMILY: "Arial","sans-serif";  tab-stops: 21.25pt; }
 
-P.Illustration {FONT-SIZE: 10pt;  MARGIN: 6pt 0pt 3pt;  FONT-FAMILY: "Times New Roman","serif";  TEXT-ALIGN: center; }
+P.Illustration {FONT-SIZE: 10pt;  MARGIN: 12pt 0pt 18pt;  FONT-FAMILY: "Times New Roman","serif"; }
 
 P.C1SectionEnd {FONT-SIZE: 10pt;  MARGIN: 9pt 0pt 0pt;  FONT-FAMILY: "Times New Roman","serif"; }
 
@@ -141,7 +141,7 @@ P.Note {FONT-SIZE: 10pt;  MARGIN: 9pt 0pt 0pt 18pt;  TEXT-INDENT: -22.5pt;  FONT
 
 P.MsoClosing {FONT-SIZE: 10pt;  MARGIN: 0pt 0pt 0pt 216pt;  FONT-FAMILY: "Times New Roman","serif"; }
 
-P.MsoCaption {FONT-SIZE: 9pt;  MARGIN: 3pt 0pt 8pt;  FONT-FAMILY: "Arial","sans-serif";  TEXT-ALIGN: center;  tab-stops: 180.0pt 198.0pt; }
+P.MsoCaption {FONT-SIZE: 9pt;  MARGIN: 3pt 0pt 8pt;  FONT-FAMILY: "Arial","sans-serif";  tab-stops: 180.0pt 198.0pt; }
 
 P.MsoIndex9 {FONT-SIZE: 10pt;  MARGIN: 0pt 0pt 0pt 90pt;  TEXT-INDENT: -10pt;  FONT-FAMILY: "Times New Roman","serif"; }
 
@@ -219,7 +219,7 @@ P.MsoListContinue2 {FONT-SIZE: 10pt;  MARGIN: 0pt 0pt 6pt 36pt;  FONT-FAMILY: "T
 
 P.MsoSignature {FONT-SIZE: 10pt;  MARGIN: 0pt 0pt 0pt 216pt;  FONT-FAMILY: "Times New Roman","serif"; }
 
-P.Illustrationinnumberedlist {FONT-SIZE: 10pt;  MARGIN: 6pt 0pt 3pt 36pt;  FONT-FAMILY: "Times New Roman","serif"; }
+P.Illustrationinnumberedlist {FONT-SIZE: 10pt;  MARGIN: 12pt 0pt 18pt 36pt;  FONT-FAMILY: "Times New Roman","serif"; }
 
 SPAN.C1HInlineExpand {COLOR: teal; }
 
@@ -385,7 +385,7 @@ P.MsoToc3 {FONT-SIZE: 10pt;  MARGIN: 0pt 18pt 0pt 144pt;  FONT-FAMILY: "Times Ne
 
 P.MsoIndex1 {FONT-SIZE: 10pt;  MARGIN: 0pt 0pt 0pt 21.6pt;  TEXT-INDENT: -21.6pt;  FONT-FAMILY: "Times New Roman","serif"; }
 
-H1 {FONT-WEIGHT: bold;  FONT-SIZE: 30pt;  MARGIN: 48.1pt 0pt 84.1pt;  FONT-FAMILY: "Arial","sans-serif"; }
+H1 {BORDER-RIGHT: medium none;  PADDING-RIGHT: 0pt;  BORDER-TOP: medium none;  PADDING-LEFT: 0pt;  FONT-WEIGHT: bold;  FONT-SIZE: 22pt;  PAGE-BREAK-BEFORE: always;  PADDING-BOTTOM: 0pt;  MARGIN: 12pt 0pt 3pt;  BORDER-LEFT: medium none;  PADDING-TOP: 0pt;  BORDER-BOTTOM: medium none;  FONT-FAMILY: "Arial","sans-serif"; }
 
 P.C1SectionCollapsed {FONT-WEIGHT: bold;  FONT-SIZE: 18pt;  PAGE-BREAK-BEFORE: always;  MARGIN: 12pt 18pt 3pt 0pt;  COLOR: #993300;  FONT-STYLE: italic;  FONT-FAMILY: "Arial","sans-serif"; }
 

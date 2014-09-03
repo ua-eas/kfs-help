@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__100854", [["WordDocuments/purchasingaccountspayable.htm", "right", "Purchasing/Accounts Payable"],["WordDocuments/purchasingaccountspayable1.htm", "right", "Purchasing/Accounts Payable"],["WordDocuments/transactionssubmenu.htm", "right", "Transactions Submenu"]]);

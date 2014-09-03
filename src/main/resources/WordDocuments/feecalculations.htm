@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Fee Calculations</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu2.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS 4_KEM.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -86,16 +86,16 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="transactions.htm">Transactions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="endowment1.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> 
-&gt; </span><a class="d2h_breadcrumbsNormal" href="endowmentbatchprocessing.htm">Endowment Batch Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="createfeetransactionsprocess.htm">Create Fee Transactions 
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="endowment.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="endowmentbatchprocessing.htm">Endowment Batch Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="createfeetransactionsprocess.htm">Create Fee Transactions 
 Process</a></div>
-<h6>Fee Calculations<span style="FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: windowtext; FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman','serif'"></span></h6>
-<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image318_11.png" />   Unless otherwise indicated, all 
+<h4>Fee Calculations</h4>
+<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image156_3.png" />   Unless otherwise indicated, all 
 calculations adhere to the standard rounding rules. For information on those 
-rules, see <a href="standardroundingrules.htm">Standard Rounding Rules</a>. </p>
+rules, see <a href="standardroundingrules.htm">Standard Rounding Rules</a>. 
+ </p>
 <p class="MsoBodyText">As part of this process, the system determines how the fee 
-calculation is to be made based upon the fee type specified in the <a id="popup_719752" onclick="return d2hpopup(event, this.href)" href="gloss_kemid1.htm">KEMID</a> Fee record.</p>
+calculation is to be made based upon the fee type specified in the <a id="popup_515030" onclick="return d2hpopup(event, this.href)" href="gloss_kemid1.htm">KEMID</a> Fee record.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 the fee type is T (Transactions), the system uses transaction records from the 
 Transaction Archive table to calculate the fee.</p>
@@ -104,10 +104,10 @@ code is C (Count), the system totals the number of the records that fit the
 selection criteria and have been posted since the last processing date for the 
 fee.</p>
 <p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>If the rate definition code is 
-V (Value), the system totals the income <a id="popup_719753" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> 
-amount and/or <a id="popup_719750" onclick="return d2hpopup(event, this.href)" href="gloss_principal.htm">principal</a> cash amount of the records that fit the 
-selection criteria and have been posted since the last processing date for the 
-fee.</p>
+V (Value), the system totals the income <a id="popup_515031" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> 
+amount and/or <a id="popup_515028" onclick="return d2hpopup(event, this.href)" href="gloss_principal1.htm">principal</a> cash amount of the records that fit 
+the selection criteria and have been posted since the last processing date for 
+the fee.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 the fee type is B (Balance), the system uses Current Tax Lot Balance or Holding 
 History records to calculate the fee.</p>
@@ -116,8 +116,8 @@ rate definition code is C (Count), the system:</p>
 <p class="C1HNumber" style="MARGIN-LEFT: 72pt; tab-stops: 72.0pt">1.     Totals 
 the number of units held by the records that fit the selection criteria. </p>
 <p class="C1HNumber" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt">2.     
-If the fee <a id="popup_719748" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">balance type</a> is AU (Average Units), calculates 
-the fee as the total of all holding units for records in which the month-<a id="popup_719751" onclick="return d2hpopup(event, this.href)" href="gloss_enddate.htm">end date</a> is greater than the last processing date 
+If the fee <a id="popup_515026" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">balance type</a> is AU (Average Units), calculates 
+the fee as the total of all holding units for records in which the month-<a id="popup_515029" onclick="return d2hpopup(event, this.href)" href="gloss_enddate.htm">end date</a> is greater than the last processing date 
 for the fee, divided by the number of records selected.</p>
 <p class="C1HNumber" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt">3.     
 If the fee balance type is MU (Month End Units), calculates the fee as the total 
@@ -129,7 +129,7 @@ of the current units held for all selected records.</p>
 <p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>For records in which the fee 
 rate definition code is V (Value), the system:</p>
 <p class="C1HNumber" style="MARGIN-LEFT: 72pt; tab-stops: 72.0pt">1.     Examines 
-the <a id="popup_719749" onclick="return d2hpopup(event, this.href)" href="gloss_marketvalue.htm">market value</a> of the records that fit the 
+the <a id="popup_515027" onclick="return d2hpopup(event, this.href)" href="gloss_marketvalue.htm">market value</a> of the records that fit the 
 selection criteria. </p>
 <p class="C1HNumber" style="MARGIN-LEFT: 72pt; tab-stops: 72.0pt">2.     If the 
 fee balance type is AMV (Average Market Value), calculates the fee as the total 

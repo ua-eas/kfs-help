@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Update Corpus Records Process</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu2.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS 4_KEM.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -86,37 +86,36 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="transactions.htm">Transactions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="endowment1.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> 
-&gt; </span><a class="d2h_breadcrumbsNormal" href="endowmentbatchprocessing.htm">Endowment Batch Processing</a></div>
-<h5>Update Corpus Records Process </h5>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="endowment.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="endowmentbatchprocessing.htm">Endowment Batch Processing</a></div>
+<h3>Update Corpus Records Process </h3>
 <p class="MsoBodyText">The Update Corpus Records process allows your institution 
 to maintain a record of the portion of true endowments that are considered 
 permanently restricted (‘corpus’), including the actual gifts and any earnings 
 that donors require your institution to reinvest. Through this process, the 
-system updates corpus value records in two tables—Current <a id="popup_719875" onclick="return d2hpopup(event, this.href)" href="gloss_endowment6.htm">Endowment</a> Corpus and <a id="popup_719879" onclick="return d2hpopup(event, this.href)" href="gloss_kemid1.htm">KEMID</a> 
+system updates corpus value records in two tables—Current <a id="popup_515153" onclick="return d2hpopup(event, this.href)" href="gloss_endowment1.htm">Endowment</a> Corpus and <a id="popup_515157" onclick="return d2hpopup(event, this.href)" href="gloss_kemid1.htm">KEMID</a> 
 Corpus Value. </p>
 <p class="MsoBodyText">Basic processing includes the following.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>On 
-the last day of your institution’s <a id="popup_719874" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
+the last day of your institution’s <a id="popup_515152" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
 year</a>, the endowment corpus value is stored as the prior fiscal year end 
 corpus value. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>On 
 the first day of the fiscal year, the system resets the values in both tables by 
 copying the current corpus values to the prior fiscal year values and copying 
-the current <a id="popup_719876" onclick="return d2hpopup(event, this.href)" href="gloss_principal.htm">principal</a> values to the prior fiscal year end 
-principal market values. These values are used as a quick reference to the <a id="popup_719877" onclick="return d2hpopup(event, this.href)" href="gloss_yearend.htm">year-end</a> corpus value.</p>
+the current <a id="popup_515154" onclick="return d2hpopup(event, this.href)" href="gloss_principal1.htm">principal</a> values to the prior fiscal year end 
+principal market values. These values are used as a quick reference to the <a id="popup_515155" onclick="return d2hpopup(event, this.href)" href="gloss_yearend.htm">year-end</a> corpus value.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>On 
 subsequent days throughout the current fiscal year, the system accesses the 
 transaction archive records for each KEMID and totals the corpus amount. Then it 
 adds this total to the current corpus value in the Current Endowment Corpus and 
 KEMID Corpus Value records. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-process also updates the current principal <a id="popup_719873" onclick="return d2hpopup(event, this.href)" href="gloss_marketvalue.htm">market 
+process also updates the current principal <a id="popup_515151" onclick="return d2hpopup(event, this.href)" href="gloss_marketvalue.htm">market 
 value</a> in the records by copying it from system’s current balance values. 
 This value is used as a quick reference to the current corpus value.</p>
 <p class="MsoBodyText">The process is run daily. It must be scheduled to run after 
-all other post, update, and create <a id="popup_719878" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> 
+all other post, update, and create <a id="popup_515156" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> 
 processes and before the Roll Process Date process to ensure that all values are 
 accurate.</p>
 <p class="RelatedHead">More:</p>

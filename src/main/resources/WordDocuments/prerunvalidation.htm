@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Pre-Run Validation</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Maintenance.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS 4_Effort.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -40,13 +40,13 @@ d2hTrySyncTOC();
 
 
 
-var prev = false;
+var prev = true;
 
 
 
 
 
-var next = false;
+var next = true;
 
 
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="creationprocessing.htm"></a><a id="D2HNextAnchor" href="populatetheeffortcertificationtable.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,17 +86,17 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="maintenancemenu.htm">Maintenance Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="effortcertification4.htm">Effort Certification</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generatingeffortcertificationreports.htm">Generating Effort Certification 
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="effortcertification1.htm">Effort Certification</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="maintenancefunctions.htm">Maintenance Functions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generatingeffortcertificationreports.htm">Generating Effort Certification 
 Reports</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="creatingeffortreportsfromextracteddata.htm">Creating Effort Reports from 
 Extracted Data</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="creationprocessing.htm">Creation 
 Processing</a></div>
-<p class="MsoHeading7">Pre-Run Validation</p>
+<h6>Pre-Run Validation</h6>
 <p class="MsoBodyText">Prior to initiating the creation process, the report period 
-<a id="popup_730597" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">status</a> code of the specified Report Definition 
-record (as defined by the RUN_REPORT_ID <a id="popup_730596" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a>) is checked. The status must be 'O' 
+<a id="popup_512728" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">status</a> code of the specified Report Definition 
+record (as defined by the RUN_REPORT_ID <a id="popup_512727" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a>) is checked. The status must be 'O' 
 (Open) in order for the creation process to continue. The process will also 
 abort if no rows currently exist in the Build table or if the rows in the Build 
-table already exist in the Effort Certification detail table (indicating the <a id="popup_730598" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> is trying to create reports for a report period 
+table already exist in the Effort Certification detail table (indicating the <a id="popup_512729" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> is trying to create reports for a report period 
 for which reports have already been created).</p>
 <p class="RelatedHead">More:</p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="populatetheeffortcertificationtable.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Populate the Effort Certification 

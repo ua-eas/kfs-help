@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__57776", [["WordDocuments/copyrightandlicensing.htm", "right", "Copyright and Licensing"],["WordDocuments/documentationlicensing.htm", "right", "Documentation Licensing"]]);

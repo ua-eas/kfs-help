@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu3.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS 4_KEM.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview83.htm"></a><a id="D2HNextAnchor" href="routing78.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview90.htm"></a><a id="D2HNextAnchor" href="routing76.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,16 +86,82 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="lookupandmaintenance.htm">Lookup and 
-Maintenance</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="chartofaccounts.htm">Chart of 
-Accounts</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="objectcodeglobal.htm">Object Code 
-Global</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview83.htm">Process 
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="endowment.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="lookupandmaintenanceedocs1.htm">Lookup and Maintenance E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="tickler.htm">Tickler</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="processoverview90.htm">Process 
 Overview</a></div>
-<h6>Business Rules</h6>
-<p class="MsoBodyText">The <a id="popup_724879" onclick="return d2hpopup(event, this.href)" href="gloss_globalobjectcode.htm">Global Object Code</a> <a id="popup_724882" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> is subject to the same business rules as 
-the <a id="popup_724880" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">Object Code</a> document. In addition, at least one 
-<a id="popup_724881" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> must be selected on the <strong>Edit 
-Multiple Year and <a id="popup_724883" onclick="return d2hpopup(event, this.href)" href="gloss_chart1.htm">Chart</a></strong> tab.</p>
+<h5>Business Rules</h5>
+<p class="MsoBodyText">The following business rules apply to tickler transactions: 
+</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+you add a Tickler record, the system automatically updates the <strong>Tickler 
+Number</strong> field with the next sequential record number. You cannot change 
+this entry and it is not displayed on the screen, but you may use it to generate 
+a custom ticklers report.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong>Tickler</strong> <strong>Type Code</strong> and <strong>Tickler</strong> 
+<strong><a id="popup_516862" onclick="return d2hpopup(event, this.href)" href="gloss_frequency.htm"><strong>Frequency</strong></a> </strong>values must 
+already be defined in the system.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>You 
+must enter either a <strong>Tickler</strong> <strong>Frequency </strong>value 
+<em>or</em> a <strong>Tickler Next Due Date</strong> value, but you may not 
+enter both.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+you do not enter a <strong>Tickler</strong> <strong>Frequency </strong>value, 
+the system assumes that this is a one-time reminder so you must enter 
+<strong>Tickler Next Due Date</strong> value.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+you enter a <strong>Tickler</strong> <strong>Frequency </strong>value when 
+creating, copying, or editing this <a id="popup_516867" onclick="return d2hpopup(event, this.href)" href="gloss_edoc.htm">e-doc</a>, the 
+system automatically updates the <strong>Tickler Next Due Date</strong> value 
+according to the frequency <em>if a frequency was specified</em>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+you create a tickler, the system automatically enters the current date in the 
+<strong>Tickler Entry Date</strong> field. You cannot change this entry.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong>Tickler <a id="popup_516864" onclick="return d2hpopup(event, this.href)" href="gloss_enddate.htm">End 
+Date</a></strong> is not a required field.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+you mark a tickler as inactive, the system automatically populates the 
+<strong>Tickler End Date</strong> based on the current date.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>This 
+e-doc does not require entries in the <strong>Tickler <a id="popup_516866" onclick="return d2hpopup(event, this.href)" href="gloss_kemid1.htm">KEMID</a></strong> or <strong>Tickler <a id="popup_516863" onclick="return d2hpopup(event, this.href)" href="gloss_security2.htm">Security</a></strong> tabs, but each e-doc may have 
+one or more entries in these tabs. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Any 
+KEMID, security ID, <a id="popup_516868" onclick="return d2hpopup(event, this.href)" href="gloss_group1.htm">group</a> 
+name, and/or recipient person specified must already be defined in the system. 
+</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Each 
+active tickler must reference at least one active recipient person or group.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Each 
+active tickler may reference multiple recipient persons and/or 
+groups<b><i>.</i></b></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+you mark a tickler as inactive, the system automatically marks all associated 
+info in the <strong>Tickler KEMID</strong>, <strong>Tickler Security</strong>, 
+<strong>Tickler Recipient Person</strong>, and <strong>Tickler Recipient 
+Group</strong> tabs as inactive.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+the system displays results in the Ticker Lookup screen, the <a id="popup_516860" onclick="return d2hpopup(event, this.href)" href="gloss_activeindicator.htm">active indicator</a> selection applies only to 
+the tickler record, not to the information in the tabs for KEMID, security, 
+person, and group. <em>If you enter a KEMID, security or recipient person or 
+group as a search criterion for the tickler, the system does not check the 
+active indicator on these tabs.</em></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+the <strong>Active </strong>indicator is changed to ‘No’ for a KEMID, security, 
+person or group, you may still view the record via the detail <a id="popup_516865" onclick="return d2hpopup(event, this.href)" href="gloss_inquiry.htm">inquiry</a> 
+function. In edit mode, the system displays all records (both active and 
+inactive) so you can re-activate records as needed. In both cases, you may hide 
+all inactive records in the tab if you wish.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>You 
+cannot <a id="popup_516869" onclick="return d2hpopup(event, this.href)" href="gloss_copy.htm">copy</a> the information in the <strong>Tickler 
+KEMID</strong>, <strong>Tickler Security</strong>, <strong>Tickler Recipient 
+Person</strong>, and <strong>Tickler Recipient Group</strong> tabs. When you 
+create a new tickler by copying an existing Tickler record, you must add the 
+information in these tabs.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+you re-activate a Tickler record, the system revalidates the data for it and 
+reports any errors so you may correct them. Whenever a tickler is re-<a id="popup_516861" onclick="return d2hpopup(event, this.href)" href="gloss_activated.htm">activated</a>, the system checks to ensure that the 
+<strong>Tickler End Date</strong> value is greater than the current date.</p>
 <p class="RelatedHead">More:</p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing78.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Routing</a></p></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing76.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Routing</a></p></div></div></body></html>

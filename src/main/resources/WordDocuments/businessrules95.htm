@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu3.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS 4_KEM.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview82.htm"></a><a id="D2HNextAnchor" href="routing77.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview89.htm"></a><a id="D2HNextAnchor" href="routing75.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,34 +86,148 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="lookupandmaintenance.htm">Lookup and 
-Maintenance</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="chartofaccounts.htm">Chart of 
-Accounts</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="objectcode.htm">Object Code</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview82.htm">Process Overview</a></div>
-<h6>Business Rules</h6>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="endowment.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="lookupandmaintenanceedocs1.htm">Lookup and Maintenance E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="security.htm">Security</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="processoverview89.htm">Process 
+Overview</a></div>
+<h5>Business Rules</h5>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>All 
+rules for valuation affect the edit screen only. When a new <a id="popup_516789" onclick="return d2hpopup(event, this.href)" href="gloss_security2.htm">security</a> is created, the <a id="popup_516799" onclick="return d2hpopup(event, this.href)" href="gloss_unit.htm">unit</a> value 
+is automatically set at 1. Typically a marketable security will have its unit 
+value updated as a part of a nightly process which pulls information from an 
+outside pricing source. For those securities that are valued through the current 
+<a id="popup_516781" onclick="return d2hpopup(event, this.href)" href="gloss_marketvalue.htm">market value</a> (alternative <a id="popup_516785" onclick="return d2hpopup(event, this.href)" href="gloss_investments.htm">investments</a>), that information is only 
+available periodically and, at the onset, is equal to the <a id="popup_516783" onclick="return d2hpopup(event, this.href)" href="gloss_carryvalue.htm">carry 
+value</a>. Therefore, updating the unit or market valuation is accessible only 
+through the edit screen.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Rules 
+regarding income rates affect the calculations for anticipated income.</p>
+<p class="MsoBodyText">The following business rules apply to security 
+transactions: </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<span style="COLOR: black">Security</span> ID is nine alpha or numeric 
+characters. When you create a new security record, enter only the first eight 
+digits. The system calculates the ninth and displays a <a id="popup_516792" onclick="return d2hpopup(event, this.href)" href="gloss_message.htm">message</a> 
+confirming the value.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+editing a security, you may change the class code. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong>Reports to <a id="popup_724841" onclick="return d2hpopup(event, this.href)" href="gloss_chartcode.htm">Chart 
-Code</a></strong> value is not the highest <a id="popup_724842" onclick="return d2hpopup(event, this.href)" href="gloss_chart1.htm">chart</a> 
-level, the reports to <a id="popup_724839" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
-code</a>, <a id="popup_724840" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal year</a>, and chart code combination must 
-exist in the Object Code Table.</p>
+the security class code for the new security record has a <strong>Security <a id="popup_516794" onclick="return d2hpopup(event, this.href)" href="gloss_accrual.htm">Accrual</a> Method</strong> value of ‘3’, ‘6’, B’, ‘M’ 
+or ‘T’, you must enter data into these fields:</p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><strong><span style="FONT-WEIGHT: normal; FONT-FAMILY: 'Courier New'">o  
+</span></strong><strong>Issue Date</strong></p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><strong><span style="FONT-WEIGHT: normal; FONT-FAMILY: 'Courier New'">o  
+</span></strong><strong>Maturity Date </strong></p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><strong><span style="FONT-WEIGHT: normal; FONT-FAMILY: 'Courier New'">o  
+</span></strong><strong><a id="popup_516787" onclick="return d2hpopup(event, this.href)" href="gloss_interest.htm"><strong>Interest</strong></a> Rate or 
+Amount</strong></p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><strong><span style="FONT-WEIGHT: normal; FONT-FAMILY: 'Courier New'">o  
+</span></strong><strong>Income Pay <a id="popup_516786" onclick="return d2hpopup(event, this.href)" href="gloss_frequency.htm">Frequency</a> </strong></p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong>Reports to Chart Code</strong> value is at the highest level, then 
-the object code must report to itself as an additional rule.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If a 
-<strong>Next Year Object Code</strong> value is entered, then the current fiscal 
-year, chart code, and next year object code combination must exist in the Object 
-Code Table.</p>
-<p class="Note"><img alt="lightbolb-small" src="../ImagesExt/image317_161.png" />   <strong>Institutional 
-Reporting: </strong>The <a id="popup_724843" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> 
-provides for various fields available for institutional reporting. You can, for 
-example, define a top level chart that consolidates activity for reporting 
-purpose. After the top level chart is defined, the Statement of Net Assets and 
-Statement of Revenues, Expenses and Changes in Net Assets can be designed, using 
-'Reports To' chart and object code and the sub-totals by the object code levels 
-and consolidations on the top chart. Or, you may design <a id="popup_724836" onclick="return d2hpopup(event, this.href)" href="gloss_responsibilitycenter1.htm">responsibility center</a> reports using 
-the <a id="popup_724838" onclick="return d2hpopup(event, this.href)" href="gloss_organization1.htm">organization</a> roll-up of accounts. For more 
-information about the capabilities of the organization within the <a id="popup_724837" onclick="return d2hpopup(event, this.href)" href="gloss_chartofaccounts2.htm">Chart of Accounts</a>, refer to <a href="organization.htm">Organization</a> below and <a href="organizationtype.htm">Organization Type</a> in the Guide to the KFS 
-Maintenance Menu. </p>
+the class code for a security has a class code type of ‘Alternative Investment’, 
+an entry in the <strong>Commitment Amount</strong> field is required. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the class code for a security has a class code type of ‘P’ (Pooled Funds), you 
+<em>cannot change</em> the unit value and value date on this <a id="popup_516797" onclick="return d2hpopup(event, this.href)" href="gloss_edoc.htm">e-doc</a>. 
+This restriction ensures that the unit value in the Security record matches the 
+unit value stored in the corresponding <a id="popup_516782" onclick="return d2hpopup(event, this.href)" href="gloss_pooledfund.htm">Pooled 
+Fund</a> Value record with the latest value effective date.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the security has a class code type of ‘P’ (Pooled Funds), you <em>cannot 
+change</em> the value in the <strong>Interest Rate or Amount</strong> field on 
+this e-doc. The system automatically updates this value when the distribution 
+amount in the pooled <a id="popup_516800" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a> value 
+is updated. The value is calculated as follows: the amount of the distribution 
+is multiplied by the number of times per year that the institution will 
+distribute income to the <a id="popup_516788" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> holders. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the class code for the security has a valuation method of ‘U’ (Unit Value), you 
+must enter a value in the <strong>Unit Value </strong>field but no entry is 
+allowed in the <strong>Market Valuation</strong> field. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the class code for the security has a valuation method of ‘M’ (Market Value), 
+you must enter a value in the <strong>Market Valuation</strong> field but no 
+<strong>Unit Value </strong>entry is allowed. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+default unit value for a new security is 1 <em>except for liabilities</em>, 
+which default to negative 1 (-1).</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+unit value must always be greater than or equal to zero <em>except for 
+liabilities</em>, which are always -1.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
+you change the <strong>Unit Value</strong> entry and the change is accepted by 
+the system, the system automatically moves the old date from the 
+<strong>Value</strong> <strong>Date</strong> field to the <strong>Previous Unit 
+Value</strong> <strong>Date</strong> field.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
+the <strong>Unit Value</strong> field is changed and the change is accepted by 
+the system, the system automatically moves the old value from the <strong>Unit 
+Value</strong> field to the <strong>Previous</strong> <strong>Unit 
+Value</strong> field.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>In 
+the <strong>Unit Value Source</strong> field, the system displays the name of 
+the source of the most recent change to the <strong>Unit Value 
+</strong>or<strong> Market Valuation </strong>field. This information must be 
+inserted manually: it is not system generated. If the change is a result of 
+input from a pricing file from an outside source, however, the file update <a id="popup_516793" onclick="return d2hpopup(event, this.href)" href="gloss_program.htm">program</a> populates this field automatically.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Calculation of the next income <a id="popup_516791" onclick="return d2hpopup(event, this.href)" href="gloss_paydate.htm">pay 
+date</a> is based upon the process date in the System Values table and the 
+security income pay frequency code selected for the payment. This calculation is 
+updated as a result of the Roll Frequency Dates <a id="popup_516796" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> 
+process.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong>Units Held</strong> represents the total units of the security 
+held by the <a id="popup_516780" onclick="return d2hpopup(event, this.href)" href="gloss_organization1.htm">organization</a>. The system changes the entry as 
+a result of transaction processing that occurs during the Post E-Docs batch 
+process. The units held number is defined by your institution. This number may 
+reflect up to five decimal positions to allow for fractional shares.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+security carry value is automatically changed during transaction processing in 
+the Post E-Docs batch process. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+entry in the <strong>Security Carry Value</strong> field is restricted to two 
+decimal places and is stored as such. When a transaction generates a change to 
+the field, the change reflects the <em>exact</em> amount of the carry value of 
+the transaction as calculated and rounded according to standard <a id="popup_516801" onclick="return d2hpopup(event, this.href)" href="gloss_kem.htm">KEM</a> rules.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+system changes the entry in the <strong>Last Transaction Date</strong> field 
+each time the number of units and/or carry value is modified as a result of 
+transaction processing. The date always reflects the process date in the System 
+Values table at the time the transaction was posted during the Post E-Docs batch 
+process.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+you change the <a id="popup_516790" onclick="return d2hpopup(event, this.href)" href="gloss_dividend.htm">dividend</a> amount, the system multiplies the changed 
+value by 4, enters the result rounded to five decimals into the <strong>Interest 
+Rate or Amount</strong> field, and changes the <strong>Last Income Change Date 
+</strong>entry to reflect the current process date. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+system derives the <strong>Reporting <a id="popup_516798" onclick="return d2hpopup(event, this.href)" href="gloss_group1.htm">Group</a></strong> entry from the class code of the 
+security.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong>Accrual Method</strong> entry is derived from the class code of the 
+security.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Valuation:</p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>If the security class code has 
+a valuation method of ‘U’ (Units), you must enter a unit value. An overnight 
+batch process updates the market value based upon this new value.</p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>If the security class code has 
+a valuation method of ‘M’ (Market), you must enter a market valuation for the 
+security. The system then calculates the new unit value with this formula: 
+Market Valuation divided by Units Held = new Unit Value.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Entry 
+in the <strong>Next <a id="popup_516784" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">Fiscal 
+Year</a> Distribution Amount </strong>field is valid only for securities with a 
+Class Code Type of ‘P’ (Pooled Funds).</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>As a 
+part of the KEM Batch Update Holding History process, the field <strong>Next 
+Fiscal Year Distribution Amount</strong> is automatically updated to zero at 
+fiscal year end.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>For 
+the Security Detail <a id="popup_516795" onclick="return d2hpopup(event, this.href)" href="gloss_inquiry.htm">Inquiry</a> 
+screen and for the Security <a id="popup_516779" onclick="return d2hpopup(event, this.href)" href="gloss_maintenancedocument.htm">Maintenance Document</a> screen in edit 
+mode, the value in the <strong>Market Value</strong> field equals the sum of the 
+holding market value for all records for the security. </p>
 <p class="RelatedHead">More:</p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing77.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Routing</a></p></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing75.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Routing</a></p></div></div></body></html>

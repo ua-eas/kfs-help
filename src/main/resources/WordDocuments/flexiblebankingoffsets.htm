@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Flexible Banking Offsets</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Overview.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS_4_Core.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="flexibleoffset.htm"></a><a id="D2HNextAnchor" href="flexibleoffsetsbyaccount.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="flexibleoffsetoptions.htm"></a><a id="D2HNextAnchor" href="flexibleoffsetsbyaccount.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,16 +86,17 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General Ledger 
-(G/L)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="flexibleoffset.htm">Flexible Offset</a></div>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="flexibleoffsetoptions.htm">Flexible Offset 
+Options</a></div>
 <h4>Flexible Banking Offsets</h4>
-<p class="MsoBodyText"><a id="popup_714702" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">Document</a> types that require a <a id="popup_714707" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> to 
-specify a <a id="popup_714697" onclick="return d2hpopup(event, this.href)" href="gloss_bankaccount.htm">bank account</a> number (such as the <a id="popup_714694" onclick="return d2hpopup(event, this.href)" href="gloss_advancedeposit1.htm">Advance Deposit</a> or <a id="popup_714693" onclick="return d2hpopup(event, this.href)" href="gloss_creditcardreceipt1.htm">Credit Card Receipt</a> documents) can apply 
-<a id="popup_714703" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> entries to a special <a id="popup_714701" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> associated with this <a id="popup_714706" onclick="return d2hpopup(event, this.href)" href="gloss_bank1.htm">bank</a> 
-account number. If the ENABLE_BANK_SPECIFICATION_IND <a id="popup_714700" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> is set to 'Y,' an additional set of <a id="popup_714705" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> entries is created to a designated accounting 
-string (<a id="popup_714704" onclick="return d2hpopup(event, this.href)" href="gloss_chart1.htm">chart</a>, account, <a id="popup_714699" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">sub-account</a>, <a id="popup_714698" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
-code</a>, and <a id="popup_714695" onclick="return d2hpopup(event, this.href)" href="gloss_subobjectcode1.htm">sub-object code</a>) defined in the Bank 
+<p class="MsoBodyText"><a id="popup_504873" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">Document</a> types that require a <a id="popup_504878" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> to 
+specify a <a id="popup_504868" onclick="return d2hpopup(event, this.href)" href="gloss_bankaccount.htm">bank account</a> number (such as the <a id="popup_504865" onclick="return d2hpopup(event, this.href)" href="gloss_advancedeposit1.htm">Advance Deposit</a> or <a id="popup_504864" onclick="return d2hpopup(event, this.href)" href="gloss_creditcardreceipt1.htm">Credit Card Receipt</a> documents) can apply 
+<a id="popup_504874" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> entries to a special <a id="popup_504872" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> associated with this <a id="popup_504877" onclick="return d2hpopup(event, this.href)" href="gloss_bank1.htm">bank</a> 
+account number. If the ENABLE_BANK_SPECIFICATION_IND <a id="popup_504871" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> is set to 'Y,' an additional set of <a id="popup_504876" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> entries is created to a designated accounting 
+string (<a id="popup_504875" onclick="return d2hpopup(event, this.href)" href="gloss_chart1.htm">chart</a>, account, <a id="popup_504870" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">sub-account</a>, <a id="popup_504869" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
+code</a>, and <a id="popup_504866" onclick="return d2hpopup(event, this.href)" href="gloss_subobjectcode1.htm">sub-object code</a>) defined in the Bank 
 document. These entries occur in addition to the normally generated cash offsets 
 created to balance a set of transactions. In effect, they reclassify the generic 
 cash entry to a bank-specific cash entry for reconciliation and tracking 
@@ -106,10 +107,10 @@ bank-specific entry is not performed.</p>
 on which a bank code should appear. This information, which is specified in the 
 BANK_CODE_DOCUMENT_TYPES parameter, allows you to specify bank information on 
 additional document types that create disbursements or record revenue. A default 
-Bank Code value should be established for each <a id="popup_714696" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> by using the 
+Bank Code value should be established for each <a id="popup_504867" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> by using the 
 DEFAULT_BANK_BY_DOCUMENT_TYPE parameter.</p>
-<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image297_0.png" border="0" />   For more information about the Bank Account document, see 
-<a href="offsetaccount.htm">Offset Account</a> in the <i>Guide to the <a id="popup_714708" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> Maintenance Menu</i>.</p>
+<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image159_4.png" />   For more information about the 
+Bank Account document, see <a href="offsetaccount.htm">Offset Account</a>.</p>
 <p class="Note"><span style="DISPLAY: none; COLOR: green"></span></p>
 <p class="RelatedHead">More:</p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="flexibleoffsetsbyaccount.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Flexible Offsets by 

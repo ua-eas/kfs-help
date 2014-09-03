@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Collector XML Upload Format</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Administration.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS_4_Core.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -86,14 +86,15 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="administrationmenu.htm">Administration Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="batch.htm">Batch</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="generalledger1.htm">General 
-Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="collectorxmlupload.htm">Collector XML 
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glbatchfunctions.htm">GL Batch 
+Functions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="collectorxmlupload.htm">Collector XML 
 Upload</a></div>
 <h5>Collector XML Upload Format </h5>
-<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image320_1.png" />   For information on procedures and 
-formatting rules that apply to all <a id="popup_732054" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> <a id="popup_732051" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> uploads on the administration menu, see <a href="batch.htm">Batch</a>.</p>
-<p class="MsoBodyText">Keep the following points in mind about the <a id="popup_732055" onclick="return d2hpopup(event, this.href)" href="gloss_xml.htm">XML</a> <a id="popup_732048" onclick="return d2hpopup(event, this.href)" href="gloss_collector.htm">Collector</a> format:</p>
+<p class="MsoBodyText">In addition to the standard formatting rules that apply to 
+all <a id="popup_505386" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> upload file formats, keep the following points 
+in mind about the <a id="popup_505390" onclick="return d2hpopup(event, this.href)" href="gloss_xml.htm">XML</a> <a id="popup_505383" onclick="return d2hpopup(event, this.href)" href="gloss_collector.htm">Collector</a> format:</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 file must begin with the standard XML version line such as:</p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;?xml version="1.0" 
@@ -101,10 +102,10 @@ encoding="UTF-8"?&gt;</span></span></p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 root (first) tag for collector files must be the &lt;batch&gt; tag, and the file 
 must contain only one &lt;batch&gt;&lt;/batch&gt; tag. This tag also contains 
-attributes that identify the schema the <a id="popup_732049" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> adheres to, such as:</p>
+attributes that identify the schema the <a id="popup_505384" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> adheres to, such as:</p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;batch xmlns=</span></span><a href="http://www.kuali.org/kfs/gl/collector"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt; TEXT-DECORATION: none; text-underline: none">http://www.kuali.org/kfs/gl/collector</span></span></a><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt"></span></span></p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance</span></span></p>
-<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">xsi:schemaLocation="http://www.<a id="popup_732052" onclick="return d2hpopup(event, this.href)" href="gloss_kuali.htm">kuali</a>.org/kfs/gl/collector 
+<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">xsi:schemaLocation="http://www.<a id="popup_505387" onclick="return d2hpopup(event, this.href)" href="gloss_kuali.htm">kuali</a>.org/<a id="popup_505389" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">kfs</a>/gl/collector 
 https://test.kuali.org/kuali-reg/static/xsd/gl/collector.xsd" 
 &gt;</span></span></p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
@@ -125,10 +126,10 @@ table.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 sequence of &lt;glEntry&gt; and &lt;detail&gt; tags can repeat one or many 
 times. Since the &lt;detail&gt; tag is optional in each sequence, there can be 
-many &lt;glEntry&gt; tags <a id="popup_732053" onclick="return d2hpopup(event, this.href)" href="gloss_back.htm">back</a> to 
+many &lt;glEntry&gt; tags <a id="popup_505388" onclick="return d2hpopup(event, this.href)" href="gloss_back.htm">back</a> to 
 back. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<a id="popup_732050" onclick="return d2hpopup(event, this.href)" href="gloss_final.htm">final</a> tag required for a collector batch file is the 
+<a id="popup_505385" onclick="return d2hpopup(event, this.href)" href="gloss_final.htm">final</a> tag required for a collector batch file is the 
 &lt;trailer&gt; tag. This contains tags for reconciliation of the file. The file 
 must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
 <p class="TableHeading" style="MARGIN-RIGHT: 0pt">GL XML Collector format</p>

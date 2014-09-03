@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__101785", [["WordDocuments/chartofaccounts.htm", "right", "Chart of Accounts"],["WordDocuments/subobjectcode.htm", "right", "Sub-Object Code"]]);

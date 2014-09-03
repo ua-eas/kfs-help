@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Maintenance.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS 4_1_System_Admin.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview109.htm"></a><a id="D2HNextAnchor" href="example70.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview112.htm"></a><a id="D2HNextAnchor" href="routing96.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,47 +86,24 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="maintenancemenu.htm">Maintenance Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="budgetconstruction1.htm">Budget Construction</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="budgetconstructionposition.htm">Budget Construction Position</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview109.htm">Process Overview</a></div>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="systemadministration.htm">System Administration</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="system1.htm">System</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="identity.htm">Identity</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="person.htm">Person</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="processoverview112.htm">Process 
+Overview</a></div>
 <h6>Business Rules</h6>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Fields marked required must be filled in.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-set of required fields for a position can be relaxed, but the minimum set must 
-include <strong>Position Number</strong>, <strong>University <a id="popup_730779" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">Fiscal 
-Year</a></strong>, <strong>Position Description</strong>, <strong>Position 
-Effective <a id="popup_730781" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">Status</a></strong>, <strong>Budgeted Position</strong>, 
-<strong>Position Standard Hours Default</strong>, <strong>Position Full Time 
-Equivalency</strong>, <strong>Normal Work Months</strong>, <strong>Pay 
-Months</strong>, and <strong>Default <a id="popup_730778" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">Object 
-Code</a></strong>.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong>Position Full Time Equivalency</strong> field is calculated from other 
-required field values.</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong>Position Full Time Equivalency</strong> = <strong>Position 
-Standard Hours Default</strong>/40 * <strong>Normal Work 
-Months</strong>/<strong>Pay Months</strong></p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Example: 0.50 = 20/40 * 12/12</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Example: 0.50 = 20/40 * 10/10</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Example: 1.00 = 40/40 * 12/12</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>We 
-recommend that the <strong>Department ID</strong> field be a concatenation of 
-the <strong><a id="popup_730775" onclick="return d2hpopup(event, this.href)" href="gloss_chartofaccounts2.htm"><strong>Chart of Accounts</strong></a> 
-Code</strong> and <strong><a id="popup_730776" onclick="return d2hpopup(event, this.href)" href="gloss_organizationcode.htm"><strong>Organization 
-Code</strong></a></strong> values in the <a id="popup_730782" onclick="return d2hpopup(event, this.href)" href="gloss_chart1.htm">Chart</a> <a id="popup_730777" onclick="return d2hpopup(event, this.href)" href="gloss_organization1.htm">Organization</a> table (CA_ORG_T) and that 
-validation be implemented by the implementing institution. Further, we recommend 
-that the <strong>Default Object </strong>field value validation go against the 
-Chart Object table (CA_OBJECT_CODE_T) using the <strong>University Fiscal 
-Year</strong> field value and <strong>Chart of <a id="popup_730780" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">Account</a> Code</strong> value from the 
-<strong>Department ID</strong> field.</p>
-<p class="Note"><img alt="exclaim" src="../ImagesExt/image321_5.png" />     Any removal of fields 
-from the set of required fields involved in the Salary Setting business rules 
-requires disabling of the associated rule. </p>
-<p class="Note"><img alt="exclaim" src="../ImagesExt/image321_5.png" />     These rules may be 
-mitigated if the position table is populated through a process built by the 
-implementing institution.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A 
+person must have at least one affiliation.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Each 
+faculty or staff affiliation must have at least one Employment Information 
+record associated with it.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If a 
+person has any faculty or staff affiliations then one Employment Information 
+record must be marked as 'primary.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Each 
+person must have a default Name record in the Contacts section.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Each 
+affiliation must be associated with a <a id="popup_521160" onclick="return d2hpopup(event, this.href)" href="gloss_campus1.htm">campus</a>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Each 
+type of contact information can have only one record marked as the default.</p>
 <p class="RelatedHead">More:</p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="example70.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Example</a></p></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing96.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Routing</a></p></div></div></body></html>

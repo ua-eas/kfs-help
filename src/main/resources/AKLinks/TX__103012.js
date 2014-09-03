@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__103012", [["WordDocuments/documentlayout286.htm", "right", "Document Layout"],["WordDocuments/transactionvalidationscrubber.htm", "right", "Transaction Validation ('Scrubber')"]]);

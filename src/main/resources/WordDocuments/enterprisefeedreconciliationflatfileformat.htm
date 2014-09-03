@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Enterprise Feed Reconciliation Flat File Format</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Administration.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS_4_Core.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="generalledgerflatfileformat.htm"></a><a id="D2HNextAnchor" href="systembatchsubmenu.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="generalledgerflatfileformat.htm"></a><a id="D2HNextAnchor" href="chartofaccountscoa.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,18 +86,20 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="administrationmenu.htm">Administration Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="batch.htm">Batch</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="generalledger1.htm">General 
-Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="enterprisefeedupload.htm">Enterprise Feed 
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glbatchfunctions.htm">GL Batch 
+Functions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="enterprisefeedupload.htm">Enterprise Feed 
 Upload</a></div>
 <h5>Enterprise Feed Reconciliation Flat File Format </h5>
-<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image320_1.png" border="0" />   For information on procedures that apply to all <a id="popup_732094" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> <a id="popup_732093" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> 
-uploads on the administration menu, see <a href="batch.htm">Batch</a>.</p>
+<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image159_4.png" border="0" />   For information on procedures that apply to all <a id="popup_505429" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> <a id="popup_505428" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> 
+uploads on the Administration menu, see <a href="batchuploadbasics.htm">Batch 
+Upload Basics</a>.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-using the Enterprise Batch Feed upload, you must <a id="popup_732092" onclick="return d2hpopup(event, this.href)" href="gloss_submit.htm">submit</a> a 
+using the Enterprise Batch Feed upload, you must <a id="popup_505427" onclick="return d2hpopup(event, this.href)" href="gloss_submit.htm">submit</a> a 
 reconciliation (recon) file along with the entry file. This file verifies the 
 count of records and the dollar amount of your entry file. If these files do not 
-reconcile, KFS will not process the file and will generate an error <a id="popup_732091" onclick="return d2hpopup(event, this.href)" href="gloss_message.htm">message</a> on the <a id="popup_732090" onclick="return d2hpopup(event, this.href)" href="gloss_enterprisefeed.htm">Enterprise Feed</a> report.</p>
+reconcile, KFS will not process the file and will generate an error <a id="popup_505426" onclick="return d2hpopup(event, this.href)" href="gloss_message.htm">message</a> on the <a id="popup_505425" onclick="return d2hpopup(event, this.href)" href="gloss_enterprisefeed.htm">Enterprise Feed</a> report.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 file will contain three types of rows as detailed below. Each element of each 
 row must be separated by a single space and each row ends with a semi-colon.</p>
@@ -159,4 +161,4 @@ flat file format</p>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 136pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="181">
       <p class="TableCells"> </p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="systembatchsubmenu.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />System (Batch submenu)</a></p></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="chartofaccountscoa.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Chart of Accounts (COA)</a></p></div></div></body></html>

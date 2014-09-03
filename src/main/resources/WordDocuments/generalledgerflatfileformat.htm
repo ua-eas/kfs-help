@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>General Ledger Flat File Format</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Administration.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS_4_Core.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -86,16 +86,17 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="administrationmenu.htm">Administration Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="batch.htm">Batch</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="generalledger1.htm">General 
-Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="enterprisefeedupload.htm">Enterprise Feed 
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glbatchfunctions.htm">GL Batch 
+Functions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="enterprisefeedupload.htm">Enterprise Feed 
 Upload</a></div>
 <h5>General Ledger Flat File Format </h5>
-<p class="MsoBodyText">This format can be used to upload documents via the <a id="popup_732067" onclick="return d2hpopup(event, this.href)" href="gloss_generalledgercorrectionprocess1.htm">General Ledger Correction 
-Process</a> <a id="popup_732086" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> or used as a data file for the Enterprise 
-<a id="popup_732087" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">Batch</a> Feed upload. </p>
+<p class="MsoBodyText">This format can be used to upload documents via the <a id="popup_505402" onclick="return d2hpopup(event, this.href)" href="gloss_generalledgercorrectionprocess1.htm">General Ledger Correction 
+Process</a> <a id="popup_505421" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> or used as a data file for the Enterprise 
+<a id="popup_505422" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">Batch</a> Feed upload. </p>
 <p class="MsoBodyText">No header or trailer records are required for these files. 
-They should contain only the <a id="popup_732073" onclick="return d2hpopup(event, this.href)" href="gloss_generalledger2.htm">General Ledger</a> entries.</p>
+They should contain only the <a id="popup_505408" onclick="return d2hpopup(event, this.href)" href="gloss_generalledger.htm">General Ledger</a> entries.</p>
 <p class="TableHeading" style="MARGIN-RIGHT: 0pt">General Ledger flat file 
 format</p>
 <table class="MsoNormalTable" style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-LEFT: 5.4pt; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="1">
@@ -112,7 +113,7 @@ format</p>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells">Special Formatting</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268"><a id="popup_732081" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268"><a id="popup_505416" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">
       <p class="TableCells">Fiscal Year</p>
       <p class="TableCells"></p></a> </td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
@@ -125,7 +126,7 @@ format</p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
-      <p class="TableCells"><a id="popup_732069" onclick="return d2hpopup(event, this.href)" href="gloss_chartofaccounts2.htm">Chart of Accounts</a> Code</p></td>
+      <p class="TableCells"><a id="popup_505404" onclick="return d2hpopup(event, this.href)" href="gloss_chartofaccounts1.htm">Chart of Accounts</a> Code</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">5</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
@@ -133,11 +134,11 @@ format</p>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
-      <p class="TableCells">Can be left blank if the GL Pre-<a id="popup_732085" onclick="return d2hpopup(event, this.href)" href="gloss_scrubber.htm">Scrubber</a> is being used and accounts do not 
+      <p class="TableCells">Can be left blank if the GL Pre-<a id="popup_505420" onclick="return d2hpopup(event, this.href)" href="gloss_scrubber.htm">Scrubber</a> is being used and accounts do not 
       cross charts</p></td></tr>
   <tr>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
-      <p class="TableCells"><a id="popup_732084" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">Account</a> Number</p></td>
+      <p class="TableCells"><a id="popup_505419" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">Account</a> Number</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">7</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
@@ -148,7 +149,7 @@ format</p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
-      <p class="TableCells"><a id="popup_732082" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">Sub-Account</a> Number</p></td>
+      <p class="TableCells"><a id="popup_505417" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">Sub-Account</a> Number</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">14</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
@@ -158,7 +159,7 @@ format</p>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268"><a id="popup_732079" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268"><a id="popup_505414" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">
       <p class="TableCells">Object Code</p>
       <p class="TableCells"></p></a> </td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
@@ -170,7 +171,7 @@ format</p>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268"><a id="popup_732071" onclick="return d2hpopup(event, this.href)" href="gloss_subobjectcode1.htm">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268"><a id="popup_505406" onclick="return d2hpopup(event, this.href)" href="gloss_subobjectcode1.htm">
       <p class="TableCells">Sub-Object Code</p>
       <p class="TableCells"></p></a> </td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
@@ -183,7 +184,7 @@ format</p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
-      <p class="TableCells"><a id="popup_732076" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">Balance Type</a> Code</p></td>
+      <p class="TableCells"><a id="popup_505411" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">Balance Type</a> Code</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">26</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
@@ -194,7 +195,7 @@ format</p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
-      <p class="TableCells"><a id="popup_732080" onclick="return d2hpopup(event, this.href)" href="gloss_objecttype1.htm">Object Type</a> Code</p></td>
+      <p class="TableCells"><a id="popup_505415" onclick="return d2hpopup(event, this.href)" href="gloss_objecttype1.htm">Object Type</a> Code</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">28</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
@@ -205,7 +206,7 @@ format</p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
-      <p class="TableCells"><a id="popup_732074" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalperiod.htm">Fiscal Period</a> Code</p></td>
+      <p class="TableCells"><a id="popup_505409" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalperiod.htm">Fiscal Period</a> Code</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">30</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
@@ -216,7 +217,7 @@ format</p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
-      <p class="TableCells"><a id="popup_732075" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">Document Type</a> Code</p></td>
+      <p class="TableCells"><a id="popup_505410" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">Document Type</a> Code</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">32</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
@@ -227,7 +228,7 @@ format</p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
-      <p class="TableCells">System <a id="popup_732070" onclick="return d2hpopup(event, this.href)" href="gloss_originationcode1.htm">Origination Code</a></p></td>
+      <p class="TableCells">System <a id="popup_505405" onclick="return d2hpopup(event, this.href)" href="gloss_originationcode1.htm">Origination Code</a></p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">36</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
@@ -238,7 +239,7 @@ format</p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
-      <p class="TableCells">Financial <a id="popup_732072" onclick="return d2hpopup(event, this.href)" href="gloss_documentnumber.htm">Document Number</a></p></td>
+      <p class="TableCells">Financial <a id="popup_505407" onclick="return d2hpopup(event, this.href)" href="gloss_documentnumber.htm">Document Number</a></p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">38</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
@@ -304,7 +305,7 @@ format</p>
       <p class="TableCells">YYYY-MM-DD format</p></td></tr>
   <tr>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
-      <p class="TableCells"><a id="popup_732077" onclick="return d2hpopup(event, this.href)" href="gloss_organization1.htm">Organization</a> Document Number</p></td>
+      <p class="TableCells"><a id="popup_505412" onclick="return d2hpopup(event, this.href)" href="gloss_organization1.htm">Organization</a> Document Number</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">129</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
@@ -314,7 +315,7 @@ format</p>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268"><a id="popup_732078" onclick="return d2hpopup(event, this.href)" href="gloss_projectcode1.htm">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268"><a id="popup_505413" onclick="return d2hpopup(event, this.href)" href="gloss_projectcode1.htm">
       <p class="TableCells">Project Code</p>
       <p class="TableCells"></p></a> </td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
@@ -338,7 +339,7 @@ format</p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
-      <p class="TableCells"><a id="popup_732068" onclick="return d2hpopup(event, this.href)" href="gloss_referencedocument.htm">Reference Document</a> Type Code</p></td>
+      <p class="TableCells"><a id="popup_505403" onclick="return d2hpopup(event, this.href)" href="gloss_referencedocument.htm">Reference Document</a> Type Code</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">157</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
@@ -382,7 +383,7 @@ format</p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
-      <p class="TableCells"><a id="popup_732083" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">Encumbrance</a> Update Code</p></td>
+      <p class="TableCells"><a id="popup_505418" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">Encumbrance</a> Update Code</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">187</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">

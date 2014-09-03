@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Cost Share Transfers</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Overview.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS_4_Core.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -86,49 +86,48 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General Ledger 
-(G/L)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerglprocess.htm">General Ledger G/L 
-Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactionvalidationscrubber.htm">Transaction 
-Validation ('Scrubber')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="transactiongeneration.htm">Transaction Generation</a></div>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactionvalidationscrubber.htm">Transaction Validation 
+('Scrubber')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactiongeneration.htm">Transaction 
+Generation</a></div>
 <h6>Cost Share Transfers</h6>
-<p class="MsoBodyText">Cost sharing allows for sharing of costs related to <a id="popup_714418" onclick="return d2hpopup(event, this.href)" href="gloss_contractsandgrants.htm">Contracts and Grants</a> accounts. Expenses 
-associated with a grant or contract that are not paid by the sponsoring <a id="popup_714433" onclick="return d2hpopup(event, this.href)" href="gloss_agency1.htm">agency</a> are considered to be <a id="popup_714429" onclick="return d2hpopup(event, this.href)" href="gloss_costshare.htm">cost 
-share</a>, and the <a id="popup_714437" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> can 
-track these expenses in special cost share sub-accounts. A cost share <a id="popup_714428" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">sub-account</a> is created as part of the contract 
-or grant <a id="popup_714431" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> for which costs are being shared. The 
+<p class="MsoBodyText">Cost sharing allows for sharing of costs related to <a id="popup_504607" onclick="return d2hpopup(event, this.href)" href="gloss_contractsandgrants.htm">Contracts and Grants</a> accounts. Expenses 
+associated with a grant or contract that are not paid by the sponsoring <a id="popup_504622" onclick="return d2hpopup(event, this.href)" href="gloss_agency1.htm">agency</a> are considered to be <a id="popup_504618" onclick="return d2hpopup(event, this.href)" href="gloss_costshare.htm">cost 
+share</a>, and the <a id="popup_504626" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> can 
+track these expenses in special cost share sub-accounts. A cost share <a id="popup_504617" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">sub-account</a> is created as part of the contract 
+or grant <a id="popup_504620" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> for which costs are being shared. The 
 sub-account is also assigned a 'source account' that identifies the account that 
 actually bears the expenses that are being shared.</p>
 <p class="MsoBodyText">Cost share transfers involve transferring funds into a 
 Contracts and Grants cost share sub-account (to record income), from the source 
 account (to record the charge).</p>
 <p class="MsoBodyText">Any expense that occurs on a cost share sub-account is 
-eligible for this <a id="popup_714420" onclick="return d2hpopup(event, this.href)" href="gloss_transferoffunds1.htm">transfer of funds</a>. Expenses occurring on 
-selected <a id="popup_714432" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> types may be excluded from the generation 
-of cost share by adding them to the COST_SHARE_DOCUMENT_TYPES <a id="popup_714430" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a>. In the base data, the <a id="popup_714422" onclick="return d2hpopup(event, this.href)" href="gloss_journalvoucher1.htm">journal voucher</a> or <a id="popup_714419" onclick="return d2hpopup(event, this.href)" href="gloss_auxiliaryvoucher1.htm">auxiliary voucher</a> (<a id="popup_714426" onclick="return d2hpopup(event, this.href)" href="gloss_accrualtype.htm">accrual 
+eligible for this <a id="popup_504609" onclick="return d2hpopup(event, this.href)" href="gloss_transferoffunds1.htm">transfer of funds</a>. Expenses occurring on 
+selected <a id="popup_504621" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> types may be excluded from the generation 
+of cost share by adding them to the COST_SHARE_DOCUMENT_TYPES <a id="popup_504619" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a>. In the base data, the <a id="popup_504611" onclick="return d2hpopup(event, this.href)" href="gloss_journalvoucher1.htm">journal voucher</a> or <a id="popup_504608" onclick="return d2hpopup(event, this.href)" href="gloss_auxiliaryvoucher1.htm">auxiliary voucher</a> (<a id="popup_504615" onclick="return d2hpopup(event, this.href)" href="gloss_accrualtype.htm">accrual 
 type</a>) are excluded from cost share generation via this parameter.</p>
 <p class="MsoBodyText">In order to qualify for cost share transfers, the 
 transaction must:</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>be 
-associated with an expense <a id="popup_714427" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
+associated with an expense <a id="popup_504616" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
 code</a> type (defined in the COST_SHARE_OBJECT_TYPES parameter)</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>have 
-a <a id="popup_714425" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">balance type</a> of 'Actuals,' and</p>
+a <a id="popup_504614" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">balance type</a> of 'Actuals,' and</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>be on 
-a Contracts and Grants account and a sub-account with a sub-<a id="popup_714424" onclick="return d2hpopup(event, this.href)" href="gloss_accounttype1.htm">account type</a> of 
+a Contracts and Grants account and a sub-account with a sub-<a id="popup_504613" onclick="return d2hpopup(event, this.href)" href="gloss_accounttype1.htm">account type</a> of 
 <strong>'</strong>CS<strong>.'</strong></p>
 <p class="MsoBodyText">Cost share transfers are posted at a summary level. For the 
-income side of the transfer the <a id="popup_714423" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> is 'TF (Transfer of Funds)' and 
+income side of the transfer the <a id="popup_504612" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> is 'TF (Transfer of Funds)' and 
 the object code is an institutionally-defined transfer of funds revenues code 
 (defined by the COST_SHARE_OBJECT_CODE parameter). The origin code of the 
-transaction is set to 'CS<strong> </strong>(cost share),' the <a id="popup_714421" onclick="return d2hpopup(event, this.href)" href="gloss_documentnumber.htm">document number</a> is pre-fixed with 'CSHR,' 
+transaction is set to 'CS<strong> </strong>(cost share),' the <a id="popup_504610" onclick="return d2hpopup(event, this.href)" href="gloss_documentnumber.htm">document number</a> is pre-fixed with 'CSHR,' 
 the transaction description is set to 'Generated Cost Share from account XXXXXXX 
 MM/DD,' and the transaction date is set to the run date of the process. An 
-appropriate <a id="popup_714434" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> to <a id="popup_714436" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> for 
+appropriate <a id="popup_504623" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> to <a id="popup_504625" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> for 
 the income side of the transfer is also generated.</p>
 <p class="MsoBodyText">For the expense side of the transfer, much of the above 
-logic applies with a few changes. The <a id="popup_714435" onclick="return d2hpopup(event, this.href)" href="gloss_chart1.htm">chart</a>, 
+logic applies with a few changes. The <a id="popup_504624" onclick="return d2hpopup(event, this.href)" href="gloss_chart1.htm">chart</a>, 
 account, and sub-account for the source account that was found on the 
 sub-account table are used. The transaction description is set to 'Generated 
 Cost Share from account XXXXXXX MM/DD.' The correct object code to use for the 

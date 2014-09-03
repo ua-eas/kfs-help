@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Open and Closed Encumbrance Amounts</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Overview.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/KFS_4_Core.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -86,29 +86,28 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General Ledger 
-(G/L)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerglprocess.htm">General Ledger G/L 
-Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glpostingposter.htm">G/L Posting 
-('Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glaccountbalancepostingmainposter.htm">G/L 
-Account Balance Posting ('Main Poster')</a></div>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glpostingposter.htm">GL Posting ('Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glaccountbalancepostingmainposter.htm">GL Account Balance Posting ('Main 
+Poster')</a></div>
 <h6>Open and Closed Encumbrance Amounts</h6>
-<p class="MsoBodyText">When posting the <a id="popup_714527" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a> <a id="popup_714523" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">encumbrance</a> entries associated with a new 
-encumbrance, a new entry in the G/L Encumbrance table is added with the 
+<p class="MsoBodyText">When posting the GL <a id="popup_504706" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">encumbrance</a> entries associated with a new 
+encumbrance, a new entry in the GL Encumbrance table is added with the 
 encumbrance amount set to the total entry amount. This is accomplished by 
 passing entries to the accounting cycle with a 'D' in the Encumbrance Update 
 Code. This entry tells 'Poster' to insert or update a row into the Open 
-Encumbrance file using the <a id="popup_714521" onclick="return d2hpopup(event, this.href)" href="gloss_documentnumber.htm">document number</a> and to put the amount in the 
+Encumbrance file using the <a id="popup_504704" onclick="return d2hpopup(event, this.href)" href="gloss_documentnumber.htm">document number</a> and to put the amount in the 
 Open Amount column. When posting any subsequent adjustment to that encumbrance, 
-increases or decreases are made to the Encumbrance <a id="popup_714525" onclick="return d2hpopup(event, this.href)" href="gloss_close.htm">Close</a> 
+increases or decreases are made to the Encumbrance <a id="popup_504708" onclick="return d2hpopup(event, this.href)" href="gloss_close.htm">Close</a> 
 Amount column for that item by passing entries to the accounting cycle with an 
 'R' in the Encumbrance Update Code. This value tells 'Poster' to insert or 
-update a row in the Open Encumbrance file using the <a id="popup_714520" onclick="return d2hpopup(event, this.href)" href="gloss_referencedocument.htm">reference document</a> number of the entry 
+update a row in the Open Encumbrance file using the <a id="popup_504703" onclick="return d2hpopup(event, this.href)" href="gloss_referencedocument.htm">reference document</a> number of the entry 
 and to adjust the amount in the Closed Amount column. Consequently, the Open 
 Encumbrance file shows both the amount of the original encumbrance (open amount) 
 and the amount of the encumbrance that has been relieved (closed amount).</p>
-<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image297_0.png" border="0" />   These entries may easily be viewed in the application 
-through the Open Encumbrance report. For more information see <a href="balanceinquiries.htm">Balance Inquiries</a> in the <i>Guide to the <a id="popup_714526" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> Main Menu</i>. </p>
+<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image159_4.png" />   These entries may easily be 
+viewed in the application through the Open Encumbrance report. For more 
+information see <a href="glinquiriesbasicinformation.htm">GL Inquiries<span style="DISPLAY: none">: Basic Information</span></a>. </p>
 <p class="TableHeading">Encumbrance update business rules</p>
 <table class="MsoNormalTable" style="MARGIN-LEFT: 5.75pt; WIDTH: 376.55pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="502" border="0">
   <tbody>
@@ -123,13 +122,13 @@ through the Open Encumbrance report. For more information see <a href="balancein
       <p class="TableCells">Encumbrance Amount Updated</p></td></tr>
   <tr style="page-break-inside: avoid">
     <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="94" rowspan="2">
-      <p class="TableCells">D (<a id="popup_714524" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">Document</a>)</p></td>
+      <p class="TableCells">D (<a id="popup_504707" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">Document</a>)</p></td>
     <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 75.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="101">
       <p class="TableCells">'D' (Debit) or blank</p></td>
     <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 68.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="91">
       <p class="TableCells">+ (Add)</p></td>
     <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 162pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="216" rowspan="2">
-      <p class="TableCells">Encumbrance Amount for the particular <a id="popup_714522" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">Document Type</a>, Origin Code, Document 
+      <p class="TableCells">Encumbrance Amount for the particular <a id="popup_504705" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">Document Type</a>, Origin Code, Document 
       Number</p></td></tr>
   <tr style="page-break-inside: avoid">
     <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 75.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="101">

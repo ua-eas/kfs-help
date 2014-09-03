@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__103104", [["WordDocuments/mainmenu.htm", "right", "Main Menu"],["WordDocuments/yearendtransactions.htm", "right", "Year End Transactions"]]);

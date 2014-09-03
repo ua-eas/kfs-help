@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__73772", [["WordDocuments/generalledgerbalance.htm", "right", "General Ledger Balance"],["WordDocuments/lookupcriteria3.htm", "right", "Lookup Criteria"]]);
