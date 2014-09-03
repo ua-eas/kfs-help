@@ -91,34 +91,25 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="enterprisefeedupload.htm">Enterprise Feed 
 Upload</a></div>
 <h5>Enterprise Feed Reconciliation Flat File Format </h5>
-<table class="MsoNormalTable" style="WIDTH: 437.4pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="583" border="0">
-  <tbody>
-  <tr>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 113.4pt; PADDING-TOP: 0pt" valign="top" width="151">
-      <p class="MarginalNote-Symbol"><img alt="go-arrow-red" src="../ImagesExt/image38_1.png" border="0" /></p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 324pt; PADDING-TOP: 0pt" valign="top" width="432">
-      <div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; MARGIN-TOP: 9pt; PADDING-LEFT: 4pt; MARGIN-BOTTOM: 6pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid">
-      <p class="Note" style="MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt">For information 
-      on procedures that apply to all <a id="popup_473956" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> 
-      <a id="popup_473955" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> uploads on the administration menu, see 
-      <a href="batch.htm">Batch</a>.</p></div></td></tr></tbody></table>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-using the Enterprise Batch Feed upload, you must <a id="popup_473954" onclick="return d2hpopup(event, this.href)" href="gloss_submit.htm">submit</a> a 
+<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image320_1.png" border="0" />   For information on procedures that apply to all <a id="popup_732094" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> <a id="popup_732093" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> 
+uploads on the administration menu, see <a href="batch.htm">Batch</a>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+using the Enterprise Batch Feed upload, you must <a id="popup_732092" onclick="return d2hpopup(event, this.href)" href="gloss_submit.htm">submit</a> a 
 reconciliation (recon) file along with the entry file. This file verifies the 
 count of records and the dollar amount of your entry file. If these files do not 
-reconcile, KFS will not process the file and will generate an error <a id="popup_473953" onclick="return d2hpopup(event, this.href)" href="gloss_message.htm">message</a> on the <a id="popup_473952" onclick="return d2hpopup(event, this.href)" href="gloss_enterprisefeed.htm">Enterprise Feed</a> report.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+reconcile, KFS will not process the file and will generate an error <a id="popup_732091" onclick="return d2hpopup(event, this.href)" href="gloss_message.htm">message</a> on the <a id="popup_732090" onclick="return d2hpopup(event, this.href)" href="gloss_enterprisefeed.htm">Enterprise Feed</a> report.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 file will contain three types of rows as detailed below. Each element of each 
 row must be separated by a single space and each row ends with a semi-colon.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>A “c” row identifying the 
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>A “c” row identifying the 
 table being impacted (gl_entry_t) and the row count of the data file. For 
 example: <span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">c 
 gl_entry_t 0000000002;</span></span></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span class="ColoredLetter-Gray"><span style="FONT-WEIGHT: normal; COLOR: windowtext; FONT-FAMILY: 'Courier New'">o  
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span class="ColoredLetter-Gray"><span style="FONT-WEIGHT: normal; FONT-SIZE: 11pt; FONT-FAMILY: 'Courier New'">o  
 </span></span>An “S” row identifying the field where the dollar amount is found 
 (trn_ldgr_entr_amt) and the dollar amount of the data file. For example: <span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">s trn_ldgr_entr_amt 
-+00000000027680.00;</span></span><span class="ColoredLetter-Gray"><span style="FONT-WEIGHT: normal; COLOR: windowtext; FONT-FAMILY: 'Times New Roman'"></span></span></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>An “e” row identifying the 
++00000000027680.00;</span></span><span class="ColoredLetter-Gray"><span style="FONT-WEIGHT: normal; FONT-SIZE: 11pt"></span></span></p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>An “e” row identifying the 
 number of “c” and “s” rows found in the reconciliation file (always 2 for GL 
 files). For example: <span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">e 02;</span></span></p>
 <p class="C1HContinue">So an entire reconciliation made up of these rows would 
@@ -126,46 +117,46 @@ contain the following:</p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">c gl_entry_t 0000000002;</span></span></p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">s trn_ldgr_entr_amt 
 +00000000027680.00;</span></span></p>
-<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">e 02;</span></span><b><span style="FONT-SIZE: 11pt; COLOR: #999999; FONT-FAMILY: 'Arial Narrow'"></span></b></p>
-<p class="TableHeading">Table 75  Enterprise Feed Reconciliation flat file 
-format</p>
-<table class="MsoNormalTable" style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="1">
+<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">e 02;</span></span><b><span style="FONT-SIZE: 11pt; COLOR: #999999; FONT-FAMILY: 'Arial Narrow','sans-serif'"></span></b></p>
+<p class="TableHeading" style="MARGIN-RIGHT: 0pt">Enterprise Feed Reconciliation 
+flat file format</p>
+<table class="MsoNormalTable" style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-LEFT: 5.4pt; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="1">
   <tbody>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">Name</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
       <p class="TableCells">Length</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Required?</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 136pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="181">
       <p class="TableCells">Special Formatting</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">C row count</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
       <p class="TableCells">10</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 136pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="181">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">S row transaction ledger amount</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
       <p class="TableCells">21</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 136pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="181">
       <p class="TableCells">Signed amount field with 2 decimal places</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">E row checksum total</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 49.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="66">
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 136pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="181">
       <p class="TableCells"> </p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="systembatchsubmenu.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />System (Batch submenu)</a></p></div></div></body></html>

@@ -91,76 +91,67 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="procurementcardupload.htm">Procurement Card 
 Upload</a></div>
 <h5>Procurement Card Upload Format </h5>
-<table class="MsoNormalTable" style="WIDTH: 437.4pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="583" border="0">
-  <tbody>
-  <tr>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 113.4pt; PADDING-TOP: 0pt" valign="top" width="151">
-      <p class="MarginalNote-Symbol"><img alt="go-arrow-red" src="../ImagesExt/image38_1.png" /></p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 324pt; PADDING-TOP: 0pt" valign="top" width="432">
-      <div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; MARGIN-TOP: 9pt; PADDING-LEFT: 4pt; MARGIN-BOTTOM: 6pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid">
-      <p class="Note" style="MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt">For information 
-      on procedures and formatting rules that apply to all <a id="popup_473852" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> 
-      <a id="popup_473848" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> uploads on the administration menu, see 
-      <a href="batch.htm">Batch</a>.</p></div></td></tr></tbody></table>
+<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image320_1.png" />   For information on procedures and 
+formatting rules that apply to all <a id="popup_731989" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> <a id="popup_731986" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> uploads on the administration menu, see <a href="batch.htm">Batch</a>.</p>
 <p class="MsoBodyText">Keep the following points in mind:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-procurement card file must begin with the standard <a id="popup_473851" onclick="return d2hpopup(event, this.href)" href="gloss_xml.htm">XML</a> version 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+procurement card file must begin with the standard <a id="popup_731990" onclick="return d2hpopup(event, this.href)" href="gloss_xml.htm">XML</a> version 
 line. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-root (first) tag for <a id="popup_473850" onclick="return d2hpopup(event, this.href)" href="gloss_pcdo.htm">PCDO</a> files 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+root (first) tag for <a id="popup_731988" onclick="return d2hpopup(event, this.href)" href="gloss_pcdo.htm">PCDO</a> files 
 must be the &lt;procurementCardTransactions&gt; tag, and the file must contain 
 only one &lt; procurementCardTransactions &gt;&lt;/ procurementCardTransactions 
-&gt; tag. This tag also contains attributes that identify the schema the <a id="popup_473847" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> aheres to, such as:</p>
-<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;transactions xmlns="http://www.<a id="popup_473849" onclick="return d2hpopup(event, this.href)" href="gloss_kuali.htm">kuali</a>.org/kfs/fp/procurementCard"</span></span></p>
+&gt; tag. This tag also contains attributes that identify the schema the <a id="popup_731985" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> adheres to, such as:</p>
+<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;transactions xmlns="http://www.<a id="popup_731987" onclick="return d2hpopup(event, this.href)" href="gloss_kuali.htm">kuali</a>.org/kfs/fp/procurementCard"</span></span></p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;</span></span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Following the procurementCardTransactions tag must be the 
-&lt;transaction&gt; tag. This tags contains other identifier tags that describe 
-a procurement card transaction. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+&lt;transaction&gt; tag. This tag contains other identifier tags that describe a 
+procurement card transaction. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 sequence of &lt;transaction&gt;&lt;/transaction&gt; can repeat one or more 
 times. </p>
-<p class="TableHeading">Table 71  Procurement card format</p>
-<table class="MsoNormalTable" style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="1">
+<p class="TableHeading" style="MARGIN-RIGHT: 0pt">Procurement card format</p>
+<table class="MsoNormalTable" style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-LEFT: 5.4pt; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="1">
   <tbody>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells">Name</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 67.55pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="90">
       <p class="TableCells">Type</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">Max Size</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">Required?</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Special Formatting</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 478.8pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="638" colspan="5">
-      <p class="TableCells"><strong><span style="FONT-FAMILY: Arial">Transaction</span></strong></p></td></tr>
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 473.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="631" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Transaction</span></strong></p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells">&lt;transactionCreditCardNumber&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 67.55pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="90">
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">16</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells">&lt;financialDocumentTotalAmount&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 67.55pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="90">
       <p class="TableCells">Decimal</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Money format (2 decimal places)</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -173,12 +164,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">1</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Must have value ‘D’ or ‘C’</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -191,12 +182,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">2</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -208,12 +199,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">7</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -226,12 +217,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">4</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -245,12 +236,12 @@ times. </p>
       <p class="TableCells"> </p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">3</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -262,12 +253,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">10</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -280,12 +271,12 @@ times. </p>
       <p class="TableCells">Date</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">YYYY-MM-DD format</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells">            
       </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
@@ -299,12 +290,12 @@ times. </p>
       <p class="TableCells">Date</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">YYYY-MM-DD format</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -316,12 +307,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">35</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells">            
       </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
@@ -335,12 +326,12 @@ times. </p>
       <p class="TableCells">Date</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">YYYY-MM-DD format</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
         <tr style="HEIGHT: 9pt">
@@ -354,12 +345,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">21</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -372,12 +363,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">4</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -390,12 +381,12 @@ times. </p>
       <p class="TableCells">Date</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">YYYY-MM-DD format</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -408,12 +399,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">3</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -426,12 +417,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">3</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -444,12 +435,12 @@ times. </p>
       <p class="TableCells">Decimal</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Money Format (2 decimal places)</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -462,12 +453,12 @@ times. </p>
       <p class="TableCells">Decimal</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Money Format (2 decimal places)</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -480,12 +471,12 @@ times. </p>
       <p class="TableCells">Decimal</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Money Format (2 decimal places)</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -498,12 +489,12 @@ times. </p>
       <p class="TableCells">Decimal</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Money Format (2 decimal places)</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -516,12 +507,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">1</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Must have value ‘Y’ or ‘N’</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells">            
       </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
@@ -535,12 +526,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">1</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Must have value ‘Y’ or ‘N’</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -554,12 +545,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">25</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -572,12 +563,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">35</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -590,12 +581,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">50</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -608,12 +599,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">25</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -625,12 +616,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">45</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells">            
       </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
@@ -644,12 +635,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">45</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -662,12 +653,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">45</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -679,12 +670,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">45</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -699,12 +690,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">2</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Must be 2 characters</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -716,12 +707,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">20</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -734,12 +725,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">12</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells">            
       </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
@@ -753,12 +744,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">16</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -771,12 +762,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">45</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -789,12 +780,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">45</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr style="HEIGHT: 38.65pt">
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid; HEIGHT: 38.65pt" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid; HEIGHT: 38.65pt" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -808,12 +799,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid; HEIGHT: 38.65pt" valign="top" width="47">
       <p class="TableCells">45</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid; HEIGHT: 38.65pt" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid; HEIGHT: 38.65pt" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid; HEIGHT: 38.65pt" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid; HEIGHT: 38.65pt" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
         <tr style="HEIGHT: 9pt">
@@ -830,12 +821,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">45</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -848,12 +839,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">2</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Must be 2 characters</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells">            
       </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
@@ -867,12 +858,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">20</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -885,12 +876,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">10</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -902,12 +893,12 @@ times. </p>
       <p class="TableCells">Decimal</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Money format (2 decimal places)</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -920,12 +911,12 @@ times. </p>
       <p class="TableCells">Decimal</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Money format (2 decimal places)</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -938,12 +929,12 @@ times. </p>
       <p class="TableCells">Decimal</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells"> </p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells">Money format (2 decimal places)</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells"> </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
         <tbody>
@@ -955,12 +946,12 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">2</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 241.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="322">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 236.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="315">
       <p class="TableCells">            
       </p>
       <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
@@ -973,9 +964,9 @@ times. </p>
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 35.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="47">
       <p class="TableCells">50</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 64.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="86">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 57pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="76">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 69.75pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="93">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 77.4pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="103">
       <p class="TableCells"> </p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="generalledger1.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />General Ledger</a></p></div></div></body></html>

@@ -1,28 +1,12 @@
-SPAN.NoNumber-NoIndentChar {FONT-FAMILY: "Arial Narrow"; }
+SPAN.ColoredLetter-Gray {FONT-WEIGHT: bold;  COLOR: #999999;  FONT-FAMILY: "Arial Narrow","sans-serif"; }
 
-SPAN.ColoredLetter-Gray {FONT-WEIGHT: bold;  COLOR: #999999;  FONT-FAMILY: "Arial Narrow"; }
+P.Note {FONT-SIZE: 10pt;  MARGIN: 9pt 0pt 0pt 18pt;  TEXT-INDENT: -22.5pt;  FONT-FAMILY: "Times New Roman","serif";  tab-stops: 18.0pt; }
 
-P.Note {BORDER-RIGHT: medium none;  PADDING-RIGHT: 0pt;  BORDER-TOP: medium none;  PADDING-LEFT: 0pt;  FONT-SIZE: 10pt;  PADDING-BOTTOM: 0pt;  MARGIN: 9pt 0pt 6pt;  BORDER-LEFT: medium none;  PADDING-TOP: 0pt;  BORDER-BOTTOM: medium none;  FONT-FAMILY: "Times New Roman"; }
+SPAN.CaptionChar3 {FONT-FAMILY: "Arial","sans-serif"; }
 
-P.Definition {FONT-SIZE: 10pt;  MARGIN: 5.75pt 0pt 0pt;  FONT-FAMILY: "Times New Roman"; }
-
-P.Default {FONT-SIZE: 12pt;  MARGIN: 0pt;  COLOR: black;  FONT-FAMILY: "Times New Roman"; }
-
-P.RelatedHead {FONT-WEIGHT: bold;  FONT-SIZE: 12pt;  MARGIN: 6pt 0pt 3pt;  COLOR: fuchsia;  FONT-FAMILY: Arial; }
-
-SPAN.HeadingBaseChar2 {FONT-WEIGHT: bold;  FONT-FAMILY: Arial; }
-
-SPAN.MarginalNoteHeadingChar {FONT-WEIGHT: bold;  FONT-FAMILY: "Arial Narrow"; }
-
-SPAN.IllustrationChar {FONT-FAMILY: "Times New Roman"; }
+SPAN.BodyTextChar {FONT-FAMILY: "Times New Roman","serif"; }
 
 P.CodeBase {FONT-SIZE: 10pt;  MARGIN: 5.75pt 0pt 0pt;  FONT-FAMILY: "Courier New"; }
 
-SPAN.ColoredLetter-Black {FONT-WEIGHT: bold;  FONT-FAMILY: "Arial Narrow"; }
-
-SPAN.MarginalNoteChar {FONT-FAMILY: "Arial Narrow"; }
-
-SPAN.CharChar23 {FONT-FAMILY: Arial; }
-
-SPAN.CharChar24 {FONT-FAMILY: "Angsana New"; }
+SPAN.MarginalNoteChar {FONT-FAMILY: "Arial Narrow","sans-serif"; }
 

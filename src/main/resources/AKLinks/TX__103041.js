@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__103041", [["WordDocuments/glpostingposter.htm", "right", "G/L Posting ('Poster')"],["WordDocuments/reversalposter.htm", "right", "Reversal Poster"]]);

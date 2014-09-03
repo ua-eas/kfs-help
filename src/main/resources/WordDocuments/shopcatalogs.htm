@@ -89,35 +89,22 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
 </span><a class="d2h_breadcrumbsNormal" href="transactions.htm">Transactions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a></div>
 <h4>Shop Catalogs</h4>
-<p class="MsoBodyText" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -19.5pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 24pt; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span> </span><b><span style="FONT-SIZE: 24pt">&gt;<img src="../ImagesExt/image20_5.png" border="0" alt="" />&gt;<img src="../ImagesExt/image20_561.png" border="0" alt="" />&gt;<img src="../ImagesExt/image20_767.png" border="0" alt="" />&gt;<img src="../ImagesExt/image20_768.png" border="0" alt="" /></span></b></p>
-<table class="MsoNormalTable" style="WIDTH: 496.8pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="662" border="0">
-  <tbody>
-  <tr>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 121.5pt; PADDING-TOP: 0pt" valign="top" width="162">
-      <p class="MarginalNote-Symbol"><img src="../ImagesExt/image20_36.png" border="0" alt="" /></p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 375.3pt; PADDING-TOP: 0pt" valign="top" width="500">
-      <div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; MARGIN-TOP: 9pt; PADDING-LEFT: 4pt; MARGIN-BOTTOM: 6pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid">
-      <p class="Note" style="MARGIN-TOP: 0pt"><strong>Implementation 
-      Note</strong></p>
-      <p class="Note" style="MARGIN-BOTTOM: 0pt">In <a id="popup_482268" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> 
-      3.x, the B2B identity was inadvertently hard-coded in a few locations. 
-      Before using Shop Catalogs at your institution, you will need to update 
-      these values so they correspond to the identity you actually use. 
-      Specifically, you must <strong>update four locations in the following 
-      three files</strong>: 
-      <br /><br /><strong>B2BPurchaseOrderSciquestServiceImpl.getCxml()</strong>:<strong> 
-      </strong><br /><br />Find the line that looks like: cxml.append(" 
-      &lt;Identity&gt;KualiDemo&lt;/Identity&gt;\n"). <br /><br />Replace with: 
-      cxml.append(" &lt;Identity&gt;Your 
-      B2BIdentityGoesHere&lt;/Identity&gt;\n") 
-      <br /><br /><strong>PunchOutSetupCxml.java</strong>:<br /><br />Two locations in 
-      this file need to be updated. Both are nearly identical to the sample 
-      above. Simply replace the 'KualiDemo' with your 
-      identity.<br /><br /><strong>b2b.properties</strong>:<br /><br />Find the property 
-      line titled: b2b.test.punch.out.<a id="popup_482267" onclick="return d2hpopup(event, this.href)" href="gloss_url.htm">url</a>. 
-      The identity is hard-coded into the URL used there. As indicated above, 
-      simply replace the 'KualiDemo' with your 
-identity.</p></div></td></tr></tbody></table>
+<p class="MsoBodyText" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -19.5pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 24pt; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span> </span><b><span style="FONT-SIZE: 12pt">&gt;</span></b><b><span style="FONT-SIZE: 24pt"><img src="../ImagesExt/image310_5.png" border="0" alt="" /></span></b><b><span style="FONT-SIZE: 12pt">&gt;</span></b><b><span style="FONT-SIZE: 24pt"><img src="../ImagesExt/image310_552.png" border="0" alt="" /></span></b><b><span style="FONT-SIZE: 12pt">&gt;</span></b><b><span style="FONT-SIZE: 24pt"><img src="../ImagesExt/image310_749.png" border="0" alt="" /></span></b><b><span style="FONT-SIZE: 12pt">&gt;</span></b><b><span style="FONT-SIZE: 24pt"><img src="../ImagesExt/image310_750.png" border="0" alt="" /></span></b><b><span style="FONT-SIZE: 24pt"></span></b></p>
+<p class="Note"><img alt="pencil-small" src="../ImagesExt/image310_36.png" border="0" />     <strong>Implementation Note: </strong>In <a id="popup_719343" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> 3.x, the B2B identity was inadvertently hard-coded 
+in a few locations. Before using Shop Catalogs at your institution, you will 
+need to update these values so they correspond to the identity you actually use. 
+Specifically, you must <strong>update four locations in the following three 
+files</strong>: 
+<br /><br /><strong>B2BPurchaseOrderSciquestServiceImpl.getCxml()</strong>:<strong> 
+</strong>Find the line that looks like: cxml.append(" 
+&lt;Identity&gt;KualiDemo&lt;/Identity&gt;\n").  Replace with: 
+cxml.append(" &lt;Identity&gt;Your B2BIdentityGoesHere&lt;/Identity&gt;\n") 
+<br /><br /><strong>PunchOutSetupCxml.java</strong>: Two locations in this file need 
+to be updated. Both are nearly identical to the sample above. Simply replace the 
+'KualiDemo' with your identity.<br /><br /><strong>b2b.properties</strong>: Find the 
+property line titled: b2b.test.punch.out.<a id="popup_719344" onclick="return d2hpopup(event, this.href)" href="gloss_url.htm">url</a>. The 
+identity is hard-coded into the URL used there. As indicated above, simply 
+replace the 'KualiDemo' with your identity.</p>
 <p class="MsoBodyText">Shop Catalogs is the KFS functionality that integrates the 
 HigherMarkets™ eProcurement solution developed by SciQuest. It provides 
 purchasers a one-stop, Web-based 'shopping cart' for ordering a full range of 
@@ -125,21 +112,21 @@ goods and services. The Shop Catalogs functionality makes it easy to shop with
 preferred and diverse suppliers, integrates with current (and future) financial 
 systems, like the Automated Procurement and Payment system (APPS), routes orders 
 to approvers and business service centers for payment, and allows for 
-flexibility in payment methods, such as a procurement card or <a id="popup_482259" onclick="return d2hpopup(event, this.href)" href="gloss_purchaseorder1.htm">purchase order</a>.</p>
+flexibility in payment methods, such as a procurement card or <a id="popup_719335" onclick="return d2hpopup(event, this.href)" href="gloss_purchaseorder1.htm">purchase order</a>.</p>
 <p class="MsoBodyText">Shop Catalogs is an eProcurement tool that directs 
 procurement to select suppliers and helps departments identify preferred 
-suppliers. The tool offers <a id="popup_482262" onclick="return d2hpopup(event, this.href)" href="gloss_workflow1.htm">workflow</a> benefits as well as item detail 
+suppliers. The tool offers <a id="popup_719338" onclick="return d2hpopup(event, this.href)" href="gloss_workflow1.htm">workflow</a> benefits as well as item detail 
 electronic receipts. Users can shop from catalogs, create requisitions, 
-electronically <a id="popup_482264" onclick="return d2hpopup(event, this.href)" href="gloss_submit.htm">submit</a> those requisitions for approval, and <a id="popup_482260" onclick="return d2hpopup(event, this.href)" href="gloss_acknowledge.htm">acknowledge</a> receipt of goods-all from the 
+electronically <a id="popup_719341" onclick="return d2hpopup(event, this.href)" href="gloss_submit.htm">submit</a> those requisitions for approval, and <a id="popup_719336" onclick="return d2hpopup(event, this.href)" href="gloss_acknowledge.htm">acknowledge</a> receipt of goods-all from the 
 desktop.</p>
 <p class="MsoBodyText">Key functionality for Shop Catalogs includes:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Ability to punch out to a B2B integrator, shop, and return shopping cart 
-data into a Purchasing/<a id="popup_482269" onclick="return d2hpopup(event, this.href)" href="gloss_ap.htm">AP</a> <a id="popup_482261" onclick="return d2hpopup(event, this.href)" href="gloss_requisition1.htm">requisition</a> <a id="popup_482263" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> via a CXML file. The Requisition document 
-is populated with <a id="popup_482265" onclick="return d2hpopup(event, this.href)" href="gloss_vendor3.htm">vendor</a> and item information and the <a id="popup_482266" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> completes additional information such as delivery 
+data into a Purchasing/<a id="popup_719345" onclick="return d2hpopup(event, this.href)" href="gloss_ap.htm">AP</a> <a id="popup_719337" onclick="return d2hpopup(event, this.href)" href="gloss_requisition1.htm">requisition</a> <a id="popup_719339" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> via a CXML file. The Requisition document 
+is populated with <a id="popup_719340" onclick="return d2hpopup(event, this.href)" href="gloss_vendor3.htm">vendor</a> and item information and the <a id="popup_719342" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> completes additional information such as delivery 
 and accounting information.</p>
-<p class="Center"><img src="../ImagesExt/image20_769.jpg" border="0" alt="" /></p>
-<p class="MsoCaption"><span class="CaptionFigureNumber">Figure </span><span class="CaptionFigureNumber">488</span> - KFS Integration with B2B vendors through 
-SciQuest HigherMarkets</p>
+<p class="Center"><img src="../ImagesExt/image310_751.jpg" border="0" alt="" /></p>
+<p class="MsoCaption">KFS Integration with B2B vendors through SciQuest 
+HigherMarkets</p>
 <p class="RelatedHead">More:</p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="processoverview37.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Process Overview</a></p></div></div></body></html>

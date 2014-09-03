@@ -93,67 +93,57 @@ Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h
 ('Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glaccountbalancepostingmainposter.htm">G/L 
 Account Balance Posting ('Main Poster')</a></div>
 <h6>Open and Closed Encumbrance Amounts</h6>
-<p class="MsoBodyText">When posting the <a id="popup_485490" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a> <a id="popup_485487" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">encumbrance</a> entries associated with a new 
+<p class="MsoBodyText">When posting the <a id="popup_714527" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a> <a id="popup_714523" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">encumbrance</a> entries associated with a new 
 encumbrance, a new entry in the G/L Encumbrance table is added with the 
 encumbrance amount set to the total entry amount. This is accomplished by 
 passing entries to the accounting cycle with a 'D' in the Encumbrance Update 
 Code. This entry tells 'Poster' to insert or update a row into the Open 
-Encumbrance file using the <a id="popup_485485" onclick="return d2hpopup(event, this.href)" href="gloss_documentnumber.htm">document number</a> and to put the amount in the 
+Encumbrance file using the <a id="popup_714521" onclick="return d2hpopup(event, this.href)" href="gloss_documentnumber.htm">document number</a> and to put the amount in the 
 Open Amount column. When posting any subsequent adjustment to that encumbrance, 
-increases or decreases are made to the Encumbrance <a id="popup_485489" onclick="return d2hpopup(event, this.href)" href="gloss_close.htm">Close</a> 
+increases or decreases are made to the Encumbrance <a id="popup_714525" onclick="return d2hpopup(event, this.href)" href="gloss_close.htm">Close</a> 
 Amount column for that item by passing entries to the accounting cycle with an 
 'R' in the Encumbrance Update Code. This value tells 'Poster' to insert or 
-update a row in the Open Encumbrance file using the <a id="popup_485484" onclick="return d2hpopup(event, this.href)" href="gloss_referencedocument.htm">reference document</a> number of the entry 
+update a row in the Open Encumbrance file using the <a id="popup_714520" onclick="return d2hpopup(event, this.href)" href="gloss_referencedocument.htm">reference document</a> number of the entry 
 and to adjust the amount in the Closed Amount column. Consequently, the Open 
 Encumbrance file shows both the amount of the original encumbrance (open amount) 
 and the amount of the encumbrance that has been relieved (closed amount).</p>
-<table class="MsoNormalTable" style="WIDTH: 496.8pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="662" border="0">
-  <tbody>
-  <tr>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 75.15pt; PADDING-TOP: 0pt" valign="top" width="100">
-      <p class="MarginalNote-Symbol"><img src="../ImagesExt/image37_0.png" border="0" alt="" /></p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 421.65pt; PADDING-TOP: 0pt" valign="top" width="562">
-      <div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; MARGIN-TOP: 9pt; PADDING-LEFT: 4pt; MARGIN-BOTTOM: 6pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid">
-      <p class="Note" style="MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt">These entries 
-      may easily be viewed in the application through the Open Encumbrance 
-      report. For more information see <a href="balanceinquiries.htm">Balance 
-      Inquiries</a> in the <i>Guide to the <a id="popup_485491" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> 
-      Main Menu</i>. </p></div></td></tr></tbody></table>
-<p class="TableHeading">Table 42  Encumbrance update business rules</p>
+<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image297_0.png" border="0" />   These entries may easily be viewed in the application 
+through the Open Encumbrance report. For more information see <a href="balanceinquiries.htm">Balance Inquiries</a> in the <i>Guide to the <a id="popup_714526" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> Main Menu</i>. </p>
+<p class="TableHeading">Encumbrance update business rules</p>
 <table class="MsoNormalTable" style="MARGIN-LEFT: 5.75pt; WIDTH: 376.55pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="502" border="0">
   <tbody>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1.5pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1.5pt solid; WIDTH: 70.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="94">
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="94">
       <p class="TableCells">Transaction Encumbrance Update code</p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1.5pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 75.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 75.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="101">
       <p class="TableCells">Debit/Credit Code</p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1.5pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 68.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="91">
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 68.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="91">
       <p class="TableCells">Action on Encumbrance Amount</p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1.5pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 162pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="216">
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 162pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="216">
       <p class="TableCells">Encumbrance Amount Updated</p></td></tr>
   <tr style="page-break-inside: avoid">
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1.5pt solid; WIDTH: 70.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="94" rowspan="2">
-      <p class="TableCells">D (<a id="popup_485488" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">Document</a>)</p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 75.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="94" rowspan="2">
+      <p class="TableCells">D (<a id="popup_714524" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">Document</a>)</p></td>
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 75.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="101">
       <p class="TableCells">'D' (Debit) or blank</p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 68.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="91">
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 68.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="91">
       <p class="TableCells">+ (Add)</p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 162pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="216" rowspan="2">
-      <p class="TableCells">Encumbrance Amount for the particular <a id="popup_485486" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">Document Type</a>, Origin Code, Document 
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 162pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="216" rowspan="2">
+      <p class="TableCells">Encumbrance Amount for the particular <a id="popup_714522" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">Document Type</a>, Origin Code, Document 
       Number</p></td></tr>
   <tr style="page-break-inside: avoid">
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 75.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 75.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="101">
       <p class="TableCells">Other</p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 68.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="91">
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 68.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="91">
       <p class="TableCells">- (Subtract)</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1.5pt solid; WIDTH: 70.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="94">
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="94">
       <p class="TableCells">R (Reference Document)</p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 75.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 75.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="101">
       <p class="TableCells">'D' (Debit) or blank</p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 68.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="91">
+    <td style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 68.5pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="91">
       <p class="TableCells">- (Subtract)</p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 162pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="216">
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 162pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="216">
       <p class="TableCells">Encumbrance Closed Amount for the particular Reference 
       Origin Code, Document Reference Type Code, Reference Document 
   Number</p></td></tr></tbody></table>

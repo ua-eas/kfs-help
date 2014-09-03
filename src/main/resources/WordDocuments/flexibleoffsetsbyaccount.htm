@@ -90,113 +90,62 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General Ledger 
 (G/L)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="flexibleoffset.htm">Flexible Offset</a></div>
 <h4>Flexible Offsets by Account</h4>
-<p class="MsoBodyText">This option allows the <a id="popup_485682" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> to 
-redirect <a id="popup_485680" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> entries for an <a id="popup_485679" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> to another specified account. It allows 
-the KFS to accommodate tracking offsets such as cash or liabilities in central 
-designated accounts as opposed to tracking such offset entries in every account. 
-The <a id="popup_485674" onclick="return d2hpopup(event, this.href)" href="gloss_offsetaccount1.htm">Offset Account</a> <a id="popup_485678" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> identifies the offset account for an <a id="popup_485676" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object code</a> and account number combination.</p>
-<p class="MsoBodyText">If the offsets by account option is enabled within the <a id="popup_485677" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> USE_FLEXIBLE_OFFSET_IND, the KFS goes 
-through a special process in e-docs and in 'Scrubber' during <a id="popup_485681" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a> 
+<p class="MsoBodyText">This option allows the <a id="popup_714722" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> to 
+redirect <a id="popup_714720" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> entries for an <a id="popup_714718" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> to another specified account. It allows 
+the KFS to accommodate tracking offsets such as <a id="popup_714721" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> or 
+liabilities in central designated accounts as opposed to tracking such offset 
+entries in every account. The <a id="popup_714714" onclick="return d2hpopup(event, this.href)" href="gloss_offsetaccount1.htm">Offset Account</a> <a id="popup_714719" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> identifies the offset account for an <a id="popup_714716" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object code</a> and account number combination.</p>
+<p class="MsoBodyText">If the offsets by account option is enabled within the <a id="popup_714717" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> USE_FLEXIBLE_OFFSET_IND, the KFS goes 
+through a special process in e-docs and in 'Scrubber' during <a id="popup_714723" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a> 
 processing to determine the account that the offsets should be made to for a 
 given transaction.</p>
-<table class="MsoNormalTable" style="WIDTH: 491.4pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="655" border="0">
-  <tbody>
-  <tr>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 93.6pt; PADDING-TOP: 0pt" valign="top" width="125">
-      <p class="MarginalNote-Symbol"><img src="../ImagesExt/image37_0.png" border="0" alt="" /></p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 397.8pt; PADDING-TOP: 0pt" valign="top" width="530">
-      <div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; MARGIN-TOP: 9pt; PADDING-LEFT: 4pt; MARGIN-BOTTOM: 6pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid">
-      <p class="Note" style="MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt">For more 
-      information about flexible offsets by account, see <a href="offsetaccount.htm">Offset Account</a> in the <i>Guide to the KFS 
-      Maintenance Menu</i>.</p></div></td></tr></tbody></table>
+<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image297_0.png" border="0" />   For more information about flexible offsets by account, 
+see <a href="offsetaccount.htm">Offset Account</a> in the <i>Guide to the KFS 
+Maintenance Menu</i>.</p>
 <p class="MsoBodyText">When the flexible offsets function is enabled, generation 
 of offsets on e-docs occurs as follows:</p>
-<table class="MsoNormalTable" style="WIDTH: 491.4pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="655" border="0">
-  <tbody>
-  <tr style="HEIGHT: 21.6pt">
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 93.15pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="124">
-      <p class="MarginNote-Symbol"> </p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 398.25pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="531">
-      <p class="Numbered-NoIndent">1  The offset object code is defined in 
-      the <a id="popup_485672" onclick="return d2hpopup(event, this.href)" href="gloss_offsetdefinition1.htm">Offset 
-  Definition</a> table.</p></td></tr>
-  <tr style="HEIGHT: 21.6pt">
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 93.15pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="124">
-      <p class="MarginNote-Symbol"> </p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 398.25pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="531">
-      <p class="Numbered-NoIndent">2  The object code and account number are 
-      searched from the Offset Account table.</p></td></tr>
-  <tr style="HEIGHT: 21.6pt">
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 93.15pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="124">
-      <p class="MarginNote-Symbol"> </p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 398.25pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="531">
-      <p class="Numbered-NoIndent">3  If a match is found in the Offset 
-      Account table, the offset is made in the offset account defined 
-    there.</p></td></tr>
-  <tr style="HEIGHT: 21.6pt">
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 93.15pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="124">
-      <p class="MarginNote-Symbol"> </p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 398.25pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="531">
-      <p class="Numbered-NoIndent">4  If no match is found, the offset is 
-      made in the same account on which the original transaction 
-  occurred.</p></td></tr></tbody></table>
+<p class="C1HNumber" style="tab-stops: 36.0pt">1.     The 
+offset object code is defined in the <a id="popup_714712" onclick="return d2hpopup(event, this.href)" href="gloss_offsetdefinition1.htm">Offset Definition</a> table.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">2.     The 
+object code and account number are searched from the Offset Account table.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">3.     If a 
+match is found in the Offset Account table, the offset is made in the offset 
+account defined there.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">4.     If no 
+match is found, the offset is made in the same account on which the original 
+transaction occurred.</p>
 <p class="MsoBodyText">Generation of offsets in 'Scrubber' when the flexible 
 offsets function is enabled occurs as follows:</p>
-<table class="MsoNormalTable" style="WIDTH: 491.4pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="655" border="0">
-  <tbody>
-  <tr style="HEIGHT: 21.6pt">
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 94.05pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="125">
-      <p class="MarginNote-Symbol"> </p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 397.35pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="530">
-      <p class="Numbered-NoIndent">1  'Scrubber' looks up the <a id="popup_485675" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> for a transaction in the 
-      Document Type table.</p></td></tr>
-  <tr style="HEIGHT: 21.6pt">
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 94.05pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="125">
-      <p class="MarginNote-Symbol"> </p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 397.35pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="530">
-      <p class="Numbered-NoIndent">2  'Scrubber' checks the document type of 
-      the entry against the document types defined in the parameter.</p>
-      <p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-      </span>OFFSET_GENERATION_DOCUMENT_TYPES: If the document type is found in 
-      this parameter, 'Scrubber' does not generate offsets for this entry. This 
-      ensures that document types that should not generate offset entries (like 
-      <a id="popup_485673" onclick="return d2hpopup(event, this.href)" href="gloss_journalvoucher1.htm">journal voucher</a>) do not have offsets 
-      generated during 'Scrubber' processing.</p>
-      <p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-      </span>DOCUMENT_TYPES_REQUIRING_FLEXIBLE_OFFSET_BALANCING_ENTRIES: If the 
-      document type is found in this parameter, 'Scrubber' generates offsets 
-      even if the document type appears to be balanced. This allows 'Scrubber' 
-      to generate the proper flexible offsets for transactions that originate 
-      outside of KFS.</p></td></tr>
-  <tr style="HEIGHT: 21.6pt">
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 94.05pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="125">
-      <p class="MarginNote-Symbol"> </p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 397.35pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="530">
-      <p class="Numbered-NoIndent">3  If you are using flexible offsets 
-      (parameter USE_FLEXIBLE_OFFSET_IND is set to 'Y'), 'Scrubber' checks the 
-      document type against those found in the parameter.</p></td></tr>
-  <tr style="HEIGHT: 21.6pt">
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 94.05pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="125">
-      <p class="MarginNote-Symbol"> </p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 397.35pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="530">
-      <p class="Numbered-NoIndent">4  If 'Scrubber' determines in the 
-      previous steps that an offset is to be generated, it determines the 
-      transaction's offset object code using the Offset Definition 
-  table.</p></td></tr>
-  <tr style="HEIGHT: 21.6pt">
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 94.05pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="125">
-      <p class="MarginNote-Symbol"> </p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 397.35pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="530">
-      <p class="Numbered-NoIndent">5  If you are using flexible offsets 
-      (parameter USE_FLEXIBLE_OFFSET_IND is set to 'Y'), 'Scrubber' searches for 
-      the object code and account number in the Offset Account table.</p></td></tr>
-  <tr style="HEIGHT: 21.6pt">
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 94.05pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="125">
-      <p class="MarginNote-Symbol"> </p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 397.35pt; PADDING-TOP: 0pt; HEIGHT: 21.6pt" valign="top" width="530">
-      <p class="Numbered-NoIndent">6  If a match is found in the Offset 
-      Account table, the offset is made in the offset account defined there. If 
-      no match is found, the offset is made in the same account on which the 
-      original transaction occurred.</p></td></tr></tbody></table>
+<p class="C1HNumber" style="tab-stops: 36.0pt 51.05pt">1.     
+'Scrubber' looks up the <a id="popup_714715" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> for a transaction in the 
+Document Type table.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">2.     
+'Scrubber' checks the document type of the entry against the document types 
+defined in the parameter.</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>OFFSET_GENERATION_DOCUMENT_TYPES: If the document type is found in this 
+parameter, 'Scrubber' does not generate offsets for this entry. This ensures 
+that document types that should not generate offset entries (like <a id="popup_714713" onclick="return d2hpopup(event, this.href)" href="gloss_journalvoucher1.htm">journal voucher</a>) do not have offsets 
+generated during 'Scrubber' processing.</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>DOCUMENT_TYPES_REQUIRING_FLEXIBLE_OFFSET_BALANCING_ENTRIES: If the 
+document type is found in this parameter, 'Scrubber' generates offsets even if 
+the document type appears to be balanced. This allows 'Scrubber' to generate the 
+proper flexible offsets for transactions that originate outside of KFS.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">3.     If you 
+are using flexible offsets (parameter USE_FLEXIBLE_OFFSET_IND is set to 'Y'), 
+'Scrubber' checks the document type against those found in the parameter.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">4.     If 
+'Scrubber' determines in the previous steps that an offset is to be generated, 
+it determines the transaction's offset object code using the Offset Definition 
+table.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">5.     If you 
+are using flexible offsets (parameter USE_FLEXIBLE_OFFSET_IND is set to 'Y'), 
+'Scrubber' searches for the object code and account number in the Offset Account 
+table.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">6.     If a 
+match is found in the Offset Account table, the offset is made in the offset 
+account defined there. If no match is found, the offset is made in the same 
+account on which the original transaction occurred.</p>
 <p class="RelatedHead">More:</p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="yearendprocesses.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Year-End Processes</a></p></div></div></body></html>

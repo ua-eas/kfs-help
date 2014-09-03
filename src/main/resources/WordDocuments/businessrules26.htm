@@ -93,52 +93,52 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 against the lookup tables, setting defaults for blank values, and enforcing 
 rules. The following summarizes the major rules contained in the 'Labor 
 Scrubber' process.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Validate the <a id="popup_480472" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
-year</a>, <a id="popup_480476" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a>, <a id="popup_480474" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">sub-account</a>, <a id="popup_480471" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
-code</a>, <a id="popup_480462" onclick="return d2hpopup(event, this.href)" href="gloss_subobjectcode1.htm">sub-object code</a>, <a id="popup_480468" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">balance type</a>, <a id="popup_480461" onclick="return d2hpopup(event, this.href)" href="gloss_accountingperiod1.htm">accounting period</a>, <a id="popup_480466" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a>, origin code against the lookup 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Validate the <a id="popup_717512" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
+year</a>, <a id="popup_717515" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a>, <a id="popup_717513" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">sub-account</a>, <a id="popup_717510" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
+code</a>, <a id="popup_717502" onclick="return d2hpopup(event, this.href)" href="gloss_subobjectcode1.htm">sub-object code</a>, <a id="popup_717508" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">balance type</a>, <a id="popup_717501" onclick="return d2hpopup(event, this.href)" href="gloss_accountingperiod1.htm">accounting period</a>, <a id="popup_717507" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a>, origin code against the lookup 
 tables.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 the Fiscal Year field is blank, assign the current fiscal year.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-fiscal year must exist in the <a id="popup_480465" onclick="return d2hpopup(event, this.href)" href="gloss_systemoptions1.htm">System Options</a> table and it must be 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+fiscal year must exist in the <a id="popup_717504" onclick="return d2hpopup(event, this.href)" href="gloss_systemoptions1.htm">System Options</a> table and it must be 
 open.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the account is closed, look for a <a id="popup_480459" onclick="return d2hpopup(event, this.href)" href="gloss_continuationaccount.htm">continuation account</a>.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the account is expired and the balance type is not an <a id="popup_480470" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">encumbrance</a> balance type defined in the Systems 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the account is closed, look for a <a id="popup_717499" onclick="return d2hpopup(event, this.href)" href="gloss_continuationaccount.htm">continuation account</a>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the account is expired and the balance type is not an <a id="popup_717514" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">encumbrance</a> balance type defined in the Systems 
 Options maintenance table, look for a continuation account.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong>Sub-Account</strong>, <strong>Sub-Object</strong>, or <strong><a id="popup_480469" onclick="return d2hpopup(event, this.href)" href="gloss_projectcode1.htm"><strong>Project Code</strong></a></strong> field 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the <strong>Sub-Account</strong>, <strong>Sub-Object</strong>, or <strong><a id="popup_717509" onclick="return d2hpopup(event, this.href)" href="gloss_projectcode1.htm"><strong>Project Code</strong></a></strong> field 
 is blank, set it to dashes.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 the <strong>Balance Type</strong> field is blank, set it to 'AC' (actual).</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong><a id="popup_480473" onclick="return d2hpopup(event, this.href)" href="gloss_objecttype1.htm"><strong>Object Type</strong></a></strong> field is 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the <strong><a id="popup_717511" onclick="return d2hpopup(event, this.href)" href="gloss_objecttype1.htm"><strong>Object Type</strong></a></strong> field is 
 blank, set it to the object type of the object code.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong><a id="popup_480467" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalperiod.htm"><strong>Fiscal Period</strong></a></strong> field 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the <strong><a id="popup_717506" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalperiod.htm"><strong>Fiscal Period</strong></a></strong> field 
 is blank, assign the period code of the accounting period containing the run 
 date.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong><a id="popup_480463" onclick="return d2hpopup(event, this.href)" href="gloss_documentnumber.htm"><strong>Document Number</strong></a></strong> 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong><a id="popup_717503" onclick="return d2hpopup(event, this.href)" href="gloss_documentnumber.htm"><strong>Document Number</strong></a></strong> 
 field must not be blank or zeroes.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 <strong>Transaction Description</strong> field must not be blank.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 <strong>Amount</strong> field must be numeric.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong>Debit/Credit Code</strong> field must be 'D'or 'C'.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong>Debit/Credit Code</strong> field must be 'D' or 'C'.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 the <strong>Transaction Date</strong> field is blank, set it to the run 
 date.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 transaction date must exist in the Universal Date table.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the encumbrance update code is 'R, in the reference origin code, <a id="popup_480460" onclick="return d2hpopup(event, this.href)" href="gloss_referencedocument.htm">reference document</a> type and reference <a id="popup_480475" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> number must not be blank.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the balance type is an encumbrance balance type and the object type is not a 
-fund balance object type, the encumbrance update code must be 'D' (<a id="popup_480464" onclick="return d2hpopup(event, this.href)" href="gloss_disencumbrance.htm">Disencumbrance</a>), 'R' (Reversal), or 'N' 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the encumbrance update code is 'R, in the reference origin code, <a id="popup_717500" onclick="return d2hpopup(event, this.href)" href="gloss_referencedocument.htm">reference document</a> type and reference <a id="popup_717516" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> number must not be blank.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the balance type is an encumbrance balance type and the object type is not a <a id="popup_717517" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a> balance object type, the encumbrance update code 
+must be 'D' (<a id="popup_717505" onclick="return d2hpopup(event, this.href)" href="gloss_disencumbrance.htm">Disencumbrance</a>), 'R' (Reversal), or 'N' 
 (None). In all other cases, the encumbrance update code must be blank.</p>
 <p class="RelatedHead">More:</p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="labordemergerprocess.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Labor Demerger Process</a></p></div></div></body></html>

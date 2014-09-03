@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__103106", [["WordDocuments/accountsreceivable.htm", "right", "Accounts Receivable"],["WordDocuments/accountsreceivable1.htm", "right", "Accounts Receivable"],["WordDocuments/accountsreceivable2.htm", "right", "Accounts Receivable"],["WordDocuments/transactionssubmenu.htm", "right", "Transactions Submenu"]]);

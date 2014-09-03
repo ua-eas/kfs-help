@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu2.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu3.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview67.htm"></a><a id="D2HNextAnchor" href="routing62.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview70.htm"></a><a id="D2HNextAnchor" href="routing66.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -88,14 +88,26 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
 <div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
 </span><a class="d2h_breadcrumbsNormal" href="lookupandmaintenance.htm">Lookup and 
-Maintenance</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="chartofaccounts.htm">Chart of 
-Accounts</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="objectcodeglobal.htm">Object Code 
-Global</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview67.htm">Process 
-Overview</a></div>
+Maintenance</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanagement2.htm">Capital Asset 
+Management</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="equipmentmerge.htm">Equipment Merge</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview70.htm">Process Overview</a></div>
 <h6>Business Rules</h6>
-<p class="MsoBodyText">The <a id="popup_468013" onclick="return d2hpopup(event, this.href)" href="gloss_globalobjectcode.htm">Global Object Code</a> <a id="popup_468015" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> is subject to the same business rules as 
-the <a id="popup_468014" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">Object Code</a> document. In addition, at least one 
-<a id="popup_468016" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> must be selected on the <strong>Edit 
-Multiple Year and <a id="popup_468017" onclick="return d2hpopup(event, this.href)" href="gloss_chart1.htm">Chart</a></strong> tab.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<a id="popup_723268" onclick="return d2hpopup(event, this.href)" href="gloss_asset1.htm">asset</a>(s) in the <strong>Asset Detail 
+Information</strong> tab are flagged as retired, with the <a id="popup_723264" onclick="return d2hpopup(event, this.href)" href="gloss_retirementreason.htm">retirement reason</a> of 'M' (Merged). The 
+system creates a record in the <a id="popup_723269" onclick="return d2hpopup(event, this.href)" href="gloss_cm.htm">CM</a>_AST_DIST_T table. This table keeps track of the asset 
+number into which the retired asset was merged and the date it was merged.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+system moves payments from the retired asset(s) to the asset number in the 
+<strong>Target Asset Information </strong>tab and adds offsetting payments to 
+the merged asset. The offsetting payments have a <a id="popup_723265" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> of 'AMRG.'</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
+active capital assets can be merged.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+an asset is retrieved the system checks to see if the asset is locked by another 
+transaction. A Transfer, <a id="popup_723266" onclick="return d2hpopup(event, this.href)" href="gloss_retirement.htm">Retirement</a>, Asset Manual Payment, Financial <a id="popup_723267" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">Document</a>, or pending invoice in CAB will lock an 
+asset. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>All 
+salvage amounts of the assets being retired are moved to the target asset as 
+well.</p>
 <p class="RelatedHead">More:</p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing62.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Routing</a></p></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing66.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Routing</a></p></div></div></body></html>

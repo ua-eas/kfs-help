@@ -6,7 +6,7 @@
         </keyword>
         <keyword name="business rules for">
             <topics>
-                <topic url="WordDocuments/businessrules74.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules91.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name=" Account Delegate document">
@@ -15,25 +15,25 @@
         <keyword name="initiating">
             <topics>
                 <topic url="WordDocuments/initiatinganaccountdelegateglobaldocument.htm" window="right"><![CDATA[Initiating an Account Delegate Global Document]]></topic>
-                <topic url="WordDocuments/initiatinganaddocument.htm" window="right"><![CDATA[Initiating an AD Document]]></topic>
+                <topic url="WordDocuments/initiatinganadvancedepositdocument.htm" window="right"><![CDATA[Initiating an Advance Deposit Document]]></topic>
                 <topic url="WordDocuments/initiatinganavdocument.htm" window="right"><![CDATA[Initiating an AV Document]]></topic>
                 <topic url="WordDocuments/initiatingadocument.htm" window="right"><![CDATA[Initiating a Document]]></topic>
-                <topic url="WordDocuments/initiatingabtdocument.htm" window="right"><![CDATA[Initiating a BT Document]]></topic>
-                <topic url="WordDocuments/initiatingabadocument.htm" window="right"><![CDATA[Initiating a BA Document]]></topic>
-                <topic url="WordDocuments/initiatingacrdocument.htm" window="right"><![CDATA[Initiating a CR Document]]></topic>
+                <topic url="WordDocuments/initiatingabenefitexpensetransferdocument.htm" window="right"><![CDATA[Initiating a Benefit Expense Transfer Document]]></topic>
+                <topic url="WordDocuments/initiatingabudgetadjustmentdocument.htm" window="right"><![CDATA[Initiating a Budget Adjustment Document]]></topic>
+                <topic url="WordDocuments/initiatingacashreceiptdocument.htm" window="right"><![CDATA[Initiating a Cash Receipt Document]]></topic>
                 <topic url="WordDocuments/initiatingaccrdocument.htm" window="right"><![CDATA[Initiating a CCR Document]]></topic>
-                <topic url="WordDocuments/initiatingadidocument.htm" window="right"><![CDATA[Initiating a DI Document]]></topic>
+                <topic url="WordDocuments/initiatingadistributionofincomeandexpensesdocument.htm" window="right"><![CDATA[Initiating a Distribution of Income and Expenses Document]]></topic>
                 <topic url="WordDocuments/initiatingagecdocument.htm" window="right"><![CDATA[Initiating a GEC Document]]></topic>
                 <topic url="WordDocuments/initiatinganicadocument.htm" window="right"><![CDATA[Initiating an ICA Document]]></topic>
-                <topic url="WordDocuments/initiatinganibdocument.htm" window="right"><![CDATA[Initiating an IB Document]]></topic>
+                <topic url="WordDocuments/initiatinganinternalbillingdocument.htm" window="right"><![CDATA[Initiating an Internal Billing Document]]></topic>
                 <topic url="WordDocuments/initiatingapedocument.htm" window="right"><![CDATA[Initiating a PE Document]]></topic>
-                <topic url="WordDocuments/initiatinganstdocument.htm" window="right"><![CDATA[Initiating an ST Document]]></topic>
+                <topic url="WordDocuments/initiatingansalaryexpensetransferdocument.htm" window="right"><![CDATA[Initiating an Salary Expense Transfer Document]]></topic>
             </topics>
         </keyword>
         <keyword name=" Account Delegate Model Document">
             <topics />
         </keyword>
-        <keyword name=" initiating an ">
+        <keyword name="initiating an ">
             <topics>
                 <topic url="WordDocuments/initiatinganaccountdelegatemodeldocument.htm" window="right"><![CDATA[Initiating an Account Delegate Model Document]]></topic>
             </topics>
@@ -45,7 +45,7 @@
         </keyword>
         <keyword name=" accounting line import templates ">
             <topics>
-                <topic url="WordDocuments/accountinglineimporttemplates.htm" window="right"><![CDATA[Accounting Line Import Templates]]></topic>
+                <topic url="WordDocuments/dataimporttemplates.htm" window="right"><![CDATA[Data Import Templates]]></topic>
             </topics>
         </keyword>
         <keyword name=" accounting reviewer">
@@ -68,6 +68,21 @@
                 <topic url="WordDocuments/achtransactiontype.htm" window="right"><![CDATA[ACH Transaction Type]]></topic>
             </topics>
         </keyword>
+        <keyword name=" Agreement Special Instruction Code ">
+            <topics>
+                <topic url="WordDocuments/agreementspecialinstructioncode.htm" window="right"><![CDATA[Agreement Special Instruction Code]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Agreement Status Code ">
+            <topics>
+                <topic url="WordDocuments/agreementstatuscode.htm" window="right"><![CDATA[Agreement Status Code]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Agreement Type Code ">
+            <topics>
+                <topic url="WordDocuments/agreementtypecode.htm" window="right"><![CDATA[Agreement Type Code]]></topic>
+            </topics>
+        </keyword>
         <keyword name=" Asset Acquisition Type document">
             <topics>
                 <topic url="WordDocuments/assetacquisitiontype.htm" window="right"><![CDATA[Asset Acquisition Type]]></topic>
@@ -81,6 +96,261 @@
         <keyword name=" Asset Condition document">
             <topics>
                 <topic url="WordDocuments/assetcondition.htm" window="right"><![CDATA[Asset Condition]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Asset Decrease document">
+            <topics>
+                <topic url="WordDocuments/assetdecrease.htm" window="right"><![CDATA[Asset Decrease]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Asset Decrease Details tab">
+            <topics>
+                <topic url="WordDocuments/assetdecreasedetailstab.htm" window="right"><![CDATA[Asset Decrease Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="business rules">
+            <topics>
+                <topic url="WordDocuments/businessrules44.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules86.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules47.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules83.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules105.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules95.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules113.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules123.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules80.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules106.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules107.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules108.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules116.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules12.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules117.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules118.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules85.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules88.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules89.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules90.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules82.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules13.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules103.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules56.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules25.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules14.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules119.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules28.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules54.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules120.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules6.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules60.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules15.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules29.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules16.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules7.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules8.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules9.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules10.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules17.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules18.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules110.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules59.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules76.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules19.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules55.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules21.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules121.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules22.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules62.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules66.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules65.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules26.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules32.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules63.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules122.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules98.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules11.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules73.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules23.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules20.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules104.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules35.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules114.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrulesfortransfers.htm" window="right"><![CDATA[Business Rules for Transfers]]></topic>
+                <topic url="WordDocuments/businessrules64.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules24.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules109.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules111.htm" window="right"><![CDATA[Business Rules]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="example">
+            <topics>
+                <topic url="WordDocuments/example28.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example29.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example30.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example31.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example32.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example44.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example45.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example33.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example34.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example46.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example47.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example48.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example61.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example35.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example36.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example62.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example63.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example37.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example64.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example49.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example67.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example6.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example68.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example69.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example51.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example57.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example58.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example59.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example60.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example7.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example38.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example19.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example70.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example71.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example9.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example21.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example10.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example1.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example2.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example3.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example4.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example11.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example12.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example65.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example39.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example52.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/generalguidelines.htm" window="right"><![CDATA[General Guidelines]]></topic>
+                <topic url="WordDocuments/example13.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example15.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example72.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example16.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example40.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example43.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example41.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example73.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example5.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example50.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example17.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example14.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example20.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example42.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example18.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example66.htm" window="right"><![CDATA[Example]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="routing">
+            <topics>
+                <topic url="WordDocuments/routing36.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing76.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing59.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing87.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing94.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing97.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing88.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing89.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing90.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing60.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing93.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing6.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing62.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing68.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing69.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing70.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing66.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing71.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing67.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing7.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing85.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routingadocument.htm" window="right"><![CDATA[Routing a Document]]></topic>
+                <topic url="WordDocuments/routing19.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing8.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing21.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing9.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing22.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing10.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing1.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing2.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing3.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing4.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing11.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing12.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing47.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing63.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing64.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing65.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing13.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing46.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing15.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing16.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing54.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing53.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing80.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing98.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing61.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing17.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing14.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing86.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing20.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing18.htm" window="right"><![CDATA[Routing]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Security Details tab">
+            <topics>
+                <topic url="WordDocuments/securitydetailstab.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+                <topic url="WordDocuments/securitydetailstab1.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+                <topic url="WordDocuments/securitydetailstab2.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+                <topic url="WordDocuments/securitydetailstab3.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+                <topic url="WordDocuments/securitydetailstab4.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+                <topic url="WordDocuments/securitydetailstab10.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+                <topic url="WordDocuments/securitydetailstab5.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+                <topic url="WordDocuments/securitydetailstab6.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+                <topic url="WordDocuments/securitydetailstab11.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+                <topic url="WordDocuments/securitydetailstab7.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+                <topic url="WordDocuments/securitydetailstab8.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+                <topic url="WordDocuments/securitydetailstab9.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+                <topic url="WordDocuments/securitydetailstab12.htm" window="right"><![CDATA[Security Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Tax Lot Lines tab">
+            <topics>
+                <topic url="WordDocuments/taxlotlinestab.htm" window="right"><![CDATA[Tax Lot Lines Tab]]></topic>
+                <topic url="WordDocuments/taxlotlinestab1.htm" window="right"><![CDATA[Tax Lot Lines Tab]]></topic>
+                <topic url="WordDocuments/taxlotlinestab5.htm" window="right"><![CDATA[Tax Lot Lines Tab]]></topic>
+                <topic url="WordDocuments/taxlotlinestab6.htm" window="right"><![CDATA[Tax Lot Lines Tab]]></topic>
+                <topic url="WordDocuments/taxlotlinestab2.htm" window="right"><![CDATA[Tax Lot Lines Tab]]></topic>
+                <topic url="WordDocuments/taxlotlinestab3.htm" window="right"><![CDATA[Tax Lot Lines Tab]]></topic>
+                <topic url="WordDocuments/taxlotlinestab4.htm" window="right"><![CDATA[Tax Lot Lines Tab]]></topic>
+                <topic url="WordDocuments/taxlotlinestab7.htm" window="right"><![CDATA[Tax Lot Lines Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Transaction Lines tab">
+            <topics>
+                <topic url="WordDocuments/transactionlinestab.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab1.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab2.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab3.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab4.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab10.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab11.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab5.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab6.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab12.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab7.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab8.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab9.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
+                <topic url="WordDocuments/transactionlinestab13.htm" window="right"><![CDATA[Transaction Lines Tab]]></topic>
             </topics>
         </keyword>
         <keyword name=" Asset Depreciation Method document">
@@ -98,20 +368,30 @@
         </keyword>
         <keyword name="business rules, Asset Location tab">
             <topics>
-                <topic url="WordDocuments/assetlocationtab.htm#businessrules59.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/assetlocationtab.htm#businessrules75.htm" window="right"><![CDATA[Business Rules]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Asset Increase document">
+            <topics>
+                <topic url="WordDocuments/assetincrease.htm" window="right"><![CDATA[Asset Increase]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Asset Increase Details tab">
+            <topics>
+                <topic url="WordDocuments/assetincreasedetailstab.htm" window="right"><![CDATA[Asset Increase Details Tab]]></topic>
             </topics>
         </keyword>
         <keyword name=" Asset Inquiry">
             <topics />
         </keyword>
-        <keyword name=" View Asset Separate History Tab ">
-            <topics>
-                <topic url="WordDocuments/viewassetseparatehistorytab1.htm" window="right"><![CDATA[View Asset Separate History Tab]]></topic>
-            </topics>
-        </keyword>
         <keyword name="View Asset Merge History Tab">
             <topics>
                 <topic url="WordDocuments/viewassetmergehistorytab.htm" window="right"><![CDATA[View Asset Merge History Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="View Asset Separate History Tab ">
+            <topics>
+                <topic url="WordDocuments/viewassetseparatehistorytab1.htm" window="right"><![CDATA[View Asset Separate History Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="View Retirement Information Tab">
@@ -129,73 +409,6 @@
         </keyword>
         <keyword name=" Asset Location Global document">
             <topics />
-        </keyword>
-        <keyword name="business rules">
-            <topics>
-                <topic url="WordDocuments/businessrules70.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules67.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules78.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules92.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules102.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules64.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules95.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules12.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules96.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules97.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules69.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules72.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules104.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules73.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules66.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules13.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules86.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules46.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules25.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules14.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules98.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules28.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules44.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules99.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules6.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules50.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules15.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules29.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules16.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules7.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules8.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules9.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules10.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules17.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules18.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules89.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules49.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules60.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules19.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules45.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules21.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules100.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules22.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules52.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules56.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules55.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules26.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules32.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules53.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules101.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules81.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules11.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules57.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules23.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules20.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules87.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules35.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules93.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrulesfortransfers.htm" window="right"><![CDATA[Business Rules for Transfers]]></topic>
-                <topic url="WordDocuments/businessrules54.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules24.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules103.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules90.htm" window="right"><![CDATA[Business Rules]]></topic>
-            </topics>
         </keyword>
         <keyword name="permissions">
             <topics>
@@ -246,12 +459,17 @@
                 <topic url="WordDocuments/assettype.htm" window="right"><![CDATA[Asset Type]]></topic>
             </topics>
         </keyword>
+        <keyword name=" Automated Cash Investment Model ">
+            <topics>
+                <topic url="WordDocuments/automatedcashinvestmentmodel.htm" window="right"><![CDATA[Automated Cash Investment Model]]></topic>
+            </topics>
+        </keyword>
         <keyword name=" business rules">
             <topics />
         </keyword>
         <keyword name="Person document">
             <topics>
-                <topic url="WordDocuments/businessrules102.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules123.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/person.htm" window="right"><![CDATA[Person]]></topic>
                 <topic url="WordDocuments/person.htm" window="right"><![CDATA[Person]]></topic>
                 <topic url="WordDocuments/person.htm" window="right"><![CDATA[Person]]></topic>
@@ -277,6 +495,51 @@
                 <topic url="WordDocuments/carrier.htm" window="right"><![CDATA[Carrier]]></topic>
             </topics>
         </keyword>
+        <keyword name=" Cash Decrease document">
+            <topics>
+                <topic url="WordDocuments/cashdecrease.htm" window="right"><![CDATA[Cash Decrease]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Cash Decrease Details tab">
+            <topics>
+                <topic url="WordDocuments/cashdecreasedetailstab.htm" window="right"><![CDATA[Cash Decrease Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Cash Increase document">
+            <topics>
+                <topic url="WordDocuments/cashincrease.htm" window="right"><![CDATA[Cash Increase]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Cash Increase Details tab">
+            <topics>
+                <topic url="WordDocuments/cashincreasedetailstab.htm" window="right"><![CDATA[Cash Increase Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Cash Sweep Model ">
+            <topics>
+                <topic url="WordDocuments/cashsweepmodel.htm" window="right"><![CDATA[Cash Sweep Model]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Cash Transfer document">
+            <topics>
+                <topic url="WordDocuments/cashtransfer.htm" window="right"><![CDATA[Cash Transfer]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Cash Transfer Details tab">
+            <topics>
+                <topic url="WordDocuments/cashtransferdetailstab.htm" window="right"><![CDATA[Cash Transfer Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Class Code ">
+            <topics>
+                <topic url="WordDocuments/classcode.htm" window="right"><![CDATA[Class Code]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Close Code ">
+            <topics>
+                <topic url="WordDocuments/closecode.htm" window="right"><![CDATA[Close Code]]></topic>
+            </topics>
+        </keyword>
         <keyword name=" Collector Flat File Upload">
             <topics />
         </keyword>
@@ -291,6 +554,11 @@
         </keyword>
         <keyword name=" Collector XML Upload">
             <topics />
+        </keyword>
+        <keyword name=" Combine Group Code ">
+            <topics>
+                <topic url="WordDocuments/combinegroupcode.htm" window="right"><![CDATA[Combine Group Code]]></topic>
+            </topics>
         </keyword>
         <keyword name=" Commodity Code document">
             <topics>
@@ -315,6 +583,70 @@
         <keyword name=" copying a document">
             <topics>
                 <topic url="WordDocuments/copyingadocumentinitiatingadocumentbasedonanother.htm" window="right"><![CDATA[Copying a Document (Initiating a Document Based on Another)]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Corporate Reorganization document">
+            <topics>
+                <topic url="WordDocuments/corporatereorganization.htm" window="right"><![CDATA[Corporate Reorganization]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Corporate Reorganization Details tab">
+            <topics>
+                <topic url="WordDocuments/corporatereorganizationdetailstab.htm" window="right"><![CDATA[Corporate Reorganization Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Corpus Adjustment document">
+            <topics>
+                <topic url="WordDocuments/corpusadjustment.htm" window="right"><![CDATA[Corpus Adjustment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Corpus Adjustment Details tab">
+            <topics>
+                <topic url="WordDocuments/corpusadjustmentdetailstab.htm" window="right"><![CDATA[Corpus Adjustment Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Current KEMID Available Balances Lookup">
+            <topics />
+        </keyword>
+        <keyword name="drill down into KEMID Inquiry screen ">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidinquiryscreen.htm" window="right"><![CDATA[Drilldown into KEMID Inquiry Screen]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Current KEMID Balances">
+            <topics />
+        </keyword>
+        <keyword name="drill down into KEMID Security Detail screen">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidsecuritydetail.htm" window="right"><![CDATA[Drilldown into KEMID Security Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="drilldown into KEMID Tax Lot Detail ">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidtaxlotdetail.htm" window="right"><![CDATA[Drilldown into KEMID Tax Lot Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Current KEMID Balances Lookup">
+            <topics />
+        </keyword>
+        <keyword name="drill down into KEMID Current Reporting Group Detail screen">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidcurrentreportinggroupdetail.htm" window="right"><![CDATA[Drilldown into KEMID Current Reporting Group Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="drill down into KEMID Detail screen ">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemiddetail.htm" window="right"><![CDATA[Drilldown into KEMID Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="drill down into KEMID Total Market Value Detail screen">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidtotalmarketvaluedetail.htm" window="right"><![CDATA[Drilldown into KEMID Total Market Value Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Current KEMID Balances Lookup drilldown into KEMID Tax Lot Detail ">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidtaxlotdetail.htm" window="right"><![CDATA[Drilldown into KEMID Tax Lot Detail]]></topic>
             </topics>
         </keyword>
         <keyword name=" Customer Address Type document ">
@@ -358,7 +690,7 @@
                 <topic url="WordDocuments/editbillingorganizationtab.htm" window="right"><![CDATA[Edit Billing Organization Tab]]></topic>
             </topics>
         </keyword>
-        <keyword name="Edit Invoice Item Code  tab ">
+        <keyword name="Edit Invoice Item Code tab ">
             <topics>
                 <topic url="WordDocuments/editinvoiceitemcodetab.htm" window="right"><![CDATA[Edit Invoice Item Code Tab]]></topic>
             </topics>
@@ -383,7 +715,7 @@
         </keyword>
         <keyword name=" data import templates ">
             <topics>
-                <topic url="WordDocuments/accountinglineimporttemplates.htm" window="right"><![CDATA[Accounting Line Import Templates]]></topic>
+                <topic url="WordDocuments/dataimporttemplates.htm" window="right"><![CDATA[Data Import Templates]]></topic>
             </topics>
         </keyword>
         <keyword name=" data import templates,links to default ">
@@ -436,12 +768,98 @@
                 <topic url="WordDocuments/documenthierarchyview.htm" window="right"><![CDATA[Document Hierarchy View]]></topic>
             </topics>
         </keyword>
+        <keyword name=" Donor Record ">
+            <topics>
+                <topic url="WordDocuments/donorrecord.htm" window="right"><![CDATA[Donor Record]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Donor Statement Code ">
+            <topics>
+                <topic url="WordDocuments/donorstatementcode.htm" window="right"><![CDATA[Donor Statement Code]]></topic>
+            </topics>
+        </keyword>
         <keyword name=" effort reports">
             <topics />
         </keyword>
         <keyword name="creating from extracted data ">
             <topics>
                 <topic url="WordDocuments/creatingeffortreportsfromextracteddata.htm" window="right"><![CDATA[Creating Effort Reports from Extracted Data]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Endowment ">
+            <topics>
+                <topic url="WordDocuments/endowment1.htm" window="right"><![CDATA[Endowment]]></topic>
+                <topic url="WordDocuments/endowment2.htm" window="right"><![CDATA[Endowment]]></topic>
+                <topic url="WordDocuments/endowment3.htm" window="right"><![CDATA[Endowment]]></topic>
+                <topic url="WordDocuments/endowment2.htm" window="right"><![CDATA[Endowment]]></topic>
+                <topic url="WordDocuments/endowment1.htm" window="right"><![CDATA[Endowment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Endowment module">
+            <topics>
+                <topic url="WordDocuments/endowment.htm" window="right"><![CDATA[Endowment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Endowment To GL Transfer Of Funds document">
+            <topics>
+                <topic url="WordDocuments/endowmenttogltransferoffunds.htm" window="right"><![CDATA[Endowment To GL Transfer Of Funds]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Accounting Lines tab">
+            <topics>
+                <topic url="WordDocuments/accountinglinestab5.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
+                <topic url="WordDocuments/accountinglinestab6.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
+                <topic url="WordDocuments/accountinglinestab.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
+                <topic url="WordDocuments/accountinglinestab8.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
+                <topic url="WordDocuments/accountinglinestab3.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
+                <topic url="WordDocuments/accountinglinestab2.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
+                <topic url="WordDocuments/accountinglinestab1.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
+                <topic url="WordDocuments/accountinglinestab.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
+                <topic url="WordDocuments/journalvoucherdetailstab.htm" window="right"><![CDATA[Journal Voucher Details Tab]]></topic>
+                <topic url="WordDocuments/accountinglinestab7.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
+                <topic url="WordDocuments/accountinglinestab4.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Endowment To GL Transfer Of Funds Details tab">
+            <topics>
+                <topic url="WordDocuments/endowmenttogltransferoffundsdetailstab.htm" window="right"><![CDATA[Endowment To GL Transfer Of Funds Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Endowment Transaction Archives screen, drill down into">
+            <topics>
+                <topic url="WordDocuments/drilldowntoendowmenttransactionarchives.htm" window="right"><![CDATA[Drilldown to Endowment Transaction Archives]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Endowment Transaction Code ">
+            <topics>
+                <topic url="WordDocuments/endowmenttransactioncode.htm" window="right"><![CDATA[Endowment Transaction Code]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Endowment Transaction Code Maintenance">
+            <topics />
+        </keyword>
+        <keyword name="Endowment Transaction Code tab">
+            <topics>
+                <topic url="WordDocuments/endowmenttransactioncodetab.htm" window="right"><![CDATA[Endowment Transaction Code Tab]]></topic>
+                <topic url="WordDocuments/endowmenttransactioncodetab1.htm" window="right"><![CDATA[Endowment Transaction Code Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="GL Links tab">
+            <topics>
+                <topic url="WordDocuments/gllinkstab.htm" window="right"><![CDATA[GL Links Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Endowment transactions">
+            <topics />
+        </keyword>
+        <keyword name="rounding rules">
+            <topics>
+                <topic url="WordDocuments/standardroundingrules.htm" window="right"><![CDATA[Standard Rounding Rules]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="standard business rules">
+            <topics>
+                <topic url="WordDocuments/standardbusinessrules.htm" window="right"><![CDATA[Standard Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name=" Enterprise Feed Upload">
@@ -488,6 +906,37 @@
         <keyword name=" Fabrication Maintenance document">
             <topics />
         </keyword>
+        <keyword name=" Fee Method">
+            <topics />
+        </keyword>
+        <keyword name="Class Code tab">
+            <topics>
+                <topic url="WordDocuments/classcodetab.htm" window="right"><![CDATA[Class Code Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Fee Method tab">
+            <topics>
+                <topic url="WordDocuments/feemethodtab.htm" window="right"><![CDATA[Fee Method Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Transaction Document Type tab">
+            <topics>
+                <topic url="WordDocuments/transactiondocumenttypetab.htm" window="right"><![CDATA[Transaction Document Type Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Fee Method ">
+            <topics>
+                <topic url="WordDocuments/feemethod.htm" window="right"><![CDATA[Fee Method]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Fee Method document">
+            <topics />
+        </keyword>
+        <keyword name="Security tab">
+            <topics>
+                <topic url="WordDocuments/securitytab.htm" window="right"><![CDATA[Security Tab]]></topic>
+            </topics>
+        </keyword>
         <keyword name=" Format Reset">
             <topics />
         </keyword>
@@ -506,13 +955,18 @@
                 <topic url="WordDocuments/formatsummary.htm" window="right"><![CDATA[Format Summary]]></topic>
             </topics>
         </keyword>
+        <keyword name=" GL To Endowment Transfer Of Funds document">
+            <topics>
+                <topic url="WordDocuments/gltoendowmenttransferoffunds.htm" window="right"><![CDATA[GL To Endowment Transfer Of Funds]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="GL To Endowment Transfer Of Funds Details tab">
+            <topics>
+                <topic url="WordDocuments/gltoendowmenttransferoffundsdetailstab.htm" window="right"><![CDATA[GL To Endowment Transfer Of Funds Details Tab]]></topic>
+            </topics>
+        </keyword>
         <keyword name=" Global Account Delegate Model document">
             <topics />
-        </keyword>
-        <keyword name=" routing">
-            <topics>
-                <topic url="WordDocuments/routing60.htm" window="right"><![CDATA[Routing]]></topic>
-            </topics>
         </keyword>
         <keyword name=" global account document, initiating a ">
             <topics>
@@ -521,26 +975,26 @@
         </keyword>
         <keyword name=" Global Object Code business rules">
             <topics>
-                <topic url="WordDocuments/businessrules79.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules96.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name=" Global Object Code document">
             <topics />
         </keyword>
-        <keyword name=" initiating a">
+        <keyword name="initiating a">
             <topics>
                 <topic url="WordDocuments/initiatingaglobalobjectcodedocument.htm" window="right"><![CDATA[Initiating a Global Object Code document]]></topic>
             </topics>
         </keyword>
         <keyword name=" Global Object Code routing">
             <topics>
-                <topic url="WordDocuments/routing62.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing78.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name=" Global Sub-Object Code document">
             <topics />
         </keyword>
-        <keyword name=" Initiating a ">
+        <keyword name="Initiating a ">
             <topics>
                 <topic url="WordDocuments/initiatingaglobalsubobjectcodedocument.htm" window="right"><![CDATA[Initiating a Global Sub-Object Code document]]></topic>
             </topics>
@@ -558,6 +1012,79 @@
                 <topic url="WordDocuments/overviewtab1.htm" window="right"><![CDATA[Overview Tab]]></topic>
                 <topic url="WordDocuments/overviewtab.htm" window="right"><![CDATA[Overview Tab]]></topic>
                 <topic url="WordDocuments/overviewtab2.htm" window="right"><![CDATA[Overview Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Historical KEMID Balances">
+            <topics />
+        </keyword>
+        <keyword name="drill down into KEMID Detail screen">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemiddetail1.htm" window="right"><![CDATA[Drilldown into KEMID Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="drill down into KEMID Historical Reporting Group Detail screen">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidhistoricalreportinggroupdetail.htm" window="right"><![CDATA[Drilldown into KEMID Historical Reporting Group Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="drill down into KEMID Total Market Value Detail screen ">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidhistoricalbalancesdetail.htm" window="right"><![CDATA[Drilldown into KEMID Historical Balances Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="KEMID Security Detail screen">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidsecuritydetail1.htm" window="right"><![CDATA[Drilldown into KEMID Security Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="KEMID Tax Lot Detail screen">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidtaxlotdetail1.htm" window="right"><![CDATA[Drilldown into KEMID Tax Lot Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Holding Adjustment document">
+            <topics>
+                <topic url="WordDocuments/holdingadjustment.htm" window="right"><![CDATA[Holding Adjustment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Holding Adjustment Details tab">
+            <topics>
+                <topic url="WordDocuments/holdingadjustmentdetailstab.htm" window="right"><![CDATA[Holding Adjustment Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Unit/Share Adjustment tab">
+            <topics>
+                <topic url="WordDocuments/unitshareadjustmentdetailstab.htm" window="right"><![CDATA[Unit/Share Adjustment Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Holding History Value Adjustment document">
+            <topics>
+                <topic url="WordDocuments/holdinghistoryvalueadjustment.htm" window="right"><![CDATA[Holding History Value Adjustment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="History Value Adjustment Details tab">
+            <topics>
+                <topic url="WordDocuments/historyvalueadjustmentdetailstab.htm" window="right"><![CDATA[History Value Adjustment Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Holding Tax Lot Maintenance Document ">
+            <topics>
+                <topic url="WordDocuments/holdingtaxlotmaintenancedocument.htm" window="right"><![CDATA[Holding Tax Lot Maintenance Document]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Holding Tax Lot Rebalance document">
+            <topics>
+                <topic url="WordDocuments/holdingtaxlotrebalance.htm" window="right"><![CDATA[Holding Tax Lot Rebalance]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Holding Tax Lots tab">
+            <topics>
+                <topic url="WordDocuments/holdingtaxlotstab.htm" window="right"><![CDATA[Holding Tax Lots Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="KEMID Holding tab">
+            <topics>
+                <topic url="WordDocuments/kemidholdingtab.htm" window="right"><![CDATA[KEMID Holding Tab]]></topic>
             </topics>
         </keyword>
         <keyword name=" Indirect Cost Recovery Exclusion by Account document">
@@ -600,6 +1127,148 @@
                 <topic url="WordDocuments/itemreasonadded.htm" window="right"><![CDATA[Item Reason Added]]></topic>
             </topics>
         </keyword>
+        <keyword name=" KEMID Current Reporting Group Detail screen, drill down into">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidcurrentreportinggroupdetail.htm" window="right"><![CDATA[Drilldown into KEMID Current Reporting Group Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEMID Detail screen, drill down into">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemiddetail1.htm" window="right"><![CDATA[Drilldown into KEMID Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEMID Detail screen, drill down into ">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemiddetail.htm" window="right"><![CDATA[Drilldown into KEMID Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEMID document">
+            <topics>
+                <topic url="WordDocuments/kemid.htm" window="right"><![CDATA[KEMID]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Agreement tab">
+            <topics>
+                <topic url="WordDocuments/agreementtab.htm" window="right"><![CDATA[Agreement Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Authorizations tab">
+            <topics>
+                <topic url="WordDocuments/authorizationstab.htm" window="right"><![CDATA[Authorizations Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Benefitting Organization tab">
+            <topics>
+                <topic url="WordDocuments/benefittingorganizationtab.htm" window="right"><![CDATA[Benefitting Organization Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Combine Donor Statements tab">
+            <topics>
+                <topic url="WordDocuments/combinedonorstatementstab.htm" window="right"><![CDATA[Combine Donor Statements Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Donor Statements tab">
+            <topics>
+                <topic url="WordDocuments/donorstatementstab.htm" window="right"><![CDATA[Donor Statements Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Endowment Corpus Values tab">
+            <topics>
+                <topic url="WordDocuments/endowmentcorpusvaluestab.htm" window="right"><![CDATA[Endowment Corpus Values Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Fees tab">
+            <topics>
+                <topic url="WordDocuments/feestab.htm" window="right"><![CDATA[Fees Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="General Ledger Accounts tab">
+            <topics>
+                <topic url="WordDocuments/generalledgeraccountstab.htm" window="right"><![CDATA[General Ledger Accounts Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="KEMID tab">
+            <topics>
+                <topic url="WordDocuments/kemidtab.htm" window="right"><![CDATA[KEMID Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Payout Instructions tab">
+            <topics>
+                <topic url="WordDocuments/payoutinstructionstab.htm" window="right"><![CDATA[Payout Instructions Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Report Groups tab">
+            <topics>
+                <topic url="WordDocuments/reportgroupstab.htm" window="right"><![CDATA[Report Groups Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Source of Funds tab">
+            <topics>
+                <topic url="WordDocuments/sourceoffundstab.htm" window="right"><![CDATA[Source of Funds Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Special Instructions tab">
+            <topics>
+                <topic url="WordDocuments/specialinstructionstab.htm" window="right"><![CDATA[Special Instructions Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Use Criteria tab">
+            <topics>
+                <topic url="WordDocuments/usecriteriatab.htm" window="right"><![CDATA[Use Criteria Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEMID Historical Reporting Group Detail screen, drill down into">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidhistoricalreportinggroupdetail.htm" window="right"><![CDATA[Drilldown into KEMID Historical Reporting Group Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEMID Inquiry screen, drill down into ">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidinquiryscreen.htm" window="right"><![CDATA[Drilldown into KEMID Inquiry Screen]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEMID Security Detail screen, drill down into">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidsecuritydetail.htm" window="right"><![CDATA[Drilldown into KEMID Security Detail]]></topic>
+                <topic url="WordDocuments/drilldownintokemidsecuritydetail1.htm" window="right"><![CDATA[Drilldown into KEMID Security Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEMID submenu group">
+            <topics>
+                <topic url="WordDocuments/kemidsubmenugroup.htm" window="right"><![CDATA[KEMID Submenu Group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEMID Tax Lot Detail screen, drill down into">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidtaxlotdetail1.htm" window="right"><![CDATA[Drilldown into KEMID Tax Lot Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEMID Total Market Value Detail screen, drill down into ">
+            <topics>
+                <topic url="WordDocuments/drilldownintokemidhistoricalbalancesdetail.htm" window="right"><![CDATA[Drilldown into KEMID Historical Balances Detail]]></topic>
+                <topic url="WordDocuments/drilldownintokemidtotalmarketvaluedetail.htm" window="right"><![CDATA[Drilldown into KEMID Total Market Value Detail]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Liability Decrease document">
+            <topics>
+                <topic url="WordDocuments/liabilitydecrease.htm" window="right"><![CDATA[Liability Decrease]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Liability Decrease Details tab">
+            <topics>
+                <topic url="WordDocuments/liabilitydecreasedetailstab.htm" window="right"><![CDATA[Liability Decrease Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Liability Increase document">
+            <topics>
+                <topic url="WordDocuments/liabilityincrease.htm" window="right"><![CDATA[Liability Increase]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Liability Increase Details tab">
+            <topics>
+                <topic url="WordDocuments/liabilityincreasedetailstab.htm" window="right"><![CDATA[Liability Increase Details Tab]]></topic>
+            </topics>
+        </keyword>
         <keyword name=" Line Item Receiving Status document ">
             <topics>
                 <topic url="WordDocuments/lineitemreceivingstatus.htm" window="right"><![CDATA[Line Item Receiving Status]]></topic>
@@ -615,7 +1284,7 @@
         </keyword>
         <keyword name=" Object Code document routing">
             <topics>
-                <topic url="WordDocuments/routing61.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing77.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name=" Organization Accounting Default document">
@@ -648,7 +1317,7 @@
         </keyword>
         <keyword name=" Organization business rules">
             <topics>
-                <topic url="WordDocuments/businessrules80.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules97.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name=" Organization Options document">
@@ -681,55 +1350,6 @@
         </keyword>
         <keyword name=" Organization Reversion document">
             <topics />
-        </keyword>
-        <keyword name="routing">
-            <topics>
-                <topic url="WordDocuments/routing74.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing77.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing73.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing6.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing46.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing52.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing53.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing54.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing50.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing55.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing51.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing7.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing69.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routingadocument.htm" window="right"><![CDATA[Routing a Document]]></topic>
-                <topic url="WordDocuments/routing19.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing8.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing21.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing9.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing22.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing10.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing1.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing2.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing3.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing4.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing11.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing12.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing37.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing47.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing48.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing49.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing13.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing36.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing15.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing16.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing44.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing43.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing64.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing78.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing45.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing17.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing14.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing70.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing20.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing18.htm" window="right"><![CDATA[Routing]]></topic>
-            </topics>
         </keyword>
         <keyword name=" Organization Reversion Global document">
             <topics>
@@ -766,7 +1386,7 @@
         </keyword>
         <keyword name=" Organization routing">
             <topics>
-                <topic url="WordDocuments/routing63.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing79.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name=" Overview tab">
@@ -807,7 +1427,7 @@
                 <topic url="WordDocuments/paymentfilebatchupload.htm" window="right"><![CDATA[Payment File Batch Upload]]></topic>
             </topics>
         </keyword>
-        <keyword name=" uploading a file to the PDP ">
+        <keyword name="uploading a file to the PDP ">
             <topics>
                 <topic url="WordDocuments/uploadingafiletothepdp.htm" window="right"><![CDATA[Uploading a File to the PDP]]></topic>
             </topics>
@@ -861,12 +1481,22 @@
                 <topic url="WordDocuments/privacypreferencestab.htm" window="right"><![CDATA[Privacy Preferences Tab]]></topic>
             </topics>
         </keyword>
+        <keyword name=" Pooled Fund Control ">
+            <topics>
+                <topic url="WordDocuments/pooledfundcontrol.htm" window="right"><![CDATA[Pooled Fund Control]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Pooled fund, creating a">
+            <topics>
+                <topic url="WordDocuments/creatingapooledfund.htm" window="right"><![CDATA[Creating a Pooled Fund]]></topic>
+            </topics>
+        </keyword>
         <keyword name=" Procurement Card Upload">
             <topics />
         </keyword>
         <keyword name=" Project routing">
             <topics>
-                <topic url="WordDocuments/routing65.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing81.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name=" Proposal/Award Close document">
@@ -894,6 +1524,19 @@
                 <topic url="WordDocuments/purchaseorderquotestatus.htm" window="right"><![CDATA[Purchase Order Quote Status]]></topic>
             </topics>
         </keyword>
+        <keyword name=" Purchasing/Accounts Payable">
+            <topics />
+        </keyword>
+        <keyword name="batch processes ">
+            <topics>
+                <topic url="WordDocuments/batchprocesses.htm" window="right"><![CDATA[Batch Processes]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Purpose Code ">
+            <topics>
+                <topic url="WordDocuments/purposecode.htm" window="right"><![CDATA[Purpose Code]]></topic>
+            </topics>
+        </keyword>
         <keyword name=" Recalculate Total Amount Tab">
             <topics />
         </keyword>
@@ -905,6 +1548,41 @@
         <keyword name=" Receiving Threshold document ">
             <topics>
                 <topic url="WordDocuments/receivingthreshold.htm" window="right"><![CDATA[Receiving Threshold]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Recurring Cash Transfer document">
+            <topics>
+                <topic url="WordDocuments/recurringcashtransfer.htm" window="right"><![CDATA[Recurring Cash Transfer]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Edit Recurring Cash Transfer tab">
+            <topics>
+                <topic url="WordDocuments/editrecurringcashtransfertab.htm" window="right"><![CDATA[Edit Recurring Cash Transfer Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="GL Transfer Target tab">
+            <topics>
+                <topic url="WordDocuments/gltransfertargettab.htm" window="right"><![CDATA[GL Transfer Target Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="KEMID Transfer Target tab">
+            <topics>
+                <topic url="WordDocuments/kemidtransfertargettab.htm" window="right"><![CDATA[KEMID Transfer Target Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Registration Code ">
+            <topics>
+                <topic url="WordDocuments/registrationcode.htm" window="right"><![CDATA[Registration Code]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Reporting Group ">
+            <topics>
+                <topic url="WordDocuments/reportinggroup.htm" window="right"><![CDATA[Reporting Group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Responsible Administration Code ">
+            <topics>
+                <topic url="WordDocuments/responsibleadministrationcode.htm" window="right"><![CDATA[Responsible Administration Code]]></topic>
             </topics>
         </keyword>
         <keyword name=" Role document">
@@ -945,6 +1623,31 @@
                 <topic url="WordDocuments/searchingforadocument.htm" window="right"><![CDATA[Searching for a Document]]></topic>
             </topics>
         </keyword>
+        <keyword name=" Securities submenu group">
+            <topics>
+                <topic url="WordDocuments/securitiessubmenugroup.htm" window="right"><![CDATA[Securities Submenu Group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Security document">
+            <topics>
+                <topic url="WordDocuments/security.htm" window="right"><![CDATA[Security]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Edit Security tab">
+            <topics>
+                <topic url="WordDocuments/editsecuritytab.htm" window="right"><![CDATA[Edit Security Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Security Transfer document">
+            <topics>
+                <topic url="WordDocuments/securitytransfer.htm" window="right"><![CDATA[Security Transfer]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Security Transfer Details tab">
+            <topics>
+                <topic url="WordDocuments/securitytransferdetailstab.htm" window="right"><![CDATA[Security Transfer Details Tab]]></topic>
+            </topics>
+        </keyword>
         <keyword name=" Sensitive Data document ">
             <topics>
                 <topic url="WordDocuments/sensitivedata.htm" window="right"><![CDATA[Sensitive Data]]></topic>
@@ -955,6 +1658,11 @@
                 <topic url="WordDocuments/separateassets.htm" window="right"><![CDATA[Separate Assets]]></topic>
             </topics>
         </keyword>
+        <keyword name=" Source of Funds Code ">
+            <topics>
+                <topic url="WordDocuments/sourceoffundscode.htm" window="right"><![CDATA[Source of Funds Code]]></topic>
+            </topics>
+        </keyword>
         <keyword name=" Sub-Account ">
             <topics>
                 <topic url="WordDocuments/subaccount.htm" window="right"><![CDATA[Sub-Account]]></topic>
@@ -962,22 +1670,27 @@
         </keyword>
         <keyword name=" Sub-Account business rules">
             <topics>
-                <topic url="WordDocuments/businessrules83.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules100.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name=" Sub-Account routing">
             <topics>
-                <topic url="WordDocuments/routing66.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing82.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name=" Sub-Object Code business rules">
             <topics>
-                <topic url="WordDocuments/businessrules84.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules101.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name=" Sub-Object Code routing">
             <topics>
-                <topic url="WordDocuments/routing67.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing83.htm" window="right"><![CDATA[Routing]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Subclass Code ">
+            <topics>
+                <topic url="WordDocuments/subclasscode.htm" window="right"><![CDATA[Subclass Code]]></topic>
             </topics>
         </keyword>
         <keyword name=" System Information document">
@@ -1008,14 +1721,95 @@
                 <topic url="WordDocuments/systeminformation.htm" window="right"><![CDATA[System Information]]></topic>
             </topics>
         </keyword>
-        <keyword name=" templates,accounting line import ">
+        <keyword name=" templates, data import ">
             <topics>
-                <topic url="WordDocuments/accountinglineimporttemplates.htm" window="right"><![CDATA[Accounting Line Import Templates]]></topic>
+                <topic url="WordDocuments/dataimporttemplates.htm" window="right"><![CDATA[Data Import Templates]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Tickler document">
+            <topics>
+                <topic url="WordDocuments/tickler.htm" window="right"><![CDATA[Tickler]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Tickler KEMID tab">
+            <topics>
+                <topic url="WordDocuments/ticklerkemidtab.htm" window="right"><![CDATA[Tickler KEMID Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Tickler Recipient Group tab">
+            <topics>
+                <topic url="WordDocuments/ticklerrecipientgrouptab.htm" window="right"><![CDATA[Tickler Recipient Group Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Tickler Recipient Person tab">
+            <topics>
+                <topic url="WordDocuments/ticklerrecipientpersontab.htm" window="right"><![CDATA[Tickler Recipient Person Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Tickler Security tab">
+            <topics>
+                <topic url="WordDocuments/ticklersecuritytab.htm" window="right"><![CDATA[Tickler Security Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Tickler tab">
+            <topics>
+                <topic url="WordDocuments/ticklertab.htm" window="right"><![CDATA[Tickler Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Tickler Type Code ">
+            <topics>
+                <topic url="WordDocuments/ticklertypecode.htm" window="right"><![CDATA[Tickler Type Code]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Transaction Archives">
+            <topics />
+        </keyword>
+        <keyword name="drill down to Endowment Transaction Archives screen">
+            <topics>
+                <topic url="WordDocuments/drilldowntoendowmenttransactionarchives.htm" window="right"><![CDATA[Drilldown to Endowment Transaction Archives]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Transaction Restriction Code ">
+            <topics>
+                <topic url="WordDocuments/transactionrestrictioncode.htm" window="right"><![CDATA[Transaction Restriction Code]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Type Code">
+            <topics>
+                <topic url="WordDocuments/typecode.htm" window="right"><![CDATA[Type Code]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Type Code Maintenance">
+            <topics />
+        </keyword>
+        <keyword name="Edit Type Code tab">
+            <topics>
+                <topic url="WordDocuments/edittypecodetab.htm" window="right"><![CDATA[Edit Type Code Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Edit Type Fee Method tab">
+            <topics>
+                <topic url="WordDocuments/edittypefeemethodtab.htm" window="right"><![CDATA[Edit Type Fee Method Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Type Restriction Code ">
+            <topics>
+                <topic url="WordDocuments/typerestrictioncode.htm" window="right"><![CDATA[Type Restriction Code]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Unit/Share Adjustment document">
+            <topics>
+                <topic url="WordDocuments/unitshareadjustment.htm" window="right"><![CDATA[Unit Share Adjustment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" Use Criteria Code ">
+            <topics>
+                <topic url="WordDocuments/usecriteriacode.htm" window="right"><![CDATA[Use Criteria Code]]></topic>
             </topics>
         </keyword>
         <keyword name=" Vendor (PVEN)outing">
             <topics>
-                <topic url="WordDocuments/routing80.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing91.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name=" Year-End documents">
@@ -1023,7 +1817,7 @@
         </keyword>
         <keyword name="process overview">
             <topics>
-                <topic url="WordDocuments/processoverview78.htm" window="right"><![CDATA[Process Overview]]></topic>
+                <topic url="WordDocuments/processoverview98.htm" window="right"><![CDATA[Process Overview]]></topic>
             </topics>
         </keyword>
         <keyword name="Account">
@@ -1064,14 +1858,14 @@
         </keyword>
         <keyword name="routing ">
             <topics>
-                <topic url="WordDocuments/routing56.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing72.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name="Account Delegate">
             <topics>
                 <topic url="WordDocuments/accountdelegate.htm" window="right"><![CDATA[Account Delegate]]></topic>
-                <topic url="WordDocuments/businessrules76.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/routing58.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/businessrules93.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/routing74.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name="Account Delegate / Model">
@@ -1102,55 +1896,7 @@
         <keyword name="Account Reports document">
             <topics>
                 <topic url="WordDocuments/accountreports.htm" window="right"><![CDATA[Account Reports]]></topic>
-                <topic url="WordDocuments/businessrules95.htm" window="right"><![CDATA[Business Rules]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="example">
-            <topics>
-                <topic url="WordDocuments/example42.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example6.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example43.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example44.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example35.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example36.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example37.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example38.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example39.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example7.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example28.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example19.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example45.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example46.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example9.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example21.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example10.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example1.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example2.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example3.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example4.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example11.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example12.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example40.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example29.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example49.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/generalguidelines.htm" window="right"><![CDATA[General Guidelines]]></topic>
-                <topic url="WordDocuments/example13.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example15.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example47.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example16.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example30.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example33.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example31.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example48.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example5.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example34.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example17.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example14.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example20.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example32.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example18.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example41.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/businessrules116.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Account Status (Base Funds) Balance Inquiry">
@@ -1161,8 +1907,8 @@
         </keyword>
         <keyword name="search result, consolidation option">
             <topics>
-                <topic url="WordDocuments/consolidationoption.htm" window="right"><![CDATA[Consolidation Option]]></topic>
                 <topic url="WordDocuments/consolidationoption1.htm" window="right"><![CDATA[Consolidation Option]]></topic>
+                <topic url="WordDocuments/consolidationoption2.htm" window="right"><![CDATA[Consolidation Option]]></topic>
             </topics>
         </keyword>
         <keyword name="search result, detail option">
@@ -1197,106 +1943,9 @@
                 <topic url="WordDocuments/accountingcyclefiles.htm" window="right"><![CDATA[Accounting Cycle Files]]></topic>
             </topics>
         </keyword>
-        <keyword name="Accounting Line import templates">
-            <topics />
-        </keyword>
-        <keyword name="AD_CR_CCR_DV_SB_Import.xls">
-            <topics>
-                <topic url="WordDocuments/adcrccrdvsbimportxls.htm" window="right"><![CDATA[AD_CR_CCR_DV_SB_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="AV_Import.xls">
-            <topics>
-                <topic url="WordDocuments/avimportxls.htm" window="right"><![CDATA[AV_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="BA_YEBA_Import.xls">
-            <topics>
-                <topic url="WordDocuments/bayebaimportxls.htm" window="right"><![CDATA[BA_YEBA_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="CAM_MPAY_Account_Import.xls ">
-            <topics>
-                <topic url="WordDocuments/cammpayaccountimportxls.htm" window="right"><![CDATA[CAM_MPAY_Account_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="DI_YEDI_IB_TF_PE_Encumbrance_Only_Import.xls">
-            <topics>
-                <topic url="WordDocuments/diyediibtfyetfpeencumbranceonlyimportxls.htm" window="right"><![CDATA[DI_YEDI_IB_TF_YETF_PE_Encumbrance_Only_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="GEC_YEGEC_Import.xls">
-            <topics>
-                <topic url="WordDocuments/gecyegecimportxls.htm" window="right"><![CDATA[GEC_YEGEC_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="ICA_Import.xls">
-            <topics>
-                <topic url="WordDocuments/icaimportxls.htm" window="right"><![CDATA[ICA_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="JV_Ext_Encumbr_Import.xls">
-            <topics>
-                <topic url="WordDocuments/jvextencumbrimportxls.htm" window="right"><![CDATA[JV_Ext_Encumbr_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="JV_NonOffset_Bal_Type_Import.xls">
-            <topics>
-                <topic url="WordDocuments/jvnonoffsetbaltypeimportxls.htm" window="right"><![CDATA[JV_NonOffset_Bal_Type_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="JV_Offset_Bal_Type_Import.xls">
-            <topics>
-                <topic url="WordDocuments/jvoffsetbaltypeimportxls.htm" window="right"><![CDATA[JV_Offset_Bal_Type_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="LLJV_Import.xls">
-            <topics>
-                <topic url="WordDocuments/lljvimportxls.htm" window="right"><![CDATA[LLJV_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="ND_Import.xls">
-            <topics>
-                <topic url="WordDocuments/ndimportxls.htm" window="right"><![CDATA[ND_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="PE_Disencumbrance_Only_Import.xls">
-            <topics>
-                <topic url="WordDocuments/pedisencumbranceonlyimportxls.htm" window="right"><![CDATA[PE_Disencumbrance_Only_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="PURAP_Account_Import.xls ">
-            <topics>
-                <topic url="WordDocuments/purapaccountimportxls.htm" window="right"><![CDATA[PURAP_Account_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="PURAP_Item_Import.xls ">
-            <topics>
-                <topic url="WordDocuments/purapitemimportxls.htm" window="right"><![CDATA[PURAP_Item_Import.xls]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="Accounting Lines tab">
-            <topics>
-                <topic url="WordDocuments/accountinglinestab.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
-                <topic url="WordDocuments/accountinglinestab6.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
-                <topic url="WordDocuments/accountinglinestab3.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
-                <topic url="WordDocuments/accountinglinestab2.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
-                <topic url="WordDocuments/accountinglinestab1.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
-                <topic url="WordDocuments/accountinglinestab.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
-                <topic url="WordDocuments/journalvoucherdetailstab.htm" window="right"><![CDATA[Journal Voucher Details Tab]]></topic>
-                <topic url="WordDocuments/accountinglinestab5.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
-                <topic url="WordDocuments/accountinglinestab4.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
-            </topics>
-        </keyword>
         <keyword name="buttons">
             <topics>
                 <topic url="WordDocuments/accountinglinesbuttons.htm" window="right"><![CDATA[Accounting Lines Buttons]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="creating a .csv file">
-            <topics>
-                <topic url="WordDocuments/creatingacsvfile.htm" window="right"><![CDATA[Creating a .csv File]]></topic>
-                <topic url="WordDocuments/creatingacsvfile.htm" window="right"><![CDATA[Creating a .csv File]]></topic>
             </topics>
         </keyword>
         <keyword name="debit/credit entries">
@@ -1314,11 +1963,6 @@
             <topics>
                 <topic url="WordDocuments/doublesidedentries.htm" window="right"><![CDATA[Double-Sided Entries]]></topic>
                 <topic url="WordDocuments/doublesidedentries.htm" window="right"><![CDATA[Double-Sided Entries]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="Expired Override check box">
-            <topics>
-                <topic url="WordDocuments/accountinglinesbuttons.htm" window="right"><![CDATA[Accounting Lines Buttons]]></topic>
             </topics>
         </keyword>
         <keyword name="fields, list of">
@@ -1352,12 +1996,12 @@
         </keyword>
         <keyword name="Accounting Lines tab, Asset Payments document">
             <topics>
-                <topic url="WordDocuments/accountinglinestab6.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
+                <topic url="WordDocuments/accountinglinestab8.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="Accounting Lines tab, Labor Ledger Journal Voucher (LLJV) document ">
             <topics>
-                <topic url="WordDocuments/accountinglinestab5.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
+                <topic url="WordDocuments/accountinglinestab7.htm" window="right"><![CDATA[Accounting Lines Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="Accounting Period document">
@@ -1367,9 +2011,9 @@
         </keyword>
         <keyword name="Accounts Receivable">
             <topics>
+                <topic url="WordDocuments/accountsreceivable.htm" window="right"><![CDATA[Accounts Receivable]]></topic>
                 <topic url="WordDocuments/accountsreceivable1.htm" window="right"><![CDATA[Accounts Receivable]]></topic>
                 <topic url="WordDocuments/accountsreceivable2.htm" window="right"><![CDATA[Accounts Receivable]]></topic>
-                <topic url="WordDocuments/accountsreceivable.htm" window="right"><![CDATA[Accounts Receivable]]></topic>
                 <topic url="WordDocuments/transactionssubmenu.htm" window="right"><![CDATA[Transactions Submenu]]></topic>
                 <topic url="WordDocuments/accountsreceivable.htm" window="right"><![CDATA[Accounts Receivable]]></topic>
             </topics>
@@ -1586,18 +2230,18 @@
         </keyword>
         <keyword name="Agency Number">
             <topics>
-                <topic url="WordDocuments/documentlayout202.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout250.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="auto generation">
             <topics>
-                <topic url="WordDocuments/documentlayout202.htm" window="right"><![CDATA[Document Layout]]></topic>
-                <topic url="WordDocuments/documentlayout214.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout250.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout262.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="unused">
             <topics>
-                <topic url="WordDocuments/documentlayout214.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout262.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="Agency Type document">
@@ -1634,13 +2278,13 @@
         <keyword name="Appointment Funding Duration document">
             <topics>
                 <topic url="WordDocuments/appointmentfundingduration.htm" window="right"><![CDATA[Appointment Funding Duration]]></topic>
-                <topic url="WordDocuments/businessrules96.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules117.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Appointment Funding Reason Code document">
             <topics>
                 <topic url="WordDocuments/appointmentfundingreasoncode.htm" window="right"><![CDATA[Appointment Funding Reason Code]]></topic>
-                <topic url="WordDocuments/businessrules97.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules118.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="approve">
@@ -1666,7 +2310,7 @@
         <keyword name="Asset Detail Information tab, Asset document">
             <topics>
                 <topic url="WordDocuments/assetdetailinformationtab.htm" window="right"><![CDATA[Asset Detail Information Tab]]></topic>
-                <topic url="WordDocuments/assetdetailinformationtab.htm#businessrules58.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/assetdetailinformationtab.htm#businessrules74.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Asset Detail Information tab, Asset Fabrication Maintenance document">
@@ -1683,7 +2327,7 @@
             <topics>
                 <topic url="WordDocuments/assetdetailinformationtab1.htm" window="right"><![CDATA[Asset Detail Information Tab]]></topic>
                 <topic url="WordDocuments/assetdetailinformationtab5.htm" window="right"><![CDATA[Asset Detail Information Tab]]></topic>
-                <topic url="WordDocuments/businessrules63.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules79.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="asset detail, displaying, Asset Retirement Global document">
@@ -1706,6 +2350,7 @@
             <topics>
                 <topic url="WordDocuments/assetdetailinformationtab.htm" window="right"><![CDATA[Asset Detail Information Tab]]></topic>
                 <topic url="WordDocuments/assetdetailinformationtab3.htm" window="right"><![CDATA[Asset Detail Information Tab]]></topic>
+                <topic url="WordDocuments/assetdetailinformationtab4.htm" window="right"><![CDATA[Asset Detail Information Tab]]></topic>
                 <topic url="WordDocuments/assetdetailinformationtab1.htm" window="right"><![CDATA[Asset Detail Information Tab]]></topic>
                 <topic url="WordDocuments/assetdetailinformationtab5.htm" window="right"><![CDATA[Asset Detail Information Tab]]></topic>
             </topics>
@@ -1714,12 +2359,13 @@
             <topics>
                 <topic url="WordDocuments/assetlocationtab.htm" window="right"><![CDATA[Asset Location Tab]]></topic>
                 <topic url="WordDocuments/assetlocationtab2.htm" window="right"><![CDATA[Asset Location Tab]]></topic>
+                <topic url="WordDocuments/assetlocationtab1.htm" window="right"><![CDATA[Asset Location Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="business rules, Asset Detail Information tab">
             <topics>
-                <topic url="WordDocuments/assetdetailinformationtab.htm#businessrules58.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules63.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/assetdetailinformationtab.htm#businessrules74.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules79.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Components tab">
@@ -1736,6 +2382,7 @@
             <topics>
                 <topic url="WordDocuments/organizationinformationtab.htm" window="right"><![CDATA[Organization Information Tab]]></topic>
                 <topic url="WordDocuments/organizationinformationtab2.htm" window="right"><![CDATA[Organization Information Tab]]></topic>
+                <topic url="WordDocuments/organizationinformationtab1.htm" window="right"><![CDATA[Organization Information Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="Payments Lookup tab">
@@ -1784,7 +2431,7 @@
         <keyword name="Asset Global document">
             <topics>
                 <topic url="WordDocuments/assetglobaladd.htm" window="right"><![CDATA[Asset Global (Add)]]></topic>
-                <topic url="WordDocuments/businessrules69.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules85.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/assetglobaladd.htm" window="right"><![CDATA[Asset Global (Add)]]></topic>
             </topics>
         </keyword>
@@ -1808,14 +2455,9 @@
                 <topic url="WordDocuments/assetacquisitiontypetab1.htm" window="right"><![CDATA[Asset Acquisition Type Tab]]></topic>
             </topics>
         </keyword>
-        <keyword name="Asset Detail Information  tab">
-            <topics>
-                <topic url="WordDocuments/assetdetailinformationtab4.htm" window="right"><![CDATA[Asset Detail Information Tab]]></topic>
-            </topics>
-        </keyword>
         <keyword name="business rules, Location tab">
             <topics>
-                <topic url="WordDocuments/businessrules68.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules84.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Asset Inquiry">
@@ -1843,7 +2485,7 @@
         <keyword name="Asset Location tab, Asset document">
             <topics>
                 <topic url="WordDocuments/assetlocationtab.htm" window="right"><![CDATA[Asset Location Tab]]></topic>
-                <topic url="WordDocuments/assetlocationtab.htm#businessrules59.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/assetlocationtab.htm#businessrules75.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Asset Location tab, Asset Fabrication Maintenance document">
@@ -1880,7 +2522,7 @@
         </keyword>
         <keyword name="Asset Payments document">
             <topics>
-                <topic url="WordDocuments/businessrules72.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules88.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/enterpayment.htm" window="right"><![CDATA[Enter Payment]]></topic>
             </topics>
         </keyword>
@@ -1898,8 +2540,8 @@
             <topics>
                 <topic url="WordDocuments/assetretirementglobal.htm" window="right"><![CDATA[Asset Retirement Global]]></topic>
                 <topic url="WordDocuments/equipmentmerge.htm" window="right"><![CDATA[Equipment Merge]]></topic>
-                <topic url="WordDocuments/businessrules104.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules73.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules89.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules90.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/assetretirementglobal.htm" window="right"><![CDATA[Asset Retirement Global]]></topic>
                 <topic url="WordDocuments/equipmentmerge.htm" window="right"><![CDATA[Equipment Merge]]></topic>
             </topics>
@@ -1927,7 +2569,7 @@
         </keyword>
         <keyword name="layout">
             <topics>
-                <topic url="WordDocuments/documentlayout62.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout81.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="Retirement Information tab">
@@ -1955,18 +2597,8 @@
         <keyword name="Asset Transfer document">
             <topics>
                 <topic url="WordDocuments/transferasset.htm" window="right"><![CDATA[Transfer Asset]]></topic>
-                <topic url="WordDocuments/businessrules66.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules82.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/transferasset.htm" window="right"><![CDATA[Transfer Asset]]></topic>
-            </topics>
-        </keyword>
-        <keyword name=" Asset Location tab">
-            <topics>
-                <topic url="WordDocuments/assetlocationtab1.htm" window="right"><![CDATA[Asset Location Tab]]></topic>
-            </topics>
-        </keyword>
-        <keyword name=" Organization Information tab">
-            <topics>
-                <topic url="WordDocuments/organizationinformationtab1.htm" window="right"><![CDATA[Organization Information Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="Asset Transfer Information tab">
@@ -2010,7 +2642,7 @@
         </keyword>
         <keyword name="Subcontractor Number">
             <topics>
-                <topic url="WordDocuments/documentlayout214.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout262.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="AUTO-REVERSAL">
@@ -2052,7 +2684,7 @@
         <keyword name="Award (AWRD) document">
             <topics>
                 <topic url="WordDocuments/award.htm" window="right"><![CDATA[Award]]></topic>
-                <topic url="WordDocuments/businessrules86.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules103.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/award.htm" window="right"><![CDATA[Award]]></topic>
             </topics>
         </keyword>
@@ -2119,6 +2751,11 @@
                 <topic url="WordDocuments/mainmenu.htm" window="right"><![CDATA[Main Menu]]></topic>
             </topics>
         </keyword>
+        <keyword name="balance inquiries overview, Endowment module">
+            <topics>
+                <topic url="WordDocuments/endowment4.htm" window="right"><![CDATA[Endowment]]></topic>
+            </topics>
+        </keyword>
         <keyword name="balance inquiries overview, Labor Distribution module">
             <topics>
                 <topic url="WordDocuments/labordistribution3.htm" window="right"><![CDATA[Labor Distribution]]></topic>
@@ -2169,7 +2806,7 @@
         </keyword>
         <keyword name="Barcode Inventory Process document">
             <topics>
-                <topic url="WordDocuments/businessrules46.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules56.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="CSV file layout">
@@ -2253,14 +2890,6 @@
                 <topic url="WordDocuments/batchinputfileformatspecifications.htm" window="right"><![CDATA[Batch Input File Format Specifications]]></topic>
             </topics>
         </keyword>
-        <keyword name="Batch job">
-            <topics />
-        </keyword>
-        <keyword name="unschedule">
-            <topics>
-                <topic url="WordDocuments/othercommandssection.htm" window="right"><![CDATA[Other Commands Section]]></topic>
-            </topics>
-        </keyword>
         <keyword name="Batch Job Lookup">
             <topics>
                 <topic url="WordDocuments/schedule.htm" window="right"><![CDATA[Schedule]]></topic>
@@ -2268,7 +2897,7 @@
         </keyword>
         <keyword name="batch job, modify">
             <topics>
-                <topic url="WordDocuments/documentlayout269.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout317.htm" window="right"><![CDATA[Document Layout]]></topic>
                 <topic url="WordDocuments/schedule.htm" window="right"><![CDATA[Schedule]]></topic>
             </topics>
         </keyword>
@@ -2282,7 +2911,7 @@
         </keyword>
         <keyword name="controlling">
             <topics>
-                <topic url="WordDocuments/documentlayout269.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout317.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="Batch menu group">
@@ -2517,7 +3146,7 @@
         </keyword>
         <keyword name="consolidation option, Document Reports and Exports">
             <topics>
-                <topic url="WordDocuments/consolidationoption2.htm" window="right"><![CDATA[Consolidation Option]]></topic>
+                <topic url="WordDocuments/consolidationoption.htm" window="right"><![CDATA[Consolidation Option]]></topic>
             </topics>
         </keyword>
         <keyword name="deleting a position&#8217;s funding, Quick Salary Setting screen">
@@ -2660,7 +3289,7 @@
         <keyword name="Budget Construction Position document">
             <topics>
                 <topic url="WordDocuments/budgetconstructionposition.htm" window="right"><![CDATA[Budget Construction Position]]></topic>
-                <topic url="WordDocuments/businessrules98.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules119.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="importing/exporting pay rates (&#8220;union load&#8221;)">
@@ -2753,10 +3382,10 @@
         </keyword>
         <keyword name="Document Overview tab">
             <topics>
-                <topic url="WordDocuments/documentoverviewtab2.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
+                <topic url="WordDocuments/documentoverviewtab3.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
                 <topic url="WordDocuments/documentoverviewtab.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
+                <topic url="WordDocuments/documentoverviewtab10.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
                 <topic url="WordDocuments/documentoverviewtab9.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
-                <topic url="WordDocuments/documentoverviewtab8.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="printing">
@@ -2772,32 +3401,39 @@
                 <topic url="WordDocuments/vendortab6.htm" window="right"><![CDATA[Vendor Tab]]></topic>
             </topics>
         </keyword>
-        <keyword name=" Service Billing (SB) ">
+        <keyword name="Asset Decrease document">
             <topics>
-                <topic url="WordDocuments/businessrules54.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules44.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/assetdecrease.htm" window="right"><![CDATA[Asset Decrease]]></topic>
             </topics>
         </keyword>
         <keyword name="Asset Global document, Location tab">
             <topics>
-                <topic url="WordDocuments/businessrules68.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules84.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="CAB Purchasing Accounts Payable Report and Lookup">
             <topics>
-                <topic url="WordDocuments/businessrules44.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules54.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/capitalassetbuilderaptransactions.htm" window="right"><![CDATA[Capital Asset Builder AP Transactions]]></topic>
                 <topic url="WordDocuments/capitalassetbuilderaptransactions.htm" window="right"><![CDATA[Capital Asset Builder AP Transactions]]></topic>
             </topics>
         </keyword>
         <keyword name="Calculated Salary Foundation Tracker Override document">
             <topics>
-                <topic url="WordDocuments/businessrules99.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules120.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/calculatedsalaryfoundationtrackeroverride.htm" window="right"><![CDATA[Calculated Salary Foundation Tracker Override]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Cash Increase document">
+            <topics>
+                <topic url="WordDocuments/businessrules47.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/cashincrease.htm" window="right"><![CDATA[Cash Increase]]></topic>
             </topics>
         </keyword>
         <keyword name="Cash Management (CMD)">
             <topics>
-                <topic url="WordDocuments/businessrules50.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules60.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/cashreceipt.htm" window="right"><![CDATA[Cash Receipt]]></topic>
             </topics>
         </keyword>
@@ -2844,7 +3480,7 @@
         </keyword>
         <keyword name="depreciation process,Capital Asset Management (CAM)">
             <topics>
-                <topic url="WordDocuments/businessrules48.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules58.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Disbursement Voucher (DV) document">
@@ -2863,31 +3499,31 @@
         </keyword>
         <keyword name="Effort Certification module:">
             <topics>
-                <topic url="WordDocuments/businessrules89.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules110.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Effort Certification Recreate document">
             <topics>
-                <topic url="WordDocuments/businessrules49.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules59.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/effortcertificationrecreate.htm" window="right"><![CDATA[Effort Certification Recreate]]></topic>
                 <topic url="WordDocuments/effortcertificationrecreate.htm" window="right"><![CDATA[Effort Certification Recreate]]></topic>
             </topics>
         </keyword>
         <keyword name="equipment loan renewal, Equipment Loan/Return document">
             <topics>
-                <topic url="WordDocuments/businessrules61.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules77.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Equipment Loan/Return document">
             <topics>
-                <topic url="WordDocuments/businessrules60.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules76.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/equipmentloan.htm" window="right"><![CDATA[Equipment Loan]]></topic>
                 <topic url="WordDocuments/equipmentloan.htm" window="right"><![CDATA[Equipment Loan]]></topic>
             </topics>
         </keyword>
         <keyword name="equipment return, Equipment Loan/Return document">
             <topics>
-                <topic url="WordDocuments/businessrules62.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules78.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="General Error Correction (GEC) document">
@@ -2899,43 +3535,43 @@
         </keyword>
         <keyword name="General Ledger Correction Process (GLCP)">
             <topics>
-                <topic url="WordDocuments/businessrules51.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules61.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/glcorrectionprocess.htm" window="right"><![CDATA[G/L Correction Process]]></topic>
                 <topic url="WordDocuments/glcorrectionprocessglcp.htm" window="right"><![CDATA[G/L Correction Process (GLCP)]]></topic>
-                <topic url="WordDocuments/routing39.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing49.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name="General Ledger Processing document">
             <topics>
-                <topic url="WordDocuments/businessrules45.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules55.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/capitalassetbuildergltransactions.htm" window="right"><![CDATA[Capital Asset Builder GL Transactions]]></topic>
                 <topic url="WordDocuments/capitalassetbuildergltransactions.htm" window="right"><![CDATA[Capital Asset Builder GL Transactions]]></topic>
             </topics>
         </keyword>
         <keyword name="Global Account">
             <topics>
-                <topic url="WordDocuments/businessrules75.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules92.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/accountglobal.htm" window="right"><![CDATA[Account Global]]></topic>
-                <topic url="WordDocuments/routing57.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing73.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name="Global Account Delegate">
             <topics>
-                <topic url="WordDocuments/businessrules77.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules94.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/accountdelegateglobal.htm" window="right"><![CDATA[Account Delegate Global]]></topic>
-                <topic url="WordDocuments/routing59.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing75.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name="Global Object Code">
             <topics>
-                <topic url="WordDocuments/businessrules79.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules96.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/objectcodeglobal.htm" window="right"><![CDATA[Object Code Global]]></topic>
-                <topic url="WordDocuments/routing62.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing78.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name="Global Sub-Object Code">
             <topics>
-                <topic url="WordDocuments/businessrules85.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules102.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/subobjectcodeglobal.htm" window="right"><![CDATA[Sub-Object Code Global]]></topic>
             </topics>
         </keyword>
@@ -2953,7 +3589,7 @@
         </keyword>
         <keyword name="Intended Incumbent document">
             <topics>
-                <topic url="WordDocuments/businessrules100.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules121.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/intendedincumbent.htm" window="right"><![CDATA[Intended Incumbent]]></topic>
             </topics>
         </keyword>
@@ -2966,20 +3602,26 @@
         </keyword>
         <keyword name="Journal Voucher (JV)">
             <topics>
-                <topic url="WordDocuments/businessrules52.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules62.htm" window="right"><![CDATA[Business Rules]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="KEMID document">
+            <topics>
+                <topic url="WordDocuments/businessrules105.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/kemid.htm" window="right"><![CDATA[KEMID]]></topic>
             </topics>
         </keyword>
         <keyword name="Labor Ledger Correction Process (LLCP) document">
             <topics>
-                <topic url="WordDocuments/businessrules56.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules66.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/laborledgercorrectionprocess.htm" window="right"><![CDATA[Labor Ledger Correction Process]]></topic>
                 <topic url="WordDocuments/laborledgercorrectionprocess.htm" window="right"><![CDATA[Labor Ledger Correction Process]]></topic>
-                <topic url="WordDocuments/routing44.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing54.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name="Labor Ledger Journal Voucher (LLJV) document">
             <topics>
-                <topic url="WordDocuments/businessrules55.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules65.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/laborjournalvoucher.htm" window="right"><![CDATA[Labor Journal Voucher]]></topic>
                 <topic url="WordDocuments/laborjournalvoucher.htm" window="right"><![CDATA[Labor Journal Voucher]]></topic>
             </topics>
@@ -2993,7 +3635,7 @@
         </keyword>
         <keyword name="Labor Ledger Year End - Inception to Date process">
             <topics>
-                <topic url="WordDocuments/businessrules91.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules112.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/laborledgeryearendinceptiontodate.htm" window="right"><![CDATA[Labor Ledger Year End - Inception to Date]]></topic>
                 <topic url="WordDocuments/laborledgeryearendinceptiontodate.htm" window="right"><![CDATA[Labor Ledger Year End - Inception to Date]]></topic>
             </topics>
@@ -3012,12 +3654,12 @@
         </keyword>
         <keyword name="Non-Check Disbursement (ND)">
             <topics>
-                <topic url="WordDocuments/businessrules53.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules63.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Object Code">
             <topics>
-                <topic url="WordDocuments/businessrules78.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules95.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/chartofaccounts.htm" window="right"><![CDATA[Chart of Accounts]]></topic>
                 <topic url="WordDocuments/objectcode.htm" window="right"><![CDATA[Object Code]]></topic>
             </topics>
@@ -3030,26 +3672,26 @@
         </keyword>
         <keyword name="Organization">
             <topics>
-                <topic url="WordDocuments/businessrules80.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules97.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/organization.htm" window="right"><![CDATA[Organization]]></topic>
-                <topic url="WordDocuments/routing63.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing79.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name="Organization Report document">
             <topics>
-                <topic url="WordDocuments/businessrules101.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules122.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/organizationreports.htm" window="right"><![CDATA[Organization Reports]]></topic>
             </topics>
         </keyword>
         <keyword name="Organization Reversion document">
             <topics>
-                <topic url="WordDocuments/businessrules92.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules113.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/organizationreversion.htm" window="right"><![CDATA[Organization Reversion]]></topic>
             </topics>
         </keyword>
         <keyword name="Pre-Asset Tagging document">
             <topics>
-                <topic url="WordDocuments/businessrules57.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules73.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/preassettagging.htm" window="right"><![CDATA[Pre-Asset Tagging]]></topic>
                 <topic url="WordDocuments/preassettagging.htm" window="right"><![CDATA[Pre-Asset Tagging]]></topic>
             </topics>
@@ -3069,14 +3711,20 @@
         </keyword>
         <keyword name="Proposal (PRPL) document">
             <topics>
-                <topic url="WordDocuments/businessrules87.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules104.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/proposal.htm" window="right"><![CDATA[Proposal]]></topic>
                 <topic url="WordDocuments/proposal.htm" window="right"><![CDATA[Proposal]]></topic>
             </topics>
         </keyword>
+        <keyword name="Recurring Cash Transfer document">
+            <topics>
+                <topic url="WordDocuments/businessrules106.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/recurringcashtransfer.htm" window="right"><![CDATA[Recurring Cash Transfer]]></topic>
+            </topics>
+        </keyword>
         <keyword name="Report Definition document">
             <topics>
-                <topic url="WordDocuments/businessrules93.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules114.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/reportdefinition.htm" window="right"><![CDATA[Report Definition]]></topic>
             </topics>
         </keyword>
@@ -3092,17 +3740,28 @@
                 <topic url="WordDocuments/salaryexpensetransfer.htm" window="right"><![CDATA[Salary Expense Transfer]]></topic>
             </topics>
         </keyword>
+        <keyword name="Security document">
+            <topics>
+                <topic url="WordDocuments/businessrules107.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/security.htm" window="right"><![CDATA[Security]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Service Billing (SB) ">
+            <topics>
+                <topic url="WordDocuments/businessrules64.htm" window="right"><![CDATA[Business Rules]]></topic>
+            </topics>
+        </keyword>
         <keyword name="Sub-Account">
             <topics>
-                <topic url="WordDocuments/businessrules83.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/routing66.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/businessrules100.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/routing82.htm" window="right"><![CDATA[Routing]]></topic>
                 <topic url="WordDocuments/chartofaccounts.htm" window="right"><![CDATA[Chart of Accounts]]></topic>
             </topics>
         </keyword>
         <keyword name="Sub-Object Code">
             <topics>
-                <topic url="WordDocuments/businessrules84.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/routing67.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/businessrules101.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/routing83.htm" window="right"><![CDATA[Routing]]></topic>
                 <topic url="WordDocuments/chartofaccounts.htm" window="right"><![CDATA[Chart of Accounts]]></topic>
                 <topic url="WordDocuments/subobjectcode.htm" window="right"><![CDATA[Sub-Object Code]]></topic>
             </topics>
@@ -3110,6 +3769,12 @@
         <keyword name="sufficient funds">
             <topics>
                 <topic url="WordDocuments/sufficientfundsbusinessrules.htm" window="right"><![CDATA[Sufficient Funds Business Rules]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Tickler document">
+            <topics>
+                <topic url="WordDocuments/businessrules108.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/tickler.htm" window="right"><![CDATA[Tickler]]></topic>
             </topics>
         </keyword>
         <keyword name="Transfer of Funds (TF) document">
@@ -3127,13 +3792,22 @@
         </keyword>
         <keyword name="Vendor (PVEN)">
             <topics>
-                <topic url="WordDocuments/businessrules103.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/vendorpven1.htm" window="right"><![CDATA[Vendor (PVEN)]]></topic>
+                <topic url="WordDocuments/businessrules109.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/vendorpven.htm" window="right"><![CDATA[Vendor (PVEN)]]></topic>
             </topics>
         </keyword>
         <keyword name="Year-End documents">
             <topics>
-                <topic url="WordDocuments/businessrules90.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules111.htm" window="right"><![CDATA[Business Rules]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="business rules, standard">
+            <topics />
+        </keyword>
+        <keyword name="Endowment transactions">
+            <topics>
+                <topic url="WordDocuments/standardbusinessrules.htm" window="right"><![CDATA[Standard Business Rules]]></topic>
+                <topic url="WordDocuments/standardroundingrules.htm" window="right"><![CDATA[Standard Rounding Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Active Line Items tab, Purchasing/Accounts Payable Transactions screen">
@@ -3197,7 +3871,7 @@
         </keyword>
         <keyword name="Edit Campus tab">
             <topics>
-                <topic url="WordDocuments/documentlayout244.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout292.htm" window="right"><![CDATA[Document Layout]]></topic>
                 <topic url="WordDocuments/editcampustab.htm" window="right"><![CDATA[Edit Campus Tab]]></topic>
             </topics>
         </keyword>
@@ -3209,7 +3883,7 @@
         </keyword>
         <keyword name="Edit Campus Type tab">
             <topics>
-                <topic url="WordDocuments/documentlayout251.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout299.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="canceling a document">
@@ -3265,7 +3939,7 @@
         </keyword>
         <keyword name="depreciation process, business rules">
             <topics>
-                <topic url="WordDocuments/businessrules48.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules58.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Capital Asset Management (CAM) module">
@@ -3461,10 +4135,8 @@
         </keyword>
         <keyword name="Currency and Coin Detail tab">
             <topics>
-                <topic url="WordDocuments/currencyandcoindetailtab1.htm" window="right"><![CDATA[Currency and Coin Detail Tab]]></topic>
                 <topic url="WordDocuments/currencyandcoindetailtab.htm" window="right"><![CDATA[Currency and Coin Detail Tab]]></topic>
                 <topic url="WordDocuments/currencyandcoindetailtab.htm" window="right"><![CDATA[Currency and Coin Detail Tab]]></topic>
-                <topic url="WordDocuments/currencyandcoindetailtab1.htm" window="right"><![CDATA[Currency and Coin Detail Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="Currency/Coin section">
@@ -3495,8 +4167,8 @@
         </keyword>
         <keyword name="finalized CMD document">
             <topics>
-                <topic url="WordDocuments/finalizedcmddocument.htm" window="right"><![CDATA[Finalized CMD Document]]></topic>
-                <topic url="WordDocuments/finalizedcmddocument.htm" window="right"><![CDATA[Finalized CMD Document]]></topic>
+                <topic url="WordDocuments/finalizedcashmanagementdocument.htm" window="right"><![CDATA[Finalized Cash Management Document]]></topic>
+                <topic url="WordDocuments/finalizedcashmanagementdocument.htm" window="right"><![CDATA[Finalized Cash Management Document]]></topic>
             </topics>
         </keyword>
         <keyword name="flexible bank offset option">
@@ -3507,7 +4179,7 @@
         </keyword>
         <keyword name="initiating a CMD document">
             <topics>
-                <topic url="WordDocuments/initiatingacmddocument.htm" window="right"><![CDATA[Initiating a CMD Document]]></topic>
+                <topic url="WordDocuments/initiatingacashmanagementdocument.htm" window="right"><![CDATA[Initiating a Cash Management Document]]></topic>
             </topics>
         </keyword>
         <keyword name="New Miscellaneous Advance section">
@@ -3629,7 +4301,7 @@
         </keyword>
         <keyword name="closing an account, business rules for">
             <topics>
-                <topic url="WordDocuments/businessrules74.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules91.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="collapse all button">
@@ -3823,7 +4495,7 @@
         </keyword>
         <keyword name="Edit Country tab">
             <topics>
-                <topic url="WordDocuments/documentlayout245.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout293.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="CountyMaintenanceDocument">
@@ -3834,13 +4506,19 @@
         </keyword>
         <keyword name="Edit Counties tab">
             <topics>
-                <topic url="WordDocuments/documentlayout246.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout294.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="Create Division option">
             <topics>
                 <topic url="WordDocuments/createdivision.htm" window="right"><![CDATA[Create Division]]></topic>
                 <topic url="WordDocuments/createdivision.htm" window="right"><![CDATA[Create Division]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="creating a .csv file">
+            <topics>
+                <topic url="WordDocuments/creatingacsvfile.htm" window="right"><![CDATA[Creating a .csv File]]></topic>
+                <topic url="WordDocuments/creatingacsvfile.htm" window="right"><![CDATA[Creating a .csv File]]></topic>
             </topics>
         </keyword>
         <keyword name="Credit Card Receipts tab">
@@ -3881,7 +4559,7 @@
         </keyword>
         <keyword name="Common Features and Search Options ">
             <topics>
-                <topic url="WordDocuments/commonfeaturesandsearchoptions1.htm" window="right"><![CDATA[Common Features and Search Options]]></topic>
+                <topic url="WordDocuments/commonfeaturesandsearchoptions.htm" window="right"><![CDATA[Common Features and Search Options]]></topic>
             </topics>
         </keyword>
         <keyword name="Customer Aging Report">
@@ -4016,7 +4694,138 @@
         </keyword>
         <keyword name="Data Entry Tips">
             <topics>
-                <topic url="WordDocuments/dataentrytips1.htm" window="right"><![CDATA[Data Entry Tips]]></topic>
+                <topic url="WordDocuments/dataentrytips.htm" window="right"><![CDATA[Data Entry Tips]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="data import">
+            <topics />
+        </keyword>
+        <keyword name="Data import templates">
+            <topics />
+        </keyword>
+        <keyword name=" BC_Annual_Request_Imports.xls ">
+            <topics>
+                <topic url="WordDocuments/bcannualrequestimportsxls.htm" window="right"><![CDATA[BC_Annual_Request_Imports.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" BC_Monthly_Request_Imports.xls ">
+            <topics>
+                <topic url="WordDocuments/bcmonthlyrequestimportsxls.htm" window="right"><![CDATA[BC_ Monthly_Request_Imports.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEM_EAI_EAD_ELI_ELD_Import.xls ">
+            <topics>
+                <topic url="WordDocuments/kemeaieadelieldimportxls.htm" window="right"><![CDATA[KEM_EAI_EAD_ELI_ELD_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEM_EGLT_Import.xls ">
+            <topics>
+                <topic url="WordDocuments/kemegltimportxls.htm" window="right"><![CDATA[KEM_EGLT_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEM_EHA_Import.xls ">
+            <topics>
+                <topic url="WordDocuments/kemehaimportxls.htm" window="right"><![CDATA[KEM_EHA_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEM_EUSA_Import.xls ">
+            <topics>
+                <topic url="WordDocuments/kemeusaimportxls.htm" window="right"><![CDATA[KEM_EUSA_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" KEM_GLET_Import.xls ">
+            <topics>
+                <topic url="WordDocuments/kemgletimportxls.htm" window="right"><![CDATA[KEM_GLET_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="AD_CR_CCR_DV_SB_Import.xls">
+            <topics>
+                <topic url="WordDocuments/adcrccrdvsbimportxls.htm" window="right"><![CDATA[AD_CR_CCR_DV_SB_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="AV_Import.xls">
+            <topics>
+                <topic url="WordDocuments/avimportxls.htm" window="right"><![CDATA[AV_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="BA_YEBA_Import.xls">
+            <topics>
+                <topic url="WordDocuments/bayebaimportxls.htm" window="right"><![CDATA[BA_YEBA_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="CAM_MPAY_Account_Import.xls ">
+            <topics>
+                <topic url="WordDocuments/cammpayaccountimportxls.htm" window="right"><![CDATA[CAM_MPAY_Account_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="DI_YEDI_IB_TF_PE_Encumbrance_Only_Import.xls">
+            <topics>
+                <topic url="WordDocuments/diyediibtfyetfpeencumbranceonlyimportxls.htm" window="right"><![CDATA[DI_YEDI_IB_TF_YETF_PE_Encumbrance_Only_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="GEC_YEGEC_Import.xls">
+            <topics>
+                <topic url="WordDocuments/gecyegecimportxls.htm" window="right"><![CDATA[GEC_YEGEC_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ICA_Import.xls">
+            <topics>
+                <topic url="WordDocuments/icaimportxls.htm" window="right"><![CDATA[ICA_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="JV_Ext_Encumbr_Import.xls">
+            <topics>
+                <topic url="WordDocuments/jvextencumbrimportxls.htm" window="right"><![CDATA[JV_Ext_Encumbr_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="JV_NonOffset_Bal_Type_Import.xls">
+            <topics>
+                <topic url="WordDocuments/jvnonoffsetbaltypeimportxls.htm" window="right"><![CDATA[JV_NonOffset_Bal_Type_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="JV_Offset_Bal_Type_Import.xls">
+            <topics>
+                <topic url="WordDocuments/jvoffsetbaltypeimportxls.htm" window="right"><![CDATA[JV_Offset_Bal_Type_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="KEM_ECA_Import.xls ">
+            <topics>
+                <topic url="WordDocuments/kemecaimportxls.htm" window="right"><![CDATA[KEM_ECA_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="KEM_ECI_ECDD_ECT_Import.xls ">
+            <topics>
+                <topic url="WordDocuments/kemeciecddectimportxls.htm" window="right"><![CDATA[KEM_ECI_ECDD_ECT_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="KEM_EST_Import.xls ">
+            <topics>
+                <topic url="WordDocuments/kemestimportxls.htm" window="right"><![CDATA[KEM_EST_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="LLJV_Import.xls">
+            <topics>
+                <topic url="WordDocuments/lljvimportxls.htm" window="right"><![CDATA[LLJV_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ND_Import.xls">
+            <topics>
+                <topic url="WordDocuments/ndimportxls.htm" window="right"><![CDATA[ND_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="PE_Disencumbrance_Only_Import.xls">
+            <topics>
+                <topic url="WordDocuments/pedisencumbranceonlyimportxls.htm" window="right"><![CDATA[PE_Disencumbrance_Only_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="PURAP_Account_Import.xls ">
+            <topics>
+                <topic url="WordDocuments/purapaccountimportxls.htm" window="right"><![CDATA[PURAP_Account_Import.xls]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="PURAP_Item_Import.xls ">
+            <topics>
+                <topic url="WordDocuments/purapitemimportxls.htm" window="right"><![CDATA[PURAP_Item_Import.xls]]></topic>
             </topics>
         </keyword>
         <keyword name="Data Mapping Field Definition Lookup">
@@ -4117,7 +4926,7 @@
         <keyword name="initiating ">
             <topics>
                 <topic url="WordDocuments/initiatingadvdocument.htm" window="right"><![CDATA[Initiating a DV Document]]></topic>
-                <topic url="WordDocuments/initiatingatfdocument.htm" window="right"><![CDATA[Initiating a TF Document]]></topic>
+                <topic url="WordDocuments/initiatingatransferoffundsdocument.htm" window="right"><![CDATA[Initiating a Transfer of Funds Document]]></topic>
             </topics>
         </keyword>
         <keyword name="Non-Employee Travel Expense tab">
@@ -4337,11 +5146,6 @@
         <keyword name="Documents">
             <topics />
         </keyword>
-        <keyword name=" initiating a document ">
-            <topics>
-                <topic url="WordDocuments/initiatingadocument1.htm" window="right"><![CDATA[Initiating a Document]]></topic>
-            </topics>
-        </keyword>
         <keyword name="Ad Hoc Recipients tab (other common tabs)">
             <topics>
                 <topic url="WordDocuments/adhocrecipientstab1.htm" window="right"><![CDATA[Ad Hoc Recipients Tab]]></topic>
@@ -4354,7 +5158,7 @@
         </keyword>
         <keyword name="Document Overview tab (other common tabs)">
             <topics>
-                <topic url="WordDocuments/documentoverviewtab10.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
+                <topic url="WordDocuments/documentoverviewtab11.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="edit tab">
@@ -4382,6 +5186,11 @@
         <keyword name="global documents">
             <topics>
                 <topic url="WordDocuments/globaldocuments1.htm" window="right"><![CDATA[Global Documents]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="initiating a document ">
+            <topics>
+                <topic url="WordDocuments/initiatingadocument1.htm" window="right"><![CDATA[Initiating a Document]]></topic>
             </topics>
         </keyword>
         <keyword name="Notes and Attachments tab (other common tabs)">
@@ -4691,7 +5500,7 @@
         </keyword>
         <keyword name="routing, report">
             <topics>
-                <topic url="WordDocuments/routing72.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing92.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name="Salary Expense Transfer document">
@@ -4784,6 +5593,211 @@
                 <topic url="WordDocuments/closingencumbrances.htm" window="right"><![CDATA[Closing Encumbrances]]></topic>
             </topics>
         </keyword>
+        <keyword name="Endowment">
+            <topics>
+                <topic url="WordDocuments/transactionssubmenu.htm" window="right"><![CDATA[Transactions Submenu]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Asset Increase document">
+            <topics>
+                <topic url="WordDocuments/assetincrease.htm" window="right"><![CDATA[Asset Increase]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="batch process">
+            <topics>
+                <topic url="WordDocuments/batchprocessingsequence.htm" window="right"><![CDATA[Batch Processing Sequence]]></topic>
+                <topic url="WordDocuments/batchprocesssteps.htm" window="right"><![CDATA[Batch Process Steps]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="batch processing overview">
+            <topics>
+                <topic url="WordDocuments/endowmentbatchprocessing.htm" window="right"><![CDATA[Endowment Batch Processing]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Calculate Daily Accruals process">
+            <topics>
+                <topic url="WordDocuments/calculatedailyaccrualsprocess.htm" window="right"><![CDATA[Calculate Daily Accruals Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Cash Decrease document">
+            <topics>
+                <topic url="WordDocuments/cashdecrease.htm" window="right"><![CDATA[Cash Decrease]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Cash Transfer document">
+            <topics>
+                <topic url="WordDocuments/cashtransfer.htm" window="right"><![CDATA[Cash Transfer]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Corporate Reorganization document">
+            <topics>
+                <topic url="WordDocuments/corporatereorganization.htm" window="right"><![CDATA[Corporate Reorganization]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Corpus Adjustment document">
+            <topics>
+                <topic url="WordDocuments/corpusadjustment.htm" window="right"><![CDATA[Corpus Adjustment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Create Accrual Transactions process">
+            <topics>
+                <topic url="WordDocuments/createaccrualtransactionsprocess.htm" window="right"><![CDATA[Create Accrual Transactions Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Create Automated Cash Investment Transactions process">
+            <topics>
+                <topic url="WordDocuments/createautomatedcashinvestmenttransactionsprocess.htm" window="right"><![CDATA[Create Automated Cash Investment Transactions Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Create Cash Sweep Transactions process">
+            <topics>
+                <topic url="WordDocuments/createcashsweeptransactionsprocess.htm" window="right"><![CDATA[Create Cash Sweep Transactions Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Create Fee Transactions process">
+            <topics>
+                <topic url="WordDocuments/createfeetransactionsprocess.htm" window="right"><![CDATA[Create Fee Transactions Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Create Pooled Fund Control Transactions process">
+            <topics>
+                <topic url="WordDocuments/createpooledfundcontroltransactionsprocess.htm" window="right"><![CDATA[Create Pooled Fund Control Transactions Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Create Pooled Fund Distribution Transactions process">
+            <topics>
+                <topic url="WordDocuments/createpooledfunddistributiontransactionsprocess.htm" window="right"><![CDATA[Create Pooled Fund Distribution Transactions Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Create Recurring Cash Transfer Transactions process">
+            <topics>
+                <topic url="WordDocuments/createrecurringcashtransfertransactionsprocess.htm" window="right"><![CDATA[Create Recurring Cash Transfer Transactions Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Endowment To GL Transfer Of Funds document">
+            <topics>
+                <topic url="WordDocuments/endowmenttogltransferoffunds.htm" window="right"><![CDATA[Endowment To GL Transfer Of Funds]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="GL To Endowment Transfer Of Funds document">
+            <topics>
+                <topic url="WordDocuments/gltoendowmenttransferoffunds.htm" window="right"><![CDATA[GL To Endowment Transfer Of Funds]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Holding Adjustment document">
+            <topics>
+                <topic url="WordDocuments/holdingadjustment.htm" window="right"><![CDATA[Holding Adjustment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Holding History Value Adjustment document">
+            <topics>
+                <topic url="WordDocuments/holdinghistoryvalueadjustment.htm" window="right"><![CDATA[Holding History Value Adjustment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Holding Tax Lot Rebalance document">
+            <topics>
+                <topic url="WordDocuments/holdingtaxlotrebalance.htm" window="right"><![CDATA[Holding Tax Lot Rebalance]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Liability Decrease document">
+            <topics>
+                <topic url="WordDocuments/liabilitydecrease.htm" window="right"><![CDATA[Liability Decrease]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Liability Increase document">
+            <topics>
+                <topic url="WordDocuments/liabilityincrease.htm" window="right"><![CDATA[Liability Increase]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Post E-Docs process">
+            <topics>
+                <topic url="WordDocuments/postedocsprocess.htm" window="right"><![CDATA[Post E-Docs Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Roll Frequency Codes process">
+            <topics>
+                <topic url="WordDocuments/rollfrequencycodesprocess.htm" window="right"><![CDATA[Roll Frequency Codes Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Roll Process Date process">
+            <topics>
+                <topic url="WordDocuments/rollprocessdateprocess.htm" window="right"><![CDATA[Roll Process Date Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Security Transfer document">
+            <topics>
+                <topic url="WordDocuments/securitytransfer.htm" window="right"><![CDATA[Security Transfer]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Unit/Share Adjustment document">
+            <topics>
+                <topic url="WordDocuments/unitshareadjustment.htm" window="right"><![CDATA[Unit Share Adjustment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Update Available Cash Records process">
+            <topics>
+                <topic url="WordDocuments/updateavailablecashrecordsprocess.htm" window="right"><![CDATA[Update Available Cash Records Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Update Corpus Records process">
+            <topics>
+                <topic url="WordDocuments/updatecorpusrecordsprocess.htm" window="right"><![CDATA[Update Corpus Records Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Update Current Tax Lot Balance Records process">
+            <topics>
+                <topic url="WordDocuments/updatecurrenttaxlotbalancerecordsprocess.htm" window="right"><![CDATA[Update Current Tax Lot Balance Records Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Update History Cash process">
+            <topics>
+                <topic url="WordDocuments/updatehistorycashprocess.htm" window="right"><![CDATA[Update History Cash Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Update Holding History Market Values process">
+            <topics>
+                <topic url="WordDocuments/updateholdinghistorymarketvaluesprocess.htm" window="right"><![CDATA[Update Holding History Market Values Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Update Holding History process">
+            <topics>
+                <topic url="WordDocuments/updateholdinghistoryprocess.htm" window="right"><![CDATA[Update Holding History Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Endowment module">
+            <topics />
+        </keyword>
+        <keyword name=" Transaction Archives ">
+            <topics>
+                <topic url="WordDocuments/transactionarchives.htm" window="right"><![CDATA[Transaction Archives]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="balance inquiries overview">
+            <topics>
+                <topic url="WordDocuments/endowment4.htm" window="right"><![CDATA[Endowment]]></topic>
+                <topic url="WordDocuments/labordistribution3.htm" window="right"><![CDATA[Labor Distribution]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Current KEMID Available Balances Lookup ">
+            <topics>
+                <topic url="WordDocuments/currentkemidavailablebalanceslookup.htm" window="right"><![CDATA[Current KEMID Available Balances Lookup]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Current KEMID Balances Lookup ">
+            <topics>
+                <topic url="WordDocuments/currentkemidbalanceslookup.htm" window="right"><![CDATA[Current KEMID Balances Lookup]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Holding Tax Lot Maintenance Document ">
+            <topics>
+                <topic url="WordDocuments/holdingtaxlotmaintenancedocument.htm" window="right"><![CDATA[Holding Tax Lot Maintenance Document]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="KEMID Historical Balances Lookup ">
+            <topics>
+                <topic url="WordDocuments/kemidhistoricalbalanceslookup.htm" window="right"><![CDATA[KEMID Historical Balances Lookup]]></topic>
+            </topics>
+        </keyword>
         <keyword name="Enterprise Feed Upload option">
             <topics>
                 <topic url="WordDocuments/enterprisefeedupload.htm" window="right"><![CDATA[Enterprise Feed Upload]]></topic>
@@ -4802,17 +5816,17 @@
                 <topic url="WordDocuments/entitytype.htm" window="right"><![CDATA[Entity Type]]></topic>
             </topics>
         </keyword>
-        <keyword name=" Asset Acquisition Type tab ">
+        <keyword name="Asset Acquisition Type tab ">
             <topics>
                 <topic url="WordDocuments/assetacquisitiontypetab.htm" window="right"><![CDATA[Asset Acquisition Type Tab]]></topic>
             </topics>
         </keyword>
-        <keyword name=" Asset Detail Information tab ">
+        <keyword name="Asset Detail Information tab ">
             <topics>
                 <topic url="WordDocuments/assetdetailinformationtab2.htm" window="right"><![CDATA[Asset Detail Information Tab]]></topic>
             </topics>
         </keyword>
-        <keyword name=" Asset tab ">
+        <keyword name="Asset tab ">
             <topics>
                 <topic url="WordDocuments/assettab.htm" window="right"><![CDATA[Asset Tab]]></topic>
             </topics>
@@ -4824,12 +5838,12 @@
         </keyword>
         <keyword name="business rules, equipment loan renewal">
             <topics>
-                <topic url="WordDocuments/businessrules61.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules77.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="business rules, equipment return">
             <topics>
-                <topic url="WordDocuments/businessrules62.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules78.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Equipment Loans tab">
@@ -4865,7 +5879,7 @@
         <keyword name="expense">
             <topics>
                 <topic url="WordDocuments/businessrules22.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules54.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules64.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="export option">
@@ -4954,9 +5968,9 @@
         </keyword>
         <keyword name="Financial Processing">
             <topics>
+                <topic url="WordDocuments/financialprocessing.htm" window="right"><![CDATA[Financial Processing]]></topic>
                 <topic url="WordDocuments/financialprocessing2.htm" window="right"><![CDATA[Financial Processing]]></topic>
                 <topic url="WordDocuments/financialprocessing3.htm" window="right"><![CDATA[Financial Processing]]></topic>
-                <topic url="WordDocuments/financialprocessing.htm" window="right"><![CDATA[Financial Processing]]></topic>
                 <topic url="WordDocuments/transactionssubmenu.htm" window="right"><![CDATA[Transactions Submenu]]></topic>
                 <topic url="WordDocuments/financialprocessing.htm" window="right"><![CDATA[Financial Processing]]></topic>
             </topics>
@@ -4996,7 +6010,7 @@
         </keyword>
         <keyword name="Financial Transactions">
             <topics>
-                <topic url="WordDocuments/financialtransactions1.htm" window="right"><![CDATA[Financial Transactions]]></topic>
+                <topic url="WordDocuments/financialtransactions.htm" window="right"><![CDATA[Financial Transactions]]></topic>
             </topics>
         </keyword>
         <keyword name="Financial Transactions Processing">
@@ -5155,11 +6169,6 @@
         </keyword>
         <keyword name="G/L">
             <topics />
-        </keyword>
-        <keyword name="batch process">
-            <topics>
-                <topic url="WordDocuments/batchprocesssteps.htm" window="right"><![CDATA[Batch Process Steps]]></topic>
-            </topics>
         </keyword>
         <keyword name="G/L account balance posting">
             <topics>
@@ -5473,7 +6482,7 @@
         <keyword name="income">
             <topics>
                 <topic url="WordDocuments/businessrules22.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules54.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules64.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="initiating a document">
@@ -5509,7 +6518,7 @@
         </keyword>
         <keyword name="initiating a JV document">
             <topics>
-                <topic url="WordDocuments/initiatingajvdocument.htm" window="right"><![CDATA[Initiating a JV Document]]></topic>
+                <topic url="WordDocuments/initiatingajournalvoucherdocument.htm" window="right"><![CDATA[Initiating a Journal Voucher Document]]></topic>
             </topics>
         </keyword>
         <keyword name="Journal Voucher Details tab">
@@ -5707,11 +6716,6 @@
                 <topic url="WordDocuments/labordistribution.htm" window="right"><![CDATA[Labor Distribution]]></topic>
             </topics>
         </keyword>
-        <keyword name="balance inquiries overview">
-            <topics>
-                <topic url="WordDocuments/labordistribution3.htm" window="right"><![CDATA[Labor Distribution]]></topic>
-            </topics>
-        </keyword>
         <keyword name="Calculated Salary Foundation (CSF) Tracker">
             <topics>
                 <topic url="WordDocuments/calculatedsalaryfoundation.htm" window="right"><![CDATA[Calculated Salary Foundation]]></topic>
@@ -5778,7 +6782,7 @@
         </keyword>
         <keyword name="business rules, Labor Ledger Year End - Inception to Date process">
             <topics>
-                <topic url="WordDocuments/businessrules91.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules112.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="daily process">
@@ -5930,7 +6934,7 @@
         </keyword>
         <keyword name="Document Overview tab ">
             <topics>
-                <topic url="WordDocuments/documentoverviewtab5.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
+                <topic url="WordDocuments/documentoverviewtab6.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="Line Item Receiving Initiation tab">
@@ -6000,6 +7004,11 @@
                 <topic url="WordDocuments/mainmenu.htm" window="right"><![CDATA[Main Menu]]></topic>
             </topics>
         </keyword>
+        <keyword name="Endowment ">
+            <topics>
+                <topic url="WordDocuments/endowment3.htm" window="right"><![CDATA[Endowment]]></topic>
+            </topics>
+        </keyword>
         <keyword name="magnifying glass">
             <topics>
                 <topic url="WordDocuments/fieldlookup.htm" window="right"><![CDATA[Field Lookup]]></topic>
@@ -6057,7 +7066,7 @@
         </keyword>
         <keyword name="Modify Batch Job screen">
             <topics>
-                <topic url="WordDocuments/documentlayout269.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout317.htm" window="right"><![CDATA[Document Layout]]></topic>
                 <topic url="WordDocuments/schedule.htm" window="right"><![CDATA[Schedule]]></topic>
             </topics>
         </keyword>
@@ -6156,7 +7165,7 @@
         </keyword>
         <keyword name="initiating a ND document">
             <topics>
-                <topic url="WordDocuments/initiatinganddocument.htm" window="right"><![CDATA[Initiating a ND Document]]></topic>
+                <topic url="WordDocuments/initiatinganoncheckdisbursementdocument.htm" window="right"><![CDATA[Initiating a Non-Check Disbursement Document]]></topic>
             </topics>
         </keyword>
         <keyword name="Non-Editable">
@@ -6164,7 +7173,7 @@
         </keyword>
         <keyword name="Labor Object Code Benefits">
             <topics>
-                <topic url="WordDocuments/documentlayout222.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout270.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="Travel Company">
@@ -6363,12 +7372,6 @@
                 <topic url="WordDocuments/salestax.htm" window="right"><![CDATA[Sales Tax]]></topic>
             </topics>
         </keyword>
-        <keyword name="parent - child vendor number">
-            <topics>
-                <topic url="WordDocuments/createdivision.htm" window="right"><![CDATA[Create Division]]></topic>
-                <topic url="WordDocuments/createdivision.htm" window="right"><![CDATA[Create Division]]></topic>
-            </topics>
-        </keyword>
         <keyword name="Payee ACH Account document ">
             <topics>
                 <topic url="WordDocuments/payeeachaccount.htm" window="right"><![CDATA[Payee ACH Account]]></topic>
@@ -6433,7 +7436,6 @@
         <keyword name="PDF">
             <topics>
                 <topic url="WordDocuments/batchassurancereports.htm" window="right"><![CDATA[Batch Assurance Reports]]></topic>
-                <topic url="WordDocuments/printcashreceiptcoversheetoption.htm" window="right"><![CDATA[Print Cash Receipt Cover Sheet Option]]></topic>
             </topics>
         </keyword>
         <keyword name="PDP batch jobs">
@@ -6500,7 +7502,7 @@
         </keyword>
         <keyword name="Edit Postal Codes tab">
             <topics>
-                <topic url="WordDocuments/documentlayout247.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout295.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="Poster">
@@ -6520,7 +7522,7 @@
         </keyword>
         <keyword name="document layout">
             <topics>
-                <topic url="WordDocuments/documentlayout49.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout68.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="Edit List of Pre-Asset Tagging Details tab">
@@ -6562,7 +7564,7 @@
         </keyword>
         <keyword name="approving">
             <topics>
-                <topic url="WordDocuments/approvingapcdodocument.htm" window="right"><![CDATA[Approving a PCDO Document]]></topic>
+                <topic url="WordDocuments/approvingaprocurementcarddocument.htm" window="right"><![CDATA[Approving a Procurement Card Document]]></topic>
             </topics>
         </keyword>
         <keyword name="Transaction section">
@@ -6577,7 +7579,7 @@
         </keyword>
         <keyword name="Project business rules ">
             <topics>
-                <topic url="WordDocuments/businessrules82.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules99.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="Project Code">
@@ -6594,11 +7596,6 @@
         <keyword name="Project Directors tab, Proposal (PRPL) document">
             <topics>
                 <topic url="WordDocuments/projectdirectorstab1.htm" window="right"><![CDATA[Project Directors Tab]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="examples">
-            <topics>
-                <topic url="WordDocuments/examples.htm" window="right"><![CDATA[Examples]]></topic>
             </topics>
         </keyword>
         <keyword name="Proposal Maintenance tab">
@@ -6636,18 +7633,18 @@
         </keyword>
         <keyword name="Capital Asset tab">
             <topics>
-                <topic url="WordDocuments/documentlayout28.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout32.htm" window="right"><![CDATA[Document Layout]]></topic>
                 <topic url="WordDocuments/capitalassettab.htm" window="right"><![CDATA[Capital Asset Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="General Ledger Pending Entries">
             <topics>
-                <topic url="WordDocuments/documentlayout28.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout32.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="Quotetab">
             <topics>
-                <topic url="WordDocuments/documentlayout28.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout32.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="Purchase Order (PO) encumbrance amounts">
@@ -6692,8 +7689,8 @@
         </keyword>
         <keyword name="Purchasing/Accounts Payable">
             <topics>
-                <topic url="WordDocuments/purchasingaccountspayable1.htm" window="right"><![CDATA[Purchasing/Accounts Payable]]></topic>
                 <topic url="WordDocuments/purchasingaccountspayable.htm" window="right"><![CDATA[Purchasing/Accounts Payable]]></topic>
+                <topic url="WordDocuments/purchasingaccountspayable1.htm" window="right"><![CDATA[Purchasing/Accounts Payable]]></topic>
                 <topic url="WordDocuments/transactionssubmenu.htm" window="right"><![CDATA[Transactions Submenu]]></topic>
                 <topic url="WordDocuments/purchasingaccountspayable.htm" window="right"><![CDATA[Purchasing/Accounts Payable]]></topic>
             </topics>
@@ -6981,12 +7978,12 @@
         </keyword>
         <keyword name="Object Code document ">
             <topics>
-                <topic url="WordDocuments/routing61.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing77.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name="Project">
             <topics>
-                <topic url="WordDocuments/routing65.htm" window="right"><![CDATA[Routing]]></topic>
+                <topic url="WordDocuments/routing81.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
         <keyword name="document hierarchy view, KIM data">
@@ -7047,9 +8044,9 @@
         </keyword>
         <keyword name="Scrubber">
             <topics>
-                <topic url="WordDocuments/documentlayout238.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout286.htm" window="right"><![CDATA[Document Layout]]></topic>
                 <topic url="WordDocuments/transactionvalidationscrubber.htm" window="right"><![CDATA[Transaction Validation ('Scrubber')]]></topic>
-                <topic url="WordDocuments/documentlayout238.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout286.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="search">
@@ -7190,12 +8187,12 @@
         </keyword>
         <keyword name="initiating a SB document ">
             <topics>
-                <topic url="WordDocuments/initiatingasbdocument.htm" window="right"><![CDATA[Initiating a SB Document]]></topic>
+                <topic url="WordDocuments/initiatingaservicebillingdocument.htm" window="right"><![CDATA[Initiating a Service Billing Document]]></topic>
             </topics>
         </keyword>
         <keyword name="Service Billing Control Table">
             <topics>
-                <topic url="WordDocuments/businessrules54.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules64.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/servicebilling.htm" window="right"><![CDATA[Service Billing]]></topic>
             </topics>
         </keyword>
@@ -7279,7 +8276,7 @@
         </keyword>
         <keyword name="Edit States tab">
             <topics>
-                <topic url="WordDocuments/documentlayout248.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentlayout296.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
         <keyword name="Statistics Report">
@@ -7517,8 +8514,8 @@
         </keyword>
         <keyword name="Vendor">
             <topics>
-                <topic url="WordDocuments/vendor1.htm" window="right"><![CDATA[Vendor]]></topic>
                 <topic url="WordDocuments/vendor.htm" window="right"><![CDATA[Vendor]]></topic>
+                <topic url="WordDocuments/vendor1.htm" window="right"><![CDATA[Vendor]]></topic>
             </topics>
         </keyword>
         <keyword name="Address tab">
@@ -7605,7 +8602,6 @@
         </keyword>
         <keyword name="wildcards">
             <topics>
-                <topic url="WordDocuments/fieldlookup.htm" window="right"><![CDATA[Field Lookup]]></topic>
                 <topic url="WordDocuments/usingdocsearchtofindadocument.htm" window="right"><![CDATA[Using Doc Search to Find a Document]]></topic>
             </topics>
         </keyword>

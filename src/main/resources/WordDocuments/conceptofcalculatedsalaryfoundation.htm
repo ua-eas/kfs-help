@@ -90,12 +90,12 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </span><a class="d2h_breadcrumbsNormal" href="transactions.htm">Transactions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="budgetconstruction.htm">Budget Construction</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="overviewofbudgetconstruction.htm">Overview of Budget Construction</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="sharedtableswithothermodules.htm">Shared Tables with Other 
 Modules</a></div>
 <h6>Concept of Calculated Salary Foundation</h6>
-<p class="MsoBodyText">The <a id="popup_478453" onclick="return d2hpopup(event, this.href)" href="gloss_calculatedsalaryfoundation1.htm">Calculated Salary Foundation</a> 
-(<a id="popup_478458" onclick="return d2hpopup(event, this.href)" href="gloss_csf.htm">CSF</a>) table contains appointment data that normally 
+<p class="MsoBodyText">The <a id="popup_715410" onclick="return d2hpopup(event, this.href)" href="gloss_calculatedsalaryfoundation1.htm">Calculated Salary Foundation</a> 
+(<a id="popup_715415" onclick="return d2hpopup(event, this.href)" href="gloss_csf.htm">CSF</a>) table contains appointment data that normally 
 represents a portion of the ongoing salary commitment for an incumbent in a 
-position that is funded out of a particular <a id="popup_478456" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a>, <a id="popup_478455" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">sub-account</a>, object and sub-object. Positions 
+position that is funded out of a particular <a id="popup_715413" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a>, <a id="popup_715412" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">sub-account</a>, object and sub-object. Positions 
 that are vacant can still be associated with committed funds.</p>
-<p class="MsoBodyText">The Genesis <a id="popup_478457" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> 
+<p class="MsoBodyText">The Genesis <a id="popup_715414" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> 
 process (discussed below) uses information in the CSF table to populate the 
 Budget Construction CSF table, the BC perimeter tables, and the 
 salary-setting-related maintenance tables used in Budget Construction. </p>
@@ -103,36 +103,21 @@ salary-setting-related maintenance tables used in Budget Construction. </p>
 set of CSF rows, then applies the overrides and stores the results in the BC CSF 
 table. So, your institution’s version of the CSF tracker process should <i>not 
 </i>need to apply the overrides during the build of the regular CSF table.</p>
-<table class="MsoNormalTable" style="WIDTH: 437.4pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="583" border="0">
-  <tbody>
-  <tr>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 117.3pt; PADDING-TOP: 0pt" valign="top" width="156">
-      <p class="MarginalNote-Symbol"><img alt="pencil-small" src="../ImagesExt/image20_73.png" /></p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 320.1pt; PADDING-TOP: 0pt" valign="top" width="427">
-      <div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; MARGIN-TOP: 9pt; PADDING-LEFT: 4pt; MARGIN-BOTTOM: 6pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid">
-      <p class="Note" style="MARGIN-TOP: 0pt"><b>When to Override the CSF Tracker 
-      Table</b></p>
-      <p class="Note" style="MARGIN-BOTTOM: 0pt">The base functionality overrides 
-      only the CSF table during the Genesis process.  However, your 
-      institution should make a decision as to where it makes sense to see the 
-      result of the CSF Tracker overrides (in CSF or in BC CSF) and make 
-      modifications accordingly. </p></div></td></tr>
-  <tr>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 117.3pt; PADDING-TOP: 0pt" valign="top" width="156">
-      <p class="MarginalNote-Symbol"><img alt="pencil-small" src="../ImagesExt/image20_73.png" /></p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 320.1pt; PADDING-TOP: 0pt" valign="top" width="427">
-      <div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; MARGIN-TOP: 9pt; PADDING-LEFT: 4pt; MARGIN-BOTTOM: 6pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid">
-      <p class="Note" style="MARGIN-TOP: 0pt"><b>Indiana University’s 
-      Implementation of CSF Tracker Table</b></p>
-      <p class="Note" style="MARGIN-BOTTOM: 0pt">At Indiana University, each time 
-      the CSF process runs, it re-populates the CSF table with the current set 
-      of commitments from data contained in IU’s implementation of 
-      PeopleSoft.  Optionally, the process also creates a historical 
-      picture of changes to each position since the beginning of the <a id="popup_478454" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal year</a>.  Your institution needs 
-      to either make a similar process to populate its version of the CSF 
-      Tracker table or manually maintain this table for Budget Construction. The 
-      required rows are those that are currently in the payroll system or are 
-      currently funding a vacant budget line.</p></div></td></tr></tbody></table>
+<p class="Note"><img alt="pencil-small" src="../ImagesExt/image310_36.png" /><span style="FONT-SIZE: 12pt">    </span><strong>When to Override the 
+CSF Tracker Table</strong>: The base functionality overrides only the CSF table 
+during the Genesis process. However, your institution should make a decision as 
+to where it makes sense to see the result of the CSF Tracker overrides (in CSF 
+or in BC CSF) and make modifications accordingly. </p>
+<p class="Note"><img alt="pencil-small" src="../ImagesExt/image310_36.png" /><span style="FONT-SIZE: 12pt">    </span><strong>Indiana University’s 
+Implementation of CSF Tracker Table</strong>: At Indiana University, each time 
+the CSF process runs, it re-populates the CSF table with the current set of 
+commitments from data contained in IU’s implementation of PeopleSoft. 
+Optionally, the process also creates a historical picture of changes to each 
+position since the beginning of the <a id="popup_715411" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
+year</a>. Your institution needs to either make a similar process to populate 
+its version of the CSF Tracker table or manually maintain this table for Budget 
+Construction. The required rows are those that are currently in the payroll 
+system or are currently funding a vacant budget line.</p>
 <p class="RelatedHead">More:</p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="budgetconstructioncycle.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Budget Construction 
 Cycle</a></p></div></div></body></html>

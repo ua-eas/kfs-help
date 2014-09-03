@@ -90,55 +90,46 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </span><a class="d2h_breadcrumbsNormal" href="batchinputfileformatspecifications.htm">Batch Input File Format 
 Specifications</a></div>
 <h4>General XML Rules </h4>
-<p class="Default"><span style="FONT-SIZE: 10pt">All <a id="popup_473810" onclick="return d2hpopup(event, this.href)" href="gloss_xml.htm">xml</a> <a id="popup_473808" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> input files must be well formed and 
-valid.</span></p>
+<p class="MsoBodyText">All <a id="popup_731946" onclick="return d2hpopup(event, this.href)" href="gloss_xml.htm">xml</a> <a id="popup_731944" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> input files must be well formed and valid.</p>
 <p class="MsoBodyText">To be well formed:<b> </b></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 file must begin with the XML declaration. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<a id="popup_473807" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> must have a root element. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>All 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<a id="popup_731943" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> must have a root element. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>All 
 elements (tags) must have a closing tag. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Tags 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Tags 
 are case-sensitive.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 elements must be properly nested. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Attribute values must be quoted. </p>
 <p class="MsoBodyText">To be valid, an XML document must conform to the rules of a 
 DTD or schema that defines the structure of the document (for example, the order 
 of tags, the number of tags allowed of a certain type, the type of tag content 
 accepted, etc.).</p>
-<p class="MsoBodyText">The <a id="popup_473804" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> definition or schema <a id="popup_473805" onclick="return d2hpopup(event, this.href)" href="gloss_namespace1.htm">namespace</a> the document adheres to must be 
+<p class="MsoBodyText">The <a id="popup_731940" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> definition or schema <a id="popup_731942" onclick="return d2hpopup(event, this.href)" href="gloss_namespace1.htm">namespace</a> the document adheres to must be 
 declared after the XML declaration. For example:</p>
 <p class="CodeBase"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;batch 
-xmlns="http://www.<a id="popup_473809" onclick="return d2hpopup(event, this.href)" href="gloss_kuali.htm">kuali</a>.org/modules/gl/<a id="popup_473806" onclick="return d2hpopup(event, this.href)" href="gloss_collector.htm">collector</a>" 
-xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance&gt; </span></span><b><span style="FONT-SIZE: 11pt; COLOR: #999999; FONT-FAMILY: 'Arial Narrow'"></span></b></p>
+xmlns="http://www.<a id="popup_731945" onclick="return d2hpopup(event, this.href)" href="gloss_kuali.htm">kuali</a>.org/modules/gl/<a id="popup_731941" onclick="return d2hpopup(event, this.href)" href="gloss_collector.htm">collector</a>" 
+xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance&gt; </span></span><b><span style="FONT-SIZE: 11pt; COLOR: #999999; FONT-FAMILY: 'Arial Narrow','sans-serif'"></span></b></p>
 <p class="MsoBodyText">The following rules apply to tags:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A tag 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A tag 
 must not contain extra whitespace (this will be included as the value). For 
 example: </p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;organizationCode&gt; MOTR &lt;/organizationCode&gt; 
 needs to be formatted as: &lt;organizationCode&gt;MOTR&lt;/organizationCode&gt; 
 </span></span><span style="FONT-SIZE: 8pt; FONT-FAMILY: 'Courier New'"></span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Tags 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Tags 
 should not be empty. If the field is not required, do not render the tag 
 element. For example:</p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;organizationCode&gt;&lt;/organizationCode&gt;</span></span> 
 will cause an error.</p>
-<table class="MsoNormalTable" style="WIDTH: 437.4pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="583" border="0">
-  <tbody>
-  <tr>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 113.4pt; PADDING-TOP: 0pt" valign="top" width="151">
-      <p class="MarginalNote-Symbol"><img src="../ImagesExt/image38_48.png" alt="" /></p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 324pt; PADDING-TOP: 0pt" valign="top" width="432">
-      <div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; MARGIN-TOP: 9pt; PADDING-LEFT: 4pt; MARGIN-BOTTOM: 6pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid">
-      <p class="Note" style="MARGIN-TOP: 0pt"><span class="MarginalNoteHeadingChar">Warning</span></p>
-      <p class="Note" style="MARGIN-BOTTOM: 0pt">Watch out for invalid XML 
-      characters. Any character that is used in markup must be within a CDATA 
-      block if used inside a tag. A CDATA block starts with &lt;![CDATA [and 
-      ends with ]]&gt;. Any text inside the CDATA block will not be parsed as 
-      possible markup. Some characters that often cause problems are: &amp;, !, 
-      &lt;, [, and ].</p></div></td></tr></tbody></table>
+<p class="Note"><img alt="exclaim" src="../ImagesExt/image320_22.png" />     
+<strong>Warning</strong>: Watch out for invalid XML characters. Any character 
+that is used in markup must be within a CDATA block if used inside a tag. A 
+CDATA block starts with &lt;![CDATA [and ends with ]]&gt;. Any text inside the 
+CDATA block will not be parsed as possible markup. Some characters that often 
+cause problems are: &amp;, !, &lt;, [, and ].</p>
 <p class="RelatedHead">More:</p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="accountsreceivable4.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Accounts Receivable</a></p></div></div></body></html>

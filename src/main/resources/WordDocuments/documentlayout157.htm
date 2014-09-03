@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="shippingpaymentterms.htm"></a><a id="D2HNextAnchor" href="shippingspecialconditions.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="payeeachaccount.htm"></a><a id="D2HNextAnchor" href="payeetype.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,52 +86,107 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="maintenancemenu.htm">Maintenance Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="vendor2.htm">Vendor</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="shippingpaymentterms.htm">Shipping 
-Payment Terms</a></div>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="maintenancemenu.htm">Maintenance Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="predisbursementprocessor.htm">Pre-Disbursement Processor</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="payeeachaccount.htm">Payee ACH Account</a></div>
 <h5>Document Layout</h5>
-<p class="Center"><img src="../ImagesExt/image41_458.jpg" alt="" /></p>
-<p class="MsoCaption"><span class="CaptionFigureNumber">Figure </span><span class="CaptionFigureNumber">165</span> - <a id="popup_471655" onclick="return d2hpopup(event, this.href)" href="gloss_shippingpaymentterms1.htm">Shipping Payment Terms</a> <a id="popup_471658" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a></p>
-<p class="MsoBodyText">The Shipping <a id="popup_471657" onclick="return d2hpopup(event, this.href)" href="gloss_paymentterms.htm">Payment Terms</a> document includes the 
-<strong>Edit Shipping Payment Terms</strong> tab. The system automatically 
-enters data into both the <b>Old</b> and <b>New</b> sections in this tab. 
-Selected data fields are available for editing.</p>
-<p class="TableHeading">Table 127   Edit Shipping Payment Terms tab 
-definition</p>
-<table class="MsoNormalTable" style="MARGIN-LEFT: 5.75pt; WIDTH: 376.55pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="502" border="0">
+<p class="MsoBodyText">The <a id="popup_728534" onclick="return d2hpopup(event, this.href)" href="gloss_payee.htm">Payee</a> ACH 
+<a id="popup_728528" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">Account</a> <a id="popup_728530" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> includes the <strong>Edit Payee ACH 
+Account</strong> tab.</p>
+<p class="MsoBodyText"><img src="../ImagesExt/image321_277.jpg" alt="" /></p>
+<p class="MsoCaption">Payee ACH Account document</p>
+<p class="MsoBodyText">The document contains the <strong>Edit Payee ACH 
+Account</strong> tab.</p>
+<p class="MsoBodyText">The <strong>Edit Payee ACH Account</strong> tab maintains a 
+payee's <a id="popup_728536" onclick="return d2hpopup(event, this.href)" href="gloss_bank1.htm">bank</a> information and indicates when this ACH record 
+is to be used. The system automatically enters data into both the <b>Old</b> and 
+<b>New</b> sections. Selected data fields are available for editing.</p>
+<p class="MsoBodyText">To determine when a given ACH Account record is to be used, 
+the <a id="popup_728538" onclick="return d2hpopup(event, this.href)" href="gloss_pdp.htm">PDP</a> finds ACH records that match the appropriate ID 
+(payee <a id="popup_728537" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> ID or <a id="popup_728533" onclick="return d2hpopup(event, this.href)" href="gloss_vendor3.htm">vendor</a> 
+number) and then matches the ACH transaction type code on these ACH account 
+records to the ACH transaction type code associated with the PDP <a id="popup_728529" onclick="return d2hpopup(event, this.href)" href="gloss_customer1.htm">customer</a> from which the payment originates. If a 
+match is found for the ACH transaction type code for the appropriate payee, the 
+system disburses that payment as an ACH transaction using the defined bank <a id="popup_728531" onclick="return d2hpopup(event, this.href)" href="gloss_routing99.htm">routing</a> and account number.</p>
+<p class="TableHeading">Edit Payee ACH Account tab definition</p>
+<table class="MsoNormalTable" style="MARGIN-LEFT: 5.75pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="502" border="0">
   <tbody>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1.5pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1.5pt solid; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="144">
-      <p class="TableCells"><a id="popup_471660" onclick="return d2hpopup(event, this.href)" href="gloss_title.htm">Title</a> </p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1.5pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="358">
-      <p class="TableCells">Description</p></td></tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="144">
+      <p class="TableCells"><a id="popup_728535" onclick="return d2hpopup(event, this.href)" href="gloss_title.htm">Title</a> </p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 3pt double" valign="top" width="358">
+      <p class="TableCells">Description </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1.5pt solid; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="144">
-      <p class="TableCells">Shipping Payment Terms Code </p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="358">
-      <p class="TableCells">The code used to identify the shipping payment 
-      terms.</p></td></tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="144">
+      <p class="TableCells">Payee Type Code</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="358">
+      <p class="TableCells">Required. Select the type of payee (<a id="popup_728532" onclick="return d2hpopup(event, this.href)" href="gloss_entity.htm">entity</a> ID, employee ID, or vendor number) that 
+      this ACH Account record refers to. Your selection here determines the type 
+      of ID number expected in the <strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Payee Number 
+      </span></strong>field.</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1.5pt solid; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="144">
-      <p class="TableCells">Shipping Payment Terms Description</p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="358">
-      <p class="TableCells">Required. The title of the shipping payment terms. 
-    </p></td></tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="144">
+      <p class="TableCells">Payee Number</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="358">
+      <p class="TableCells">Required. Enter the entity ID or vendor number 
+      (depending on your <strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Payee Type Code</span></strong> 
+      selection) identifying this payee. You may also search for an ID using the 
+      <strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Payee</span></strong> lookup 
+      <img alt="searchicon" src="../ImagesExt/image321_19.png" />.</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1.5pt solid; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="144">
-      <p class="TableCells">Shipping Payment Terms Pay Indicator</p></td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="358">
-      <p class="TableCells">Indicates if it is permissible for the <a id="popup_471659" onclick="return d2hpopup(event, this.href)" href="gloss_vendor3.htm">vendor</a> to add shipping charges to an invoice. 
-      Remove check mark if shipping payment terms does not apply to 
-    payments.</p></td></tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="144">
+      <p class="TableCells">Bank Routing Number</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="358">
+      <p class="TableCells">Required. Enter the routing number for the payee's 
+      bank. This routing number must exist in the Bank table. You may also 
+      search for a routing number using the <strong><span style="FONT-FAMILY: 'Arial','sans-serif'">ACH Bank</span></strong> lookup 
+      <img alt="searchicon" src="../ImagesExt/image321_19.png" />. </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1.5pt solid; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="144"><a id="popup_471656" onclick="return d2hpopup(event, this.href)" href="gloss_activeindicator.htm">
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="144">
+      <p class="TableCells">Bank Name</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="358">
+      <p class="TableCells">Display-only. If you selected your bank routing number 
+      using the <strong><span style="FONT-FAMILY: 'Arial','sans-serif'">ACH 
+      Bank</span></strong> lookup, the name of the associated bank is displayed 
+      here. If you entered the bank routing number manually, this field displays 
+      the associated bank's name when the document is submitted. </p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="144">
+      <p class="TableCells"><a id="popup_728527" onclick="return d2hpopup(event, this.href)" href="gloss_bankaccount.htm">Bank Account</a> Number</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="358">
+      <p class="TableCells">Required. Enter the bank account number to which ACH 
+      deposits for this record should be made.</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="144"><a id="popup_728526" onclick="return d2hpopup(event, this.href)" href="gloss_accounttype1.htm">
+      <p class="TableCells">Account Type</p>
+      <p class="TableCells"></p></a> </td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="358">
+      <p class="TableCells">Required. Select to indicate if this bank account is a 
+      checking or a savings account.</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="144">
+      <p class="TableCells">Payee Name</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="358">
+      <p class="TableCells">Display-only. The name associated with the payee 
+      number selected.</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="144">
+      <p class="TableCells">Email Address</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="358">
+      <p class="TableCells">Required. Enter the e-mail address for this payee. ACH 
+      advices for this payee will be e-mailed to this address.</p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="144">
+      <p class="TableCells">ACH Transaction Type</p></td>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="358">
+      <p class="TableCells">Required. Select the code associated with the PDP 
+      Customer that this ACH account information should be used for. </p></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: windowtext 1.5pt double; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 108pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="144"><a id="popup_728525" onclick="return d2hpopup(event, this.href)" href="gloss_activeindicator.htm">
       <p class="TableCells">Active Indicator</p>
       <p class="TableCells"></p></a> </td>
-    <td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1.5pt solid" valign="top" width="358">
-      <p class="TableCells">Indicates whether this shipping payment terms code is 
-      active or inactive. Remove the check mark to 
-deactivate.</p></td></tr></tbody></table>
+    <td style="BORDER-RIGHT: medium none; PADDING-RIGHT: 2.9pt; BORDER-TOP: medium none; PADDING-LEFT: 5.75pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 268.55pt; PADDING-TOP: 2.9pt; BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="358">
+      <p class="TableCells">Required. Select the checkbox if this ACH Account 
+      record should be active. Clear the checkbox if it should be inactive. 
+    </p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="shippingspecialconditions.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Shipping Special 
-Conditions</a></p></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="payeetype.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Payee 
+Type</a></p></div></div></body></html>

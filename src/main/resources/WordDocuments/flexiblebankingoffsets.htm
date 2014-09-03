@@ -90,13 +90,12 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General Ledger 
 (G/L)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="flexibleoffset.htm">Flexible Offset</a></div>
 <h4>Flexible Banking Offsets</h4>
-<p class="MsoBodyText"><a id="popup_485662" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">Document</a> types that require a <a id="popup_485667" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> to 
-specify a <a id="popup_485658" onclick="return d2hpopup(event, this.href)" href="gloss_bankaccount.htm">bank account</a> number (such as the <a id="popup_485655" onclick="return d2hpopup(event, this.href)" href="gloss_advancedeposit1.htm">Advance Deposit</a> or <a id="popup_485654" onclick="return d2hpopup(event, this.href)" href="gloss_creditcardreceipt1.htm">Credit Card Receipt</a> documents) can apply 
-<a id="popup_485664" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> entries to a special <a id="popup_485663" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> associated with this <a id="popup_485666" onclick="return d2hpopup(event, this.href)" href="gloss_bank1.htm">bank</a> 
-account number. If the ENABLE_BANK_SPECIFICATION_IND <a id="popup_485661" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> is set to 'Y,' an additional set of 
-cash entries is created to a designated accounting string (<a id="popup_485665" onclick="return d2hpopup(event, this.href)" href="gloss_chart1.htm">chart</a>, 
-account, <a id="popup_485660" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">sub-account</a>, <a id="popup_485659" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
-code</a>, and <a id="popup_485656" onclick="return d2hpopup(event, this.href)" href="gloss_subobjectcode1.htm">sub-object code</a>) defined in the Bank 
+<p class="MsoBodyText"><a id="popup_714702" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">Document</a> types that require a <a id="popup_714707" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> to 
+specify a <a id="popup_714697" onclick="return d2hpopup(event, this.href)" href="gloss_bankaccount.htm">bank account</a> number (such as the <a id="popup_714694" onclick="return d2hpopup(event, this.href)" href="gloss_advancedeposit1.htm">Advance Deposit</a> or <a id="popup_714693" onclick="return d2hpopup(event, this.href)" href="gloss_creditcardreceipt1.htm">Credit Card Receipt</a> documents) can apply 
+<a id="popup_714703" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> entries to a special <a id="popup_714701" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> associated with this <a id="popup_714706" onclick="return d2hpopup(event, this.href)" href="gloss_bank1.htm">bank</a> 
+account number. If the ENABLE_BANK_SPECIFICATION_IND <a id="popup_714700" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> is set to 'Y,' an additional set of <a id="popup_714705" onclick="return d2hpopup(event, this.href)" href="gloss_cash.htm">cash</a> entries is created to a designated accounting 
+string (<a id="popup_714704" onclick="return d2hpopup(event, this.href)" href="gloss_chart1.htm">chart</a>, account, <a id="popup_714699" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">sub-account</a>, <a id="popup_714698" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
+code</a>, and <a id="popup_714695" onclick="return d2hpopup(event, this.href)" href="gloss_subobjectcode1.htm">sub-object code</a>) defined in the Bank 
 document. These entries occur in addition to the normally generated cash offsets 
 created to balance a set of transactions. In effect, they reclassify the generic 
 cash entry to a bank-specific cash entry for reconciliation and tracking 
@@ -107,17 +106,11 @@ bank-specific entry is not performed.</p>
 on which a bank code should appear. This information, which is specified in the 
 BANK_CODE_DOCUMENT_TYPES parameter, allows you to specify bank information on 
 additional document types that create disbursements or record revenue. A default 
-Bank Code value should be established for each <a id="popup_485657" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> by using the 
+Bank Code value should be established for each <a id="popup_714696" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> by using the 
 DEFAULT_BANK_BY_DOCUMENT_TYPE parameter.</p>
-<table class="MsoNormalTable" style="WIDTH: 491.4pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="655" border="0">
-  <tbody>
-  <tr>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 93.6pt; PADDING-TOP: 0pt" valign="top" width="125">
-      <p class="MarginalNote-Symbol"><img src="../ImagesExt/image37_0.png" border="0" alt="" /></p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 397.8pt; PADDING-TOP: 0pt" valign="top" width="530">
-      <div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; MARGIN-TOP: 9pt; PADDING-LEFT: 4pt; MARGIN-BOTTOM: 6pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid">
-      <p class="Note" style="MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt">For more 
-      information about the Bank Account document, see <a href="offsetaccount.htm">Offset Account</a> in the <i>Guide to the <a id="popup_485668" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> Maintenance Menu</i>.<span style="DISPLAY: none; COLOR: green"></span></p></div></td></tr></tbody></table>
+<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image297_0.png" border="0" />   For more information about the Bank Account document, see 
+<a href="offsetaccount.htm">Offset Account</a> in the <i>Guide to the <a id="popup_714708" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> Maintenance Menu</i>.</p>
+<p class="Note"><span style="DISPLAY: none; COLOR: green"></span></p>
 <p class="RelatedHead">More:</p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="flexibleoffsetsbyaccount.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Flexible Offsets by 
 Account</a></p></div></div></body></html>

@@ -1,46 +1,22 @@
-SPAN.TableCellsChar {FONT-FAMILY: "Arial Narrow"; }
+SPAN.ColoredLetter-Gray {FONT-WEIGHT: bold;  COLOR: #999999;  FONT-FAMILY: "Arial Narrow","sans-serif"; }
 
-SPAN.ResearchLater {BORDER-RIGHT: windowtext 1pt;  PADDING-RIGHT: 0pt;  BORDER-TOP: windowtext 1pt;  PADDING-LEFT: 0pt;  FONT-WEIGHT: bold;  BACKGROUND: #ffff99;  PADDING-BOTTOM: 0pt;  BORDER-LEFT: windowtext 1pt;  COLOR: red;  PADDING-TOP: 0pt;  BORDER-BOTTOM: windowtext 1pt;  FONT-FAMILY: "Times New Roman"; }
+SPAN.C1HContinue2Char {FONT-FAMILY: "Times New Roman","serif"; }
 
-SPAN.NoNumber-NoIndentChar {FONT-FAMILY: "Arial Narrow"; }
+SPAN.CaptionFigureText {FONT-FAMILY: "Arial Narrow","sans-serif"; }
 
-SPAN.CharChar27 {FONT-FAMILY: Arial; }
+P.Note {FONT-SIZE: 10pt;  MARGIN: 9pt 0pt 0pt 18pt;  TEXT-INDENT: -22.5pt;  FONT-FAMILY: "Times New Roman","serif";  tab-stops: 18.0pt; }
 
-SPAN.ColoredLetter-Gray {FONT-WEIGHT: bold;  COLOR: #999999;  FONT-FAMILY: "Arial Narrow"; }
+SPAN.SeeAlso-Inline {FONT-STYLE: italic;  FONT-FAMILY: "Times New Roman","serif"; }
 
-SPAN.CharChar28 {FONT-FAMILY: "Times New Roman"; }
+P.Callout {FONT-WEIGHT: bold;  FONT-SIZE: 8pt;  MARGIN: 0pt;  FONT-FAMILY: "Arial Narrow","sans-serif"; }
 
-SPAN.BodyTextChar1 {FONT-FAMILY: "Angsana New"; }
+SPAN.BodyTextChar {FONT-FAMILY: "Times New Roman","serif"; }
 
-SPAN.NoNumber-NoIndentChar1 {FONT-FAMILY: "Angsana New"; }
+SPAN.IllustrationChar {FONT-FAMILY: "Times New Roman","serif"; }
 
-SPAN.C1HBulletChar {FONT-FAMILY: "Angsana New"; }
+SPAN.CommentTextChar3 {}
 
-SPAN.BodyTextChar2 {FONT-FAMILY: "Angsana New"; }
+P.Illustration-Indent {FONT-SIZE: 10pt;  MARGIN: 6pt 0pt 3pt 36pt;  FONT-FAMILY: "Times New Roman","serif"; }
 
-SPAN.CaptionFigureText {FONT-FAMILY: "Arial Narrow"; }
-
-P.Note {BORDER-RIGHT: medium none;  PADDING-RIGHT: 0pt;  BORDER-TOP: medium none;  PADDING-LEFT: 0pt;  FONT-SIZE: 10pt;  PADDING-BOTTOM: 0pt;  MARGIN: 9pt 0pt 6pt;  BORDER-LEFT: medium none;  PADDING-TOP: 0pt;  BORDER-BOTTOM: medium none;  FONT-FAMILY: "Times New Roman"; }
-
-SPAN.CharChar29 {FONT-FAMILY: Arial; }
-
-SPAN.CharChar19 {FONT-FAMILY: "Times New Roman"; }
-
-SPAN.Numbered-NoIndentChar {FONT-FAMILY: "Arial Narrow"; }
-
-SPAN.CaptionChar1 {FONT-FAMILY: Arial; }
-
-SPAN.BodyTextChar {FONT-FAMILY: "Angsana New"; }
-
-SPAN.EditorsNote {BORDER-RIGHT: windowtext 1pt;  PADDING-RIGHT: 0pt;  BORDER-TOP: windowtext 1pt;  PADDING-LEFT: 0pt;  BACKGROUND: yellow;  PADDING-BOTTOM: 0pt;  BORDER-LEFT: windowtext 1pt;  PADDING-TOP: 0pt;  BORDER-BOTTOM: windowtext 1pt;  FONT-FAMILY: "Times New Roman"; }
-
-P.RelatedHead {FONT-WEIGHT: bold;  FONT-SIZE: 12pt;  MARGIN: 6pt 0pt 3pt;  COLOR: fuchsia;  FONT-FAMILY: Arial; }
-
-SPAN.ColoredLetter-Black {FONT-WEIGHT: bold;  FONT-FAMILY: "Arial Narrow"; }
-
-SPAN.CaptionTableIndentChar {FONT-WEIGHT: bold;  FONT-FAMILY: "Arial Narrow"; }
-
-P.TableCells-LeftColumn {FONT-SIZE: 11pt;  MARGIN: 0pt;  FONT-FAMILY: "Arial Narrow"; }
-
-SPAN.NoteChar {FONT-FAMILY: "Angsana New"; }
+SPAN.TableCellsChar1 {FONT-FAMILY: "Arial","sans-serif"; }
 

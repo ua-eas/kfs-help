@@ -38,6 +38,7 @@
         <topic url="WordDocuments/contractsandgrantscg.htm" window="right" />
         <topic url="WordDocuments/effortcertification.htm" window="right" />
         <topic url="WordDocuments/labordistribution.htm" window="right" />
+        <topic url="WordDocuments/endowment.htm" window="right" />
         <topic url="WordDocuments/navigatingthroughthekfs.htm" window="right" />
         <topic url="WordDocuments/screenelements.htm" window="right" />
         <topic url="WordDocuments/messageoftheday.htm" window="right" />
@@ -123,7 +124,7 @@
         <topic url="WordDocuments/clearsavedsearches.htm" window="right" />
         <topic url="WordDocuments/clearingsearch.htm" window="right" />
         <topic url="WordDocuments/superuserfunctions.htm" window="right" />
-        <topic url="WordDocuments/accountinglineimporttemplates.htm" window="right" />
+        <topic url="WordDocuments/dataimporttemplates.htm" window="right" />
         <topic url="WordDocuments/linkstodefaultdataimporttemplates.htm" window="right" />
         <topic url="WordDocuments/processoverview.htm" window="right" />
         <topic url="WordDocuments/creatingacsvfile.htm" window="right" />
@@ -142,6 +143,22 @@
         <topic url="WordDocuments/purapitemimportxls.htm" window="right" />
         <topic url="WordDocuments/purapaccountimportxls.htm" window="right" />
         <topic url="WordDocuments/cammpayaccountimportxls.htm" window="right" />
+        <topic url="WordDocuments/bcannualrequestimportsxls.htm" window="right" />
+        <topic url="WordDocuments/bcmonthlyrequestimportsxls.htm" window="right" />
+        <topic url="WordDocuments/kemeaieadelieldimportxls.htm" window="right" />
+        <topic url="WordDocuments/noncashbasedsection.htm" window="right" />
+        <topic url="WordDocuments/cashbasedsection.htm" window="right" />
+        <topic url="WordDocuments/kemeciecddectimportxls.htm" window="right" />
+        <topic url="WordDocuments/kemestimportxls.htm" window="right" />
+        <topic url="WordDocuments/kemecaimportxls.htm" window="right" />
+        <topic url="WordDocuments/kemegltimportxls.htm" window="right" />
+        <topic url="WordDocuments/fromsection.htm" window="right" />
+        <topic url="WordDocuments/tosection.htm" window="right" />
+        <topic url="WordDocuments/kemehaimportxls.htm" window="right" />
+        <topic url="WordDocuments/kemeusaimportxls.htm" window="right" />
+        <topic url="WordDocuments/kemgletimportxls.htm" window="right" />
+        <topic url="WordDocuments/fromsection1.htm" window="right" />
+        <topic url="WordDocuments/tosection1.htm" window="right" />
         <topic url="WordDocuments/generalledgergl1.htm" window="right" />
         <topic url="WordDocuments/generalledgerglprocess.htm" window="right" />
         <topic url="WordDocuments/batchprocesssteps.htm" window="right" />
@@ -301,8 +318,8 @@
         <topic url="WordDocuments/orgpullup.htm" window="right" />
         <topic url="WordDocuments/orgpushdown.htm" window="right" />
         <topic url="WordDocuments/budgetconstructiondocument.htm" window="right" />
-        <topic url="WordDocuments/documentlayout274.htm" window="right" />
-        <topic url="WordDocuments/documentoverviewtab11.htm" window="right" />
+        <topic url="WordDocuments/documentlayout7.htm" window="right" />
+        <topic url="WordDocuments/documentoverviewtab1.htm" window="right" />
         <topic url="WordDocuments/systeminformationtab.htm" window="right" />
         <topic url="WordDocuments/pullingupthedocument.htm" window="right" />
         <topic url="WordDocuments/pushingdownthedocument.htm" window="right" />
@@ -315,7 +332,7 @@
         <topic url="WordDocuments/adjustingbypercent.htm" window="right" />
         <topic url="WordDocuments/benefitbudgetmanagement.htm" window="right" />
         <topic url="WordDocuments/quicksalarysetting.htm" window="right" />
-        <topic url="WordDocuments/documentlayout271.htm" window="right" />
+        <topic url="WordDocuments/documentlayout8.htm" window="right" />
         <topic url="WordDocuments/expendituresalarylinesection.htm" window="right" />
         <topic url="WordDocuments/addingapositionfundingline.htm" window="right" />
         <topic url="WordDocuments/addingincumbent.htm" window="right" />
@@ -328,19 +345,18 @@
         <topic url="WordDocuments/refreshingposition.htm" window="right" />
         <topic url="WordDocuments/refreshingincumbent.htm" window="right" />
         <topic url="WordDocuments/salarysettingbyposition.htm" window="right" />
-        <topic url="WordDocuments/documentlayout272.htm" window="right" />
+        <topic url="WordDocuments/documentlayout9.htm" window="right" />
         <topic url="WordDocuments/positiontab.htm" window="right" />
         <topic url="WordDocuments/positionfundingtab.htm" window="right" />
         <topic url="WordDocuments/usecases.htm" window="right" />
         <topic url="WordDocuments/purgedappointmentfundingtab.htm" window="right" />
         <topic url="WordDocuments/documentoperations1.htm" window="right" />
         <topic url="WordDocuments/addingappointmentfunding.htm" window="right" />
-        <topic url="WordDocuments/updatingusingtheadjustorflattool.htm" window="right" />
         <topic url="WordDocuments/makingappointmentfundingvacant.htm" window="right" />
         <topic url="WordDocuments/purgingappointmentfunding.htm" window="right" />
         <topic url="WordDocuments/deletingappointmentfunding.htm" window="right" />
         <topic url="WordDocuments/salarysettingbyincumbent.htm" window="right" />
-        <topic url="WordDocuments/documentlayout273.htm" window="right" />
+        <topic url="WordDocuments/documentlayout10.htm" window="right" />
         <topic url="WordDocuments/incumbenttab.htm" window="right" />
         <topic url="WordDocuments/incumbentfundingtab.htm" window="right" />
         <topic url="WordDocuments/purgedappointmentfundingtab1.htm" window="right" />
@@ -354,7 +370,7 @@
         <topic url="WordDocuments/documentreportsandexports.htm" window="right" />
         <topic url="WordDocuments/accountreportmenu.htm" window="right" />
         <topic url="WordDocuments/organizationreportmenu.htm" window="right" />
-        <topic url="WordDocuments/consolidationoption2.htm" window="right" />
+        <topic url="WordDocuments/consolidationoption.htm" window="right" />
         <topic url="WordDocuments/listselections.htm" window="right" />
         <topic url="WordDocuments/subfundlistselection.htm" window="right" />
         <topic url="WordDocuments/salaryobjectlistselection.htm" window="right" />
@@ -367,16 +383,16 @@
         <topic url="WordDocuments/accountorganizationexport.htm" window="right" />
         <topic url="WordDocuments/financialprocessing.htm" window="right" />
         <topic url="WordDocuments/advancedeposit.htm" window="right" />
-        <topic url="WordDocuments/documentlayout7.htm" window="right" />
+        <topic url="WordDocuments/documentlayout11.htm" window="right" />
         <topic url="WordDocuments/advancedepositstab.htm" window="right" />
         <topic url="WordDocuments/processoverview7.htm" window="right" />
         <topic url="WordDocuments/businessrules12.htm" window="right" />
         <topic url="WordDocuments/routing6.htm" window="right" />
-        <topic url="WordDocuments/initiatinganaddocument.htm" window="right" />
+        <topic url="WordDocuments/initiatinganadvancedepositdocument.htm" window="right" />
         <topic url="WordDocuments/example6.htm" window="right" />
         <topic url="WordDocuments/maintaininggrantrelatedfunds.htm" window="right" />
         <topic url="WordDocuments/auxiliaryvoucher.htm" window="right" />
-        <topic url="WordDocuments/documentlayout8.htm" window="right" />
+        <topic url="WordDocuments/documentlayout12.htm" window="right" />
         <topic url="WordDocuments/auxiliaryvoucherdetailstab.htm" window="right" />
         <topic url="WordDocuments/processoverview8.htm" window="right" />
         <topic url="WordDocuments/businessrules13.htm" window="right" />
@@ -387,30 +403,29 @@
         <topic url="WordDocuments/auxiliaryvoucherrecodeexample.htm" window="right" />
         <topic url="WordDocuments/auxiliaryvoucheradjustment.htm" window="right" />
         <topic url="WordDocuments/budgetadjustment.htm" window="right" />
-        <topic url="WordDocuments/documentlayout9.htm" window="right" />
-        <topic url="WordDocuments/documentoverviewtab1.htm" window="right" />
+        <topic url="WordDocuments/documentlayout13.htm" window="right" />
+        <topic url="WordDocuments/documentoverviewtab2.htm" window="right" />
         <topic url="WordDocuments/accountinglinestab2.htm" window="right" />
         <topic url="WordDocuments/generationoffringebenefitamounts.htm" window="right" />
         <topic url="WordDocuments/incomestreamadjustments.htm" window="right" />
         <topic url="WordDocuments/processoverview9.htm" window="right" />
         <topic url="WordDocuments/businessrules14.htm" window="right" />
         <topic url="WordDocuments/routing8.htm" window="right" />
-        <topic url="WordDocuments/initiatingabadocument.htm" window="right" />
+        <topic url="WordDocuments/initiatingabudgetadjustmentdocument.htm" window="right" />
         <topic url="WordDocuments/example8.htm" window="right" />
         <topic url="WordDocuments/cashreceipt.htm" window="right" />
-        <topic url="WordDocuments/documentlayout10.htm" window="right" />
+        <topic url="WordDocuments/documentlayout14.htm" window="right" />
         <topic url="WordDocuments/checkentrymode.htm" window="right" />
         <topic url="WordDocuments/cashreconciliationtab.htm" window="right" />
-        <topic url="WordDocuments/currencyandcoindetailtab.htm" window="right" />
         <topic url="WordDocuments/checkdetailtab.htm" window="right" />
         <topic url="WordDocuments/printcashreceiptcoversheetoption.htm" window="right" />
         <topic url="WordDocuments/processoverview10.htm" window="right" />
         <topic url="WordDocuments/businessrules15.htm" window="right" />
         <topic url="WordDocuments/routing9.htm" window="right" />
-        <topic url="WordDocuments/initiatingacrdocument.htm" window="right" />
+        <topic url="WordDocuments/initiatingacashreceiptdocument.htm" window="right" />
         <topic url="WordDocuments/example9.htm" window="right" />
         <topic url="WordDocuments/creditcardreceipt.htm" window="right" />
-        <topic url="WordDocuments/documentlayout11.htm" window="right" />
+        <topic url="WordDocuments/documentlayout15.htm" window="right" />
         <topic url="WordDocuments/creditcardreceiptstab.htm" window="right" />
         <topic url="WordDocuments/processoverview11.htm" window="right" />
         <topic url="WordDocuments/businessrules16.htm" window="right" />
@@ -418,7 +433,7 @@
         <topic url="WordDocuments/initiatingaccrdocument.htm" window="right" />
         <topic url="WordDocuments/example10.htm" window="right" />
         <topic url="WordDocuments/disbursementvoucher.htm" window="right" />
-        <topic url="WordDocuments/documentlayout12.htm" window="right" />
+        <topic url="WordDocuments/documentlayout16.htm" window="right" />
         <topic url="WordDocuments/paymentinformationtab.htm" window="right" />
         <topic url="WordDocuments/payeelookup.htm" window="right" />
         <topic url="WordDocuments/contactinformationtab.htm" window="right" />
@@ -446,31 +461,31 @@
         <topic url="WordDocuments/initiatingadvdocument.htm" window="right" />
         <topic url="WordDocuments/example11.htm" window="right" />
         <topic url="WordDocuments/distributionofincomeandexpense.htm" window="right" />
-        <topic url="WordDocuments/documentlayout13.htm" window="right" />
+        <topic url="WordDocuments/documentlayout17.htm" window="right" />
         <topic url="WordDocuments/processoverview13.htm" window="right" />
         <topic url="WordDocuments/businessrules18.htm" window="right" />
         <topic url="WordDocuments/routing12.htm" window="right" />
-        <topic url="WordDocuments/initiatingadidocument.htm" window="right" />
+        <topic url="WordDocuments/initiatingadistributionofincomeandexpensesdocument.htm" window="right" />
         <topic url="WordDocuments/correctingerrorsrelatedtocapitalassets.htm" window="right" />
         <topic url="WordDocuments/example12.htm" window="right" />
         <topic url="WordDocuments/generalerrorcorrection.htm" window="right" />
-        <topic url="WordDocuments/documentlayout14.htm" window="right" />
+        <topic url="WordDocuments/documentlayout18.htm" window="right" />
         <topic url="WordDocuments/processoverview14.htm" window="right" />
         <topic url="WordDocuments/businessrules19.htm" window="right" />
         <topic url="WordDocuments/routing13.htm" window="right" />
         <topic url="WordDocuments/initiatingagecdocument.htm" window="right" />
         <topic url="WordDocuments/example13.htm" window="right" />
         <topic url="WordDocuments/procurementcard.htm" window="right" />
-        <topic url="WordDocuments/documentlayout15.htm" window="right" />
+        <topic url="WordDocuments/documentlayout19.htm" window="right" />
         <topic url="WordDocuments/transactionsection.htm" window="right" />
         <topic url="WordDocuments/thedisputebutton.htm" window="right" />
         <topic url="WordDocuments/processoverview15.htm" window="right" />
         <topic url="WordDocuments/businessrules20.htm" window="right" />
         <topic url="WordDocuments/routing14.htm" window="right" />
-        <topic url="WordDocuments/approvingapcdodocument.htm" window="right" />
+        <topic url="WordDocuments/approvingaprocurementcarddocument.htm" window="right" />
         <topic url="WordDocuments/example14.htm" window="right" />
         <topic url="WordDocuments/indirectcostadjustment.htm" window="right" />
-        <topic url="WordDocuments/documentlayout16.htm" window="right" />
+        <topic url="WordDocuments/documentlayout20.htm" window="right" />
         <topic url="WordDocuments/processoverview16.htm" window="right" />
         <topic url="WordDocuments/businessrules21.htm" window="right" />
         <topic url="WordDocuments/routing15.htm" window="right" />
@@ -478,15 +493,15 @@
         <topic url="WordDocuments/example15.htm" window="right" />
         <topic url="WordDocuments/addingindirectcostexpensetoacontractsandgrantsaccount.htm" window="right" />
         <topic url="WordDocuments/internalbilling.htm" window="right" />
-        <topic url="WordDocuments/documentlayout17.htm" window="right" />
+        <topic url="WordDocuments/documentlayout21.htm" window="right" />
         <topic url="WordDocuments/itemstab1.htm" window="right" />
         <topic url="WordDocuments/processoverview17.htm" window="right" />
         <topic url="WordDocuments/businessrules22.htm" window="right" />
         <topic url="WordDocuments/routing16.htm" window="right" />
-        <topic url="WordDocuments/initiatinganibdocument.htm" window="right" />
+        <topic url="WordDocuments/initiatinganinternalbillingdocument.htm" window="right" />
         <topic url="WordDocuments/example16.htm" window="right" />
         <topic url="WordDocuments/preencumbrance.htm" window="right" />
-        <topic url="WordDocuments/documentlayout18.htm" window="right" />
+        <topic url="WordDocuments/documentlayout22.htm" window="right" />
         <topic url="WordDocuments/preencumbrancedetailstab.htm" window="right" />
         <topic url="WordDocuments/processoverview18.htm" window="right" />
         <topic url="WordDocuments/businessrules23.htm" window="right" />
@@ -496,18 +511,18 @@
         <topic url="WordDocuments/addinganencumbrancetoanaccountwithoutareversaldate.htm" window="right" />
         <topic url="WordDocuments/disencumberingthefunds.htm" window="right" />
         <topic url="WordDocuments/transferoffunds.htm" window="right" />
-        <topic url="WordDocuments/documentlayout19.htm" window="right" />
+        <topic url="WordDocuments/documentlayout23.htm" window="right" />
         <topic url="WordDocuments/processoverview19.htm" window="right" />
         <topic url="WordDocuments/businessrules24.htm" window="right" />
         <topic url="WordDocuments/routing18.htm" window="right" />
-        <topic url="WordDocuments/initiatingatfdocument.htm" window="right" />
+        <topic url="WordDocuments/initiatingatransferoffundsdocument.htm" window="right" />
         <topic url="WordDocuments/example18.htm" window="right" />
         <topic url="WordDocuments/labordistribution1.htm" window="right" />
         <topic url="WordDocuments/labordistributionoverview.htm" window="right" />
         <topic url="WordDocuments/commonlabordistributiondocumenttabs.htm" window="right" />
         <topic url="WordDocuments/laborledgerpendingentriestab.htm" window="right" />
         <topic url="WordDocuments/benefitexpensetransfer.htm" window="right" />
-        <topic url="WordDocuments/documentlayout20.htm" window="right" />
+        <topic url="WordDocuments/documentlayout24.htm" window="right" />
         <topic url="WordDocuments/ledgerbalanceimportingtab.htm" window="right" />
         <topic url="WordDocuments/accountinglinestab3.htm" window="right" />
         <topic url="WordDocuments/editingthefromsection.htm" window="right" />
@@ -516,11 +531,11 @@
         <topic url="WordDocuments/processoverview20.htm" window="right" />
         <topic url="WordDocuments/businessrules25.htm" window="right" />
         <topic url="WordDocuments/routing19.htm" window="right" />
-        <topic url="WordDocuments/initiatingabtdocument.htm" window="right" />
+        <topic url="WordDocuments/initiatingabenefitexpensetransferdocument.htm" window="right" />
         <topic url="WordDocuments/example19.htm" window="right" />
         <topic url="WordDocuments/salaryexpensetransfer.htm" window="right" />
         <topic url="WordDocuments/salarytransferandeffortcertificationreporting.htm" window="right" />
-        <topic url="WordDocuments/documentlayout21.htm" window="right" />
+        <topic url="WordDocuments/documentlayout25.htm" window="right" />
         <topic url="WordDocuments/ledgerbalanceimportingtab1.htm" window="right" />
         <topic url="WordDocuments/accountinglinestab4.htm" window="right" />
         <topic url="WordDocuments/editingthefromsection1.htm" window="right" />
@@ -529,7 +544,7 @@
         <topic url="WordDocuments/processoverview21.htm" window="right" />
         <topic url="WordDocuments/businessrulesfortransfers.htm" window="right" />
         <topic url="WordDocuments/routing20.htm" window="right" />
-        <topic url="WordDocuments/initiatinganstdocument.htm" window="right" />
+        <topic url="WordDocuments/initiatingansalaryexpensetransferdocument.htm" window="right" />
         <topic url="WordDocuments/example20.htm" window="right" />
         <topic url="WordDocuments/laborledgerdailyprocess.htm" window="right" />
         <topic url="WordDocuments/processflow.htm" window="right" />
@@ -545,10 +560,11 @@
         <topic url="WordDocuments/laborbalanceforwards.htm" window="right" />
         <topic url="WordDocuments/businessrules27.htm" window="right" />
         <topic url="WordDocuments/purchasingaccountspayable.htm" window="right" />
+        <topic url="WordDocuments/batchprocesses.htm" window="right" />
         <topic url="WordDocuments/bulkreceiving.htm" window="right" />
-        <topic url="WordDocuments/documentlayout22.htm" window="right" />
+        <topic url="WordDocuments/documentlayout26.htm" window="right" />
         <topic url="WordDocuments/bulkreceivinginitiationtab.htm" window="right" />
-        <topic url="WordDocuments/documentoverviewtab2.htm" window="right" />
+        <topic url="WordDocuments/documentoverviewtab3.htm" window="right" />
         <topic url="WordDocuments/vendortab.htm" window="right" />
         <topic url="WordDocuments/deliverytab.htm" window="right" />
         <topic url="WordDocuments/processoverview22.htm" window="right" />
@@ -556,17 +572,17 @@
         <topic url="WordDocuments/routing21.htm" window="right" />
         <topic url="WordDocuments/printingbulkreceivinginformation.htm" window="right" />
         <topic url="WordDocuments/contractmanagerassignment.htm" window="right" />
-        <topic url="WordDocuments/documentlayout23.htm" window="right" />
+        <topic url="WordDocuments/documentlayout27.htm" window="right" />
         <topic url="WordDocuments/assignacontractmanagertab.htm" window="right" />
         <topic url="WordDocuments/processoverview23.htm" window="right" />
         <topic url="WordDocuments/businessrules29.htm" window="right" />
         <topic url="WordDocuments/routing22.htm" window="right" />
         <topic url="WordDocuments/example21.htm" window="right" />
         <topic url="WordDocuments/paymentrequest.htm" window="right" />
-        <topic url="WordDocuments/documentlayout24.htm" window="right" />
+        <topic url="WordDocuments/documentlayout28.htm" window="right" />
         <topic url="WordDocuments/paymentrequestinitiationtab.htm" window="right" />
         <topic url="WordDocuments/mainscreen.htm" window="right" />
-        <topic url="WordDocuments/documentoverviewtab3.htm" window="right" />
+        <topic url="WordDocuments/documentoverviewtab4.htm" window="right" />
         <topic url="WordDocuments/financialdocumentdetailsection.htm" window="right" />
         <topic url="WordDocuments/paymentrequestdetailsection.htm" window="right" />
         <topic url="WordDocuments/vendortab1.htm" window="right" />
@@ -594,8 +610,8 @@
         <topic url="WordDocuments/automatedapproval.htm" window="right" />
         <topic url="WordDocuments/example22.htm" window="right" />
         <topic url="WordDocuments/electronicinvoicerejects.htm" window="right" />
-        <topic url="WordDocuments/documentlayout25.htm" window="right" />
-        <topic url="WordDocuments/documentoverviewtab4.htm" window="right" />
+        <topic url="WordDocuments/documentlayout29.htm" window="right" />
+        <topic url="WordDocuments/documentoverviewtab5.htm" window="right" />
         <topic url="WordDocuments/comparisondatatab.htm" window="right" />
         <topic url="WordDocuments/electronicinvoicedatasection.htm" window="right" />
         <topic url="WordDocuments/electronicinvoiceitemssection.htm" window="right" />
@@ -607,10 +623,10 @@
         <topic url="WordDocuments/instructionsforperformingactivities.htm" window="right" />
         <topic url="WordDocuments/example23.htm" window="right" />
         <topic url="WordDocuments/receiving.htm" window="right" />
-        <topic url="WordDocuments/documentlayout26.htm" window="right" />
+        <topic url="WordDocuments/documentlayout30.htm" window="right" />
         <topic url="WordDocuments/lineitemreceivinginitiationtab.htm" window="right" />
         <topic url="WordDocuments/mainlineitemreceivingdocument.htm" window="right" />
-        <topic url="WordDocuments/documentoverviewtab5.htm" window="right" />
+        <topic url="WordDocuments/documentoverviewtab6.htm" window="right" />
         <topic url="WordDocuments/vendortab2.htm" window="right" />
         <topic url="WordDocuments/itemstab2.htm" window="right" />
         <topic url="WordDocuments/deliverytab1.htm" window="right" />
@@ -618,9 +634,9 @@
         <topic url="WordDocuments/businessrules32.htm" window="right" />
         <topic url="WordDocuments/example24.htm" window="right" />
         <topic url="WordDocuments/requisition.htm" window="right" />
-        <topic url="WordDocuments/documentlayout27.htm" window="right" />
+        <topic url="WordDocuments/documentlayout31.htm" window="right" />
         <topic url="WordDocuments/documentheader1.htm" window="right" />
-        <topic url="WordDocuments/documentoverviewtab6.htm" window="right" />
+        <topic url="WordDocuments/documentoverviewtab7.htm" window="right" />
         <topic url="WordDocuments/deliverytab2.htm" window="right" />
         <topic url="WordDocuments/vendortab3.htm" window="right" />
         <topic url="WordDocuments/vendoraddresssection1.htm" window="right" />
@@ -650,9 +666,9 @@
         <topic url="WordDocuments/postprocessing1.htm" window="right" />
         <topic url="WordDocuments/example25.htm" window="right" />
         <topic url="WordDocuments/purchaseorder.htm" window="right" />
-        <topic url="WordDocuments/documentlayout28.htm" window="right" />
+        <topic url="WordDocuments/documentlayout32.htm" window="right" />
         <topic url="WordDocuments/documentheader2.htm" window="right" />
-        <topic url="WordDocuments/documentoverviewtab7.htm" window="right" />
+        <topic url="WordDocuments/documentoverviewtab8.htm" window="right" />
         <topic url="WordDocuments/financialdocumentdetailsection1.htm" window="right" />
         <topic url="WordDocuments/purchaseorderdetailsection.htm" window="right" />
         <topic url="WordDocuments/statuschangessection.htm" window="right" />
@@ -690,7 +706,7 @@
         <topic url="WordDocuments/accessingthevariouspooptions.htm" window="right" />
         <topic url="WordDocuments/printingapo.htm" window="right" />
         <topic url="WordDocuments/purchaseorderamend.htm" window="right" />
-        <topic url="WordDocuments/documentlayout29.htm" window="right" />
+        <topic url="WordDocuments/documentlayout33.htm" window="right" />
         <topic url="WordDocuments/notesandattachmentstab1.htm" window="right" />
         <topic url="WordDocuments/processoverview29.htm" window="right" />
         <topic url="WordDocuments/businessrules35.htm" window="right" />
@@ -698,52 +714,52 @@
         <topic url="WordDocuments/initiatingapoadocument.htm" window="right" />
         <topic url="WordDocuments/workingwiththepoadocument.htm" window="right" />
         <topic url="WordDocuments/purchaseorderpaymenthold.htm" window="right" />
-        <topic url="WordDocuments/documentlayout30.htm" window="right" />
+        <topic url="WordDocuments/documentlayout34.htm" window="right" />
         <topic url="WordDocuments/notesandattachmentstab2.htm" window="right" />
         <topic url="WordDocuments/processoverview30.htm" window="right" />
         <topic url="WordDocuments/businessrules36.htm" window="right" />
         <topic url="WordDocuments/routing28.htm" window="right" />
         <topic url="WordDocuments/initiatingapophdocument.htm" window="right" />
         <topic url="WordDocuments/purchaseorderremovepaymenthold.htm" window="right" />
-        <topic url="WordDocuments/documentlayout31.htm" window="right" />
+        <topic url="WordDocuments/documentlayout35.htm" window="right" />
         <topic url="WordDocuments/notesandattachmentstab3.htm" window="right" />
         <topic url="WordDocuments/processoverview31.htm" window="right" />
         <topic url="WordDocuments/businessrules37.htm" window="right" />
         <topic url="WordDocuments/routing29.htm" window="right" />
-        <topic url="WordDocuments/initiatingaporhdocument.htm" window="right" />
+        <topic url="WordDocuments/initiatingaporemoveholddocument.htm" window="right" />
         <topic url="WordDocuments/purchaseorderretransmit.htm" window="right" />
-        <topic url="WordDocuments/documentlayout32.htm" window="right" />
+        <topic url="WordDocuments/documentlayout36.htm" window="right" />
         <topic url="WordDocuments/purchaseorderretransmittab.htm" window="right" />
         <topic url="WordDocuments/processoverview32.htm" window="right" />
         <topic url="WordDocuments/businessrules38.htm" window="right" />
         <topic url="WordDocuments/routing30.htm" window="right" />
         <topic url="WordDocuments/initiatingaportdocument.htm" window="right" />
         <topic url="WordDocuments/purchaseordervoid.htm" window="right" />
-        <topic url="WordDocuments/documentlayout33.htm" window="right" />
+        <topic url="WordDocuments/documentlayout37.htm" window="right" />
         <topic url="WordDocuments/generalledgerpendingentriestab2.htm" window="right" />
         <topic url="WordDocuments/notesandattachmentstab4.htm" window="right" />
         <topic url="WordDocuments/processoverview33.htm" window="right" />
         <topic url="WordDocuments/businessrules39.htm" window="right" />
         <topic url="WordDocuments/routing31.htm" window="right" />
-        <topic url="WordDocuments/initiatingapovdocument.htm" window="right" />
+        <topic url="WordDocuments/initiatingapovoiddocument.htm" window="right" />
         <topic url="WordDocuments/purchaseorderclose.htm" window="right" />
-        <topic url="WordDocuments/documentlayout34.htm" window="right" />
+        <topic url="WordDocuments/documentlayout38.htm" window="right" />
         <topic url="WordDocuments/generalledgerpendingentriestab3.htm" window="right" />
         <topic url="WordDocuments/notesandattachmentstab5.htm" window="right" />
         <topic url="WordDocuments/processoverview34.htm" window="right" />
         <topic url="WordDocuments/businessrules40.htm" window="right" />
         <topic url="WordDocuments/routing32.htm" window="right" />
-        <topic url="WordDocuments/initiatingapocdocument.htm" window="right" />
+        <topic url="WordDocuments/initiatingapoclosedocument.htm" window="right" />
         <topic url="WordDocuments/purchaseorderreopen.htm" window="right" />
-        <topic url="WordDocuments/documentlayout35.htm" window="right" />
+        <topic url="WordDocuments/documentlayout39.htm" window="right" />
         <topic url="WordDocuments/generalledgerpendingentriestab4.htm" window="right" />
         <topic url="WordDocuments/notesandattachmentstab6.htm" window="right" />
         <topic url="WordDocuments/processoverview35.htm" window="right" />
         <topic url="WordDocuments/businessrules41.htm" window="right" />
         <topic url="WordDocuments/routing33.htm" window="right" />
-        <topic url="WordDocuments/initiatingapordocument.htm" window="right" />
+        <topic url="WordDocuments/initiatingapurchaseorderreopendocument.htm" window="right" />
         <topic url="WordDocuments/purchaseordersplit.htm" window="right" />
-        <topic url="WordDocuments/documentlayout36.htm" window="right" />
+        <topic url="WordDocuments/documentlayout40.htm" window="right" />
         <topic url="WordDocuments/splitapotab.htm" window="right" />
         <topic url="WordDocuments/notesandattachmentstab7.htm" window="right" />
         <topic url="WordDocuments/processoverview36.htm" window="right" />
@@ -753,7 +769,7 @@
         <topic url="WordDocuments/shopcatalogs.htm" window="right" />
         <topic url="WordDocuments/processoverview37.htm" window="right" />
         <topic url="WordDocuments/vendorcreditmemo.htm" window="right" />
-        <topic url="WordDocuments/documentlayout37.htm" window="right" />
+        <topic url="WordDocuments/documentlayout41.htm" window="right" />
         <topic url="WordDocuments/creditmemoinitiationtab.htm" window="right" />
         <topic url="WordDocuments/vendortab5.htm" window="right" />
         <topic url="WordDocuments/vendorinfosection3.htm" window="right" />
@@ -770,28 +786,162 @@
         <topic url="WordDocuments/placingacreditmemoonhold.htm" window="right" />
         <topic url="WordDocuments/removingavendorcreditmemohold.htm" window="right" />
         <topic url="WordDocuments/example27.htm" window="right" />
+        <topic url="WordDocuments/endowment1.htm" window="right" />
+        <topic url="WordDocuments/workinginthetransactionlinestab.htm" window="right" />
+        <topic url="WordDocuments/workingintheaccountinglinestab.htm" window="right" />
+        <topic url="WordDocuments/transactionalprocessoverview.htm" window="right" />
+        <topic url="WordDocuments/standardroundingrules.htm" window="right" />
+        <topic url="WordDocuments/standardbusinessrules.htm" window="right" />
+        <topic url="WordDocuments/standardrouting.htm" window="right" />
+        <topic url="WordDocuments/endowmentbatchprocessing.htm" window="right" />
+        <topic url="WordDocuments/batchprocessingsequence.htm" window="right" />
+        <topic url="WordDocuments/postedocsprocess.htm" window="right" />
+        <topic url="WordDocuments/createaccrualtransactionsprocess.htm" window="right" />
+        <topic url="WordDocuments/createpooledfunddistributiontransactionsprocess.htm" window="right" />
+        <topic url="WordDocuments/calculatedailyaccrualsprocess.htm" window="right" />
+        <topic url="WordDocuments/accrualcalculations.htm" window="right" />
+        <topic url="WordDocuments/createrecurringcashtransfertransactionsprocess.htm" window="right" />
+        <topic url="WordDocuments/transfercalculations.htm" window="right" />
+        <topic url="WordDocuments/createfeetransactionsprocess.htm" window="right" />
+        <topic url="WordDocuments/feecalculations.htm" window="right" />
+        <topic url="WordDocuments/createautomatedcashinvestmenttransactionsprocess.htm" window="right" />
+        <topic url="WordDocuments/cashequivalentscalculations.htm" window="right" />
+        <topic url="WordDocuments/cashavailableandcashneededcalculations.htm" window="right" />
+        <topic url="WordDocuments/rollfrequencycodesprocess.htm" window="right" />
+        <topic url="WordDocuments/createcashsweeptransactionsprocess.htm" window="right" />
+        <topic url="WordDocuments/createpooledfundcontroltransactionsprocess.htm" window="right" />
+        <topic url="WordDocuments/updateavailablecashrecordsprocess.htm" window="right" />
+        <topic url="WordDocuments/availablecashcalculations.htm" window="right" />
+        <topic url="WordDocuments/updateholdinghistorymarketvaluesprocess.htm" window="right" />
+        <topic url="WordDocuments/marketvaluecalculations.htm" window="right" />
+        <topic url="WordDocuments/updatecurrenttaxlotbalancerecordsprocess.htm" window="right" />
+        <topic url="WordDocuments/marketvaluecalculations1.htm" window="right" />
+        <topic url="WordDocuments/nexttwelvemonthsestimatedcalculations.htm" window="right" />
+        <topic url="WordDocuments/remainderoffiscalyearestimatedcalculations.htm" window="right" />
+        <topic url="WordDocuments/nextfiscalyearestimatedcalculations.htm" window="right" />
+        <topic url="WordDocuments/updatecorpusrecordsprocess.htm" window="right" />
+        <topic url="WordDocuments/updatehistorycashprocess.htm" window="right" />
+        <topic url="WordDocuments/updateholdinghistoryprocess.htm" window="right" />
+        <topic url="WordDocuments/rollprocessdateprocess.htm" window="right" />
+        <topic url="WordDocuments/assetdecrease.htm" window="right" />
+        <topic url="WordDocuments/documentlayout42.htm" window="right" />
+        <topic url="WordDocuments/assetdecreasedetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab.htm" window="right" />
+        <topic url="WordDocuments/taxlotlinestab.htm" window="right" />
+        <topic url="WordDocuments/processoverview39.htm" window="right" />
+        <topic url="WordDocuments/businessrules44.htm" window="right" />
+        <topic url="WordDocuments/routing36.htm" window="right" />
+        <topic url="WordDocuments/example28.htm" window="right" />
+        <topic url="WordDocuments/assetincrease.htm" window="right" />
+        <topic url="WordDocuments/documentlayout43.htm" window="right" />
+        <topic url="WordDocuments/assetincreasedetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab1.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab1.htm" window="right" />
+        <topic url="WordDocuments/taxlotlinestab1.htm" window="right" />
+        <topic url="WordDocuments/processoverview40.htm" window="right" />
+        <topic url="WordDocuments/businessrules45.htm" window="right" />
+        <topic url="WordDocuments/routing37.htm" window="right" />
+        <topic url="WordDocuments/example29.htm" window="right" />
+        <topic url="WordDocuments/cashdecrease.htm" window="right" />
+        <topic url="WordDocuments/documentlayout44.htm" window="right" />
+        <topic url="WordDocuments/cashdecreasedetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab2.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab2.htm" window="right" />
+        <topic url="WordDocuments/processoverview41.htm" window="right" />
+        <topic url="WordDocuments/businessrules46.htm" window="right" />
+        <topic url="WordDocuments/routing38.htm" window="right" />
+        <topic url="WordDocuments/example30.htm" window="right" />
+        <topic url="WordDocuments/cashincrease.htm" window="right" />
+        <topic url="WordDocuments/documentlayout45.htm" window="right" />
+        <topic url="WordDocuments/cashincreasedetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab3.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab3.htm" window="right" />
+        <topic url="WordDocuments/processoverview42.htm" window="right" />
+        <topic url="WordDocuments/businessrules47.htm" window="right" />
+        <topic url="WordDocuments/routing39.htm" window="right" />
+        <topic url="WordDocuments/example31.htm" window="right" />
+        <topic url="WordDocuments/cashtransfer.htm" window="right" />
+        <topic url="WordDocuments/documentlayout46.htm" window="right" />
+        <topic url="WordDocuments/cashtransferdetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab4.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab4.htm" window="right" />
+        <topic url="WordDocuments/processoverview43.htm" window="right" />
+        <topic url="WordDocuments/businessrules48.htm" window="right" />
+        <topic url="WordDocuments/routing40.htm" window="right" />
+        <topic url="WordDocuments/example32.htm" window="right" />
+        <topic url="WordDocuments/endowmenttogltransferoffunds.htm" window="right" />
+        <topic url="WordDocuments/documentlayout47.htm" window="right" />
+        <topic url="WordDocuments/endowmenttogltransferoffundsdetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab5.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab5.htm" window="right" />
+        <topic url="WordDocuments/accountinglinestab5.htm" window="right" />
+        <topic url="WordDocuments/processoverview44.htm" window="right" />
+        <topic url="WordDocuments/businessrules49.htm" window="right" />
+        <topic url="WordDocuments/routing41.htm" window="right" />
+        <topic url="WordDocuments/example33.htm" window="right" />
+        <topic url="WordDocuments/gltoendowmenttransferoffunds.htm" window="right" />
+        <topic url="WordDocuments/documentlayout48.htm" window="right" />
+        <topic url="WordDocuments/gltoendowmenttransferoffundsdetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab6.htm" window="right" />
+        <topic url="WordDocuments/accountinglinestab6.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab6.htm" window="right" />
+        <topic url="WordDocuments/processoverview45.htm" window="right" />
+        <topic url="WordDocuments/businessrules50.htm" window="right" />
+        <topic url="WordDocuments/routing42.htm" window="right" />
+        <topic url="WordDocuments/example34.htm" window="right" />
+        <topic url="WordDocuments/liabilitydecrease.htm" window="right" />
+        <topic url="WordDocuments/documentlayout49.htm" window="right" />
+        <topic url="WordDocuments/liabilitydecreasedetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab7.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab7.htm" window="right" />
+        <topic url="WordDocuments/taxlotlinestab2.htm" window="right" />
+        <topic url="WordDocuments/processoverview46.htm" window="right" />
+        <topic url="WordDocuments/businessrules51.htm" window="right" />
+        <topic url="WordDocuments/routing43.htm" window="right" />
+        <topic url="WordDocuments/example35.htm" window="right" />
+        <topic url="WordDocuments/liabilityincrease.htm" window="right" />
+        <topic url="WordDocuments/documentlayout50.htm" window="right" />
+        <topic url="WordDocuments/liabilityincreasedetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab8.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab8.htm" window="right" />
+        <topic url="WordDocuments/taxlotlinestab3.htm" window="right" />
+        <topic url="WordDocuments/processoverview47.htm" window="right" />
+        <topic url="WordDocuments/businessrules52.htm" window="right" />
+        <topic url="WordDocuments/routing44.htm" window="right" />
+        <topic url="WordDocuments/example36.htm" window="right" />
+        <topic url="WordDocuments/securitytransfer.htm" window="right" />
+        <topic url="WordDocuments/documentlayout51.htm" window="right" />
+        <topic url="WordDocuments/securitytransferdetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab9.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab9.htm" window="right" />
+        <topic url="WordDocuments/taxlotlinestab4.htm" window="right" />
+        <topic url="WordDocuments/processoverview48.htm" window="right" />
+        <topic url="WordDocuments/businessrules53.htm" window="right" />
+        <topic url="WordDocuments/routing45.htm" window="right" />
+        <topic url="WordDocuments/example37.htm" window="right" />
         <topic url="WordDocuments/administrativetransactions.htm" window="right" />
         <topic url="WordDocuments/administrativetransactionssubmenu.htm" window="right" />
         <topic url="WordDocuments/capitalassetbuildercab.htm" window="right" />
         <topic url="WordDocuments/capitalassetbuilderaptransactions.htm" window="right" />
-        <topic url="WordDocuments/documentlayout38.htm" window="right" />
+        <topic url="WordDocuments/documentlayout52.htm" window="right" />
         <topic url="WordDocuments/purchaseorderprocessingtab.htm" window="right" />
         <topic url="WordDocuments/activelineitemstab.htm" window="right" />
         <topic url="WordDocuments/submittedlinestab.htm" window="right" />
-        <topic url="WordDocuments/processoverview39.htm" window="right" />
-        <topic url="WordDocuments/businessrules44.htm" window="right" />
+        <topic url="WordDocuments/processoverview49.htm" window="right" />
+        <topic url="WordDocuments/businessrules54.htm" window="right" />
         <topic url="WordDocuments/workflowandrouting.htm" window="right" />
         <topic url="WordDocuments/permissions.htm" window="right" />
         <topic url="WordDocuments/allocatingcharges.htm" window="right" />
         <topic url="WordDocuments/addingassetinformation.htm" window="right" />
         <topic url="WordDocuments/mergingmultipleitems.htm" window="right" />
         <topic url="WordDocuments/capitalassetbuildergltransactions.htm" window="right" />
-        <topic url="WordDocuments/documentlayout39.htm" window="right" />
+        <topic url="WordDocuments/documentlayout53.htm" window="right" />
         <topic url="WordDocuments/financialdocumentscapitalassetinfotab.htm" window="right" />
         <topic url="WordDocuments/glentryprocessingtab.htm" window="right" />
-        <topic url="WordDocuments/processoverview40.htm" window="right" />
-        <topic url="WordDocuments/businessrules45.htm" window="right" />
-        <topic url="WordDocuments/routing36.htm" window="right" />
+        <topic url="WordDocuments/processoverview50.htm" window="right" />
+        <topic url="WordDocuments/businessrules55.htm" window="right" />
+        <topic url="WordDocuments/routing46.htm" window="right" />
         <topic url="WordDocuments/permissions1.htm" window="right" />
         <topic url="WordDocuments/capitalassetmanagement.htm" window="right" />
         <topic url="WordDocuments/assetmanualpayment.htm" window="right" />
@@ -799,32 +949,32 @@
         <topic url="WordDocuments/barcodeinventoryprocessdocumentlayout.htm" window="right" />
         <topic url="WordDocuments/managefilestab.htm" window="right" />
         <topic url="WordDocuments/filelayout.htm" window="right" />
-        <topic url="WordDocuments/example28.htm" window="right" />
-        <topic url="WordDocuments/businessrules46.htm" window="right" />
+        <topic url="WordDocuments/example38.htm" window="right" />
+        <topic url="WordDocuments/businessrules56.htm" window="right" />
         <topic url="WordDocuments/barcodeinventoryerrordocument.htm" window="right" />
         <topic url="WordDocuments/barcodeinventoryerrorstab.htm" window="right" />
         <topic url="WordDocuments/globalreplacetab.htm" window="right" />
-        <topic url="WordDocuments/businessrules47.htm" window="right" />
+        <topic url="WordDocuments/businessrules57.htm" window="right" />
         <topic url="WordDocuments/depreciationprocess.htm" window="right" />
         <topic url="WordDocuments/batchprocesssteps1.htm" window="right" />
         <topic url="WordDocuments/processinitiation1.htm" window="right" />
         <topic url="WordDocuments/depreciationcalculation.htm" window="right" />
-        <topic url="WordDocuments/businessrules48.htm" window="right" />
+        <topic url="WordDocuments/businessrules58.htm" window="right" />
         <topic url="WordDocuments/postdepreciationtoassets.htm" window="right" />
         <topic url="WordDocuments/creationofpendinggeneralledgerentries.htm" window="right" />
         <topic url="WordDocuments/datalogreport.htm" window="right" />
         <topic url="WordDocuments/effortcertification1.htm" window="right" />
         <topic url="WordDocuments/effortcertificationrecreate.htm" window="right" />
-        <topic url="WordDocuments/documentlayout41.htm" window="right" />
-        <topic url="WordDocuments/documentoverviewtab8.htm" window="right" />
+        <topic url="WordDocuments/documentlayout54.htm" window="right" />
+        <topic url="WordDocuments/documentoverviewtab9.htm" window="right" />
         <topic url="WordDocuments/effortdetailtab.htm" window="right" />
-        <topic url="WordDocuments/processoverview41.htm" window="right" />
-        <topic url="WordDocuments/businessrules49.htm" window="right" />
-        <topic url="WordDocuments/routing37.htm" window="right" />
-        <topic url="WordDocuments/example29.htm" window="right" />
+        <topic url="WordDocuments/processoverview51.htm" window="right" />
+        <topic url="WordDocuments/businessrules59.htm" window="right" />
+        <topic url="WordDocuments/routing47.htm" window="right" />
+        <topic url="WordDocuments/example39.htm" window="right" />
         <topic url="WordDocuments/financialprocessing1.htm" window="right" />
         <topic url="WordDocuments/cashmanagement.htm" window="right" />
-        <topic url="WordDocuments/documentlayout42.htm" window="right" />
+        <topic url="WordDocuments/documentlayout55.htm" window="right" />
         <topic url="WordDocuments/cashdraweractivitytab.htm" window="right" />
         <topic url="WordDocuments/cashdrawercurrencycoinsection.htm" window="right" />
         <topic url="WordDocuments/cashieringtransactionstab.htm" window="right" />
@@ -841,18 +991,18 @@
         <topic url="WordDocuments/finalizedepositsbutton.htm" window="right" />
         <topic url="WordDocuments/createanewfinaldepositscreen.htm" window="right" />
         <topic url="WordDocuments/depositheadertab1.htm" window="right" />
-        <topic url="WordDocuments/currencyandcoindetailtab1.htm" window="right" />
+        <topic url="WordDocuments/currencyandcoindetailtab.htm" window="right" />
         <topic url="WordDocuments/cashreceiptstab1.htm" window="right" />
         <topic url="WordDocuments/cashieringtransactioncheckstab1.htm" window="right" />
-        <topic url="WordDocuments/finalizedcmddocument.htm" window="right" />
-        <topic url="WordDocuments/processoverview42.htm" window="right" />
-        <topic url="WordDocuments/businessrules50.htm" window="right" />
-        <topic url="WordDocuments/routing38.htm" window="right" />
+        <topic url="WordDocuments/finalizedcashmanagementdocument.htm" window="right" />
+        <topic url="WordDocuments/processoverview52.htm" window="right" />
+        <topic url="WordDocuments/businessrules60.htm" window="right" />
+        <topic url="WordDocuments/routing48.htm" window="right" />
         <topic url="WordDocuments/flexiblebankoffsetoption.htm" window="right" />
         <topic url="WordDocuments/openingcashdrawer.htm" window="right" />
-        <topic url="WordDocuments/initiatingacmddocument.htm" window="right" />
+        <topic url="WordDocuments/initiatingacashmanagementdocument.htm" window="right" />
         <topic url="WordDocuments/generalledgercorrectionprocess.htm" window="right" />
-        <topic url="WordDocuments/documentlayout43.htm" window="right" />
+        <topic url="WordDocuments/documentlayout56.htm" window="right" />
         <topic url="WordDocuments/correctionprocesstab.htm" window="right" />
         <topic url="WordDocuments/documentsinsystemtab.htm" window="right" />
         <topic url="WordDocuments/editoption.htm" window="right" />
@@ -865,9 +1015,9 @@
         <topic url="WordDocuments/modificationcriteriasection.htm" window="right" />
         <topic url="WordDocuments/searchcriteriaformanualedittab.htm" window="right" />
         <topic url="WordDocuments/summarytab.htm" window="right" />
-        <topic url="WordDocuments/processoverview43.htm" window="right" />
-        <topic url="WordDocuments/businessrules51.htm" window="right" />
-        <topic url="WordDocuments/routing39.htm" window="right" />
+        <topic url="WordDocuments/processoverview53.htm" window="right" />
+        <topic url="WordDocuments/businessrules61.htm" window="right" />
+        <topic url="WordDocuments/routing49.htm" window="right" />
         <topic url="WordDocuments/initiatingaglcpdocument.htm" window="right" />
         <topic url="WordDocuments/databaseusingcriteriacorrectionmethod.htm" window="right" />
         <topic url="WordDocuments/databasemanualeditcorrectionsmethod.htm" window="right" />
@@ -875,38 +1025,38 @@
         <topic url="WordDocuments/fileuploadmanualeditcorrections.htm" window="right" />
         <topic url="WordDocuments/databaseremovefromprocessing.htm" window="right" />
         <topic url="WordDocuments/journalvoucher.htm" window="right" />
-        <topic url="WordDocuments/documentlayout44.htm" window="right" />
+        <topic url="WordDocuments/documentlayout57.htm" window="right" />
         <topic url="WordDocuments/journalvoucherdetailstab.htm" window="right" />
-        <topic url="WordDocuments/processoverview44.htm" window="right" />
-        <topic url="WordDocuments/businessrules52.htm" window="right" />
-        <topic url="WordDocuments/routing40.htm" window="right" />
-        <topic url="WordDocuments/initiatingajvdocument.htm" window="right" />
-        <topic url="WordDocuments/example30.htm" window="right" />
+        <topic url="WordDocuments/processoverview54.htm" window="right" />
+        <topic url="WordDocuments/businessrules62.htm" window="right" />
+        <topic url="WordDocuments/routing50.htm" window="right" />
+        <topic url="WordDocuments/initiatingajournalvoucherdocument.htm" window="right" />
+        <topic url="WordDocuments/example40.htm" window="right" />
         <topic url="WordDocuments/noncheckdisbursement.htm" window="right" />
-        <topic url="WordDocuments/documentlayout45.htm" window="right" />
-        <topic url="WordDocuments/processoverview45.htm" window="right" />
-        <topic url="WordDocuments/businessrules53.htm" window="right" />
-        <topic url="WordDocuments/routing41.htm" window="right" />
-        <topic url="WordDocuments/initiatinganddocument.htm" window="right" />
-        <topic url="WordDocuments/example31.htm" window="right" />
+        <topic url="WordDocuments/documentlayout58.htm" window="right" />
+        <topic url="WordDocuments/processoverview55.htm" window="right" />
+        <topic url="WordDocuments/businessrules63.htm" window="right" />
+        <topic url="WordDocuments/routing51.htm" window="right" />
+        <topic url="WordDocuments/initiatinganoncheckdisbursementdocument.htm" window="right" />
+        <topic url="WordDocuments/example41.htm" window="right" />
         <topic url="WordDocuments/servicebilling.htm" window="right" />
-        <topic url="WordDocuments/documentlayout46.htm" window="right" />
+        <topic url="WordDocuments/documentlayout59.htm" window="right" />
         <topic url="WordDocuments/itemstab5.htm" window="right" />
-        <topic url="WordDocuments/processoverview46.htm" window="right" />
-        <topic url="WordDocuments/businessrules54.htm" window="right" />
-        <topic url="WordDocuments/routing42.htm" window="right" />
-        <topic url="WordDocuments/initiatingasbdocument.htm" window="right" />
-        <topic url="WordDocuments/example32.htm" window="right" />
+        <topic url="WordDocuments/processoverview56.htm" window="right" />
+        <topic url="WordDocuments/businessrules64.htm" window="right" />
+        <topic url="WordDocuments/routing52.htm" window="right" />
+        <topic url="WordDocuments/initiatingaservicebillingdocument.htm" window="right" />
+        <topic url="WordDocuments/example42.htm" window="right" />
         <topic url="WordDocuments/labordistribution2.htm" window="right" />
         <topic url="WordDocuments/laborjournalvoucher.htm" window="right" />
-        <topic url="WordDocuments/documentlayout47.htm" window="right" />
+        <topic url="WordDocuments/documentlayout60.htm" window="right" />
         <topic url="WordDocuments/labordistributionjournalvoucherdetailstab.htm" window="right" />
-        <topic url="WordDocuments/accountinglinestab5.htm" window="right" />
-        <topic url="WordDocuments/processoverview47.htm" window="right" />
-        <topic url="WordDocuments/businessrules55.htm" window="right" />
-        <topic url="WordDocuments/routing43.htm" window="right" />
-        <topic url="WordDocuments/initiatinganlljvdocument.htm" window="right" />
-        <topic url="WordDocuments/example33.htm" window="right" />
+        <topic url="WordDocuments/accountinglinestab7.htm" window="right" />
+        <topic url="WordDocuments/processoverview57.htm" window="right" />
+        <topic url="WordDocuments/businessrules65.htm" window="right" />
+        <topic url="WordDocuments/routing53.htm" window="right" />
+        <topic url="WordDocuments/initiatinganlaborjournalvoucherdocument.htm" window="right" />
+        <topic url="WordDocuments/example43.htm" window="right" />
         <topic url="WordDocuments/laborledgercorrectionprocess.htm" window="right" />
         <topic url="WordDocuments/documentlayoutllcp.htm" window="right" />
         <topic url="WordDocuments/correctionprocesstab1.htm" window="right" />
@@ -922,9 +1072,9 @@
         <topic url="WordDocuments/modificationcriteriasection1.htm" window="right" />
         <topic url="WordDocuments/searchcriteriaformanualedittab1.htm" window="right" />
         <topic url="WordDocuments/summarytab1.htm" window="right" />
-        <topic url="WordDocuments/processoverview48.htm" window="right" />
-        <topic url="WordDocuments/businessrules56.htm" window="right" />
-        <topic url="WordDocuments/routing44.htm" window="right" />
+        <topic url="WordDocuments/processoverview58.htm" window="right" />
+        <topic url="WordDocuments/businessrules66.htm" window="right" />
+        <topic url="WordDocuments/routing54.htm" window="right" />
         <topic url="WordDocuments/initiatinganllcpdocument.htm" window="right" />
         <topic url="WordDocuments/databaseusingcriteriacorrectionsmethod.htm" window="right" />
         <topic url="WordDocuments/databasemanualeditcorrectionsmethod1.htm" window="right" />
@@ -934,17 +1084,73 @@
         <topic url="WordDocuments/laborledgeruploadflatfileformat.htm" window="right" />
         <topic url="WordDocuments/system.htm" window="right" />
         <topic url="WordDocuments/electronicfundtransfer.htm" window="right" />
-        <topic url="WordDocuments/documentlayout48.htm" window="right" />
+        <topic url="WordDocuments/documentlayout61.htm" window="right" />
         <topic url="WordDocuments/electronicfundtransferclaimlookup.htm" window="right" />
         <topic url="WordDocuments/electronicpaymentstab.htm" window="right" />
         <topic url="WordDocuments/claimingdocument.htm" window="right" />
         <topic url="WordDocuments/documentationtab.htm" window="right" />
         <topic url="WordDocuments/claimbutton.htm" window="right" />
+        <topic url="WordDocuments/endowment2.htm" window="right" />
+        <topic url="WordDocuments/corporatereorganization.htm" window="right" />
+        <topic url="WordDocuments/documentlayout62.htm" window="right" />
+        <topic url="WordDocuments/corporatereorganizationdetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab10.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab10.htm" window="right" />
+        <topic url="WordDocuments/taxlotlinestab5.htm" window="right" />
+        <topic url="WordDocuments/processoverview59.htm" window="right" />
+        <topic url="WordDocuments/businessrules67.htm" window="right" />
+        <topic url="WordDocuments/routing55.htm" window="right" />
+        <topic url="WordDocuments/example44.htm" window="right" />
+        <topic url="WordDocuments/corpusadjustment.htm" window="right" />
+        <topic url="WordDocuments/documentlayout63.htm" window="right" />
+        <topic url="WordDocuments/corpusadjustmentdetailstab.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab11.htm" window="right" />
+        <topic url="WordDocuments/importingtransactionlines.htm" window="right" />
+        <topic url="WordDocuments/processoverview60.htm" window="right" />
+        <topic url="WordDocuments/businessrules68.htm" window="right" />
+        <topic url="WordDocuments/routing56.htm" window="right" />
+        <topic url="WordDocuments/example45.htm" window="right" />
+        <topic url="WordDocuments/holdingadjustment.htm" window="right" />
+        <topic url="WordDocuments/documentlayout64.htm" window="right" />
+        <topic url="WordDocuments/holdingadjustmentdetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab11.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab12.htm" window="right" />
+        <topic url="WordDocuments/importingtransactionlines1.htm" window="right" />
+        <topic url="WordDocuments/taxlotlinestab6.htm" window="right" />
+        <topic url="WordDocuments/processoverview61.htm" window="right" />
+        <topic url="WordDocuments/businessrules69.htm" window="right" />
+        <topic url="WordDocuments/routing57.htm" window="right" />
+        <topic url="WordDocuments/example46.htm" window="right" />
+        <topic url="WordDocuments/holdinghistoryvalueadjustment.htm" window="right" />
+        <topic url="WordDocuments/documentlayout65.htm" window="right" />
+        <topic url="WordDocuments/historyvalueadjustmentdetailstab.htm" window="right" />
+        <topic url="WordDocuments/processoverview62.htm" window="right" />
+        <topic url="WordDocuments/businessrules70.htm" window="right" />
+        <topic url="WordDocuments/routing58.htm" window="right" />
+        <topic url="WordDocuments/example47.htm" window="right" />
+        <topic url="WordDocuments/holdingtaxlotrebalance.htm" window="right" />
+        <topic url="WordDocuments/documentlayout66.htm" window="right" />
+        <topic url="WordDocuments/kemidholdingtab.htm" window="right" />
+        <topic url="WordDocuments/holdingtaxlotstab.htm" window="right" />
+        <topic url="WordDocuments/processoverview63.htm" window="right" />
+        <topic url="WordDocuments/businessrules71.htm" window="right" />
+        <topic url="WordDocuments/routing59.htm" window="right" />
+        <topic url="WordDocuments/example48.htm" window="right" />
+        <topic url="WordDocuments/unitshareadjustment.htm" window="right" />
+        <topic url="WordDocuments/documentlayout67.htm" window="right" />
+        <topic url="WordDocuments/unitshareadjustmentdetailstab.htm" window="right" />
+        <topic url="WordDocuments/securitydetailstab12.htm" window="right" />
+        <topic url="WordDocuments/transactionlinestab13.htm" window="right" />
+        <topic url="WordDocuments/taxlotlinestab7.htm" window="right" />
+        <topic url="WordDocuments/processoverview64.htm" window="right" />
+        <topic url="WordDocuments/businessrules72.htm" window="right" />
+        <topic url="WordDocuments/routing60.htm" window="right" />
+        <topic url="WordDocuments/example49.htm" window="right" />
         <topic url="WordDocuments/customdocumentsearches.htm" window="right" />
         <topic url="WordDocuments/generalinformation.htm" window="right" />
-        <topic url="WordDocuments/commonfeaturesandsearchoptions1.htm" window="right" />
-        <topic url="WordDocuments/dataentrytips1.htm" window="right" />
-        <topic url="WordDocuments/financialtransactions1.htm" window="right" />
+        <topic url="WordDocuments/commonfeaturesandsearchoptions.htm" window="right" />
+        <topic url="WordDocuments/dataentrytips.htm" window="right" />
+        <topic url="WordDocuments/financialtransactions.htm" window="right" />
         <topic url="WordDocuments/accountsreceivable1.htm" window="right" />
         <topic url="WordDocuments/capitalassetmanagement1.htm" window="right" />
         <topic url="WordDocuments/contractsgrants.htm" window="right" />
@@ -956,20 +1162,20 @@
         <topic url="WordDocuments/capitalassetbuilder.htm" window="right" />
         <topic url="WordDocuments/preassettagging.htm" window="right" />
         <topic url="WordDocuments/preassettagginglookup.htm" window="right" />
-        <topic url="WordDocuments/documentlayout49.htm" window="right" />
+        <topic url="WordDocuments/documentlayout68.htm" window="right" />
         <topic url="WordDocuments/editpreassettaggingtab.htm" window="right" />
         <topic url="WordDocuments/editlistofpreassettaggingdetailstab.htm" window="right" />
         <topic url="WordDocuments/addingadetailtothepreassettagginglist.htm" window="right" />
-        <topic url="WordDocuments/processoverview49.htm" window="right" />
-        <topic url="WordDocuments/businessrules57.htm" window="right" />
-        <topic url="WordDocuments/routing45.htm" window="right" />
-        <topic url="WordDocuments/example34.htm" window="right" />
+        <topic url="WordDocuments/processoverview65.htm" window="right" />
+        <topic url="WordDocuments/businessrules73.htm" window="right" />
+        <topic url="WordDocuments/routing61.htm" window="right" />
+        <topic url="WordDocuments/example50.htm" window="right" />
         <topic url="WordDocuments/capitalassetmanagement2.htm" window="right" />
         <topic url="WordDocuments/asset.htm" window="right" />
         <topic url="WordDocuments/assetlookupform.htm" window="right" />
         <topic url="WordDocuments/assetlookupresults.htm" window="right" />
         <topic url="WordDocuments/editasset.htm" window="right" />
-        <topic url="WordDocuments/documentlayout50.htm" window="right" />
+        <topic url="WordDocuments/documentlayout69.htm" window="right" />
         <topic url="WordDocuments/assetdetailinformationtab.htm" window="right" />
         <topic url="WordDocuments/assetlocationtab.htm" window="right" />
         <topic url="WordDocuments/organizationinformationtab.htm" window="right" />
@@ -982,274 +1188,321 @@
         <topic url="WordDocuments/repairhistorytab.htm" window="right" />
         <topic url="WordDocuments/componentstab.htm" window="right" />
         <topic url="WordDocuments/relateddocumentlookuptab.htm" window="right" />
-        <topic url="WordDocuments/processoverview50.htm" window="right" />
-        <topic url="WordDocuments/routing46.htm" window="right" />
+        <topic url="WordDocuments/processoverview66.htm" window="right" />
+        <topic url="WordDocuments/routing62.htm" window="right" />
         <topic url="WordDocuments/permissions2.htm" window="right" />
-        <topic url="WordDocuments/example35.htm" window="right" />
+        <topic url="WordDocuments/example51.htm" window="right" />
         <topic url="WordDocuments/equipmentloan.htm" window="right" />
-        <topic url="WordDocuments/documentlayout51.htm" window="right" />
+        <topic url="WordDocuments/documentlayout70.htm" window="right" />
         <topic url="WordDocuments/assettab.htm" window="right" />
         <topic url="WordDocuments/equipmentloanstab.htm" window="right" />
         <topic url="WordDocuments/borrowersaddresstab.htm" window="right" />
-        <topic url="WordDocuments/processoverview51.htm" window="right" />
-        <topic url="WordDocuments/businessrules60.htm" window="right" />
-        <topic url="WordDocuments/routing47.htm" window="right" />
+        <topic url="WordDocuments/processoverview67.htm" window="right" />
+        <topic url="WordDocuments/businessrules76.htm" window="right" />
+        <topic url="WordDocuments/routing63.htm" window="right" />
         <topic url="WordDocuments/equipmentloanrenewal.htm" window="right" />
-        <topic url="WordDocuments/documentlayout52.htm" window="right" />
-        <topic url="WordDocuments/processoverview52.htm" window="right" />
-        <topic url="WordDocuments/businessrules61.htm" window="right" />
-        <topic url="WordDocuments/routing48.htm" window="right" />
+        <topic url="WordDocuments/documentlayout71.htm" window="right" />
+        <topic url="WordDocuments/processoverview68.htm" window="right" />
+        <topic url="WordDocuments/businessrules77.htm" window="right" />
+        <topic url="WordDocuments/routing64.htm" window="right" />
         <topic url="WordDocuments/equipmentreturn.htm" window="right" />
-        <topic url="WordDocuments/documentlayout53.htm" window="right" />
-        <topic url="WordDocuments/processoverview53.htm" window="right" />
-        <topic url="WordDocuments/businessrules62.htm" window="right" />
-        <topic url="WordDocuments/routing49.htm" window="right" />
+        <topic url="WordDocuments/documentlayout72.htm" window="right" />
+        <topic url="WordDocuments/processoverview69.htm" window="right" />
+        <topic url="WordDocuments/businessrules78.htm" window="right" />
+        <topic url="WordDocuments/routing65.htm" window="right" />
         <topic url="WordDocuments/permissions3.htm" window="right" />
-        <topic url="WordDocuments/example49.htm" window="right" />
+        <topic url="WordDocuments/example52.htm" window="right" />
         <topic url="WordDocuments/equipmentmerge.htm" window="right" />
-        <topic url="WordDocuments/documentlayout54.htm" window="right" />
+        <topic url="WordDocuments/documentlayout73.htm" window="right" />
         <topic url="WordDocuments/targetassetinformationtab.htm" window="right" />
         <topic url="WordDocuments/retirementinformationtab.htm" window="right" />
         <topic url="WordDocuments/assetdetailinformationtab1.htm" window="right" />
-        <topic url="WordDocuments/processoverview54.htm" window="right" />
-        <topic url="WordDocuments/businessrules63.htm" window="right" />
-        <topic url="WordDocuments/routing50.htm" window="right" />
+        <topic url="WordDocuments/processoverview70.htm" window="right" />
+        <topic url="WordDocuments/businessrules79.htm" window="right" />
+        <topic url="WordDocuments/routing66.htm" window="right" />
         <topic url="WordDocuments/permissions4.htm" window="right" />
-        <topic url="WordDocuments/example50.htm" window="right" />
+        <topic url="WordDocuments/example53.htm" window="right" />
         <topic url="WordDocuments/separateassets.htm" window="right" />
-        <topic url="WordDocuments/documentlayout55.htm" window="right" />
+        <topic url="WordDocuments/documentlayout74.htm" window="right" />
         <topic url="WordDocuments/assetacquisitiontypetab.htm" window="right" />
         <topic url="WordDocuments/assetdetailinformationtab2.htm" window="right" />
         <topic url="WordDocuments/locationtab.htm" window="right" />
         <topic url="WordDocuments/addpaymentstab.htm" window="right" />
         <topic url="WordDocuments/assetinformationtab.htm" window="right" />
         <topic url="WordDocuments/recalculatetotalamounttab.htm" window="right" />
-        <topic url="WordDocuments/businessrules64.htm" window="right" />
+        <topic url="WordDocuments/businessrules80.htm" window="right" />
         <topic url="WordDocuments/permissions5.htm" window="right" />
-        <topic url="WordDocuments/example51.htm" window="right" />
+        <topic url="WordDocuments/example54.htm" window="right" />
         <topic url="WordDocuments/transferasset.htm" window="right" />
-        <topic url="WordDocuments/documentlayout56.htm" window="right" />
+        <topic url="WordDocuments/documentlayout75.htm" window="right" />
         <topic url="WordDocuments/assettransferinformationtab.htm" window="right" />
         <topic url="WordDocuments/assetlocationtab1.htm" window="right" />
         <topic url="WordDocuments/organizationinformationtab1.htm" window="right" />
-        <topic url="WordDocuments/processoverview55.htm" window="right" />
-        <topic url="WordDocuments/businessrules66.htm" window="right" />
-        <topic url="WordDocuments/routing51.htm" window="right" />
+        <topic url="WordDocuments/processoverview71.htm" window="right" />
+        <topic url="WordDocuments/businessrules82.htm" window="right" />
+        <topic url="WordDocuments/routing67.htm" window="right" />
         <topic url="WordDocuments/permissions6.htm" window="right" />
-        <topic url="WordDocuments/example52.htm" window="right" />
+        <topic url="WordDocuments/example55.htm" window="right" />
         <topic url="WordDocuments/viewasset.htm" window="right" />
-        <topic url="WordDocuments/documentlayout57.htm" window="right" />
+        <topic url="WordDocuments/documentlayout76.htm" window="right" />
         <topic url="WordDocuments/viewassetmergehistorytab.htm" window="right" />
         <topic url="WordDocuments/viewassetseparatehistorytab1.htm" window="right" />
         <topic url="WordDocuments/viewretirementinformationtab.htm" window="right" />
         <topic url="WordDocuments/viewequipmentloaninformationtab.htm" window="right" />
         <topic url="WordDocuments/paymentssummarytab.htm" window="right" />
-        <topic url="WordDocuments/example53.htm" window="right" />
+        <topic url="WordDocuments/example56.htm" window="right" />
         <topic url="WordDocuments/assetfabrication.htm" window="right" />
-        <topic url="WordDocuments/documentlayout58.htm" window="right" />
+        <topic url="WordDocuments/documentlayout77.htm" window="right" />
         <topic url="WordDocuments/assetdetailinformationtab3.htm" window="right" />
         <topic url="WordDocuments/assetlocationtab2.htm" window="right" />
         <topic url="WordDocuments/organizationinformationtab2.htm" window="right" />
         <topic url="WordDocuments/fabricationinformationtab.htm" window="right" />
-        <topic url="WordDocuments/processoverview56.htm" window="right" />
-        <topic url="WordDocuments/businessrules67.htm" window="right" />
-        <topic url="WordDocuments/routing52.htm" window="right" />
-        <topic url="WordDocuments/example36.htm" window="right" />
+        <topic url="WordDocuments/processoverview72.htm" window="right" />
+        <topic url="WordDocuments/businessrules83.htm" window="right" />
+        <topic url="WordDocuments/routing68.htm" window="right" />
+        <topic url="WordDocuments/example57.htm" window="right" />
         <topic url="WordDocuments/assetglobaladd.htm" window="right" />
         <topic url="WordDocuments/assetacquisitiontypelookup.htm" window="right" />
-        <topic url="WordDocuments/documentlayout59.htm" window="right" />
+        <topic url="WordDocuments/documentlayout78.htm" window="right" />
         <topic url="WordDocuments/assetacquisitiontypetab1.htm" window="right" />
         <topic url="WordDocuments/assetdetailinformationtab4.htm" window="right" />
         <topic url="WordDocuments/locationtab1.htm" window="right" />
-        <topic url="WordDocuments/businessrules68.htm" window="right" />
+        <topic url="WordDocuments/businessrules84.htm" window="right" />
         <topic url="WordDocuments/addingalocationtotheassetdetailinformation.htm" window="right" />
         <topic url="WordDocuments/addpaymentstab1.htm" window="right" />
         <topic url="WordDocuments/addingapaymenttotheassetdetailinformation.htm" window="right" />
-        <topic url="WordDocuments/processoverview57.htm" window="right" />
-        <topic url="WordDocuments/businessrules69.htm" window="right" />
-        <topic url="WordDocuments/routing53.htm" window="right" />
-        <topic url="WordDocuments/example37.htm" window="right" />
+        <topic url="WordDocuments/processoverview73.htm" window="right" />
+        <topic url="WordDocuments/businessrules85.htm" window="right" />
+        <topic url="WordDocuments/routing69.htm" window="right" />
+        <topic url="WordDocuments/example58.htm" window="right" />
         <topic url="WordDocuments/assetlocationglobal.htm" window="right" />
-        <topic url="WordDocuments/documentlayout60.htm" window="right" />
+        <topic url="WordDocuments/documentlayout79.htm" window="right" />
         <topic url="WordDocuments/editlistofassetstab.htm" window="right" />
         <topic url="WordDocuments/addinganassettotheeditlistofassetstab.htm" window="right" />
-        <topic url="WordDocuments/processoverview58.htm" window="right" />
-        <topic url="WordDocuments/businessrules70.htm" window="right" />
+        <topic url="WordDocuments/processoverview74.htm" window="right" />
+        <topic url="WordDocuments/businessrules86.htm" window="right" />
         <topic url="WordDocuments/permissions7.htm" window="right" />
         <topic url="WordDocuments/assetpayment.htm" window="right" />
         <topic url="WordDocuments/assetpaymentlookup.htm" window="right" />
         <topic url="WordDocuments/assetpaymentlookupresults.htm" window="right" />
         <topic url="WordDocuments/enterpayment.htm" window="right" />
-        <topic url="WordDocuments/documentlayout61.htm" window="right" />
+        <topic url="WordDocuments/documentlayout80.htm" window="right" />
         <topic url="WordDocuments/assetstab.htm" window="right" />
-        <topic url="WordDocuments/businessrules71.htm" window="right" />
+        <topic url="WordDocuments/businessrules87.htm" window="right" />
         <topic url="WordDocuments/assetinformationsubtab.htm" window="right" />
         <topic url="WordDocuments/processedpaymentssubtab.htm" window="right" />
         <topic url="WordDocuments/paymentslookuptab1.htm" window="right" />
-        <topic url="WordDocuments/accountinglinestab6.htm" window="right" />
+        <topic url="WordDocuments/accountinglinestab8.htm" window="right" />
         <topic url="WordDocuments/importingaccountinglines.htm" window="right" />
-        <topic url="WordDocuments/processoverview59.htm" window="right" />
-        <topic url="WordDocuments/businessrules72.htm" window="right" />
-        <topic url="WordDocuments/routing54.htm" window="right" />
-        <topic url="WordDocuments/example38.htm" window="right" />
+        <topic url="WordDocuments/processoverview75.htm" window="right" />
+        <topic url="WordDocuments/businessrules88.htm" window="right" />
+        <topic url="WordDocuments/routing70.htm" window="right" />
+        <topic url="WordDocuments/example59.htm" window="right" />
         <topic url="WordDocuments/assetretirementglobal.htm" window="right" />
         <topic url="WordDocuments/assetretirementreasonlookup.htm" window="right" />
-        <topic url="WordDocuments/businessrules104.htm" window="right" />
-        <topic url="WordDocuments/documentlayout62.htm" window="right" />
+        <topic url="WordDocuments/businessrules89.htm" window="right" />
+        <topic url="WordDocuments/documentlayout81.htm" window="right" />
         <topic url="WordDocuments/retirementinformationtab1.htm" window="right" />
         <topic url="WordDocuments/auctionorsoldtab.htm" window="right" />
         <topic url="WordDocuments/externaltransferorgifttab.htm" window="right" />
         <topic url="WordDocuments/thefttab.htm" window="right" />
         <topic url="WordDocuments/targetassetinformationtab1.htm" window="right" />
         <topic url="WordDocuments/assetdetailinformationtab5.htm" window="right" />
-        <topic url="WordDocuments/processoverview60.htm" window="right" />
-        <topic url="WordDocuments/businessrules73.htm" window="right" />
-        <topic url="WordDocuments/routing55.htm" window="right" />
+        <topic url="WordDocuments/processoverview76.htm" window="right" />
+        <topic url="WordDocuments/businessrules90.htm" window="right" />
+        <topic url="WordDocuments/routing71.htm" window="right" />
         <topic url="WordDocuments/displayingassetdetail.htm" window="right" />
-        <topic url="WordDocuments/example39.htm" window="right" />
+        <topic url="WordDocuments/example60.htm" window="right" />
         <topic url="WordDocuments/chartofaccounts.htm" window="right" />
         <topic url="WordDocuments/globaldocuments.htm" window="right" />
         <topic url="WordDocuments/editlistofxxxtab.htm" window="right" />
         <topic url="WordDocuments/extendedattributes.htm" window="right" />
         <topic url="WordDocuments/account.htm" window="right" />
-        <topic url="WordDocuments/documentlayout63.htm" window="right" />
+        <topic url="WordDocuments/documentlayout82.htm" window="right" />
         <topic url="WordDocuments/accountmaintenancetab.htm" window="right" />
         <topic url="WordDocuments/accountresponsibilitytab.htm" window="right" />
         <topic url="WordDocuments/contractsandgrantstab.htm" window="right" />
         <topic url="WordDocuments/guidelinesandpurposetab.htm" window="right" />
         <topic url="WordDocuments/accountdescriptiontab.htm" window="right" />
-        <topic url="WordDocuments/processoverview61.htm" window="right" />
-        <topic url="WordDocuments/businessrules74.htm" window="right" />
-        <topic url="WordDocuments/routing56.htm" window="right" />
+        <topic url="WordDocuments/processoverview77.htm" window="right" />
+        <topic url="WordDocuments/businessrules91.htm" window="right" />
+        <topic url="WordDocuments/routing72.htm" window="right" />
         <topic url="WordDocuments/accountglobal.htm" window="right" />
-        <topic url="WordDocuments/documentlayout64.htm" window="right" />
+        <topic url="WordDocuments/documentlayout83.htm" window="right" />
         <topic url="WordDocuments/globalaccountmaintenancetab.htm" window="right" />
         <topic url="WordDocuments/editlistofaccountstab.htm" window="right" />
-        <topic url="WordDocuments/processoverview62.htm" window="right" />
-        <topic url="WordDocuments/businessrules75.htm" window="right" />
-        <topic url="WordDocuments/routing57.htm" window="right" />
+        <topic url="WordDocuments/processoverview78.htm" window="right" />
+        <topic url="WordDocuments/businessrules92.htm" window="right" />
+        <topic url="WordDocuments/routing73.htm" window="right" />
         <topic url="WordDocuments/initiatinganaccountglobaldocument.htm" window="right" />
         <topic url="WordDocuments/usinglookupaddmultipleaccountlines.htm" window="right" />
         <topic url="WordDocuments/addingoneaccountatatime.htm" window="right" />
         <topic url="WordDocuments/accountdelegate.htm" window="right" />
-        <topic url="WordDocuments/documentlayout65.htm" window="right" />
+        <topic url="WordDocuments/documentlayout84.htm" window="right" />
         <topic url="WordDocuments/editaccountdelegatetab.htm" window="right" />
-        <topic url="WordDocuments/processoverview63.htm" window="right" />
-        <topic url="WordDocuments/businessrules76.htm" window="right" />
-        <topic url="WordDocuments/routing58.htm" window="right" />
+        <topic url="WordDocuments/processoverview79.htm" window="right" />
+        <topic url="WordDocuments/businessrules93.htm" window="right" />
+        <topic url="WordDocuments/routing74.htm" window="right" />
         <topic url="WordDocuments/accountdelegateglobal.htm" window="right" />
         <topic url="WordDocuments/creatingnewglobalfromscratch.htm" window="right" />
         <topic url="WordDocuments/creatingnewglobalfrommodel.htm" window="right" />
-        <topic url="WordDocuments/documentlayout66.htm" window="right" />
+        <topic url="WordDocuments/documentlayout85.htm" window="right" />
         <topic url="WordDocuments/editglobaldelegatetab.htm" window="right" />
         <topic url="WordDocuments/editlistofaccountstab1.htm" window="right" />
-        <topic url="WordDocuments/processoverview64.htm" window="right" />
-        <topic url="WordDocuments/businessrules77.htm" window="right" />
-        <topic url="WordDocuments/routing59.htm" window="right" />
+        <topic url="WordDocuments/processoverview80.htm" window="right" />
+        <topic url="WordDocuments/businessrules94.htm" window="right" />
+        <topic url="WordDocuments/routing75.htm" window="right" />
         <topic url="WordDocuments/initiatinganaccountdelegateglobaldocument.htm" window="right" />
         <topic url="WordDocuments/usinglookupaddmultipleaccountlines1.htm" window="right" />
         <topic url="WordDocuments/addingoneaccountatatime1.htm" window="right" />
         <topic url="WordDocuments/accountdelegatemodel.htm" window="right" />
-        <topic url="WordDocuments/documentlayout67.htm" window="right" />
+        <topic url="WordDocuments/documentlayout86.htm" window="right" />
         <topic url="WordDocuments/editaccountdelegatemodeltab.htm" window="right" />
         <topic url="WordDocuments/editdelegatesformodeltab.htm" window="right" />
-        <topic url="WordDocuments/processoverview65.htm" window="right" />
-        <topic url="WordDocuments/routing60.htm" window="right" />
+        <topic url="WordDocuments/processoverview81.htm" window="right" />
+        <topic url="WordDocuments/routing76.htm" window="right" />
         <topic url="WordDocuments/initiatinganaccountdelegatemodeldocument.htm" window="right" />
         <topic url="WordDocuments/accountdelegateglobalfrommodel.htm" window="right" />
         <topic url="WordDocuments/objectcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout68.htm" window="right" />
+        <topic url="WordDocuments/documentlayout87.htm" window="right" />
         <topic url="WordDocuments/editobjectcodetab.htm" window="right" />
-        <topic url="WordDocuments/processoverview66.htm" window="right" />
-        <topic url="WordDocuments/businessrules78.htm" window="right" />
-        <topic url="WordDocuments/routing61.htm" window="right" />
+        <topic url="WordDocuments/processoverview82.htm" window="right" />
+        <topic url="WordDocuments/businessrules95.htm" window="right" />
+        <topic url="WordDocuments/routing77.htm" window="right" />
         <topic url="WordDocuments/objectcodeglobal.htm" window="right" />
-        <topic url="WordDocuments/documentlayout69.htm" window="right" />
+        <topic url="WordDocuments/documentlayout88.htm" window="right" />
         <topic url="WordDocuments/globalobjectcodemaintenancetab.htm" window="right" />
         <topic url="WordDocuments/editmultipleyearandcharttab.htm" window="right" />
-        <topic url="WordDocuments/processoverview67.htm" window="right" />
-        <topic url="WordDocuments/businessrules79.htm" window="right" />
-        <topic url="WordDocuments/routing62.htm" window="right" />
+        <topic url="WordDocuments/processoverview83.htm" window="right" />
+        <topic url="WordDocuments/businessrules96.htm" window="right" />
+        <topic url="WordDocuments/routing78.htm" window="right" />
         <topic url="WordDocuments/initiatingaglobalobjectcodedocument.htm" window="right" />
         <topic url="WordDocuments/usinglookupaddmultipleobjectcodelines.htm" window="right" />
         <topic url="WordDocuments/addingoneobjectcodeatatime.htm" window="right" />
         <topic url="WordDocuments/organization.htm" window="right" />
-        <topic url="WordDocuments/documentlayout70.htm" window="right" />
+        <topic url="WordDocuments/documentlayout89.htm" window="right" />
         <topic url="WordDocuments/editorganizationtab.htm" window="right" />
         <topic url="WordDocuments/editplantaccountstab.htm" window="right" />
         <topic url="WordDocuments/edithrmsunittab.htm" window="right" />
-        <topic url="WordDocuments/processoverview68.htm" window="right" />
-        <topic url="WordDocuments/businessrules80.htm" window="right" />
-        <topic url="WordDocuments/routing63.htm" window="right" />
+        <topic url="WordDocuments/processoverview84.htm" window="right" />
+        <topic url="WordDocuments/businessrules97.htm" window="right" />
+        <topic url="WordDocuments/routing79.htm" window="right" />
         <topic url="WordDocuments/organizationreview.htm" window="right" />
-        <topic url="WordDocuments/documentlayout71.htm" window="right" />
+        <topic url="WordDocuments/documentlayout90.htm" window="right" />
         <topic url="WordDocuments/organizationreviewtab.htm" window="right" />
         <topic url="WordDocuments/assigneedelegationtab.htm" window="right" />
         <topic url="WordDocuments/delegation.htm" window="right" />
-        <topic url="WordDocuments/processoverview69.htm" window="right" />
-        <topic url="WordDocuments/businessrules81.htm" window="right" />
-        <topic url="WordDocuments/routing64.htm" window="right" />
+        <topic url="WordDocuments/processoverview85.htm" window="right" />
+        <topic url="WordDocuments/businessrules98.htm" window="right" />
+        <topic url="WordDocuments/routing80.htm" window="right" />
         <topic url="WordDocuments/projectcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout72.htm" window="right" />
+        <topic url="WordDocuments/documentlayout91.htm" window="right" />
         <topic url="WordDocuments/editprojectcodetab.htm" window="right" />
-        <topic url="WordDocuments/processoverview70.htm" window="right" />
-        <topic url="WordDocuments/businessrules82.htm" window="right" />
-        <topic url="WordDocuments/routing65.htm" window="right" />
+        <topic url="WordDocuments/processoverview86.htm" window="right" />
+        <topic url="WordDocuments/businessrules99.htm" window="right" />
+        <topic url="WordDocuments/routing81.htm" window="right" />
         <topic url="WordDocuments/subaccount.htm" window="right" />
         <topic url="WordDocuments/editsubaccountcodetab.htm" window="right" />
         <topic url="WordDocuments/editfinancialreportingcodetab.htm" window="right" />
         <topic url="WordDocuments/editcgcostsharingtab.htm" window="right" />
         <topic url="WordDocuments/editcgicrtab.htm" window="right" />
-        <topic url="WordDocuments/processoverview71.htm" window="right" />
-        <topic url="WordDocuments/businessrules83.htm" window="right" />
-        <topic url="WordDocuments/routing66.htm" window="right" />
+        <topic url="WordDocuments/processoverview87.htm" window="right" />
+        <topic url="WordDocuments/businessrules100.htm" window="right" />
+        <topic url="WordDocuments/routing82.htm" window="right" />
         <topic url="WordDocuments/subobjectcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout73.htm" window="right" />
+        <topic url="WordDocuments/documentlayout92.htm" window="right" />
         <topic url="WordDocuments/editsubobjectcodetab.htm" window="right" />
-        <topic url="WordDocuments/processoverview72.htm" window="right" />
-        <topic url="WordDocuments/businessrules84.htm" window="right" />
-        <topic url="WordDocuments/routing67.htm" window="right" />
+        <topic url="WordDocuments/processoverview88.htm" window="right" />
+        <topic url="WordDocuments/businessrules101.htm" window="right" />
+        <topic url="WordDocuments/routing83.htm" window="right" />
         <topic url="WordDocuments/subobjectcodeglobal.htm" window="right" />
-        <topic url="WordDocuments/documentlayout74.htm" window="right" />
+        <topic url="WordDocuments/documentlayout93.htm" window="right" />
         <topic url="WordDocuments/editglobalsubobjectcodetab.htm" window="right" />
         <topic url="WordDocuments/editobjectcodetab1.htm" window="right" />
         <topic url="WordDocuments/editaccounttab.htm" window="right" />
-        <topic url="WordDocuments/processoverview73.htm" window="right" />
-        <topic url="WordDocuments/businessrules85.htm" window="right" />
-        <topic url="WordDocuments/routing68.htm" window="right" />
+        <topic url="WordDocuments/processoverview89.htm" window="right" />
+        <topic url="WordDocuments/businessrules102.htm" window="right" />
+        <topic url="WordDocuments/routing84.htm" window="right" />
         <topic url="WordDocuments/initiatingaglobalsubobjectcodedocument.htm" window="right" />
         <topic url="WordDocuments/usinglookupaddmultipleaccountandobjectcodelines.htm" window="right" />
         <topic url="WordDocuments/addingoneaccountandobjectcodeatatime.htm" window="right" />
         <topic url="WordDocuments/contractsgrants1.htm" window="right" />
         <topic url="WordDocuments/award.htm" window="right" />
-        <topic url="WordDocuments/documentlayout75.htm" window="right" />
+        <topic url="WordDocuments/documentlayout94.htm" window="right" />
         <topic url="WordDocuments/awardmaintenancetab.htm" window="right" />
         <topic url="WordDocuments/accountstab.htm" window="right" />
         <topic url="WordDocuments/projectdirectorstab.htm" window="right" />
         <topic url="WordDocuments/organizationstab.htm" window="right" />
         <topic url="WordDocuments/subcontractorstab.htm" window="right" />
-        <topic url="WordDocuments/processoverview74.htm" window="right" />
-        <topic url="WordDocuments/businessrules86.htm" window="right" />
+        <topic url="WordDocuments/processoverview90.htm" window="right" />
+        <topic url="WordDocuments/businessrules103.htm" window="right" />
         <topic url="WordDocuments/institutionalvalueexamples.htm" window="right" />
-        <topic url="WordDocuments/routing69.htm" window="right" />
+        <topic url="WordDocuments/routing85.htm" window="right" />
         <topic url="WordDocuments/proposal.htm" window="right" />
-        <topic url="WordDocuments/documentlayout76.htm" window="right" />
+        <topic url="WordDocuments/documentlayout95.htm" window="right" />
         <topic url="WordDocuments/proposalmaintenancetab.htm" window="right" />
         <topic url="WordDocuments/organizationstab1.htm" window="right" />
         <topic url="WordDocuments/projectdirectorstab1.htm" window="right" />
         <topic url="WordDocuments/subcontractorstab1.htm" window="right" />
         <topic url="WordDocuments/researchriskstab.htm" window="right" />
-        <topic url="WordDocuments/processoverview75.htm" window="right" />
-        <topic url="WordDocuments/businessrules87.htm" window="right" />
-        <topic url="WordDocuments/routing70.htm" window="right" />
+        <topic url="WordDocuments/processoverview91.htm" window="right" />
+        <topic url="WordDocuments/businessrules104.htm" window="right" />
+        <topic url="WordDocuments/routing86.htm" window="right" />
         <topic url="WordDocuments/examples.htm" window="right" />
-        <topic url="WordDocuments/institutionalvalueexamples1.htm" window="right" />
+        <topic url="WordDocuments/endowment3.htm" window="right" />
+        <topic url="WordDocuments/kemid.htm" window="right" />
+        <topic url="WordDocuments/documentlayout96.htm" window="right" />
+        <topic url="WordDocuments/kemidtab.htm" window="right" />
+        <topic url="WordDocuments/agreementtab.htm" window="right" />
+        <topic url="WordDocuments/sourceoffundstab.htm" window="right" />
+        <topic url="WordDocuments/benefittingorganizationtab.htm" window="right" />
+        <topic url="WordDocuments/generalledgeraccountstab.htm" window="right" />
+        <topic url="WordDocuments/authorizationstab.htm" window="right" />
+        <topic url="WordDocuments/payoutinstructionstab.htm" window="right" />
+        <topic url="WordDocuments/usecriteriatab.htm" window="right" />
+        <topic url="WordDocuments/specialinstructionstab.htm" window="right" />
+        <topic url="WordDocuments/feestab.htm" window="right" />
+        <topic url="WordDocuments/reportgroupstab.htm" window="right" />
+        <topic url="WordDocuments/donorstatementstab.htm" window="right" />
+        <topic url="WordDocuments/endowmentcorpusvaluestab.htm" window="right" />
+        <topic url="WordDocuments/combinedonorstatementstab.htm" window="right" />
+        <topic url="WordDocuments/processoverview92.htm" window="right" />
+        <topic url="WordDocuments/businessrules105.htm" window="right" />
+        <topic url="WordDocuments/routing87.htm" window="right" />
+        <topic url="WordDocuments/example61.htm" window="right" />
+        <topic url="WordDocuments/recurringcashtransfer.htm" window="right" />
+        <topic url="WordDocuments/documentlayout97.htm" window="right" />
+        <topic url="WordDocuments/editrecurringcashtransfertab.htm" window="right" />
+        <topic url="WordDocuments/kemidtransfertargettab.htm" window="right" />
+        <topic url="WordDocuments/gltransfertargettab.htm" window="right" />
+        <topic url="WordDocuments/processoverview93.htm" window="right" />
+        <topic url="WordDocuments/businessrules106.htm" window="right" />
+        <topic url="WordDocuments/routing88.htm" window="right" />
+        <topic url="WordDocuments/example62.htm" window="right" />
+        <topic url="WordDocuments/security.htm" window="right" />
+        <topic url="WordDocuments/documentlayout98.htm" window="right" />
+        <topic url="WordDocuments/editsecuritytab.htm" window="right" />
+        <topic url="WordDocuments/processoverview94.htm" window="right" />
+        <topic url="WordDocuments/businessrules107.htm" window="right" />
+        <topic url="WordDocuments/routing89.htm" window="right" />
+        <topic url="WordDocuments/example63.htm" window="right" />
+        <topic url="WordDocuments/tickler.htm" window="right" />
+        <topic url="WordDocuments/documentlayout99.htm" window="right" />
+        <topic url="WordDocuments/ticklertab.htm" window="right" />
+        <topic url="WordDocuments/ticklerkemidtab.htm" window="right" />
+        <topic url="WordDocuments/ticklersecuritytab.htm" window="right" />
+        <topic url="WordDocuments/ticklerrecipientpersontab.htm" window="right" />
+        <topic url="WordDocuments/ticklerrecipientgrouptab.htm" window="right" />
+        <topic url="WordDocuments/processoverview95.htm" window="right" />
+        <topic url="WordDocuments/businessrules108.htm" window="right" />
+        <topic url="WordDocuments/routing90.htm" window="right" />
+        <topic url="WordDocuments/example64.htm" window="right" />
         <topic url="WordDocuments/financialprocessing3.htm" window="right" />
         <topic url="WordDocuments/disbursementvouchertravelcompany.htm" window="right" />
-        <topic url="WordDocuments/documentlayout77.htm" window="right" />
+        <topic url="WordDocuments/documentlayout100.htm" window="right" />
         <topic url="WordDocuments/edittravelcompanycodetab.htm" window="right" />
         <topic url="WordDocuments/vendor1.htm" window="right" />
-        <topic url="WordDocuments/vendorpven1.htm" window="right" />
+        <topic url="WordDocuments/vendorpven.htm" window="right" />
         <topic url="WordDocuments/specialnavigationfeatures.htm" window="right" />
         <topic url="WordDocuments/createdivision.htm" window="right" />
         <topic url="WordDocuments/collections.htm" window="right" />
@@ -1268,9 +1521,9 @@
         <topic url="WordDocuments/vendorphonenumbertab.htm" window="right" />
         <topic url="WordDocuments/customernumbertab.htm" window="right" />
         <topic url="WordDocuments/contractstab.htm" window="right" />
-        <topic url="WordDocuments/processoverview95.htm" window="right" />
-        <topic url="WordDocuments/businessrules103.htm" window="right" />
-        <topic url="WordDocuments/routing80.htm" window="right" />
+        <topic url="WordDocuments/processoverview96.htm" window="right" />
+        <topic url="WordDocuments/businessrules109.htm" window="right" />
+        <topic url="WordDocuments/routing91.htm" window="right" />
         <topic url="WordDocuments/vendorcontracts.htm" window="right" />
         <topic url="WordDocuments/balanceinquiries.htm" window="right" />
         <topic url="WordDocuments/balanceinquirysubmenugroups.htm" window="right" />
@@ -1308,70 +1561,96 @@
         <topic url="WordDocuments/searchresults6.htm" window="right" />
         <topic url="WordDocuments/labordistribution3.htm" window="right" />
         <topic url="WordDocuments/accountstatusbasefunds.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria13.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria6.htm" window="right" />
         <topic url="WordDocuments/searchresults7.htm" window="right" />
-        <topic url="WordDocuments/consolidationoption.htm" window="right" />
+        <topic url="WordDocuments/consolidationoption1.htm" window="right" />
         <topic url="WordDocuments/detailoption.htm" window="right" />
         <topic url="WordDocuments/csfaccountamountdrilldown.htm" window="right" />
         <topic url="WordDocuments/accountstatuscurrentfunds.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria14.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria7.htm" window="right" />
         <topic url="WordDocuments/searchresults8.htm" window="right" />
-        <topic url="WordDocuments/consolidationoption1.htm" window="right" />
+        <topic url="WordDocuments/consolidationoption2.htm" window="right" />
         <topic url="WordDocuments/detailoption1.htm" window="right" />
         <topic url="WordDocuments/amountdrilldowntolaborledger.htm" window="right" />
         <topic url="WordDocuments/amountdrilldowntolaborledgerdetails.htm" window="right" />
         <topic url="WordDocuments/calculatedsalaryfoundation.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria15.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria8.htm" window="right" />
         <topic url="WordDocuments/searchresults9.htm" window="right" />
         <topic url="WordDocuments/employeefunding.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria16.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria9.htm" window="right" />
         <topic url="WordDocuments/searchresults10.htm" window="right" />
         <topic url="WordDocuments/july1positionfunding.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria17.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria10.htm" window="right" />
         <topic url="WordDocuments/searchresults11.htm" window="right" />
         <topic url="WordDocuments/laborledgerview.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria18.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria11.htm" window="right" />
         <topic url="WordDocuments/searchresults12.htm" window="right" />
         <topic url="WordDocuments/consolidatedoption.htm" window="right" />
         <topic url="WordDocuments/detailoption2.htm" window="right" />
         <topic url="WordDocuments/laborledgerviewdrilldown.htm" window="right" />
         <topic url="WordDocuments/laborledgerpendingentry.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria19.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria12.htm" window="right" />
         <topic url="WordDocuments/searchresults13.htm" window="right" />
         <topic url="WordDocuments/positioninquiry.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria20.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria13.htm" window="right" />
         <topic url="WordDocuments/searchresults14.htm" window="right" />
         <topic url="WordDocuments/drilldown1.htm" window="right" />
+        <topic url="WordDocuments/endowment4.htm" window="right" />
+        <topic url="WordDocuments/currentkemidavailablebalanceslookup.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria14.htm" window="right" />
+        <topic url="WordDocuments/searchresults15.htm" window="right" />
+        <topic url="WordDocuments/drilldownintokemidinquiryscreen.htm" window="right" />
+        <topic url="WordDocuments/currentkemidbalanceslookup.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria15.htm" window="right" />
+        <topic url="WordDocuments/searchresults16.htm" window="right" />
+        <topic url="WordDocuments/drilldownintokemiddetail.htm" window="right" />
+        <topic url="WordDocuments/drilldownintokemidtotalmarketvaluedetail.htm" window="right" />
+        <topic url="WordDocuments/drilldownintokemidcurrentreportinggroupdetail.htm" window="right" />
+        <topic url="WordDocuments/drilldownintokemidsecuritydetail.htm" window="right" />
+        <topic url="WordDocuments/drilldownintokemidtaxlotdetail.htm" window="right" />
+        <topic url="WordDocuments/holdingtaxlotmaintenancedocument.htm" window="right" />
+        <topic url="WordDocuments/kemidhistoricalbalanceslookup.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria16.htm" window="right" />
+        <topic url="WordDocuments/searchresults17.htm" window="right" />
+        <topic url="WordDocuments/drilldownintokemiddetail1.htm" window="right" />
+        <topic url="WordDocuments/drilldownintokemidhistoricalbalancesdetail.htm" window="right" />
+        <topic url="WordDocuments/drilldownintokemidhistoricalreportinggroupdetail.htm" window="right" />
+        <topic url="WordDocuments/drilldownintokemidsecuritydetail1.htm" window="right" />
+        <topic url="WordDocuments/drilldownintokemidtaxlotdetail1.htm" window="right" />
+        <topic url="WordDocuments/transactionarchives.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria17.htm" window="right" />
+        <topic url="WordDocuments/searchresults18.htm" window="right" />
+        <topic url="WordDocuments/drilldowntoendowmenttransactionarchives.htm" window="right" />
         <topic url="WordDocuments/reports.htm" window="right" />
         <topic url="WordDocuments/reportssubmenugroups.htm" window="right" />
         <topic url="WordDocuments/standardreportcompositionandinterpretation.htm" window="right" />
         <topic url="WordDocuments/accountsreceivable2.htm" window="right" />
         <topic url="WordDocuments/billingstatement.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria6.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria18.htm" window="right" />
         <topic url="WordDocuments/results.htm" window="right" />
         <topic url="WordDocuments/customeragingreport.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria7.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria19.htm" window="right" />
         <topic url="WordDocuments/results1.htm" window="right" />
         <topic url="WordDocuments/customerinvoice1.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria8.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria20.htm" window="right" />
         <topic url="WordDocuments/results2.htm" window="right" />
         <topic url="WordDocuments/effortcertification3.htm" window="right" />
         <topic url="WordDocuments/duplicatecertificationsreport.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria9.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria21.htm" window="right" />
         <topic url="WordDocuments/results3.htm" window="right" />
         <topic url="WordDocuments/effortcertificationextractbuild.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria10.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria22.htm" window="right" />
         <topic url="WordDocuments/results4.htm" window="right" />
         <topic url="WordDocuments/outstandingcertificationsbychartorgreport.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria11.htm" window="right" />
-        <topic url="WordDocuments/searchresults15.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria23.htm" window="right" />
+        <topic url="WordDocuments/searchresults19.htm" window="right" />
         <topic url="WordDocuments/outstandingcertificationsbyreport.htm" window="right" />
-        <topic url="WordDocuments/lookupcriteria12.htm" window="right" />
-        <topic url="WordDocuments/searchresults16.htm" window="right" />
+        <topic url="WordDocuments/lookupcriteria24.htm" window="right" />
+        <topic url="WordDocuments/searchresults20.htm" window="right" />
         <topic url="WordDocuments/effortcertificationdocumenta21.htm" window="right" />
-        <topic url="WordDocuments/documentlayout78.htm" window="right" />
+        <topic url="WordDocuments/documentlayout101.htm" window="right" />
         <topic url="WordDocuments/documentheader3.htm" window="right" />
-        <topic url="WordDocuments/documentoverviewtab9.htm" window="right" />
+        <topic url="WordDocuments/documentoverviewtab10.htm" window="right" />
         <topic url="WordDocuments/reportinformationtab.htm" window="right" />
         <topic url="WordDocuments/effortsummarytab.htm" window="right" />
         <topic url="WordDocuments/addnewdetaillinesection.htm" window="right" />
@@ -1381,12 +1660,12 @@
         <topic url="WordDocuments/addinganeffortdistributiontotheeffortsummaryoreffortdetailsection.htm" window="right" />
         <topic url="WordDocuments/modifyinganexistingeffortdistributionlineintheeffortsummarysection.htm" window="right" />
         <topic url="WordDocuments/modifyinganexistingeffortdistributionlineintheeffortdetailsection.htm" window="right" />
-        <topic url="WordDocuments/processoverview77.htm" window="right" />
-        <topic url="WordDocuments/businessrules89.htm" window="right" />
-        <topic url="WordDocuments/routing72.htm" window="right" />
+        <topic url="WordDocuments/processoverview97.htm" window="right" />
+        <topic url="WordDocuments/businessrules110.htm" window="right" />
+        <topic url="WordDocuments/routing92.htm" window="right" />
         <topic url="WordDocuments/salaryexpensetransfergeneration.htm" window="right" />
         <topic url="WordDocuments/salaryexpensetransferrestrictions.htm" window="right" />
-        <topic url="WordDocuments/example40.htm" window="right" />
+        <topic url="WordDocuments/example65.htm" window="right" />
         <topic url="WordDocuments/system1.htm" window="right" />
         <topic url="WordDocuments/accountlabortransactions.htm" window="right" />
         <topic url="WordDocuments/accountstatus.htm" window="right" />
@@ -1400,20 +1679,20 @@
         <topic url="WordDocuments/yearendtransactions.htm" window="right" />
         <topic url="WordDocuments/yearendprocessingsubmenugroups.htm" window="right" />
         <topic url="WordDocuments/financialprocessingyearend.htm" window="right" />
-        <topic url="WordDocuments/processoverview78.htm" window="right" />
-        <topic url="WordDocuments/businessrules90.htm" window="right" />
-        <topic url="WordDocuments/routing73.htm" window="right" />
+        <topic url="WordDocuments/processoverview98.htm" window="right" />
+        <topic url="WordDocuments/businessrules111.htm" window="right" />
+        <topic url="WordDocuments/routing93.htm" window="right" />
         <topic url="WordDocuments/initiatingayearenddocument.htm" window="right" />
-        <topic url="WordDocuments/example41.htm" window="right" />
+        <topic url="WordDocuments/example66.htm" window="right" />
         <topic url="WordDocuments/labordistributionyearend.htm" window="right" />
         <topic url="WordDocuments/laborledgeryearendinceptiontodate.htm" window="right" />
-        <topic url="WordDocuments/businessrules91.htm" window="right" />
+        <topic url="WordDocuments/businessrules112.htm" window="right" />
         <topic url="WordDocuments/maintenancemenu.htm" window="right" />
         <topic url="WordDocuments/maintenanceedocbasics.htm" window="right" />
         <topic url="WordDocuments/commontabs.htm" window="right" />
         <topic url="WordDocuments/edittab.htm" window="right" />
         <topic url="WordDocuments/othercommontabs.htm" window="right" />
-        <topic url="WordDocuments/documentoverviewtab10.htm" window="right" />
+        <topic url="WordDocuments/documentoverviewtab11.htm" window="right" />
         <topic url="WordDocuments/notesandattachmentstab8.htm" window="right" />
         <topic url="WordDocuments/adhocrecipientstab1.htm" window="right" />
         <topic url="WordDocuments/routelogtab1.htm" window="right" />
@@ -1431,165 +1710,165 @@
         <topic url="WordDocuments/chartofaccounts1.htm" window="right" />
         <topic url="WordDocuments/chartofaccountssubmenu.htm" window="right" />
         <topic url="WordDocuments/accounttype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout79.htm" window="right" />
-        <topic url="WordDocuments/accountingperiod.htm" window="right" />
-        <topic url="WordDocuments/documentlayout80.htm" window="right" />
-        <topic url="WordDocuments/aicpafunction.htm" window="right" />
-        <topic url="WordDocuments/documentlayout81.htm" window="right" />
-        <topic url="WordDocuments/balancetype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout82.htm" window="right" />
-        <topic url="WordDocuments/basicaccountingcategory.htm" window="right" />
-        <topic url="WordDocuments/documentlayout83.htm" window="right" />
-        <topic url="WordDocuments/budgetaggregationcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout84.htm" window="right" />
-        <topic url="WordDocuments/budgetrecordinglevel.htm" window="right" />
-        <topic url="WordDocuments/documentlayout85.htm" window="right" />
-        <topic url="WordDocuments/chart.htm" window="right" />
-        <topic url="WordDocuments/documentlayout86.htm" window="right" />
-        <topic url="WordDocuments/federalfunction.htm" window="right" />
-        <topic url="WordDocuments/documentlayout87.htm" window="right" />
-        <topic url="WordDocuments/federalfundedcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout88.htm" window="right" />
-        <topic url="WordDocuments/financialreportingcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout89.htm" window="right" />
-        <topic url="WordDocuments/fundgroup.htm" window="right" />
-        <topic url="WordDocuments/documentlayout90.htm" window="right" />
-        <topic url="WordDocuments/highereducationfunction.htm" window="right" />
-        <topic url="WordDocuments/documentlayout91.htm" window="right" />
-        <topic url="WordDocuments/indirectcostrecoveryrate.htm" window="right" />
-        <topic url="WordDocuments/documentlayout92.htm" window="right" />
-        <topic url="WordDocuments/indirectcostrecoveryratedetail.htm" window="right" />
-        <topic url="WordDocuments/documentlayout93.htm" window="right" />
-        <topic url="WordDocuments/indirectcostrecoveryexclusionbyaccount.htm" window="right" />
-        <topic url="WordDocuments/documentlayout94.htm" window="right" />
-        <topic url="WordDocuments/indirectcostrecoverytype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout95.htm" window="right" />
-        <topic url="WordDocuments/indirectcostrecoveryexclusionbytype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout96.htm" window="right" />
-        <topic url="WordDocuments/mandatorytransferelimination.htm" window="right" />
-        <topic url="WordDocuments/documentlayout97.htm" window="right" />
-        <topic url="WordDocuments/objectconsolidation.htm" window="right" />
-        <topic url="WordDocuments/documentlayout98.htm" window="right" />
-        <topic url="WordDocuments/objectlevel.htm" window="right" />
-        <topic url="WordDocuments/documentlayout99.htm" window="right" />
-        <topic url="WordDocuments/objectsubtype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout100.htm" window="right" />
-        <topic url="WordDocuments/objecttype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout101.htm" window="right" />
-        <topic url="WordDocuments/offsetaccount.htm" window="right" />
         <topic url="WordDocuments/documentlayout102.htm" window="right" />
-        <topic url="WordDocuments/offsetdefinition.htm" window="right" />
+        <topic url="WordDocuments/accountingperiod.htm" window="right" />
         <topic url="WordDocuments/documentlayout103.htm" window="right" />
-        <topic url="WordDocuments/organizationreversion.htm" window="right" />
+        <topic url="WordDocuments/aicpafunction.htm" window="right" />
         <topic url="WordDocuments/documentlayout104.htm" window="right" />
+        <topic url="WordDocuments/balancetype.htm" window="right" />
+        <topic url="WordDocuments/documentlayout105.htm" window="right" />
+        <topic url="WordDocuments/basicaccountingcategory.htm" window="right" />
+        <topic url="WordDocuments/documentlayout106.htm" window="right" />
+        <topic url="WordDocuments/budgetaggregationcode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout107.htm" window="right" />
+        <topic url="WordDocuments/budgetrecordinglevel.htm" window="right" />
+        <topic url="WordDocuments/documentlayout108.htm" window="right" />
+        <topic url="WordDocuments/chart.htm" window="right" />
+        <topic url="WordDocuments/documentlayout109.htm" window="right" />
+        <topic url="WordDocuments/federalfunction.htm" window="right" />
+        <topic url="WordDocuments/documentlayout110.htm" window="right" />
+        <topic url="WordDocuments/federalfundedcode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout111.htm" window="right" />
+        <topic url="WordDocuments/financialreportingcode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout112.htm" window="right" />
+        <topic url="WordDocuments/fundgroup.htm" window="right" />
+        <topic url="WordDocuments/documentlayout113.htm" window="right" />
+        <topic url="WordDocuments/highereducationfunction.htm" window="right" />
+        <topic url="WordDocuments/documentlayout114.htm" window="right" />
+        <topic url="WordDocuments/indirectcostrecoveryrate.htm" window="right" />
+        <topic url="WordDocuments/documentlayout115.htm" window="right" />
+        <topic url="WordDocuments/indirectcostrecoveryratedetail.htm" window="right" />
+        <topic url="WordDocuments/documentlayout116.htm" window="right" />
+        <topic url="WordDocuments/indirectcostrecoveryexclusionbyaccount.htm" window="right" />
+        <topic url="WordDocuments/documentlayout117.htm" window="right" />
+        <topic url="WordDocuments/indirectcostrecoverytype.htm" window="right" />
+        <topic url="WordDocuments/documentlayout118.htm" window="right" />
+        <topic url="WordDocuments/indirectcostrecoveryexclusionbytype.htm" window="right" />
+        <topic url="WordDocuments/documentlayout119.htm" window="right" />
+        <topic url="WordDocuments/mandatorytransferelimination.htm" window="right" />
+        <topic url="WordDocuments/documentlayout120.htm" window="right" />
+        <topic url="WordDocuments/objectconsolidation.htm" window="right" />
+        <topic url="WordDocuments/documentlayout121.htm" window="right" />
+        <topic url="WordDocuments/objectlevel.htm" window="right" />
+        <topic url="WordDocuments/documentlayout122.htm" window="right" />
+        <topic url="WordDocuments/objectsubtype.htm" window="right" />
+        <topic url="WordDocuments/documentlayout123.htm" window="right" />
+        <topic url="WordDocuments/objecttype.htm" window="right" />
+        <topic url="WordDocuments/documentlayout124.htm" window="right" />
+        <topic url="WordDocuments/offsetaccount.htm" window="right" />
+        <topic url="WordDocuments/documentlayout125.htm" window="right" />
+        <topic url="WordDocuments/offsetdefinition.htm" window="right" />
+        <topic url="WordDocuments/documentlayout126.htm" window="right" />
+        <topic url="WordDocuments/organizationreversion.htm" window="right" />
+        <topic url="WordDocuments/documentlayout127.htm" window="right" />
         <topic url="WordDocuments/editorganizationreversiontab.htm" window="right" />
         <topic url="WordDocuments/editorganizationreversiondetailstab.htm" window="right" />
         <topic url="WordDocuments/carryforwardrules.htm" window="right" />
-        <topic url="WordDocuments/processoverview79.htm" window="right" />
-        <topic url="WordDocuments/businessrules92.htm" window="right" />
-        <topic url="WordDocuments/routing74.htm" window="right" />
+        <topic url="WordDocuments/processoverview99.htm" window="right" />
+        <topic url="WordDocuments/businessrules113.htm" window="right" />
+        <topic url="WordDocuments/routing94.htm" window="right" />
         <topic url="WordDocuments/organizationreversionglobal.htm" window="right" />
-        <topic url="WordDocuments/documentlayout105.htm" window="right" />
+        <topic url="WordDocuments/documentlayout128.htm" window="right" />
         <topic url="WordDocuments/editglobalorganizationreversionorganizationstab.htm" window="right" />
         <topic url="WordDocuments/editglobalorganizationreversiontab.htm" window="right" />
         <topic url="WordDocuments/editglobalorganizationreversiondetailstab.htm" window="right" />
-        <topic url="WordDocuments/processoverview80.htm" window="right" />
+        <topic url="WordDocuments/processoverview100.htm" window="right" />
         <topic url="WordDocuments/organizationreversioncategory.htm" window="right" />
-        <topic url="WordDocuments/documentlayout106.htm" window="right" />
-        <topic url="WordDocuments/processoverview81.htm" window="right" />
+        <topic url="WordDocuments/documentlayout129.htm" window="right" />
+        <topic url="WordDocuments/processoverview101.htm" window="right" />
         <topic url="WordDocuments/organizationtype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout107.htm" window="right" />
+        <topic url="WordDocuments/documentlayout130.htm" window="right" />
         <topic url="WordDocuments/responsibilitycenter.htm" window="right" />
-        <topic url="WordDocuments/documentlayout108.htm" window="right" />
+        <topic url="WordDocuments/documentlayout131.htm" window="right" />
         <topic url="WordDocuments/restrictedstatus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout109.htm" window="right" />
+        <topic url="WordDocuments/documentlayout132.htm" window="right" />
         <topic url="WordDocuments/subfundgroup.htm" window="right" />
-        <topic url="WordDocuments/documentlayout110.htm" window="right" />
+        <topic url="WordDocuments/documentlayout133.htm" window="right" />
         <topic url="WordDocuments/subfundgrouptype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout111.htm" window="right" />
+        <topic url="WordDocuments/documentlayout134.htm" window="right" />
         <topic url="WordDocuments/sufficientfundscode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout112.htm" window="right" />
+        <topic url="WordDocuments/documentlayout135.htm" window="right" />
         <topic url="WordDocuments/universitybudgetofficefunction.htm" window="right" />
-        <topic url="WordDocuments/documentlayout113.htm" window="right" />
+        <topic url="WordDocuments/documentlayout136.htm" window="right" />
         <topic url="WordDocuments/financialprocessing4.htm" window="right" />
         <topic url="WordDocuments/financialprocessingsubmenu.htm" window="right" />
         <topic url="WordDocuments/cashdrawer.htm" window="right" />
-        <topic url="WordDocuments/documentlayout114.htm" window="right" />
+        <topic url="WordDocuments/documentlayout137.htm" window="right" />
         <topic url="WordDocuments/editcampustab.htm" window="right" />
         <topic url="WordDocuments/editcurrencyamountstab.htm" window="right" />
         <topic url="WordDocuments/editcashdrawertab.htm" window="right" />
         <topic url="WordDocuments/creditcardtype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout115.htm" window="right" />
+        <topic url="WordDocuments/documentlayout138.htm" window="right" />
         <topic url="WordDocuments/creditcardvendor.htm" window="right" />
-        <topic url="WordDocuments/documentlayout116.htm" window="right" />
+        <topic url="WordDocuments/documentlayout139.htm" window="right" />
         <topic url="WordDocuments/disbursementvoucherdocumentationlocation.htm" window="right" />
-        <topic url="WordDocuments/documentlayout117.htm" window="right" />
+        <topic url="WordDocuments/documentlayout140.htm" window="right" />
         <topic url="WordDocuments/disbursementvoucherpaymentreason.htm" window="right" />
-        <topic url="WordDocuments/documentlayout118.htm" window="right" />
+        <topic url="WordDocuments/documentlayout141.htm" window="right" />
         <topic url="WordDocuments/disbursementvouchertaxincomeclass.htm" window="right" />
-        <topic url="WordDocuments/documentlayout119.htm" window="right" />
+        <topic url="WordDocuments/documentlayout142.htm" window="right" />
         <topic url="WordDocuments/disbursementvouchertravelexpensetype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout120.htm" window="right" />
+        <topic url="WordDocuments/documentlayout143.htm" window="right" />
         <topic url="WordDocuments/disbursementvouchertravelmileagerate.htm" window="right" />
-        <topic url="WordDocuments/documentlayout121.htm" window="right" />
+        <topic url="WordDocuments/documentlayout144.htm" window="right" />
         <topic url="WordDocuments/disbursementvouchertravelperdiem.htm" window="right" />
-        <topic url="WordDocuments/documentlayout122.htm" window="right" />
+        <topic url="WordDocuments/documentlayout145.htm" window="right" />
         <topic url="WordDocuments/disbursementvoucherwirecharge.htm" window="right" />
-        <topic url="WordDocuments/documentlayout123.htm" window="right" />
+        <topic url="WordDocuments/documentlayout146.htm" window="right" />
         <topic url="WordDocuments/fiscalyearfunctioncontrol.htm" window="right" />
-        <topic url="WordDocuments/documentlayout124.htm" window="right" />
+        <topic url="WordDocuments/documentlayout147.htm" window="right" />
         <topic url="WordDocuments/functioncontrolcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout125.htm" window="right" />
+        <topic url="WordDocuments/documentlayout148.htm" window="right" />
         <topic url="WordDocuments/nonresidentalientaxpercent.htm" window="right" />
-        <topic url="WordDocuments/documentlayout126.htm" window="right" />
+        <topic url="WordDocuments/documentlayout149.htm" window="right" />
         <topic url="WordDocuments/predisbursementprocessor.htm" window="right" />
         <topic url="WordDocuments/predisbursementprocessorsubmenu.htm" window="right" />
         <topic url="WordDocuments/accountingchangecode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout127.htm" window="right" />
+        <topic url="WordDocuments/documentlayout150.htm" window="right" />
         <topic url="WordDocuments/achbank.htm" window="right" />
-        <topic url="WordDocuments/documentlayout128.htm" window="right" />
+        <topic url="WordDocuments/documentlayout151.htm" window="right" />
         <topic url="WordDocuments/achtransactioncode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout129.htm" window="right" />
+        <topic url="WordDocuments/documentlayout152.htm" window="right" />
         <topic url="WordDocuments/achtransactiontype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout130.htm" window="right" />
+        <topic url="WordDocuments/documentlayout153.htm" window="right" />
         <topic url="WordDocuments/customerprofile.htm" window="right" />
-        <topic url="WordDocuments/documentlayout131.htm" window="right" />
+        <topic url="WordDocuments/documentlayout154.htm" window="right" />
         <topic url="WordDocuments/editcustomerprofiletab.htm" window="right" />
         <topic url="WordDocuments/customercheckachtab.htm" window="right" />
         <topic url="WordDocuments/customerprocessingtab.htm" window="right" />
         <topic url="WordDocuments/editcustomerbanktab.htm" window="right" />
         <topic url="WordDocuments/disbursementnumberrange.htm" window="right" />
-        <topic url="WordDocuments/documentlayout132.htm" window="right" />
+        <topic url="WordDocuments/documentlayout155.htm" window="right" />
         <topic url="WordDocuments/disbursementtype.htm" window="right" />
         <topic url="WordDocuments/searchcriteria.htm" window="right" />
         <topic url="WordDocuments/formatchecksach.htm" window="right" />
-        <topic url="WordDocuments/documentlayout133.htm" window="right" />
+        <topic url="WordDocuments/documentlayout156.htm" window="right" />
         <topic url="WordDocuments/formatoptionstab.htm" window="right" />
         <topic url="WordDocuments/customerstab.htm" window="right" />
-        <topic url="WordDocuments/processoverview82.htm" window="right" />
+        <topic url="WordDocuments/processoverview102.htm" window="right" />
         <topic url="WordDocuments/businessrulesforcombiningpayments.htm" window="right" />
         <topic url="WordDocuments/formatreset.htm" window="right" />
         <topic url="WordDocuments/searchcriteria1.htm" window="right" />
         <topic url="WordDocuments/clearingaformatprocess.htm" window="right" />
         <topic url="WordDocuments/payeeachaccount.htm" window="right" />
-        <topic url="WordDocuments/documentlayout134.htm" window="right" />
+        <topic url="WordDocuments/documentlayout157.htm" window="right" />
         <topic url="WordDocuments/payeetype.htm" window="right" />
         <topic url="WordDocuments/paymentbankhistory.htm" window="right" />
         <topic url="WordDocuments/searchcriteria2.htm" window="right" />
         <topic url="WordDocuments/paymentchange.htm" window="right" />
-        <topic url="WordDocuments/documentlayout135.htm" window="right" />
+        <topic url="WordDocuments/documentlayout158.htm" window="right" />
         <topic url="WordDocuments/paymentfilebatchupload.htm" window="right" />
         <topic url="WordDocuments/uploadingafiletothepdp.htm" window="right" />
         <topic url="WordDocuments/pdppaymentuploadfileformat.htm" window="right" />
         <topic url="WordDocuments/formatsummary.htm" window="right" />
         <topic url="WordDocuments/searchcriteria3.htm" window="right" />
         <topic url="WordDocuments/paymenttype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout136.htm" window="right" />
+        <topic url="WordDocuments/documentlayout159.htm" window="right" />
         <topic url="WordDocuments/paymentstatus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout137.htm" window="right" />
+        <topic url="WordDocuments/documentlayout160.htm" window="right" />
         <topic url="WordDocuments/searchforbatchbatchlookup.htm" window="right" />
         <topic url="WordDocuments/searchcriteria4.htm" window="right" />
-        <topic url="WordDocuments/processoverview83.htm" window="right" />
+        <topic url="WordDocuments/processoverview103.htm" window="right" />
         <topic url="WordDocuments/viewingbatchdetails.htm" window="right" />
         <topic url="WordDocuments/takingactionsonabatch.htm" window="right" />
         <topic url="WordDocuments/placingabatchonhold.htm" window="right" />
@@ -1623,41 +1902,104 @@
         <topic url="WordDocuments/cancelingandreissuingpaymentswithflexiblebankspecification.htm" window="right" />
         <topic url="WordDocuments/pdpgeneralledgerentrieswithflexiblebankspecification.htm" window="right" />
         <topic url="WordDocuments/pdpbatchjobs.htm" window="right" />
+        <topic url="WordDocuments/endowment5.htm" window="right" />
+        <topic url="WordDocuments/securitiessubmenugroup.htm" window="right" />
+        <topic url="WordDocuments/automatedcashinvestmentmodel.htm" window="right" />
+        <topic url="WordDocuments/documentlayout161.htm" window="right" />
+        <topic url="WordDocuments/cashsweepmodel.htm" window="right" />
+        <topic url="WordDocuments/documentlayout162.htm" window="right" />
+        <topic url="WordDocuments/classcode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout163.htm" window="right" />
+        <topic url="WordDocuments/endowmenttransactioncode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout164.htm" window="right" />
+        <topic url="WordDocuments/endowmenttransactioncodetab.htm" window="right" />
+        <topic url="WordDocuments/gllinkstab.htm" window="right" />
+        <topic url="WordDocuments/pooledfundcontrol.htm" window="right" />
+        <topic url="WordDocuments/documentlayout165.htm" window="right" />
+        <topic url="WordDocuments/creatingapooledfund.htm" window="right" />
+        <topic url="WordDocuments/pooledfundvalue.htm" window="right" />
+        <topic url="WordDocuments/documentlayout166.htm" window="right" />
+        <topic url="WordDocuments/registrationcode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout167.htm" window="right" />
+        <topic url="WordDocuments/reportinggroup.htm" window="right" />
+        <topic url="WordDocuments/documentlayout168.htm" window="right" />
+        <topic url="WordDocuments/subclasscode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout169.htm" window="right" />
+        <topic url="WordDocuments/kemidsubmenugroup.htm" window="right" />
+        <topic url="WordDocuments/agreementspecialinstructioncode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout170.htm" window="right" />
+        <topic url="WordDocuments/agreementstatuscode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout171.htm" window="right" />
+        <topic url="WordDocuments/agreementtypecode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout172.htm" window="right" />
+        <topic url="WordDocuments/closecode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout173.htm" window="right" />
+        <topic url="WordDocuments/combinegroupcode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout174.htm" window="right" />
+        <topic url="WordDocuments/donorrecord.htm" window="right" />
+        <topic url="WordDocuments/documentlayout175.htm" window="right" />
+        <topic url="WordDocuments/donorstatementcode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout176.htm" window="right" />
+        <topic url="WordDocuments/feemethod.htm" window="right" />
+        <topic url="WordDocuments/documentlayout177.htm" window="right" />
+        <topic url="WordDocuments/feemethodtab.htm" window="right" />
+        <topic url="WordDocuments/classcodetab.htm" window="right" />
+        <topic url="WordDocuments/securitytab.htm" window="right" />
+        <topic url="WordDocuments/transactiondocumenttypetab.htm" window="right" />
+        <topic url="WordDocuments/endowmenttransactioncodetab1.htm" window="right" />
+        <topic url="WordDocuments/purposecode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout178.htm" window="right" />
+        <topic url="WordDocuments/responsibleadministrationcode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout179.htm" window="right" />
+        <topic url="WordDocuments/sourceoffundscode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout180.htm" window="right" />
+        <topic url="WordDocuments/ticklertypecode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout181.htm" window="right" />
+        <topic url="WordDocuments/transactionrestrictioncode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout182.htm" window="right" />
+        <topic url="WordDocuments/typecode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout183.htm" window="right" />
+        <topic url="WordDocuments/edittypecodetab.htm" window="right" />
+        <topic url="WordDocuments/edittypefeemethodtab.htm" window="right" />
+        <topic url="WordDocuments/typerestrictioncode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout184.htm" window="right" />
+        <topic url="WordDocuments/usecriteriacode.htm" window="right" />
+        <topic url="WordDocuments/documentlayout185.htm" window="right" />
         <topic url="WordDocuments/accountsreceivable3.htm" window="right" />
         <topic url="WordDocuments/accountsreceivablesubmenu.htm" window="right" />
         <topic url="WordDocuments/customer.htm" window="right" />
-        <topic url="WordDocuments/documentlayout138.htm" window="right" />
+        <topic url="WordDocuments/documentlayout186.htm" window="right" />
         <topic url="WordDocuments/generalinformationtab.htm" window="right" />
         <topic url="WordDocuments/corporateinformationtab.htm" window="right" />
         <topic url="WordDocuments/contactinformationtab1.htm" window="right" />
         <topic url="WordDocuments/addressestab.htm" window="right" />
         <topic url="WordDocuments/customertype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout139.htm" window="right" />
+        <topic url="WordDocuments/documentlayout187.htm" window="right" />
         <topic url="WordDocuments/customeraddresstype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout140.htm" window="right" />
+        <topic url="WordDocuments/documentlayout188.htm" window="right" />
         <topic url="WordDocuments/customerinvoiceitemcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout141.htm" window="right" />
+        <topic url="WordDocuments/documentlayout189.htm" window="right" />
         <topic url="WordDocuments/editbillingorganizationtab.htm" window="right" />
         <topic url="WordDocuments/editinvoiceitemcodetab.htm" window="right" />
         <topic url="WordDocuments/edititemcodedefaultaccounttab.htm" window="right" />
         <topic url="WordDocuments/invoicerecurrence.htm" window="right" />
-        <topic url="WordDocuments/documentlayout142.htm" window="right" />
+        <topic url="WordDocuments/documentlayout190.htm" window="right" />
         <topic url="WordDocuments/organizationoptions.htm" window="right" />
-        <topic url="WordDocuments/documentlayout143.htm" window="right" />
+        <topic url="WordDocuments/documentlayout191.htm" window="right" />
         <topic url="WordDocuments/editorganizationoptionstab.htm" window="right" />
         <topic url="WordDocuments/editorganizationinvoiceinformationtab.htm" window="right" />
         <topic url="WordDocuments/editorganizationremittoaddresstab.htm" window="right" />
         <topic url="WordDocuments/editorganizationphonetab.htm" window="right" />
         <topic url="WordDocuments/organizationaccountingdefault.htm" window="right" />
-        <topic url="WordDocuments/documentlayout144.htm" window="right" />
+        <topic url="WordDocuments/documentlayout192.htm" window="right" />
         <topic url="WordDocuments/editorganizationaccountingdefaultstab.htm" window="right" />
         <topic url="WordDocuments/editorganizationincomeaccountdefaultstab.htm" window="right" />
         <topic url="WordDocuments/editorganizationreceivableaccountdefaultstab.htm" window="right" />
         <topic url="WordDocuments/editorganizationwriteoffaccountdefaultstab.htm" window="right" />
         <topic url="WordDocuments/paymentmedium.htm" window="right" />
-        <topic url="WordDocuments/documentlayout145.htm" window="right" />
+        <topic url="WordDocuments/documentlayout193.htm" window="right" />
         <topic url="WordDocuments/systeminformation.htm" window="right" />
-        <topic url="WordDocuments/documentlayout146.htm" window="right" />
+        <topic url="WordDocuments/documentlayout194.htm" window="right" />
         <topic url="WordDocuments/editsysteminformationtab.htm" window="right" />
         <topic url="WordDocuments/editobjectcodestab.htm" window="right" />
         <topic url="WordDocuments/edituniversityclearingaccounttab.htm" window="right" />
@@ -1665,170 +2007,170 @@
         <topic url="WordDocuments/vendor2.htm" window="right" />
         <topic url="WordDocuments/vendorsubmenu.htm" window="right" />
         <topic url="WordDocuments/addresstype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout147.htm" window="right" />
+        <topic url="WordDocuments/documentlayout195.htm" window="right" />
         <topic url="WordDocuments/campusparameter.htm" window="right" />
-        <topic url="WordDocuments/documentlayout148.htm" window="right" />
+        <topic url="WordDocuments/documentlayout196.htm" window="right" />
         <topic url="WordDocuments/commoditycode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout149.htm" window="right" />
+        <topic url="WordDocuments/documentlayout197.htm" window="right" />
         <topic url="WordDocuments/commoditycodetab.htm" window="right" />
         <topic url="WordDocuments/contractmanagerstab.htm" window="right" />
         <topic url="WordDocuments/contacttype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout150.htm" window="right" />
+        <topic url="WordDocuments/documentlayout198.htm" window="right" />
         <topic url="WordDocuments/contractmanager.htm" window="right" />
-        <topic url="WordDocuments/documentlayout151.htm" window="right" />
+        <topic url="WordDocuments/documentlayout199.htm" window="right" />
         <topic url="WordDocuments/costsource.htm" window="right" />
-        <topic url="WordDocuments/documentlayout152.htm" window="right" />
+        <topic url="WordDocuments/documentlayout200.htm" window="right" />
         <topic url="WordDocuments/ownershiptype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout153.htm" window="right" />
+        <topic url="WordDocuments/documentlayout201.htm" window="right" />
         <topic url="WordDocuments/ownershiptypecategory.htm" window="right" />
-        <topic url="WordDocuments/documentlayout154.htm" window="right" />
+        <topic url="WordDocuments/documentlayout202.htm" window="right" />
         <topic url="WordDocuments/paymenttermstype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout155.htm" window="right" />
+        <topic url="WordDocuments/documentlayout203.htm" window="right" />
         <topic url="WordDocuments/phonetype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout156.htm" window="right" />
+        <topic url="WordDocuments/documentlayout204.htm" window="right" />
         <topic url="WordDocuments/shippingpaymentterms.htm" window="right" />
-        <topic url="WordDocuments/documentlayout157.htm" window="right" />
+        <topic url="WordDocuments/documentlayout205.htm" window="right" />
         <topic url="WordDocuments/shippingspecialconditions.htm" window="right" />
-        <topic url="WordDocuments/documentlayout158.htm" window="right" />
+        <topic url="WordDocuments/documentlayout206.htm" window="right" />
         <topic url="WordDocuments/shippingtitle.htm" window="right" />
-        <topic url="WordDocuments/documentlayout159.htm" window="right" />
+        <topic url="WordDocuments/documentlayout207.htm" window="right" />
         <topic url="WordDocuments/supplierdiversity.htm" window="right" />
-        <topic url="WordDocuments/documentlayout160.htm" window="right" />
+        <topic url="WordDocuments/documentlayout208.htm" window="right" />
         <topic url="WordDocuments/vendorinactivereason.htm" window="right" />
-        <topic url="WordDocuments/documentlayout161.htm" window="right" />
+        <topic url="WordDocuments/documentlayout209.htm" window="right" />
         <topic url="WordDocuments/vendortype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout162.htm" window="right" />
+        <topic url="WordDocuments/documentlayout210.htm" window="right" />
         <topic url="WordDocuments/purchasingaccountspayable2.htm" window="right" />
         <topic url="WordDocuments/purchasingaccountspayablesubmenu.htm" window="right" />
         <topic url="WordDocuments/billingaddress.htm" window="right" />
-        <topic url="WordDocuments/documentlayout163.htm" window="right" />
+        <topic url="WordDocuments/documentlayout211.htm" window="right" />
         <topic url="WordDocuments/capitalassetsystemstate.htm" window="right" />
-        <topic url="WordDocuments/documentlayout164.htm" window="right" />
+        <topic url="WordDocuments/documentlayout212.htm" window="right" />
         <topic url="WordDocuments/capitalassetsystemtype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout165.htm" window="right" />
+        <topic url="WordDocuments/documentlayout213.htm" window="right" />
         <topic url="WordDocuments/carrier.htm" window="right" />
-        <topic url="WordDocuments/documentlayout166.htm" window="right" />
+        <topic url="WordDocuments/documentlayout214.htm" window="right" />
         <topic url="WordDocuments/creditmemostatus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout167.htm" window="right" />
+        <topic url="WordDocuments/documentlayout215.htm" window="right" />
         <topic url="WordDocuments/deliveryrequireddatereason.htm" window="right" />
-        <topic url="WordDocuments/documentlayout168.htm" window="right" />
+        <topic url="WordDocuments/documentlayout216.htm" window="right" />
         <topic url="WordDocuments/electronicinvoiceitemmapping.htm" window="right" />
-        <topic url="WordDocuments/documentlayout169.htm" window="right" />
+        <topic url="WordDocuments/documentlayout217.htm" window="right" />
         <topic url="WordDocuments/fundingsource.htm" window="right" />
-        <topic url="WordDocuments/documentlayout170.htm" window="right" />
+        <topic url="WordDocuments/documentlayout218.htm" window="right" />
         <topic url="WordDocuments/itemreasonadded.htm" window="right" />
-        <topic url="WordDocuments/documentlayout171.htm" window="right" />
+        <topic url="WordDocuments/documentlayout219.htm" window="right" />
         <topic url="WordDocuments/itemtype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout172.htm" window="right" />
+        <topic url="WordDocuments/documentlayout220.htm" window="right" />
         <topic url="WordDocuments/lineitemreceivingstatus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout173.htm" window="right" />
+        <topic url="WordDocuments/documentlayout221.htm" window="right" />
         <topic url="WordDocuments/methodofpotransmission.htm" window="right" />
         <topic url="WordDocuments/negativepaymentrequestapprovallimit.htm" window="right" />
-        <topic url="WordDocuments/documentlayout174.htm" window="right" />
+        <topic url="WordDocuments/documentlayout222.htm" window="right" />
         <topic url="WordDocuments/organizationparameter.htm" window="right" />
-        <topic url="WordDocuments/documentlayout175.htm" window="right" />
+        <topic url="WordDocuments/documentlayout223.htm" window="right" />
         <topic url="WordDocuments/paymentrequestautoapproveexclusions.htm" window="right" />
-        <topic url="WordDocuments/documentlayout176.htm" window="right" />
+        <topic url="WordDocuments/documentlayout224.htm" window="right" />
         <topic url="WordDocuments/paymentrequeststatus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout177.htm" window="right" />
+        <topic url="WordDocuments/documentlayout225.htm" window="right" />
         <topic url="WordDocuments/purchaseordercontractlanguage.htm" window="right" />
-        <topic url="WordDocuments/documentlayout178.htm" window="right" />
+        <topic url="WordDocuments/documentlayout226.htm" window="right" />
         <topic url="WordDocuments/purchaseorderquotelanguage.htm" window="right" />
-        <topic url="WordDocuments/documentlayout179.htm" window="right" />
+        <topic url="WordDocuments/documentlayout227.htm" window="right" />
         <topic url="WordDocuments/purchaseorderquotelist.htm" window="right" />
-        <topic url="WordDocuments/documentlayout180.htm" window="right" />
+        <topic url="WordDocuments/documentlayout228.htm" window="right" />
         <topic url="WordDocuments/vendorstab.htm" window="right" />
         <topic url="WordDocuments/purchaseorderquotestatus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout181.htm" window="right" />
+        <topic url="WordDocuments/documentlayout229.htm" window="right" />
         <topic url="WordDocuments/purchaseorderstatus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout182.htm" window="right" />
+        <topic url="WordDocuments/documentlayout230.htm" window="right" />
         <topic url="WordDocuments/purchaseordervendorchoice.htm" window="right" />
-        <topic url="WordDocuments/documentlayout183.htm" window="right" />
+        <topic url="WordDocuments/documentlayout231.htm" window="right" />
         <topic url="WordDocuments/receivingaddress.htm" window="right" />
-        <topic url="WordDocuments/documentlayout184.htm" window="right" />
+        <topic url="WordDocuments/documentlayout232.htm" window="right" />
         <topic url="WordDocuments/receivingthreshold.htm" window="right" />
-        <topic url="WordDocuments/documentlayout185.htm" window="right" />
+        <topic url="WordDocuments/documentlayout233.htm" window="right" />
         <topic url="WordDocuments/recurringpaymentfrequency.htm" window="right" />
-        <topic url="WordDocuments/documentlayout186.htm" window="right" />
+        <topic url="WordDocuments/documentlayout234.htm" window="right" />
         <topic url="WordDocuments/recurringpaymenttype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout187.htm" window="right" />
+        <topic url="WordDocuments/documentlayout235.htm" window="right" />
         <topic url="WordDocuments/requisitionsource.htm" window="right" />
-        <topic url="WordDocuments/documentlayout188.htm" window="right" />
+        <topic url="WordDocuments/documentlayout236.htm" window="right" />
         <topic url="WordDocuments/requisitionstatus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout189.htm" window="right" />
+        <topic url="WordDocuments/documentlayout237.htm" window="right" />
         <topic url="WordDocuments/sensitivedata.htm" window="right" />
-        <topic url="WordDocuments/documentlayout190.htm" window="right" />
+        <topic url="WordDocuments/documentlayout238.htm" window="right" />
         <topic url="WordDocuments/vendorstipulation.htm" window="right" />
-        <topic url="WordDocuments/documentlayout191.htm" window="right" />
+        <topic url="WordDocuments/documentlayout239.htm" window="right" />
         <topic url="WordDocuments/capitalassetmanagement3.htm" window="right" />
         <topic url="WordDocuments/capitalassetmanagementsubmenu.htm" window="right" />
         <topic url="WordDocuments/assetacquisitiontype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout192.htm" window="right" />
+        <topic url="WordDocuments/documentlayout240.htm" window="right" />
         <topic url="WordDocuments/assetcondition.htm" window="right" />
-        <topic url="WordDocuments/documentlayout193.htm" window="right" />
+        <topic url="WordDocuments/documentlayout241.htm" window="right" />
         <topic url="WordDocuments/assetdepreciationconvention.htm" window="right" />
-        <topic url="WordDocuments/documentlayout194.htm" window="right" />
+        <topic url="WordDocuments/documentlayout242.htm" window="right" />
         <topic url="WordDocuments/assetdepreciationmethod.htm" window="right" />
-        <topic url="WordDocuments/documentlayout195.htm" window="right" />
+        <topic url="WordDocuments/documentlayout243.htm" window="right" />
         <topic url="WordDocuments/assetlocationtype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout196.htm" window="right" />
+        <topic url="WordDocuments/documentlayout244.htm" window="right" />
         <topic url="WordDocuments/assetobjectcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout197.htm" window="right" />
+        <topic url="WordDocuments/documentlayout245.htm" window="right" />
         <topic url="WordDocuments/assetretirementreason.htm" window="right" />
-        <topic url="WordDocuments/documentlayout198.htm" window="right" />
+        <topic url="WordDocuments/documentlayout246.htm" window="right" />
         <topic url="WordDocuments/assetstatus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout199.htm" window="right" />
+        <topic url="WordDocuments/documentlayout247.htm" window="right" />
         <topic url="WordDocuments/assettransactiontype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout200.htm" window="right" />
+        <topic url="WordDocuments/documentlayout248.htm" window="right" />
         <topic url="WordDocuments/assettype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout201.htm" window="right" />
+        <topic url="WordDocuments/documentlayout249.htm" window="right" />
         <topic url="WordDocuments/contractsgrants2.htm" window="right" />
         <topic url="WordDocuments/contractsgrantssubmenu.htm" window="right" />
         <topic url="WordDocuments/agency.htm" window="right" />
-        <topic url="WordDocuments/documentlayout202.htm" window="right" />
+        <topic url="WordDocuments/documentlayout250.htm" window="right" />
         <topic url="WordDocuments/agencytype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout203.htm" window="right" />
+        <topic url="WordDocuments/documentlayout251.htm" window="right" />
         <topic url="WordDocuments/awardstatus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout204.htm" window="right" />
+        <topic url="WordDocuments/documentlayout252.htm" window="right" />
         <topic url="WordDocuments/catalogoffederaldomesticassistance.htm" window="right" />
-        <topic url="WordDocuments/documentlayout205.htm" window="right" />
+        <topic url="WordDocuments/documentlayout253.htm" window="right" />
         <topic url="WordDocuments/controlattributetypelookup.htm" window="right" />
-        <topic url="WordDocuments/documentlayout206.htm" window="right" />
+        <topic url="WordDocuments/documentlayout254.htm" window="right" />
         <topic url="WordDocuments/grantdescription.htm" window="right" />
-        <topic url="WordDocuments/documentlayout207.htm" window="right" />
+        <topic url="WordDocuments/documentlayout255.htm" window="right" />
         <topic url="WordDocuments/letterofcreditfundgroup.htm" window="right" />
-        <topic url="WordDocuments/documentlayout208.htm" window="right" />
+        <topic url="WordDocuments/documentlayout256.htm" window="right" />
         <topic url="WordDocuments/proposalawardclose.htm" window="right" />
-        <topic url="WordDocuments/documentlayout209.htm" window="right" />
+        <topic url="WordDocuments/documentlayout257.htm" window="right" />
         <topic url="WordDocuments/proposalpurpose.htm" window="right" />
-        <topic url="WordDocuments/documentlayout210.htm" window="right" />
+        <topic url="WordDocuments/documentlayout258.htm" window="right" />
         <topic url="WordDocuments/proposalstatus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout211.htm" window="right" />
+        <topic url="WordDocuments/documentlayout259.htm" window="right" />
         <topic url="WordDocuments/proposaltype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout212.htm" window="right" />
+        <topic url="WordDocuments/documentlayout260.htm" window="right" />
         <topic url="WordDocuments/researchrisktype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout213.htm" window="right" />
+        <topic url="WordDocuments/documentlayout261.htm" window="right" />
         <topic url="WordDocuments/subcontractor.htm" window="right" />
-        <topic url="WordDocuments/documentlayout214.htm" window="right" />
+        <topic url="WordDocuments/documentlayout262.htm" window="right" />
         <topic url="WordDocuments/effortcertification4.htm" window="right" />
         <topic url="WordDocuments/reportdefinition.htm" window="right" />
-        <topic url="WordDocuments/documentlayout215.htm" window="right" />
+        <topic url="WordDocuments/documentlayout263.htm" window="right" />
         <topic url="WordDocuments/editreportpositionobjectgroupcodestab.htm" window="right" />
         <topic url="WordDocuments/fiscalyearmakerpopulationofreportdefinition.htm" window="right" />
-        <topic url="WordDocuments/processoverview84.htm" window="right" />
-        <topic url="WordDocuments/businessrules93.htm" window="right" />
-        <topic url="WordDocuments/routing75.htm" window="right" />
+        <topic url="WordDocuments/processoverview104.htm" window="right" />
+        <topic url="WordDocuments/businessrules114.htm" window="right" />
+        <topic url="WordDocuments/routing95.htm" window="right" />
         <topic url="WordDocuments/reportearnpaygroup.htm" window="right" />
-        <topic url="WordDocuments/documentlayout216.htm" window="right" />
-        <topic url="WordDocuments/processoverview85.htm" window="right" />
-        <topic url="WordDocuments/routing76.htm" window="right" />
+        <topic url="WordDocuments/documentlayout264.htm" window="right" />
+        <topic url="WordDocuments/processoverview105.htm" window="right" />
+        <topic url="WordDocuments/routing96.htm" window="right" />
         <topic url="WordDocuments/reportperiodstatuscode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout217.htm" window="right" />
+        <topic url="WordDocuments/documentlayout265.htm" window="right" />
         <topic url="WordDocuments/reporttype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout218.htm" window="right" />
+        <topic url="WordDocuments/documentlayout266.htm" window="right" />
         <topic url="WordDocuments/generatingeffortcertificationreports.htm" window="right" />
         <topic url="WordDocuments/extractingeffortdatafromthelaborledger.htm" window="right" />
-        <topic url="WordDocuments/businessrules94.htm" window="right" />
+        <topic url="WordDocuments/businessrules115.htm" window="right" />
         <topic url="WordDocuments/extractprocessing.htm" window="right" />
         <topic url="WordDocuments/determineemployeeseligibleforthisreport.htm" window="right" />
         <topic url="WordDocuments/determinevalidlaborobjectcodesforthisreport.htm" window="right" />
@@ -1846,73 +2188,73 @@
         <topic url="WordDocuments/labordistribution4.htm" window="right" />
         <topic url="WordDocuments/labordistributionsubmenu.htm" window="right" />
         <topic url="WordDocuments/laborbenefitscalculation.htm" window="right" />
-        <topic url="WordDocuments/documentlayout219.htm" window="right" />
+        <topic url="WordDocuments/documentlayout267.htm" window="right" />
         <topic url="WordDocuments/laborbenefitstype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout220.htm" window="right" />
+        <topic url="WordDocuments/documentlayout268.htm" window="right" />
         <topic url="WordDocuments/laborobjectcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout221.htm" window="right" />
+        <topic url="WordDocuments/documentlayout269.htm" window="right" />
         <topic url="WordDocuments/laborobjectcodebenefits.htm" window="right" />
-        <topic url="WordDocuments/documentlayout222.htm" window="right" />
+        <topic url="WordDocuments/documentlayout270.htm" window="right" />
         <topic url="WordDocuments/laborpositionobjectgroupcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout223.htm" window="right" />
+        <topic url="WordDocuments/documentlayout271.htm" window="right" />
         <topic url="WordDocuments/budgetconstruction1.htm" window="right" />
         <topic url="WordDocuments/budgetconstructionsubmenu.htm" window="right" />
         <topic url="WordDocuments/accountreports.htm" window="right" />
-        <topic url="WordDocuments/documentlayout224.htm" window="right" />
-        <topic url="WordDocuments/processoverview86.htm" window="right" />
-        <topic url="WordDocuments/businessrules95.htm" window="right" />
-        <topic url="WordDocuments/example42.htm" window="right" />
+        <topic url="WordDocuments/documentlayout272.htm" window="right" />
+        <topic url="WordDocuments/processoverview106.htm" window="right" />
+        <topic url="WordDocuments/businessrules116.htm" window="right" />
+        <topic url="WordDocuments/example67.htm" window="right" />
         <topic url="WordDocuments/appointmentfundingduration.htm" window="right" />
-        <topic url="WordDocuments/documentlayout225.htm" window="right" />
-        <topic url="WordDocuments/processoverview87.htm" window="right" />
-        <topic url="WordDocuments/businessrules96.htm" window="right" />
-        <topic url="WordDocuments/example43.htm" window="right" />
+        <topic url="WordDocuments/documentlayout273.htm" window="right" />
+        <topic url="WordDocuments/processoverview107.htm" window="right" />
+        <topic url="WordDocuments/businessrules117.htm" window="right" />
+        <topic url="WordDocuments/example68.htm" window="right" />
         <topic url="WordDocuments/appointmentfundingreasoncode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout226.htm" window="right" />
-        <topic url="WordDocuments/processoverview88.htm" window="right" />
-        <topic url="WordDocuments/businessrules97.htm" window="right" />
-        <topic url="WordDocuments/example44.htm" window="right" />
+        <topic url="WordDocuments/documentlayout274.htm" window="right" />
+        <topic url="WordDocuments/processoverview108.htm" window="right" />
+        <topic url="WordDocuments/businessrules118.htm" window="right" />
+        <topic url="WordDocuments/example69.htm" window="right" />
         <topic url="WordDocuments/budgetconstructionposition.htm" window="right" />
-        <topic url="WordDocuments/documentlayout227.htm" window="right" />
-        <topic url="WordDocuments/processoverview89.htm" window="right" />
-        <topic url="WordDocuments/businessrules98.htm" window="right" />
-        <topic url="WordDocuments/example45.htm" window="right" />
+        <topic url="WordDocuments/documentlayout275.htm" window="right" />
+        <topic url="WordDocuments/processoverview109.htm" window="right" />
+        <topic url="WordDocuments/businessrules119.htm" window="right" />
+        <topic url="WordDocuments/example70.htm" window="right" />
         <topic url="WordDocuments/calculatedsalaryfoundationtrackeroverride.htm" window="right" />
-        <topic url="WordDocuments/documentlayout228.htm" window="right" />
-        <topic url="WordDocuments/processoverview90.htm" window="right" />
-        <topic url="WordDocuments/businessrules99.htm" window="right" />
-        <topic url="WordDocuments/example46.htm" window="right" />
+        <topic url="WordDocuments/documentlayout276.htm" window="right" />
+        <topic url="WordDocuments/processoverview110.htm" window="right" />
+        <topic url="WordDocuments/businessrules120.htm" window="right" />
+        <topic url="WordDocuments/example71.htm" window="right" />
         <topic url="WordDocuments/intendedincumbent.htm" window="right" />
-        <topic url="WordDocuments/documentlayout229.htm" window="right" />
-        <topic url="WordDocuments/processoverview91.htm" window="right" />
-        <topic url="WordDocuments/businessrules100.htm" window="right" />
-        <topic url="WordDocuments/example47.htm" window="right" />
+        <topic url="WordDocuments/documentlayout277.htm" window="right" />
+        <topic url="WordDocuments/processoverview111.htm" window="right" />
+        <topic url="WordDocuments/businessrules121.htm" window="right" />
+        <topic url="WordDocuments/example72.htm" window="right" />
         <topic url="WordDocuments/organizationreports.htm" window="right" />
-        <topic url="WordDocuments/documentlayout230.htm" window="right" />
-        <topic url="WordDocuments/processoverview92.htm" window="right" />
-        <topic url="WordDocuments/businessrules101.htm" window="right" />
-        <topic url="WordDocuments/example48.htm" window="right" />
+        <topic url="WordDocuments/documentlayout278.htm" window="right" />
+        <topic url="WordDocuments/processoverview112.htm" window="right" />
+        <topic url="WordDocuments/businessrules122.htm" window="right" />
+        <topic url="WordDocuments/example73.htm" window="right" />
         <topic url="WordDocuments/system2.htm" window="right" />
         <topic url="WordDocuments/systemsubmenu.htm" window="right" />
         <topic url="WordDocuments/bank.htm" window="right" />
-        <topic url="WordDocuments/documentlayout231.htm" window="right" />
+        <topic url="WordDocuments/documentlayout279.htm" window="right" />
         <topic url="WordDocuments/building.htm" window="right" />
-        <topic url="WordDocuments/documentlayout232.htm" window="right" />
+        <topic url="WordDocuments/documentlayout280.htm" window="right" />
         <topic url="WordDocuments/originationcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout233.htm" window="right" />
+        <topic url="WordDocuments/documentlayout281.htm" window="right" />
         <topic url="WordDocuments/room.htm" window="right" />
-        <topic url="WordDocuments/documentlayout234.htm" window="right" />
+        <topic url="WordDocuments/documentlayout282.htm" window="right" />
         <topic url="WordDocuments/taxregion.htm" window="right" />
-        <topic url="WordDocuments/documentlayout235.htm" window="right" />
+        <topic url="WordDocuments/documentlayout283.htm" window="right" />
         <topic url="WordDocuments/createtaxregionstab.htm" window="right" />
         <topic url="WordDocuments/taxregionratestab.htm" window="right" />
         <topic url="WordDocuments/taxregioncountiesstatespostalcodestab.htm" window="right" />
         <topic url="WordDocuments/taxregiontype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout236.htm" window="right" />
+        <topic url="WordDocuments/documentlayout284.htm" window="right" />
         <topic url="WordDocuments/unitofmeasure.htm" window="right" />
-        <topic url="WordDocuments/documentlayout237.htm" window="right" />
+        <topic url="WordDocuments/documentlayout285.htm" window="right" />
         <topic url="WordDocuments/universitydate.htm" window="right" />
-        <topic url="WordDocuments/documentlayout238.htm" window="right" />
+        <topic url="WordDocuments/documentlayout286.htm" window="right" />
         <topic url="WordDocuments/administrationmenu.htm" window="right" />
         <topic url="WordDocuments/system3.htm" window="right" />
         <topic url="WordDocuments/systemsubmenugroups.htm" window="right" />
@@ -1923,10 +2265,9 @@
         <topic url="WordDocuments/kimgroups.htm" window="right" />
         <topic url="WordDocuments/routingidentitymanagementdocumenttypehierarchytool.htm" window="right" />
         <topic url="WordDocuments/person.htm" window="right" />
-        <topic url="WordDocuments/documentlayout239.htm" window="right" />
+        <topic url="WordDocuments/documentlayout287.htm" window="right" />
         <topic url="WordDocuments/overviewtab.htm" window="right" />
         <topic url="WordDocuments/overviewsection1.htm" window="right" />
-        <topic url="WordDocuments/affiliations.htm" window="right" />
         <topic url="WordDocuments/contacttab1.htm" window="right" />
         <topic url="WordDocuments/namessection.htm" window="right" />
         <topic url="WordDocuments/addressessection.htm" window="right" />
@@ -1937,17 +2278,17 @@
         <topic url="WordDocuments/groupssection.htm" window="right" />
         <topic url="WordDocuments/rolessection.htm" window="right" />
         <topic url="WordDocuments/delegationssection.htm" window="right" />
-        <topic url="WordDocuments/processoverview93.htm" window="right" />
-        <topic url="WordDocuments/businessrules102.htm" window="right" />
-        <topic url="WordDocuments/routing77.htm" window="right" />
+        <topic url="WordDocuments/processoverview113.htm" window="right" />
+        <topic url="WordDocuments/businessrules123.htm" window="right" />
+        <topic url="WordDocuments/routing97.htm" window="right" />
         <topic url="WordDocuments/group.htm" window="right" />
-        <topic url="WordDocuments/documentlayout240.htm" window="right" />
+        <topic url="WordDocuments/documentlayout288.htm" window="right" />
         <topic url="WordDocuments/overviewtab1.htm" window="right" />
         <topic url="WordDocuments/creatingnewgroups.htm" window="right" />
         <topic url="WordDocuments/attributestab.htm" window="right" />
         <topic url="WordDocuments/assigneestab.htm" window="right" />
         <topic url="WordDocuments/role.htm" window="right" />
-        <topic url="WordDocuments/documentlayout241.htm" window="right" />
+        <topic url="WordDocuments/documentlayout289.htm" window="right" />
         <topic url="WordDocuments/overviewtab2.htm" window="right" />
         <topic url="WordDocuments/creatingnewroles.htm" window="right" />
         <topic url="WordDocuments/permissionstab.htm" window="right" />
@@ -1956,70 +2297,70 @@
         <topic url="WordDocuments/assigneestab1.htm" window="right" />
         <topic url="WordDocuments/delegationstab.htm" window="right" />
         <topic url="WordDocuments/permission.htm" window="right" />
-        <topic url="WordDocuments/documentlayout242.htm" window="right" />
+        <topic url="WordDocuments/documentlayout290.htm" window="right" />
         <topic url="WordDocuments/permissioninfotab.htm" window="right" />
         <topic url="WordDocuments/permissiondetailstab.htm" window="right" />
         <topic url="WordDocuments/responsibility.htm" window="right" />
-        <topic url="WordDocuments/documentlayout243.htm" window="right" />
+        <topic url="WordDocuments/documentlayout291.htm" window="right" />
         <topic url="WordDocuments/responsibilityinfotab.htm" window="right" />
         <topic url="WordDocuments/responsibilitydetailstab.htm" window="right" />
         <topic url="WordDocuments/locations.htm" window="right" />
         <topic url="WordDocuments/campus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout244.htm" window="right" />
+        <topic url="WordDocuments/documentlayout292.htm" window="right" />
         <topic url="WordDocuments/country.htm" window="right" />
-        <topic url="WordDocuments/documentlayout245.htm" window="right" />
+        <topic url="WordDocuments/documentlayout293.htm" window="right" />
         <topic url="WordDocuments/county.htm" window="right" />
-        <topic url="WordDocuments/documentlayout246.htm" window="right" />
+        <topic url="WordDocuments/documentlayout294.htm" window="right" />
         <topic url="WordDocuments/postalcode.htm" window="right" />
-        <topic url="WordDocuments/documentlayout247.htm" window="right" />
+        <topic url="WordDocuments/documentlayout295.htm" window="right" />
         <topic url="WordDocuments/state.htm" window="right" />
-        <topic url="WordDocuments/documentlayout248.htm" window="right" />
+        <topic url="WordDocuments/documentlayout296.htm" window="right" />
         <topic url="WordDocuments/reference.htm" window="right" />
         <topic url="WordDocuments/addresstype1.htm" window="right" />
-        <topic url="WordDocuments/documentlayout249.htm" window="right" />
+        <topic url="WordDocuments/documentlayout297.htm" window="right" />
         <topic url="WordDocuments/affiliationtype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout250.htm" window="right" />
+        <topic url="WordDocuments/documentlayout298.htm" window="right" />
         <topic url="WordDocuments/campustype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout251.htm" window="right" />
+        <topic url="WordDocuments/documentlayout299.htm" window="right" />
         <topic url="WordDocuments/emailtype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout252.htm" window="right" />
+        <topic url="WordDocuments/documentlayout300.htm" window="right" />
         <topic url="WordDocuments/employeestatus.htm" window="right" />
-        <topic url="WordDocuments/documentlayout253.htm" window="right" />
+        <topic url="WordDocuments/documentlayout301.htm" window="right" />
         <topic url="WordDocuments/employeetype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout254.htm" window="right" />
+        <topic url="WordDocuments/documentlayout302.htm" window="right" />
         <topic url="WordDocuments/entitytype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout255.htm" window="right" />
+        <topic url="WordDocuments/documentlayout303.htm" window="right" />
         <topic url="WordDocuments/externalidentifiertype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout256.htm" window="right" />
+        <topic url="WordDocuments/documentlayout304.htm" window="right" />
         <topic url="WordDocuments/nametype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout257.htm" window="right" />
+        <topic url="WordDocuments/documentlayout305.htm" window="right" />
         <topic url="WordDocuments/phonetype1.htm" window="right" />
-        <topic url="WordDocuments/documentlayout258.htm" window="right" />
+        <topic url="WordDocuments/documentlayout306.htm" window="right" />
         <topic url="WordDocuments/rolegrouppermissionresponsibilitytype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout259.htm" window="right" />
+        <topic url="WordDocuments/documentlayout307.htm" window="right" />
         <topic url="WordDocuments/configuration.htm" window="right" />
         <topic url="WordDocuments/functional.htm" window="right" />
         <topic url="WordDocuments/datamappingfielddefinition.htm" window="right" />
-        <topic url="WordDocuments/documentlayout260.htm" window="right" />
+        <topic url="WordDocuments/documentlayout308.htm" window="right" />
         <topic url="WordDocuments/documenttype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout261.htm" window="right" />
+        <topic url="WordDocuments/documentlayout309.htm" window="right" />
         <topic url="WordDocuments/editdocumenttypetab.htm" window="right" />
         <topic url="WordDocuments/fieldsavailableforretroactiveapplicationtab.htm" window="right" />
         <topic url="WordDocuments/documenttypeinquiry.htm" window="right" />
         <topic url="WordDocuments/functionalfielddescription.htm" window="right" />
-        <topic url="WordDocuments/documentlayout262.htm" window="right" />
+        <topic url="WordDocuments/documentlayout310.htm" window="right" />
         <topic url="WordDocuments/messageoftheday1.htm" window="right" />
-        <topic url="WordDocuments/documentlayout263.htm" window="right" />
+        <topic url="WordDocuments/documentlayout311.htm" window="right" />
         <topic url="WordDocuments/namespace.htm" window="right" />
-        <topic url="WordDocuments/documentlayout264.htm" window="right" />
+        <topic url="WordDocuments/documentlayout312.htm" window="right" />
         <topic url="WordDocuments/parameter.htm" window="right" />
-        <topic url="WordDocuments/documentlayout265.htm" window="right" />
-        <topic url="WordDocuments/processoverview94.htm" window="right" />
-        <topic url="WordDocuments/routing78.htm" window="right" />
+        <topic url="WordDocuments/documentlayout313.htm" window="right" />
+        <topic url="WordDocuments/processoverview114.htm" window="right" />
+        <topic url="WordDocuments/routing98.htm" window="right" />
         <topic url="WordDocuments/parametercomponent.htm" window="right" />
-        <topic url="WordDocuments/documentlayout266.htm" window="right" />
+        <topic url="WordDocuments/documentlayout314.htm" window="right" />
         <topic url="WordDocuments/parametertype.htm" window="right" />
-        <topic url="WordDocuments/documentlayout267.htm" window="right" />
+        <topic url="WordDocuments/documentlayout315.htm" window="right" />
         <topic url="WordDocuments/routingidentitymanagementdocumenttypehierarchy.htm" window="right" />
         <topic url="WordDocuments/documenthierarchyview.htm" window="right" />
         <topic url="WordDocuments/documentconfigurationview.htm" window="right" />
@@ -2027,7 +2368,7 @@
         <topic url="WordDocuments/permissionstab1.htm" window="right" />
         <topic url="WordDocuments/workflowresponsibilitiestab.htm" window="right" />
         <topic url="WordDocuments/systemoptions.htm" window="right" />
-        <topic url="WordDocuments/documentlayout268.htm" window="right" />
+        <topic url="WordDocuments/documentlayout316.htm" window="right" />
         <topic url="WordDocuments/technical.htm" window="right" />
         <topic url="WordDocuments/workflowattribute.htm" window="right" />
         <topic url="WordDocuments/xmlingester.htm" window="right" />
@@ -2052,7 +2393,7 @@
         <topic url="WordDocuments/systembatchsubmenu.htm" window="right" />
         <topic url="WordDocuments/batchfile.htm" window="right" />
         <topic url="WordDocuments/schedule.htm" window="right" />
-        <topic url="WordDocuments/documentlayout269.htm" window="right" />
+        <topic url="WordDocuments/documentlayout317.htm" window="right" />
         <topic url="WordDocuments/jobinfotab.htm" window="right" />
         <topic url="WordDocuments/jobinfosection.htm" window="right" />
         <topic url="WordDocuments/runningsection.htm" window="right" />
@@ -2082,6 +2423,7 @@
         <topic url="WordDocuments/gloss_accountsreceivable5.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_accrual.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_accrualtype.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_accruedincome.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_accumulateddepreciation.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_accumulatedpayments.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_acknowledge.htm" window="d2hWnd_SecondaryPopup" />
@@ -2117,6 +2459,7 @@
         <topic url="WordDocuments/gloss_appointmenttype.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_approve.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_approver.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_asset1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_assetacquisitiontype1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_assetcondition1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_assetcreatedate.htm" window="d2hWnd_SecondaryPopup" />
@@ -2164,7 +2507,8 @@
         <topic url="WordDocuments/gloss_billingorganization.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_blanketapproval.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_blanketapprove.htm" window="d2hWnd_SecondaryPopup" />
-        <topic url="WordDocuments/gloss_blanketapproveworkgroup.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_blanketapproverole.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_bond.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_bookvalue.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_branch.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_budgetadjustment1.htm" window="d2hWnd_SecondaryPopup" />
@@ -2176,6 +2520,7 @@
         <topic url="WordDocuments/gloss_buildingsubroomnumber.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_businessrule.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_cabpendingtransactions.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_cae.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_calculatedsalaryfoundation1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_campus1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_campusparameter1.htm" window="d2hWnd_SecondaryPopup" />
@@ -2191,14 +2536,18 @@
         <topic url="WordDocuments/gloss_capitalassettransactiontype.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_carnegieclass.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_carrier1.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_carryvalue.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_carryforward.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_cascentralauthenticationservice.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_cash.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_cashcontrol1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_cashdrawer1.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_cashequivalents.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_cashmanagementdocument.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_cashreceipt1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_catalogoffederaldomesticassistance1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_ccr.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_certificateofdeposit.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_cfda.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_cfdareference.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_cg.htm" window="d2hWnd_SecondaryPopup" />
@@ -2254,6 +2603,8 @@
         <topic url="WordDocuments/gloss_csf.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_csfupd.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_csv.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_cusip.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_custodialbank.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_customer1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_customercreditmemo1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_customerinvoice2.htm" window="d2hWnd_SecondaryPopup" />
@@ -2282,6 +2633,7 @@
         <topic url="WordDocuments/gloss_disencumbrance.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_distributetoitems.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_distributionofincomeandexpense1.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_dividend.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_division.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_dochandler.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_dochandlerurl.htm" window="d2hWnd_SecondaryPopup" />
@@ -2301,6 +2653,7 @@
         <topic url="WordDocuments/gloss_documenttypename.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_documenttypepolicy.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_documentationlocation.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_donor.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_drilldown2.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_duedatetype.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_duns.htm" window="d2hWnd_SecondaryPopup" />
@@ -2315,6 +2668,7 @@
         <topic url="WordDocuments/gloss_employeetype1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_encumbrance.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_enddate.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_endowment6.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_enroute.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_enterprisefeed.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_entity.htm" window="d2hWnd_SecondaryPopup" />
@@ -2324,6 +2678,8 @@
         <topic url="WordDocuments/gloss_equipmentloanreturn.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_errorcorrection.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_estimatedlife.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_etrancode.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_exdividenddate.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_exception.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_exceptionmessaging.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_exceptionrouting.htm" window="d2hWnd_SecondaryPopup" />
@@ -2358,9 +2714,11 @@
         <topic url="WordDocuments/gloss_forceaction.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_formatcheckach.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_formatsummaryreview.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_frequency.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_fte.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_functioncontrolcode1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_functionalcouncil.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_fund.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_fundgroup1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_fundingsource1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_fyi1.htm" window="d2hWnd_SecondaryPopup" />
@@ -2370,6 +2728,7 @@
         <topic url="WordDocuments/gloss_generalerrorcorrection1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_generalledger2.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_generalledgercorrectionprocess1.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_gift.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_glcp.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_global.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_globalaccount.htm" window="d2hWnd_SecondaryPopup" />
@@ -2386,6 +2745,7 @@
         <topic url="WordDocuments/gloss_highereducationfunction1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_historicalbalances.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_hold.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_holdings.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_hrms.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_ib.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_ica.htm" window="d2hWnd_SecondaryPopup" />
@@ -2409,8 +2769,10 @@
         <topic url="WordDocuments/gloss_initiated.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_initiator.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_inquiry.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_interest.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_internalbilling1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_internalencumbrance.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_investments.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_itemtype1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_itemtypeincreditmemo.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_items.htm" window="d2hWnd_SecondaryPopup" />
@@ -2421,6 +2783,7 @@
         <topic url="WordDocuments/gloss_kca.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_kcbkualicommunicationsbroker.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_kem.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_kemid1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_ken.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_kenkualienterprisenotification.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_kewkualienterpriseworkflow.htm" window="d2hWnd_SecondaryPopup" />
@@ -2464,6 +2827,7 @@
         <topic url="WordDocuments/gloss_ldoc.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_ledgerentriesfile.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_letterofcreditfundgroup1.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_liability.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_llcp.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_lljv.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_lmpe.htm" window="d2hWnd_SecondaryPopup" />
@@ -2476,6 +2840,7 @@
         <topic url="WordDocuments/gloss_maintenancedocument.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_mandatorytransfereliminationcode.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_manufacturername.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_marketvalue.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_mediumid.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_mergeanasset.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_mergedate.htm" window="d2hWnd_SecondaryPopup" />
@@ -2488,6 +2853,7 @@
         <topic url="WordDocuments/gloss_modelnumber.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_mpe.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_mpv.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_mutualfund.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_nacubo.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_namespace1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_nationalstocknumber.htm" window="d2hWnd_SecondaryPopup" />
@@ -2546,6 +2912,7 @@
         <topic url="WordDocuments/gloss_parentrule.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_parentvendor.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_paydate.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_payable.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_payee.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_paymentapplication1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_paymentmediumtype.htm" window="d2hWnd_SecondaryPopup" />
@@ -2559,6 +2926,7 @@
         <topic url="WordDocuments/gloss_pdp.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_pdpextractdate.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_pe.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_permanentlyrestrictedendowment.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_permission1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_personidentifier.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_personrole.htm" window="d2hWnd_SecondaryPopup" />
@@ -2572,6 +2940,7 @@
         <topic url="WordDocuments/gloss_poc.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_poh.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_policecasenumber.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_pooledfund.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_por.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_porh.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_port.htm" window="d2hWnd_SecondaryPopup" />
@@ -2625,6 +2994,9 @@
         <topic url="WordDocuments/gloss_purchasingaccountspayable3.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_rateidcode.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_rc.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_realestate.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_realproperty.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_receivable.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_recipienttype.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_recurringpaymentfrequency1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_recurringpaymenttype1.htm" window="d2hWnd_SecondaryPopup" />
@@ -2668,7 +3040,7 @@
         <topic url="WordDocuments/gloss_routestatus1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_routetemplate.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_routedbyuser.htm" window="d2hWnd_SecondaryPopup" />
-        <topic url="WordDocuments/gloss_routing79.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_routing99.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_routingpriority.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_routingrule.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_rpe.htm" window="d2hWnd_SecondaryPopup" />
@@ -2687,6 +3059,7 @@
         <topic url="WordDocuments/gloss_scx.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_searchableattributes.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_secondarydelegate.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_security1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_separateanasset.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_separatedate.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_separationofduties.htm" window="d2hWnd_SecondaryPopup" />
@@ -2708,6 +3081,7 @@
         <topic url="WordDocuments/gloss_statisticsreport1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_status.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_stipulationsinfo.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_stock.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_subaccount1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_subaccountreview.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_subcontractor1.htm" window="d2hWnd_SecondaryPopup" />
@@ -2733,6 +3107,8 @@
         <topic url="WordDocuments/gloss_travelexpensetypecodes.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_travelmileagerate.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_travelperdiem.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_trueendowment.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_unit.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_unitofmeasure1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_universitybudgetofficefunction1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_universitydate1.htm" window="d2hWnd_SecondaryPopup" />
@@ -2754,8 +3130,8 @@
         <topic url="WordDocuments/gloss_workflow1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_workflowengine.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_workflowquicklinks.htm" window="d2hWnd_SecondaryPopup" />
-        <topic url="WordDocuments/gloss_workgroup.htm" window="d2hWnd_SecondaryPopup" />
-        <topic url="WordDocuments/gloss_workgrouptype.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_role2.htm" window="d2hWnd_SecondaryPopup" />
+        <topic url="WordDocuments/gloss_roletype.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_xml.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_xmlingester1.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_xmlruleattribute.htm" window="d2hWnd_SecondaryPopup" />

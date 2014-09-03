@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Maintenance.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu3.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview92.htm"></a><a id="D2HNextAnchor" href="example48.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview88.htm"></a><a id="D2HNextAnchor" href="routing83.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,23 +86,15 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
-<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="maintenancemenu.htm">Maintenance Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="budgetconstruction1.htm">Budget Construction</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="organizationreports.htm">Organization Reports</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview92.htm">Process Overview</a></div>
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="lookupandmaintenance.htm">Lookup and 
+Maintenance</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="chartofaccounts.htm">Chart of 
+Accounts</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="subobjectcode.htm">Sub-Object Code</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview88.htm">Process Overview</a></div>
 <h6>Business Rules</h6>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>All 
-fields must be filled in.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><a id="popup_472737" onclick="return d2hpopup(event, this.href)" href="gloss_chart1.htm"><strong>Chart</strong></a></strong> and <strong><a id="popup_472736" onclick="return d2hpopup(event, this.href)" href="gloss_organization1.htm"><strong>Organization</strong></a></strong> must 
-be valid in the Chart Organization table (ca_org_t).</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong>Reports to Chart</strong> and <strong>Reports to Organization</strong> 
-must be valid in the Budget Construction Organization Reports table 
-(ld_bcn_org_rpts_t).</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong>Reports to Chart</strong> and <strong>Reports to Organization 
-</strong>must reference a valid path to the root of the hierarchy tree with no 
-infinite loops (cycles), except for the root.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong><a id="popup_472734" onclick="return d2hpopup(event, this.href)" href="gloss_responsibilitycenter1.htm"><strong>Responsibility 
-Center</strong></a> Code</strong> must be valid in the Chart <a id="popup_472735" onclick="return d2hpopup(event, this.href)" href="gloss_responsibility1.htm">Responsibility</a> Center table (ca_<a id="popup_472738" onclick="return d2hpopup(event, this.href)" href="gloss_rc.htm">rc</a>_t).</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<a id="popup_725190" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object code</a> associated with the <a id="popup_725189" onclick="return d2hpopup(event, this.href)" href="gloss_subobjectcode1.htm">sub-object code</a> must be active.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Expired accounts are allowed, however, if the <a id="popup_725191" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> is expired the <a id="popup_725192" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> offers 
+to replace it with the <a id="popup_725188" onclick="return d2hpopup(event, this.href)" href="gloss_continuationaccount.htm">continuation account</a>.</p>
 <p class="RelatedHead">More:</p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="example48.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Example</a></p></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing83.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Routing</a></p></div></div></body></html>

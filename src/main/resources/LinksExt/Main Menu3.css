@@ -1,0 +1,16 @@
+SPAN.CaptionFigureText {FONT-FAMILY: "Arial Narrow","sans-serif"; }
+
+P.Note {FONT-SIZE: 10pt;  MARGIN: 9pt 0pt 0pt 18pt;  TEXT-INDENT: -22.5pt;  FONT-FAMILY: "Times New Roman","serif";  tab-stops: 18.0pt; }
+
+SPAN.TableCellsEmphasis {FONT-STYLE: italic;  FONT-FAMILY: "Arial","sans-serif"; }
+
+SPAN.EditorsNote {BORDER-RIGHT: windowtext 1pt;  PADDING-RIGHT: 0pt;  BORDER-TOP: windowtext 1pt;  PADDING-LEFT: 0pt;  BACKGROUND: yellow;  PADDING-BOTTOM: 0pt;  BORDER-LEFT: windowtext 1pt;  PADDING-TOP: 0pt;  BORDER-BOTTOM: windowtext 1pt;  FONT-FAMILY: "Times New Roman","serif"; }
+
+SPAN.CaptionChar3 {FONT-FAMILY: "Arial","sans-serif"; }
+
+SPAN.BodyTextChar {FONT-FAMILY: "Times New Roman","serif"; }
+
+SPAN.CommentTextChar3 {}
+
+SPAN.NoteChar {FONT-FAMILY: "Times New Roman","serif"; }
+

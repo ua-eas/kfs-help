@@ -1,26 +1,4 @@
-SPAN.NoNumber-NoIndentChar1 {FONT-FAMILY: "Angsana New"; }
+SPAN.BodyTextChar {FONT-FAMILY: "Times New Roman","serif"; }
 
-SPAN.Numbered-NoIndentChar1 {FONT-FAMILY: "Angsana New"; }
-
-P.Note {BORDER-RIGHT: medium none;  PADDING-RIGHT: 0pt;  BORDER-TOP: medium none;  PADDING-LEFT: 0pt;  FONT-SIZE: 10pt;  PADDING-BOTTOM: 0pt;  MARGIN: 9pt 0pt 6pt;  BORDER-LEFT: medium none;  PADDING-TOP: 0pt;  BORDER-BOTTOM: medium none;  FONT-FAMILY: "Times New Roman"; }
-
-SPAN.CaptionFigureText {FONT-FAMILY: "Arial Narrow"; }
-
-SPAN.BalloonTextChar {FONT-FAMILY: Tahoma; }
-
-P.RelatedHead {FONT-WEIGHT: bold;  FONT-SIZE: 12pt;  MARGIN: 6pt 0pt 3pt;  COLOR: fuchsia;  FONT-FAMILY: Arial; }
-
-SPAN.CenterChar1 {FONT-FAMILY: "Angsana New"; }
-
-P.TitlewoOutline {FONT-WEIGHT: bold;  TEXT-JUSTIFY: inter-ideograph;  FONT-SIZE: 20pt;  MARGIN: 0pt;  FONT-FAMILY: "Arial Narrow";  TEXT-ALIGN: justify; }
-
-SPAN.TableCellsChar1 {FONT-FAMILY: Arial; }
-
-SPAN.NoteChar {FONT-FAMILY: "Angsana New"; }
-
-SPAN.CharChar11 {FONT-FAMILY: Arial; }
-
-SPAN.CharChar12 {FONT-FAMILY: "Angsana New"; }
-
-SPAN.C1HBullet2Char {FONT-FAMILY: "Angsana New"; }
+SPAN.TableCellsChar1 {FONT-FAMILY: "Arial","sans-serif"; }
 

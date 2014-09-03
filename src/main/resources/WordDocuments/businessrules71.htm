@@ -40,13 +40,13 @@ d2hTrySyncTOC();
 
 
 
-var prev = false;
+var prev = true;
 
 
 
 
 
-var next = false;
+var next = true;
 
 
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
 <div class="d2hNavigatorTopic" id="nsbanner">
 <div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
-<div style="DISPLAY: none"></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview63.htm"></a><a id="D2HNextAnchor" href="routing59.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -87,14 +87,27 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </div>
 <div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
 <div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="lookupandmaintenance.htm">Lookup and 
-Maintenance</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanagement2.htm">Capital Asset 
-Management</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="enterpayment.htm">Enter Payment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="documentlayout61.htm">Document Layout</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="assetstab.htm">Assets Tab</a></div>
-<p class="MsoHeading7">Business Rules</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt list 108.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-asset must be an active asset. (The <a id="popup_467250" onclick="return d2hpopup(event, this.href)" href="gloss_assetstatus1.htm">asset 
-status</a> must be A, C, S, or U). If the asset is retired, the <a id="popup_467251" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> cannot select the <strong>payment</strong> action 
-from the <strong>Action</strong> column.</p>
+</span><a class="d2h_breadcrumbsNormal" href="administrativetransactions.htm">Administrative Transactions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="endowment2.htm">Endowment</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="holdingtaxlotrebalance.htm">Holding Tax Lot Rebalance</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview63.htm">Process Overview</a></div>
+<h6>Business Rules</h6>
+<p class="Note"><img src="../ImagesExt/image318_17.jpg" alt="" />     
+For information about business rules that apply to all <a id="popup_722401" onclick="return d2hpopup(event, this.href)" href="gloss_endowment6.htm">endowment</a> transaction e-docs, see <a href="standardbusinessrules.htm">Standard Business Rules</a>.</p>
+<p class="MsoBodyText">In addition to the standard business rules for endowment 
+transactions, the following business rules apply to holding tax lot rebalance 
+transactions: </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>You 
+may edit the number of units in each tax lot. The total number of units before 
+the change must equal the total number of units after the change.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>You 
+may edit the <a id="popup_722400" onclick="return d2hpopup(event, this.href)" href="gloss_carryvalue.htm">carry value</a> in each tax lot. The total carry 
+value before the change must equal the total carry value after the change.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
+positive values may be entered.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>You 
+may bring the value of units and carry value to zero in a tax lot, but you 
+cannot create a new tax lot with the <a id="popup_722402" onclick="return d2hpopup(event, this.href)" href="gloss_edoc.htm">e-doc</a>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+you make one of the values zero, both MUST be zero (that is, if the units are 
+zero, the carry value must also be zero and vice versa).</p>
 <p class="RelatedHead">More:</p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="assetinformationsubtab.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Asset Information 
-Subtab</a></p></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing59.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Routing</a></p></div></div></body></html>

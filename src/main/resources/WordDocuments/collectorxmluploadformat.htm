@@ -91,61 +91,51 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="collectorxmlupload.htm">Collector XML 
 Upload</a></div>
 <h5>Collector XML Upload Format </h5>
-<table class="MsoNormalTable" style="WIDTH: 437.4pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="583" border="0">
-  <tbody>
-  <tr>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 113.4pt; PADDING-TOP: 0pt" valign="top" width="151">
-      <p class="MarginalNote-Symbol"><img alt="go-arrow-red" src="../ImagesExt/image38_1.png" /></p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 324pt; PADDING-TOP: 0pt" valign="top" width="432">
-      <div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; MARGIN-TOP: 9pt; PADDING-LEFT: 4pt; MARGIN-BOTTOM: 6pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid">
-      <p class="Note" style="MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt">For information 
-      on procedures and formatting rules that apply to all <a id="popup_473917" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> 
-      <a id="popup_473913" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> uploads on the administration menu, see 
-      <a href="batch.htm">Batch</a>.</p></div></td></tr></tbody></table>
-<p class="MsoBodyText">Keep the following points in mind about the <a id="popup_473916" onclick="return d2hpopup(event, this.href)" href="gloss_xml.htm">XML</a> <a id="popup_473910" onclick="return d2hpopup(event, this.href)" href="gloss_collector.htm">Collector</a> format:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="Note"><img alt="go-arrow-red" src="../ImagesExt/image320_1.png" />   For information on procedures and 
+formatting rules that apply to all <a id="popup_732054" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> <a id="popup_732051" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> uploads on the administration menu, see <a href="batch.htm">Batch</a>.</p>
+<p class="MsoBodyText">Keep the following points in mind about the <a id="popup_732055" onclick="return d2hpopup(event, this.href)" href="gloss_xml.htm">XML</a> <a id="popup_732048" onclick="return d2hpopup(event, this.href)" href="gloss_collector.htm">Collector</a> format:</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 file must begin with the standard XML version line such as:</p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;?xml version="1.0" 
 encoding="UTF-8"?&gt;</span></span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 root (first) tag for collector files must be the &lt;batch&gt; tag, and the file 
 must contain only one &lt;batch&gt;&lt;/batch&gt; tag. This tag also contains 
-attributes that identify the schema the <a id="popup_473911" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> aheres to, such as:</p>
-<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;batch xmlns=<a href="http://www.kuali.org/kfs/gl/collector"><span style="COLOR: #999999; TEXT-DECORATION: none; text-underline: none">http://www.kuali.org/kfs/gl/collector</span></a></span></span></p>
+attributes that identify the schema the <a id="popup_732049" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> adheres to, such as:</p>
+<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;batch xmlns=</span></span><a href="http://www.kuali.org/kfs/gl/collector"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt; TEXT-DECORATION: none; text-underline: none">http://www.kuali.org/kfs/gl/collector</span></span></a><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt"></span></span></p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance</span></span></p>
-<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">xsi:schemaLocation="http://www.<a id="popup_473914" onclick="return d2hpopup(event, this.href)" href="gloss_kuali.htm">kuali</a>.org/kfs/gl/collector 
+<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">xsi:schemaLocation="http://www.<a id="popup_732052" onclick="return d2hpopup(event, this.href)" href="gloss_kuali.htm">kuali</a>.org/kfs/gl/collector 
 https://test.kuali.org/kuali-reg/static/xsd/gl/collector.xsd" 
 &gt;</span></span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Following the batch tag must be the &lt;header&gt; tag. This section 
 gives general information about the set of records being transmitted. Like the 
 batch tag, the file must contain only one &lt;header&gt;&lt;/header&gt; tag. 
 Within the header tag are other tags that identify pieces of header information. 
 </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Next 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Next 
 comes a &lt;glEntry&gt; tag. This tag contains other tags that represent the 
 fields of the origin entry table. Each &lt;glEntry&gt;&lt;/glEntry&gt; tag 
 represents one row in the origin entry table. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Following the gl entry tag is an optional &lt;detail&gt; tag. This tag 
 contains other tags that represent fields of the inter-departmental billing 
 table. Each &lt;detail&gt;&lt;/detail&gt; tag represents one row in this 
 table.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 sequence of &lt;glEntry&gt; and &lt;detail&gt; tags can repeat one or many 
 times. Since the &lt;detail&gt; tag is optional in each sequence, there can be 
-many &lt;glEntry&gt; tags <a id="popup_473915" onclick="return d2hpopup(event, this.href)" href="gloss_back.htm">back</a> to 
+many &lt;glEntry&gt; tags <a id="popup_732053" onclick="return d2hpopup(event, this.href)" href="gloss_back.htm">back</a> to 
 back. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<a id="popup_473912" onclick="return d2hpopup(event, this.href)" href="gloss_final.htm">final</a> tag required for a collector batch file is the 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<a id="popup_732050" onclick="return d2hpopup(event, this.href)" href="gloss_final.htm">final</a> tag required for a collector batch file is the 
 &lt;trailer&gt; tag. This contains tags for reconciliation of the file. The file 
 must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
-<p class="MsoNormal"><span style="FONT-FAMILY: Calibri"></span> </p>
-<p class="TableHeading">Table 73  GL XML Collector format</p>
-<table class="MsoNormalTable" style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="1">
+<p class="TableHeading" style="MARGIN-RIGHT: 0pt">GL XML Collector format</p>
+<table class="MsoNormalTable" style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-LEFT: 5.4pt; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="1">
   <tbody>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">Name</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Type</p></td>
@@ -153,13 +143,13 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">Max Size</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Required?</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells">Special Formatting</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 478.8pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="638" colspan="5">
-      <p class="TableCells"><strong><span style="FONT-FAMILY: Arial">Header</span></strong></p></td></tr>
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 468pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="624" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Header</span></strong></p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;chartOfAccountsCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -167,10 +157,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;organizationCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -178,10 +168,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">4</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;transmissionDate&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Date</p></td>
@@ -189,10 +179,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells"> </p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells">YYYY-MM-DD format </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;batchSequenceNumber&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Integer</p></td>
@@ -200,10 +190,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells"> </p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;personUserId&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -211,10 +201,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">8</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;emailAddress&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -222,10 +212,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">70</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;campusCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -233,10 +223,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;phoneNumber&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -244,10 +234,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">20</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;mailingAddress&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -255,10 +245,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">30</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;departmentName&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -266,14 +256,14 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">30</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 478.8pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="638" colspan="5">
-      <p class="TableCells"><strong><span style="FONT-FAMILY: Arial">GL 
-      Entry</span></strong></p></td></tr>
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 468pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="624" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">GL 
+  Entry</span></strong></p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;universityFiscalYear&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Integer</p></td>
@@ -281,10 +271,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">4</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;chartOfAccountsCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -292,10 +282,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;accountNumber&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -303,10 +293,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">7</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;subAccountNumber&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -314,10 +304,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">5</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;objectCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -325,10 +315,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">4</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;subObjectCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -336,10 +326,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">3</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;balanceTypeCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -347,10 +337,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;objectTypeCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -358,10 +348,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;universityFiscalAccountingPeriod&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -369,10 +359,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;documentTypeCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -380,10 +370,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">4</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;originationCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -391,10 +381,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;documentNumber&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -402,10 +392,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">14</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;transactionEntrySequenceId&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Integer</p></td>
@@ -413,10 +403,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">5</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;transactionLedgerEntryDescription&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -424,10 +414,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">40</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;transactionLedgerEntryAmount&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Decimal</p></td>
@@ -435,10 +425,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells"> </p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells">Money Format (2 decimal places)</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;debitOrCreditCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -446,10 +436,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">1</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;transactionDate&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Date</p></td>
@@ -457,10 +447,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells"> </p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells">YYYY-MM-DD Format</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;organizationDocumentNumber&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -468,10 +458,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">10</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;projectCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -479,10 +469,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">10</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;organizationReferenceId&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -490,10 +480,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">8</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;referenceDocumentTypeCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -501,10 +491,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">4</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;referenceOriginationCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -512,10 +502,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;referenceDocumentNumber&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -523,10 +513,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">14</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;documentReversalDate&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Date</p></td>
@@ -534,10 +524,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells"> </p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells">YYYY-MM-DD Format</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;encumbranceUpdateCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -545,13 +535,13 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">1</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells">Valid values are “R” and “D”</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 478.8pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="638" colspan="5">
-      <p class="TableCells"><strong><span style="FONT-FAMILY: Arial">Detail</span></strong></p></td></tr>
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 468pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="624" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Detail</span></strong></p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;universityFiscalAccountingPeriod&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -559,10 +549,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;universityFiscalYear&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Integer</p></td>
@@ -570,10 +560,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">4</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;createDate&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Date</p></td>
@@ -581,10 +571,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells"> </p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells">YYYY-MM-DD Format</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;chartOfAccountsCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -592,10 +582,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;accountNumber&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -603,10 +593,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">7</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;subAccountNumber&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -614,10 +604,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">5</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;objectCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -625,10 +615,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">4</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;subObjectCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -636,10 +626,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">3</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;collectorDetailSequenceNumber&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Integer</p></td>
@@ -647,10 +637,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;originationCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -658,10 +648,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;documentTypeCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -669,10 +659,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">4</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;documentNumber&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -680,10 +670,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">14</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;amount&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Decimal</p></td>
@@ -691,10 +681,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells"> </p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells">Money format (2 decimal places)</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;detailText&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -702,10 +692,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">120</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;createDate&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Date</p></td>
@@ -713,10 +703,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells"> </p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells">YYYY-MM-DD Format</p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;balanceTypeCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -724,10 +714,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;objectTypeCode&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Characters</p></td>
@@ -735,13 +725,13 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells">2</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">No</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 478.8pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="638" colspan="5">
-      <p class="TableCells"><strong><span style="FONT-FAMILY: Arial">Trailer</span></strong></p></td></tr>
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 468pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="624" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: 'Arial','sans-serif'">Trailer</span></strong></p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;totalRecords&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Integer</p></td>
@@ -749,10 +739,10 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells"> </p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 206.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="275">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: black 1pt solid; WIDTH: 201.1pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="268">
       <p class="TableCells">&lt;totalAmount&gt;</p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 74.35pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="99">
       <p class="TableCells">Decimal</p></td>
@@ -760,7 +750,7 @@ must contain only one &lt;trailer&gt;&lt;/trailer&gt; tag.</p>
       <p class="TableCells"> </p></td>
     <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 72.15pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 76.05pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="101">
+    <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: medium none; WIDTH: 70.65pt; PADDING-TOP: 0pt; BORDER-BOTTOM: black 1pt solid" valign="top" width="94">
       <p class="TableCells">Money format (2 decimal 
 places)</p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p>

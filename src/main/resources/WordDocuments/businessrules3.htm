@@ -92,46 +92,46 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glpostingposter.htm">G/L Posting 
 ('Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="reversalposter.htm">Reversal Poster</a></div>
 <h6>Business Rules</h6>
-<p class="MsoBodyText">This process derives the <a id="popup_485563" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
+<p class="MsoBodyText">This process derives the <a id="popup_714601" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
 year</a> and period code from the reversal date unless that period is closed, in 
 which case the current period is used. It reverses the debit/credit code of the 
-original transaction, appends the prefix 'AUTO-REVERSAL' to the <a id="popup_485564" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> description, and sets the reversal date 
+original transaction, appends the prefix 'AUTO-REVERSAL' to the <a id="popup_714604" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> description, and sets the reversal date 
 to blank. Entries are validated to ensure that there are no errors and then 
-posted to the <a id="popup_485568" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a>.</p>
+posted to the <a id="popup_714607" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a>.</p>
 <p class="MsoBodyText">Additional validation is performed on the Reversal Date 
 value:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-this date is not found in the <a id="popup_485560" onclick="return d2hpopup(event, this.href)" href="gloss_universitydate1.htm">University Date</a> table, the transaction is 
-flagged as an error (the <a id="popup_485566" onclick="return d2hpopup(event, this.href)" href="gloss_message.htm">message</a> 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+this date is not found in the <a id="popup_714599" onclick="return d2hpopup(event, this.href)" href="gloss_universitydate1.htm">University Date</a> table, the transaction is 
+flagged as an error (the <a id="popup_714605" onclick="return d2hpopup(event, this.href)" href="gloss_message.htm">message</a> 
 'DATE FROM G/L REVERSAL IS NOT IN THE UNIVERSITY DATE TABLE' is generated) and 
 reversal processing stops for this transaction.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the reversal date is not in the <a id="popup_485561" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalperiod.htm">Fiscal 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the reversal date is not in the <a id="popup_714600" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalperiod.htm">Fiscal 
 Period</a> table, the transaction is flagged as an error (the message 'REVERSAL 
 DATE IS NOT IN FISCAL PERIOD' is generated) and reversal processing stops for 
 this transaction.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the Fiscal Period has a <a id="popup_485567" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">status</a> 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the Fiscal Period has a <a id="popup_714606" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">status</a> 
 of 'CLOSED,' use the current date and fiscal period instead, unless the current 
 date is not in the University Date table.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 the current date is not in the University Date table, flag the transaction as an 
 error (the message 'CURRENT DATE IS NOT IN THE UNIVERSITY DATE TABLE' is 
 generated) and reversal processing stops for this transaction.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Following the same business rules used in the main G/L posting function, 
 the pending reversal entries (generated G/L origin entries) are evaluated to 
-determine whether or not they should be included for <a id="popup_485569" onclick="return d2hpopup(event, this.href)" href="gloss_icr.htm">ICR</a>. For 
+determine whether or not they should be included for <a id="popup_714608" onclick="return d2hpopup(event, this.href)" href="gloss_icr.htm">ICR</a>. For 
 entries that satisfy the business rules (below), G/L expense transactions are 
 generated.</p>
 <p class="MsoBodyText">Following the same business rules used in the main G/L 
 posting function, the pending reversal entries are evaluated to determine 
-whether or not they affect encumbrances. Entries that satisfy the G/L <a id="popup_485562" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">encumbrance</a> business rules (above) update 
+whether or not they affect encumbrances. Entries that satisfy the G/L <a id="popup_714602" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">encumbrance</a> business rules (above) update 
 encumbrances.</p>
-<p class="MsoBodyText">Similarly, pending reversal entries that satisfy the <a id="popup_485559" onclick="return d2hpopup(event, this.href)" href="gloss_sufficientfunds1.htm">sufficient funds</a> business rules (the same 
+<p class="MsoBodyText">Similarly, pending reversal entries that satisfy the <a id="popup_714598" onclick="return d2hpopup(event, this.href)" href="gloss_sufficientfunds1.htm">sufficient funds</a> business rules (the same 
 business rules used in the main G/L posting function) update sufficient funds 
 balances.</p>
-<p class="MsoBodyText">Pending reversal entries that satisfy the G/L <a id="popup_485565" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> balance business rules (the same business 
+<p class="MsoBodyText">Pending reversal entries that satisfy the G/L <a id="popup_714603" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a> balance business rules (the same business 
 rules used in the main G/L posting function above) update G/L account 
 balances.</p>
 <p class="RelatedHead">More:</p>

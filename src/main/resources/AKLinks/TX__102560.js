@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__102560", [["WordDocuments/administrationmenu.htm", "right", "Administration Menu"],["WordDocuments/configuration.htm", "right", "Configuration"]]);

@@ -89,48 +89,43 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
 </span><a class="d2h_breadcrumbsNormal" href="transactions.htm">Transactions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="paymentrequest.htm">Payment Request</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview24.htm">Process Overview</a></div>
 <h6>Post Processing</h6>
-<p class="MsoNormal" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18.75pt; LINE-HEIGHT: 119%; tab-stops: 36.0pt"><span style="FONT-SIZE: 8pt; COLOR: black; LINE-HEIGHT: 119%; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="COLOR: black">Unlike other <a id="popup_480940" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> 
-documents, <a id="popup_480939" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a> entries for this <a id="popup_480933" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> are created prior to <a id="popup_480936" onclick="return d2hpopup(event, this.href)" href="gloss_final.htm">final</a> 
-approval. Upon document submission to <a id="popup_480932" onclick="return d2hpopup(event, this.href)" href="gloss_workflow1.htm">Workflow</a>, <a id="popup_480931" onclick="return d2hpopup(event, this.href)" href="gloss_disencumbrance.htm">disencumbrance</a> entries and actual charges 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Unlike other <a id="popup_717996" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> 
+documents, <a id="popup_717997" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a> entries for this <a id="popup_717990" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> are created prior to <a id="popup_717994" onclick="return d2hpopup(event, this.href)" href="gloss_final.htm">final</a> 
+approval. Upon document submission to <a id="popup_717989" onclick="return d2hpopup(event, this.href)" href="gloss_workflow1.htm">Workflow</a>, <a id="popup_717988" onclick="return d2hpopup(event, this.href)" href="gloss_disencumbrance.htm">disencumbrance</a> entries and actual charges 
 are generated, written to the G/L pending entry table, and posted in the nightly 
-G/L <a id="popup_480937" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> cycle. If fiscal officers change accounting 
+G/L <a id="popup_717995" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> cycle. If fiscal officers change accounting 
 strings or redistribute the charges within their accounts, G/L entries are 
 generated to reverse the original actual entries and recreate them (encumbrances 
 are not altered) and these entries are written to the GL Pending table for 
-posting in the next batch cycle.</span></p>
-<p class="MsoNormal" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18.75pt; LINE-HEIGHT: 119%; tab-stops: 36.0pt"><span style="FONT-SIZE: 8pt; COLOR: black; LINE-HEIGHT: 119%; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="COLOR: black">Upon document submission, <a id="popup_480941" onclick="return d2hpopup(event, this.href)" href="gloss_po.htm">PO</a> line item 
+posting in the next batch cycle.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Upon 
+document submission, <a id="popup_717998" onclick="return d2hpopup(event, this.href)" href="gloss_po.htm">PO</a> line item 
 details (open quantity, amount paid, etc.) are adjusted to reflect 
-materials/services that have been paid.</span></p>
-<p class="MsoNormal" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18.75pt; LINE-HEIGHT: 119%; tab-stops: 36.0pt"><span style="FONT-SIZE: 8pt; COLOR: black; LINE-HEIGHT: 119%; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="COLOR: black">Upon document submission, the 'ap-approved' timestamp will 
-be updated.</span></p>
-<p class="MsoNormal" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18.75pt; LINE-HEIGHT: 119%; tab-stops: 36.0pt"><span style="FONT-SIZE: 8pt; COLOR: black; LINE-HEIGHT: 119%; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="COLOR: black">If the department completes all of the approvals through 
-Workflow, the <a id="popup_480929" onclick="return d2hpopup(event, this.href)" href="gloss_paymentrequeststatus1.htm">payment request status</a> is updated to 
+materials/services that have been paid.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Upon 
+document submission, the 'ap-approved' timestamp will be updated.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the department completes all of the approvals through Workflow, the <a id="popup_717986" onclick="return d2hpopup(event, this.href)" href="gloss_paymentrequeststatus1.htm">payment request status</a> is updated to 
 'Dept-Approved' during post-processing. If the document is automatically 
-approved through the batch auto-<a id="popup_480934" onclick="return d2hpopup(event, this.href)" href="gloss_approve.htm">approve</a> 
-script, its <a id="popup_480935" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">status</a> is updated to 'Auto-Approved'.</span></p>
-<p class="MsoNormal" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18.75pt; LINE-HEIGHT: 119%; tab-stops: 36.0pt"><span style="FONT-SIZE: 8pt; COLOR: black; LINE-HEIGHT: 119%; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="COLOR: black">Canceling a <a id="popup_480930" onclick="return d2hpopup(event, this.href)" href="gloss_paymentrequest1.htm">payment request</a> that has already received 
+approved through the batch auto-<a id="popup_717991" onclick="return d2hpopup(event, this.href)" href="gloss_approve.htm">approve</a> 
+script, its <a id="popup_717992" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">status</a> is updated to 'Auto-Approved'.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Canceling a <a id="popup_717987" onclick="return d2hpopup(event, this.href)" href="gloss_paymentrequest1.htm">payment request</a> that has already received 
 some level of approval will result in reversing G/L entries (encumbrances and 
-actuals) and reversing updates to the PO line <a id="popup_480938" onclick="return d2hpopup(event, this.href)" href="gloss_items.htm">items</a> 
-affected (open quantity, amount paid, etc.).</span></p>
-<table class="MsoNormalTable" style="WIDTH: 491.4pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="655" border="0">
-  <tbody>
-  <tr>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 121.8pt; PADDING-TOP: 0pt" valign="top" width="162">
-      <p class="MarginalNote-Symbol"><img src="../ImagesExt/image20_10.png" border="0" alt="" /></p></td>
-    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 369.6pt; PADDING-TOP: 0pt" valign="top" width="493">
-      <div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; MARGIN-TOP: 9pt; PADDING-LEFT: 4pt; MARGIN-BOTTOM: 6pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid">
-      <p class="Note" style="MARGIN-TOP: 0pt"><strong>The Timing of 
-      G/L</strong><strong></strong><strong></strong><strong> Update</strong></p>
-      <p class="Note" style="MARGIN-BOTTOM: 0pt">After a <span style="COLOR: black">Payment Request </span>document has been created and 
-      submitted, it updates the G/L the next time a batch process runs. Note 
-      that this timing is different from that of most KFS docs, which do not 
-      update the G/L until the document receives all approvals. If accounting 
-      entries on the document change before it reaches 'Final' status, the G/L 
-      entries is updated accordingly the next time a batch process 
-      runs.</p></div></td></tr></tbody></table>
-<p class="Center"><img src="../ImagesExt/image20_594.jpg" border="0" alt="" /></p>
-<p class="MsoCaption"><span class="CaptionFigureNumber">Figure </span><span class="CaptionFigureNumber">361</span> - P<span style="COLOR: black">ayment 
-Request</span> document workflow</p>
+actuals) and reversing updates to the PO line <a id="popup_717993" onclick="return d2hpopup(event, this.href)" href="gloss_items.htm">items</a> 
+affected (open quantity, amount paid, etc.).</p>
+<p class="Note"><strong>The Timing of 
+G/L</strong><strong></strong><strong></strong><strong> Update: 
+</strong>After a <span style="COLOR: black">Payment Request </span>document has 
+been created and submitted, it updates the G/L the next time a batch process 
+runs. Note that this timing is different from that of most KFS docs, which do 
+not update the G/L until the document receives all approvals. If accounting 
+entries on the document change before it reaches 'Final' status, the G/L entries 
+is updated accordingly the next time a batch process runs.</p>
+<p class="Center"><img alt="PURAP-PREQ Document" src="../ImagesExt/image310_585.jpg" border="0" /></p>
+<p class="MsoCaption">P<span style="COLOR: black">ayment Request</span> document 
+workflow</p>
 <p class="RelatedHead">More:</p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="initiatingapaymentrequestdocument.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Initiating a Payment Request 
 Document</a></p></div></div></body></html>
