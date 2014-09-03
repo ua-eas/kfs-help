@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Post Processing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu1.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2009.3.0.500" />
+<meta name="D2HTheme" content="(Default) v.138" />
+</head>
+<body style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 7px; OVERFLOW: hidden; PADDING-TOP: 0px; BACKGROUND-COLOR: #535353" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
+<div class="d2hNavigatorTopic" id="nsbanner">
+<div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="routing23.htm"></a><a id="D2HNextAnchor" href="initiatingapaymentrequestdocument.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="transactions.htm">Transactions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="paymentrequest.htm">Payment Request</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview24.htm">Process Overview</a></div>
+<h6>Post Processing</h6>
+<p class="MsoNormal" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18.75pt; LINE-HEIGHT: 119%; tab-stops: 36.0pt"><span style="FONT-SIZE: 8pt; COLOR: black; LINE-HEIGHT: 119%; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="COLOR: black">Unlike other <a id="popup_480940" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> 
+documents, <a id="popup_480939" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a> entries for this <a id="popup_480933" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> are created prior to <a id="popup_480936" onclick="return d2hpopup(event, this.href)" href="gloss_final.htm">final</a> 
+approval. Upon document submission to <a id="popup_480932" onclick="return d2hpopup(event, this.href)" href="gloss_workflow1.htm">Workflow</a>, <a id="popup_480931" onclick="return d2hpopup(event, this.href)" href="gloss_disencumbrance.htm">disencumbrance</a> entries and actual charges 
+are generated, written to the G/L pending entry table, and posted in the nightly 
+G/L <a id="popup_480937" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> cycle. If fiscal officers change accounting 
+strings or redistribute the charges within their accounts, G/L entries are 
+generated to reverse the original actual entries and recreate them (encumbrances 
+are not altered) and these entries are written to the GL Pending table for 
+posting in the next batch cycle.</span></p>
+<p class="MsoNormal" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18.75pt; LINE-HEIGHT: 119%; tab-stops: 36.0pt"><span style="FONT-SIZE: 8pt; COLOR: black; LINE-HEIGHT: 119%; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="COLOR: black">Upon document submission, <a id="popup_480941" onclick="return d2hpopup(event, this.href)" href="gloss_po.htm">PO</a> line item 
+details (open quantity, amount paid, etc.) are adjusted to reflect 
+materials/services that have been paid.</span></p>
+<p class="MsoNormal" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18.75pt; LINE-HEIGHT: 119%; tab-stops: 36.0pt"><span style="FONT-SIZE: 8pt; COLOR: black; LINE-HEIGHT: 119%; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="COLOR: black">Upon document submission, the 'ap-approved' timestamp will 
+be updated.</span></p>
+<p class="MsoNormal" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18.75pt; LINE-HEIGHT: 119%; tab-stops: 36.0pt"><span style="FONT-SIZE: 8pt; COLOR: black; LINE-HEIGHT: 119%; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="COLOR: black">If the department completes all of the approvals through 
+Workflow, the <a id="popup_480929" onclick="return d2hpopup(event, this.href)" href="gloss_paymentrequeststatus1.htm">payment request status</a> is updated to 
+'Dept-Approved' during post-processing. If the document is automatically 
+approved through the batch auto-<a id="popup_480934" onclick="return d2hpopup(event, this.href)" href="gloss_approve.htm">approve</a> 
+script, its <a id="popup_480935" onclick="return d2hpopup(event, this.href)" href="gloss_status.htm">status</a> is updated to 'Auto-Approved'.</span></p>
+<p class="MsoNormal" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18.75pt; LINE-HEIGHT: 119%; tab-stops: 36.0pt"><span style="FONT-SIZE: 8pt; COLOR: black; LINE-HEIGHT: 119%; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="COLOR: black">Canceling a <a id="popup_480930" onclick="return d2hpopup(event, this.href)" href="gloss_paymentrequest1.htm">payment request</a> that has already received 
+some level of approval will result in reversing G/L entries (encumbrances and 
+actuals) and reversing updates to the PO line <a id="popup_480938" onclick="return d2hpopup(event, this.href)" href="gloss_items.htm">items</a> 
+affected (open quantity, amount paid, etc.).</span></p>
+<table class="MsoNormalTable" style="WIDTH: 491.4pt; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="655" border="0">
+  <tbody>
+  <tr>
+    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 121.8pt; PADDING-TOP: 0pt" valign="top" width="162">
+      <p class="MarginalNote-Symbol"><img src="../ImagesExt/image20_10.png" border="0" alt="" /></p></td>
+    <td style="PADDING-RIGHT: 5.4pt; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0pt; WIDTH: 369.6pt; PADDING-TOP: 0pt" valign="top" width="493">
+      <div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; MARGIN-TOP: 9pt; PADDING-LEFT: 4pt; MARGIN-BOTTOM: 6pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid">
+      <p class="Note" style="MARGIN-TOP: 0pt"><strong>The Timing of 
+      G/L</strong><strong></strong><strong></strong><strong> Update</strong></p>
+      <p class="Note" style="MARGIN-BOTTOM: 0pt">After a <span style="COLOR: black">Payment Request </span>document has been created and 
+      submitted, it updates the G/L the next time a batch process runs. Note 
+      that this timing is different from that of most KFS docs, which do not 
+      update the G/L until the document receives all approvals. If accounting 
+      entries on the document change before it reaches 'Final' status, the G/L 
+      entries is updated accordingly the next time a batch process 
+      runs.</p></div></td></tr></tbody></table>
+<p class="Center"><img src="../ImagesExt/image20_594.jpg" border="0" alt="" /></p>
+<p class="MsoCaption"><span class="CaptionFigureNumber">Figure </span><span class="CaptionFigureNumber">361</span> - P<span style="COLOR: black">ayment 
+Request</span> document workflow</p>
+<p class="RelatedHead">More:</p>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="initiatingapaymentrequestdocument.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Initiating a Payment Request 
+Document</a></p></div></div></body></html>

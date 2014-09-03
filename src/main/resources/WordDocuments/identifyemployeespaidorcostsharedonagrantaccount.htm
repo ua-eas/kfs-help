@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Identify Employees Paid or Cost-shared on a Grant Account</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Maintenance.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2009.3.0.500" />
+<meta name="D2HTheme" content="(Default) v.138" />
+</head>
+<body style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 7px; OVERFLOW: hidden; PADDING-TOP: 0px; BACKGROUND-COLOR: #535353" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = false;
+
+
+
+
+
+var next = false;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
+<div class="d2hNavigatorTopic" id="nsbanner">
+<div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
+<div style="DISPLAY: none"></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="maintenancemenu.htm">Maintenance Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="effortcertification4.htm">Effort Certification</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generatingeffortcertificationreports.htm">Generating Effort Certification 
+Reports</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="extractingeffortdatafromthelaborledger.htm">Extracting Effort Data from 
+the Labor Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="extractprocessing.htm">Extract 
+Processing</a></div>
+<p class="MsoHeading7">Identify Employees Paid or Cost-shared on a Grant 
+Account</p>
+<p class="MsoBodyText">Remaining records are checked to see whether the employee 
+has been paid on or cost-shared from a grant <a id="popup_472461" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">account</a>.</p>
+<p class="MsoBodyText">An account is determined to be a grant account based on 
+either its <a id="popup_472459" onclick="return d2hpopup(event, this.href)" href="gloss_fundgroup1.htm">fund group</a> or sub fund <a id="popup_472463" onclick="return d2hpopup(event, this.href)" href="gloss_group1.htm">group</a> as 
+specified in the FUND_GROUP_DENOTES_<a id="popup_472464" onclick="return d2hpopup(event, this.href)" href="gloss_cg.htm">CG</a>_IND <a id="popup_472460" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a>. Specific fund groups or sub fund 
+groups that identify grant accounts are then identified in the CG_DENOTING_VALUE 
+parameter.</p>
+<p class="MsoBodyText">Your institution may choose to generate effort 
+certification reports only for employees paid from or cost-shared on federal or 
+<a id="popup_472457" onclick="return d2hpopup(event, this.href)" href="gloss_federalpassthrough.htm">federal pass through</a> accounts. Two 
+parameters control this:</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>FEDERAL_ONLY_BALANCE_IND indicates whether only those employees with 
+federal or federal pass through pay should be included in Effort Report.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>FEDERAL_<a id="popup_472462" onclick="return d2hpopup(event, this.href)" href="gloss_agency1.htm">AGENCY</a>_TYPE_CODE gives the federal <a id="popup_472458" onclick="return d2hpopup(event, this.href)" href="gloss_agencytype1.htm">agency type</a> code.</p>
+<p class="RelatedHead">More:</p>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="writeinformationtothebuildtable.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Write Information to the Build 
+Table</a></p></div></div></body></html>

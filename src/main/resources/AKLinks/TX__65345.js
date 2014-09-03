@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__65345", [["WordDocuments/cashreceiptstab.htm", "right", "Cash Receipts Tab"],["WordDocuments/cashreceiptstab1.htm", "right", "Cash Receipts Tab"]]);

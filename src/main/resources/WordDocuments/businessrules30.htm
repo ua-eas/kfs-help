@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Business Rules</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Main Menu1.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2009.3.0.500" />
+<meta name="D2HTheme" content="(Default) v.138" />
+</head>
+<body style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 7px; OVERFLOW: hidden; PADDING-TOP: 0px; BACKGROUND-COLOR: #535353" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
+<div class="d2hNavigatorTopic" id="nsbanner">
+<div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview24.htm"></a><a id="D2HNextAnchor" href="routing23.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="mainmenu.htm">Main Menu</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="transactions.htm">Transactions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="paymentrequest.htm">Payment Request</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview24.htm">Process Overview</a></div>
+<h6>Business Rules</h6>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Every 
+<a id="popup_480871" onclick="return d2hpopup(event, this.href)" href="gloss_paymentrequest1.htm">payment request</a> must be <a id="popup_480884" onclick="return d2hpopup(event, this.href)" href="gloss_processed.htm">processed</a> against a specific open <a id="popup_480905" onclick="return d2hpopup(event, this.href)" href="gloss_po.htm">PO</a> <a id="popup_480890" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a>. This PO must be specified when the 
+payment request is <a id="popup_480885" onclick="return d2hpopup(event, this.href)" href="gloss_initiated.htm">initiated</a>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the <a id="popup_480897" onclick="return d2hpopup(event, this.href)" href="gloss_vendor3.htm">vendor</a> number and invoice number match values 
+previously processed, a warning notifies the <a id="popup_480882" onclick="return d2hpopup(event, this.href)" href="gloss_initiator.htm">initiator</a> of the potential duplicate. Even so, 
+the system allows the initiator to override the warning and continue.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the invoice amount and invoice date match values previously processed for this 
+vendor, a warning notifies the initiator of the potential duplicate. Even so, 
+the system allows the initiator to override the warning and continue.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Expired or closed accounts warnings are provided to the <a id="popup_480901" onclick="return d2hpopup(event, this.href)" href="gloss_user.htm">user</a> according to parameters. The accounting line 
+shows current accounts being used. Refer to either the notes or the original PO 
+to see the original accounts. (Whether the warning shows to an <a id="popup_480906" onclick="return d2hpopup(event, this.href)" href="gloss_ap.htm">AP</a> user is controlled by the <a id="popup_480883" onclick="return d2hpopup(event, this.href)" href="gloss_parameter1.htm">parameter</a> SHOW_CONTINUATION_<a id="popup_480891" onclick="return d2hpopup(event, this.href)" href="gloss_account1.htm">ACCOUNT</a>_WARNING_AP_USERS_IND. Whether the warning 
+displays to the <a id="popup_480872" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalofficer.htm">fiscal officer</a> is controlled by the parameter 
+SHOW_CONTINUATION_ACCOUNT_WARNING_FISCAL_OFFICERS_IND.)</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+user may process a payment request only on lines that have an available open 
+quantity or—if the <a id="popup_480899" onclick="return d2hpopup(event, this.href)" href="gloss_items.htm">items</a> are 
+non-quantity—dollar amounts remaining.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_480892" onclick="return d2hpopup(event, this.href)" href="gloss_paydate.htm">Pay Date</a> may not be a past date. If the pay date is 
+more than 60 days in the future, a warning is received.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Discounts applied from <a id="popup_480875" onclick="return d2hpopup(event, this.href)" href="gloss_paymentterms.htm">payment terms</a> do not apply to freight or 
+shipping and handling charges.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Additional charges items that were not specifically funded on the <a id="popup_480874" onclick="return d2hpopup(event, this.href)" href="gloss_purchaseorder1.htm">purchase order</a> are allocated to accounting 
+lines in proportion to the item amounts on the purchase order.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong>calculate</strong> button must be pressed prior to submitting the 
+payment request.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_480870" onclick="return d2hpopup(event, this.href)" href="gloss_accountspayable.htm">Accounts Payable</a> can <a id="popup_480898" onclick="return d2hpopup(event, this.href)" href="gloss_close.htm">close</a> the 
+PO during the processing of an invoice if the invoice will <a id="popup_480889" onclick="return d2hpopup(event, this.href)" href="gloss_complete.htm">complete</a> the order. This indicator box is 
+available only on non-recurring orders.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+following <a id="popup_480904" onclick="return d2hpopup(event, this.href)" href="gloss_gl.htm">G/L</a> entries are created when the payment request is 
+submitted.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>Debit entry:  The expense 
+accounts (full accounting string) on the payment request are debited in the G/L 
+when the initiator submits the document. The G/L entry is made in summary for 
+each accounting string. Consequently, if three line items on a payment request 
+use the same accounting string, only one debit (not three) is created in the G/L 
+for that accounting string.)</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>Credit entry: One <a id="popup_480895" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> to <a id="popup_480877" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
+code</a> 9041 is created for each account/<a id="popup_480879" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount1.htm">sub-account</a> combination on a payment 
+request.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>During fiscal officer approval <a id="popup_480893" onclick="return d2hpopup(event, this.href)" href="gloss_routing79.htm">routing</a> of the <a id="popup_480902" onclick="return d2hpopup(event, this.href)" href="gloss_preq.htm">PREQ</a>, the 
+fiscal officer/PREQ <a id="popup_480887" onclick="return d2hpopup(event, this.href)" href="gloss_delegate.htm">delegate</a> may edit the accounts/sub-account/object 
+codes and amounts. The existing account string is reversed. The new account 
+string debits the expense and credits object code 9041, the liability 
+offset.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
+being <a id="popup_480886" onclick="return d2hpopup(event, this.href)" href="gloss_canceled.htm">canceled</a>, the G/L entries are reversed, any <a id="popup_480873" onclick="return d2hpopup(event, this.href)" href="gloss_disencumbrance.htm">disencumbrance</a> created from AP submission of 
+the payment request is reversed, and the PO open quantities that were 
+decremented from the creation of the payment request are increased. Only AP 
+users may <a id="popup_480894" onclick="return d2hpopup(event, this.href)" href="gloss_cancel.htm">cancel</a> a Payment Request document.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
+AP users may modify a payment request's pay date, <a id="popup_480881" onclick="return d2hpopup(event, this.href)" href="gloss_attachment.htm">attachment</a> flag, special handling instructions, 
+immediate pay flag and check stub notes. This action may be taken at any point 
+following AP <a id="popup_480896" onclick="return d2hpopup(event, this.href)" href="gloss_submit.htm">submit</a> and preceding extract to <a id="popup_480903" onclick="return d2hpopup(event, this.href)" href="gloss_pdp.htm">PDP</a>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Payment request searches are available to all users.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A 
+payment request that is <a id="popup_480900" onclick="return d2hpopup(event, this.href)" href="gloss_hold.htm">Hold</a> = 
+'yes' or is Request Cancel = 'yes' does not continue through <a id="popup_480888" onclick="return d2hpopup(event, this.href)" href="gloss_workflow1.htm">workflow</a> routing and cannot be paid until the 
+hold or request cancel is removed.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+payment requests total less than the threshold established by the institution 
+and do not have any accounts requiring positive approval, they may be 
+automatically approved.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
+being extracted, a payment request cannot be put on hold.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A 
+payment request is extracted for payment if the following conditions are 
+met:</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>The PREQ is 
+department-approved or auto-approved.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>The Pay Date is today or a 
+prior date or 'immediate pay' is indicated and the payment has departmental 
+approval.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>The payment is not Hold = 
+'yes'.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>If the payment request 
+includes accounts that are excluded from auto-approval, it must be 
+department-approved.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+following rules apply for allowable accounts to be charged on a PREQ. These are 
+the same rules used for the PO. The specific codes for these rules may be 
+specified via parameters.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>Only object codes with an 
+expense <a id="popup_480878" onclick="return d2hpopup(event, this.href)" href="gloss_objecttype1.htm">object type</a> (EE, ES or EX) or with <a id="popup_480880" onclick="return d2hpopup(event, this.href)" href="gloss_assettype1.htm">asset type</a> (AS) (only the level of inventory 
+(INV) are allowed for object code type AS).</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>Object codes in the 
+consolidations of Compensation (CMPN), Financial Aid (SCHL), Reserves 
+(RSRX) and Assessments Expenditures (ASEX) are not allowed.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>Object codes in the 
+levels of <a id="popup_480876" onclick="return d2hpopup(event, this.href)" href="gloss_depreciation.htm">Depreciation</a> (DEPR), Indirect Cost Expense 
+(ICOE), Valuations and Adjustments (VADJ) and Taxes (TAX) are not allowed.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>Object codes with a 
+sub-type code for Transfers (TN) are allowed.</p>
+<p class="RelatedHead">More:</p>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing23.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Routing</a></p></div></div></body></html>

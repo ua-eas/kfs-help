@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Offset Generation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link href="../Theme/nav.css" type="text/css" rel="stylesheet" /><link href="../Theme/popupmenu.css" type="text/css" rel="stylesheet" /><link href="../Theme/lf.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/C1H_HTML.css" type="text/css" rel="stylesheet" /><link href="../LinksExt/Overview.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2009.3.0.500" />
+<meta name="D2HTheme" content="(Default) v.138" />
+</head>
+<body style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 7px; OVERFLOW: hidden; PADDING-TOP: 0px; BACKGROUND-COLOR: #535353" onload="d2hOnLoadToolbar(event);" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div class="d2h_outer_topic" id="D2HTopicOuterBody" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: white">
+<div class="d2hNavigatorTopic" id="nsbanner">
+<div class="d2h_main_titlerow" id="TitleRow" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="glcorrectionprocess.htm"></a><a id="D2HNextAnchor" href="businessrules2.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div class="d2h_main_nstext" id="nstext" style="PADDING-RIGHT: 10px; PADDING-LEFT: 22px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px" valign="bottom">
+<div class="d2h_breadcrumbs" id="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General Ledger 
+(G/L)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerglprocess.htm">General Ledger G/L 
+Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactionvalidationscrubber.htm">Transaction 
+Validation ('Scrubber')</a></div>
+<h5>Offset Generation</h5>
+<p class="Center"><img src="../ImagesExt/image37_231.jpg" border="0" alt="" /></p>
+<p class="MsoCaption"><span class="CaptionFigureNumber">Figure </span><span class="CaptionFigureNumber">148</span> - <a id="popup_485338" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">Offset</a> 
+generation</p>
+<p class="MsoBodyText">'Scrubber' also ensures that all transactions are balanced, 
+and it generates required offsets with an offset generation process.</p>
+<p class="MsoBodyText">For transactions created via <a id="popup_485341" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> e-docs, 
+offsets should already be in place. The KFS ensures that these transactions are 
+balanced by automatically generating any required offsets when each <a id="popup_485337" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a> is submitted for approval. Prior to the 
+<a id="popup_485340" onclick="return d2hpopup(event, this.href)" href="gloss_batch1.htm">batch</a> process running, the offset transaction lines 
+(such as offsets to cash) may be viewed within the <strong><a id="popup_485332" onclick="return d2hpopup(event, this.href)" href="gloss_generalledger2.htm"><strong>General Ledger</strong></a> Pending 
+Entries</strong> tab of a financial transaction document.</p>
+<p class="MsoBodyText">The KFS uses the <a id="popup_485329" onclick="return d2hpopup(event, this.href)" href="gloss_offsetdefinition1.htm">Offset Definition</a> table to define how 
+offsets should be generated for unbalanced transactions. This table uses 
+information from the unbalanced transaction (such as the <a id="popup_485336" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
+year</a> and <a id="popup_485339" onclick="return d2hpopup(event, this.href)" href="gloss_chart1.htm">chart</a> the transaction is being posted to and the <a id="popup_485334" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype1.htm">balance type</a> and <a id="popup_485333" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype1.htm">document type</a> associated with the 
+transaction) to determine the <a id="popup_485335" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode1.htm">object 
+code</a> to assign to offset entries. Ledger entries created with a <a id="popup_485331" onclick="return d2hpopup(event, this.href)" href="gloss_journalvoucher1.htm">Journal Voucher</a> document type are 
+specifically excluded from the offset generation process.</p>
+<p class="MsoBodyText">Transactions created in other systems may need to have 
+offsets generated to ensure a balanced transaction. As part of the system 
+implementation process, users must verify that all <a id="popup_485330" onclick="return d2hpopup(event, this.href)" href="gloss_externalsystem.htm">external system</a> feeds into the KFS are 
+appropriately addressed in the Offset Definition table.</p>
+<p class="RelatedHead">More:</p>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="businessrules2.htm"><img alt="" src="../button.gif" align="absMiddle" border="0" />Business Rules</a></p></div></div></body></html>
