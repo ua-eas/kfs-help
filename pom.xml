@@ -57,7 +57,7 @@
         <project.scm.vendor>git</project.scm.vendor>
         <require.maven.version>3.0</require.maven.version>
     </properties>
-    
+   <!-- 
     <build>
     	<pluginManagement>
       		<plugins>
@@ -89,5 +89,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
+-->
 </project>
