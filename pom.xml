@@ -25,18 +25,18 @@
     </parent>
     <groupId>org.kuali.kfs</groupId>
     <artifactId>kfs-help</artifactId>
-    <version>4.0.0</version>
+    <version>4.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>
         The Kuali Financial System help module contains help files for the Kuali Coeus application.
     </description>
-    <url>http://${kuali.site.hostname}/kfs/kfs-help/${project.version}</url>
+    <url>http://${kuali.site.hostname}/kfs/${project.artifactId}/${project.version}</url>
     <inceptionYear>2014</inceptionYear>
     <scm>
         <connection>scm:git:https://github.com/kuali/kfs-help.git</connection>
         <developerConnection>scm:git:https://github.com/kuali/kfs-help.git</developerConnection>
         <url>https://github.com/kuali/kfs-help/tree/${project.scm.tag}</url>
-        <tag>master</tag>
+        <tag>${project.artifactId}-${project.version}</tag>
     </scm>
 
     <developers>
