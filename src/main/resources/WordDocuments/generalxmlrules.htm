@@ -91,12 +91,12 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Basics</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="batchinputfileformatspecifications.htm">Batch 
 Input File Format Specifications</a></div>
 <h4>General XML Rules </h4>
-<p class="MsoBodyText">All <a onclick="return d2hpopup(event, this.href)" id="popup_24704" href="gloss_xml.htm">xml</a> <a onclick="return d2hpopup(event, this.href)" id="popup_24702" href="gloss_batch.htm">batch</a> input files must be well formed and valid.</p>
+<p class="MsoBodyText">All <a onclick="return d2hpopup(event, this.href)" id="popup_45578" href="gloss_xml.htm">xml</a> <a onclick="return d2hpopup(event, this.href)" id="popup_45576" href="gloss_batch.htm">batch</a> input files must be well formed and valid.</p>
 <p class="MsoBodyText">To be well formed:<b> </b></p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 file must begin with the XML declaration. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<a onclick="return d2hpopup(event, this.href)" id="popup_24701" href="gloss_document.htm">document</a> must have a root element. </p>
+<a onclick="return d2hpopup(event, this.href)" id="popup_45575" href="gloss_document.htm">document</a> must have a root element. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>All 
 elements (tags) must have a closing tag. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Tags 
@@ -109,11 +109,11 @@ elements must be properly nested. </p>
 DTD or schema that defines the structure of the document (for example, the order 
 of tags, the number of tags allowed of a certain type, the type of tag content 
 accepted, etc.).</p>
-<p class="MsoBodyText">The <a onclick="return d2hpopup(event, this.href)" id="popup_24698" href="gloss_documenttype.htm">document type</a> definition or 
-schema <a onclick="return d2hpopup(event, this.href)" id="popup_24699" href="gloss_namespace.htm">namespace</a> the document adheres to must be 
+<p class="MsoBodyText">The <a onclick="return d2hpopup(event, this.href)" id="popup_45572" href="gloss_documenttype.htm">document type</a> definition or 
+schema <a onclick="return d2hpopup(event, this.href)" id="popup_45573" href="gloss_namespace.htm">namespace</a> the document adheres to must be 
 declared after the XML declaration. For example:</p>
 <p class="CodeBase"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;batch 
-xmlns="http://www.<a onclick="return d2hpopup(event, this.href)" id="popup_24703" href="gloss_kuali.htm">kuali</a>.org/modules/gl/<a onclick="return d2hpopup(event, this.href)" id="popup_24700" href="gloss_collector.htm">collector</a>" 
+xmlns="http://www.<a onclick="return d2hpopup(event, this.href)" id="popup_45577" href="gloss_kuali.htm">kuali</a>.org/modules/gl/<a onclick="return d2hpopup(event, this.href)" id="popup_45574" href="gloss_collector.htm">collector</a>" 
 xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance&gt; </span></span><b><span style="FONT-SIZE: 11pt; FONT-FAMILY: 'Arial Narrow','sans-serif'; COLOR: #999999"></span></b></p>
 <p class="MsoBodyText">The following rules apply to tags:</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A tag 
@@ -127,7 +127,7 @@ should not be empty. If the field is not required, do not render the tag
 element. For example:</p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;organizationCode&gt;&lt;/organizationCode&gt;</span></span> 
 will cause an error.</p>
-<p class="Note"><img title="Description: exclaim" border="0" alt="Description: exclaim" src="../ImagesExt/image158_4.png" />     
+<p class="Note"><img title="exclaim" border="0" alt="exclaim" src="../ImagesExt/image158_4.png" />     
 <strong>Warning</strong>: Watch out for invalid XML characters. Any character 
 that is used in markup must be within a CDATA block if used inside a tag. A 
 CDATA block starts with &lt;![CDATA [and ends with ]]&gt;. Any text inside the 
