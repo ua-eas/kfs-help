@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>ICR Encumbrances</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_2 Core_Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS Core_Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -22,7 +22,7 @@ var _needIndentation = false;
 <meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
 <meta name="D2HTheme" content="(Default) v.155" />
 </head>
-<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -71,10 +71,10 @@ if (typeof d2hLoadNavUrls != "undefined")
 
 //]]></script>
 
-<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; WIDTH: 100%; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
-<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="icrincomeandexpensetransactionbusinessrules.htm"></a><a id="D2HNextAnchor" href="posteroutputsummary.htm"></a></div></div>
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="icrencumbrancecalculationandpostingicrencumbranceposter.htm"></a><a id="D2HNextAnchor" href="icrencumbrancetransactionbusinessrules.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -85,25 +85,35 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 
 //]]></script>
 </div>
-<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
 &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
-Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glpostingposter.htm">GL Posting ('Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="icrcalculationandpostingicrposter.htm">ICR Calculation and Posting ('ICR 
-Poster')</a></div>
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glpostingposter.htm">GL Posting ('Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="icrencumbrancecalculationandpostingicrencumbranceposter.htm">ICR 
+Encumbrance Calculation and Posting ('ICR Encumbrance Poster')</a></div>
 <h6>ICR Encumbrances</h6>
-<p class="MsoBodyText">This is the second step in the reversal and calculation of 
-<a id="popup_357875" onclick="return d2hpopup(event, this.href)" href="gloss_icr.htm">ICR</a> encumbrances. The process retrieves all GL 
-encumbrances that do not have an ICEN <a id="popup_357864" onclick="return d2hpopup(event, this.href)" href="gloss_documenttype.htm">document type</a> (non-ICR encumbrances). It 
-groups these by <a id="popup_357869" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal year</a>, <a id="popup_357874" onclick="return d2hpopup(event, this.href)" href="gloss_chart.htm">chart</a>, <a id="popup_357872" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">account</a>, <a id="popup_357868" onclick="return d2hpopup(event, this.href)" href="gloss_subaccount.htm">sub-account</a>, <a id="popup_357867" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode.htm">object 
-code</a>, sub object code and <a id="popup_357865" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype.htm">balance 
-type</a> code. It sums the <a id="popup_357866" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">encumbrance</a> amount and sums the encumbrance <a id="popup_357873" onclick="return d2hpopup(event, this.href)" href="gloss_close.htm">close</a> amount for this grouping.</p>
-<p class="MsoBodyText">ICR then is <a id="popup_357870" onclick="return d2hpopup(event, this.href)" href="gloss_processed.htm">processed</a> on each row as described above for <a href="icrexpenseandincomeentries.htm">ICR Expense and Income Entries</a>, 
-effectively calculating indirect cost on the amount of the encumbrance that 
-remains open for each grouping. After ICR entries have been calculated, the 
-process posts them to the GL.</p>
-<p class="MsoBodyText">In order for the ICR encumbrances to be processed, the 
-system <a id="popup_357871" onclick="return d2hpopup(event, this.href)" href="gloss_parameter.htm">parameter</a> USE_ICR_INDICATOR must be set to 'Y.' 
-</p>
+<p class="MsoBodyText">The process retrieves all GL encumbrances whose balance 
+types are included in <a onclick="return d2hpopup(event, this.href)" id="popup_25119" href="gloss_parameter.htm">parameter</a> 
+INDIRECT_COST_RECOVERY_<a onclick="return d2hpopup(event, this.href)" id="popup_25116" href="gloss_encumbrance.htm">ENCUMBRANCE</a>_BALANCE_TYPES. </p>
+<p class="MsoBodyText"><a onclick="return d2hpopup(event, this.href)" id="popup_25120" href="gloss_icr.htm">ICR</a> is calculated for each  
+encumbrance as described above for <a href="icrexpenseandincomeentries.htm">ICR 
+Expense and Income Entries</a>, effectively calculating indirect cost on the 
+amount of the outstanding encumbrance. .</p>
+<p class="MsoBodyText">In order for the ICR encumbrances to be <a onclick="return d2hpopup(event, this.href)" id="popup_25118" href="gloss_processed.htm">processed</a>, the system parameter USE_ICR_INDICATOR 
+must be set to 'Y.' </p>
+<p class="MsoBodyText">For generated entries, the accounting string is the same as 
+the values of the original encumbrance with the following exceptions:</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Transaction Ledger Entry Description: ICR Encumbrance &lt;<a onclick="return d2hpopup(event, this.href)" id="popup_25115" href="gloss_documenttype.htm">Document Type</a> and <a onclick="return d2hpopup(event, this.href)" id="popup_25114" href="gloss_documentnumber.htm">Document Number</a>&gt;. </p>
+<p class="Noteindented"><img title="Description: go-arrow-red" alt="Description: go-arrow-red" src="../ImagesExt/image168_36.jpg" />     For example: ICR 
+Encumbrance <a onclick="return d2hpopup(event, this.href)" id="popup_25121" href="gloss_po.htm">PO</a> 23253. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a onclick="return d2hpopup(event, this.href)" id="popup_25117" href="gloss_objectcode.htm">Object Code</a> will be the one associated with the 
+ICR Rate. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Origin Code will be the value contained in 
+INDIRECT_COST_RECOVERY_ENCUMBRANCE_ORIGINATION. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+amount of the ICR transaction is set to the outstanding encumbrance amount times 
+the ICR percent identified on the table.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="posteroutputsummary.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Poster Output 
-Summary</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="icrencumbrancetransactionbusinessrules.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />ICR Encumbrance Transaction Business 
+Rules</a></p></span></div></div></body></html>

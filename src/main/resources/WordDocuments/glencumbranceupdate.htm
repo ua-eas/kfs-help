@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>GL Encumbrance Update</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_2 Core_Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS Core_Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -22,7 +22,7 @@ var _needIndentation = false;
 <meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
 <meta name="D2HTheme" content="(Default) v.155" />
 </head>
-<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -71,9 +71,9 @@ if (typeof d2hLoadNavUrls != "undefined")
 
 //]]></script>
 
-<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; WIDTH: 100%; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
-<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
 <div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="glbalanceupdate.htm"></a><a id="D2HNextAnchor" href="openandclosedencumbranceamounts.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
@@ -85,7 +85,7 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 
 //]]></script>
 </div>
-<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
 &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
 Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glpostingposter.htm">GL Posting ('Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glaccountbalancepostingmainposter.htm">GL Account Balance Posting ('Main 
@@ -93,15 +93,14 @@ Poster')</a></div>
 <h6>GL Encumbrance Update</h6>
 <p class="MsoBodyText">The GL posting function evaluates the pending ledger 
 entries to determine whether they affect encumbrances. For entries that satisfy 
-all the following business rules (see the <a id="popup_357740" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">Encumbrance</a> Update Business Rules table in <a href="openandclosedencumbranceamounts.htm">Open and Closed Encumbrance 
+all the following business rules (see the <a onclick="return d2hpopup(event, this.href)" id="popup_24987" href="gloss_encumbrance.htm">Encumbrance</a> Update Business Rules table in <a href="openandclosedencumbranceamounts.htm">Open and Closed Encumbrance 
 Amounts</a>), the GL Encumbrance table is updated:</p>
-<p class="MsoBodyText"><span style="DISPLAY: none; COLOR: green"></span> </p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Transaction <a id="popup_357737" onclick="return d2hpopup(event, this.href)" href="gloss_encumbranceupdatecode.htm">encumbrance update code</a> must be 'D' 
-(<a id="popup_357742" onclick="return d2hpopup(event, this.href)" href="gloss_document.htm">document</a>) or 'R' (<a id="popup_357738" onclick="return d2hpopup(event, this.href)" href="gloss_referencedocument.htm">reference document</a>).</p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_357741" onclick="return d2hpopup(event, this.href)" href="gloss_objecttype.htm">Object type</a> must not be a <a id="popup_357743" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a> 
-balance object type.</p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_357739" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype.htm">Balance type</a> must be identified as an 
+<p class="MsoBodyText"><span style="COLOR: green; DISPLAY: none"></span> </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Transaction <a onclick="return d2hpopup(event, this.href)" id="popup_24984" href="gloss_encumbranceupdatecode.htm">encumbrance update code</a> must be 'D' 
+(<a onclick="return d2hpopup(event, this.href)" id="popup_24989" href="gloss_document.htm">document</a>) or 'R' (<a onclick="return d2hpopup(event, this.href)" id="popup_24985" href="gloss_referencedocument.htm">reference document</a>).</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a onclick="return d2hpopup(event, this.href)" id="popup_24988" href="gloss_objecttype.htm">Object type</a> must not be a <a onclick="return d2hpopup(event, this.href)" id="popup_24990" href="gloss_fund.htm">fund</a> balance object type.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a onclick="return d2hpopup(event, this.href)" id="popup_24986" href="gloss_balancetype.htm">Balance type</a> must be identified as an 
 encumbrance on the Balance Type table.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="openandclosedencumbranceamounts.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Open and Closed Encumbrance 

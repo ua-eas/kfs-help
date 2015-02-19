@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Fiscal Year Maker</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_2 Overview_Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS Overview_Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -22,7 +22,7 @@ var _needIndentation = false;
 <meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
 <meta name="D2HTheme" content="(Default) v.155" />
 </head>
-<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -71,9 +71,9 @@ if (typeof d2hLoadNavUrls != "undefined")
 
 //]]></script>
 
-<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; WIDTH: 100%; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
-<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
 <div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="editingamaintenancedocument.htm"></a><a id="D2HNextAnchor" href="extendedattributes.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
@@ -85,53 +85,51 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 
 //]]></script>
 </div>
-<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
 </span><a class="d2h_breadcrumbsNormal" href="maintenanceedocfundamentals.htm">Maintenance E-Doc Fundamentals</a></div>
 <h3>Fiscal Year Maker</h3>
-<p class="MsoBodyText">This <a id="popup_357017" onclick="return d2hpopup(event, this.href)" href="gloss_batch.htm">batch</a> job 
-(<a id="popup_357019" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a>-SYS fiscalYearMakerJob) copies table values that 
-are specific to a <a id="popup_357014" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal year</a> into another fiscal year. Generally 
-this job is used to <a id="popup_357018" onclick="return d2hpopup(event, this.href)" href="gloss_copy.htm">copy</a> 
-values in maintenance tables from the current fiscal year into the next fiscal 
-year to prepare those tables for future use. Some modules, such as Budget 
-Construction, may require that these tables be updated with next fiscal year's 
-values well before the end of the current fiscal year.</p>
+<p class="MsoBodyText">This <a onclick="return d2hpopup(event, this.href)" id="popup_24276" href="gloss_batch.htm">batch</a> job (<a onclick="return d2hpopup(event, this.href)" id="popup_24279" href="gloss_kfs.htm">KFS</a>-SYS fiscalYearMakerJob) copies table values that 
+are specific to a <a onclick="return d2hpopup(event, this.href)" id="popup_24272" href="gloss_fiscalyear.htm">fiscal year</a> into another fiscal year. Generally 
+this job is used to <a onclick="return d2hpopup(event, this.href)" id="popup_24278" href="gloss_copy.htm">copy</a> values in maintenance tables from 
+the current fiscal year into the next fiscal year to prepare those tables for 
+future use. Some modules, such as Budget Construction, may require that these 
+tables be updated with next fiscal year's values well before the end of the 
+current fiscal year.</p>
 <p class="MsoBodyText">Two parameters are used to control the Fiscal Year Maker 
 process:</p>
-<p style="TEXT-INDENT: -18pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol; FONT-SIZE: 8.5pt"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-SIZE: 8.5pt; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>KFS-SYS SOURCE_FISCAL_YEAR controls the fiscal year for which the Fiscal 
 Year Maker batch process will copy certain maintenance table data to the next 
-sequential year.<span style="FONT-FAMILY: 'Verdana','sans-serif'; FONT-SIZE: 8.5pt"></span></p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+sequential year.<span style="FONT-SIZE: 8.5pt; FONT-FAMILY: 'Verdana','sans-serif'"></span></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>KFS-SYS OVERRIDE_TARGET_YEAR_DATA_IND has a 'Y' or 'N' indicator that 
 controls the mode in which the Fiscal Year Maker's batch process runs.</p>
-<p style="tab-stops: 36.0pt 54.0pt" class="C1HBullet2A"><span style="FONT-FAMILY: 'Courier New'">o  </span>'N' copies values to the new 
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>'N' copies values to the new 
 fiscal year without overwriting any values that already exist in the new 
 year.</p>
-<p style="tab-stops: 36.0pt 54.0pt" class="C1HBullet2A"><span style="FONT-FAMILY: 'Courier New'">o  </span>'Y' copies values to the new 
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>'Y' copies values to the new 
 fiscal year and overwrites any values that already exist in the new year.</p>
 <p class="MsoBodyText">Fiscal Year Maker impacts the following maintenance 
 tables.</p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_357002" onclick="return d2hpopup(event, this.href)" href="gloss_accountsreceivable.htm">Accounts Receivable</a> tables:<br /><a id="popup_357011" onclick="return d2hpopup(event, this.href)" href="gloss_organization.htm">Organization</a> Accounting Default <br />System 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a onclick="return d2hpopup(event, this.href)" id="popup_24262" href="gloss_accountsreceivable.htm">Accounts Receivable</a> tables:<br /><a onclick="return d2hpopup(event, this.href)" id="popup_24271" href="gloss_organization.htm">Organization</a> Accounting Default <br />System 
 Information</p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Capital Assets tables:<br /><a id="popup_357016" onclick="return d2hpopup(event, this.href)" href="gloss_asset.htm">Asset</a> <a id="popup_357012" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode.htm">Object Code</a></p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_357004" onclick="return d2hpopup(event, this.href)" href="gloss_chartofaccounts.htm">Chart of Accounts</a> tables:<br /><a id="popup_357003" onclick="return d2hpopup(event, this.href)" href="gloss_accountingperiod.htm">Accounting Period</a> <br />Indirect Cost 
-Recovery Rate <br />Indirect Cost Recovery Rate Detail <br />Object Code <br /><a id="popup_357005" onclick="return d2hpopup(event, this.href)" href="gloss_offsetdefinition.htm">Offset Definition</a> <br /><a id="popup_357001" onclick="return d2hpopup(event, this.href)" href="gloss_organizationreversion.htm">Organization Reversion</a> 
-<br />Organization <a id="popup_357015" onclick="return d2hpopup(event, this.href)" href="gloss_reversion.htm">Reversion</a> Detail <br /><a id="popup_357007" onclick="return d2hpopup(event, this.href)" href="gloss_subobjectcode.htm">Sub-Object Code</a></p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Capital Assets tables:<br /><a onclick="return d2hpopup(event, this.href)" id="popup_24277" href="gloss_asset.htm">Asset</a> <a onclick="return d2hpopup(event, this.href)" id="popup_24274" href="gloss_objectcode.htm">Object Code</a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a onclick="return d2hpopup(event, this.href)" id="popup_24264" href="gloss_chartofaccounts.htm">Chart of Accounts</a> tables:<br /><a onclick="return d2hpopup(event, this.href)" id="popup_24263" href="gloss_accountingperiod.htm">Accounting Period</a> <br />Indirect Cost 
+Recovery Rate <br />Indirect Cost Recovery Rate Detail <br />Object Code <br /><a onclick="return d2hpopup(event, this.href)" id="popup_24265" href="gloss_offsetdefinition.htm">Offset Definition</a> <br /><a onclick="return d2hpopup(event, this.href)" id="popup_24261" href="gloss_organizationreversion.htm">Organization Reversion</a> 
+<br />Organization <a onclick="return d2hpopup(event, this.href)" id="popup_24275" href="gloss_reversion.htm">Reversion</a> Detail <br /><a onclick="return d2hpopup(event, this.href)" id="popup_24268" href="gloss_subobjectcode.htm">Sub-Object Code</a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Effort Certification tables:<br />Effort Certification Report Definition 
 <br />Effort Certification Report Earn Paygroup <br />Effort Certification Report 
 Position</p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Financial tables:<br /><a id="popup_357000" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyearfunctioncontrol.htm">Fiscal Year Function Control</a> 
-<br /><a id="popup_357006" onclick="return d2hpopup(event, this.href)" href="gloss_travelperdiem.htm">Travel Per Diem</a> <br /><a id="popup_357013" onclick="return d2hpopup(event, this.href)" href="gloss_wirecharge.htm">Wire 
-Charge</a></p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_357010" onclick="return d2hpopup(event, this.href)" href="gloss_generalledger.htm">General Ledger</a> tables:<br /><a id="popup_357008" onclick="return d2hpopup(event, this.href)" href="gloss_universitydate.htm">University Date</a></p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Labor 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Financial tables:<br /><a onclick="return d2hpopup(event, this.href)" id="popup_24260" href="gloss_fiscalyearfunctioncontrol.htm">Fiscal Year Function 
+Control</a> <br /><a onclick="return d2hpopup(event, this.href)" id="popup_24267" href="gloss_travelperdiem.htm">Travel Per Diem</a> <br /><a onclick="return d2hpopup(event, this.href)" id="popup_24273" href="gloss_wirecharge.htm">Wire Charge</a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a onclick="return d2hpopup(event, this.href)" id="popup_24270" href="gloss_generalledger.htm">General Ledger</a> tables:<br /><a onclick="return d2hpopup(event, this.href)" id="popup_24266" href="gloss_universitydate.htm">University Date</a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Labor 
 tables:<br />Benefits Calculation <br />Labor Object <br />Position Object Benefit</p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>System tables:<br /><a id="popup_357009" onclick="return d2hpopup(event, this.href)" href="gloss_systemoptions.htm">System Options</a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>System tables:<br /><a onclick="return d2hpopup(event, this.href)" id="popup_24269" href="gloss_systemoptions.htm">System Options</a></p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="extendedattributes.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Extended Attributes</a></p></span></div></div></body></html>

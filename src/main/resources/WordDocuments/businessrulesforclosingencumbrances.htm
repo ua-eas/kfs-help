@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules for Closing Encumbrances</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_2 Core_Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS Core_Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -22,7 +22,7 @@ var _needIndentation = false;
 <meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
 <meta name="D2HTheme" content="(Default) v.155" />
 </head>
-<body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -71,9 +71,9 @@ if (typeof d2hLoadNavUrls != "undefined")
 
 //]]></script>
 
-<div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; WIDTH: 100%; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
-<div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
 <div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="closingencumbrances.htm"></a><a id="D2HNextAnchor" href="businessrulesforcostsharecarryforwardencumbrances.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
@@ -85,32 +85,28 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 
 //]]></script>
 </div>
-<div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
+<div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
 &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
 Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="yearendprocesses.htm">Year-End 
 Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="closingencumbrances.htm">Closing 
 Encumbrances</a></div>
 <h5>Business Rules for Closing Encumbrances</h5>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a id="popup_357960" onclick="return d2hpopup(event, this.href)" href="gloss_internalencumbrance.htm">Internal encumbrance</a>, <a id="popup_357961" onclick="return d2hpopup(event, this.href)" href="gloss_externalencumbrance.htm">external encumbrance</a> and <a id="popup_357962" onclick="return d2hpopup(event, this.href)" href="gloss_preencumbrance.htm">pre-encumbrance</a> balance types are eligible 
-for <a id="popup_357970" onclick="return d2hpopup(event, this.href)" href="gloss_close.htm">close</a>.</p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Internal encumbrances for labor distributions <a id="popup_357963" onclick="return d2hpopup(event, this.href)" href="gloss_balancetype.htm">balance 
-type</a>/origin code (as defined in the <a id="popup_357968" onclick="return d2hpopup(event, this.href)" href="gloss_parameter.htm">parameter</a> FORWARD_<a id="popup_357964" onclick="return d2hpopup(event, this.href)" href="gloss_encumbrance.htm">ENCUMBRANCE</a>_BALANCE_TYPE_AND_ORIGIN_CODE) 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a onclick="return d2hpopup(event, this.href)" id="popup_25223" href="gloss_internalencumbrance.htm">Internal encumbrance</a>, <a onclick="return d2hpopup(event, this.href)" id="popup_25224" href="gloss_externalencumbrance.htm">external encumbrance</a> and <a onclick="return d2hpopup(event, this.href)" id="popup_25225" href="gloss_preencumbrance.htm">pre-encumbrance</a> balance types are eligible 
+for <a onclick="return d2hpopup(event, this.href)" id="popup_25233" href="gloss_close.htm">close</a>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Internal encumbrances for labor distributions <a onclick="return d2hpopup(event, this.href)" id="popup_25226" href="gloss_balancetype.htm">balance type</a>/origin code (as defined in the <a onclick="return d2hpopup(event, this.href)" id="popup_25231" href="gloss_parameter.htm">parameter</a> FORWARD_<a onclick="return d2hpopup(event, this.href)" id="popup_25228" href="gloss_encumbrance.htm">ENCUMBRANCE</a>_BALANCE_TYPE_AND_ORIGIN_CODE) 
 combinations are ineligible.</p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Pre-encumbrances related to <a id="popup_357971" onclick="return d2hpopup(event, this.href)" href="gloss_cg.htm">CG</a> balance 
-type/<a id="popup_357967" onclick="return d2hpopup(event, this.href)" href="gloss_fundgroup.htm">fund group</a> combinations are eligible to be 
-carried forward into the new <a id="popup_357966" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
-year</a>.</p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Pre-encumbrances related to <a onclick="return d2hpopup(event, this.href)" id="popup_25234" href="gloss_cg.htm">CG</a> balance type/<a onclick="return d2hpopup(event, this.href)" id="popup_25230" href="gloss_fundgroup.htm">fund group</a> combinations are eligible to be 
+carried forward into the new <a onclick="return d2hpopup(event, this.href)" id="popup_25227" href="gloss_fiscalyear.htm">fiscal year</a>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Encumbrances that do not have a zero balance are eligible.</p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<a id="popup_357965" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode.htm">object code</a> must be valid.</p>
-<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<a onclick="return d2hpopup(event, this.href)" id="popup_25229" href="gloss_objectcode.htm">object code</a> must be valid.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 the unit of work qualifies for closing encumbrances, the encumbrance beginning 
-balance entry and its corresponding <a id="popup_357969" onclick="return d2hpopup(event, this.href)" href="gloss_offset.htm">offset</a> 
-are created as GL pending entries.</p>
+balance entry and its corresponding <a onclick="return d2hpopup(event, this.href)" id="popup_25232" href="gloss_offset.htm">offset</a> are created as GL pending entries.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="businessrulesforcostsharecarryforwardencumbrances.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Business Rules for Cost Share Carry 
 Forward Encumbrances</a></p></span></div></div></body></html>
