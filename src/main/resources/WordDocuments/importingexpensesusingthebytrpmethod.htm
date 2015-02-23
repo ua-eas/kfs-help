@@ -86,37 +86,39 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="systemadministration.htm">System Administration</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="tembatchprocesses.htm">TEM Batch Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="importingexpensesfromtravelagenciesandcreditcards.htm">Importing Expenses 
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="travelentertainmentandmoving.htm">Travel, Entertainment and 
+Moving</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="tembatchprocesses.htm">TEM Batch 
+Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="importingexpensesfromtravelagenciesandcreditcards.htm">Importing Expenses 
 from Travel Agencies and Credit Cards</a></div>
 <h4>Importing Expenses using the By TRP Method</h4>
 <p class="C1HNumber" style="tab-stops: 36.0pt">1.    Traveler 
-creates a <a onclick="return d2hpopup(event, this.href)" id="popup_40340" href="gloss_travelauthorization.htm">Travel Authorization</a> and it’s approved 
-to <a onclick="return d2hpopup(event, this.href)" id="popup_40350" href="gloss_final.htm">Final</a>. </p>
+creates a <a onclick="return d2hpopup(event, this.href)" id="popup_55723" href="gloss_travelauthorization.htm">Travel Authorization</a> and it’s approved 
+to <a onclick="return d2hpopup(event, this.href)" id="popup_55733" href="gloss_final.htm">Final</a>. </p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">2.    Traveler 
-contacts the Travel <a onclick="return d2hpopup(event, this.href)" id="popup_40348" href="gloss_agency.htm">Agency</a> and provides the <a onclick="return d2hpopup(event, this.href)" id="popup_40352" href="gloss_tem.htm">TEM</a> Doc #, the departmental <a onclick="return d2hpopup(event, this.href)" id="popup_40347" href="gloss_account.htm">account</a> number and uses the Agency link to make 
+contacts the Travel <a onclick="return d2hpopup(event, this.href)" id="popup_55731" href="gloss_agency.htm">Agency</a> and provides the <a onclick="return d2hpopup(event, this.href)" id="popup_55735" href="gloss_tem.htm">TEM</a> Doc #, the departmental <a onclick="return d2hpopup(event, this.href)" id="popup_55730" href="gloss_account.htm">account</a> number and uses the Agency link to make 
 reservations. </p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">3.    The Agency 
-charges the <a onclick="return d2hpopup(event, this.href)" id="popup_40351" href="gloss_cts.htm">CTS</a> Credit Card (Ghost card associated with an 
+charges the <a onclick="return d2hpopup(event, this.href)" id="popup_55734" href="gloss_cts.htm">CTS</a> Credit Card (Ghost card associated with an 
 institutional clearing account). </p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">4.    The Credit 
 Card company invoices the institution for charges made by the Agency (for 
 example, orbitz, hotels.com). </p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">5.    <a onclick="return d2hpopup(event, this.href)" id="popup_40342" href="gloss_accountspayable.htm">Accounts Payable</a> pays the Agency via their 
+<p class="C1HNumber" style="tab-stops: 36.0pt">5.    <a onclick="return d2hpopup(event, this.href)" id="popup_55725" href="gloss_accountspayable.htm">Accounts Payable</a> pays the Agency via their 
 clearing account. </p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">6.    The Agency 
 sends the institution a cxml file to the institution with the trip and traveler 
 details. </p>
-<p class="Noteindented"><img title="Description: Description: go-arrow-red" border="0" alt="Description: Description: go-arrow-red" src="../ImagesExt/image161_2.jpg" />     For the file layout, 
+<p class="Noteindented"><img title="Description: go-arrow-red" border="0" alt="Description: go-arrow-red" src="../ImagesExt/image161_2.jpg" />     For the file layout, 
 see <a href="travelagencydatauploadformat.htm">Travel Agency Data Upload 
 Format</a>.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">7.    The Credit 
 Card company sends a cxml file to the institution with the trip details. </p>
-<p class="Noteindented" style="MARGIN-LEFT: 36pt; TEXT-INDENT: 0pt"><img title="Description: Description: go-arrow-red" border="0" alt="Description: Description: go-arrow-red" src="../ImagesExt/image161_2.jpg" />     For the file layout, 
+<p class="Noteindented" style="MARGIN-LEFT: 36pt; TEXT-INDENT: 0pt"><img title="Description: go-arrow-red" border="0" alt="Description: go-arrow-red" src="../ImagesExt/image161_2.jpg" />     For the file layout, 
 see <a href="creditcarddatauploadformat.htm">Credit Card Data Upload 
 Format</a>.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">8.    The <a href="tembatchprocesses.htm">creditCardDataImportJob</a> and <a href="tembatchprocesses.htm">agencyDataImportJob</a> and are run in this order. 
 These jobs match the agency records to the credit card records.</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span><a onclick="return d2hpopup(event, this.href)" id="popup_40345" href="gloss_temdoc.htm">TEM Doc #</a> and account and <a onclick="return d2hpopup(event, this.href)" id="popup_40344" href="gloss_subaccount.htm">sub-account</a> must match. </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span><a onclick="return d2hpopup(event, this.href)" id="popup_55728" href="gloss_temdoc.htm">TEM Doc #</a> and account and <a onclick="return d2hpopup(event, this.href)" id="popup_55727" href="gloss_subaccount.htm">sub-account</a> must match. </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>Airline Record:</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 36.0pt 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>tripInvoiceNumber must be unique and 
 match Credit Card ticketNumber. </p>
@@ -143,13 +145,13 @@ and match Credit Card itineraryNumber</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">9.    If the match 
 is successful:</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>Expenses are imported into the 
-TEM <a onclick="return d2hpopup(event, this.href)" id="popup_40346" href="gloss_document.htm">Document</a> and display in the <a onclick="return d2hpopup(event, this.href)" id="popup_40341" href="gloss_importedexpenses.htm">Imported Expenses</a> section of the Actual 
+TEM <a onclick="return d2hpopup(event, this.href)" id="popup_55729" href="gloss_document.htm">Document</a> and display in the <a onclick="return d2hpopup(event, this.href)" id="popup_55724" href="gloss_importedexpenses.htm">Imported Expenses</a> section of the Actual 
 Expenses or Expenses tab. </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span><a onclick="return d2hpopup(event, this.href)" id="popup_40343" href="gloss_generalledger.htm">General Ledger</a> Pending Entries are generated 
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span><a onclick="return d2hpopup(event, this.href)" id="popup_55726" href="gloss_generalledger.htm">General Ledger</a> Pending Entries are generated 
 to transfer the expense from the institutional clearing account to the 
 departmental account. </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>An email will be sent to the 
-<a onclick="return d2hpopup(event, this.href)" id="popup_40349" href="gloss_payee.htm">payee</a> or traveler notifying them that an expense has 
+<a onclick="return d2hpopup(event, this.href)" id="popup_55732" href="gloss_payee.htm">payee</a> or traveler notifying them that an expense has 
 been reconciled to their TEM Document. </p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">10.  Agency Data errors can be 
 corrected using the <a href="travelagencyauditandcorrection.htm">Travel Agency 

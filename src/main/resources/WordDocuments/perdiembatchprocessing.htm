@@ -86,24 +86,26 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="systemadministration.htm">System Administration</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="tembatchprocesses.htm">TEM Batch Processes</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="travelentertainmentandmoving.htm">Travel, Entertainment and 
+Moving</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="tembatchprocesses.htm">TEM Batch 
+Processes</a></div>
 <h3>Per Diem Batch Processing</h3>
 <p class="MsoNormal">The following rules apply regardless of the type of the file 
 that is loaded. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Per 
 Diem files should only be loaded when a new per diem file has been issued by the 
-federal government. The <a onclick="return d2hpopup(event, this.href)" id="popup_40324" href="gloss_batch.htm">batch</a> process will prevent duplicate 
+federal government. The <a onclick="return d2hpopup(event, this.href)" id="popup_55707" href="gloss_batch.htm">batch</a> process will prevent duplicate 
 uploads and old records will have the Effective To Date set to end the rate with 
-a date earlier than the new Effective From Date. <a onclick="return d2hpopup(event, this.href)" id="popup_40319" href="gloss_parameter.htm">Parameter</a> DEFAULT_EFFECTIVE_TO_DATE is used when 
+a date earlier than the new Effective From Date. <a onclick="return d2hpopup(event, this.href)" id="popup_55702" href="gloss_parameter.htm">Parameter</a> DEFAULT_EFFECTIVE_TO_DATE is used when 
 a valid effective to date does not exist. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Although the federal data includes both Season <a onclick="return d2hpopup(event, this.href)" id="popup_40320" href="gloss_enddate.htm">End Date</a> and Expiration Date, this data is not 
+</span>Although the federal data includes both Season <a onclick="return d2hpopup(event, this.href)" id="popup_55703" href="gloss_enddate.htm">End Date</a> and Expiration Date, this data is not 
 loaded into the Per Diem tables. Instead, the system assumes that each Season 
 Begin Date is effective unless there is a record with a newer Season Begin Date 
 and the Expiration Date is not used in favor of an Effective To date.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-loading <a onclick="return d2hpopup(event, this.href)" id="popup_40323" href="gloss_conus.htm">CONUS</a> data, the system breaks down local_meals value 
-into breakfast, lunch, dinner, and <a onclick="return d2hpopup(event, this.href)" id="popup_40318" href="gloss_incidentals.htm">incidentals</a> according to the percentages 
+loading <a onclick="return d2hpopup(event, this.href)" id="popup_55706" href="gloss_conus.htm">CONUS</a> data, the system breaks down local_meals value 
+into breakfast, lunch, dinner, and <a onclick="return d2hpopup(event, this.href)" id="popup_55701" href="gloss_incidentals.htm">incidentals</a> according to the percentages 
 specified in the <a href="perdiemmealsandincidentalsbreakdown.htm">Per Diem 
 Meals and Incidentals Breakdown</a> table for the applicable total. If there 
 isn’t a match in the table to the total specified in the CONUS record, the 
@@ -111,19 +113,19 @@ system uses the value specified in your institution’s CONUS_MEAL_BREAKDOWN
 parameter to obtain the percentages applied to breakfast, lunch and dinner. The 
 remaining amount is entered in the incidentals field.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-loading <a onclick="return d2hpopup(event, this.href)" id="popup_40322" href="gloss_oconus.htm">OCONUS</a> data the system uses the local_meals value to 
+loading <a onclick="return d2hpopup(event, this.href)" id="popup_55705" href="gloss_oconus.htm">OCONUS</a> data the system uses the local_meals value to 
 determine breakfast, lunch and dinner based on the values stored in your 
 institution’s OCONUS_MEALS_BREAKDOWN parameter (for example, B=15;L=25;D=40, 
 which represent the percentages for breakfast, lunch and dinner, respectively). 
 The remaining amount is entered in the incidentals field. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<a onclick="return d2hpopup(event, this.href)" id="popup_40321" href="gloss_country.htm">country</a>_code is compared to the <a onclick="return d2hpopup(event, this.href)" id="popup_40325" href="gloss_state.htm">State</a> Abbreviation in the State Code table:</p>
+<a onclick="return d2hpopup(event, this.href)" id="popup_55704" href="gloss_country.htm">country</a>_code is compared to the <a onclick="return d2hpopup(event, this.href)" id="popup_55708" href="gloss_state.htm">State</a> Abbreviation in the State Code table:</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>If the Country Code is not US, 
 the system loads the OCONUS rate as International trip type. </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>If the Country Code is US, the 
 system loads it as either in-state or out-of-state depending on the setting of 
 your institution’s INSTITUTION_STATE parameter.</p>
-<p class="Noteindented" style="MARGIN-LEFT: 90pt"><img title="Description: Description: Description: pencil-small.gif" border="0" alt="Description: Description: Description: pencil-small.gif" src="../ImagesExt/image161_6.png" />        
+<p class="Noteindented" style="MARGIN-LEFT: 90pt"><img title="Description: Description: pencil-small.gif" border="0" alt="Description: Description: pencil-small.gif" src="../ImagesExt/image161_6.png" />        
 Parameters IN_STATE_TRIP_TYPE_CODE, INTERNATIONAL_TRIP_TYPE_CODE and 
 OUT_OF_STATE_TRIP_TYPE_CODE are used to update the trip type field in the per 
 diem table.</p>
