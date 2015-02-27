@@ -90,27 +90,27 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 &gt; </span><a class="d2h_breadcrumbsNormal" href="predisbursementprocessor.htm">Pre-Disbursement Processor</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="pdpattributemaintenancedocumentsandoperations.htm">PDP Attribute 
 Maintenance Documents and Operations</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="paymentfilebatchupload.htm">Payment File Batch Upload</a></div>
 <h5>PDP Payment Upload File Format </h5>
-<p class="MsoBodyText">The following rules apply to formatting the <a onclick="return d2hpopup(event, this.href)" id="popup_27986" href="gloss_pdp.htm">PDP</a> payment upload file:</p>
+<p class="MsoBodyText">The following rules apply to formatting the <a onclick="return d2hpopup(event, this.href)" id="popup_79093" href="gloss_pdp.htm">PDP</a> payment upload file:</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-upload file must begin with the standard <a onclick="return d2hpopup(event, this.href)" id="popup_27988" href="gloss_xml.htm">XML</a> version line such as:</p>
+upload file must begin with the standard <a onclick="return d2hpopup(event, this.href)" id="popup_79095" href="gloss_xml.htm">XML</a> version line such as:</p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;?xml version="1.0" 
 encoding="UTF-8"?&gt;</span></span></p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-root (first) tag for <a onclick="return d2hpopup(event, this.href)" id="popup_27985" href="gloss_pcdo.htm">PCDO</a> files must be the &lt;pdp_file&gt; 
+root (first) tag for <a onclick="return d2hpopup(event, this.href)" id="popup_79092" href="gloss_pcdo.htm">PCDO</a> files must be the &lt;pdp_file&gt; 
 tag, and the file must contain only one &lt; pdp_file &gt;&lt;/ pdp_file&gt; 
-tag. This tag also contains attributes that identify the schema the <a onclick="return d2hpopup(event, this.href)" id="popup_27974" href="gloss_document.htm">document</a> adheres to, such as:</p>
-<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;pdp_file xmlns=http://www.<a onclick="return d2hpopup(event, this.href)" id="popup_27982" href="gloss_kuali.htm">kuali</a>.org/<a onclick="return d2hpopup(event, this.href)" id="popup_27987" href="gloss_kfs.htm">kfs</a>/pdp/payment</span></span></p>
+tag. This tag also contains attributes that identify the schema the <a onclick="return d2hpopup(event, this.href)" id="popup_79081" href="gloss_document.htm">document</a> adheres to, such as:</p>
+<p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;pdp_file xmlns=http://www.<a onclick="return d2hpopup(event, this.href)" id="popup_79089" href="gloss_kuali.htm">kuali</a>.org/<a onclick="return d2hpopup(event, this.href)" id="popup_79094" href="gloss_kfs.htm">kfs</a>/pdp/payment</span></span></p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance</span></span></p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">xsi:schemaLocation=http://www.kuali.org/kfs/pdp/payment 
 http://localhost:8080/kuali-dev/static/xsd/pdp/payment.xsd</span></span></p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">version="1.0"&gt;</span></span><b><span style="FONT-SIZE: 11pt; FONT-FAMILY: 'Arial Narrow','sans-serif'; COLOR: #999999"></span></b></p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Following the header will be one or more groups of payments identified by 
-the &lt;<a onclick="return d2hpopup(event, this.href)" id="popup_27980" href="gloss_group.htm">group</a>&gt; tag. Each group references a single <a onclick="return d2hpopup(event, this.href)" id="popup_27978" href="gloss_payee.htm">payee</a> and must also contain a &lt;detail&gt; section 
+the &lt;<a onclick="return d2hpopup(event, this.href)" id="popup_79087" href="gloss_group.htm">group</a>&gt; tag. Each group references a single <a onclick="return d2hpopup(event, this.href)" id="popup_79085" href="gloss_payee.htm">payee</a> and must also contain a &lt;detail&gt; section 
 identifying the accounting distribution for that payment in one or more 
 &lt;accounting&gt; tags. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
-the <a onclick="return d2hpopup(event, this.href)" id="popup_27979" href="gloss_final.htm">final</a> group the file must end with a &lt;trailer&gt; 
+the <a onclick="return d2hpopup(event, this.href)" id="popup_79086" href="gloss_final.htm">final</a> group the file must end with a &lt;trailer&gt; 
 specifying the total detail count and amount in the file. </p>
 <p class="TableHeading">PDP Payment Upload Format</p>
 <table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" width="797" border="1">
@@ -131,7 +131,7 @@ specifying the total detail count and amount in the file. </p>
       <p class="TableCells">Header</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; WIDTH: 235.05pt" valign="top" width="392" colspan="2">
-      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_27981" href="gloss_chart.htm">chart</a>&gt;</p></td>
+      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_79088" href="gloss_chart.htm">chart</a>&gt;</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 84.3pt" valign="top" width="141">
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 37.05pt" valign="top" width="62">
@@ -206,7 +206,7 @@ specifying the total detail count and amount in the file. </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; WIDTH: 235.05pt" valign="top" width="392" colspan="2">
-      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_27973" href="gloss_customer.htm">customer</a>_institution_identifier&gt;</p></td>
+      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_79080" href="gloss_customer.htm">customer</a>_institution_identifier&gt;</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 84.3pt" valign="top" width="141">
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 37.05pt" valign="top" width="62">
@@ -272,7 +272,7 @@ specifying the total detail count and amount in the file. </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; WIDTH: 235.05pt" valign="top" width="392" colspan="2">
-      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_27983" href="gloss_state.htm">state</a>&gt;</p></td>
+      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_79090" href="gloss_state.htm">state</a>&gt;</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 84.3pt" valign="top" width="141">
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 37.05pt" valign="top" width="62">
@@ -294,7 +294,7 @@ specifying the total detail count and amount in the file. </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; WIDTH: 235.05pt" valign="top" width="392" colspan="2">
-      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_27975" href="gloss_country.htm">country</a>&gt;</p></td>
+      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_79082" href="gloss_country.htm">country</a>&gt;</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 84.3pt" valign="top" width="141">
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 37.05pt" valign="top" width="62">
@@ -305,7 +305,7 @@ specifying the total detail count and amount in the file. </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; WIDTH: 235.05pt" valign="top" width="392" colspan="2">
-      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_27977" href="gloss_campus.htm">campus</a>_address_indicator&gt;</p></td>
+      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_79084" href="gloss_campus.htm">campus</a>_address_indicator&gt;</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 84.3pt" valign="top" width="141">
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 37.05pt" valign="top" width="62">
@@ -329,7 +329,7 @@ specifying the total detail count and amount in the file. </p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt" width="1">
       <p class="MsoNormal"> </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; WIDTH: 234.75pt" valign="top" width="391">
-      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_27972" href="gloss_attachment.htm">attachment</a>_ind&gt;</p></td>
+      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_79079" href="gloss_attachment.htm">attachment</a>_ind&gt;</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 84.3pt" valign="top" width="141">
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 37.05pt" valign="top" width="62">
@@ -355,7 +355,7 @@ specifying the total detail count and amount in the file. </p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt" width="1">
       <p class="MsoNormal"> </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; WIDTH: 234.75pt" valign="top" width="391">
-      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_27976" href="gloss_taxable.htm">taxable</a>_ind&gt;</p></td>
+      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_79083" href="gloss_taxable.htm">taxable</a>_ind&gt;</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 84.3pt" valign="top" width="141">
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 37.05pt" valign="top" width="62">
@@ -394,7 +394,7 @@ specifying the total detail count and amount in the file. </p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt" width="1">
       <p class="MsoNormal"> </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; WIDTH: 234.75pt" valign="top" width="391">
-      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_27984" href="gloss_bank.htm">bank</a>_code&gt;</p></td>
+      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_79091" href="gloss_bank.htm">bank</a>_code&gt;</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 84.3pt" valign="top" width="141">
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 37.05pt" valign="top" width="62">
@@ -438,7 +438,7 @@ specifying the total detail count and amount in the file. </p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt" width="1">
       <p class="MsoNormal"> </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; WIDTH: 234.75pt" valign="top" width="391">
-      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_27990" href="gloss_po.htm">po</a>_nbr&gt;</p></td>
+      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_79097" href="gloss_po.htm">po</a>_nbr&gt;</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 84.3pt" valign="top" width="141">
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 37.05pt" valign="top" width="62">
@@ -451,7 +451,7 @@ specifying the total detail count and amount in the file. </p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt" width="1">
       <p class="MsoNormal"> </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; WIDTH: 234.75pt" valign="top" width="391">
-      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_27989" href="gloss_req.htm">req</a>_nbr&gt;</p></td>
+      <p class="TableCells">&lt;<a onclick="return d2hpopup(event, this.href)" id="popup_79096" href="gloss_req.htm">req</a>_nbr&gt;</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 84.3pt" valign="top" width="141">
       <p class="TableCells">Characters</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; WIDTH: 37.05pt" valign="top" width="62">
