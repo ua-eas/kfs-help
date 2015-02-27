@@ -91,24 +91,24 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glpostingposter.htm">GL Posting ('Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="icrcalculationandpostingicrposter.htm">ICR Calculation and Posting ('ICR 
 Poster')</a></div>
 <h6>ICR Expense and Income Entries</h6>
-<p class="MsoBodyText"><a onclick="return d2hpopup(event, this.href)" id="popup_76198" href="gloss_icr.htm">ICR</a> expenses and income entries are 
+<p class="MsoBodyText"><a onclick="return d2hpopup(event, this.href)" id="popup_83483" href="gloss_icr.htm">ICR</a> expenses and income entries are 
 generated using the values defined on the Indirect Cost Recovery Rate table.</p>
-<p class="MsoBodyText">To generate indirect costs, transactions must have an <a onclick="return d2hpopup(event, this.href)" id="popup_76192" href="gloss_objecttype.htm">object type</a> code that has the ICR Selection Type 
-value set to 'Yes' and the Indirect Cost Rate of the <a onclick="return d2hpopup(event, this.href)" id="popup_76196" href="gloss_account.htm">account</a> must not be blank.</p>
+<p class="MsoBodyText">To generate indirect costs, transactions must have an <a onclick="return d2hpopup(event, this.href)" id="popup_83477" href="gloss_objecttype.htm">object type</a> code that has the ICR Selection Type 
+value set to 'Yes' and the Indirect Cost Rate of the <a onclick="return d2hpopup(event, this.href)" id="popup_83481" href="gloss_account.htm">account</a> must not be blank.</p>
 <p class="MsoBodyText">Additional criteria further restrict the expenses that may 
 be included in the ICR calculation. The Indirect Cost Recovery Exclusions by 
-Account table is checked for any specific exclusion by account and <a onclick="return d2hpopup(event, this.href)" id="popup_76193" href="gloss_objectcode.htm">object code</a>. The Indirect Cost Recovery Type 
+Account table is checked for any specific exclusion by account and <a onclick="return d2hpopup(event, this.href)" id="popup_83478" href="gloss_objectcode.htm">object code</a>. The Indirect Cost Recovery Type 
 value assigned to the account is also referenced for exclusions using the 
 Indirect Cost Exclusion by Type table.</p>
 <p class="MsoBodyText">The Indirect Cost Rate table is then used to create the ICR 
-expense and income transactions. Transactions are created by referencing <a onclick="return d2hpopup(event, this.href)" id="popup_76191" href="gloss_fiscalyear.htm">fiscal year</a>, <a onclick="return d2hpopup(event, this.href)" id="popup_76189" href="gloss_balancetype.htm">balance type</a>, and ICR percent on this table. 
+expense and income transactions. Transactions are created by referencing <a onclick="return d2hpopup(event, this.href)" id="popup_83476" href="gloss_fiscalyear.htm">fiscal year</a>, <a onclick="return d2hpopup(event, this.href)" id="popup_83474" href="gloss_balancetype.htm">balance type</a>, and ICR percent on this table. 
 The table contains the accounting strings and the rates to use for each indirect 
 cost rate.</p>
-<p class="MsoBodyText">For generated entries, the <a onclick="return d2hpopup(event, this.href)" id="popup_76187" href="gloss_documentnumber.htm">document number</a> is set to the run date 
+<p class="MsoBodyText">For generated entries, the <a onclick="return d2hpopup(event, this.href)" id="popup_83472" href="gloss_documentnumber.htm">document number</a> is set to the run date 
 (YYYYMMDD), and the transaction identifies the item as a charge or income with 
 the ICR type, ICR percentage, object code of the original expense, and direct 
-cost amount. The <a onclick="return d2hpopup(event, this.href)" id="popup_76188" href="gloss_documenttype.htm">document type</a> is set to 'ICR' (or the value 
-your institution defines in the INDIRECT_COST_RECOVERY_<a onclick="return d2hpopup(event, this.href)" id="popup_76195" href="gloss_document.htm">DOCUMENT</a>_TYPE <a onclick="return d2hpopup(event, this.href)" id="popup_76194" href="gloss_parameter.htm">parameter</a>.) The <a onclick="return d2hpopup(event, this.href)" id="popup_76197" href="gloss_chart.htm">chart</a>, account number, <a onclick="return d2hpopup(event, this.href)" id="popup_76190" href="gloss_subaccount.htm">sub-account</a>, object code, <a onclick="return d2hpopup(event, this.href)" id="popup_76186" href="gloss_subobjectcode.htm">sub-object code</a>, and debit/credit code are 
+cost amount. The <a onclick="return d2hpopup(event, this.href)" id="popup_83473" href="gloss_documenttype.htm">document type</a> is set to 'ICR' (or the value 
+your institution defines in the INDIRECT_COST_RECOVERY_<a onclick="return d2hpopup(event, this.href)" id="popup_83480" href="gloss_document.htm">DOCUMENT</a>_TYPE <a onclick="return d2hpopup(event, this.href)" id="popup_83479" href="gloss_parameter.htm">parameter</a>.) The <a onclick="return d2hpopup(event, this.href)" id="popup_83482" href="gloss_chart.htm">chart</a>, account number, <a onclick="return d2hpopup(event, this.href)" id="popup_83475" href="gloss_subaccount.htm">sub-account</a>, object code, <a onclick="return d2hpopup(event, this.href)" id="popup_83471" href="gloss_subobjectcode.htm">sub-object code</a>, and debit/credit code are 
 based on the values in the Indirect Cost Recovery Rate table. The amount of the 
 ICR transaction is set to the original direct cost amount times the ICR percent 
 identified on the table.</p>

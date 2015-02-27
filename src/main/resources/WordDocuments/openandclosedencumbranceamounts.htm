@@ -91,17 +91,17 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glpostingposter.htm">GL Posting ('Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glaccountbalancepostingmainposter.htm">GL Account Balance Posting ('Main 
 Poster')</a></div>
 <h6>Open and Closed Encumbrance Amounts</h6>
-<p class="MsoBodyText">When posting the GL <a onclick="return d2hpopup(event, this.href)" id="popup_76102" href="gloss_encumbrance.htm">encumbrance</a> entries associated with a new 
+<p class="MsoBodyText">When posting the GL <a onclick="return d2hpopup(event, this.href)" id="popup_83387" href="gloss_encumbrance.htm">encumbrance</a> entries associated with a new 
 encumbrance, a new entry in the GL Encumbrance table is added with the 
 encumbrance amount set to the total entry amount. This is accomplished by 
-passing entries to the accounting cycle with a 'D' in the <a onclick="return d2hpopup(event, this.href)" id="popup_76098" href="gloss_encumbranceupdatecode.htm">Encumbrance Update Code</a>. This entry 
+passing entries to the accounting cycle with a 'D' in the <a onclick="return d2hpopup(event, this.href)" id="popup_83383" href="gloss_encumbranceupdatecode.htm">Encumbrance Update Code</a>. This entry 
 tells 'Poster' to insert or update a row into the Open Encumbrance file using 
-the <a onclick="return d2hpopup(event, this.href)" id="popup_76100" href="gloss_documentnumber.htm">document number</a> and to put the amount in the 
+the <a onclick="return d2hpopup(event, this.href)" id="popup_83385" href="gloss_documentnumber.htm">document number</a> and to put the amount in the 
 Open Amount column. When posting any subsequent adjustment to that encumbrance, 
-increases or decreases are made to the Encumbrance <a onclick="return d2hpopup(event, this.href)" id="popup_76104" href="gloss_close.htm">Close</a> Amount column for that item by passing entries 
+increases or decreases are made to the Encumbrance <a onclick="return d2hpopup(event, this.href)" id="popup_83389" href="gloss_close.htm">Close</a> Amount column for that item by passing entries 
 to the accounting cycle with an 'R' in the Encumbrance Update Code. This value 
 tells 'Poster' to insert or update a row in the Open Encumbrance file using the 
-<a onclick="return d2hpopup(event, this.href)" id="popup_76099" href="gloss_referencedocument.htm">reference document</a> number of the entry 
+<a onclick="return d2hpopup(event, this.href)" id="popup_83384" href="gloss_referencedocument.htm">reference document</a> number of the entry 
 and to adjust the amount in the Closed Amount column. Consequently, the Open 
 Encumbrance file shows both the amount of the original encumbrance (open amount) 
 and the amount of the encumbrance that has been relieved (closed amount).</p>
@@ -122,13 +122,13 @@ information see <a href="glinquiriesbasicinformation.htm">GL Inquiries<span styl
       <p class="TableCells">Encumbrance Amount Updated</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt; WIDTH: 70.55pt" valign="top" rowspan="2" width="118">
-      <p class="TableCells">D (<a onclick="return d2hpopup(event, this.href)" id="popup_76103" href="gloss_document.htm">Document</a>)</p></td>
+      <p class="TableCells">D (<a onclick="return d2hpopup(event, this.href)" id="popup_83388" href="gloss_document.htm">Document</a>)</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt; WIDTH: 75.5pt" valign="top" width="126">
       <p class="TableCells">'D' (Debit) or blank</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt; WIDTH: 68.5pt" valign="top" width="114">
       <p class="TableCells">+ (Add)</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt; WIDTH: 162pt" valign="top" rowspan="2" width="270">
-      <p class="TableCells">Encumbrance Amount for the particular <a onclick="return d2hpopup(event, this.href)" id="popup_76101" href="gloss_documenttype.htm">Document Type</a>, Origin Code, Document 
+      <p class="TableCells">Encumbrance Amount for the particular <a onclick="return d2hpopup(event, this.href)" id="popup_83386" href="gloss_documenttype.htm">Document Type</a>, Origin Code, Document 
       Number</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt; WIDTH: 75.5pt" valign="top" width="126">

@@ -90,20 +90,20 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 E-Docs</a></div>
 <h4>Pre-Asset Tagging</h4>
 <p class="MsoBodyText"><img src="../ImagesExt/image169_6.jpg" alt="" /> &gt;<img src="../ImagesExt/image169_32.jpg" alt="" /> &gt;<img src="../ImagesExt/image169_215.jpg" alt="" />&gt;<img src="../ImagesExt/image169_216.jpg" alt="" /> &gt;<img src="../ImagesExt/image169_217.jpg" alt="" /></p>
-<p class="MsoBodyText"><a onclick="return d2hpopup(event, this.href)" id="popup_32410" href="gloss_preassettagging.htm">Pre-asset tagging</a> allows 
-organizations to tag assets before an <a onclick="return d2hpopup(event, this.href)" id="popup_32422" href="gloss_asset.htm">asset</a> has been created in the data base. When 
-pre-asset tagging information exists, <a onclick="return d2hpopup(event, this.href)" id="popup_32409" href="gloss_purchasingaccountspayable.htm">Purchasing/Accounts Payable</a> 
-transactions use it when the asset is created. The Pre-Asset Tagging <a onclick="return d2hpopup(event, this.href)" id="popup_32417" href="gloss_document.htm">document</a> allows you to enter tagging information 
-for capital equipment into the university <a onclick="return d2hpopup(event, this.href)" id="popup_32414" href="gloss_capitalasset.htm">capital asset</a> database <b>before</b> the asset 
+<p class="MsoBodyText"><a onclick="return d2hpopup(event, this.href)" id="popup_91380" href="gloss_preassettagging.htm">Pre-asset tagging</a> allows 
+organizations to tag assets before an <a onclick="return d2hpopup(event, this.href)" id="popup_91392" href="gloss_asset.htm">asset</a> has been created in the data base. When 
+pre-asset tagging information exists, <a onclick="return d2hpopup(event, this.href)" id="popup_91379" href="gloss_purchasingaccountspayable.htm">Purchasing/Accounts Payable</a> 
+transactions use it when the asset is created. The Pre-Asset Tagging <a onclick="return d2hpopup(event, this.href)" id="popup_91387" href="gloss_document.htm">document</a> allows you to enter tagging information 
+for capital equipment into the university <a onclick="return d2hpopup(event, this.href)" id="popup_91384" href="gloss_capitalasset.htm">capital asset</a> database <b>before</b> the asset 
 is created. Pre-asset tagging is optional.</p>
-<p class="MsoBodyText"><a onclick="return d2hpopup(event, this.href)" id="popup_32413" href="gloss_purchaseorder.htm">Purchase order</a> information is 
-extracted from the <a onclick="return d2hpopup(event, this.href)" id="popup_32423" href="gloss_kfs.htm">KFS</a> Purchasing/<a onclick="return d2hpopup(event, this.href)" id="popup_32411" href="gloss_accountspayable.htm">Accounts Payable</a> (<a onclick="return d2hpopup(event, this.href)" id="popup_32420" href="gloss_purap.htm">PURAP</a>) module when the purchase order is approved. 
-The extract job selects line <a onclick="return d2hpopup(event, this.href)" id="popup_32421" href="gloss_items.htm">items</a> that have a capital equipment <a onclick="return d2hpopup(event, this.href)" id="popup_32412" href="gloss_objectsubtype.htm">object sub-type</a> code and a unit cost equal to 
+<p class="MsoBodyText"><a onclick="return d2hpopup(event, this.href)" id="popup_91383" href="gloss_purchaseorder.htm">Purchase order</a> information is 
+extracted from the <a onclick="return d2hpopup(event, this.href)" id="popup_91393" href="gloss_kfs.htm">KFS</a> Purchasing/<a onclick="return d2hpopup(event, this.href)" id="popup_91381" href="gloss_accountspayable.htm">Accounts Payable</a> (<a onclick="return d2hpopup(event, this.href)" id="popup_91390" href="gloss_purap.htm">PURAP</a>) module when the purchase order is approved. 
+The extract job selects line <a onclick="return d2hpopup(event, this.href)" id="popup_91391" href="gloss_items.htm">items</a> that have a capital equipment <a onclick="return d2hpopup(event, this.href)" id="popup_91382" href="gloss_objectsubtype.htm">object sub-type</a> code and a unit cost equal to 
 or greater than the amount defined in CAPITALIZATION_LIMIT_AMOUNT. The purchase 
-order number, line number, quantity ordered, description, and <a onclick="return d2hpopup(event, this.href)" id="popup_32419" href="gloss_vendor.htm">vendor</a> information are recorded in the Pre-Asset 
+order number, line number, quantity ordered, description, and <a onclick="return d2hpopup(event, this.href)" id="popup_91389" href="gloss_vendor.htm">vendor</a> information are recorded in the Pre-Asset 
 Tagging table for movable capital equipment.</p>
-<p class="MsoBodyText">After the payment <a onclick="return d2hpopup(event, this.href)" id="popup_32415" href="gloss_requisition.htm">requisition</a> (invoice) has been approved by 
-Accounts <a onclick="return d2hpopup(event, this.href)" id="popup_32418" href="gloss_payable.htm">Payable</a>, the asset is ready to be loaded in the 
+<p class="MsoBodyText">After the payment <a onclick="return d2hpopup(event, this.href)" id="popup_91385" href="gloss_requisition.htm">requisition</a> (invoice) has been approved by 
+Accounts <a onclick="return d2hpopup(event, this.href)" id="popup_91388" href="gloss_payable.htm">Payable</a>, the asset is ready to be loaded in the 
 Capital Asset Builder. At that point, the Pre-Asset Tagging table is checked to 
 extract any tagging information available. If an asset is not pre-tagged, the 
 Edit action from the Asset Lookup results is used to update the tagging 
@@ -115,11 +115,11 @@ combined to create a 'primary key. This key is used to match pre-asset tagging
 information with assets as they are created. Care must be taken to ensure that 
 the tagged equipment is matched to the appropriate line item number on the 
 purchase order.</p>
-<p class="Note"><img title="Description: pencil-small" alt="Description: pencil-small" src="../ImagesExt/image169_2.png" />     Organizations have a 
+<p class="Note"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image169_2.png" />     Organizations have a 
 window of opportunity to enter tagging information before the asset is created. 
 This window extends from the time the asset is received to the time the invoice 
-is <a onclick="return d2hpopup(event, this.href)" id="popup_32416" href="gloss_processed.htm">processed</a> and approved by Accounts Payable.</p>
-<p class="Note"><img title="Description: exclaim" alt="Description: exclaim" src="../ImagesExt/image169_115.png" />    <strong>Check before 
+is <a onclick="return d2hpopup(event, this.href)" id="popup_91386" href="gloss_processed.htm">processed</a> and approved by Accounts Payable.</p>
+<p class="Note"><img title="exclaim" alt="exclaim" src="../ImagesExt/image169_115.png" />    <strong>Check before 
 entering pre-asset tagging data into the system. </strong>If pre-asset tagging 
 information is entered into the asset database for an asset that has already 
 been created, <strong><u>no</u></strong> system warning is presented, and the 

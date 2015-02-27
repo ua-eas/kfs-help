@@ -95,38 +95,38 @@ Overview</a></div>
 <h5>Post-Processing </h5>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 the trip type generates encumbrances, the system uses the information in the 
-<strong>Accounting Lines</strong> tab to generate <a onclick="return d2hpopup(event, this.href)" id="popup_56866" href="gloss_generalledger.htm">General Ledger</a> pending entries after you <a onclick="return d2hpopup(event, this.href)" id="popup_56888" href="gloss_save.htm">save</a> or <a onclick="return d2hpopup(event, this.href)" id="popup_56882" href="gloss_submit.htm">submit</a> the <a onclick="return d2hpopup(event, this.href)" id="popup_56877" href="gloss_document.htm">document</a>.  </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 90pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt 90.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If <a onclick="return d2hpopup(event, this.href)" id="popup_56889" href="gloss_hold.htm">HOLD</a>_NEW_FISCAL_YEAR_ENCUMBRANCES_IND = Y and 
-FiscalYearMakerJob has not been run to create the next <a onclick="return d2hpopup(event, this.href)" id="popup_56869" href="gloss_fiscalyear.htm">fiscal year</a> and the trip <a onclick="return d2hpopup(event, this.href)" id="popup_56879" href="gloss_enddate.htm">end date</a> is in the next fiscal year, the <a onclick="return d2hpopup(event, this.href)" id="popup_56870" href="gloss_encumbrance.htm">encumbrance</a> will be held in a separate table. 
+<strong>Accounting Lines</strong> tab to generate <a onclick="return d2hpopup(event, this.href)" id="popup_100575" href="gloss_generalledger.htm">General Ledger</a> pending entries after you <a onclick="return d2hpopup(event, this.href)" id="popup_100597" href="gloss_save.htm">save</a> or <a onclick="return d2hpopup(event, this.href)" id="popup_100591" href="gloss_submit.htm">submit</a> the <a onclick="return d2hpopup(event, this.href)" id="popup_100586" href="gloss_document.htm">document</a>.  </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 90pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt 90.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If <a onclick="return d2hpopup(event, this.href)" id="popup_100598" href="gloss_hold.htm">HOLD</a>_NEW_FISCAL_YEAR_ENCUMBRANCES_IND = Y and 
+FiscalYearMakerJob has not been run to create the next <a onclick="return d2hpopup(event, this.href)" id="popup_100578" href="gloss_fiscalyear.htm">fiscal year</a> and the trip <a onclick="return d2hpopup(event, this.href)" id="popup_100588" href="gloss_enddate.htm">end date</a> is in the next fiscal year, the <a onclick="return d2hpopup(event, this.href)" id="popup_100579" href="gloss_encumbrance.htm">encumbrance</a> will be held in a separate table. 
 Once FiscalYearMakerJob has been run, Travel Authorizations with trip end dates 
 in the new fiscal year will create encumbrances in the new year, period one. The 
 temReleaseHeldEncumbranceJob will need to be run to release encumbrances created 
 prior to running FiscalYearMakerJob so they can post into the new fiscal year, 
 period 1.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>SEND_NOTIFICATION_DOCUMENT_TYPES determines for which <a onclick="return d2hpopup(event, this.href)" id="popup_56862" href="gloss_travelauthorization.htm">Travel Authorization</a> document types 
-notifications will be sent when Travel <a onclick="return d2hpopup(event, this.href)" id="popup_56867" href="gloss_authorization.htm">Authorization</a> documents change <a onclick="return d2hpopup(event, this.href)" id="popup_56880" href="gloss_status.htm">status</a> or become <a onclick="return d2hpopup(event, this.href)" id="popup_56884" href="gloss_final.htm">final</a>. Available Travel Authorization document types 
-are Travel Authorization (<a onclick="return d2hpopup(event, this.href)" id="popup_56896" href="gloss_ta.htm">TA</a>), Travel Authorization Amendment (<a onclick="return d2hpopup(event, this.href)" id="popup_56893" href="gloss_taa.htm">TAA</a>) and Travel Authorization <a onclick="return d2hpopup(event, this.href)" id="popup_56885" href="gloss_close.htm">Close</a> (<a onclick="return d2hpopup(event, this.href)" id="popup_56892" href="gloss_tac.htm">TAC</a>). </p>
+</span>SEND_NOTIFICATION_DOCUMENT_TYPES determines for which <a onclick="return d2hpopup(event, this.href)" id="popup_100571" href="gloss_travelauthorization.htm">Travel Authorization</a> document types 
+notifications will be sent when Travel <a onclick="return d2hpopup(event, this.href)" id="popup_100576" href="gloss_authorization.htm">Authorization</a> documents change <a onclick="return d2hpopup(event, this.href)" id="popup_100589" href="gloss_status.htm">status</a> or become <a onclick="return d2hpopup(event, this.href)" id="popup_100593" href="gloss_final.htm">final</a>. Available Travel Authorization document types 
+are Travel Authorization (<a onclick="return d2hpopup(event, this.href)" id="popup_100605" href="gloss_ta.htm">TA</a>), Travel Authorization Amendment (<a onclick="return d2hpopup(event, this.href)" id="popup_100602" href="gloss_taa.htm">TAA</a>) and Travel Authorization <a onclick="return d2hpopup(event, this.href)" id="popup_100594" href="gloss_close.htm">Close</a> (<a onclick="return d2hpopup(event, this.href)" id="popup_100601" href="gloss_tac.htm">TAC</a>). </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <a onclick="return d2hpopup(event, this.href)" id="popup_56871" href="gloss_temprofile.htm">TEM Profile</a> indicates that the <a onclick="return d2hpopup(event, this.href)" id="popup_56890" href="gloss_user.htm">user</a> wants to receive email notifications when the 
+the <a onclick="return d2hpopup(event, this.href)" id="popup_100580" href="gloss_temprofile.htm">TEM Profile</a> indicates that the <a onclick="return d2hpopup(event, this.href)" id="popup_100599" href="gloss_user.htm">user</a> wants to receive email notifications when the 
 Travel Authorization changes status, an email will be sent with the subject line 
 specified in CHANGE_NOTIFICATION_SUBJECT, component Travel Authorization.</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <a onclick="return d2hpopup(event, this.href)" id="popup_56894" href="gloss_tem.htm">TEM</a> Profile indicates that the user wants to receive 
+the <a onclick="return d2hpopup(event, this.href)" id="popup_100603" href="gloss_tem.htm">TEM</a> Profile indicates that the user wants to receive 
 email notification when the Travel Authorization is Final, an email will be sent 
 with the subject line specified in FINAL_NOTIFICATION_SUBJECT, component Travel 
 Authorization.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If <a onclick="return d2hpopup(event, this.href)" id="popup_56883" href="gloss_vendor.htm">VENDOR</a>_PAYMENT_ALLOWED_BEFORE_FINAL_APPROVAL_IND = 
-N, then the <a onclick="return d2hpopup(event, this.href)" id="popup_56873" href="gloss_temdoc.htm">TEM Doc #</a> will be masked until the Travel 
-Authorization is fully approved, the <a onclick="return d2hpopup(event, this.href)" id="popup_56868" href="gloss_organization.htm">Organization</a> <a onclick="return d2hpopup(event, this.href)" id="popup_56864" href="gloss_documentnumber.htm">Document Number</a> will be updated with the TEM 
-Doc # and the <a onclick="return d2hpopup(event, this.href)" id="popup_56865" href="gloss_vendorpayment.htm">Vendor Payment</a> button will be available to 
-initiate a <a onclick="return d2hpopup(event, this.href)" id="popup_56860" href="gloss_disbursementvoucher.htm">Disbursement Voucher</a> for a payment 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If <a onclick="return d2hpopup(event, this.href)" id="popup_100592" href="gloss_vendor.htm">VENDOR</a>_PAYMENT_ALLOWED_BEFORE_FINAL_APPROVAL_IND = 
+N, then the <a onclick="return d2hpopup(event, this.href)" id="popup_100582" href="gloss_temdoc.htm">TEM Doc #</a> will be masked until the Travel 
+Authorization is fully approved, the <a onclick="return d2hpopup(event, this.href)" id="popup_100577" href="gloss_organization.htm">Organization</a> <a onclick="return d2hpopup(event, this.href)" id="popup_100573" href="gloss_documentnumber.htm">Document Number</a> will be updated with the TEM 
+Doc # and the <a onclick="return d2hpopup(event, this.href)" id="popup_100574" href="gloss_vendorpayment.htm">Vendor Payment</a> button will be available to 
+initiate a <a onclick="return d2hpopup(event, this.href)" id="popup_100569" href="gloss_disbursementvoucher.htm">Disbursement Voucher</a> for a payment 
 related to the trip. If Y, then the TEM Doc # will not be masked, the 
 Organization Document Number will be populated with the TEM Doc # and the Vendor 
 Payment button will display on save or submit. </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>VENDOR_PAYMENT_REASON_CODE specifies the <a onclick="return d2hpopup(event, this.href)" id="popup_56863" href="gloss_paymentreasoncode.htm">Payment Reason Code</a> that will be used on 
-the <a onclick="return d2hpopup(event, this.href)" id="popup_56895" href="gloss_dv.htm">DV</a> when <a onclick="return d2hpopup(event, this.href)" id="popup_56872" href="gloss_initiated.htm">initiated</a> with the Vendor Payment 
+</span>VENDOR_PAYMENT_REASON_CODE specifies the <a onclick="return d2hpopup(event, this.href)" id="popup_100572" href="gloss_paymentreasoncode.htm">Payment Reason Code</a> that will be used on 
+the <a onclick="return d2hpopup(event, this.href)" id="popup_100604" href="gloss_dv.htm">DV</a> when <a onclick="return d2hpopup(event, this.href)" id="popup_100581" href="gloss_initiated.htm">initiated</a> with the Vendor Payment 
 button. </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 INCLUDE_TRAVELER_TYPE_IN_TRIP_ID_IND = Y, the traveler type will be listed as 
@@ -134,10 +134,10 @@ part of the TEM Doc #. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Duplicate Trip warnings will be provided for Travel Authorizations for 
 the same traveler and date ranges, if there is a Travel Authorization that 
-matches, it will check to see if any Travel Reimbursements have been <a onclick="return d2hpopup(event, this.href)" id="popup_56874" href="gloss_processed.htm">processed</a> against the existing Travel 
+matches, it will check to see if any Travel Reimbursements have been <a onclick="return d2hpopup(event, this.href)" id="popup_100583" href="gloss_processed.htm">processed</a> against the existing Travel 
 Authorization. </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-Travel Reimbursements exist, it will compare the dates on the <a onclick="return d2hpopup(event, this.href)" id="popup_56861" href="gloss_travelreimbursement.htm">Travel Reimbursement</a> against the new 
+Travel Reimbursements exist, it will compare the dates on the <a onclick="return d2hpopup(event, this.href)" id="popup_100570" href="gloss_travelreimbursement.htm">Travel Reimbursement</a> against the new 
 Travel Authorization. </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 Travel Reimbursements do not exist, it will compare the dates on the Travel 
@@ -148,36 +148,36 @@ Travel Reimbursement, new Travel Authorizations will validate against the
 earliest and latest trip date.</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 the dates match, or are within the range as determined by the 
-DUPLICATE_TRIP_DATE_RANGE_DAYS <a onclick="return d2hpopup(event, this.href)" id="popup_56875" href="gloss_parameter.htm">parameter</a>, a warning will be 
+DUPLICATE_TRIP_DATE_RANGE_DAYS <a onclick="return d2hpopup(event, this.href)" id="popup_100584" href="gloss_parameter.htm">parameter</a>, a warning will be 
 provided on submit and approval.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
 the Travel Authorization is fully approved: </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If an 
 advance has been requested and the payment method is Check/ACH, the payment will 
-be extracted into Pre-Disbursement Processing (<a onclick="return d2hpopup(event, this.href)" id="popup_56891" href="gloss_pdp.htm">PDP</a>). </p>
+be extracted into Pre-Disbursement Processing (<a onclick="return d2hpopup(event, this.href)" id="popup_100600" href="gloss_pdp.htm">PDP</a>). </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If an 
 advance has been requested and GENERATE_INVOICE_INV_FOR_TRAVL_ADVANCE_IND = 
 Y:</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 90pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 90.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>An AR 
 Invoice document will be created and blanket approved and added to the 
-<strong><a onclick="return d2hpopup(event, this.href)" id="popup_56859" href="gloss_viewrelateddocuments.htm"><strong>View Related 
-Documents</strong></a></strong> tab. The Billing <a onclick="return d2hpopup(event, this.href)" id="popup_56886" href="gloss_chart.htm">Chart</a> and Org, invoice item code, and number of days 
+<strong><a onclick="return d2hpopup(event, this.href)" id="popup_100568" href="gloss_viewrelateddocuments.htm"><strong>View Related 
+Documents</strong></a></strong> tab. The Billing <a onclick="return d2hpopup(event, this.href)" id="popup_100595" href="gloss_chart.htm">Chart</a> and Org, invoice item code, and number of days 
 that will be added to the trip end date to determine the invoice due is 
 controlled by the settings in TRAVEL_ADVANCE_BILLING_CHART_CODE, 
 TRAVEL_ADVANCE_BILLING_ORG_CODE, TRAVEL_ADVANCE_INVOICE_ITEM_CODE, and 
 DUE_DATE_DAYS, respectively.</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 90pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 90.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If a 
-<a onclick="return d2hpopup(event, this.href)" id="popup_56876" href="gloss_customer.htm">Customer</a> does not already exist for the Traveler, 
+<a onclick="return d2hpopup(event, this.href)" id="popup_100585" href="gloss_customer.htm">Customer</a> does not already exist for the Traveler, 
 a Customer document will be created and blanket approved with the Customer Type 
 specified in parameter CUSTOMER_TYPE_CODE </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 90pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 90.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 system updates the <strong>Invoice Document Number</strong> field on the Travel 
 Authorization document.</p>
 <p class="Noteindented" style="MARGIN-LEFT: 90pt"><img title="Description: Description: Description: exclaim.gif" border="0" alt="Description: Description: Description: exclaim.gif" src="../ImagesExt/image161_119.png" />      TEM supports 
-AR GLPE Generation Methods 1 and 2 (parameter GLPE_RECEIVABLE_<a onclick="return d2hpopup(event, this.href)" id="popup_56881" href="gloss_offset.htm">OFFSET</a>_GENERATION_METHOD). Method 1 posts the 
-receivable to the same <a onclick="return d2hpopup(event, this.href)" id="popup_56878" href="gloss_account.htm">account</a> where the advance is 
+AR GLPE Generation Methods 1 and 2 (parameter GLPE_RECEIVABLE_<a onclick="return d2hpopup(event, this.href)" id="popup_100590" href="gloss_offset.htm">OFFSET</a>_GENERATION_METHOD). Method 1 posts the 
+receivable to the same <a onclick="return d2hpopup(event, this.href)" id="popup_100587" href="gloss_account.htm">account</a> where the advance is 
 recorded. Method 2 requires the updating of parameter 
-GLPE_RECEIVABLE_OFFSET_OBJECT_CODE_BY_SUB_<a onclick="return d2hpopup(event, this.href)" id="popup_56887" href="gloss_fund.htm">FUND</a> to include the sub-fund of the account where the 
+GLPE_RECEIVABLE_OFFSET_OBJECT_CODE_BY_SUB_<a onclick="return d2hpopup(event, this.href)" id="popup_100596" href="gloss_fund.htm">FUND</a> to include the sub-fund of the account where the 
 advance will be posted. </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="initiatingatravelauthorizationrequest.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Initiating a Travel Authorization 

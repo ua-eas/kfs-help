@@ -89,27 +89,27 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtransactionedocs1.htm">Standard Transaction E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="paymentrequest.htm">Payment Request</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview78.htm">Process Overview</a></div>
 <h5>Post Processing</h5>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Unlike other <a onclick="return d2hpopup(event, this.href)" id="popup_36860" href="gloss_kfs.htm">KFS</a> documents, <a onclick="return d2hpopup(event, this.href)" id="popup_36859" href="gloss_gl.htm">G/L</a> entries for this <a onclick="return d2hpopup(event, this.href)" id="popup_36852" href="gloss_document.htm">document</a> are created prior to <a onclick="return d2hpopup(event, this.href)" id="popup_36856" href="gloss_final.htm">final</a> approval. Upon document submission to <a onclick="return d2hpopup(event, this.href)" id="popup_36853" href="gloss_workflow.htm">Workflow</a>, <a onclick="return d2hpopup(event, this.href)" id="popup_36851" href="gloss_disencumbrance.htm">disencumbrance</a> entries and actual charges 
+</span>Unlike other <a onclick="return d2hpopup(event, this.href)" id="popup_95931" href="gloss_kfs.htm">KFS</a> documents, <a onclick="return d2hpopup(event, this.href)" id="popup_95930" href="gloss_gl.htm">G/L</a> entries for this <a onclick="return d2hpopup(event, this.href)" id="popup_95923" href="gloss_document.htm">document</a> are created prior to <a onclick="return d2hpopup(event, this.href)" id="popup_95927" href="gloss_final.htm">final</a> approval. Upon document submission to <a onclick="return d2hpopup(event, this.href)" id="popup_95924" href="gloss_workflow.htm">Workflow</a>, <a onclick="return d2hpopup(event, this.href)" id="popup_95922" href="gloss_disencumbrance.htm">disencumbrance</a> entries and actual charges 
 are generated, written to the G/L pending entry table, and posted in the nightly 
-G/L <a onclick="return d2hpopup(event, this.href)" id="popup_36858" href="gloss_batch.htm">batch</a> cycle. If fiscal officers change accounting 
+G/L <a onclick="return d2hpopup(event, this.href)" id="popup_95929" href="gloss_batch.htm">batch</a> cycle. If fiscal officers change accounting 
 strings or redistribute the charges within their accounts, G/L entries are 
 generated to reverse the original actual entries and recreate them (encumbrances 
 are not altered) and these entries are written to the GL Pending table for 
 posting in the next batch cycle.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Upon 
-document submission, <a onclick="return d2hpopup(event, this.href)" id="popup_36861" href="gloss_po.htm">PO</a> line item details (open quantity, 
+document submission, <a onclick="return d2hpopup(event, this.href)" id="popup_95932" href="gloss_po.htm">PO</a> line item details (open quantity, 
 amount paid, etc.) are adjusted to reflect materials/services that have been 
 paid.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Upon 
 document submission, the 'ap-approved' timestamp will be updated.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the department completes all of the approvals through Workflow, the <a onclick="return d2hpopup(event, this.href)" id="popup_36849" href="gloss_paymentrequeststatus.htm">payment request status</a> is updated to 
+the department completes all of the approvals through Workflow, the <a onclick="return d2hpopup(event, this.href)" id="popup_95920" href="gloss_paymentrequeststatus.htm">payment request status</a> is updated to 
 'Dept-Approved' during post-processing. If the document is automatically 
-approved through the batch auto-<a onclick="return d2hpopup(event, this.href)" id="popup_36854" href="gloss_approve.htm">approve</a> script, its <a onclick="return d2hpopup(event, this.href)" id="popup_36855" href="gloss_status.htm">status</a> is updated to 'Auto-Approved'.</p>
+approved through the batch auto-<a onclick="return d2hpopup(event, this.href)" id="popup_95925" href="gloss_approve.htm">approve</a> script, its <a onclick="return d2hpopup(event, this.href)" id="popup_95926" href="gloss_status.htm">status</a> is updated to 'Auto-Approved'.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Canceling a <a onclick="return d2hpopup(event, this.href)" id="popup_36850" href="gloss_paymentrequest.htm">payment request</a> that has already received 
+</span>Canceling a <a onclick="return d2hpopup(event, this.href)" id="popup_95921" href="gloss_paymentrequest.htm">payment request</a> that has already received 
 some level of approval will result in reversing G/L entries (encumbrances and 
-actuals) and reversing updates to the PO line <a onclick="return d2hpopup(event, this.href)" id="popup_36857" href="gloss_items.htm">items</a> affected (open quantity, amount paid, 
+actuals) and reversing updates to the PO line <a onclick="return d2hpopup(event, this.href)" id="popup_95928" href="gloss_items.htm">items</a> affected (open quantity, amount paid, 
 etc.).</p>
 <p class="Note"><strong>The Timing of 
 G/L</strong><strong></strong><strong></strong><strong> Update: 
@@ -119,7 +119,7 @@ runs. Note that this timing is different from that of most KFS docs, which do
 not update the G/L until the document receives all approvals. If accounting 
 entries on the document change before it reaches 'Final' status, the G/L entries 
 is updated accordingly the next time a batch process runs.</p>
-<p class="Illustration"><img title="Description: PURAP-PREQ Document" alt="Description: PURAP-PREQ Document" src="../ImagesExt/image163_48.jpg" /></p>
+<p class="Illustration"><img title="PURAP-PREQ Document" alt="PURAP-PREQ Document" src="../ImagesExt/image163_48.jpg" /></p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="initiatingapaymentrequestdocument.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Initiating a Payment Request 
 Document</a></p></span></div></div></body></html>
