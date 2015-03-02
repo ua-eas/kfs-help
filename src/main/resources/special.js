@@ -30,7 +30,7 @@ var ALT_OPEN_BOOK_TOPIC = "Open book with topic";
 var ALT_TOPIC = "Topic";
 var TITLE_HOT_SPOT_JUMP = "link";
 var USE_SECTION_508 = "no";
-var g_DefaultURL = "index.html";
+var g_DefaultURL = "default.htm";
 var g_TopicMargin = 7;
 var g_BorderMargin = 2;
 
@@ -168,5 +168,5 @@ function d2hGetEMailSubjectTemplate()
 
 function d2hGetProjectID()
 {
-    return "{65A661B5-8F57-469F-86D6-21F20BC786EF}";
+    return "{FEDE2A8E-0FBD-40CE-8FBF-215C237E00CF}";
 }

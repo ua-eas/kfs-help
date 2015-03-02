@@ -94,18 +94,18 @@ Processes</a></div>
 that is loaded. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Per 
 Diem files should only be loaded when a new per diem file has been issued by the 
-federal government. The <a onclick="return d2hpopup(event, this.href)" id="popup_99416" href="gloss_batch.htm">batch</a> process will prevent duplicate 
+federal government. The <a onclick="return d2hpopup(event, this.href)" id="popup_120058" href="gloss_batch.htm">batch</a> process will prevent duplicate 
 uploads and old records will have the Effective To Date set to end the rate with 
-a date earlier than the new Effective From Date. <a onclick="return d2hpopup(event, this.href)" id="popup_99411" href="gloss_parameter.htm">Parameter</a> DEFAULT_EFFECTIVE_TO_DATE is used when 
+a date earlier than the new Effective From Date. <a onclick="return d2hpopup(event, this.href)" id="popup_120053" href="gloss_parameter.htm">Parameter</a> DEFAULT_EFFECTIVE_TO_DATE is used when 
 a valid effective to date does not exist. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Although the federal data includes both Season <a onclick="return d2hpopup(event, this.href)" id="popup_99412" href="gloss_enddate.htm">End Date</a> and Expiration Date, this data is not 
+</span>Although the federal data includes both Season <a onclick="return d2hpopup(event, this.href)" id="popup_120054" href="gloss_enddate.htm">End Date</a> and Expiration Date, this data is not 
 loaded into the Per Diem tables. Instead, the system assumes that each Season 
 Begin Date is effective unless there is a record with a newer Season Begin Date 
 and the Expiration Date is not used in favor of an Effective To date.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-loading <a onclick="return d2hpopup(event, this.href)" id="popup_99415" href="gloss_conus.htm">CONUS</a> data, the system breaks down local_meals value 
-into breakfast, lunch, dinner, and <a onclick="return d2hpopup(event, this.href)" id="popup_99410" href="gloss_incidentals.htm">incidentals</a> according to the percentages 
+loading <a onclick="return d2hpopup(event, this.href)" id="popup_120057" href="gloss_conus.htm">CONUS</a> data, the system breaks down local_meals value 
+into breakfast, lunch, dinner, and <a onclick="return d2hpopup(event, this.href)" id="popup_120052" href="gloss_incidentals.htm">incidentals</a> according to the percentages 
 specified in the <a href="perdiemmealsandincidentalsbreakdown.htm">Per Diem 
 Meals and Incidentals Breakdown</a> table for the applicable total. If there 
 isn’t a match in the table to the total specified in the CONUS record, the 
@@ -113,13 +113,13 @@ system uses the value specified in your institution’s CONUS_MEAL_BREAKDOWN
 parameter to obtain the percentages applied to breakfast, lunch and dinner. The 
 remaining amount is entered in the incidentals field.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-loading <a onclick="return d2hpopup(event, this.href)" id="popup_99414" href="gloss_oconus.htm">OCONUS</a> data the system uses the local_meals value to 
+loading <a onclick="return d2hpopup(event, this.href)" id="popup_120056" href="gloss_oconus.htm">OCONUS</a> data the system uses the local_meals value to 
 determine breakfast, lunch and dinner based on the values stored in your 
 institution’s OCONUS_MEALS_BREAKDOWN parameter (for example, B=15;L=25;D=40, 
 which represent the percentages for breakfast, lunch and dinner, respectively). 
 The remaining amount is entered in the incidentals field. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<a onclick="return d2hpopup(event, this.href)" id="popup_99413" href="gloss_country.htm">country</a>_code is compared to the <a onclick="return d2hpopup(event, this.href)" id="popup_99417" href="gloss_state.htm">State</a> Abbreviation in the State Code table:</p>
+<a onclick="return d2hpopup(event, this.href)" id="popup_120055" href="gloss_country.htm">country</a>_code is compared to the <a onclick="return d2hpopup(event, this.href)" id="popup_120059" href="gloss_state.htm">State</a> Abbreviation in the State Code table:</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>If the Country Code is not US, 
 the system loads the OCONUS rate as International trip type. </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>If the Country Code is US, the 
