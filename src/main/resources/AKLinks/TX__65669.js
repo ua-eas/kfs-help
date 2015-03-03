@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__65669", [["WordDocuments/editobjectcodetab1.htm", "right", "Edit Object Code Tab"],["WordDocuments/editobjectcodestab.htm", "right", "Edit Object Codes Tab"]]);

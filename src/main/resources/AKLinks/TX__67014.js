@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__67014", [["WordDocuments/editingthefromsection.htm", "right", "Editing the From Section"],["WordDocuments/editingthefromsection1.htm", "right", "Editing the From Section"],["WordDocuments/editingthetosection.htm", "right", "Editing the To Section"],["WordDocuments/editingthetosection1.htm", "right", "Editing the To Section"]]);

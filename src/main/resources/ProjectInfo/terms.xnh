@@ -466,7 +466,6 @@
     <term name="Moving and Relocation Reimbursement" url="WordDocuments/gloss_movingandrelocationreimbursement.htm" window="d2hWnd_SecondaryPopup" id="2326"><![CDATA[Moving and Relocation Reimbursement]]></term>
     <term name="MPE" url="WordDocuments/gloss_mpe.htm" window="d2hWnd_SecondaryPopup" id="2327"><![CDATA[MPE]]></term>
     <term name="MPV" url="WordDocuments/gloss_mpv.htm" window="d2hWnd_SecondaryPopup" id="2328"><![CDATA[MPV]]></term>
-    <term name="Mutual Fund" url="WordDocuments/gloss_mutualfund.htm" window="d2hWnd_SecondaryPopup" id="2329"><![CDATA[Mutual Fund]]></term>
     <term name="NACUBO" url="WordDocuments/gloss_nacubo.htm" window="d2hWnd_SecondaryPopup" id="2330"><![CDATA[NACUBO]]></term>
     <term name="Namespace" url="WordDocuments/gloss_namespace.htm" window="d2hWnd_SecondaryPopup" id="2331"><![CDATA[Namespace]]></term>
     <term name="National Stock Number" url="WordDocuments/gloss_nationalstocknumber.htm" window="d2hWnd_SecondaryPopup" id="2332"><![CDATA[National Stock Number]]></term>
@@ -788,4 +787,52 @@
     <term name="YEOR" url="WordDocuments/gloss_yeor.htm" window="d2hWnd_SecondaryPopup" id="2648"><![CDATA[YEOR]]></term>
     <term name="YETF" url="WordDocuments/gloss_yetf.htm" window="d2hWnd_SecondaryPopup" id="2649"><![CDATA[YETF]]></term>
     <term name="Creation Date" url="WordDocuments/gloss_creationdate1.htm" window="d2hWnd_SecondaryPopup" id="5132"><![CDATA[Creation Date]]></term>
+    <term name="AR" url="WordDocuments/gloss_ar.htm" window="d2hWnd_SecondaryPopup" id="5517"><![CDATA[AR]]></term>
+    <term name="AR Collector" url="WordDocuments/gloss_arcollector.htm" window="d2hWnd_SecondaryPopup" id="5518"><![CDATA[AR Collector]]></term>
+    <term name="Collection Activity" url="WordDocuments/gloss_collectionactivity.htm" window="d2hWnd_SecondaryPopup" id="5527"><![CDATA[Collection Activity]]></term>
+    <term name="Collection Event" url="WordDocuments/gloss_collectionevent.htm" window="d2hWnd_SecondaryPopup" id="5528"><![CDATA[Collection Event]]></term>
+    <term name="Contracts &amp; Grants Billing" url="WordDocuments/gloss_contractsgrantsbilling.htm" window="d2hWnd_SecondaryPopup" id="5529"><![CDATA[Contracts & Grants Billing]]></term>
+    <term name="Cost Reimbursable" url="WordDocuments/gloss_costreimbursable.htm" window="d2hWnd_SecondaryPopup" id="5530"><![CDATA[Cost Reimbursable]]></term>
+    <term name="Dunning" url="WordDocuments/gloss_dunning.htm" window="d2hWnd_SecondaryPopup" id="5531"><![CDATA[Dunning]]></term>
+    <term name="Dunning Campaign" url="WordDocuments/gloss_dunningcampaign.htm" window="d2hWnd_SecondaryPopup" id="5532"><![CDATA[Dunning Campaign]]></term>
+    <term name="Dunning Letter Template" url="WordDocuments/gloss_dunninglettertemplate.htm" window="d2hWnd_SecondaryPopup" id="5533"><![CDATA[Dunning Letter Template]]></term>
+    <term name="Dunning Letters" url="WordDocuments/gloss_dunningletters.htm" window="d2hWnd_SecondaryPopup" id="5534"><![CDATA[Dunning Letters]]></term>
+    <term name="Letter of Credit" url="WordDocuments/gloss_letterofcredit.htm" window="d2hWnd_SecondaryPopup" id="5536"><![CDATA[Letter of Credit]]></term>
+    <term name="Method of Invoice Transmission" url="WordDocuments/gloss_methodofinvoicetransmission.htm" window="d2hWnd_SecondaryPopup" id="5538"><![CDATA[Method of Invoice Transmission]]></term>
+    <term name="Milestone Schedule" url="WordDocuments/gloss_milestoneschedule.htm" window="d2hWnd_SecondaryPopup" id="5539"><![CDATA[Milestone Schedule]]></term>
+    <term name="Predetermined Billing Schedule" url="WordDocuments/gloss_predeterminedbillingschedule.htm" window="d2hWnd_SecondaryPopup" id="5542"><![CDATA[Predetermined Billing Schedule]]></term>
+    <term name="Aging Bucket" url="WordDocuments/gloss_agingbucket.htm" window="d2hWnd_SecondaryPopup" id="5555"><![CDATA[Aging Bucket]]></term>
+    <term name="BILF" url="WordDocuments/gloss_bilf.htm" window="d2hWnd_SecondaryPopup" id="5556"><![CDATA[BILF]]></term>
+    <term name="Billing Frequency" url="WordDocuments/gloss_billingfrequency.htm" window="d2hWnd_SecondaryPopup" id="5557"><![CDATA[Billing Frequency]]></term>
+    <term name="CAT" url="WordDocuments/gloss_cat.htm" window="d2hWnd_SecondaryPopup" id="5558"><![CDATA[CAT]]></term>
+    <term name="CATP" url="WordDocuments/gloss_catp.htm" window="d2hWnd_SecondaryPopup" id="5559"><![CDATA[CATP]]></term>
+    <term name="CCA" url="WordDocuments/gloss_cca.htm" window="d2hWnd_SecondaryPopup" id="5560"><![CDATA[CCA]]></term>
+    <term name="CINV" url="WordDocuments/gloss_cinv.htm" window="d2hWnd_SecondaryPopup" id="5561"><![CDATA[CINV]]></term>
+    <term name="Claim on Cash Balance" url="WordDocuments/gloss_claimoncashbalance.htm" window="d2hWnd_SecondaryPopup" id="5562"><![CDATA[Claim on Cash Balance]]></term>
+    <term name="Contracts &amp; Grants Collection Activity" url="WordDocuments/gloss_contractsgrantscollectionactivity.htm" window="d2hWnd_SecondaryPopup" id="5563"><![CDATA[Contracts & Grants Collection Activity]]></term>
+    <term name="Contracts &amp; Grants Invoice" url="WordDocuments/gloss_contractsgrantsinvoice.htm" window="d2hWnd_SecondaryPopup" id="5564"><![CDATA[Contracts & Grants Invoice]]></term>
+    <term name="Contracts &amp; Grants LOC Review" url="WordDocuments/gloss_contractsgrantslocreview.htm" window="d2hWnd_SecondaryPopup" id="5565"><![CDATA[Contracts & Grants LOC Review]]></term>
+    <term name="CVNT" url="WordDocuments/gloss_cvnt.htm" window="d2hWnd_SecondaryPopup" id="5567"><![CDATA[CVNT]]></term>
+    <term name="DLTM" url="WordDocuments/gloss_dltm.htm" window="d2hWnd_SecondaryPopup" id="5568"><![CDATA[DLTM]]></term>
+    <term name="Draw" url="WordDocuments/gloss_draw.htm" window="d2hWnd_SecondaryPopup" id="5569"><![CDATA[Draw]]></term>
+    <term name="DUNC" url="WordDocuments/gloss_dunc.htm" window="d2hWnd_SecondaryPopup" id="5570"><![CDATA[DUNC]]></term>
+    <term name="Exclude from Invoicing" url="WordDocuments/gloss_excludefrominvoicing.htm" window="d2hWnd_SecondaryPopup" id="5571"><![CDATA[Exclude from Invoicing]]></term>
+    <term name="FBI" url="WordDocuments/gloss_fbi.htm" window="d2hWnd_SecondaryPopup" id="5572"><![CDATA[FBI]]></term>
+    <term name="Final Billed Indicator" url="WordDocuments/gloss_finalbilledindicator.htm" window="d2hWnd_SecondaryPopup" id="5573"><![CDATA[Final Billed Indicator]]></term>
+    <term name="Fund Manager" url="WordDocuments/gloss_fundmanager.htm" window="d2hWnd_SecondaryPopup" id="5574"><![CDATA[Fund Manager]]></term>
+    <term name="Generate Dunning Letters" url="WordDocuments/gloss_generatedunningletters.htm" window="d2hWnd_SecondaryPopup" id="5575"><![CDATA[Generate Dunning Letters]]></term>
+    <term name="IINST" url="WordDocuments/gloss_iinst.htm" window="d2hWnd_SecondaryPopup" id="5576"><![CDATA[IINST]]></term>
+    <term name="IMTM" url="WordDocuments/gloss_imtm.htm" window="d2hWnd_SecondaryPopup" id="5577"><![CDATA[IMTM]]></term>
+    <term name="Instrument Type" url="WordDocuments/gloss_instrumenttype.htm" window="d2hWnd_SecondaryPopup" id="5578"><![CDATA[Instrument Type]]></term>
+    <term name="Invoicing Option" url="WordDocuments/gloss_invoicingoption.htm" window="d2hWnd_SecondaryPopup" id="5579"><![CDATA[Invoicing Option]]></term>
+    <term name="ITM" url="WordDocuments/gloss_itm.htm" window="d2hWnd_SecondaryPopup" id="5580"><![CDATA[ITM]]></term>
+    <term name="LCR" url="WordDocuments/gloss_lcr.htm" window="d2hWnd_SecondaryPopup" id="5581"><![CDATA[LCR]]></term>
+    <term name="Letter of Credit Fund" url="WordDocuments/gloss_letterofcreditfund.htm" window="d2hWnd_SecondaryPopup" id="5582"><![CDATA[Letter of Credit Fund]]></term>
+    <term name="MILE" url="WordDocuments/gloss_mile.htm" window="d2hWnd_SecondaryPopup" id="5584"><![CDATA[MILE]]></term>
+    <term name="PDBS" url="WordDocuments/gloss_pdbs.htm" window="d2hWnd_SecondaryPopup" id="5586"><![CDATA[PDBS]]></term>
+    <term name="Stop Work" url="WordDocuments/gloss_stopwork.htm" window="d2hWnd_SecondaryPopup" id="5587"><![CDATA[Stop Work]]></term>
+    <term name="Suspend" url="WordDocuments/gloss_suspend.htm" window="d2hWnd_SecondaryPopup" id="5588"><![CDATA[Suspend]]></term>
+    <term name="Suspension Category" url="WordDocuments/gloss_suspensioncategory.htm" window="d2hWnd_SecondaryPopup" id="5589"><![CDATA[Suspension Category]]></term>
+    <term name="Tickler" url="WordDocuments/gloss_tickler.htm" window="d2hWnd_SecondaryPopup" id="5590"><![CDATA[Tickler]]></term>
+    <term name="Transmit Contracts &amp; Grants Invoices" url="WordDocuments/gloss_transmitcontractsgrantsinvoices.htm" window="d2hWnd_SecondaryPopup" id="5591"><![CDATA[Transmit Contracts & Grants Invoices]]></term>
 </terms>
