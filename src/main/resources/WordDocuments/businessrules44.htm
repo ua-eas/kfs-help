@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; WIDTH: 100%; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="locationtab1.htm"></a><a id="D2HNextAnchor" href="addingalocationtotheassetdetailinformation.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview42.htm"></a><a id="D2HNextAnchor" href="routing26.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -87,32 +87,39 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="capitalassetmodules.htm">Capital Asset Modules</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanagementcam.htm">Capital Asset Management (CAM)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="camlookupandmaintenanceedocs.htm">CAM Lookup and Maintenance 
-E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="assetglobaladd.htm">Asset Global 
-(Add)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="documentlayout126.htm">Document 
-Layout</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="locationtab1.htm">Location Tab</a></div>
-<p class="MsoHeading7">Business Rules</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>For 
-capital assets the <a onclick="return d2hpopup(event, this.href)" id="popup_243779" href="gloss_buildingcode.htm">building code</a> is the <a onclick="return d2hpopup(event, this.href)" id="popup_243782" href="gloss_building.htm">building</a> in which the <a onclick="return d2hpopup(event, this.href)" id="popup_243784" href="gloss_asset.htm">asset</a> is located. The asset category identified by 
-the <a onclick="return d2hpopup(event, this.href)" id="popup_243781" href="gloss_assettype.htm">asset type</a> determines whether a building code, <a onclick="return d2hpopup(event, this.href)" id="popup_243785" href="gloss_room.htm">room</a> number or off-<a onclick="return d2hpopup(event, this.href)" id="popup_243783" href="gloss_campus.htm">campus</a> information is required. For this reason the 
-asset type must be specified before the building and room number are 
-entered.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>For 
-non-capital assets a building code or room number is not required. For this 
-reason <a onclick="return d2hpopup(event, this.href)" id="popup_243780" href="gloss_assetstatus.htm">asset status</a> must be entered before the 
-building code, or room number is entered. If these values are entered 
-non-capital assets, they must be valid.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Any 
-asset type code with the 'moving code' indicator checked requires a valid 
-campus, building code and room number combination, or an off-campus address. All 
-asset type codes for movable equipment have this code checked.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Any 
-asset type code with the 'reg bldg' indicator checked requires a building code. 
-Asset type codes for buildings have this code checked.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Any 
-asset type code with both 'moving code,' and 'reg bldg' indicators unchecked 
-requires a campus code but no building or room number. Asset type codes for 
-land, land improvements, and leasehold improvements have these codes 
-unchecked.</p>
+E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="equipmentloanrenewal.htm">Equipment Loan 
+Renewal</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview42.htm">Process 
+Overview</a></div>
+<h6>Business Rules</h6>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Three 
+conditions must be present to initiate the Equipment Loan /Return <a onclick="return d2hpopup(event, this.href)" id="popup_321190" href="gloss_document.htm">document</a> for a loan renewal:</p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>The <a onclick="return d2hpopup(event, this.href)" id="popup_321191" href="gloss_asset.htm">asset</a> must exist in the database, 
+<strong>and</strong></p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>the tag must be attached to 
+the equipment, <strong>and</strong></p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>the <a onclick="return d2hpopup(event, this.href)" id="popup_321189" href="gloss_tagnumber.htm">tag number</a> must be entered in the Asset 
+document.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+expected return date cannot be more than two years from the loan date.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong><a onclick="return d2hpopup(event, this.href)" id="popup_321188" href="gloss_lastinventorydate.htm"><strong>Last Inventory 
+Date</strong></a></strong> value will automatically be updated to match that of 
+the loan date.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+asset <strong>renew</strong> link is available in the <strong>Actions</strong> 
+column only when the asset has previously been lent.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong>Expected Return Date</strong> rules:</p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>When issuing a document to 
+renew a loan, the <a onclick="return d2hpopup(event, this.href)" id="popup_321187" href="gloss_equipmentloanreturn.htm">Equipment Loan/Return</a> document requires 
+an expected return date.</p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>When issuing a document to 
+renew a loan, the expected return date cannot be more than two years from the 
+loan date.</p>
+<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: 'Courier New'">o  </span>The expected return date 
+cannot be earlier than the loan date.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+equipment loan return date is required when issuing an Equipment Loan Return 
+document.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="addingalocationtotheassetdetailinformation.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Adding a Location to the Asset Detail 
-Information</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing26.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Routing</a></p></span></div></div></body></html>

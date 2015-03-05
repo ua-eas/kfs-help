@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; WIDTH: 100%; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview85.htm"></a><a id="D2HNextAnchor" href="routing69.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview88.htm"></a><a id="D2HNextAnchor" href="example53.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,11 +86,43 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtransactionedocs1.htm">Standard Transaction E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchaseorderremovepaymenthold.htm">Purchase Order Remove Payment 
-Hold</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview85.htm">Process 
-Overview</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtransactionedocs1.htm">Standard Transaction E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="receivinglineitemreceiving.htm">Receiving (Line Item Receiving)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview88.htm">Process Overview</a></div>
 <h5>Business Rules</h5>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
+active, quantity-based line <a onclick="return d2hpopup(event, this.href)" id="popup_327655" href="gloss_items.htm">items</a> on the <a onclick="return d2hpopup(event, this.href)" id="popup_327649" href="gloss_purchaseorder.htm">purchase order</a> will load when the Receiving 
+<a onclick="return d2hpopup(event, this.href)" id="popup_327653" href="gloss_document.htm">document</a> is <a onclick="return d2hpopup(event, this.href)" id="popup_327651" href="gloss_initiated.htm">initiated</a>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+the Receiving document is submitted, the <strong>Qty Received</strong> and 
+<strong>Qty Damaged</strong> are updated on the purchase order with the 
+<strong>Qty Received</strong> - <strong>Qty Returned</strong> and <strong>Qty 
+Damaged</strong> values on the Receiving document.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+the Receiving document is submitted, all line items that have no receiving 
+activity are deleted from the document.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong>The system does not allow the Qty Received</strong>, <strong>Qty 
+Returned</strong>, or <strong>Qty Damaged</strong> to be less than 0.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Notes 
+in the <strong>Notes and Attachments</strong> tab are used to record any 
+additional detail about damaged goods.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<strong>Qty Returned</strong> or <strong>Qty Damaged</strong> is &gt; 0 on any 
+line item, a note is required when the document is submitted.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Unordered items generate a <a onclick="return d2hpopup(event, this.href)" id="popup_327648" href="gloss_purchaseorderamendment.htm">purchase order 
+amendment</a>. The new line item is added to the purchase order and purchasing 
+will add the unit cost and the accounting string. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
+the document has been submitted, a correction document needs to be <a onclick="return d2hpopup(event, this.href)" id="popup_327652" href="gloss_processed.htm">processed</a> to reduce or increase the quantity 
+received, returned, and/or damaged if the original entered amounts are 
+determined to be in error.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<a onclick="return d2hpopup(event, this.href)" id="popup_250519" href="gloss_porh.htm">PORH</a> <a onclick="return d2hpopup(event, this.href)" id="popup_250516" href="gloss_document.htm">document</a> may be <a onclick="return d2hpopup(event, this.href)" id="popup_250515" href="gloss_initiated.htm">initiated</a> only by users with the <a onclick="return d2hpopup(event, this.href)" id="popup_250520" href="gloss_kfs.htm">KFS</a>-<a onclick="return d2hpopup(event, this.href)" id="popup_250517" href="gloss_purap.htm">PURAP</a> Purchasing Processor <a onclick="return d2hpopup(event, this.href)" id="popup_250518" href="gloss_role.htm">role</a>. </p>
+<a onclick="return d2hpopup(event, this.href)" id="popup_327650" href="gloss_fiscalofficer.htm">fiscal officer</a> receives an <a onclick="return d2hpopup(event, this.href)" id="popup_327656" href="gloss_fyi.htm">FYI</a> from the submitted Receiving document if any item 
+has damaged quantities and/or if any item's total received is more than was 
+ordered. </p>
+<p class="Note"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image308_12.png" />     FYI <a onclick="return d2hpopup(event, this.href)" id="popup_327654" href="gloss_routing.htm">routing</a> is not possible for unordered items because 
+there are no accounts associated with them. The unordered item generates a 
+purchase order amendment so that accounts and unit costs can be added to the <a onclick="return d2hpopup(event, this.href)" id="popup_327657" href="gloss_po.htm">PO</a>. When Purchasing completes the purchase order 
+amendment, an FYI will be sent to the fiscal officer at that time. </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing69.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Routing</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="example53.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Example</a></p></span></div></div></body></html>

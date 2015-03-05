@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Consolidation Option</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS Core_Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS BC_Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; WIDTH: 100%; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="drilldowns.htm"></a><a id="D2HNextAnchor" href="amountviewoption.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="reportsorganizationmenu.htm"></a><a id="D2HNextAnchor" href="listselections.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,19 +86,28 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
-&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
-Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glbalanceinquiries.htm">GL Balance 
-Inquiries</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glinquiriesbasicinformation.htm">GL Inquiries: 
-Basic Information</a></div>
-<h5>Consolidation Option</h5>
-<p class="MsoBodyText">Balance inquiries allow you to choose to view balances in a 
-consolidated or detailed view. The default is to display an aggregate total for 
-all sub-accounts for the selected <a onclick="return d2hpopup(event, this.href)" id="popup_236905" href="gloss_chart.htm">chart</a> and <a onclick="return d2hpopup(event, this.href)" id="popup_236904" href="gloss_account.htm">account</a> number, the <strong>Consolidation</strong> 
-option. If you select the <strong>Detail </strong>option, the report displays 
-the balances for each <a onclick="return d2hpopup(event, this.href)" id="popup_236903" href="gloss_subaccount.htm">sub-account</a> for the chart and 
-account number selected. If you select <strong><a onclick="return d2hpopup(event, this.href)" id="popup_236902" href="gloss_excludesubaccounts.htm"><strong>Exclude 
-Sub-Accounts</strong></a></strong> option, the balances will exclude activitity 
-associated with sub-accounts or sub-object codes. </p>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="budgetconstruction.htm">Budget Construction</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardbudgetconstructionedocsandoperations.htm">Standard Budget 
+Construction E-Docs and Operations</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="documentreportsandexports.htm">Document Reports and Exports</a></div>
+<h4>Consolidation Option</h4>
+<p class="MsoBodyText">In normal mode, each <a onclick="return d2hpopup(event, this.href)" id="popup_320210" href="gloss_subaccount.htm">sub-account</a> is treated as if it were a separate 
+<a onclick="return d2hpopup(event, this.href)" id="popup_320211" href="gloss_account.htm">account</a> in budget construction, and <a onclick="return d2hpopup(event, this.href)" id="popup_320209" href="gloss_organization.htm">organization</a>-level reports that include 
+account detail list each account's and sub-account's information separately. 
+However, some reports offer a consolidated option. This option is offered via a 
+check box on the Organization Report Selection screen. Using the check box you 
+may specify that the report should consolidate all sub-account data into the 
+parent account and print only the consolidated total for that account on the 
+report. </p>
+<p class="MsoBodyText">This option is available for the Organization <a onclick="return d2hpopup(event, this.href)" id="popup_320208" href="gloss_accountsummary.htm">Account Summary</a>, Organization Account Object 
+Detail, and Monthly Object Summary Reports. The top right corner of these 
+reports includes the word 'Consolidated' if this option has been chosen; 
+otherwise, all sub-account detail will be reported separately.</p>
+<p class="Illustration"><span style="HEIGHT: 48px; POSITION: absolute; MARGIN-LEFT: 390px; Z-INDEX: 251658240; MARGIN-TOP: 323px; WIDTH: 44px"><img src="../ImagesExt/image300_265.png" width="44" height="48" alt="" /></span><img border="0" src="../ImagesExt/image300_266.png" alt="" /></p>
+<p class="MsoBodyText">When the report is not consolidated, the sub-account is 
+shown on the report:</p>
+<p class="Illustration"><img border="0" src="../ImagesExt/image300_267.jpg" alt="" /> </p>
+<p class="MsoBodyText">The consolidated version does not display the 
+sub-accounts:</p>
+<p class="Illustration"><img border="0" src="../ImagesExt/image300_268.jpg" alt="" /> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="amountviewoption.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Amount View Option</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="listselections.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />List Selections</a></p></span></div></div></body></html>

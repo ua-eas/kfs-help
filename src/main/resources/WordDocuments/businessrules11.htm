@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; WIDTH: 100%; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview6.htm"></a><a id="D2HNextAnchor" href="routing5.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="reversalposter.htm"></a><a id="D2HNextAnchor" href="reversalposterreport.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -87,30 +87,49 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
-&gt; </span><a class="d2h_breadcrumbsNormal" href="chartofaccountscoa1.htm">Chart 
-of Accounts (COA)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardcoadocuments.htm">Standard COA 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="objectcode.htm">Object Code</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview6.htm">Process Overview</a></div>
+&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glpostingposter.htm">GL Posting ('Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="reversalposter.htm">Reversal Poster</a></div>
 <h6>Business Rules</h6>
+<p class="MsoBodyText">This process derives the <a onclick="return d2hpopup(event, this.href)" id="popup_314587" href="gloss_fiscalyear.htm">fiscal year</a> and period code from the reversal 
+date unless that period is closed, in which case the current period is used. It 
+reverses the debit/credit code of the original transaction, appends the prefix 
+'AUTO-REVERSAL' to the <a onclick="return d2hpopup(event, this.href)" id="popup_314589" href="gloss_document.htm">document</a> description, and sets the 
+reversal date to blank. Entries are validated to ensure that there are no errors 
+and then posted to the GL.</p>
+<p class="MsoBodyText">Additional validation is performed on the Reversal Date 
+value:</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong>Reports to <a onclick="return d2hpopup(event, this.href)" id="popup_237664" href="gloss_chartcode.htm">Chart Code</a></strong> value is not 
-the highest <a onclick="return d2hpopup(event, this.href)" id="popup_237665" href="gloss_chart.htm">chart</a> level, the reports to <a onclick="return d2hpopup(event, this.href)" id="popup_237662" href="gloss_objectcode.htm">object code</a>, <a onclick="return d2hpopup(event, this.href)" id="popup_237663" href="gloss_fiscalyear.htm">fiscal year</a>, and chart code combination must 
-exist in the Object Code Table.</p>
+this date is not found in the <a onclick="return d2hpopup(event, this.href)" id="popup_314585" href="gloss_universitydate.htm">University Date</a> table, the 
+transaction is flagged as an error (the <a onclick="return d2hpopup(event, this.href)" id="popup_314591" href="gloss_message.htm">message</a> 'DATE FROM GL REVERSAL IS NOT IN THE 
+UNIVERSITY DATE TABLE' is generated) and reversal processing stops for this 
+transaction.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong>Reports to Chart Code</strong> value is at the highest level, then 
-the object code must report to itself as an additional rule.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If a 
-<strong>Next Year Object Code</strong> value is entered, then the current fiscal 
-year, chart code, and next year object code combination must exist in the Object 
-Code Table.</p>
-<p class="Note"><img title="lightbolb-small" border="0" alt="lightbolb-small" src="../ImagesExt/image168_9.png" />   <strong>Institutional Reporting: 
-</strong>The <a onclick="return d2hpopup(event, this.href)" id="popup_237666" href="gloss_kfs.htm">KFS</a> provides for various fields available for 
-institutional reporting. You can, for example, define a top level chart that 
-consolidates activity for reporting purpose. After the top level chart is 
-defined, the Statement of Net Assets and Statement of Revenues, Expenses and 
-Changes in Net Assets can be designed, using 'Reports To' chart and object code 
-and the sub-totals by the object code levels and consolidations on the top 
-chart. Or, you may design <a onclick="return d2hpopup(event, this.href)" id="popup_237659" href="gloss_responsibilitycenter.htm">responsibility center</a> 
-reports using the <a onclick="return d2hpopup(event, this.href)" id="popup_237661" href="gloss_organization.htm">organization</a> roll-up of accounts. For more 
-information about the capabilities of the organization within the <a onclick="return d2hpopup(event, this.href)" id="popup_237660" href="gloss_chartofaccounts.htm">Chart of Accounts</a>, refer to <a href="organization.htm">Organization</a> and <a href="organizationtype.htm">Organization Type</a>. </p>
+the reversal date is not in the <a onclick="return d2hpopup(event, this.href)" id="popup_314586" href="gloss_fiscalperiod.htm">Fiscal Period</a> table, the 
+transaction is flagged as an error (the message 'REVERSAL DATE IS NOT IN FISCAL 
+PERIOD' is generated) and reversal processing stops for this transaction.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the Fiscal Period has a <a onclick="return d2hpopup(event, this.href)" id="popup_314592" href="gloss_status.htm">status</a> of 'CLOSED,' use the current 
+date and fiscal period instead, unless the current date is not in the University 
+Date table.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the current date is not in the University Date table, flag the transaction as an 
+error (the message 'CURRENT DATE IS NOT IN THE UNIVERSITY DATE TABLE' is 
+generated) and reversal processing stops for this transaction.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Following the same business rules used in the main GL posting function, 
+the pending reversal entries (generated GL origin entries) are evaluated to 
+determine whether or not they should be included for <a onclick="return d2hpopup(event, this.href)" id="popup_314593" href="gloss_icr.htm">ICR</a>. For entries that satisfy the business rules 
+(below), GL expense transactions are generated.</p>
+<p class="MsoBodyText">Following the same business rules used in the main GL 
+posting function, the pending reversal entries are evaluated to determine 
+whether or not they affect encumbrances. Entries that satisfy the GL <a onclick="return d2hpopup(event, this.href)" id="popup_314588" href="gloss_encumbrance.htm">encumbrance</a> business rules (above) update 
+encumbrances.</p>
+<p class="MsoBodyText">Similarly, pending reversal entries that satisfy the <a onclick="return d2hpopup(event, this.href)" id="popup_314584" href="gloss_sufficientfunds.htm">sufficient funds</a> business rules (the same 
+business rules used in the main GL posting function) update sufficient funds 
+balances.</p>
+<p class="MsoBodyText">Pending reversal entries that satisfy the GL <a onclick="return d2hpopup(event, this.href)" id="popup_314590" href="gloss_account.htm">account</a> balance business rules (the same business 
+rules used in the main GL posting function above) update GL account 
+balances.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing5.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Routing</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="reversalposterreport.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Reversal Poster 
+Report</a></p></span></div></div></body></html>

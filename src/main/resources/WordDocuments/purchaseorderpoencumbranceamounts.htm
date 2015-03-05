@@ -92,25 +92,25 @@ Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class=
 Poster')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="openandclosedencumbranceamounts.htm">Open and 
 Closed Encumbrance Amounts</a></div>
 <p class="MsoHeading7">Purchase Order (PO) Encumbrance Amounts</p>
-<p class="MsoBodyText"><a onclick="return d2hpopup(event, this.href)" id="popup_236463" href="gloss_purchaseorder.htm">Purchase order</a> <a onclick="return d2hpopup(event, this.href)" id="popup_236464" href="gloss_encumbrance.htm">encumbrance</a> entries are handled differently 
-because a single purchase order may have several <a onclick="return d2hpopup(event, this.href)" id="popup_236466" href="gloss_document.htm">document</a> numbers in the <a onclick="return d2hpopup(event, this.href)" id="popup_236469" href="gloss_kfs.htm">KFS</a>. Each time the purchase order is amended or 
-otherwise modified, a new <a onclick="return d2hpopup(event, this.href)" id="popup_236462" href="gloss_documentnumber.htm">document number</a> is generated 
+<p class="MsoBodyText"><a onclick="return d2hpopup(event, this.href)" id="popup_314522" href="gloss_purchaseorder.htm">Purchase order</a> <a onclick="return d2hpopup(event, this.href)" id="popup_314523" href="gloss_encumbrance.htm">encumbrance</a> entries are handled differently 
+because a single purchase order may have several <a onclick="return d2hpopup(event, this.href)" id="popup_314525" href="gloss_document.htm">document</a> numbers in the <a onclick="return d2hpopup(event, this.href)" id="popup_314528" href="gloss_kfs.htm">KFS</a>. Each time the purchase order is amended or 
+otherwise modified, a new <a onclick="return d2hpopup(event, this.href)" id="popup_314521" href="gloss_documentnumber.htm">document number</a> is generated 
 for that transaction but the purchase order number remains the same. To ensure 
 that the open amount updates correctly and payments are properly associated with 
-the right purchase order number, the <a onclick="return d2hpopup(event, this.href)" id="popup_236465" href="gloss_parameter.htm">parameter</a> 
+the right purchase order number, the <a onclick="return d2hpopup(event, this.href)" id="popup_314524" href="gloss_parameter.htm">parameter</a> 
 ENCUMBRANCE_OPEN_AMOUNT_OVERRIDING_DOCUMENT_TYPES defines the document types 
 that should always update the open amount of the Encumbrance table. This 
 parameter contains all the document types used to identify purchase orders and 
 travel authorizations.</p>
-<p class="MsoBodyText">The purchase order number is included in the <a onclick="return d2hpopup(event, this.href)" id="popup_236461" href="gloss_referencedocument.htm">Reference Document</a> Number field of 
-entries from these document types and the <a onclick="return d2hpopup(event, this.href)" id="popup_236460" href="gloss_encumbranceupdatecode.htm">Encumbrance Update Code</a> is set to 
+<p class="MsoBodyText">The purchase order number is included in the <a onclick="return d2hpopup(event, this.href)" id="popup_314520" href="gloss_referencedocument.htm">Reference Document</a> Number field of 
+entries from these document types and the <a onclick="return d2hpopup(event, this.href)" id="popup_314519" href="gloss_encumbranceupdatecode.htm">Encumbrance Update Code</a> is set to 
 'R.' This creates a new or edits an existing open encumbrance amount using the 
 purchase order number as the reference. Payment requests or credit memos applied 
-to the <a onclick="return d2hpopup(event, this.href)" id="popup_236470" href="gloss_po.htm">PO</a> and Travel Reimbursements applied to Travel 
-Authorizatioins also include the purchase order or <a onclick="return d2hpopup(event, this.href)" id="popup_236468" href="gloss_tem.htm">TEM</a> ID number in the Reference Document Number field 
+to the <a onclick="return d2hpopup(event, this.href)" id="popup_314529" href="gloss_po.htm">PO</a> and Travel Reimbursements applied to Travel 
+Authorizatioins also include the purchase order or <a onclick="return d2hpopup(event, this.href)" id="popup_314527" href="gloss_tem.htm">TEM</a> ID number in the Reference Document Number field 
 and have an Encumbrance Update Code of 'R.' Because these values are not in the 
 ENCUMBRANCE_OPEN_AMOUNT_OVERRIDING_DOCUMENT_TYPES parameter, they always 
-increase or decrease the Encumbrance <a onclick="return d2hpopup(event, this.href)" id="popup_236467" href="gloss_close.htm">Close</a> Amount column for that item.</p>
+increase or decrease the Encumbrance <a onclick="return d2hpopup(event, this.href)" id="popup_314526" href="gloss_close.htm">Close</a> Amount column for that item.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="futurereversalupdate.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Future Reversal 
 Update</a></p></span></div></div></body></html>

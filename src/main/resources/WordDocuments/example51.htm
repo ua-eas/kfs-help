@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; WIDTH: 100%; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="postprocessing5.htm"></a><a id="D2HNextAnchor" href="purchaseorder.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="automatedapproval1.htm"></a><a id="D2HNextAnchor" href="electronicinvoicereject.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,24 +86,25 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtransactionedocs1.htm">Standard Transaction E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="requisition.htm">Requisition</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtransactionedocs1.htm">Standard Transaction E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="paymentrequest.htm">Payment Request</a></div>
 <h4>Example</h4>
-<p class="MsoBodyText">A departmental <a onclick="return d2hpopup(event, this.href)" id="popup_249957" href="gloss_user.htm">user</a> wants to order cleaning supplies from a <a onclick="return d2hpopup(event, this.href)" id="popup_249955" href="gloss_vendor.htm">vendor</a> from whom he or she has ordered supplies in 
-the past. The user would like these supplies to be charged to <a onclick="return d2hpopup(event, this.href)" id="popup_249952" href="gloss_account.htm">account</a> 1031400 and is using the catalog number and 
-price for the products from a previous order.</p>
-<p class="MsoBodyText">The <a onclick="return d2hpopup(event, this.href)" id="popup_249949" href="gloss_initiator.htm">initiator</a> searches for the vendor 
-and completes the <strong><a onclick="return d2hpopup(event, this.href)" id="popup_249956" href="gloss_items.htm"><strong>Items</strong></a></strong> 
-section with the information on hand. Adjustments may need to be made to this 
-information when the <a onclick="return d2hpopup(event, this.href)" id="popup_249947" href="gloss_requisition.htm">requisition</a> ultimately becomes 
-a <a onclick="return d2hpopup(event, this.href)" id="popup_249958" href="gloss_po.htm">PO</a>. The user indicates on the <strong>Accounting 
-Lines</strong> section for the items that they are to be charged to account 
-1031400 and <a onclick="return d2hpopup(event, this.href)" id="popup_249946" href="gloss_objectcode.htm">object code</a> 5000. The initiator also enters 
-information indicating where the goods are to be delivered on the 
-<strong>Delivery</strong> tab and additional information about the user creating 
-the requisition on the<strong> Additional Institutional Info </strong>tab.</p>
-<p class="MsoBodyText">The requisition is <a onclick="return d2hpopup(event, this.href)" id="popup_249950" href="gloss_completed.htm">completed</a> by user khuntley. <a onclick="return d2hpopup(event, this.href)" id="popup_249954" href="gloss_routing.htm">Routing</a> <a onclick="return d2hpopup(event, this.href)" id="popup_249953" href="gloss_workflow.htm">workflow</a> sends the requisition to a <a onclick="return d2hpopup(event, this.href)" id="popup_249945" href="gloss_fiscalofficer.htm">fiscal officer</a> for approval. After the fiscal 
-officer picks the requisition up from his or her <a onclick="return d2hpopup(event, this.href)" id="popup_249948" href="gloss_actionlist.htm">action list</a> and approves the requisition, the 
-<strong><a onclick="return d2hpopup(event, this.href)" id="popup_249951" href="gloss_routelog.htm"><strong>Route Log</strong></a></strong> is updated to 
-show that the actions taken include the fiscal officer's approval.</p>
+<p class="MsoBodyText">The example below shows the warning <a onclick="return d2hpopup(event, this.href)" id="popup_327477" href="gloss_message.htm">message</a> that is displayed when the amount of the <a onclick="return d2hpopup(event, this.href)" id="popup_327475" href="gloss_processed.htm">processed</a> <a onclick="return d2hpopup(event, this.href)" id="popup_327473" href="gloss_paymentrequest.htm">payment request</a> does not match the amount 
+entered on the initiation screen. In this case, the <a onclick="return d2hpopup(event, this.href)" id="popup_327483" href="gloss_ap.htm">AP</a> processor entered $127.90 on the initiation screen 
+but processed the invoice for Line 1 = 49.90, Line 2 = 14.00 and Line 3 = 50.00 
+for a total of 113.90.</p>
+<p class="Illustration"><img src="../ImagesExt/image308_73.png" alt="" /></p>
+<p class="MsoBodyText">The <a onclick="return d2hpopup(event, this.href)" id="popup_327474" href="gloss_initiator.htm">initiator</a> (a <a onclick="return d2hpopup(event, this.href)" id="popup_327480" href="gloss_user.htm">user</a> assigned the <a onclick="return d2hpopup(event, this.href)" id="popup_327472" href="gloss_accountspayable.htm">Accounts Payable</a> Processor <a onclick="return d2hpopup(event, this.href)" id="popup_327481" href="gloss_role.htm">role</a>) creates a new Payment Request <a onclick="return d2hpopup(event, this.href)" id="popup_327476" href="gloss_document.htm">document</a> and enters the <a onclick="return d2hpopup(event, this.href)" id="popup_327484" href="gloss_po.htm">PO</a> number, invoice number, amount and date. When the 
+initiator clicks <strong>continue</strong>, the Payment Request document is 
+generated. In the <strong>Process <a onclick="return d2hpopup(event, this.href)" id="popup_327479" href="gloss_items.htm">Items</a></strong> tab, the initiator 
+enters the quantity being invoiced and clicks <strong>calculate</strong>. At 
+this point, the document is ready for submission and <a onclick="return d2hpopup(event, this.href)" id="popup_327478" href="gloss_routing.htm">routing</a>.</p>
+<p class="MsoBodyText">Because the payment request total does not match the amount 
+entered on the <a onclick="return d2hpopup(event, this.href)" id="popup_327482" href="gloss_preq.htm">PREQ</a> initiation screen, the user receives a warning 
+message and must click <strong>Yes</strong> or <strong>No</strong> to 
+proceed:</p>
+<p class="Illustration"><img src="../ImagesExt/image308_74.jpg" alt="" /></p>
+<p class="MsoBodyText">Clicking <strong>yes</strong> submits the document and 
+creates appropriate routing.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="purchaseorder.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Purchase Order</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="electronicinvoicereject.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Electronic Invoice 
+Reject</a></p></span></div></div></body></html>
