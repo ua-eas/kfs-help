@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__88715", [["WordDocuments/laborledgerdailyprocess.htm", "right", "Labor Ledger Daily Process"],["WordDocuments/overview.htm", "right", "Overview"],["WordDocuments/routing60.htm", "right", "Routing"]]);

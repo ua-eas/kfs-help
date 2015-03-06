@@ -91,8 +91,8 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Maintenance Documents and Operations</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="formatchecksach.htm">Format Checks/ACH</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview25.htm">Process Overview</a></div>
 <h6>Business Rules for Combining Payments</h6>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>During formatting, the <a onclick="return d2hpopup(event, this.href)" id="popup_317408" href="gloss_pdp.htm">PDP</a> attempts to combine multiple 
-payments to the same <a onclick="return d2hpopup(event, this.href)" id="popup_317407" href="gloss_payee.htm">payee</a> into a single check.</p>
+</span>During formatting, the <a onclick="return d2hpopup(event, this.href)" id="popup_383805" href="gloss_pdp.htm">PDP</a> attempts to combine multiple 
+payments to the same <a onclick="return d2hpopup(event, this.href)" id="popup_383803" href="gloss_payee.htm">payee</a> into a single check.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Payments are eligible to be combined if the payment is combinable and if 
 these field values are identical for each payment:</p>
@@ -105,12 +105,12 @@ these field values are identical for each payment:</p>
 are not eligible to be combined.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 payments are determined to be combinable based on the above criteria, the PDP 
-combines as many payments as possible into a single check. A <a onclick="return d2hpopup(event, this.href)" id="popup_317405" href="gloss_parameter.htm">parameter</a> (MAX_NOTE_LINES) controls the maximum 
+combines as many payments as possible into a single check. A <a onclick="return d2hpopup(event, this.href)" id="popup_383801" href="gloss_parameter.htm">parameter</a> (MAX_NOTE_LINES) controls the maximum 
 number of note lines that the PDP attempts to put on a single check. If adding a 
 payment to a combined check would exceed the maximum number of lines, then the 
 PDP creates a new check for this payment.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<a onclick="return d2hpopup(event, this.href)" id="popup_317409" href="gloss_kfs.htm">KFS</a>-<a onclick="return d2hpopup(event, this.href)" id="popup_317406" href="gloss_purap.htm">PURAP</a> module includes logic to bundle 
+<a onclick="return d2hpopup(event, this.href)" id="popup_383804" href="gloss_kfs.htm">KFS</a>-<a onclick="return d2hpopup(event, this.href)" id="popup_383802" href="gloss_purap.htm">PURAP</a> module includes logic to bundle 
 together payment requests and credit memos under certain circumstances. This 
 logic is outside of PDP and occurs within the PURAP module itself.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">

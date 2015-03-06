@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__86997", [["WordDocuments/accountinglinestab.htm", "right", "Accounting Lines Tab"],["WordDocuments/accountinglinestab6.htm", "right", "Accounting Lines Tab"],["WordDocuments/accountinglinestab7.htm", "right", "Accounting Lines Tab"]]);

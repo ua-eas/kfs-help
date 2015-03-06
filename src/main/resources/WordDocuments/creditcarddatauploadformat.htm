@@ -92,35 +92,35 @@ Functions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d
 Upload</a></div>
 <h5>Credit Card Data Upload Format </h5>
 <p class="MsoBodyText">In addition to the standard formatting rules that apply to 
-all <a onclick="return d2hpopup(event, this.href)" id="popup_333461" href="gloss_batch.htm">batch</a> upload file formats, keep the following points 
-in mind about the <a onclick="return d2hpopup(event, this.href)" id="popup_333464" href="gloss_xml.htm">XML</a> format:</p>
+all <a onclick="return d2hpopup(event, this.href)" id="popup_399760" href="gloss_batch.htm">batch</a> upload file formats, keep the following points 
+in mind about the <a onclick="return d2hpopup(event, this.href)" id="popup_399763" href="gloss_xml.htm">XML</a> format:</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 file must begin with the standard XML version line such as:</p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;?xml version="1.0" 
 encoding="UTF-8"?&gt;</span></span></p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-root (first) tag for <a onclick="return d2hpopup(event, this.href)" id="popup_333455" href="gloss_collector.htm">collector</a> files must be the 
+root (first) tag for <a onclick="return d2hpopup(event, this.href)" id="popup_399754" href="gloss_collector.htm">collector</a> files must be the 
 &lt;creditCardData&gt; tag, and the file must contain only one 
 &lt;creditCardData&gt;&lt;/ creditCardData &gt; tag. This tag also contains 
-attributes that identify the schema the <a onclick="return d2hpopup(event, this.href)" id="popup_333456" href="gloss_document.htm">document</a> adheres to, such as:</p>
+attributes that identify the schema the <a onclick="return d2hpopup(event, this.href)" id="popup_399755" href="gloss_document.htm">document</a> adheres to, such as:</p>
 <p class="MsoNormal" style="MARGIN-LEFT: 36pt"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;creditCardData 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" </span></span></p>
 <p class="MsoNormal" style="MARGIN-LEFT: 36pt"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">                
-xmlns="http://www.<a onclick="return d2hpopup(event, this.href)" id="popup_333460" href="gloss_kuali.htm">kuali</a>.org/<a onclick="return d2hpopup(event, this.href)" id="popup_333466" href="gloss_kfs.htm">kfs</a>/<a onclick="return d2hpopup(event, this.href)" id="popup_333465" href="gloss_tem.htm">tem</a>/CreditCardData" </span></span></p>
+xmlns="http://www.<a onclick="return d2hpopup(event, this.href)" id="popup_399759" href="gloss_kuali.htm">kuali</a>.org/<a onclick="return d2hpopup(event, this.href)" id="popup_399764" href="gloss_kfs.htm">kfs</a>/<a onclick="return d2hpopup(event, this.href)" id="popup_399765" href="gloss_tem.htm">tem</a>/CreditCardData" </span></span></p>
 <p class="MsoNormal" style="MARGIN-LEFT: 36pt"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">                
 xsi:noNamespaceSchemaLocation="../build/project/xsd/tem/CreditCardData.xsd"&gt; 
 </span></span></p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Following the batch tag must be the &lt;importBy&gt; tag. This section 
-indicates how the imported transactions will be handled. <a onclick="return d2hpopup(event, this.href)" id="popup_333458" href="gloss_bytrv.htm">By TRV</a> prepares the record for manual reconciliation 
-to a TEM document and <a onclick="return d2hpopup(event, this.href)" id="popup_333459" href="gloss_bytrp.htm">By TRP</a> prepares the record for 
+indicates how the imported transactions will be handled. <a onclick="return d2hpopup(event, this.href)" id="popup_399756" href="gloss_bytrv.htm">By TRV</a> prepares the record for manual reconciliation 
+to a TEM document and <a onclick="return d2hpopup(event, this.href)" id="popup_399757" href="gloss_bytrp.htm">By TRP</a> prepares the record for 
 automatic reconciliation. Like the creditCardData tag, the file must contain 
 only one &lt;importBy&gt;&lt;/importBy&gt; tag. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Next 
 comes a &lt;record&gt; tag. This tag contains other tags that represent the 
 fields of the credit card transaction.  There can be many 
-&lt;record&gt;&lt;/record&gt; tags <a onclick="return d2hpopup(event, this.href)" id="popup_333462" href="gloss_back.htm">back</a> to back. </p>
-<p class="TableHeading"><a onclick="return d2hpopup(event, this.href)" id="popup_333457" href="gloss_agency.htm">Agency</a> Data Upload Format</p>
+&lt;record&gt;&lt;/record&gt; tags <a onclick="return d2hpopup(event, this.href)" id="popup_399761" href="gloss_back.htm">back</a> to back. </p>
+<p class="TableHeading"><a onclick="return d2hpopup(event, this.href)" id="popup_399758" href="gloss_agency.htm">Agency</a> Data Upload Format</p>
 <table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; MARGIN-LEFT: 5.4pt; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1">
   <tbody>
   <tr>
@@ -169,7 +169,7 @@ fields of the credit card transaction.  There can be many
       <p class="TableCells">Must match value in Credit Card or Agency 
   table.</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313"><a onclick="return d2hpopup(event, this.href)" id="popup_333454" href="gloss_creationdate1.htm">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313"><a onclick="return d2hpopup(event, this.href)" id="popup_399753" href="gloss_creationdate1.htm">
       <p class="TableCells">Creation Date</p>
       <p class="TableCells"></p></a> </td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
@@ -348,7 +348,7 @@ fields of the credit card transaction.  There can be many
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_333463" href="gloss_bank.htm">Bank</a> Post Date</p></td>
+      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_399762" href="gloss_bank.htm">Bank</a> Post Date</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Date</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 47.85pt" valign="top" width="80">

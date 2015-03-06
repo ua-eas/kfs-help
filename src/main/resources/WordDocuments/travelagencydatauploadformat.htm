@@ -92,36 +92,36 @@ Functions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d
 Upload</a></div>
 <h5>Travel Agency Data Upload Format </h5>
 <p class="MsoBodyText">In addition to the standard formatting rules that apply to 
-all <a onclick="return d2hpopup(event, this.href)" id="popup_333534" href="gloss_batch.htm">batch</a> upload file formats, keep the following points 
-in mind about the <a onclick="return d2hpopup(event, this.href)" id="popup_333537" href="gloss_xml.htm">XML</a> format:</p>
+all <a onclick="return d2hpopup(event, this.href)" id="popup_399833" href="gloss_batch.htm">batch</a> upload file formats, keep the following points 
+in mind about the <a onclick="return d2hpopup(event, this.href)" id="popup_399836" href="gloss_xml.htm">XML</a> format:</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 file must begin with the standard XML version line such as:</p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;?xml version="1.0" 
 encoding="UTF-8"?&gt;</span></span></p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-root (first) tag for <a onclick="return d2hpopup(event, this.href)" id="popup_333521" href="gloss_collector.htm">collector</a> files must be the 
+root (first) tag for <a onclick="return d2hpopup(event, this.href)" id="popup_399820" href="gloss_collector.htm">collector</a> files must be the 
 &lt;agencyData&gt; tag, and the file must contain only one 
 &lt;agencyData&gt;&lt;/ agencyData &gt; tag. This tag also contains attributes 
-that identify the schema the <a onclick="return d2hpopup(event, this.href)" id="popup_333522" href="gloss_document.htm">document</a> adheres to, such as:</p>
+that identify the schema the <a onclick="return d2hpopup(event, this.href)" id="popup_399822" href="gloss_document.htm">document</a> adheres to, such as:</p>
 <p class="C1HBullet" style="TEXT-INDENT: 0pt"> </p>
 <p class="MsoNormal" style="MARGIN-LEFT: 36pt"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;agencyData 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" </span></span></p>
 <p class="MsoNormal" style="MARGIN-LEFT: 36pt"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">                
-xmlns="http://www.<a onclick="return d2hpopup(event, this.href)" id="popup_333530" href="gloss_kuali.htm">kuali</a>.org/<a onclick="return d2hpopup(event, this.href)" id="popup_333539" href="gloss_kfs.htm">kfs</a>/<a onclick="return d2hpopup(event, this.href)" id="popup_333538" href="gloss_tem.htm">tem</a>/AgencyData" </span></span></p>
+xmlns="http://www.<a onclick="return d2hpopup(event, this.href)" id="popup_399830" href="gloss_kuali.htm">kuali</a>.org/<a onclick="return d2hpopup(event, this.href)" id="popup_399837" href="gloss_kfs.htm">kfs</a>/<a onclick="return d2hpopup(event, this.href)" id="popup_399838" href="gloss_tem.htm">tem</a>/AgencyData" </span></span></p>
 <p class="MsoNormal" style="MARGIN-LEFT: 36pt"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">                
 xsi:noNamespaceSchemaLocation="../build/project/xsd/tem/AgencyData.xsd"&gt; 
 </span></span></p>
 <p class="MsoNormal"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt"></span></span> </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Following the batch tag must be the &lt;importBy&gt; tag. This section 
-indicates how the imported transactions will be handled. <a onclick="return d2hpopup(event, this.href)" id="popup_333527" href="gloss_bytrv.htm">By TRV</a> prepares the record for manual reconciliation 
-to a TEM document and <a onclick="return d2hpopup(event, this.href)" id="popup_333528" href="gloss_bytrp.htm">By TRP</a> prepares the record for 
+indicates how the imported transactions will be handled. <a onclick="return d2hpopup(event, this.href)" id="popup_399825" href="gloss_bytrv.htm">By TRV</a> prepares the record for manual reconciliation 
+to a TEM document and <a onclick="return d2hpopup(event, this.href)" id="popup_399826" href="gloss_bytrp.htm">By TRP</a> prepares the record for 
 automatic reconciliation. Like the agencyData tag, the file must contain only 
 one &lt;importBy&gt;&lt;/importBy&gt; tag. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Next 
 comes a &lt;record&gt; tag. This tag contains other tags that represent the 
 fields of the credit card transaction.  There can be many 
-&lt;record&gt;&lt;/record&gt; tags <a onclick="return d2hpopup(event, this.href)" id="popup_333535" href="gloss_back.htm">back</a> to back. The &lt;record&gt; tag includes the 
+&lt;record&gt;&lt;/record&gt; tags <a onclick="return d2hpopup(event, this.href)" id="popup_399834" href="gloss_back.htm">back</a> to back. The &lt;record&gt; tag includes the 
 following information: </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Trip 
 Info</p>
@@ -137,7 +137,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
 </span>Conference Registration</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Processing Info</p>
-<p class="TableHeading"> Travel <a onclick="return d2hpopup(event, this.href)" id="popup_333526" href="gloss_agency.htm">Agency</a> Data Upload Format</p>
+<p class="TableHeading"> Travel <a onclick="return d2hpopup(event, this.href)" id="popup_399827" href="gloss_agency.htm">Agency</a> Data Upload Format</p>
 <table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; MARGIN-LEFT: 5.4pt; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1">
   <tbody>
   <tr>
@@ -318,7 +318,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 83.45pt" valign="top" width="139">
       <p class="TableCells"> </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 82.9pt" valign="top" width="138">
-      <p class="TableCells">Required for by <a onclick="return d2hpopup(event, this.href)" id="popup_333540" href="gloss_trv.htm">TRV</a> method, employee ID.</p></td></tr>
+      <p class="TableCells">Required for by <a onclick="return d2hpopup(event, this.href)" id="popup_399839" href="gloss_trv.htm">TRV</a> method, employee ID.</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
       <p class="TableCells">Trip Expense Amount</p></td>
@@ -358,7 +358,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       three accounts can be identified)</span></strong></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_333529" href="gloss_chart.htm">Chart</a><a onclick="return d2hpopup(event, this.href)" id="popup_333520" href="gloss_chartcode.htm"> Code</a></p>
+      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_399829" href="gloss_chart.htm">Chart</a><a onclick="return d2hpopup(event, this.href)" id="popup_399819" href="gloss_chartcode.htm"> Code</a></p>
       <p class="TableCells"> </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Character</p></td>
@@ -370,7 +370,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_333523" href="gloss_account.htm">Account</a> Number</p></td>
+      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_399821" href="gloss_account.htm">Account</a> Number</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Character </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 47.85pt" valign="top" width="80">
@@ -381,7 +381,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_333519" href="gloss_subaccount.htm">Sub-Account</a> Number</p></td>
+      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_399818" href="gloss_subaccount.htm">Sub-Account</a> Number</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Character </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 47.85pt" valign="top" width="80">
@@ -392,7 +392,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_333518" href="gloss_objectcode.htm">Object Code</a> </p></td>
+      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_399817" href="gloss_objectcode.htm">Object Code</a> </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Character </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 47.85pt" valign="top" width="80">
@@ -403,7 +403,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_333515" href="gloss_subobjectcode.htm">Sub-Object Code</a> </p></td>
+      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_399814" href="gloss_subobjectcode.htm">Sub-Object Code</a> </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Character </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 47.85pt" valign="top" width="80">
@@ -414,7 +414,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_333517" href="gloss_projectcode.htm">Project Code</a> </p></td>
+      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_399816" href="gloss_projectcode.htm">Project Code</a> </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Character </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 47.85pt" valign="top" width="80">
@@ -425,7 +425,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_333516" href="gloss_organization.htm">Organization</a> Reference 
+      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_399815" href="gloss_organization.htm">Organization</a> Reference 
       </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Character </p></td>
@@ -437,7 +437,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_333532" href="gloss_group.htm">Group</a> Object Code</p></td>
+      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_399831" href="gloss_group.htm">Group</a> Object Code</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Character </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 47.85pt" valign="top" width="80">
@@ -447,7 +447,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 82.9pt" valign="top" width="138">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313"><a onclick="return d2hpopup(event, this.href)" id="popup_333514" href="gloss_distributioncode.htm">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313"><a onclick="return d2hpopup(event, this.href)" id="popup_399813" href="gloss_distributioncode.htm">
       <p class="TableCells">Distribution Code</p>
       <p class="TableCells"></p></a> </td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
@@ -509,7 +509,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       <p class="TableCells">YYYY-MM-DD</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells">Air <a onclick="return d2hpopup(event, this.href)" id="popup_333525" href="gloss_carrier.htm">Carrier</a> Code</p></td>
+      <p class="TableCells">Air <a onclick="return d2hpopup(event, this.href)" id="popup_399823" href="gloss_carrier.htm">Carrier</a> Code</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Character </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 47.85pt" valign="top" width="80">
@@ -531,7 +531,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_333536" href="gloss_pnr.htm">PNR</a> Number</p></td>
+      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_399835" href="gloss_pnr.htm">PNR</a> Number</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Character </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 47.85pt" valign="top" width="80">
@@ -766,7 +766,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells">Lodging Property <a onclick="return d2hpopup(event, this.href)" id="popup_333533" href="gloss_state.htm">State</a> Code</p></td>
+      <p class="TableCells">Lodging Property <a onclick="return d2hpopup(event, this.href)" id="popup_399832" href="gloss_state.htm">State</a> Code</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Character </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 47.85pt" valign="top" width="80">
@@ -777,7 +777,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       <p class="TableCells"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells">Lodging <a onclick="return d2hpopup(event, this.href)" id="popup_333524" href="gloss_country.htm">Country</a> Name</p></td>
+      <p class="TableCells">Lodging <a onclick="return d2hpopup(event, this.href)" id="popup_399824" href="gloss_country.htm">Country</a> Name</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Character </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 47.85pt" valign="top" width="80">
@@ -847,7 +847,7 @@ one of these per &lt;record&gt;&lt;/record&gt; </p>
       <p class="TableCells">YYYY-MM-DD</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.75pt; WIDTH: 187.8pt" valign="top" width="313">
-      <p class="TableCells">Rental Car <a onclick="return d2hpopup(event, this.href)" id="popup_333531" href="gloss_close.htm">Close</a> Date</p></td>
+      <p class="TableCells">Rental Car <a onclick="return d2hpopup(event, this.href)" id="popup_399828" href="gloss_close.htm">Close</a> Date</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 72.1pt" valign="top" width="120">
       <p class="TableCells">Date</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt; WIDTH: 47.85pt" valign="top" width="80">
