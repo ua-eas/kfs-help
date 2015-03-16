@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__89830", [["WordDocuments/addressestab.htm", "right", "Addresses Tab"],["WordDocuments/collectionstab.htm", "right", "Collections Tab"]]);
