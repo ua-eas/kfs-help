@@ -47,31 +47,6 @@
    	<dm.repository.url>https://nexus.kuali.co/nexus/content/repositories/financials-releases/</dm.repository.url>
     </properties>
 
- <repositories>
-    <repository>
-      <id>kualico.nexus.financials.releases</id>
-      <name>KualiCo Nexus Financials</name>
-      <url>https://nexus.kuali.co/nexus/content/repositories/financials-repos/</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-    </repository>
-    <repository>
-      <id>foundation.nexus</id>
-      <name>Kuali Foundation Nexus Group</name>
-      <url>http://nexus.kuali.org/content/groups/public</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-    </repository>
-  </repositories>
-
   <distributionManagement>
     <snapshotRepository>
       <id>${dm.snapshotRepository.id}</id>
