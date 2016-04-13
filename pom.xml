@@ -57,38 +57,28 @@
     <properties>
         <project.scm.vendor>git</project.scm.vendor>
         <require.maven.version>3.0</require.maven.version>
+        
+        <dm.snapshotRepository.id>kualico.nexus.financials.snapshots</dm.snapshotRepository.id>
+   	<dm.snapshotRepository.name>KualiCo Nexus Snapshots Repository</dm.snapshotRepository.name>
+   	<dm.snapshotRepository.url>https://nexus.kuali.co/nexus/content/repositories/financials-snapshots</dm.snapshotRepository.url>
+
+   	<dm.repository.id>kualico.nexus.financials.releases</dm.repository.id>
+   	<dm.repository.name>KualiCo Nexus Releases Repository</dm.repository.name>
+   	<dm.repository.url>https://nexus.kuali.co/nexus/content/repositories/financials-releases/</dm.repository.url>
     </properties>
-<!--    
-    <build>
-    	<pluginManagement>
-      		<plugins>
-        		<plugin>
-          			<groupId>org.apache.maven.plugins</groupId>
-          			<artifactId>maven-assembly-plugin</artifactId>
-          			<version>2.4</version>
-        		</plugin>
-      		</plugins>
-    	</pluginManagement>
-    
-		<plugins>
-   			<plugin>
-  				<groupId>org.apache.maven.plugins</groupId>
-  				<artifactId>maven-assembly-plugin</artifactId>
-				<configuration>
-    					<descriptor>src/assembly/dep.xml</descriptor>
-  					<finalName>kfs-help</finalName>
-  					<appendAssemblyId>false</appendAssemblyId>
-				</configuration>
-  				<executions>
-    				<execution>
-      					<phase>package</phase>
-      					<goals>
-        					<goal>single</goal>
-      					</goals>
-    				</execution>
-  				</executions>
-			</plugin>
-		</plugins>
-	</build>
--->
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>${dm.snapshotRepository.id}</id>
+      <name>${dm.snapshotRepository.name}</name>
+      <url>${dm.snapshotRepository.url}</url>
+    </snapshotRepository>
+    <repository>
+      <id>${dm.repository.id}</id>
+      <name>${dm.repository.name}</name>
+      <url>${dm.repository.url}</url>
+    </repository>
+  </distributionManagement>
+
+
 </project>
