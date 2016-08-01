@@ -26,7 +26,7 @@
     </parent>
     <groupId>org.kuali.kfs</groupId>
     <artifactId>kfs-help</artifactId>
-    <version>5.4.0</version>
+    <version>ua-release1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>
         The Kuali Financial System help module contains help files for the Kuali Financial application.
@@ -57,6 +57,15 @@
     <properties>
         <project.scm.vendor>git</project.scm.vendor>
         <require.maven.version>3.0</require.maven.version>
+
+        <!-- UA properties -->
+        <dm.snapshotRepository.id>deployment</dm.snapshotRepository.id>
+        <dm.snapshotRepository.name>Internal Snapshots</dm.snapshotRepository.name>
+        <dm.snapshotRepository.url>https://ka-tools.mosaic.arizona.edu/nexus/content/repositories/snapshots/</dm.snapshotRepository.url>
+
+        <dm.repository.id>deployment</dm.repository.id>
+        <dm.repository.name>Internal Releases</dm.repository.name>
+        <dm.repository.url>https://ka-tools.mosaic.arizona.edu/nexus/content/repositories/releases/</dm.repository.url>
     </properties>
 <!--    
     <build>
@@ -91,4 +100,17 @@
 		</plugins>
 	</build>
 -->
+
+    <distributionManagement>
+    <repository>
+        <id>${dm.repository.id}</id>
+        <name>${dm.repository.name}</name>
+        <url>${dm.repository.url}</url>
+    </repository>
+    <snapshotRepository>
+        <id>${dm.snapshotRepository.id}</id>
+        <name>${dm.snapshotRepository.name}</name>
+        <url>${dm.snapshotRepository.url}</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
