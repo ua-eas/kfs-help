@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__88557", [["WordDocuments/businessrules74.htm", "right", "Business Rules"],["WordDocuments/businessrules82.htm", "right", "Business Rules"]]);

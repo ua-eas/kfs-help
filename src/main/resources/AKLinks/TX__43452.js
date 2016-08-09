@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__43452", [["WordDocuments/closingencumbrances.htm", "right", "Closing Encumbrances"],["WordDocuments/laborjournalvoucher.htm", "right", "Labor Journal Voucher"]]);

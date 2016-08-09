@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__65314", [["WordDocuments/actionlist.htm", "right", "Action List"],["WordDocuments/procurementcard.htm", "right", "Procurement Card"],["WordDocuments/taxableramification.htm", "right", "Taxable Ramification"],["WordDocuments/usingtheactionlist.htm", "right", "Using the Action List"]]);

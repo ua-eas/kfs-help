@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__45438", [["WordDocuments/bankinginformationtab2.htm", "right", "Banking Information Tab"],["WordDocuments/bankinginformationtab3.htm", "right", "Banking Information Tab"]]);

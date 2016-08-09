@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__43530", [["WordDocuments/editlistofaccountstab2.htm", "right", "Edit List of Accounts Tab"],["WordDocuments/editlistofaccountstab3.htm", "right", "Edit List of Accounts Tab"]]);

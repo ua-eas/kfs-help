@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__51506", [["WordDocuments/monitoring.htm", "right", "Monitoring"],["WordDocuments/technical.htm", "right", "Technical"],["WordDocuments/workflow.htm", "right", "Workflow"]]);

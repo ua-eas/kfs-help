@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__43159", [["WordDocuments/capitalassetmanagementcam.htm", "right", "Capital Asset Management (CAM)"],["WordDocuments/capitalassetmanagementcam1.htm", "right", "Capital Asset Management (CAM)"]]);

@@ -1,4 +1,0 @@
-"After entering customer data, delete rows 1-3 before saving and uploading",,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Customer number should be blank for new customers; ** are required fields; '1' - required if international customer,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,**,,**,,,,**,,,,,,,,,,,**,**,,**,**,**,**,1,1,,**
-customerNumber,customerName,customerParentCompanyNumber,customerTypeCode,customerLastActivityDate,customerTaxTypeCode,customerTaxNbr,customerActiveIndicator,customerPhoneNumber,customer800PhoneNumber,customerContactName,customerContactPhoneNumber,customerFaxNumber,customerBirthDate,customerTaxExemptIndicator,customerCreditLimitAmount,customerCreditApprovedByName,customerEmailAddress,customerAddressName,customerLine1StreetAddress,customerLine2StreetAddress,customerCityName,customerStateCode,customerZipCode,customerCountryCode,customerAddressInternationalProvinceName,customerInternationalMailCode,customerAddressEmail,customerAddressTypeCode

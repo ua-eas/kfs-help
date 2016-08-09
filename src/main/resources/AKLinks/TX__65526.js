@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__65526", [["WordDocuments/amountviewoption.htm", "right", "Amount View Option"],["WordDocuments/consolidationoption.htm", "right", "Consolidation Option"]]);

@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__49326", [["WordDocuments/generalledgergl.htm", "right", "General Ledger (GL)"],["WordDocuments/generalledgergl1.htm", "right", "General Ledger (GL)"],["WordDocuments/kualifinancialsystemkfs.htm", "right", "Kuali Financial System (KFS)"]]);

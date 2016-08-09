@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__45211", [["WordDocuments/securitybatchsubmenu.htm", "right", "Security (Batch submenu)"],["WordDocuments/systembatchsubmenu.htm", "right", "System (Batch submenu)"]]);

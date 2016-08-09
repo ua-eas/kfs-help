@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__51132", [["WordDocuments/salaryexpensetransfer.htm", "right", "Salary Expense Transfer"],["WordDocuments/standardtransactionedocs.htm", "right", "Standard Transaction E-Docs"]]);

@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__67614", [["WordDocuments/temprofiletab.htm", "right", "TEM Profile Tab"],["WordDocuments/temprofiletab1.htm", "right", "TEM Profile Tab"]]);

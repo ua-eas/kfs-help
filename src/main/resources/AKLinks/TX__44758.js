@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__44758", [["WordDocuments/databaseremovefromprocessing.htm", "right", "Database/Remove from Processing"],["WordDocuments/documentlayoutllcp.htm", "right", "Document Layout (LLCP)"]]);

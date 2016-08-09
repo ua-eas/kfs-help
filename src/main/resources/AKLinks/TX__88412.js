@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__88412", [["WordDocuments/accessingfinancialprocessingfunctions.htm", "right", "Accessing Financial Processing Functions"],["WordDocuments/yearenddocuments.htm", "right", "Year End Documents"]]);
