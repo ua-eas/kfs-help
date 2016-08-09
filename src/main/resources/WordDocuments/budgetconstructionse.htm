@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Budget Construction Security Model (Locking)</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN BC Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="levels.htm"></a><a id="D2HNextAnchor" href="budgetconstructionse1.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="budgetconstruction.htm">Budget Construction</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="overviewofbudgetcons.htm">Overview of Budget Construction</a></div>
+<h3>Budget Construction Security Model (Locking)</h3>
+<p class="MsoBodyText">In Budget Construction, documents are locked by the users 
+currently working with the document. Locks are set when a user gets edit access, 
+either during the initial open of the document or during an account 
+pull-up/push-down operation. Locks are released for documents in edit mode when 
+closing a document or after pushdown to a level that puts the document in view 
+mode. The daily Budget Construction Update job releases all existing locks 
+nightly.</p>
+<p class="MsoBodyText">Special root approver users (users at the top level 
+organization hierarchy) have the ability to perform the unlock action. There are 
+four types of locks in Budget Construction. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><i>Account Lock</i>: issued when a user displays a document in edit 
+mode.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><i>Funding Lock</i>: issued for accounts associated with the displayed 
+funding lines where user has edit access, when using the Salary Setting by 
+Position or Salary Setting by Incumbents screen.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><i>Position Lock</i>: issued when a user either displays the Salary 
+Setting by Position or the Salary Setting by Incumbent screen</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><i>Account Transaction Lock</i>: issued for each funding line when the 
+user submits Salary Setting by Position/Incumbent change. This lock exists only 
+during the time it takes to update the associated pending accounting lines 
+contained in the Budget Construction Document for the account.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="budgetconstructionse1.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Budget Construction 
+Sessions</a></p></span></div></div></body></html>
