@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="routing51.htm"></a><a id="D2HNextAnchor" href="procurementcard.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="displayingdetailedpaymentinformation1.htm"></a><a id="D2HNextAnchor" href="distributionofincomeandexpense.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,43 +86,20 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="financialprocessing.htm">Financial Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="financialprocessingt.htm">Financial Processing Transaction 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="preencumbrance.htm">Pre-Encumbrance</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="financialprocessing1.htm">Financial Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="financialprocessingtransactiondocuments.htm">Financial Processing 
+Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="disbursementvoucher.htm">Disbursement Voucher</a></div>
 <h4>Example</h4>
 <p class="MsoBodyText"> </p>
-<p class="MsoNormal"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Adding an <a onclick="return d2hpopup(event, this.href)" id="popup_211967" href="gloss_encumbrance.htm">Encumbrance</a> to an Account without a Reversal 
-Date</span></strong></p>
+<p class="MsoBodyText">A guest speaker needs to be reimbursed for his or her 
+travel expenses to speak at an event at the university.</p>
 <p class="MsoBodyText"> </p>
-<p class="MsoBodyText">We need to encumber $1,000 that we plan to pay to an artist 
-who is creating a mural. This allows us to set aside the money in our account to 
-keep track of this $1,000 expense that is to be charged to account 1031400 in 
-the future.</p>
-<p class="MsoBodyText">In this example we have not included a reversal date. This 
-means that rather than having Kuali Financials automatically remove this 
-encumbrance on a future date, the user has to disencumber the account by 
-processing another PE document. </p>
-<p class="MsoBodyText"> </p>
-<p class="MsoBodyText">The <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">General Ledger Pending Ledger 
-Entries</span></strong> tab shows that these entries are made in balance type PE 
-(<a onclick="return d2hpopup(event, this.href)" id="popup_211965" href="gloss_preencumbrance.htm">Pre-Encumbrance</a>). This marks the entries as 
-being distinct from other balance types such as 'Actuals (AC)' or 'Current 
-Budget (CB)'. </p>
-<p class="MsoBodyText"> </p>
-<p class="MsoNormal"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Disencumbering the 
-Funds</span></strong></p>
-<p class="MsoBodyText"> </p>
-<p class="MsoBodyText">We now need to disencumber the funds that were encumbered 
-in the first example. Notice that we have entered the same information used 
-before, but this time the entries are made on the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"><a onclick="return d2hpopup(event, this.href)" id="popup_211966" href="gloss_disencumbrance.htm"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Disencumbrance</span></strong></a></span></strong> 
-section of the document. One difference is that we were required to enter two 
-other fields: <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Ref 
-Origin Code</span></strong> and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Ref Number</span></strong>. We use 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Ref Origin 
-Code</span></strong> to indicate to the system that the original encumbering 
-transaction came from ('01' means Kuali Financials in this example) and the 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Ref 
-Number</span></strong> indicates the identifying document number in that system 
-(the document ID number of Kuali Financials Pre-Encumbrance document used to 
-initially encumber the funds).</p>
+<p class="MsoBodyText">In this scenario, the Payment Reason Code would be 'Travel 
+Payment for Nonemployee Travel'. At a minimum, the initiator would need to 
+complete the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Payee</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Payment Information</span></strong>, 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Nonemployee 
+Travel</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Accounting Lines</span></strong>, 
+and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Contact</span></strong> tabs. </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="procurementcard.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Procurement Card</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="distributionofincomeandexpense.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Distribution of Income and 
+Expense</a></p></span></div></div></body></html>

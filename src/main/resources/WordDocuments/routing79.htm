@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules110.htm"></a><a id="D2HNextAnchor" href="travelauthorization2.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules110.htm"></a><a id="D2HNextAnchor" href="postprocessing12.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -87,17 +87,46 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="travelandentertainme1.htm">Travel and Entertainment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="travelandentertainme3.htm">Travel and Entertainment Transaction 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="travelarranger.htm">Travel Arranger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview86.htm">Process Overview</a></div>
+Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="travelauthorization.htm">Travel 
+Authorization</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview86.htm">Process 
+Overview</a></div>
 <h5>Routing</h5>
-<p class="Definition"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-you use this document to become a travel arranger for someone, the system routes 
-it to the traveler for approval. After approval, the status of the document 
-becomes Final and the system adds the arranger to the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Arranger</span></strong> tab in the 
-traveler’s TEM Profile record. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-you use this document to resign from this relationship with a traveler, the 
-status of the document becomes Final immediately. The system sends an FYI to the 
-traveler and marks your Arranger record as inactive on the TEM Profile. </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal">In addition to the approvals that exist on most all 
+transaction documents (<a onclick="return d2hpopup(event, this.href)" id="popup_224347" href="gloss_fiscalofficer.htm">Fiscal Officer</a>, Organization 
+Review, Sub-Fund, Award, Tax Manager and Disbursement Method Reviewer), the 
+following approvals may also be required.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If a 
+Travel Authorization document is prepared by an arranger on behalf of a traveler 
+identified in KIM and is requesting an advance, the document routes to the 
+traveler. The traveler must check the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">By checking this box, the traveler 
+agrees to the travel advance policy of university </span></strong>box before 
+routing continues.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the Travel Authorization exceeds the amount specified in 
+CUMULATIVE_REIMBURSABLE_AMOUNT_WITHOUT_DIVISION_APPROVAL it routes to the 
+Division Reviewer.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the Expense Type Object Code or Class of Service requires special approval, the 
+Travel Authorization routes to Special Request Reviewer.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+International Trip Type or Liability Insurance or Car Rental Insurance is 
+checked, the Travel Authorization routes to Risk Management.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+International Trip Type, the Travel Authorization will route to the 
+International Travel Reviewer.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+Sufficient Funds Checking is turned on for an Account and the Account does not 
+have sufficient funds, the Travel Authorization will route to Budget Office 
+Review.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+parameter SEPARATION_OF_DUTIES_ROUTING_OPTION is set to F and the traveler and 
+Fiscal Officer are the same, the Travel Authorization will route to Separation 
+of Duties Reviewer. If the parameter is set to D and the traveler and Division 
+Approver are the same user, the Travel Authorization routes to Separation of 
+Duties Reviewer.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If an 
+advance is requested, the Travel Authorization will route to the Travel 
+Manager.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="travelauthorization2.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Travel Authorization</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="postprocessing12.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Post-Processing</a></p></span></div></div></body></html>
