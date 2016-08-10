@@ -22,7 +22,7 @@
    
     <groupId>org.kuali.kfs</groupId>
     <artifactId>kfs-help</artifactId>
-    <version>7.0.0</version>
+    <version>7.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>
         The Kuali Financial System help module contains help files for the Kuali Financial application.
