@@ -67,39 +67,28 @@
         <dm.repository.name>Internal Releases</dm.repository.name>
         <dm.repository.url>https://ka-tools.mosaic.arizona.edu/nexus/content/repositories/releases/</dm.repository.url>
     </properties>
-<!--    
+
     <build>
-    	<pluginManagement>
-      		<plugins>
-        		<plugin>
-          			<groupId>org.apache.maven.plugins</groupId>
-          			<artifactId>maven-assembly-plugin</artifactId>
-          			<version>2.4</version>
-        		</plugin>
-      		</plugins>
-    	</pluginManagement>
-    
-		<plugins>
-   			<plugin>
-  				<groupId>org.apache.maven.plugins</groupId>
-  				<artifactId>maven-assembly-plugin</artifactId>
-				<configuration>
-    					<descriptor>src/assembly/dep.xml</descriptor>
-  					<finalName>kfs-help</finalName>
-  					<appendAssemblyId>false</appendAssemblyId>
-				</configuration>
-  				<executions>
-    				<execution>
-      					<phase>package</phase>
-      					<goals>
-        					<goal>single</goal>
-      					</goals>
-    				</execution>
-  				</executions>
-			</plugin>
-		</plugins>
-	</build>
--->
+        <plugins>
+            <plugin>
+                <groupId>external.atlassian.jgitflow</groupId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
+                <version>1.0-m5.1</version>
+                <configuration>
+                    <pushFeatures>true</pushFeatures>
+                    <pushReleases>true</pushReleases>
+                    <pushHotfixes>true</pushHotfixes>
+                    <!-- Prevents deployments from dev workstations so that they can be done by CI server -->
+                    <noDeploy>true</noDeploy>
+                    <flowInitContext>
+                        <developBranchName>ua-development</developBranchName>
+                        <masterBranchName>ua-master</masterBranchName>
+                    </flowInitContext>
+                    <allowSnapshots>true</allowSnapshots>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <distributionManagement>
     <repository>
