@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Capital Asset Management Batch Processes</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN CAM Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN CAM Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -87,11 +87,13 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme1.htm">Capital Asset Management</a></div>
-<h2>Capital Asset Management Batch Processes</h2>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>This 
-section provides a brief introduction to the batch processes that extract 
-capital asset transactions from the General Ledger and / or Purchasing &amp; 
-Accounts Payble for processing or for pre-asset tagging and <a onclick="return d2hpopup(event, this.href)" id="popup_221267" href="gloss_depreciation.htm">depreciation</a>. </p>
+<div style="MARGIN-BOTTOM: 3pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 12pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
+<h2 style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt">Capital Asset Management Batch 
+Processes</h2></div>
+<p class="MsoNormal">This section provides a brief introduction to the batch 
+processes that extract capital asset transactions from the General Ledger and / 
+or Purchasing &amp; Accounts Payble for processing or for pre-asset tagging and 
+<a onclick="return d2hpopup(event, this.href)" id="popup_233771" href="gloss_depreciation.htm">depreciation</a>. </p>
 <p class="C1HNumber" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
 <p class="TableHeading">Capital Asset Management Batch Processes</p>
 <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="785" border="0">
@@ -109,11 +111,10 @@ Accounts Payble for processing or for pre-asset tagging and <a onclick="return d
       Ledger and the Purchasing module based on object code sub-types specified 
       in parameter CAPITAL_OBJECT_SUB_TYPES to create assets, add payments to 
       them, and apply credits.</p>
-      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
-      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="pencil-small" border="0" alt="pencil-small" src="../ImagesExt/image338_1.png" />    The Capital Asset 
+      <p class="Noteintable"><img title="pencil-small" border="0" alt="pencil-small" src="../ImagesExt/image338_1.png" />    The Capital Asset 
       Module (CAM) allows purchase line items to be separated and/or combined to 
       create assets. Currently, only moveable asset transactions are processed 
-      in CAB.</p></div></td></tr>
+      in CAB.</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="255">
       <p class="TableCells">preAssetTaggingExtractJob</p></td>
@@ -132,17 +133,16 @@ Accounts Payble for processing or for pre-asset tagging and <a onclick="return d
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 317.9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="530">
       <p class="TableCells">This job calculates and posts depreciation expense 
       entries to the General Ledger and adjusts the affected asset records.</p>
-      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
-      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="pencil-small" border="0" alt="pencil-small" src="../ImagesExt/image338_1.png" />    For information about 
+      <p class="Noteintable"><img title="pencil-small" border="0" alt="pencil-small" src="../ImagesExt/image338_1.png" />    For information about 
       the Capital Asset Depreciation process, see <a href="capitalassetmanageme3.htm">Capital Asset Management Depreciation 
-      Process</a>. </p></div></td></tr>
+      Process</a>. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="255">
       <p class="TableCells">resetAssetDepreciationForFiscalYearJob</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 317.9pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="530">
       <p class="TableCells">This job empties the prior year depreciation buckets 
       associated with asset and updates the Previous Year Depreciation field. 
-      This job should be run at the beginning of each <a onclick="return d2hpopup(event, this.href)" id="popup_221268" href="gloss_fiscalyear.htm">fiscal year</a> prior to the first run of the 
+      This job should be run at the beginning of each <a onclick="return d2hpopup(event, this.href)" id="popup_233772" href="gloss_fiscalyear.htm">fiscal year</a> prior to the first run of the 
       new fiscal year’s depreciation. </p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="capitalassetmanageme3.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Capital Asset Management Depreciation 

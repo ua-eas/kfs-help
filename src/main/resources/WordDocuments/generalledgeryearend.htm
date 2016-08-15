@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>General Ledger Year-End Processes</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -87,23 +87,25 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger.htm">General Ledger</a></div>
-<h2><a name="_Ref147557810" id="_Ref147557810"></a><a name="_Ref147557788" id="_Ref147557788"></a><a name="_Ref147557781" id="_Ref147557781">General Ledger Year-End Processes</a></h2>
+<div style="MARGIN-BOTTOM: 3pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 12pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
+<h2 style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><a name="_Ref147557810" id="_Ref147557810"></a><a name="_Ref147557788" id="_Ref147557788"></a><a name="_Ref147557781" id="_Ref147557781">General Ledger Year-End 
+Processes</a></h2></div>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">Four year-end processes allow users to properly 'close' a 
-<a onclick="return d2hpopup(event, this.href)" id="popup_222870" href="gloss_fiscalyear.htm">fiscal year</a>:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<a onclick="return d2hpopup(event, this.href)" id="popup_235375" href="gloss_fiscalyear.htm">fiscal year</a>:</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Closing of pre-encumbrances, except for those relating to accounts that 
 are in the Contracts and Grants (CG) fund group, and carry forward internal and 
 external encumbrances into the new fiscal year.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Computing reversions and carry forwards.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Closing of nominal (actual) activity to net expenses, net revenue, and 
 fund balance.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Establishing beginning balances for CG accounts that had activity in the 
 fiscal year being closed.</p>
-<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
+<p class="C1HBullet" style="TEXT-INDENT: 0pt"> </p>
 <p class="MsoBodyText">These processes generate pending ledger entries which are 
 then fed to the GL batch cycle. These year-end processes are run in sequence 
 over the course of three cycles. Subsequent cycles depend on the successful 
@@ -111,12 +113,11 @@ completion of the preceding cycles.</p>
 <p class="MsoBodyText"> </p>
 <p class="Illustration"><img title="Year End Cycles" border="0" alt="Year End Cycles" src="../ImagesExt/image342_14.jpg" /></p>
 <p class="MsoBodyText"> </p>
-<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
-<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="go-arrow-red" border="0" alt="go-arrow-red" src="../ImagesExt/image342_4.png" />      If the 
+<p class="Note" style="MARGIN-LEFT: 22.5pt"><img title="go-arrow-red" border="0" alt="go-arrow-red" src="../ImagesExt/image342_4.png" />   If the 
 ANNUAL_CLOSING_CHART parameter is populated with one or more charts, only those 
 charts will be processed when the year-end batch jobs:  Nominal Activity 
-Closing, Balance Forward, and <a onclick="return d2hpopup(event, this.href)" id="popup_222871" href="gloss_encumbrance.htm">Encumbrance</a> Forward are run. If 
-no charts are specified, all charts will be processed.  </p></div>
+Closing, Balance Forward, and <a onclick="return d2hpopup(event, this.href)" id="popup_235376" href="gloss_encumbrance.htm">Encumbrance</a> Forward are run. If 
+no charts are specified, all charts will be processed.  </p>
 <p class="MsoCaption"> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="closingencumbrances.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Closing Encumbrances</a></p>

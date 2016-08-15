@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Procurement Card Upload Format</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN FP Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN FP Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -90,29 +90,28 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Functions</a></div>
 <h3>Procurement Card Upload Format</h3>
 <p class="MsoBodyText"> </p>
-<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
-<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="go-arrow-red" border="0" alt="go-arrow-red" src="../ImagesExt/image322_2.png" />      For information 
+<p class="Note" style="MARGIN-LEFT: 22.5pt"><img title="go-arrow-red" border="0" alt="go-arrow-red" src="../ImagesExt/image322_2.png" />   For information 
 on procedures and formatting rules that apply to all Kuali Financials batch 
-uploads, see <a href="batchuploadbasics.htm">Batch Upload Basics</a>.</p></div>
+uploads, see <a href="batchuploadbasics.htm">Batch Upload Basics</a>.</p>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">Keep the following points in mind:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 procurement card file must begin with the standard XML version line. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 root (first) tag for PCDO files must be the &lt;procurementCardTransactions&gt; 
 tag, and the file must contain only one &lt;procurementCardTransactions&gt;&lt;/ 
 procurementCardTransactions&gt; tag. This tag also contains attributes that 
 identify the schema the document adheres to, such as:</p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;transactionsxmlns="http://www.kuali.org/kfs/fp/procurementCard"</span></span></p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;</span></span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Following the procurementCardTransactions tag must be the 
 &lt;transaction&gt; tag. This tag contains other identifier tags that describe a 
 procurement card transaction. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 sequence of &lt;transaction&gt;&lt;/transaction&gt; can repeat one or more 
 times. </p>
-<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
+<p class="C1HBullet" style="TEXT-INDENT: 0pt"> </p>
 <p class="TableHeading" style="MARGIN-RIGHT: 0pt">Procurement card format</p>
 <table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; MARGIN-LEFT: 5.4pt; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1">
   <tbody>

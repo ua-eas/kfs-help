@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Importing Expenses using the By TRP Method</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN TEM Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN TEM Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -91,67 +91,68 @@ Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d
 from Travel Agencies and Credit Cards</a></div>
 <h4>Importing Expenses using the By TRP Method</h4>
 <p class="MsoBodyText"> </p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">1.  Traveler creates a Travel 
-Authorization and it’s approved to Final. </p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">2.  Traveler contacts the 
-Travel Agency and provides the TEM Doc #, the departmental account number and 
-uses the Agency link to make reservations. </p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">3.  The Agency charges the CTS 
-Credit Card (Ghost card associated with an institutional clearing account). </p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">4.  The Credit Card company 
-invoices the institution for charges made by the Agency (for example, orbitz, 
-hotels.com). </p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">5.  Accounts Payable pays the 
-Agency via their clearing account. </p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">6.  The Agency sends the 
-institution a cxml file to the institution with the trip and traveler details. 
-</p>
-<div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 0pt 9pt 36pt; PADDING-RIGHT: 0pt">
-<p class="Noteindented" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt; MARGIN-LEFT: 27pt"><img title="Description: go-arrow-red" border="0" alt="Description: go-arrow-red" src="../ImagesExt/image336_0.png" />   For the file layout, see<a href="travelagencydatauplo1.htm"> Travel Agency Data Upload 
-Format</a>.</p></div>
-<p class="C1HNumber" style="tab-stops: 36.0pt">7.  The Credit Card company 
-sends a cxml file to the institution with the trip details. </p>
-<div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 0pt 9pt 36pt; PADDING-RIGHT: 0pt">
-<p class="Noteindented" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt"><img title="Description: go-arrow-red" border="0" alt="Description: go-arrow-red" src="../ImagesExt/image336_0.png" />   For the file layout, see <a href="creditcarddataupload1.htm">Credit Card Data Upload Format</a>.</p></div>
-<p class="C1HNumber" style="tab-stops: 36.0pt">8.  The <a href="travelandentertainme2.htm">creditCardDataImportJob</a> and <a href="travelandentertainme2.htm">agencyDataImportJob</a> and are run in this 
+<p class="C1HNumber" style="tab-stops: 36.0pt">1.    Traveler 
+creates a Travel Authorization and it’s approved to Final. </p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">2.    Traveler 
+contacts the Travel Agency and provides the TEM Doc #, the departmental account 
+number and uses the Agency link to make reservations. </p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">3.    The Agency 
+charges the CTS Credit Card (Ghost card associated with an institutional 
+clearing account). </p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">4.    The Credit 
+Card company invoices the institution for charges made by the Agency (for 
+example, orbitz, hotels.com). </p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">5.    Accounts 
+Payable pays the Agency via their clearing account. </p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">6.    The Agency 
+sends the institution a cxml file to the institution with the trip and traveler 
+details. </p>
+<p class="Noteindented"><img title="Description: go-arrow-red" border="0" alt="Description: go-arrow-red" src="../ImagesExt/image336_0.png" />     For the file layout, 
+see<a href="travelagencydatauplo1.htm"> Travel Agency Data Upload 
+Format</a>.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">7.    The Credit 
+Card company sends a cxml file to the institution with the trip details. </p>
+<p class="Noteindented" style="MARGIN-LEFT: 36pt; TEXT-INDENT: 0pt"><img title="Description: go-arrow-red" border="0" alt="Description: go-arrow-red" src="../ImagesExt/image336_0.png" />     For the file layout, 
+see <a href="creditcarddataupload1.htm">Credit Card Data Upload Format</a>.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">8.    The <a href="travelandentertainme2.htm">creditCardDataImportJob</a> and <a href="travelandentertainme2.htm">agencyDataImportJob</a> and are run in this 
 order. These jobs match the agency records to the credit card records.</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>TEM Doc # and account and 
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>TEM Doc # and account and 
 sub-account must match. </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Airline Record:</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>trip Invoice Number must be unique and 
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Airline Record:</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 36.0pt 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>trip Invoice Number must be unique and 
 match Credit Card ticket Number. </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>trip Expense Amount must match Credit 
+<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 36.0pt 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>trip Expense Amount must match Credit 
 Card transaction Amount.</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>air Ticket Number must be unique and 
+<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 36.0pt 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>air Ticket Number must be unique and 
 match Credit Card ticket Number</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>air Service Fee Number must be unique 
+<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 36.0pt 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>air Service Fee Number must be unique 
 and match Credit Card</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>OR Lodging Record:</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>trip Invoice Number must be unique and 
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>OR Lodging Record:</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 36.0pt 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>trip Invoice Number must be unique and 
 match Credit Card ticket Number</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>trip Expense Amount must be unique and 
+<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 36.0pt 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>trip Expense Amount must be unique and 
 match Credit Card transaction Amount</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>lodging Itinerary Number must be unique 
+<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 36.0pt 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>lodging Itinerary Number must be unique 
 and match Credit Card itinerary Number</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>OR Car Rental Record:</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>trip Invoice Number must be unique and 
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>OR Car Rental Record:</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 36.0pt 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>trip Invoice Number must be unique and 
 match Credit Card ticket Number</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>trip Expense Amount must be unique and 
+<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 36.0pt 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>trip Expense Amount must be unique and 
 match Credit Card transaction Amount</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>rental Car Itinerary Number must be 
+<p class="C1HBullet" style="MARGIN-LEFT: 108pt; tab-stops: 36.0pt 108.0pt"><span style="FONT-FAMILY: Wingdings">§ </span>rental Car Itinerary Number must be 
 unique and match Credit Card itinerary Number</p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">9.  If the match is 
-successful:</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Expenses are imported into the 
+<p class="C1HNumber" style="tab-stops: 36.0pt">9.    If the match 
+is successful:</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Expenses are imported into the 
 TEM Document and display in the Imported Expenses section of the Actual Expenses 
 or Expenses tab. </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>General Ledger Pending Entries 
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>General Ledger Pending Entries 
 are generated to transfer the expense from the institutional clearing account to 
 the departmental account. </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>An email will be sent to the 
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>An email will be sent to the 
 payee or traveler notifying them that an expense has been reconciled to their 
 TEM Document. </p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">10. Agency Data errors can be 
+<p class="C1HNumber" style="tab-stops: 36.0pt">10.  Agency Data errors can be 
 corrected using the <a href="travelagencyauditand.htm">Travel Agency Audit and 
 Correction</a> document. Credit Card errors will need to be corrected by the 
 Credit Card company and retransmitted. </p>

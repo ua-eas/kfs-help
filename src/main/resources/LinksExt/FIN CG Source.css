@@ -1,10 +1,8 @@
-P.Noteintable {FONT-SIZE: 10pt;  BORDER-TOP: medium none;  FONT-FAMILY: "Arial","sans-serif";  BORDER-RIGHT: medium none;  BORDER-BOTTOM: medium none;  PADDING-BOTTOM: 0pt;  PADDING-TOP: 0pt;  PADDING-LEFT: 0pt;  BORDER-LEFT: medium none;  MARGIN: 9pt 3.6pt 6pt 21.25pt;  LINE-HEIGHT: 14pt;  PADDING-RIGHT: 0pt;  TEXT-INDENT: -22.85pt;  tab-stops: 21.25pt; }
+P.Note {FONT-SIZE: 10pt;  FONT-FAMILY: "Times New Roman","serif";  MARGIN: 9pt 0pt 0pt 18pt;  TEXT-INDENT: -22.5pt;  tab-stops: 0pt; }
 
-P.TableCells {FONT-SIZE: 10pt;  FONT-FAMILY: "Arial","sans-serif";  MARGIN: 0pt 0pt 6pt;  LINE-HEIGHT: normal; }
-
-P.Note {FONT-SIZE: 10pt;  BORDER-TOP: medium none;  FONT-FAMILY: "Verdana","sans-serif";  BORDER-RIGHT: medium none;  BORDER-BOTTOM: medium none;  PADDING-BOTTOM: 0pt;  PADDING-TOP: 0pt;  PADDING-LEFT: 0pt;  BORDER-LEFT: medium none;  MARGIN: 9pt 0pt;  LINE-HEIGHT: 14pt;  PADDING-RIGHT: 0pt; }
+P.Definition {FONT-SIZE: 10pt;  FONT-FAMILY: "Times New Roman","serif";  MARGIN: 9pt 0pt 0pt; }
 
 SPAN.EditorsNote {BORDER-TOP: windowtext 1pt;  FONT-FAMILY: "Times New Roman","serif";  BORDER-RIGHT: windowtext 1pt;  BACKGROUND: yellow;  BORDER-BOTTOM: windowtext 1pt;  PADDING-BOTTOM: 0pt;  PADDING-TOP: 0pt;  PADDING-LEFT: 0pt;  BORDER-LEFT: windowtext 1pt;  PADDING-RIGHT: 0pt; }
 
-SPAN.NoteChar {FONT-FAMILY: "Verdana","sans-serif"; }
+SPAN.NoteChar {FONT-FAMILY: "Times New Roman","serif"; }
 

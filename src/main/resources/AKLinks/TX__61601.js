@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__61601", [["WordDocuments/documentlayout365.htm", "right", "Document Layout"],["WordDocuments/labordistributionjou.htm", "right", "Labor Distribution Journal Voucher Details Tab"],["WordDocuments/transactionvalidatio.htm", "right", "Transaction Validation ('Scrubber')"]]);

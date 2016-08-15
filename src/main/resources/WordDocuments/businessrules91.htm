@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN FP Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN FP Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -93,39 +93,35 @@ Receipt</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h
 Overview</a></div>
 <h5>Business Rules</h5>
 <p class="Definition"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Check 
-Amount</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Total Currency</span></strong>, 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Amount</span></strong>, 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Total Coin Amount 
-</span></strong>and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Change Request Total 
-</span></strong>must be zero or greater.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Reconciliation Net 
-Total</span></strong> must be equal to the total of the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Accounting Lines 
-</span></strong>tab.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Cash 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong>Check Amount</strong>, <strong>Total Currency</strong>, 
+<strong>Amount</strong>, <strong>Total Coin Amount </strong>and <strong>Change 
+Request Total </strong>must be zero or greater.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong>Reconciliation Net Total</strong> must be equal to the total of the 
+<strong>Accounting Lines </strong>tab.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Cash 
 Receipts posted to a cash equivalent (investment), receivable, and expense 
 objects require a negative accounting line to balance the document. The result 
 of the cash receipt is a reduction in these objects and an increase in the cash 
 offset.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>There 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>There 
 must be at least one accounting line in the document.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 CR document is one-sided. Kuali Financials automatically generates the other 
 side of the entry affecting the cash account, as defined by the data entered 
 into the document.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Parameters with Component Cash Receipt control allowed and disallowed 
 object codes on the Cash Receipt. </p>
-<p class="C1HBullet" style="tab-stops: 36.0pt"> </p>
-<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
-<p class="Note" style="MARGIN-TOP: 0pt"><img title="lightbolb-small" border="0" alt="lightbolb-small" src="../ImagesExt/image322_7.png" />      <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Making Corrections: 
-</span></strong>If a CR has been initiated and approved, but the accounting line 
-information was incorrect, use the General Error Correction (GEC) document to 
-make corrections. If the total amount of a CR is incorrect, use the Advance 
-Deposit (AD) document to make the correction.</p>
-<p class="Note" style="MARGIN-BOTTOM: 0pt"><a name="OLE_LINK6" id="OLE_LINK6"></a><a name="OLE_LINK1" id="OLE_LINK1"><img title="go-arrow-red" border="0" alt="go-arrow-red" src="../ImagesExt/image322_2.png" />      For more 
-information about the GEC and AD documents, see <a href="generalerrorcorrection.htm">General Error Correction</a> and <a href="advancedeposit.htm">Advance Deposit</a>.</a></p></div>
+<p class="C1HBullet"> </p>
+<p class="Note" style="MARGIN-LEFT: 22.5pt"><img title="lightbolb-small" border="0" alt="lightbolb-small" src="../ImagesExt/image322_6.png" />   
+<strong>Making Corrections: </strong>If a CR has been initiated and approved, 
+but the accounting line information was incorrect, use the General Error 
+Correction (GEC) document to make corrections. If the total amount of a CR is 
+incorrect, use the Advance Deposit (AD) document to make the correction.</p>
+<p class="Note" style="MARGIN-LEFT: 22.5pt"><a name="OLE_LINK6" id="OLE_LINK6"></a><a name="OLE_LINK1" id="OLE_LINK1"><img title="go-arrow-red" border="0" alt="go-arrow-red" src="../ImagesExt/image322_2.png" />   For more information about the 
+GEC and AD documents, see <a href="generalerrorcorrection.htm">General Error 
+Correction</a> and <a href="advancedeposit.htm">Advance Deposit</a>.</a></p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing59.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Routing</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -91,40 +91,35 @@ Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d
 <h5>Routing</h5>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">The PO document does the following types of routing:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Internal 
-Purchasing Review</span></strong>: Triggered if the dollar amount of the PO 
-exceeds the dollar amount for the associated <a onclick="return d2hpopup(event, this.href)" id="popup_223648" href="gloss_contractmanager.htm">contract manager</a> (<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">CM Delegation Dollar 
-Amount</span></strong> field on the Contract Manager table) and the person 
-submitting the order is not in the Contract Manager <a onclick="return d2hpopup(event, this.href)" id="popup_223650" href="gloss_role.htm">role</a>.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Commodity Code 
-Review:</span></strong>  This route level is triggered if a commodity code 
-on any line items has been added to the Commodity Reviewer role. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Contracts and 
-Grants Review</span></strong>: Triggered if any grant accounts are used in the 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Items</span></strong> 
-section of the PO and the account string contains an object code that exists in 
-the either the 'CG ROUTE OBJECT CODES BY CHART' or 'CG ROUTE OBJECT LEVELS BY 
-CHART' parameters. The PO document routes to the C&amp;G Processor role with the 
-sub-fund group tied to Contracts and Grants accounts.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Budget Office 
-Review</span></strong>: If the PO is for the current <a onclick="return d2hpopup(event, this.href)" id="popup_223649" href="gloss_fiscalyear.htm">fiscal year</a>, all accounts used on the document 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong>Internal Purchasing Review</strong>: Triggered if the dollar 
+amount of the PO exceeds the dollar amount for the associated <a onclick="return d2hpopup(event, this.href)" id="popup_236172" href="gloss_contractmanager.htm">contract manager</a> (<strong>CM Delegation 
+Dollar Amount</strong> field on the Contract Manager table) and the person 
+submitting the order is not in the Contract Manager <a onclick="return d2hpopup(event, this.href)" id="popup_236174" href="gloss_role.htm">role</a>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong>Commodity Code Review:</strong>  This route level is 
+triggered if a commodity code on any line items has been added to the Commodity 
+Reviewer role. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong>Contracts and Grants Review</strong>: Triggered if any grant 
+accounts are used in the <strong>Items</strong> section of the PO and the 
+account string contains an object code that exists in the either the 'CG ROUTE 
+OBJECT CODES BY CHART' or 'CG ROUTE OBJECT LEVELS BY CHART' parameters. The PO 
+document routes to the C&amp;G Processor role with the sub-fund group tied to 
+Contracts and Grants accounts.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong>Budget Office Review</strong>: If the PO is for the current <a onclick="return d2hpopup(event, this.href)" id="popup_236173" href="gloss_fiscalyear.htm">fiscal year</a>, all accounts used on the document 
 are checked to see if any of accounts use sufficient funds checking. If the 
 encumbrances from this order would cause these accounts to have insufficient 
 funds, the PO document routes to the Budget Reviewer role for approval. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><em><span style="FONT-FAMILY: Symbol; FONT-STYLE: normal"><span style="FONT-FAMILY: Verdana">•</span>      
-</span></em><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Vendor Tax 
-Review</span></strong>: If the vendor used on the PO is a foreign vendor or the 
-vendor's tax number matches a tax number if the employee table, the document 
-routes to the Tax Manager role. <em></em></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Document 
-Transmission</span></strong>: If the document is an APO, an FYI is generated 
-back to the initiator of the requisition document. If the document is not an 
-APO, an FYI is generated back to the user who submitted the PO.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><em><span style="FONT-FAMILY: Symbol; FONT-STYLE: normal"><span style="FONT-FAMILY: Verdana">•</span>      
+</span></em><strong>Vendor Tax Review</strong>: If the vendor used on the PO is 
+a foreign vendor or the vendor's tax number matches a tax number if the employee 
+table, the document routes to the Tax Manager role. <em></em></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong>Document Transmission</strong>: If the document is an APO, an FYI 
+is generated back to the initiator of the requisition document. If the document 
+is not an APO, an FYI is generated back to the user who submitted the PO.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="processingapodocumen.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Processing a PO 
 Document</a></p></span></div></div></body></html>

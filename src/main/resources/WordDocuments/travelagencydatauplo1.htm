@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Travel Agency Data Upload Format</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN TEM Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN TEM Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -94,16 +94,16 @@ Upload</a></div>
 <p class="MsoBodyText">In addition to the standard formatting rules that apply to 
 all batch upload file formats, keep the following points in mind about the XML 
 format:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 file must begin with the standard XML version line such as:</p>
 <p class="C1HContinue"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;?xml version="1.0" 
 encoding="UTF-8"?&gt;</span></span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 root (first) tag for collector files must be the &lt;agencyData&gt; tag, and the 
 file must contain only one &lt;agencyData&gt;&lt;/agencyData &gt; tag. This tag 
 also contains attributes that identify the schema the document adheres to, such 
 as:</p>
-<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
+<p class="C1HBullet" style="TEXT-INDENT: 0pt"> </p>
 <p class="MsoNormal" style="MARGIN-LEFT: 36pt"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">&lt;agencyData 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" </span></span></p>
 <p class="MsoNormal" style="MARGIN-LEFT: 36pt"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">                
@@ -111,13 +111,13 @@ xmlns="http://www.kuali.org/kfs/tem/AgencyData" </span></span></p>
 <p class="MsoNormal" style="MARGIN-LEFT: 36pt"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">                
 xsi:noNamespaceSchemaLocation="../build/project/xsd/tem/AgencyData.xsd"&gt;</span></span></p>
 <p class="MsoNormal"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt"></span></span> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Following the batch tag must be the &lt;importBy&gt; tag. This section 
 indicates how the imported transactions will be handled. By TRV prepares the 
 record for manual reconciliation to a TEM document and By TRP prepares the 
 record for automatic reconciliation. Like the agency Data tag, the file must 
 contain only one &lt;importBy&gt;&lt;/importBy&gt; tag. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Next 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Next 
 comes a &lt;record&gt; tag. This tag contains other tags that represent the 
 fields of the credit card transaction.  There can be many 
 &lt;record&gt;&lt;/record&gt; tags back to back. The &lt;record&gt; tag includes 
@@ -136,7 +136,7 @@ one of these per &lt;record&gt;&lt;/record&gt;</p>
 </span>Conference Registration</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Processing Info</p>
-<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
+<p class="C1HBullet" style="TEXT-INDENT: 0pt"> </p>
 <p class="TableHeading">Travel Agency Data Upload Format</p>
 <table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; MARGIN-LEFT: 5.4pt; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1">
   <tbody>
