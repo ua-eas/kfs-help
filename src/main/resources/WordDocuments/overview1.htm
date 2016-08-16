@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Overview</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN CAM Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN CAM Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -91,19 +91,19 @@ Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d
 Management Depreciation Process</a></div>
 <h4>Overview</h4>
 <p class="MsoNormal"> </p>
-<p class="MsoNormal">The parameter <a onclick="return d2hpopup(event, this.href)" id="popup_233781" href="gloss_depreciation.htm">DEPRECIATION</a>_PERIOD is used to 
+<p class="MsoNormal">The parameter <a onclick="return d2hpopup(event, this.href)" id="popup_249058" href="gloss_depreciation.htm">DEPRECIATION</a>_PERIOD is used to 
 determine how frequently depreciation entries should be created and posted to 
 the General Ledger. Depreciation can be run monthly, quarterly, semi-annually or 
 annually. </p>
 <p class="MsoNormal"> </p>
 <p class="MsoBodyText">CAMS Depreciation is set to run on the third Thursday of 
-the month. Depreciation will be calculated if the <a onclick="return d2hpopup(event, this.href)" id="popup_233780" href="gloss_fiscalperiod.htm">fiscal period</a> is a multiple of the value in 
+the month. Depreciation will be calculated if the <a onclick="return d2hpopup(event, this.href)" id="popup_249057" href="gloss_fiscalperiod.htm">fiscal period</a> is a multiple of the value in 
 the DEPRECIATION_PERIOD parameter. For example, if you are running deprecation 
 quarterly, the value in the paramter will be set to 3. Each month the 
 calculation will check to see if the fiscal period is a multiple of 3 and if it 
 is, will calculate depreciation. </p>
 <p class="MsoNormal"> </p>
-<p class="MsoBodyText">Prior to the first scheduled run of the new <a onclick="return d2hpopup(event, this.href)" id="popup_233782" href="gloss_fiscalyear.htm">fiscal year</a>, the ResetAssetDepreciationJob must 
+<p class="MsoBodyText">Prior to the first scheduled run of the new <a onclick="return d2hpopup(event, this.href)" id="popup_249059" href="gloss_fiscalyear.htm">fiscal year</a>, the ResetAssetDepreciationJob must 
 be run in order to clear prior year depreciation. This job will sum the buckets 
 of depreciation and update the Previous Year Amount field. </p>
 <p class="MsoNormal"> </p>
@@ -126,25 +126,25 @@ of the fiscal year. </p>
 running of the depreciation batch job during fiscal year end. </p>
 <p class="MsoNormal"> </p>
 <p class="MsoBodyText">Dates for the blank-out period can be set as follows:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
 DEPRECIATION_DATE to yyyy-mm-dd (for example, 2016-06-30). The system uses this 
-date to determine for which period to run depreciation.The <a onclick="return d2hpopup(event, this.href)" id="popup_233779" href="gloss_accountingperiod.htm">accounting period</a> associated with the date 
+date to determine for which period to run depreciation.The <a onclick="return d2hpopup(event, this.href)" id="popup_249056" href="gloss_accountingperiod.htm">accounting period</a> associated with the date 
 must be a multiple of the Depreciation period. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
 the BLANK_OUT_PERIOD_RUN_DATE  to mm/dd/yyyy (for example, 06/29/2012) to 
 specify the date on which the system is to run depreciation. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
 the BLANK_OUT_PERIOD_BEGIN paramter to mm/dd (for example, 06/01). This date 
 determines the beginning of the blank-out period where automatic runs will not 
 occur. The BLANK_OUT_PERIOD_BEGIN must be earlier in the calendar year than the 
 BLANK_OUT_PERIOD_END date and will normally be a date in June. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
 the BLANK_OUT_PERIOD_END parameter to mm/dd (for example, 07/15). This date 
 determines the end of the blank-out period where automatic runs will not apply. 
 The BLANK_OUT_PERIOD_END must be later in the calendar year than the 
 BLANK_OUT_PERIOD_BEGIN.</p>
-<p class="C1HBullet" style="TEXT-INDENT: 0pt"> </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt">Depreciation can 
+<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; tab-stops: 36.0pt">Depreciation can 
 be run multiple times in the same period. It will only depreciate those assets 
 that have not been depreciated yet for this period. Assets created after year 
 end that need to be depreciated in the prior fiscal year will need to have their 

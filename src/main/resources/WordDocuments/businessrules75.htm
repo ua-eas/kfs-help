@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -90,37 +90,39 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="requisition.htm">Requisition</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview52.htm">Process Overview</a></div>
 <h5>Business Rules</h5>
 <p class="Definition"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>In 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>In 
 addition to the other required data (such as description, delivery information, 
 and additional details), the requisition must have at least one item on the item 
 tab in order to be submitted to Workflow for routing.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 the chart/org on the requisition does not have a content review routing rule set 
 up, accounts are required before the document can be submitted. If a content 
 review rule exists for the chart/org, the initiator will receive a warning 
 message.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Account distributions must exist for all item lines on the document 
 before it may leave the content routing stage.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 following rules apply for allowable accounts to be charged on a REQS. These are 
 the same rules used for the PO. The specific codes for these rules may be 
 specified via parameters.</p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Only expense (EE, ES or EX 
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Only expense (EE, ES or EX 
 object types) or asset (AS object type) object codes are allowed. Asset object 
 codes must be in the INV or OASS object level.</p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes in the 
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes in the 
 consolidations of Compensation (CMPN), Financial Aid (SCHL), Reserves 
 (RSRX) and Assessments Expenditures (ASEX) are not allowed.</p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes in the 
-levels of <a onclick="return d2hpopup(event, this.href)" id="popup_236127" href="gloss_depreciation.htm">Depreciation</a> (DEPR), Indirect Cost Expense 
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes in the 
+levels of <a onclick="return d2hpopup(event, this.href)" id="popup_251404" href="gloss_depreciation.htm">Depreciation</a> (DEPR), Indirect Cost Expense 
 (ICOE), Valuations and Adjustments (VADJ) and Taxes (TAX) are not allowed.</p>
-<p class="C1HBullet2A" style="tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes with a 
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes with a 
 sub-type code for Transfers (TN) are allowed.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Use 
-<strong>Allow Copy Days</strong> in the <strong>Requisition Source</strong> 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Use 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Allow Copy 
+Days</span></strong> in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Requisition Source</span></strong> 
 table to control when copy function is allowed on the Requisition.</p>
-<p class="Noteindented"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image334_1.png" />     For information about 
-Allow Copy Days, see <a href="requisitionsource.htm">Requisition Source</a>.</p>
+<div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 0pt 9pt 36pt; PADDING-RIGHT: 0pt">
+<p class="Noteindented" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt; MARGIN-LEFT: 27pt"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image334_1.png" />   For information about Allow Copy 
+Days, see <a href="requisitionsource.htm">Requisition Source</a>.</p></div>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing45.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>

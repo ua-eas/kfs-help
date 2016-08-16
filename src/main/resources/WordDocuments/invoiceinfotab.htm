@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Invoice Info Tab</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -90,8 +90,8 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="paymentrequest.htm">Payment Request</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="documentlayout165.htm">Document Layout</a></div>
 <h5>Invoice Info Tab</h5>
 <p class="MsoBodyText"> </p>
-<p class="MsoBodyText">The <strong>Invoice Info </strong>tab provides a means for 
-display and modification of invoice information.</p>
+<p class="MsoBodyText">The <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Invoice Info </span></strong>tab 
+provides a means for display and modification of invoice information.</p>
 <p class="MsoBodyText"> </p>
 <p class="TableHeading">Invoice Info tab field definitions</p>
 <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="780" border="0">
@@ -150,14 +150,15 @@ display and modification of invoice information.</p>
       system. If payment terms are edited, the system repopulates this field 
       only if it is blank. Override the automatic entry by entering a pay date 
       or selecting it from the calendar tool.</p>
-      <p class="Noteintable"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image334_2.png" />    <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Pay Date Calculations: 
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image334_2.png" />    <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Pay Date Calculations: 
       </span></strong>The pay date is calculated automatically as follows. The 
       payment terms specified are applied to the invoice date to generate a pay 
       date. The payment terms parameters are in the Payment Terms Type table. 
       Additionally, ten days (or another institutionally defined default number 
       of days) are added to the current date to generate a pay date. Financials 
       selects the later of these two dates and uses it as the default pay date 
-      for this Payment Request document.</p>
+      for this Payment Request document.</p></div>
       <p class="TableCells">The pay date may be entered manually, but it must not 
       be a past date. If the date is more than 60 days from the current date, 
       the system displays a warning message.</p></td></tr>

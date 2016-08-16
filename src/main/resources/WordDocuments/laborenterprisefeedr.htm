@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Labor Enterprise Feed Reconciliation Flat File Format</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN LD Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN LD Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -89,16 +89,17 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="labordistribution.htm">Labor Distribution</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="labordistributionupl.htm">Labor Distribution Upload Functions</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="laborenterprisefeedu.htm">Labor Enterprise Feed Upload</a></div>
 <h4>Labor Enterprise Feed Reconciliation Flat File Format</h4>
 <p class="MsoBodyText"> </p>
-<p class="Note" style="MARGIN-LEFT: 22.5pt"><img title="go-arrow-red" border="0" alt="go-arrow-red" src="../ImagesExt/image333_3.png" />   For information 
-on procedures that apply to all Financials batch uploads, see <a href="batchuploadbasics.htm">Batch Upload Basics</a>.</p>
-<p class="C1HBullet" style="TEXT-INDENT: 0pt"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
+<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="go-arrow-red" border="0" alt="go-arrow-red" src="../ImagesExt/image333_3.png" />      For information 
+on procedures that apply to all Financials batch uploads, see <a href="batchuploadbasics.htm">Batch Upload Basics</a>.</p></div>
+<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
 using the Labor Enterprise Batch Feed upload, you must submit a reconciliation 
 (recon) file along with the entry file. This file verifies the count of records 
 and the dollar amount of your entry file. If these files do not reconcile, 
 Financials will not process the file and will generate an error message on the 
-<a onclick="return d2hpopup(event, this.href)" id="popup_235910" href="gloss_enterprisefeed.htm">Enterprise Feed</a> report.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<a onclick="return d2hpopup(event, this.href)" id="popup_251187" href="gloss_enterprisefeed.htm">Enterprise Feed</a> report.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 file will contain three types of rows as detailed below. Each element of each 
 row must be separated by a single space and each row ends with a semi-colon.</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A “c” 
@@ -112,13 +113,13 @@ trn_ldgr_entr_amt +00000000027680.00;</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>An 
 “e” row identifying the number of “c” and “s” rows found in the reconciliation 
 file (always 2). For example: e 02;</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>So an 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>So an 
 entire reconciliation made up of these rows would contain the following:</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: 0pt">c 
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: 0pt; tab-stops: 36.0pt">c 
 ld_ldgr_entr_t   2;</p>
-<p class="C1HBullet" style="TEXT-INDENT: 18pt">s trn_ldgr_entr_amt  
- 27680.00;</p>
-<p class="C1HBullet" style="TEXT-INDENT: 18pt">e 02;</p>
+<p class="C1HBullet" style="TEXT-INDENT: 18pt; tab-stops: 36.0pt">s 
+trn_ldgr_entr_amt   27680.00;</p>
+<p class="C1HBullet" style="TEXT-INDENT: 18pt; tab-stops: 36.0pt">e 02;</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="predisbursementproce1.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Pre-Disbursement 
 Processor</a></p></span></div></div></body></html>

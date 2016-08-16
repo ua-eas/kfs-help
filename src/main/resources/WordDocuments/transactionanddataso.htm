@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Transaction and Data Sources ('Collector')</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -105,38 +105,39 @@ and Bursar systems). In most cases, transactions from external feeds are not
 sent to the GL in the standard pending transaction format. Two choices are 
 available for addressing the difference in formatting:</p>
 <p class="MsoBodyText"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><i>Batch <a onclick="return d2hpopup(event, this.href)" id="popup_235235" href="gloss_enterprisefeed.htm">Enterprise Feed</a> (Origin Entry 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><i>Batch <a onclick="return d2hpopup(event, this.href)" id="popup_250512" href="gloss_enterprisefeed.htm">Enterprise Feed</a> (Origin Entry 
 Transactions)</i><i></i><i></i><i>:</i>The external applications may be modified 
 to correctly format transactions and store them for direct GL processing; or</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span><i>XML and Flat File Transactions</i><i></i><i></i><i>:</i> External 
 application transactions may be generated in XML or a flat file format and 
 uploaded to Financials. The 'Collector' process scans XML transactions and 
 converts them to GL origin entries.</p>
-<p class="C1HBullet" style="TEXT-INDENT: 0pt"> </p>
-<p class="Note" style="MARGIN-LEFT: 22.5pt">XML (eXtensible Markup Language) is a 
-set of rules for defining tags that break a document into parts and identify the 
+<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
+<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
+<p class="Note" style="MARGIN-TOP: 0pt">XML (eXtensible Markup Language) is a set 
+of rules for defining tags that break a document into parts and identify the 
 different parts of the document. XML provides a structured file format for the 
 interchange of data among different applications. </p>
-<p class="Note" style="MARGIN-LEFT: 22.5pt"><img title="go-arrow-red" border="0" alt="go-arrow-red" src="../ImagesExt/image342_4.png" />   For information 
-about using the XML file batch upload function, see <a href="collectorxmlupload.htm">Collector XML Upload</a>.</p>
+<p class="Note" style="MARGIN-BOTTOM: 0pt"><img title="go-arrow-red" border="0" alt="go-arrow-red" src="../ImagesExt/image342_4.png" />      For information 
+about using the XML file batch upload function, see <a href="collectorxmlupload.htm">Collector XML Upload</a>.</p></div>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">Pending financial transactions are validated against the 
 Chart of Accounts (which is where the organizational structure and accounts and 
 the detailed categories of financial transactions are defined). The Chart of 
 Accounts provides options for assigning attributes for sorting, summarizing and 
 reporting financial activity. Collector files go through the same validation and 
-Pre-<a onclick="return d2hpopup(event, this.href)" id="popup_235236" href="gloss_scrubber.htm">Scrubber</a> processes described below for the 
+Pre-<a onclick="return d2hpopup(event, this.href)" id="popup_250513" href="gloss_scrubber.htm">Scrubber</a> processes described below for the 
 Scrubber.</p>
 <p class="Illustration"><img border="0" src="../ImagesExt/image342_5.png" alt="" /></p>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">Several summary and detail reports are generated when the 
 GL pending entries are collected. </p>
-<p class="C1HBullet" style="PAGE-BREAK-AFTER: avoid; TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="PAGE-BREAK-AFTER: avoid; TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Collector report</p>
-<p class="C1HBullet" style="PAGE-BREAK-AFTER: avoid; TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a name="_Ref232404336" id="_Ref232404336">GLPE Statistics Report</a></p>
-<p class="C1HBullet" style="PAGE-BREAK-AFTER: avoid; TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a name="_Ref232404419" id="_Ref232404419">Pending Ledger Entry table Report </a></p>
+<p class="C1HBullet" style="PAGE-BREAK-AFTER: avoid; TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a name="_Ref232404336" id="_Ref232404336">GLPE Statistics Report</a></p>
+<p class="C1HBullet" style="PAGE-BREAK-AFTER: avoid; TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a name="_Ref232404419" id="_Ref232404419">Pending Ledger Entry table Report </a></p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="transactionvalidatio.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Transaction Validation 
 ('Scrubber')</a></p></span></div></div></body></html>

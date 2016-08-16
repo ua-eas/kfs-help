@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Scheduling Year-End Batch Jobs</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -89,78 +89,75 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger.htm">General Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgeryearend.htm">General Ledger Year-End Processes</a></div>
 <h3>Scheduling Year-End Batch Jobs</h3>
 <p class="MsoBodyText">Five year-end batch jobs generate GL data files.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL updatePriorYearDataStep–This job needs to run after the 
 system is brought down on the night of June 30 (or at the point in time you wish 
-to capture <a onclick="return d2hpopup(event, this.href)" id="popup_235413" href="gloss_fiscalyear.htm">fiscal year</a> end account and organization 
+to capture <a onclick="return d2hpopup(event, this.href)" id="popup_250690" href="gloss_fiscalyear.htm">fiscal year</a> end account and organization 
 snapshots).  Scheduling allows for a clean cut-off of the account and 
 organization snapshots (off hours) when updates are not being performed</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL organizationReversionPriorYearAccountJob</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL encumbranceForwardJob</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL nominalActivityClosingJob</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL balanceForwardJob</p>
 <p class="MsoBodyText">Files output by these jobs are <em>not</em> automatically 
-fed into the <a onclick="return d2hpopup(event, this.href)" id="popup_235414" href="gloss_scrubber.htm">scrubber</a>, so an administrator must review the 
+fed into the <a onclick="return d2hpopup(event, this.href)" id="popup_250691" href="gloss_scrubber.htm">scrubber</a>, so an administrator must review the 
 files to be sure the data seems valid and then use the GLCP to make the data 
 available for the next nightly batch processing.  </p>
 <p class="MsoBodyText">These four jobs may be run over a period of several days. 
 For example, after the final close, jobs might be run according to a schedule 
 like the following.</p>
-<p class="MsoBodyText"><strong>Day 1</strong></p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">1.    Schedule:</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Day 1</span></strong></p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">1.  Schedule:</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL organizationReversionPriorYearAccountJob</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL encumbranceForwardJob</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL laborBalanceForwardJob</p>
-<p class="MsoBodyText"><strong>Day 2</strong></p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">1.    Review output 
-from yesterday's:</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Day 2</span></strong></p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">1.  Review output from 
+yesterday's:</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL organizationReversionPriorYearAccountJob</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL encumbranceForwardJob</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL laborBalanceForwardJob</p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">2.    For all valid 
-output from those jobs, use the GLCP to input the files into this evening's 
-batch cycle.</p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">3.    Schedule 
-Financials-GL nominalActivityClosingJob.</p>
-<p class="MsoBodyText"><strong>Day 3</strong></p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">1.    Verify that 
-the entries from the following jobs posted without incident during last night's 
-batch cycle:</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HNumber" style="tab-stops: 36.0pt">2.  For all valid output from 
+those jobs, use the GLCP to input the files into this evening's batch cycle.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">3.  Schedule Financials-GL 
+nominalActivityClosingJob.</p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Day 3</span></strong></p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">1.  Verify that the entries 
+from the following jobs posted without incident during last night's batch 
+cycle:</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL organizationReversionPriorYearAccountJob</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL encumbranceForwardJob</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Financials-GL laborBalanceForwardJob</p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">2.    Review output 
-from yesterday's Financials-GL nominalActivityClosingJob.</p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">3.    For all valid 
-output from that job, use the GLCP to input the file into this evening's batch 
-cycle.</p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">4.    Schedule 
-Financials-GL balanceForwardJob.</p>
-<p class="MsoBodyText"><strong>Day 4</strong></p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">1.    Verify that 
-the entries from yesterday'sFinancials-GL nominalActivityClosingJob posted 
-without incident.</p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">2.    Review output 
-from Financials-GL balanceForwardJob.</p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">3.    For all valid 
-output, use the GLCP to input the file into this evening's batch cycle.</p>
-<p class="MsoBodyText"><strong>Day 5</strong></p>
-<p class="C1HNumber" style="tab-stops: 36.0pt">1.    Verify that 
-the entries from yesterday's Financials-GL balanceForwardJob posted without 
+<p class="C1HNumber" style="tab-stops: 36.0pt">2.  Review output from 
+yesterday's Financials-GL nominalActivityClosingJob.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">3.  For all valid output from 
+that job, use the GLCP to input the file into this evening's batch cycle.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">4.  Schedule Financials-GL 
+balanceForwardJob.</p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Day 4</span></strong></p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">1.  Verify that the entries 
+from yesterday'sFinancials-GL nominalActivityClosingJob posted without 
 incident.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">2.  Review output from 
+Financials-GL balanceForwardJob.</p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">3.  For all valid output, use 
+the GLCP to input the file into this evening's batch cycle.</p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Day 5</span></strong></p>
+<p class="C1HNumber" style="tab-stops: 36.0pt">1.  Verify that the entries 
+from yesterday's Financials-GL balanceForwardJob posted without incident.</p>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">If a problem (for example, if the scrubber finds 
 errors)arises at any point, fix the problem before continuing with the remaining 

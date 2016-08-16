@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Pre-Disbursement Processor Batch Processes</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PDP Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PDP Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -87,9 +87,7 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="predisbursementproce1.htm">Pre-Disbursement Processor</a></div>
-<div style="MARGIN-BOTTOM: 3pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 12pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
-<h2 style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt">Pre-Disbursement Processor Batch 
-Processes</h2></div>
+<h2>Pre-Disbursement Processor Batch Processes</h2>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">The PDP module is impacted by batch jobs associated with 
 the Financial Processing and Purchasing/Accounts Payable modules. In addition, 
@@ -97,11 +95,12 @@ this module has several batch jobs that are unique to it. The table below lists
 these batch jobs in the general order that an institution may encounter 
 them.</p>
 <p class="MsoBodyText"> </p>
-<p class="Note" style="MARGIN-LEFT: 22.5pt"><img title="pencil-small" border="0" alt="pencil-small" src="../ImagesExt/image331_1.png" />     
-Several of these jobs generate .xml files containing information about payments 
+<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
+<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="pencil-small" border="0" alt="pencil-small" src="../ImagesExt/image331_1.png" />       Several 
+of these jobs generate .xml files containing information about payments 
 processed via PDP. Kuali Financials does not include a check writer, so your 
 institution needs to determine how best to utilize the .xml files provided by 
-PDP to generate checks and/or ACH entries to be sent to your bank.</p>
+PDP to generate checks and/or ACH entries to be sent to your bank.</p></div>
 <p class="MsoBodyText"> </p>
 <p class="TableHeading">PDP Batch Jobs</p>
 <table class="MsoNormalTable" style="WIDTH: 472.5pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="788" border="0">
@@ -123,12 +122,13 @@ PDP to generate checks and/or ACH entries to be sent to your bank.</p>
       <p class="TableCells">This job extracts approved disbursement vouchers 
       having a payment method of Check/ACH into PDP. The disbursement vouchers 
       appear as open payments in PDP.</p>
-      <p class="Noteintable"><img border="0" src="../ImagesExt/image331_2.gif" alt="" />    No separate batch job 
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img border="0" src="../ImagesExt/image331_2.gif" alt="" />    No separate batch job 
       exists for extracting immediate Disbursement Voucher payments to PDP 
       because these payments are automatically extracted into PDP when the 
       immediate DV reaches FINAL or PROCESSED status or when the Disbursement 
       Manager clicks the Extract Now button on a DV that was not selected for 
-      immediate payment prior to extraction.<b><span style="FONT-SIZE: 14pt"></span></b></p></td></tr>
+      immediate payment prior to extraction.<b><span style="FONT-SIZE: 14pt"></span></b></p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="255">
       <p class="TableCells">Purchasing Pre-Disbursement Extract Job</p></td>
@@ -278,12 +278,13 @@ PDP to generate checks and/or ACH entries to be sent to your bank.</p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 248.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="413">
       <p class="TableCells">Populates the ACH Bank table with values from a file 
       (as defined in the ACH_BANK_INPUT_FILE parameter).</p>
-      <p class="Noteintable"><img title="exclaim" border="0" alt="exclaim" src="../ImagesExt/image331_3.png" />    Note that the system 
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="exclaim" border="0" alt="exclaim" src="../ImagesExt/image331_3.png" />    Note that the system 
       design assumes that your institution will <em>either</em> use this job to 
       populate the ACH Bank table <em>or</em> update the table manually. 
       <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Doing both—that 
       is, using the job and updating the bank table manually—may result in data 
-      entered manually being overwritten.</span></strong></p></td></tr>
+      entered manually being overwritten.</span></strong></p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="255">
       <p class="TableCells">PDP Inactivate Payee ACH Accounts Job</p></td>

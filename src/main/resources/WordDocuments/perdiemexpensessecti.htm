@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Per Diem Expenses Section</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN TEM Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN TEM Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -91,38 +91,40 @@ Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d
 Transaction documents</a></div>
 <h5>Per Diem Expenses Section</h5>
 <p class="Definition"> </p>
-<p class="MsoBodyText">The <strong>Per Diem Expenses</strong> section contains one 
-row of data for each day of the trip. The date is displayed in the upper left 
-corner of each row. Both the dates and the number of rows are based on the trip 
-begin and end dates specified in the <strong>Trip Information Section</strong> 
-in the <strong>Trip Overview</strong> tab.</p>
+<p class="MsoBodyText">The <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Per Diem Expenses</span></strong> 
+section contains one row of data for each day of the trip. The date is displayed 
+in the upper left corner of each row. Both the dates and the number of rows are 
+based on the trip begin and end dates specified in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Trip Information 
+Section</span></strong> in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Trip Overview</span></strong> 
+tab.</p>
 <p class="MsoBodyText"> </p>
-<p class="Note" style="MARGIN-LEFT: 22.5pt"><img title="Description: Description: pencil-small.gif" border="0" alt="Description: Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />      If a Travel 
-Reimbursement is created from a Travel Authorization that had estimated Per Diem 
-and per diem was not already claimed on a previous Travel Reimbursement, the 
-system copies data from the <strong>Per Diem</strong> tab in the source document 
-and pastes it into this tab.</p>
-<p class="Note" style="MARGIN-LEFT: 22.5pt"><img title="Description: Description: pencil-small.gif" border="0" alt="Description: Description: pencil-small.gif" src="../ImagesExt/image336_7.png" />      Parameter 
-PER_DIEM_CATEGORIES control the display of the columns and the Trip Type table 
-determines for what Trip Types the Per Diem table should display. Additionally, 
-International Trips will display Accommodation information for each day. Whether 
-or not this information is required is controlled by parameter <span class="BodyTextChar">INTERNATIONAL_TRIP_REQUIRES_ACCOMMODATION_IND</span><span style="FONT-SIZE: 8.5pt; FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;; BACKGROUND: white; COLOR: black"> 
- </span></p>
-<p class="Note" style="MARGIN-LEFT: 22.5pt"><img title="Description: Description: pencil-small.gif" border="0" alt="Description: Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />      The first and 
-last day of the trip will be calculated based on the per diem calculation 
-specified in the Trip Type table and Lodging = 0.00 on the last day. Two methods 
-are supported for Per Diem Calculation: Percentage and Quarter, they are used in 
-conjunction with parameters FIRST_AND_LAST_DAY_PER_DIEM_PERCENTAGE and 
-QUARTER_DAY_TIME_TABLE respectively.</p>
-<p class="Note" style="MARGIN-LEFT: 22.5pt"><img border="0" src="../ImagesExt/image336_7.png" alt="" />      Lodging, Meals 
-and Mileage will be grayed out if claimed for the same date in the <b>Actual 
-Expenses</b> tab. </p>
-<p class="Note" style="MARGIN-LEFT: 22.5pt"><img border="0" src="../ImagesExt/image336_6.png" alt="" />      If 
+<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
+<p class="Note" style="MARGIN-TOP: 0pt"><img title="Description: Description: pencil-small.gif" border="0" alt="Description: Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />        If 
+a Travel Reimbursement is created from a Travel Authorization that had estimated 
+Per Diem and per diem was not already claimed on a previous Travel 
+Reimbursement, the system copies data from the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Per Diem</span></strong> tab in the 
+source document and pastes it into this tab.</p>
+<p class="Note"><img title="Description: Description: pencil-small.gif" border="0" alt="Description: Description: pencil-small.gif" src="../ImagesExt/image336_7.png" />        
+Parameter PER_DIEM_CATEGORIES control the display of the columns and the Trip 
+Type table determines for what Trip Types the Per Diem table should display. 
+Additionally, International Trips will display Accommodation information for 
+each day. Whether or not this information is required is controlled by parameter 
+<span class="BodyTextChar">INTERNATIONAL_TRIP_REQUIRES_ACCOMMODATION_IND</span><span style="FONT-SIZE: 8.5pt; BACKGROUND: white; COLOR: black">  </span></p>
+<p class="Note"><img title="Description: Description: pencil-small.gif" border="0" alt="Description: Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />        The 
+first and last day of the trip will be calculated based on the per diem 
+calculation specified in the Trip Type table and Lodging = 0.00 on the last day. 
+Two methods are supported for Per Diem Calculation: Percentage and Quarter, they 
+are used in conjunction with parameters FIRST_AND_LAST_DAY_PER_DIEM_PERCENTAGE 
+and QUARTER_DAY_TIME_TABLE respectively.</p>
+<p class="Note"><img border="0" src="../ImagesExt/image336_7.png" alt="" />        
+Lodging, Meals and Mileage will be grayed out if claimed for the same date in 
+the <b>Actual Expenses</b> tab. </p>
+<p class="Note"><img border="0" src="../ImagesExt/image336_6.png" alt="" />        If 
 PER_DIEM_EDITABLE_IND = Y, the individual meal amounts display and can be 
 decreased but not increased. If the parameter is set to N, individual meal 
 amounts do not display.</p>
-<p class="Note" style="MARGIN-LEFT: 22.5pt"><img title="Description: exclaim.gif" border="0" alt="Description: exclaim.gif" src="../ImagesExt/image336_2.png" />     You may not enter a 
-negative amount in any amount field. </p>
+<p class="Note" style="MARGIN-BOTTOM: 0pt"><img title="Description: exclaim.gif" border="0" alt="Description: exclaim.gif" src="../ImagesExt/image336_2.png" />       You may 
+not enter a negative amount in any amount field. </p></div>
 <p class="MsoNormal"> </p>
 <p class="TableHeading">Per Diem Expenses tab, Per Diem Expenses section field 
 definitions</p>
@@ -185,7 +187,7 @@ definitions</p>
       The system enters an amount based on the primary destination for the day. 
       You may change this value if PER_DIEM_AMOUNT_EDITABLE_IND = Y. </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180"><a onclick="return d2hpopup(event, this.href)" id="popup_236556" href="gloss_incidentals.htm">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180"><a onclick="return d2hpopup(event, this.href)" id="popup_251940" href="gloss_incidentals.htm">
       <p class="TableCells">Incidentals</p>
       <p class="TableCells"></p></a> </td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
@@ -200,9 +202,10 @@ definitions</p>
       <p class="TableCells">The day’s per diem or standard rate for lodging. The 
       system enters an amount based on the primary destination for the day. You 
       may change this value if PER_DIEM_AMOUNT_EDITABLE_IND</p>
-      <p class="Noteintable"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     This field is 
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     This field is 
       displayed only if LODGING =Y in the PER_DIEM_CATEGORIES 
-  parameter.</p></td></tr>
+      parameter.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
       <p class="TableCells">Lunch</p></td>
@@ -227,27 +230,30 @@ definitions</p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
       <p class="TableCells">The appropriate reimbursement rate per mile. Select 
       the rate from the list. </p>
-      <p class="Noteintable"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     This field is 
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 6pt 22.85pt"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     This field is 
       displayed only if MILEAGE =Y in the PER_DIEM_CATEGORIES parameter.</p>
-      <p class="Noteintable"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     Mileage rates 
-      reflect the rate effective as of the trip begin date.</p></td></tr>
+      <p class="Noteintable" style="MARGIN: 9pt 0pt 0pt 22.85pt"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     Mileage rates 
+      reflect the rate effective as of the trip begin date.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
       <p class="TableCells">Mileage Total</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
       <p class="TableCells">Display only. The total expense for mileage 
 driven.</p>
-      <p class="Noteintable"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     This field is 
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     This field is 
       displayed only if MILEAGE =Y in the PER_DIEM_CATEGORIES 
-  parameter.</p></td></tr>
+      parameter.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
       <p class="TableCells">Miles</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
       <p class="TableCells">The number of miles driven on this day.</p>
-      <p class="Noteintable"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     This field is 
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     This field is 
       displayed only if MILEAGE =Y in the PER_DIEM_CATEGORIES 
-  parameter.</p></td></tr>
+      parameter.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
       <p class="TableCells">Name (i.e. Hotel Name, Campsite)</p></td>
@@ -262,10 +268,11 @@ driven.</p>
       <p class="TableCells">Indicates that this part of the trip is personal and 
       the cost is to be borne by the traveler. To designate the day’s expenses 
       as personal, check the box.</p>
-      <p class="Noteintable"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     When you check 
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     When you check 
       this box, the system enters 0 (zero) into <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Meals and Incidentals 
       </span></strong>and <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Daily Total 
-      </span></strong>fields. </p></td></tr>
+      </span></strong>fields. </p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
       <p class="TableCells">Phone (if applicable)</p></td>
@@ -285,10 +292,11 @@ driven.</p>
       <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Destination Not 
       Found</span></strong> button, and type the name of the destination into 
       the subsequently displayed field.</p>
-      <p class="Noteintable"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     Changing the 
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="Description: pencil-small.gif" border="0" alt="Description: pencil-small.gif" src="../ImagesExt/image336_6.png" />     Changing the 
       primary destination will cause the system to change the country/state and 
       county names in this section and update the per diem rates. Clicking the 
       Destination Not Found buttion will zero out the per diem 
-  rates.</p></td></tr></tbody></table>
+    rates.</p></div></td></tr></tbody></table>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="grandtotalssection.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Grand Totals Section</a></p></span></div></div></body></html>

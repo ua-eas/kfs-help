@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Customer CSV Upload Format</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN AR Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN AR Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -96,14 +96,15 @@ may want to use to create the customer upload file. You must save your file in
 <p class="MsoBodyText">Whether you use the template or not, the system expects 
 each record to contain data in the order shown below.</p>
 <p class="MsoBodyText"> </p>
-<p class="Note" style="MARGIN-LEFT: 22.5pt"><img border="0" src="../ImagesExt/image340_23.gif" alt="" />     The CSV upload 
-function does not require a customer Name entry in each record. If customer Name 
-contains data, the system creates a new Customer record based on the data in the 
-row. If customer Name is empty, the system treats the record as an alternate 
-address for the preceding Customer record. Note, however, that if <em>all 
-</em>customer Name cells are blank in your CSV file, the Customer loading job 
-(which is run after the CSV upload process) will fail because it cannot create a 
-Customer record without a name.</p>
+<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
+<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img border="0" src="../ImagesExt/image340_23.gif" alt="" />       The CSV 
+upload function does not require a customer Name entry in each record. If 
+customer Name contains data, the system creates a new Customer record based on 
+the data in the row. If customer Name is empty, the system treats the record as 
+an alternate address for the preceding Customer record. Note, however, that if 
+<em>all </em>customer Name cells are blank in your CSV file, the Customer 
+loading job (which is run after the CSV upload process) will fail because it 
+cannot create a Customer record without a name.</p></div>
 <p class="MsoBodyText"> </p>
 <p class="TableHeading" style="MARGIN-RIGHT: 0pt">Customer CSV Upload format</p>
 <table class="MsoTableGrid" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; MARGIN-LEFT: 5.4pt; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1">

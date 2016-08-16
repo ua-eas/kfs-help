@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Post-Processing</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN TEM Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN TEM Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -92,22 +92,23 @@ Authorization</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a clas
 Overview</a></div>
 <h5>Post-Processing</h5>
 <p class="Definition"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 the trip type generates encumbrances, the system uses the information in the 
-<strong>Accounting Lines</strong> tab to generate General Ledger pending entries 
-after you save or submit the document.</p>
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Accounting 
+Lines</span></strong> tab to generate General Ledger pending entries after you 
+save or submit the document.</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 90pt; TEXT-INDENT: -18.75pt; tab-stops: 72.0pt 90.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 HOLD_NEW_FISCAL_YEAR_ENCUMBRANCES_IND = Y and FiscalYearMakerJob has not been 
-run to create the next <a onclick="return d2hpopup(event, this.href)" id="popup_236777" href="gloss_fiscalyear.htm">fiscal year</a> and the trip end 
-date is in the next fiscal year, the <a onclick="return d2hpopup(event, this.href)" id="popup_236778" href="gloss_encumbrance.htm">encumbrance</a> will be held in a separate table. 
+run to create the next <a onclick="return d2hpopup(event, this.href)" id="popup_252161" href="gloss_fiscalyear.htm">fiscal year</a> and the trip end 
+date is in the next fiscal year, the <a onclick="return d2hpopup(event, this.href)" id="popup_252162" href="gloss_encumbrance.htm">encumbrance</a> will be held in a separate table. 
 Once FiscalYearMakerJob has been run, Travel Authorizations with trip end dates 
 in the new fiscal year will create encumbrances in the new year, period one. The 
 temReleaseHeldEncumbranceJob will need to be run to release encumbrances created 
 prior to running FiscalYearMakerJob so they can post into the new fiscal year, 
 period 1.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>SEND_NOTIFICATION_DOCUMENT_TYPES determines for which Travel 
-Authorization <a onclick="return d2hpopup(event, this.href)" id="popup_236776" href="gloss_documenttype.htm">document type</a> notifications will be sends when 
+Authorization <a onclick="return d2hpopup(event, this.href)" id="popup_252160" href="gloss_documenttype.htm">document type</a> notifications will be sends when 
 Travel Authorization documents change status or become final. Available Travel 
 Authorization document types are Travel Authorization (TA), Travel Authorization 
 Amendment (TAA) and Travel Authorization Close (TAC). </p>
@@ -120,7 +121,7 @@ Authorization.</p>
 the TEM Profile indicates that the user wants to receive email notification when 
 the Travel Authorization is Final, an email will be sent with the subject line 
 specified in FINAL_NOTIFICATION_SUBJECT, component Travel Authorization.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 VENDOR_PAYMENT_ALLOWED_BEFORE_FINAL_APPROVAL_IND = N, then the TEM Doc # will be 
 masked until the Travel Authorization is fully approved, the Organization 
 Document Number will be updated with the TEM Doc # and the Vendor Payment button 
@@ -134,7 +135,7 @@ used on the DV when initiated with the Vendor Payment button. </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 INCLUDE_TRAVELER_TYPE_IN_TRIP_ID_IND = Y, the traveler type will be listed as 
 part of the TEM Doc #. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Duplicate Trip warnings will be provided for Travel Authorizations for 
 the same traveler and date ranges, if there is a Travel Authorization that 
 matches, it will check to see if any Travel Reimbursements have been processed 
@@ -153,7 +154,7 @@ earliest and latest trip date.</p>
 the dates match, or are within the range as determined by the 
 DUPLICATE_TRIP_DATE_RANGE_DAYS parameter, a warning will be provided on submit 
 and approval.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
 the Travel Authorization is fully approved: </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18.75pt; tab-stops: 54.0pt 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If an 
 advance has been requested and the payment method is Check/ACH, the payment will 
@@ -163,18 +164,19 @@ advance has been requested and GENERATE_INVOICE_INV_FOR_TRAVL_ADVANCE_IND =
 Y:</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 90pt; TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 90.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>An AR 
 Invoice document will be created and blanket approved and added to the 
-<strong>View Related Documents</strong> tab. The Billing Chart and Org, invoice 
-item code, and number of days that will be added to the trip end date to 
-determine the invoice due is controlled by the settings in 
-TRAVEL_ADVANCE_BILLING_CHART_CODE, TRAVEL_ADVANCE_BILLING_ORG_CODE, 
-TRAVEL_ADVANCE_INVOICE_ITEM_CODE, and DUE_DATE_DAYS, respectively.</p>
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">View Related 
+Documents</span></strong> tab. The Billing Chart and Org, invoice item code, and 
+number of days that will be added to the trip end date to determine the invoice 
+due is controlled by the settings in TRAVEL_ADVANCE_BILLING_CHART_CODE, 
+TRAVEL_ADVANCE_BILLING_ORG_CODE, TRAVEL_ADVANCE_INVOICE_ITEM_CODE, and 
+DUE_DATE_DAYS, respectively.</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 90pt; TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 90.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If a 
 Customer does not already exist for the Traveler, a Customer document will be 
 created and blanket approved with the Customer Type specified in parameter 
 CUSTOMER_TYPE_CODE </p>
 <p class="C1HBullet" style="MARGIN-LEFT: 90pt; TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 90.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-system updates the <strong>Invoice Document Number</strong> field on the Travel 
-Authorization document.</p>
+system updates the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Invoice Document 
+Number</span></strong> field on the Travel Authorization document.</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 90pt; TEXT-INDENT: -18.75pt; tab-stops: 36.0pt 90.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 receivable posts to the same account from which the advance was disbursed. </p>
 <p class="RelatedHead">More:</p><span id="related-topics">

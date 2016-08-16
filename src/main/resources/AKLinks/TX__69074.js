@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__69074", [["WordDocuments/wiretransfertab1.htm", "right", "Wire Transfer Tab"],["WordDocuments/wiretransfertab.htm", "right", "Wire Transfer Tab"]]);

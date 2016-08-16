@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Budget Construction Security Model (Locking)</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_PRNOMARGIN_SINGLE.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN BC Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN BC Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -88,6 +88,7 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="budgetconstruction.htm">Budget Construction</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="overviewofbudgetcons.htm">Overview of Budget Construction</a></div>
 <h3>Budget Construction Security Model (Locking)</h3>
+<p class="MsoBodyText"> </p>
 <p class="MsoBodyText">In Budget Construction, documents are locked by the users 
 currently working with the document. Locks are set when a user gets edit access, 
 either during the initial open of the document or during an account 
@@ -95,20 +96,21 @@ pull-up/push-down operation. Locks are released for documents in edit mode when
 closing a document or after pushdown to a level that puts the document in view 
 mode. The daily Budget Construction Update job releases all existing locks 
 nightly.</p>
+<p class="MsoBodyText"> </p>
 <p class="MsoBodyText">Special root approver users (users at the top level 
 organization hierarchy) have the ability to perform the unlock action. There are 
 four types of locks in Budget Construction. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span><i>Account Lock</i>: issued when a user displays a document in edit 
 mode.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span><i>Funding Lock</i>: issued for accounts associated with the displayed 
 funding lines where user has edit access, when using the Salary Setting by 
 Position or Salary Setting by Incumbents screen.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span><i>Position Lock</i>: issued when a user either displays the Salary 
 Setting by Position or the Salary Setting by Incumbent screen</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span><i>Account Transaction Lock</i>: issued for each funding line when the 
 user submits Salary Setting by Position/Incumbent change. This lock exists only 
 during the time it takes to update the associated pending accounting lines 

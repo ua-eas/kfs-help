@@ -1071,6 +1071,11 @@
                 <topic url="WordDocuments/addresstype.htm" window="right"><![CDATA[Address Type]]></topic>
             </topics>
         </keyword>
+        <keyword name="address type lookup">
+            <topics>
+                <topic url="WordDocuments/addresstype2.htm" window="right"><![CDATA[Address Type]]></topic>
+            </topics>
+        </keyword>
         <keyword name="adjust % or flat rate tool, updating using (budget construction )">
             <topics>
                 <topic url="WordDocuments/updatingusingtheadju.htm" window="right"><![CDATA[Updating Using the Adjust % or Flat Rate Tool]]></topic>
@@ -1107,6 +1112,11 @@
         <keyword name="advance payment reason document ">
             <topics>
                 <topic url="WordDocuments/advancepaymentreason.htm" window="right"><![CDATA[Advance Payment Reason]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="affiliation type lookup">
+            <topics>
+                <topic url="WordDocuments/affiliationtype.htm" window="right"><![CDATA[Affiliation Type]]></topic>
             </topics>
         </keyword>
         <keyword name="agency document">
@@ -3024,6 +3034,16 @@
                 <topic url="WordDocuments/campusparameter1.htm" window="right"><![CDATA[Campus Parameter]]></topic>
             </topics>
         </keyword>
+        <keyword name="campus type lookup">
+            <topics>
+                <topic url="WordDocuments/campustype.htm" window="right"><![CDATA[Campus Type]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="campusmaintenancedocument">
+            <topics>
+                <topic url="WordDocuments/campus.htm" window="right"><![CDATA[Campus]]></topic>
+            </topics>
+        </keyword>
         <keyword name="canceling a document">
             <topics>
                 <topic url="WordDocuments/cancelingadocument.htm" window="right"><![CDATA[Canceling a Document]]></topic>
@@ -3894,6 +3914,16 @@
                 <topic url="WordDocuments/costsharetransfers.htm" window="right"><![CDATA[Cost Share Transfers]]></topic>
             </topics>
         </keyword>
+        <keyword name="countrymaintenancedocument">
+            <topics>
+                <topic url="WordDocuments/country.htm" window="right"><![CDATA[Country]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="countymaintenancedocument">
+            <topics>
+                <topic url="WordDocuments/county.htm" window="right"><![CDATA[County]]></topic>
+            </topics>
+        </keyword>
         <keyword name="create capital assets tab">
             <topics>
                 <topic url="WordDocuments/createcapitalassetst.htm" window="right"><![CDATA[Create Capital Assets Tab]]></topic>
@@ -4633,9 +4663,39 @@
                 <topic url="WordDocuments/documentlayout.htm" window="right"><![CDATA[Document Layout]]></topic>
             </topics>
         </keyword>
+        <keyword name="document configuration view">
+            <topics />
+        </keyword>
+        <keyword name="document information tab">
+            <topics>
+                <topic url="WordDocuments/documentinformationt.htm" window="right"><![CDATA[Document Information Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="permissions tab">
+            <topics>
+                <topic url="WordDocuments/permissionstab1.htm" window="right"><![CDATA[Permissions Tab]]></topic>
+                <topic url="WordDocuments/permissionstab.htm" window="right"><![CDATA[Permissions Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="workflow / responsibilities tab">
+            <topics>
+                <topic url="WordDocuments/workflowresponsibili1.htm" window="right"><![CDATA[Workflow / Responsibilities Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="document configuration view ">
+            <topics>
+                <topic url="WordDocuments/documentconfiguratio.htm" window="right"><![CDATA[Document Configuration View]]></topic>
+            </topics>
+        </keyword>
         <keyword name="document fundamentals">
             <topics>
                 <topic url="WordDocuments/kualifinancialsdocum.htm" window="right"><![CDATA[Kuali Financials Document Fundamentals]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="document hierarchy view, kim data ">
+            <topics>
+                <topic url="WordDocuments/documenthierarchyvie.htm" window="right"><![CDATA[Document Hierarchy View]]></topic>
+                <topic url="WordDocuments/documenthierarchyvie.htm" window="right"><![CDATA[Document Hierarchy View]]></topic>
             </topics>
         </keyword>
         <keyword name="document layout">
@@ -4652,6 +4712,32 @@
         <keyword name="document search">
             <topics>
                 <topic url="WordDocuments/advanceddocumentsear.htm" window="right"><![CDATA[Advanced Document Searches]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="document type">
+            <topics>
+                <topic url="WordDocuments/documenttype.htm" window="right"><![CDATA[Document Type]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="document type document">
+            <topics />
+        </keyword>
+        <keyword name="document type tab">
+            <topics>
+                <topic url="WordDocuments/documenttypetab.htm" window="right"><![CDATA[Document Type Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="fields available for retroactive application tab">
+            <topics>
+                <topic url="WordDocuments/fieldsavailableforre.htm" window="right"><![CDATA[Fields Available for Retroactive Application Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="document type inquiry">
+            <topics />
+        </keyword>
+        <keyword name="displaying from document hierarchy view ">
+            <topics>
+                <topic url="WordDocuments/documenthierarchyvie.htm" window="right"><![CDATA[Document Hierarchy View]]></topic>
             </topics>
         </keyword>
         <keyword name="document types">
@@ -4700,6 +4786,14 @@
         <keyword name="documents in system tab, labor ledger correction process (llcp) document">
             <topics>
                 <topic url="WordDocuments/documentsinsystemtab1.htm" window="right"><![CDATA[Documents in System Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="documenttypemaintenancedocument">
+            <topics />
+        </keyword>
+        <keyword name=" initiating from document hierarchy view ">
+            <topics>
+                <topic url="WordDocuments/documenthierarchyvie.htm" window="right"><![CDATA[Document Hierarchy View]]></topic>
             </topics>
         </keyword>
         <keyword name="double-sided entries">
@@ -4928,6 +5022,11 @@
                 <topic url="WordDocuments/electronicinvoiceite1.htm" window="right"><![CDATA[Electronic Invoice Item Mapping]]></topic>
             </topics>
         </keyword>
+        <keyword name="email type lookup">
+            <topics>
+                <topic url="WordDocuments/emailtype.htm" window="right"><![CDATA[Email Type]]></topic>
+            </topics>
+        </keyword>
         <keyword name="employee funding balance inquiry">
             <topics>
                 <topic url="WordDocuments/employeefunding.htm" window="right"><![CDATA[Employee Funding]]></topic>
@@ -4944,6 +5043,16 @@
         <keyword name="employee paid outside of payroll">
             <topics>
                 <topic url="WordDocuments/paymentinformationtab4.htm" window="right"><![CDATA[Payment Information Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="employee status lookup">
+            <topics>
+                <topic url="WordDocuments/employeestatus.htm" window="right"><![CDATA[Employee Status]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="employee type lookup">
+            <topics>
+                <topic url="WordDocuments/employeetype.htm" window="right"><![CDATA[Employee Type]]></topic>
             </topics>
         </keyword>
         <keyword name="encumbrances">
@@ -5072,6 +5181,16 @@
                 <topic url="WordDocuments/workflowactionbutton4.htm" window="right"><![CDATA[Workflow Action Buttons]]></topic>
             </topics>
         </keyword>
+        <keyword name="entity name type lookup">
+            <topics>
+                <topic url="WordDocuments/nametype.htm" window="right"><![CDATA[Name Type]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="entity type lookup">
+            <topics>
+                <topic url="WordDocuments/entitytype.htm" window="right"><![CDATA[Entity Type]]></topic>
+            </topics>
+        </keyword>
         <keyword name="asset acquisition type tab ">
             <topics>
                 <topic url="WordDocuments/assetacquisitiontype.htm" window="right"><![CDATA[Asset Acquisition Type Tab]]></topic>
@@ -5191,6 +5310,11 @@
         <keyword name="exporting data">
             <topics>
                 <topic url="WordDocuments/exportoptionslinks.htm" window="right"><![CDATA[Export Options Links]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="external identifier type lookup">
+            <topics>
+                <topic url="WordDocuments/externalidentifierty.htm" window="right"><![CDATA[External Identifier Type]]></topic>
             </topics>
         </keyword>
         <keyword name="external systems">
@@ -5327,21 +5451,25 @@
         <keyword name="financials namespace document">
             <topics>
                 <topic url="WordDocuments/financialsnamespace.htm" window="right"><![CDATA[Financials Namespace]]></topic>
+                <topic url="WordDocuments/namespace.htm" window="right"><![CDATA[Namespace]]></topic>
             </topics>
         </keyword>
         <keyword name="financials parameter component document">
             <topics>
                 <topic url="WordDocuments/financialsparameterc.htm" window="right"><![CDATA[Financials Parameter Component]]></topic>
+                <topic url="WordDocuments/parametercomponent.htm" window="right"><![CDATA[Parameter Component]]></topic>
             </topics>
         </keyword>
         <keyword name="financials parameter document">
             <topics>
                 <topic url="WordDocuments/financialsparameter.htm" window="right"><![CDATA[Financials Parameter]]></topic>
+                <topic url="WordDocuments/parameter.htm" window="right"><![CDATA[Parameter]]></topic>
             </topics>
         </keyword>
         <keyword name="financials parameter type document">
             <topics>
                 <topic url="WordDocuments/financialsparametert.htm" window="right"><![CDATA[Financials Parameter Type]]></topic>
+                <topic url="WordDocuments/parametertype.htm" window="right"><![CDATA[Parameter Type]]></topic>
             </topics>
         </keyword>
         <keyword name="fiscal officer">
@@ -6013,12 +6141,19 @@
         </keyword>
         <keyword name="kuali identity management (kim)">
             <topics>
-                <topic url="WordDocuments/basickualiidentityma.htm" window="right"><![CDATA[Basic Kuali Identity Management (KIM) Concepts]]></topic>
+                <topic url="WordDocuments/kualiidentitymanagem.htm" window="right"><![CDATA[Kuali Identity Management (KIM) Concepts]]></topic>
+                <topic url="WordDocuments/routingidentitymanag1.htm" window="right"><![CDATA[Routing & Identity Management Document Type Hierarchy]]></topic>
             </topics>
         </keyword>
         <keyword name=" basic concepts">
             <topics>
-                <topic url="WordDocuments/basickualiidentityma.htm" window="right"><![CDATA[Basic Kuali Identity Management (KIM) Concepts]]></topic>
+                <topic url="WordDocuments/kualiidentitymanagem.htm" window="right"><![CDATA[Kuali Identity Management (KIM) Concepts]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="document configuration view, kim data ">
+            <topics>
+                <topic url="WordDocuments/documentconfiguratio.htm" window="right"><![CDATA[Document Configuration View]]></topic>
+                <topic url="WordDocuments/documentconfiguratio.htm" window="right"><![CDATA[Document Configuration View]]></topic>
             </topics>
         </keyword>
         <keyword name="labor balance forwards year-end job">
@@ -7140,6 +7275,21 @@
                 <topic url="WordDocuments/financialprocessingyearenddocuments.htm" window="right"><![CDATA[Financial Processing Year End Documents]]></topic>
             </topics>
         </keyword>
+        <keyword name="permission document">
+            <topics>
+                <topic url="WordDocuments/permission.htm" window="right"><![CDATA[Permission]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="permission details tab">
+            <topics>
+                <topic url="WordDocuments/permissiondetailstab.htm" window="right"><![CDATA[Permission Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="permission info tab">
+            <topics>
+                <topic url="WordDocuments/permissioninfotab.htm" window="right"><![CDATA[Permission Info Tab]]></topic>
+            </topics>
+        </keyword>
         <keyword name="contact tab">
             <topics>
                 <topic url="WordDocuments/contacttab.htm" window="right"><![CDATA[Contact Tab]]></topic>
@@ -7159,6 +7309,11 @@
         <keyword name="phone type document">
             <topics>
                 <topic url="WordDocuments/phonetype.htm" window="right"><![CDATA[Phone Type]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="phone type lookup">
+            <topics>
+                <topic url="WordDocuments/phonetype2.htm" window="right"><![CDATA[Phone Type]]></topic>
             </topics>
         </keyword>
         <keyword name="plant indebtedness">
@@ -7184,6 +7339,11 @@
         <keyword name="position, refreshing (budget construction document, quick salary setting screen)">
             <topics>
                 <topic url="WordDocuments/refreshingposition.htm" window="right"><![CDATA[Refreshing Position]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="postalcodemaintenancedocument">
+            <topics>
+                <topic url="WordDocuments/postalcode.htm" window="right"><![CDATA[Postal Code]]></topic>
             </topics>
         </keyword>
         <keyword name="poster">
@@ -7621,6 +7781,21 @@
                 <topic url="WordDocuments/responsibilitycenter1.htm" window="right"><![CDATA[Responsibility Center]]></topic>
             </topics>
         </keyword>
+        <keyword name="responsibility document">
+            <topics>
+                <topic url="WordDocuments/responsibility.htm" window="right"><![CDATA[Responsibility]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="responsibility details tab">
+            <topics>
+                <topic url="WordDocuments/responsibilitydetail.htm" window="right"><![CDATA[Responsibility Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="responsibility info tab">
+            <topics>
+                <topic url="WordDocuments/responsibilityinfota.htm" window="right"><![CDATA[Responsibility Info Tab]]></topic>
+            </topics>
+        </keyword>
         <keyword name="restricted status document">
             <topics>
                 <topic url="WordDocuments/restrictedstatus1.htm" window="right"><![CDATA[Restricted Status]]></topic>
@@ -7657,11 +7832,6 @@
                 <topic url="WordDocuments/delegationstab.htm" window="right"><![CDATA[Delegations Tab]]></topic>
             </topics>
         </keyword>
-        <keyword name="permissions tab">
-            <topics>
-                <topic url="WordDocuments/permissionstab.htm" window="right"><![CDATA[Permissions Tab]]></topic>
-            </topics>
-        </keyword>
         <keyword name="responsibilities tab">
             <topics>
                 <topic url="WordDocuments/responsibilitiestab.htm" window="right"><![CDATA[Responsibilities Tab]]></topic>
@@ -7670,6 +7840,11 @@
         <keyword name="responsibility action subsection">
             <topics>
                 <topic url="WordDocuments/assigningactiondetai.htm" window="right"><![CDATA[Assigning Action Detail Values]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="role/group/permission/responsibility type (kim types)">
+            <topics>
+                <topic url="WordDocuments/rolegrouppermissionr.htm" window="right"><![CDATA[Role/Group/Permission/Responsibility Type]]></topic>
             </topics>
         </keyword>
         <keyword name="roles, creating new">
@@ -7715,6 +7890,16 @@
         <keyword name="object code document ">
             <topics>
                 <topic url="WordDocuments/routing90.htm" window="right"><![CDATA[Routing]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="routing &amp; authorization document type hierarchy">
+            <topics>
+                <topic url="WordDocuments/routingidentitymanag1.htm" window="right"><![CDATA[Routing & Identity Management Document Type Hierarchy]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="document hierarchy view, kim data">
+            <topics>
+                <topic url="WordDocuments/documenthierarchyvie.htm" window="right"><![CDATA[Document Hierarchy View]]></topic>
             </topics>
         </keyword>
         <keyword name="routing a document">
@@ -7945,12 +8130,12 @@
                 <topic url="WordDocuments/securityprincipal.htm" window="right"><![CDATA[Security Principal]]></topic>
             </topics>
         </keyword>
-        <keyword name=" principal modelstab">
+        <keyword name=" principal models tab">
             <topics>
                 <topic url="WordDocuments/principalmodelstab.htm" window="right"><![CDATA[Principal Models tab]]></topic>
             </topics>
         </keyword>
-        <keyword name="principaldefinitionstab">
+        <keyword name="principal definitions tab">
             <topics>
                 <topic url="WordDocuments/principaldefinitions.htm" window="right"><![CDATA[Principal Definitions tab]]></topic>
             </topics>
@@ -8069,6 +8254,11 @@
         <keyword name="standard tabs">
             <topics>
                 <topic url="WordDocuments/standardtabs.htm" window="right"><![CDATA[Standard Tabs]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="statemaintenancedocument">
+            <topics>
+                <topic url="WordDocuments/state.htm" window="right"><![CDATA[State]]></topic>
             </topics>
         </keyword>
         <keyword name="sub-account ">

@@ -1,12 +1,20 @@
-SPAN.C1HContinueChar {}
+SPAN.C1HContinueChar {FONT-FAMILY: "Verdana","sans-serif"; }
 
 SPAN.ColoredLetter-Gray {FONT-FAMILY: "Arial Narrow","sans-serif";  FONT-WEIGHT: bold;  COLOR: #999999; }
 
+P.Noteintable {FONT-SIZE: 10pt;  BORDER-TOP: medium none;  FONT-FAMILY: "Arial","sans-serif";  BORDER-RIGHT: medium none;  BORDER-BOTTOM: medium none;  PADDING-BOTTOM: 0pt;  PADDING-TOP: 0pt;  PADDING-LEFT: 0pt;  BORDER-LEFT: medium none;  MARGIN: 9pt 3.6pt 6pt 21.25pt;  LINE-HEIGHT: 14pt;  PADDING-RIGHT: 0pt;  TEXT-INDENT: -22.85pt;  tab-stops: 21.25pt; }
+
+P.Illustration {FONT-SIZE: 10pt;  FONT-FAMILY: "Verdana","sans-serif";  MARGIN: 12pt 0pt 18pt;  LINE-HEIGHT: 14pt; }
+
+SPAN.Emphasisintable {FONT-STYLE: italic; }
+
+P.TableCells {FONT-SIZE: 10pt;  FONT-FAMILY: "Arial","sans-serif";  MARGIN: 0pt 0pt 6pt;  LINE-HEIGHT: normal; }
+
 SPAN.apple-converted-space {}
 
-SPAN.BodyTextChar {}
+P.Noteindented {FONT-SIZE: 10pt;  BORDER-TOP: medium none;  FONT-FAMILY: "Verdana","sans-serif";  BORDER-RIGHT: medium none;  BORDER-BOTTOM: medium none;  PADDING-BOTTOM: 0pt;  PADDING-TOP: 0pt;  PADDING-LEFT: 0pt;  BORDER-LEFT: medium none;  MARGIN: 9pt 0pt 9pt 63pt;  LINE-HEIGHT: 14pt;  PADDING-RIGHT: 0pt;  TEXT-INDENT: -27pt;  tab-stops: 63.0pt; }
 
-P.CodeBase {FONT-SIZE: 10pt;  FONT-FAMILY: "Courier New";  MARGIN: 9pt 0pt 0pt; }
+SPAN.BodyTextChar {FONT-FAMILY: "Verdana","sans-serif"; }
 
 SPAN.TableCellsChar1 {FONT-FAMILY: "Arial","sans-serif"; }
 
