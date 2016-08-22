@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Capitalization of Assets and Liabilities</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="transactiongeneration.htm"></a><a id="D2HNextAnchor" href="plantindebtedness.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger.htm">General Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerbatchprocesses.htm">General Ledger Batch Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactionvalidationscrubber.htm">Transaction Validation 
+('Scrubber')</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactiongeneration.htm">Transaction 
+Generation</a></div>
+<h5>Capitalization of Assets and Liabilities</h5>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">'Scrubber' generates entries and offsets to properly record 
+the capitalization of assets and liabilities. Financials determines which items 
+need capitalization entries by looking for transactions affecting 'Actuals' 
+balance type and using an object code with an asset-related object sub-type 
+(defined in the parameter CAPITALIZATION_OBJECT_SUB_TYPES).</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">If the process determines that a qualifying capital 
+expenditure has occurred, it generates capitalization entries to book an asset 
+to the appropriate plant fund account under the appropriate plant fund object 
+code. The appropriate account is generally the plant fund account associated 
+with the organization owning the account on which the original transaction 
+occurred (for movable assets) or the plant fund account associated with that 
+organization's campus (for non-movable assets).</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">Financials includes 'Generated Capitalization' or 
+'Generated Liability' in the transaction description of the generated entry and 
+also sets the object code type to 'Asset' or 'Liability' as appropriate. The 
+object sub-type of the expenditure determines the object code used on the 
+generated entry (defined in the parameter 
+CAPITALIZATION_OBJECT_CODE_BY_OBJECT_SUB_TYPE).</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">Transactions created on journal vouchers, transfer of 
+funds, auxiliary vouchers (accrual type) or the Annual Closing (ACLO) <a onclick="return d2hpopup(event, this.href)" id="popup_269614" href="gloss_documenttype.htm">document type</a> are generally excluded from the 
+capitalization process. This list of document types is defined and may be 
+modified in the CAPITALIZATION_DOCUMENT_TYPES parameter. Transactions associated 
+with particular sub-fund groups or charts may also be institutionally excluded 
+from the capitalization process using one or more of these parameters:</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>CAPITALIZATION_CHARTS defines charts excluded from the capitalization 
+process.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>CAPITALIZATION_FISCAL_PERIODS defines fiscal periods excluded by the 
+capitalization process.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>CAPITALIZATION_SUB_FUND_GROUPS defines the sub-fund of accounts that 
+should be excluded from the capitalization process.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>CAPITALIZATION_IND contains a yes ('Y') or no ('N') value that indicates 
+whether or not the capitalization process should be active.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>CAPITALIZATION_OBJECT_CODE_BY_OBJECT_SUB_TYPE - The plant fund object 
+code(s) to which the generated capitalization will be assigned, by object 
+sub-type(s) of the original transaction, in the <a onclick="return d2hpopup(event, this.href)" id="popup_269615" href="gloss_scrubber.htm">scrubber</a> process. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>CAPITALIZATION_OBJECT_SUB_TYPES - The object sub-type(s) associated with 
+transactions that will be considered as part of the generated capitalization in 
+the scrubber process. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>CAPITALIZATION_OFFSET_CODE - This overrides the Chart Fund Balance object 
+code for Capitalization. </p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="plantindebtedness.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Plant Indebtedness</a></p></span></div></div></body></html>

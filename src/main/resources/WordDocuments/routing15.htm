@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Routing</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN CAM Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN FP Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules31.htm"></a><a id="D2HNextAnchor" href="assetglobaladd.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules15.htm"></a><a id="D2HNextAnchor" href="automatedapproval.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,28 +86,39 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme1.htm">Capital Asset Management</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme4.htm">Capital Asset Management Transaction 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="assetfabrication.htm">Asset 
-Fabrication</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview18.htm">Process 
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="financialprocessing.htm">Financial Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="financialprocessingtransactiondocuments.htm">Financial Processing 
+Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="procurementcard.htm">Procurement 
+Card</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview14.htm">Process 
 Overview</a></div>
 <h5>Routing</h5>
-<p class="MsoNormal"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="COLOR: black">Asset Fabrication Maintenance document</span>s are 
-automatically routed to the appropriate <a onclick="return d2hpopup(event, this.href)" id="popup_254137" href="gloss_fiscalofficer.htm">fiscal officer</a> or delegate. The fiscal 
-officer to whom this document is routed is defined by the <span style="COLOR: black">Organization Owner Chart/Account.</span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-routing to 'Management' node, the document routes to these roles: 'KFS-SYS Asset 
-Manager' (requiring approve) and 'KFS-CAM Asset Manager' (requiring FYI). The 
-document shows up in both roles' action lists.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-'KFS-SYS Asset Manager' takes Approve action on this document first, it will not 
-show up in the action list for 'KFS-CAM Asset Manager.' However, if 'KFS-CAM 
-Asset Manager' takes FYI action first, it will show up in the action list for 
-approve to 'KFS-SYS Asset Manager.'</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">The PCDO document is initiated by the system and routed to 
+the <a onclick="return d2hpopup(event, this.href)" id="popup_269472" href="gloss_fiscalofficer.htm">fiscal officer</a> for the account on the 
+transaction. The fiscal officer may change the account(s) on the PCDO to 
+accounts belonging to other fiscal officer(s).</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">The PCDO document then routes to all fiscal officers on the 
+document again. This ensures that all fiscal officers get a chance to see any 
+changes other fiscal officers may have made to their accounts during the first 
+pass through fiscal officer routing. In the base configuration this second 
+approval is required even if the fiscal officer approved the document the first 
+time. If you are not creating procurement card documents with multiple account 
+numbers on the same document this second approval is redundant and can be 
+configured via KIM not to force the user to take a second action.</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">After Fiscal Officer approval the document routes based on 
+the account numbers used on the document as follows: </p>
+<p class="MsoBodyText"> </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Optionally, organization review routing occurs for the organization that 
+owns each account.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Optionally, sub-fund routing occurs based on the sub-fund of each 
+account.</p>
 <p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
-<p class="MsoBodyText">If the document is approved by the KFS-CAM Asset Manger, 
-the FYI for the campus manager is removed; however if the KFS-CAMS Asset Manger 
-approves the document first, it will still need to be approved by the KFS-SYS 
-(system) Asset Manager.</p>
+<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
+<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="go-arrow-red" border="0" alt="go-arrow-red" src="../ImagesExt/image322_2.png" />      The document 
+cannot be disapproved or canceled by anyone in the <a onclick="return d2hpopup(event, this.href)" id="popup_269473" href="gloss_routelog.htm">route log</a>.</p></div>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="assetglobaladd.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Asset Global (Add)</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="automatedapproval.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Automated Approval</a></p></span></div></div></body></html>

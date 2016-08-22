@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__79347", [["WordDocuments/batchschedule.htm", "right", "Batch Schedule"],["WordDocuments/documentlayout398.htm", "right", "Document Layout"]]);

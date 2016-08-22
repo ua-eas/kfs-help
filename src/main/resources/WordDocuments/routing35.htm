@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Routing</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN EC Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules55.htm"></a><a id="D2HNextAnchor" href="salaryexpensetransfe.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules41.htm"></a><a id="D2HNextAnchor" href="initiatingaposplit.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,59 +86,17 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="effortcertification.htm">Effort Certification</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="effortcertificationt.htm">Effort Certification Transaction 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="effortcertificationd.htm">Effort Certification 
-Document</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview39.htm">Process 
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayabletransactiondocuments.htm">Purchasing / Accounts 
+Payable Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="purchaseordersplit.htm">Purchase 
+Order Split</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview40.htm">Process 
 Overview</a></div>
 <h5>Routing</h5>
-<p class="MsoBodyText"> </p>
-<p class="MsoBodyText">The Effort Certification report has several special routing 
-conditions. It also handles account review routing differently than other Kuali 
-Financials documents.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><em><a onclick="return d2hpopup(event, this.href)" id="popup_254822" href="gloss_projectdirector.htm"><em>Project director</em></a> routing:</em> 
-Project director routing is, in part, controlled by the FEDERAL_ONLY_ROUTE_IND 
-parameter. If the value of this parameter is 'N,' the document routes to project 
-directors for all accounts appearing on the document. If the parameter is set to 
-'Y,' then only project directors associated with accounts appearing in the 
-<b>Federal and Federal Pass Through Accounts</b> section receive the 
-document.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The appropriate project 
-director is derived indirectly from the accounts listed on the document. 
-Accounts that have an associated award route the report to the project director 
-associated with the most recent award (determined by the highest proposal number 
-associated with that account) with an approval action request.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If changes are made to an 
-accounting line associated with a project director who has already approved the 
-document, then the effort report routes back to the project director who has 
-already taken an action for an additional approval. This looping continues until 
-no additional changes are made.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><em>Account review</em>: Fiscal officers for all accounts appearing on 
-the document will receive an approval request. If changes are made to an 
-accounting line associated with a <a onclick="return d2hpopup(event, this.href)" id="popup_254823" href="gloss_fiscalofficer.htm">fiscal officer</a> that has 
-already approved the document then the effort report will route back to the 
-fiscal officer who has already taken an action for an additional approval. This 
-looping will continue until no additional changes have been made.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><em>Organization review</em><em><span style="FONT-STYLE: normal">:</span></em> This level of routing behaves as normal 
-throughout Kuali Financials, with the <a onclick="return d2hpopup(event, this.href)" id="popup_254824" href="gloss_exception.htm">exception</a> that approvers at this level may be 
-able to the edit the document. This is controlled by the 
-ORG_REVIEWER_ALLOW_EDITS parameter. If this parameter is set to 'N,' these 
-approvers can make no edits. If the value of this parameter is set to 'Y,' then 
-organization review approvers have the same edit capabilities as fiscal 
-officers. Any change in effort by these approvers will generate an FYI action 
-request back to the fiscal officer(s) of the modified account(s).</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><em>Award routing:</em> If effort has been modified, then the document 
-routes to the Contracts and Grants processors associated with all accounts 
-appearing on the document. In the default configuration, these users are allowed 
-to modify effort reports. This ability can be turned off by removing the KFS-EC 
-Use Transactional Document permission from this <a onclick="return d2hpopup(event, this.href)" id="popup_254825" href="gloss_role.htm">role</a>. If these users modify effort, then an FYI action 
-request is sent to the fiscal officer(s) of the modified account(s). </p>
-<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
-<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image343_3.png" />      For information 
-about the account review and organization review see <a href="routelevelsandworkfl.htm">Route Levels and Workflow Routing</a>.</p></div>
+<p class="Definition"> </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+POSP document may be initiated only by the members of the Purchasing Processor 
+<a onclick="return d2hpopup(event, this.href)" id="popup_270558" href="gloss_role.htm">role</a>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+document becomes 'FINAL' when the POSP document is submitted.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="salaryexpensetransfe.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Salary Expense Transfer 
-Generation</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="initiatingaposplit.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Initiating a PO Split</a></p></span></div></div></body></html>

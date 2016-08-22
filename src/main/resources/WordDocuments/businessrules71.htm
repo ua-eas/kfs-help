@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN CAM Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview48.htm"></a><a id="D2HNextAnchor" href="routing42.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="assetmanualpayment.htm"></a><a id="D2HNextAnchor" href="assetretirementglobal.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,18 +86,46 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspa2.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspa4.htm">Purchasing / Accounts Payable Transaction 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="contractmanagerassig.htm">Contract Manager 
-Assignment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview48.htm">Process 
-Overview</a></div>
-<h5>Business Rules</h5>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="capitalassetmanagement.htm">Capital Asset Management</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanagementtransactiondocuments.htm">Capital Asset Management 
+Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="assetmanualpayment.htm">Asset Manual 
+Payment</a></div>
+<h4>Business Rules</h4>
 <p class="Definition"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
-fully approved requisitions without a <a onclick="return d2hpopup(event, this.href)" id="popup_256195" href="gloss_contractmanager.htm">contract manager</a> assigned may be assigned a 
-contract manager using this document.</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -18.75pt; tab-stops: 18.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+asset must be an active asset.  The asset status must be (A, C, S, and U). 
+If the asset is retired the user can not select the payment document from the 
+action list. </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -18.75pt; tab-stops: 18.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A 
+payment document cannot be issued against an asset with a pending document. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Multiple unassigned requisitions may exist at one time. Requisitions 
-without a contract manager assigned on the document remain in the queue to be 
-assigned at a later time.</p>
+</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Financial 
+Documents:</span></strong> General Error Correction, Year End General Error 
+Corrections, Distribution of Income/Expense, Year End Distribution of Income 
+Expense, Procurement Card, Cash Receipt, Service Billing, and the Internal 
+Billing Document.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Purchasing/Accounts 
+Payable</span></strong><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"> Documents:</span></strong> Payment 
+Request, Credit Memo</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Capital Asset 
+Management Documents:</span></strong> Transfer, Retirement, Merge, Separate.</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -18.75pt; tab-stops: 18.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A 
+warning is presented when the object code on the payment is not in agreement 
+with the object code of previously processed payments.</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -18.75pt; tab-stops: 18.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Edit 
+will allow object codes with-in the same asset category.</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -18.75pt; tab-stops: 18.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Financial Object Subtype  Codes included in parameter 
+OBJECT_SUB_TYPE_GROUPS, component Asset.</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -18.75pt; tab-stops: 18.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Future posting dates are not allowed. </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -18.75pt; tab-stops: 18.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Asset 
+Transfer Payment Code is set to “N”. </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -18.75pt; tab-stops: 18.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>No 
+ledger entries are created. <a onclick="return d2hpopup(event, this.href)" id="popup_268378" href="gloss_documenttype.htm">Document Type</a> MPAY should not 
+be used if ledger entries are not in agreement.</p>
+<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing42.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="assetretirementglobal.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Asset Retirement Global</a></p></span></div></div></body></html>

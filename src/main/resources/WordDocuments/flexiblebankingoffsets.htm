@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Flexible Banking Offsets</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="flexibleoffsetoptions.htm"></a><a id="D2HNextAnchor" href="flexibleoffsetsbyaccount.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger.htm">General Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="flexibleoffsetoptions.htm">Flexible Offset Options</a></div>
+<h3>Flexible Banking Offsets</h3>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">Document types that require a user to specify a bank 
+account number (such as the Advance Deposit or Credit Card Receipt documents) 
+can apply offset entries to a special account associated with this bank account 
+number. If the ENABLE_BANK_SPECIFICATION_IND parameter is set to 'Y,' an 
+additional set of cash entries is created to a designated accounting string 
+(chart, account, sub-account, object code, and sub-object code) defined in the 
+Bank document. These entries occur in addition to the normally generated cash 
+offsets created to balance a set of transactions. In effect, they reclassify the 
+generic cash entry to a bank-specific cash entry for reconciliation and tracking 
+purposes. If the ENABLE_BANK_SPECIFICATION_IND parameter is set to 'N,' the 
+normal balancing cash entries are created but the reclassification of cash to a 
+bank-specific entry is not performed.</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">This option allows the user to specify the document types 
+on which a bank code should appear. This information, which is specified in the 
+BANK_CODE_DOCUMENT_TYPES parameter, allows you to specify bank information on 
+additional document types that create disbursements or record revenue. A default 
+Bank Code value should be established for each <a onclick="return d2hpopup(event, this.href)" id="popup_269715" href="gloss_documenttype.htm">document type</a> by using the 
+DEFAULT_BANK_BY_DOCUMENT_TYPE parameter.</p>
+<p class="MsoBodyText"> </p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="flexibleoffsetsbyaccount.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Flexible Offsets by 
+Account</a></p></span></div></div></body></html>
