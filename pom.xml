@@ -15,7 +15,7 @@
    GNU Affero General Public License for more details.
    
    You should have received a copy of the GNU Affero General Public License
-   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+   along with this program.  If not, see <http://www.gnu.org/licenses />.
  -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -26,7 +26,7 @@
     </parent>
     <groupId>org.kuali.kfs</groupId>
     <artifactId>kfs-help</artifactId>
-    <version>5.4.0</version>
+    <version>ua-release1</version>
     <packaging>jar</packaging>
     <description>
         The Kuali Financial System help module contains help files for the Kuali Financial application.
@@ -57,38 +57,49 @@
     <properties>
         <project.scm.vendor>git</project.scm.vendor>
         <require.maven.version>3.0</require.maven.version>
+
+        <!-- UA properties -->
+        <dm.snapshotRepository.id>deployment</dm.snapshotRepository.id>
+        <dm.snapshotRepository.name>Internal Snapshots</dm.snapshotRepository.name>
+        <dm.snapshotRepository.url>https://ka-tools.mosaic.arizona.edu/nexus/content/repositories/snapshots/</dm.snapshotRepository.url>
+
+        <dm.repository.id>deployment</dm.repository.id>
+        <dm.repository.name>Internal Releases</dm.repository.name>
+        <dm.repository.url>https://ka-tools.mosaic.arizona.edu/nexus/content/repositories/releases/</dm.repository.url>
     </properties>
-<!--    
+
     <build>
-    	<pluginManagement>
-      		<plugins>
-        		<plugin>
-          			<groupId>org.apache.maven.plugins</groupId>
-          			<artifactId>maven-assembly-plugin</artifactId>
-          			<version>2.4</version>
-        		</plugin>
-      		</plugins>
-    	</pluginManagement>
-    
-		<plugins>
-   			<plugin>
-  				<groupId>org.apache.maven.plugins</groupId>
-  				<artifactId>maven-assembly-plugin</artifactId>
-				<configuration>
-    					<descriptor>src/assembly/dep.xml</descriptor>
-  					<finalName>kfs-help</finalName>
-  					<appendAssemblyId>false</appendAssemblyId>
-				</configuration>
-  				<executions>
-    				<execution>
-      					<phase>package</phase>
-      					<goals>
-        					<goal>single</goal>
-      					</goals>
-    				</execution>
-  				</executions>
-			</plugin>
-		</plugins>
-	</build>
--->
+        <plugins>
+            <plugin>
+                <groupId>external.atlassian.jgitflow</groupId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
+                <version>1.0-m5.1</version>
+                <configuration>
+                    <pushFeatures>true</pushFeatures>
+                    <pushReleases>true</pushReleases>
+                    <pushHotfixes>true</pushHotfixes>
+                    <!-- Prevents deployments from dev workstations so that they can be done by CI server -->
+                    <noDeploy>true</noDeploy>
+                    <flowInitContext>
+                        <developBranchName>ua-development</developBranchName>
+                        <masterBranchName>ua-master</masterBranchName>
+                    </flowInitContext>
+                    <allowSnapshots>true</allowSnapshots>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <distributionManagement>
+    <repository>
+        <id>${dm.repository.id}</id>
+        <name>${dm.repository.name}</name>
+        <url>${dm.repository.url}</url>
+    </repository>
+    <snapshotRepository>
+        <id>${dm.snapshotRepository.id}</id>
+        <name>${dm.snapshotRepository.name}</name>
+        <url>${dm.snapshotRepository.url}</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
