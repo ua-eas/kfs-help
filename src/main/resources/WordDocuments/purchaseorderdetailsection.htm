@@ -107,7 +107,7 @@ Order</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_b
       <p class="TableCells">Defaults to the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Account Distribution 
       Method</span></strong> (either proportional or sequential) from the 
       Requisition document. Before a Payment Request has been processed against 
-      the PO, users in the Purchasing Processor <a onclick="return d2hpopup(event, this.href)" id="popup_270499" href="gloss_role.htm">role</a> may change this value on an in-process 
+      the PO, users in the Purchasing Processor <a onclick="return d2hpopup(event, this.href)" id="popup_274363" href="gloss_role.htm">role</a> may change this value on an in-process 
       Purchase Order or on a PO Amendment. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 112.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="188">
@@ -124,7 +124,7 @@ Order</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_b
       requisition's chart/organization. May be changed manually by clicking the 
       lookup. </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 112.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="188"><a onclick="return d2hpopup(event, this.href)" id="popup_270496" href="gloss_contractmanager.htm">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 112.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="188"><a onclick="return d2hpopup(event, this.href)" id="popup_274360" href="gloss_contractmanager.htm">
       <p class="TableCells">Contract Manager</p>
       <p class="TableCells"></p></a> </td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 264.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="440">
@@ -133,7 +133,7 @@ Order</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_b
       'Waiting on Department,' the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Contract Manager</span></strong> 
       lookup may be used to change the contract manager.</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 112.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="188"><a onclick="return d2hpopup(event, this.href)" id="popup_270498" href="gloss_fundingsource.htm">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 112.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="188"><a onclick="return d2hpopup(event, this.href)" id="popup_274362" href="gloss_fundingsource.htm">
       <p class="TableCells">Funding Source</p>
       <p class="TableCells"></p></a> </td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 264.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="440">
@@ -145,10 +145,16 @@ Order</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_b
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 264.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="440">
       <p class="TableCells">Optional. The 'DEFAULT POS APPRVL LMT' parameter 
       determines the dollar limit at which payment requests must receive 
-      positive approval from a <a onclick="return d2hpopup(event, this.href)" id="popup_270497" href="gloss_fiscalofficer.htm">fiscal officer</a>. If 
+      positive approval from a <a onclick="return d2hpopup(event, this.href)" id="popup_274361" href="gloss_fiscalofficer.htm">fiscal officer</a>. If 
       selected, this field overrides the parameter and requires positive 
       approval on the payment request regardless of the total of the payment. 
-      </p></td></tr>
+      </p>
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image334_3.png" />    The <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Payment Request Positive 
+      Approval Require</span></strong> field is displayed only if the 
+      PAYMENT_REQUEST_POSITIVE_APPROVAL_IND parameter is set to 'Y'. This 
+      parameter controls whether PREQ positive approval functionality is 
+      invoked.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 112.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="188">
       <p class="TableCells">Previous Purchase Order #</p></td>
@@ -176,7 +182,13 @@ Order</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_b
       <p class="TableCells">If the field is checked, a line item Receiving 
       document must be processed with sufficient quantities received before a 
       payment will route to the fiscal officer. After the PO is approved, this 
-      value cannot be changed.</p></td></tr>
+      value cannot be changed.</p>
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image334_3.png" />    The <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Receiving 
+      Required</span></strong> field is displayed only if the 
+      RECEIVING_DOCUMENT_REQUIRED_IND parameter is set to 'Y'. This parameter 
+      controls whether receiving required functionality is 
+  invoked.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 112.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="188">
       <p class="TableCells">Requisition Source</p></td>

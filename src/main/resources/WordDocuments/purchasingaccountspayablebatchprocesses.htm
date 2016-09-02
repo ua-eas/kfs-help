@@ -126,7 +126,7 @@ to make certain types of adjustments.</p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 184.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="308">
       <p class="TableCells">autoClosePurchaseOrdersJob</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 279pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="bottom" width="465">
-      <p class="TableCells">Closes open purchase orders with no remaining <a onclick="return d2hpopup(event, this.href)" id="popup_270362" href="gloss_encumbrance.htm">encumbrance</a>.</p></td></tr>
+      <p class="TableCells">Closes open purchase orders with no remaining <a onclick="return d2hpopup(event, this.href)" id="popup_274224" href="gloss_encumbrance.htm">encumbrance</a>.</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 184.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="308">
       <p class="TableCells">autoCloseRecurringOrdersJob</p></td>
@@ -143,7 +143,24 @@ to make certain types of adjustments.</p>
       <p class="TableCells">Examines and validates invoices uploaded 
       electronically by vendors. Creates Payment Request documents for valid 
       invoices and creates Electronic Invoice Reject documents for invalid 
-      invoices.</p></td></tr>
+      invoices. The following rules will cause an electronic invoice to reject 
+      and create an <a href="electronicinvoicereject.htm">Electronic Invoice 
+      Reject</a> Transaction (EIRT):</p>
+      <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+      </span><a onclick="return d2hpopup(event, this.href)" id="popup_274225" href="gloss_duns.htm">DUNS</a> number is not found in the vendor 
+files.</p>
+      <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+      </span>Missing PO number.</p>
+      <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+      </span>Missing invoice number</p>
+      <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+      </span>Duplicate invoice number.</p>
+      <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+      </span>Invalid or missing invoice date. </p>
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="exclaim" alt="exclaim" src="../ImagesExt/image334_1.png" />   
+      Improperly formatted files will not be loaded or 
+processed.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 184.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="308">
       <p class="TableCells">faxPendingDocumentJob</p></td>

@@ -155,12 +155,13 @@ requested salary for the incumbent. </p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 112.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="188">
       <p class="TableCells">Requested FTE</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 265.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="443">
-      <p class="TableCells">This field is initially equal to the CSF FTE. The 
-      value in this field is recalculated by the system if the appointment 
-      <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">request 
-      %</span></strong> and <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Request Months</span></strong> 
-      are edited on the Salary Setting by Position or Salary Setting by 
-      Incumbent screen.</p></td></tr>
+      <p class="TableCells">Requested FTE is initially equal to the CSF FTE and is 
+      recalculated if the Percent Time and Request Months are edited on the 
+      Salary Setting by Position or Incumbent screen.</p>
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="pencil-small" border="0" alt="pencil-small" src="../ImagesExt/image339_1.png" />    The Request Months 
+      must match Work Months unless the Leave Code is set to something other 
+      than NONE.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 112.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="188">
       <p class="TableCells">Requested Salary</p></td>
@@ -246,13 +247,14 @@ requested salary for the incumbent. </p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 103.15pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="172">
       <p class="TableCells">Salary Line Detail</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 211.5pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="353">
-      <p class="TableCells">Shows up only for funding lines associated with 
-      biweekly paid positions that are paid from an hourly rate. Allows you to 
-      calculate the values for the funding line without saving. The funding 
-      lines must have an hourly rate and a rounded annual request amount. 
-      Normalization forces the hourly rate (scaled to two decimals) to match the 
-      annual amount rounded to the nearest whole <br />dollar. 
-</p></td></tr></tbody></table>
+      <p class="TableCells">Displays for funding lines associated with biweekly 
+      positions paid an hourly rate. Pay rate or Requested Salary must be 
+      completed.If Pay Rate is entered, normalization calculates Requested 
+      Salary based on the Pay Rate and annual hours (parameter 
+      ANNUAL_WORKING_HOURS) and Funding Month. If the Pay Rate is blank and 
+      Requested Salary is entered, the Pay Rate is derived and a new Requested 
+      Salary based on the derived Pay Rate replaces the entered Requested 
+      Salary.</p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="vacatingapositionsfunding.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Vacating a Position's Funding</a></p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="deletingapositionsfunding.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Deleting a Position's 

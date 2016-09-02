@@ -105,10 +105,17 @@ Measure</span></strong> must be completed if <strong><span style="FONT-FAMILY: &
 </span></strong>field on the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Item</span></strong> tab must be 
 completed.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-PO generates encumbrances when <a onclick="return d2hpopup(event, this.href)" id="popup_270515" href="gloss_contractmanager.htm">Contract Manager</a> is 
+PO generates encumbrances when <a onclick="return d2hpopup(event, this.href)" id="popup_274379" href="gloss_contractmanager.htm">Contract Manager</a> is 
 assigned. Encumbrances are updated as changes are made to the Purchase Order. 
 Encumbrances are created on the accounts and object codes entered in the item 
 sections and the appropriate offset object code(s). </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Expired and inactive contracts cannot be used on Purchase Orders.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Non-Capital Assets are not allowed on the Capital Asset tab.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If a 
+debarred vendor is used on a Purchase Order, a warning will be presented to the 
+user and a justification for using the vendor will be required if used. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>An 
 APO document may be created only under certain conditions, as specified in the 
 business rules set up by the institution. Examples of conditions that might 
@@ -138,9 +145,9 @@ Info</span></strong> tab).</p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition contains 
 alternate vendor names.</p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition is set to 
-encumber during the next <a onclick="return d2hpopup(event, this.href)" id="popup_270517" href="gloss_fiscalyear.htm">fiscal year</a> (chosen from 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Year</span></strong>n 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Document 
+encumber during the next <a onclick="return d2hpopup(event, this.href)" id="popup_274381" href="gloss_fiscalyear.htm">fiscal year</a> (chosen from 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Year</span></strong> 
+in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Document 
 Overview</span></strong> tab) and approval is not within the APO allowed date 
 range. The date range is determined by the 'ALLOW APO NEXT FY DAYS' 
 parameter.</p>
@@ -156,6 +163,10 @@ capital asset line item(s).</p>
 accounting strings with an object level in the 
 KFS-PURAPPURCHASING_ACCOUNTS_PAYABLE_OBJECT_LEVELS parameter (currently set to 
 CAP).</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Purchase Order numbers will be masked to all users until the Purchase 
+Order is Open, unless the user is authorized to view the Purchase Order number 
+before it’s Open. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 following rules apply for allowable accounts to be charged on a PO. These are 
 the same rules used for the REQS and PREQ. The specific codes for these rules 
@@ -167,9 +178,10 @@ codes must be in the INV or OASS object level.</p>
 consolidations of Compensation (CMPN), Financial Aid (SCHL), Reserves 
 (RSRX) and Assessments Expenditures (ASEX) are not allowed.</p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes in the 
-levels of <a onclick="return d2hpopup(event, this.href)" id="popup_270516" href="gloss_depreciation.htm">Depreciation</a> (DEPR), Indirect Cost Expense 
+levels of <a onclick="return d2hpopup(event, this.href)" id="popup_274380" href="gloss_depreciation.htm">Depreciation</a> (DEPR), Indirect Cost Expense 
 (ICOE), Valuations and Adjustments (VADJ) and Taxes (TAX) are not allowed.</p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes with a 
 sub-type code for Transfers (TN) are allowed.</p>
+<p class="C1HBullet2A" style="MARGIN-LEFT: 18pt; TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing27.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>

@@ -117,7 +117,12 @@ transaction using the defined bank routing and account number.</p>
       <p class="TableCells">ACH Transaction Type</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
       <p class="TableCells">Required. Select the code associated with the PDP 
-      Customer that this ACH account information should be used for. </p></td></tr>
+      Customer that this ACH account information should be used for. </p>
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img border="0" src="../ImagesExt/image331_2.gif" alt="" />    Access to create and 
+      edit payees associated with particular ACH Transaction types is controlled 
+      by the Payee ACH Accounts Administrator <a onclick="return d2hpopup(event, this.href)" id="popup_271905" href="gloss_role.htm">role</a>. ACH Transaction Type is a qualifier for 
+      this role.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
       <p class="TableCells">Active Indicator</p></td>
@@ -160,10 +165,11 @@ transaction using the defined bank routing and account number.</p>
       <p class="TableCells">Required. Enter the e-mail address for this payee. ACH 
       advices for this payee will be e-mailed to this address.</p>
       <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
-      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img border="0" src="../ImagesExt/image331_2.gif" alt="" />    When Payee is an 
-      Employee, the email address will fill in from KIM and cannot be edited. 
-      Email addresses need to be updated in KIM in order to be corrected on the 
-      Payee ACH Account.</p></div></td></tr>
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img border="0" src="../ImagesExt/image331_2.gif" alt="" />    When the Payee is 
+      stored in the KIM tables (employees and affiliates), the email address 
+      will fill in from KIM and cannot be edited. Email addresses need to be 
+      updated in KIM in order to be corrected on the Payee ACH Account 
+      table.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
       <p class="TableCells">Payee Type Code</p></td>
@@ -172,7 +178,11 @@ transaction using the defined bank routing and account number.</p>
       entity ID, employee ID, or vendor number) that this ACH Account record 
       refers to. Your selection here determines the type of ID number expected 
       in the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Payee 
-      Number </span></strong>field.</p></td></tr>
+      Number </span></strong>field.</p>
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img border="0" src="../ImagesExt/image331_2.gif" alt="" />    The values that 
+      display here are controlled by the ACH Eligible flag on the Payee Type 
+      table.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
       <p class="TableCells">Payee Number</p></td>

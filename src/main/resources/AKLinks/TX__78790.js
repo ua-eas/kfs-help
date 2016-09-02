@@ -1,1 +1,1 @@
-d2hStoreMenuItems("TX__78790", [["WordDocuments/laborledgerscrubber.htm", "right", "Labor Ledger Scrubber"],["WordDocuments/validationofdata.htm", "right", "Validation of Data"]]);
+d2hStoreMenuItems("TX__78790", [["WordDocuments/laborscrubber.htm", "right", "Labor Scrubber"],["WordDocuments/validationofdata.htm", "right", "Validation of Data"]]);

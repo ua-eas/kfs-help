@@ -136,7 +136,16 @@ PDP to generate checks and/or ACH entries to be sent to your bank.</p></div>
       <p class="TableCells">Purchasing / Accounts Payable</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 248.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="413">
       <p class="TableCells">Extracts approved payment requests and credit memos 
-      into PDP. These will appear as Open payments in PDP. </p></td></tr>
+      into PDP when the pay date is today or earlier and bundled PREQs and 
+      Credit Memos are greater than zero. These will appear as Open payments in 
+      PDP. </p>
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 6pt 22.85pt"><img border="0" src="../ImagesExt/image331_2.gif" alt="" />    PREQs and Credit 
+      Memos are bundled together when the PREQ is not marked immediate, special 
+      handling or has attachments.</p>
+      <p class="Noteintable" style="MARGIN: 9pt 0pt 0pt 22.85pt"><img border="0" src="../ImagesExt/image331_2.gif" alt="" />    PREQs are bundled 
+      with Credit Memos when the campus, bank code, vendor, vendor division, 
+      address 1, country and 5 digit zip code match.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="255">
       <p class="TableCells">Purchasing Pre-Disbursement Immediates Extract Job 
@@ -268,8 +277,11 @@ PDP to generate checks and/or ACH entries to be sent to your bank.</p></div>
       <p class="TableCells">Pre-Disbursement Processor</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 248.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="413">
       <p class="TableCells">Generates emails to ACH payees based on the values 
-      defined as part of the PDP customer associated with the ACH 
-    payments.</p></td></tr>
+      defined as part of the PDP customer associated with the ACH payments.</p>
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img border="0" src="../ImagesExt/image331_2.gif" alt="" />    Parameter 
+      ACH_SUMMARY_CC_EMAIL_ADDRESSES can be used to add a cc email address to 
+      the notifications sent to payees.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="255">
       <p class="TableCells">PDP Load Federal Reserve Bank Data Job</p></td>
@@ -303,8 +315,11 @@ PDP to generate checks and/or ACH entries to be sent to your bank.</p></div>
       pay on the day of execution in a batch mode.  It functions the same 
       as selecting all customers and options from the Format Checks/ACH screen. 
       The total number and amount of formatted checks and ACH are emailed to the 
-      recipients defined in the FORMAT_SUMMARY_TO_EMAIL_ADDRESSES 
-    parameter.</p></td></tr>
+      recipients defined in the FORMAT_SUMMARY_TO_EMAIL_ADDRESSES parameter.</p>
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img border="0" src="../ImagesExt/image331_2.gif" alt="" />    Payments that have 
+      the same vendor id/division number, address 1, country and 5 digit zip 
+      will be combined into a single payment.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="255">
       <p class="TableCells">Format Check ACH By Customer Profile Job</p></td>
