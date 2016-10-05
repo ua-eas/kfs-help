@@ -125,12 +125,15 @@ certain types of adjustments.</p>
       Action List preference is set to daily. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 184.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="308">
-      <p class="TableCells">detectDocumentsMissingPLEsJob</p></td>
+      <p class="TableCells">detectDocumentsMissingEntriesJob</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 279pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="bottom" width="465">
-      <p class="TableCells">This job identifies approved documents specified in 
-      LEDGER_ENTRY_GENERATING* parameters that are missing General Ledger 
-      Entries. Notification will be sent to the email address specified in 
-      parameter MISSING_PLES_NOTIFICAITON_EMAIL_ADDRESSES.</p></td></tr>
+      <p class="TableCells">This job identifies documents specified in 
+      ENTRY_GENERATING_DOCUMENT_TYPES parameter that have been approved within 
+      the number of days specified in the LOOK_BACK_DAYS parameter that are 
+      missing General Ledger Entries. Notification will be sent to the email 
+      address specified in parameter MISSING_PLES_NOTIFICAITON_EMAIL_ADDRESSES. 
+      If the email parameter is blank, the missing documents will be noted in 
+      the log file. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 184.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="308">
       <p class="TableCells">fiscalYearMakerJob</p></td>
