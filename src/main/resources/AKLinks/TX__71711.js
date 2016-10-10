@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__71711", [["WordDocuments/beginningbalances.htm", "right", "Beginning Balances"],["WordDocuments/businessrules63.htm", "right", "Business Rules"],["WordDocuments/generalledgerautomat.htm", "right", "General Ledger Automated Balancing"]]);

@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__67954", [["WordDocuments/arcustomeruploadxls.htm", "right", "AR_Customer_Upload.xls"],["WordDocuments/attendeelistimportxl.htm", "right", "Attendee_List_Import.xlxs"]]);

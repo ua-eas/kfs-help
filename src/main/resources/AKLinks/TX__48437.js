@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__48437", [["WordDocuments/chartofaccountscoa.htm", "right", "Chart of Accounts (COA)"],["WordDocuments/kualifinancials.htm", "right", "Kuali Financials"]]);

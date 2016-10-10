@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__48961", [["WordDocuments/addingappointmentfun.htm", "right", "Adding Appointment Funding"],["WordDocuments/positionfundingtab.htm", "right", "Position Funding Tab"]]);

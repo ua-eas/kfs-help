@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__48486", [["WordDocuments/drilldown.htm", "right", "Drilldown"],["WordDocuments/pendingactionrequest.htm", "right", "Pending Action Requests Tab"]]);
