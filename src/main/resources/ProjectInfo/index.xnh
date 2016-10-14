@@ -68,7 +68,7 @@
     </item>
     <item name=" Credit Card Data Upload" id="79605">
         <topics />
-        <item name="file format " id="79606">
+        <item name="file format " id="82962">
             <topics>
                 <topic url="WordDocuments/creditcarddatauploadformat.htm" window="right">Credit Card Data Upload Format</topic>
             </topics>
@@ -92,17 +92,17 @@
             <topic url="WordDocuments/electronicpaymentclaim.htm" window="right">Electronic Payment Claim</topic>
         </topics>
     </item>
-    <item name=" Entertainment Reimbursement document" id="79410">
+    <item name=" Entertainment Reimbursement document" id="82783">
         <topics>
             <topic url="WordDocuments/entertainmentreimbursement.htm" window="right">Entertainment Reimbursement</topic>
         </topics>
-        <item name="routing" id="79430">
+        <item name="routing" id="82801">
             <topics>
                 <topic url="WordDocuments/routing41.htm" window="right">Routing</topic>
             </topics>
         </item>
     </item>
-    <item name=" expenses, entering actual expenses one at a time" id="79367">
+    <item name=" expenses, entering actual expenses one at a time" id="82744">
         <topics>
             <topic url="WordDocuments/workingintheactualexpensessection.htm" window="right">Working in the Actual Expenses Section</topic>
         </topics>
@@ -331,7 +331,7 @@
     </item>
     <item name=" Per Diem TXT Batch Upload" id="79611">
         <topics />
-        <item name="file format" id="79612">
+        <item name="file format" id="82966">
             <topics>
                 <topic url="WordDocuments/perdiemtxtbatchuploadformat.htm" window="right">Per Diem TXT Batch Upload Format</topic>
             </topics>
@@ -339,13 +339,13 @@
     </item>
     <item name=" Per Diem XML Batch Upload" id="79608">
         <topics />
-        <item name="file format" id="79609">
+        <item name="file format" id="82964">
             <topics>
                 <topic url="WordDocuments/perdiemxmlbatchuploadformat.htm" window="right">Per Diem XML Batch Upload Format</topic>
             </topics>
         </item>
     </item>
-    <item name=" per diems, entering " id="79364">
+    <item name=" per diems, entering " id="82741">
         <topics>
             <topic url="WordDocuments/workingintheperdiemtab.htm" window="right">Working in the Per Diem Tab</topic>
         </topics>
@@ -463,7 +463,7 @@
     </item>
     <item name=" Travel Agency Data Upload" id="79614">
         <topics />
-        <item name="file format" id="79615">
+        <item name="file format" id="82968">
             <topics>
                 <topic url="WordDocuments/travelagencydatauploadformat.htm" window="right">Travel Agency Data Upload Format</topic>
             </topics>
@@ -471,7 +471,7 @@
     </item>
     <item name=" Travel Authorization document" id="79485">
         <topics />
-        <item name="routing" id="79486">
+        <item name="routing" id="82853">
             <topics>
                 <topic url="WordDocuments/routing44.htm" window="right">Routing</topic>
             </topics>
@@ -497,12 +497,12 @@
             <topic url="WordDocuments/accesssecuritysimulation.htm" window="right">Access Security Simulation</topic>
         </topics>
     </item>
-    <item name="Accessing Travel Agency websites" id="79383">
+    <item name="Accessing Travel Agency websites" id="82758">
         <topics>
             <topic url="WordDocuments/agencylinkstab.htm" window="right">Agency Links Tab</topic>
         </topics>
     </item>
-    <item name="Accommodation Type document" id="79544">
+    <item name="Accommodation Type document" id="82907">
         <topics>
             <topic url="WordDocuments/accommodationtype.htm" window="right">Accommodation Type</topic>
         </topics>
@@ -674,9 +674,9 @@
     </item>
     <item name="Accounting Lines tab" id="77429">
         <topics>
-            <topic url="WordDocuments/accountinglinestab5.htm" window="right">Accounting Lines Tab</topic>
             <topic url="WordDocuments/accountinglinestab3.htm" window="right">Accounting Lines Tab</topic>
             <topic url="WordDocuments/accountinglinestab1.htm" window="right">Accounting Lines Tab</topic>
+            <topic url="WordDocuments/accountinglinestab5.htm" window="right">Accounting Lines Tab</topic>
         </topics>
         <item name=" buttons" id="82075">
             <topics>
@@ -718,7 +718,7 @@
                 <topic url="WordDocuments/singlesidedentry.htm" window="right">Single-Sided Entry</topic>
             </topics>
         </item>
-        <item name="fields, list of" id="79374">
+        <item name="fields, list of" id="82751">
             <topics>
                 <topic url="WordDocuments/assignaccountstab.htm" window="right">Assign Accounts Tab</topic>
             </topics>
@@ -899,12 +899,12 @@
             <topic url="WordDocuments/actionstakentab.htm" window="right">Actions Taken Tab</topic>
         </topics>
     </item>
-    <item name="Actual Expenses tab" id="79365">
+    <item name="Actual Expenses tab" id="82742">
         <topics>
             <topic url="WordDocuments/actualexpensestab.htm" window="right">Actual Expenses Tab</topic>
         </topics>
     </item>
-    <item name="actual expenses, entering one at a time" id="79366">
+    <item name="actual expenses, entering one at a time" id="82743">
         <topics>
             <topic url="WordDocuments/workingintheactualexpensessection.htm" window="right">Working in the Actual Expenses Section</topic>
         </topics>
@@ -997,7 +997,7 @@
             </topics>
         </item>
     </item>
-    <item name="Advance Payment Reason document " id="79545">
+    <item name="Advance Payment Reason document " id="82908">
         <topics>
             <topic url="WordDocuments/advancepaymentreason.htm" window="right">Advance Payment Reason</topic>
         </topics>
@@ -1060,7 +1060,7 @@
             </topics>
         </item>
     </item>
-    <item name="Agency Service Fee document " id="79546">
+    <item name="Agency Service Fee document " id="82909">
         <topics>
             <topic url="WordDocuments/agencyservicefee.htm" window="right">Agency Service Fee</topic>
         </topics>
@@ -1075,7 +1075,7 @@
             <topic url="WordDocuments/aicpafunction1.htm" window="right">AICPA Function</topic>
         </topics>
     </item>
-    <item name="Airfare Source document " id="79547">
+    <item name="Airfare Source document " id="82910">
         <topics>
             <topic url="WordDocuments/airfaresource.htm" window="right">Airfare Source</topic>
         </topics>
@@ -1687,7 +1687,7 @@
             <topic url="WordDocuments/assetstab.htm" window="right">Assets Tab</topic>
         </topics>
     </item>
-    <item name="Assign Accounts tab" id="79373">
+    <item name="Assign Accounts tab" id="82750">
         <topics>
             <topic url="WordDocuments/assignaccountstab.htm" window="right">Assign Accounts Tab</topic>
         </topics>
@@ -2765,7 +2765,7 @@
                 <topic url="WordDocuments/businessrules87.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Corporate Card Application document" id="79397">
+        <item name="Corporate Card Application document" id="82771">
             <topics>
                 <topic url="WordDocuments/businessrules45.htm" window="right">Business Rules</topic>
             </topics>
@@ -2775,12 +2775,12 @@
                 <topic url="WordDocuments/businessrulesforcostsharecarryforwardencumbrances.htm" window="right">Business Rules for Cost Share Carry Forward Encumbrances</topic>
             </topics>
         </item>
-        <item name="Credit Card Imported Expense Clearing Document" id="79554">
+        <item name="Credit Card Imported Expense Clearing Document" id="82916">
             <topics>
                 <topic url="WordDocuments/businessrules54.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Credit Card or Agency document" id="79559">
+        <item name="Credit Card or Agency document" id="82920">
             <topics>
                 <topic url="WordDocuments/businessrules55.htm" window="right">Business Rules</topic>
             </topics>
@@ -2790,7 +2790,7 @@
                 <topic url="WordDocuments/businessrules5.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="CTS Card Application document" id="79407">
+        <item name="CTS Card Application document" id="82780">
             <topics>
                 <topic url="WordDocuments/businessrules46.htm" window="right">Business Rules</topic>
             </topics>
@@ -2825,7 +2825,7 @@
                 <topic url="WordDocuments/businessrules106.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Entertainment Reimbursement document" id="79429">
+        <item name="Entertainment Reimbursement document" id="82800">
             <topics>
                 <topic url="WordDocuments/businessrules47.htm" window="right">Business Rules</topic>
             </topics>
@@ -2845,7 +2845,7 @@
                 <topic url="WordDocuments/businessrules64.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Expense Type document" id="79565">
+        <item name="Expense Type document" id="82925">
             <topics>
                 <topic url="WordDocuments/businessrules56.htm" window="right">Business Rules</topic>
             </topics>
@@ -2940,12 +2940,12 @@
                 <topic url="WordDocuments/businessrules31.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Mileage Rate document" id="79571">
+        <item name="Mileage Rate document" id="82930">
             <topics>
                 <topic url="WordDocuments/businessrules57.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Moving and Relocation Reimbursement document" id="79451">
+        <item name="Moving and Relocation Reimbursement document" id="82820">
             <topics>
                 <topic url="WordDocuments/businessrules48.htm" window="right">Business Rules</topic>
             </topics>
@@ -3030,7 +3030,7 @@
                 <topic url="WordDocuments/sufficientfundsbusinessrules.htm" window="right">Sufficient Funds Business Rules</topic>
             </topics>
         </item>
-        <item name="TEM Profile document" id="79587">
+        <item name="TEM Profile document" id="82945">
             <topics>
                 <topic url="WordDocuments/businessrules58.htm" window="right">Business Rules</topic>
             </topics>
@@ -3040,32 +3040,32 @@
                 <topic url="WordDocuments/businessrules17.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Travel Agency Audit and Correction document " id="79599">
+        <item name="Travel Agency Audit and Correction document " id="82956">
             <topics>
                 <topic url="WordDocuments/businessrules59.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Travel Arranger document " id="79463">
+        <item name="Travel Arranger document " id="82831">
             <topics>
                 <topic url="WordDocuments/businessrules49.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Travel Authorization Amendment document" id="79492">
+        <item name="Travel Authorization Amendment document" id="82859">
             <topics>
                 <topic url="WordDocuments/businessrules51.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Travel Authorization Close document" id="79499">
+        <item name="Travel Authorization Close document" id="82865">
             <topics>
                 <topic url="WordDocuments/businessrules52.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Travel Authorization document" id="79484">
+        <item name="Travel Authorization document" id="82852">
             <topics>
                 <topic url="WordDocuments/businessrules50.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Travel Reimbursement document " id="79524">
+        <item name="Travel Reimbursement document " id="82890">
             <topics>
                 <topic url="WordDocuments/businessrules53.htm" window="right">Business Rules</topic>
             </topics>
@@ -3778,7 +3778,7 @@
             <topic url="WordDocuments/electronicpaymentclaim.htm" window="right">Electronic Payment Claim</topic>
         </topics>
     </item>
-    <item name="Class Of Service document " id="79548">
+    <item name="Class Of Service document " id="82911">
         <topics>
             <topic url="WordDocuments/classofservice.htm" window="right">Class Of Service</topic>
         </topics>
@@ -3902,7 +3902,7 @@
             <topic url="WordDocuments/contactinformationtab.htm" window="right">Contact Information Tab</topic>
         </topics>
     </item>
-    <item name="Contact Relationship Type document " id="79549">
+    <item name="Contact Relationship Type document " id="82912">
         <topics>
             <topic url="WordDocuments/contactrelationshiptype.htm" window="right">Contact Relationship Type</topic>
         </topics>
@@ -4177,52 +4177,52 @@
     </item>
     <item name="Corporate Card Application" id="79391">
         <topics />
-        <item name="Banking Information tab" id="79395">
+        <item name="Banking Information tab" id="82769">
             <topics>
                 <topic url="WordDocuments/bankinginformationtab.htm" window="right">Banking Information Tab</topic>
             </topics>
         </item>
-        <item name="custom document search)" id="79529">
+        <item name="custom document search)" id="82895">
             <topics>
                 <topic url="WordDocuments/corporatecardapplication1.htm" window="right">Corporate Card Application</topic>
             </topics>
         </item>
-        <item name="Department Head Agreement tab" id="79394">
+        <item name="Department Head Agreement tab" id="82768">
             <topics>
                 <topic url="WordDocuments/departmentheadagreementtab.htm" window="right">Department Head Agreement Tab</topic>
             </topics>
         </item>
-        <item name="TEM Profile tab" id="79392">
+        <item name="TEM Profile tab" id="82766">
             <topics>
                 <topic url="WordDocuments/temprofiletab.htm" window="right">TEM Profile Tab</topic>
             </topics>
         </item>
-        <item name="User Agreement tab" id="79393">
+        <item name="User Agreement tab" id="82767">
             <topics>
                 <topic url="WordDocuments/useragreementtab.htm" window="right">User Agreement Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Corporate Card Application document" id="79389">
+    <item name="Corporate Card Application document" id="82764">
         <topics>
             <topic url="WordDocuments/corporatecardapplication.htm" window="right">Corporate Card Application</topic>
         </topics>
-        <item name="business rules" id="79396">
+        <item name="business rules" id="82770">
             <topics>
                 <topic url="WordDocuments/businessrules45.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Document header" id="79390">
+        <item name="Document header" id="82765">
             <topics>
                 <topic url="WordDocuments/documentheader3.htm" window="right">Document Header</topic>
             </topics>
         </item>
-        <item name="post-processing " id="79399">
+        <item name="post-processing " id="82773">
             <topics>
                 <topic url="WordDocuments/postprocessing3.htm" window="right">Post-Processing</topic>
             </topics>
         </item>
-        <item name="routing" id="79398">
+        <item name="routing" id="82772">
             <topics>
                 <topic url="WordDocuments/routing39.htm" window="right">Routing</topic>
             </topics>
@@ -4311,38 +4311,38 @@
             <topic url="WordDocuments/creatingacsvfile1.htm" window="right">Creating a .csv File</topic>
         </topics>
     </item>
-    <item name="Credit Card Data Upload " id="79604">
+    <item name="Credit Card Data Upload " id="82961">
         <topics>
             <topic url="WordDocuments/creditcarddataupload.htm" window="right">Credit Card Data Upload</topic>
         </topics>
     </item>
     <item name="Credit Card Imported Expense Clearing Document" id="79552">
         <topics />
-        <item name="Expenses to Clear Tab" id="79553">
+        <item name="Expenses to Clear Tab" id="82915">
             <topics>
                 <topic url="WordDocuments/expensestocleartab.htm" window="right">Expenses to Clear Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Credit Card Imported Expense Clearing Document " id="79550">
+    <item name="Credit Card Imported Expense Clearing Document " id="82913">
         <topics>
             <topic url="WordDocuments/creditcardimportedexpenseclearingdocument.htm" window="right">Credit Card Imported Expense Clearing Document</topic>
         </topics>
     </item>
-    <item name="credit card imported expense clearing document, initiating a " id="79555">
+    <item name="credit card imported expense clearing document, initiating a " id="82917">
         <topics>
             <topic url="WordDocuments/initiatingacreditcardimportedexpenseclearingdocument.htm" window="right">Initiating a Credit Card Imported Expense Clearing Document</topic>
         </topics>
     </item>
     <item name="Credit Card or Agency document" id="79557">
         <topics />
-        <item name="business rules" id="79558">
+        <item name="business rules" id="82919">
             <topics>
                 <topic url="WordDocuments/businessrules55.htm" window="right">Business Rules</topic>
             </topics>
         </item>
     </item>
-    <item name="Credit Card or Agency document " id="79556">
+    <item name="Credit Card or Agency document " id="82918">
         <topics>
             <topic url="WordDocuments/creditcardoragency.htm" window="right">Credit Card or Agency</topic>
         </topics>
@@ -4377,7 +4377,7 @@
             <topic url="WordDocuments/creditcardreceiptstab.htm" window="right">Credit Card Receipts Tab</topic>
         </topics>
     </item>
-    <item name="Credit Card Staging Data Lookup" id="79560">
+    <item name="Credit Card Staging Data Lookup" id="82921">
         <topics>
             <topic url="WordDocuments/creditcardstagingdatalookup.htm" window="right">Credit Card Staging Data Lookup</topic>
         </topics>
@@ -4409,47 +4409,47 @@
     </item>
     <item name="CTS Card Application" id="79402">
         <topics />
-        <item name="Banking Information tab" id="79405">
+        <item name="Banking Information tab" id="82778">
             <topics>
                 <topic url="WordDocuments/bankinginformationtab1.htm" window="right">Banking Information Tab</topic>
             </topics>
         </item>
-        <item name="custom document search)" id="79531">
+        <item name="custom document search)" id="82897">
             <topics>
                 <topic url="WordDocuments/ctscardapplication1.htm" window="right">CTS Card Application</topic>
             </topics>
         </item>
-        <item name="TEM Profile tab" id="79403">
+        <item name="TEM Profile tab" id="82776">
             <topics>
                 <topic url="WordDocuments/temprofiletab1.htm" window="right">TEM Profile Tab</topic>
             </topics>
         </item>
-        <item name="User Agreement tab" id="79404">
+        <item name="User Agreement tab" id="82777">
             <topics>
                 <topic url="WordDocuments/useragreementtab1.htm" window="right">User Agreement Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="CTS Card Application document" id="79400">
+    <item name="CTS Card Application document" id="82774">
         <topics>
             <topic url="WordDocuments/ctscardapplication.htm" window="right">CTS Card Application</topic>
         </topics>
-        <item name="business rules" id="79406">
+        <item name="business rules" id="82779">
             <topics>
                 <topic url="WordDocuments/businessrules46.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Document header" id="79401">
+        <item name="Document header" id="82775">
             <topics>
                 <topic url="WordDocuments/documentheader4.htm" window="right">Document Header</topic>
             </topics>
         </item>
-        <item name="post-processing " id="79409">
+        <item name="post-processing " id="82782">
             <topics>
                 <topic url="WordDocuments/postprocessing4.htm" window="right">Post-Processing</topic>
             </topics>
         </item>
-        <item name="routing" id="79408">
+        <item name="routing" id="82781">
             <topics>
                 <topic url="WordDocuments/routing40.htm" window="right">Routing</topic>
             </topics>
@@ -4498,32 +4498,32 @@
                 <topic url="WordDocuments/commonsearchcriteria.htm" window="right">Common Search Criteria</topic>
             </topics>
         </item>
-        <item name="Corporate Card Application)" id="79530">
+        <item name="Corporate Card Application)" id="82896">
             <topics>
                 <topic url="WordDocuments/corporatecardapplication1.htm" window="right">Corporate Card Application</topic>
             </topics>
         </item>
-        <item name="CTS Card Application)" id="79532">
+        <item name="CTS Card Application)" id="82898">
             <topics>
                 <topic url="WordDocuments/ctscardapplication1.htm" window="right">CTS Card Application</topic>
             </topics>
         </item>
-        <item name="Entertainment Reimbursement)" id="79534">
+        <item name="Entertainment Reimbursement)" id="82900">
             <topics>
                 <topic url="WordDocuments/entertainmentreimbursement1.htm" window="right">Entertainment Reimbursement</topic>
             </topics>
         </item>
-        <item name="Moving and Relocation Reimbursement)" id="79537">
+        <item name="Moving and Relocation Reimbursement)" id="82902">
             <topics>
                 <topic url="WordDocuments/movingandrelocation.htm" window="right">Moving and Relocation</topic>
             </topics>
         </item>
-        <item name="Travel Authorization)" id="79540">
+        <item name="Travel Authorization)" id="82904">
             <topics>
                 <topic url="WordDocuments/travelauthorization1.htm" window="right">Travel Authorization</topic>
             </topics>
         </item>
-        <item name="Travel Reimbursement)" id="79543">
+        <item name="Travel Reimbursement)" id="82906">
             <topics>
                 <topic url="WordDocuments/travelreimbursement1.htm" window="right">Travel Reimbursement</topic>
             </topics>
@@ -5788,19 +5788,19 @@
             <topic url="WordDocuments/enterprisefeedupload.htm" window="right">Enterprise Feed Upload</topic>
         </topics>
     </item>
-    <item name="Entertainment Purpose document " id="79561">
+    <item name="Entertainment Purpose document " id="82922">
         <topics>
             <topic url="WordDocuments/entertainmentpurpose.htm" window="right">Entertainment Purpose</topic>
         </topics>
     </item>
     <item name="Entertainment Reimbursement" id="79411">
         <topics />
-        <item name="custom document search)" id="79533">
+        <item name="custom document search)" id="82899">
             <topics>
                 <topic url="WordDocuments/entertainmentreimbursement1.htm" window="right">Entertainment Reimbursement</topic>
             </topics>
         </item>
-        <item name="Document Header" id="79412">
+        <item name="Document Header" id="82784">
             <topics>
                 <topic url="WordDocuments/documentheader5.htm" window="right">Document Header</topic>
             </topics>
@@ -5808,87 +5808,87 @@
     </item>
     <item name="Entertainment Reimbursement document" id="79413">
         <topics />
-        <item name="Actual Expenses tab" id="79417">
+        <item name="Actual Expenses tab" id="82788">
             <topics>
                 <topic url="WordDocuments/actualexpensestab1.htm" window="right">Actual Expenses Tab</topic>
             </topics>
         </item>
-        <item name="Agency Links tab" id="79425">
+        <item name="Agency Links tab" id="82796">
             <topics>
                 <topic url="WordDocuments/agencylinkstab1.htm" window="right">Agency Links Tab</topic>
             </topics>
         </item>
-        <item name="Assign Accounts tab" id="79421">
+        <item name="Assign Accounts tab" id="82792">
             <topics>
                 <topic url="WordDocuments/assignaccountstab1.htm" window="right">Assign Accounts Tab</topic>
             </topics>
         </item>
-        <item name="business rules" id="79428">
+        <item name="business rules" id="82799">
             <topics>
                 <topic url="WordDocuments/businessrules47.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Edit Attendees tab" id="79416">
+        <item name="Edit Attendees tab" id="82787">
             <topics>
                 <topic url="WordDocuments/attendeestab.htm" window="right">Attendees Tab</topic>
             </topics>
         </item>
-        <item name="Entertainment Overview tab" id="79415">
+        <item name="Entertainment Overview tab" id="82786">
             <topics>
                 <topic url="WordDocuments/entertainmentoverviewtab.htm" window="right">Entertainment Overview Tab</topic>
             </topics>
         </item>
-        <item name="Expense Totals tab" id="79418">
+        <item name="Expense Totals tab" id="82789">
             <topics>
                 <topic url="WordDocuments/expensetotalstab.htm" window="right">Expense Totals Tab</topic>
             </topics>
         </item>
-        <item name="initiating a" id="79432">
+        <item name="initiating a" id="82803">
             <topics>
                 <topic url="WordDocuments/initiatinganentertainmentreimbursement.htm" window="right">Initiating an Entertainment Reimbursement</topic>
             </topics>
         </item>
-        <item name="notes about standard Kuali Financials tabs in" id="79426">
+        <item name="notes about standard Kuali Financials tabs in" id="82797">
             <topics>
                 <topic url="WordDocuments/notesaboutstandardkualifinancialstabs.htm" window="right">Notes about Standard Kuali Financials Tabs</topic>
             </topics>
         </item>
-        <item name="Payment Information tab" id="79422">
+        <item name="Payment Information tab" id="82793">
             <topics>
                 <topic url="WordDocuments/paymentinformationtab2.htm" window="right">Payment Information Tab</topic>
             </topics>
         </item>
-        <item name="post-processing" id="79431">
+        <item name="post-processing" id="82802">
             <topics>
                 <topic url="WordDocuments/postprocessing5.htm" window="right">Post-Processing</topic>
             </topics>
         </item>
-        <item name="Pre-Disbursement Processor Status tab" id="79423">
+        <item name="Pre-Disbursement Processor Status tab" id="82794">
             <topics>
                 <topic url="WordDocuments/predisbursementprocessorstatustab2.htm" window="right">Pre-Disbursement Processor Status Tab</topic>
             </topics>
         </item>
-        <item name="Reports tab" id="79414">
+        <item name="Reports tab" id="82785">
             <topics>
                 <topic url="WordDocuments/reportstab1.htm" window="right">Reports Tab</topic>
             </topics>
         </item>
-        <item name="Special Circumstances tab" id="79419">
+        <item name="Special Circumstances tab" id="82790">
             <topics>
                 <topic url="WordDocuments/specialcircumstancestab1.htm" window="right">Special Circumstances Tab</topic>
             </topics>
         </item>
-        <item name="Summary by Object Code tab" id="79420">
+        <item name="Summary by Object Code tab" id="82791">
             <topics>
                 <topic url="WordDocuments/summarybyobjectcodetab1.htm" window="right">Summary by Object Code Tab</topic>
             </topics>
         </item>
-        <item name="View Related Documents tab" id="79424">
+        <item name="View Related Documents tab" id="82795">
             <topics>
                 <topic url="WordDocuments/viewrelateddocumentstab5.htm" window="right">View Related Documents Tab</topic>
             </topics>
         </item>
-        <item name="workflow action buttons on" id="79427">
+        <item name="workflow action buttons on" id="82798">
             <topics>
                 <topic url="WordDocuments/workflowactionbuttons1.htm" window="right">Workflow Action Buttons</topic>
             </topics>
@@ -6024,48 +6024,48 @@
     </item>
     <item name="Expense Type document" id="79563">
         <topics />
-        <item name="business rules" id="79564">
+        <item name="business rules" id="82924">
             <topics>
                 <topic url="WordDocuments/businessrules56.htm" window="right">Business Rules</topic>
             </topics>
         </item>
     </item>
-    <item name="Expense Type document " id="79562">
+    <item name="Expense Type document " id="82923">
         <topics>
             <topic url="WordDocuments/expensetype.htm" window="right">Expense Type</topic>
         </topics>
     </item>
-    <item name="Expense Type Object Code document " id="79566">
+    <item name="Expense Type Object Code document " id="82926">
         <topics>
             <topic url="WordDocuments/expensetypeobjectcode.htm" window="right">Expense Type Object Code</topic>
         </topics>
     </item>
-    <item name="Expenses to Clear Tab" id="79551">
+    <item name="Expenses to Clear Tab" id="82914">
         <topics>
             <topic url="WordDocuments/expensestocleartab.htm" window="right">Expenses to Clear Tab</topic>
         </topics>
     </item>
-    <item name="expenses, distributing to accounts " id="79384">
+    <item name="expenses, distributing to accounts " id="82759">
         <topics>
             <topic url="WordDocuments/distributingexpensestoaccounts.htm" window="right">Distributing Expenses to Accounts</topic>
         </topics>
     </item>
-    <item name="expenses, distributing to accounts all at once" id="79385">
+    <item name="expenses, distributing to accounts all at once" id="82760">
         <topics>
             <topic url="WordDocuments/distributingallexpensesatonce.htm" window="right">Distributing All Expenses at Once</topic>
         </topics>
     </item>
-    <item name="expenses, distributing to accounts by object code" id="79386">
+    <item name="expenses, distributing to accounts by object code" id="82761">
         <topics>
             <topic url="WordDocuments/distributingexpensesbyobjectcode.htm" window="right">Distributing Expenses by Object Code</topic>
         </topics>
     </item>
-    <item name="expenses, importing" id="79368">
+    <item name="expenses, importing" id="82745">
         <topics>
             <topic url="WordDocuments/workingintheimportedexpensessection.htm" window="right">Working in the Imported Expenses Section</topic>
         </topics>
     </item>
-    <item name="expenses, manually assigning accounts" id="79387">
+    <item name="expenses, manually assigning accounts" id="82762">
         <topics>
             <topic url="WordDocuments/manuallyassigningaccountinglines.htm" window="right">Manually Assigning Accounting Lines</topic>
         </topics>
@@ -6417,7 +6417,7 @@
         <topics>
             <topic url="WordDocuments/paymentinformationtab.htm" window="right">Payment Information Tab</topic>
         </topics>
-        <item name="fields, list of" id="79379">
+        <item name="fields, list of" id="82755">
             <topics>
                 <topic url="WordDocuments/foreigndrafttab1.htm" window="right">Foreign Draft Tab</topic>
             </topics>
@@ -6936,7 +6936,7 @@
             </topics>
         </item>
     </item>
-    <item name="Group Travel tab" id="79361">
+    <item name="Group Travel tab" id="82738">
         <topics>
             <topic url="WordDocuments/grouptraveltab.htm" window="right">Group Travel Tab</topic>
         </topics>
@@ -7011,7 +7011,7 @@
             <topic url="WordDocuments/importlines.htm" window="right">Import Lines</topic>
         </topics>
     </item>
-    <item name="importing expenses " id="79369">
+    <item name="importing expenses " id="82746">
         <topics>
             <topic url="WordDocuments/workingintheimportedexpensessection.htm" window="right">Working in the Imported Expenses Section</topic>
         </topics>
@@ -7227,7 +7227,7 @@
             <topic url="WordDocuments/itemtype.htm" window="right">Item Type</topic>
         </topics>
     </item>
-    <item name="Job Classification document " id="79567">
+    <item name="Job Classification document " id="82927">
         <topics>
             <topic url="WordDocuments/jobclassification.htm" window="right">Job Classification</topic>
         </topics>
@@ -7971,13 +7971,13 @@
     </item>
     <item name="Mileage Rate document" id="79569">
         <topics />
-        <item name="business rules" id="79570">
+        <item name="business rules" id="82929">
             <topics>
                 <topic url="WordDocuments/businessrules57.htm" window="right">Business Rules</topic>
             </topics>
         </item>
     </item>
-    <item name="Mileage Rate document " id="79568">
+    <item name="Mileage Rate document " id="82928">
         <topics>
             <topic url="WordDocuments/mileagerate.htm" window="right">Mileage Rate</topic>
         </topics>
@@ -8071,7 +8071,7 @@
     </item>
     <item name="Moving and Relocation  Reimbursement document" id="79436">
         <topics />
-        <item name="Moving and Relocation Overview tab" id="79437">
+        <item name="Moving and Relocation Overview tab" id="82807">
             <topics>
                 <topic url="WordDocuments/movingandrelocationoverviewtab.htm" window="right">Moving and Relocation Overview Tab</topic>
             </topics>
@@ -8079,12 +8079,12 @@
     </item>
     <item name="Moving and Relocation document" id="79447">
         <topics />
-        <item name="notes about standard Kuali Financials tabs in" id="79448">
+        <item name="notes about standard Kuali Financials tabs in" id="82817">
             <topics>
                 <topic url="WordDocuments/notesaboutstandardkualifinancialstabs1.htm" window="right">Notes about Standard Kuali Financials Tabs</topic>
             </topics>
         </item>
-        <item name="workflow action buttons on" id="79449">
+        <item name="workflow action buttons on" id="82818">
             <topics>
                 <topic url="WordDocuments/workflowactionbuttons2.htm" window="right">Workflow Action Buttons</topic>
             </topics>
@@ -8092,87 +8092,87 @@
     </item>
     <item name="Moving and Relocation Reimbursement" id="79535">
         <topics />
-        <item name="custom document search)" id="79536">
+        <item name="custom document search)" id="82901">
             <topics>
                 <topic url="WordDocuments/movingandrelocation.htm" window="right">Moving and Relocation</topic>
             </topics>
         </item>
     </item>
-    <item name="Moving and Relocation Reimbursement document" id="79433">
+    <item name="Moving and Relocation Reimbursement document" id="82804">
         <topics>
             <topic url="WordDocuments/movingandrelocationreimbursement.htm" window="right">Moving and Relocation Reimbursement</topic>
         </topics>
-        <item name="Actual Expenses tab" id="79439">
+        <item name="Actual Expenses tab" id="82809">
             <topics>
                 <topic url="WordDocuments/actualexpensestab2.htm" window="right">Actual Expenses Tab</topic>
             </topics>
         </item>
-        <item name="Agency Links tab" id="79446">
+        <item name="Agency Links tab" id="82816">
             <topics>
                 <topic url="WordDocuments/agencylinkstab2.htm" window="right">Agency Links Tab</topic>
             </topics>
         </item>
-        <item name="Assign Accounts tab" id="79442">
+        <item name="Assign Accounts tab" id="82812">
             <topics>
                 <topic url="WordDocuments/assignaccountstab2.htm" window="right">Assign Accounts Tab</topic>
             </topics>
         </item>
-        <item name="business rules" id="79450">
+        <item name="business rules" id="82819">
             <topics>
                 <topic url="WordDocuments/businessrules48.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Document Header" id="79434">
+        <item name="Document Header" id="82805">
             <topics>
                 <topic url="WordDocuments/documentheader6.htm" window="right">Document Header</topic>
             </topics>
         </item>
-        <item name="Expense Totals tab" id="79440">
+        <item name="Expense Totals tab" id="82810">
             <topics>
                 <topic url="WordDocuments/expensetotalstab1.htm" window="right">Expense Totals Tab</topic>
             </topics>
         </item>
-        <item name="initiating a" id="79454">
+        <item name="initiating a" id="82823">
             <topics>
                 <topic url="WordDocuments/initiatingamovingandrelocationreimbursement.htm" window="right">Initiating a Moving and Relocation Reimbursement</topic>
             </topics>
         </item>
-        <item name="Payment Information tab" id="79443">
+        <item name="Payment Information tab" id="82813">
             <topics>
                 <topic url="WordDocuments/paymentinformationtab3.htm" window="right">Payment Information Tab</topic>
             </topics>
         </item>
-        <item name="post-processing" id="79453">
+        <item name="post-processing" id="82822">
             <topics>
                 <topic url="WordDocuments/postprocessing6.htm" window="right">Post-Processing</topic>
             </topics>
         </item>
-        <item name="Pre-Disbursement Processor Status tab" id="79444">
+        <item name="Pre-Disbursement Processor Status tab" id="82814">
             <topics>
                 <topic url="WordDocuments/predisbursementprocessorstatustab3.htm" window="right">Pre-Disbursement Processor Status Tab</topic>
             </topics>
         </item>
-        <item name="Reports tab" id="79435">
+        <item name="Reports tab" id="82806">
             <topics>
                 <topic url="WordDocuments/reportstab2.htm" window="right">Reports Tab</topic>
             </topics>
         </item>
-        <item name="routing" id="79452">
+        <item name="routing" id="82821">
             <topics>
                 <topic url="WordDocuments/routing42.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name="Special Circumstances tab" id="79438">
+        <item name="Special Circumstances tab" id="82808">
             <topics>
                 <topic url="WordDocuments/specialcircumstancestab2.htm" window="right">Special Circumstances Tab</topic>
             </topics>
         </item>
-        <item name="Summary by Object Code tab" id="79441">
+        <item name="Summary by Object Code tab" id="82811">
             <topics>
                 <topic url="WordDocuments/summarybyobjectcodetab2.htm" window="right">Summary by Object Code Tab</topic>
             </topics>
         </item>
-        <item name="View Related Documents tab" id="79445">
+        <item name="View Related Documents tab" id="82815">
             <topics>
                 <topic url="WordDocuments/viewrelateddocumentstab6.htm" window="right">View Related Documents Tab</topic>
             </topics>
@@ -8743,7 +8743,7 @@
     </item>
     <item name="Payment Information" id="79375">
         <topics />
-        <item name="fields, list of" id="79376">
+        <item name="fields, list of" id="82752">
             <topics>
                 <topic url="WordDocuments/paymentinformationtab1.htm" window="right">Payment Information Tab</topic>
             </topics>
@@ -8844,27 +8844,27 @@
             <topic url="WordDocuments/pendingactionrequeststab.htm" window="right">Pending Action Requests Tab</topic>
         </topics>
     </item>
-    <item name="Per Diem document " id="79572">
+    <item name="Per Diem document " id="82931">
         <topics>
             <topic url="WordDocuments/perdiem.htm" window="right">Per Diem</topic>
         </topics>
     </item>
-    <item name="Per Diem Expenses tab" id="79363">
+    <item name="Per Diem Expenses tab" id="82740">
         <topics>
             <topic url="WordDocuments/perdiemexpensestab.htm" window="right">Per Diem Expenses Tab</topic>
         </topics>
     </item>
-    <item name="Per Diem Meals and Incidentals Breakdown document " id="79573">
+    <item name="Per Diem Meals and Incidentals Breakdown document " id="82932">
         <topics>
             <topic url="WordDocuments/perdiemmealsandincidentalsbreakdown.htm" window="right">Per Diem Meals and Incidentals Breakdown</topic>
         </topics>
     </item>
-    <item name="Per Diem TXT Batch Upload " id="79610">
+    <item name="Per Diem TXT Batch Upload " id="82965">
         <topics>
             <topic url="WordDocuments/perdiemtxtbatchupload.htm" window="right">Per Diem TXT Batch Upload</topic>
         </topics>
     </item>
-    <item name="Per Diem XML Batch Upload " id="79607">
+    <item name="Per Diem XML Batch Upload " id="82963">
         <topics>
             <topic url="WordDocuments/perdiemxmlbatchupload.htm" window="right">Per Diem XML Batch Upload</topic>
         </topics>
@@ -9057,7 +9057,7 @@
     </item>
     <item name="Pre-Disbursement Processor Status" id="79380">
         <topics />
-        <item name="fields, list of" id="79381">
+        <item name="fields, list of" id="82756">
             <topics>
                 <topic url="WordDocuments/predisbursementprocessorstatustab1.htm" window="right">Pre-Disbursement Processor Status Tab</topic>
             </topics>
@@ -9388,7 +9388,7 @@
             <topic url="WordDocuments/auxiliaryvoucher.htm" window="right">Auxiliary Voucher</topic>
         </topics>
     </item>
-    <item name="reconciled expenses, viewing detail in" id="79370">
+    <item name="reconciled expenses, viewing detail in" id="82747">
         <topics>
             <topic url="WordDocuments/viewingdetailinthereconciledexpensessection.htm" window="right">Viewing Detail in the Reconciled Expenses Section</topic>
         </topics>
@@ -9418,12 +9418,12 @@
             <topic url="WordDocuments/lookuprelatedcapitalassetdocumentstab.htm" window="right">Lookup Related Capital Asset Documents Tab</topic>
         </topics>
     </item>
-    <item name="Relating Documents to Each Other" id="79382">
+    <item name="Relating Documents to Each Other" id="82757">
         <topics>
             <topic url="WordDocuments/viewrelateddocumentstab4.htm" window="right">View Related Documents Tab</topic>
         </topics>
     </item>
-    <item name="Relocation Reason document " id="79574">
+    <item name="Relocation Reason document " id="82933">
         <topics>
             <topic url="WordDocuments/relocationreason.htm" window="right">Relocation Reason</topic>
         </topics>
@@ -9483,7 +9483,7 @@
             <topic url="WordDocuments/reportsorganization.htm" window="right">Reports Organization</topic>
         </topics>
     </item>
-    <item name="Reports tab" id="79360">
+    <item name="Reports tab" id="82737">
         <topics>
             <topic url="WordDocuments/reportstab.htm" window="right">Reports Tab</topic>
         </topics>
@@ -10174,12 +10174,12 @@
             <topic url="WordDocuments/sourceoffunds1.htm" window="right">Source of Funds</topic>
         </topics>
     </item>
-    <item name="Special Circumstances Question document " id="79575">
+    <item name="Special Circumstances Question document " id="82934">
         <topics>
             <topic url="WordDocuments/specialcircumstancesquestion.htm" window="right">Special Circumstances Question</topic>
         </topics>
     </item>
-    <item name="Special Circumstances tab" id="79371">
+    <item name="Special Circumstances tab" id="82748">
         <topics>
             <topic url="WordDocuments/specialcircumstancestab.htm" window="right">Special Circumstances Tab</topic>
         </topics>
@@ -10193,7 +10193,7 @@
         <topics>
             <topic url="WordDocuments/paymentinformationtab.htm" window="right">Payment Information Tab</topic>
         </topics>
-        <item name="fields, list of" id="79377">
+        <item name="fields, list of" id="82753">
             <topics>
                 <topic url="WordDocuments/specialhandlingtab1.htm" window="right">Special Handling Tab</topic>
             </topics>
@@ -10312,7 +10312,7 @@
             <topic url="WordDocuments/sufficientfundscode1.htm" window="right">Sufficient Funds Code</topic>
         </topics>
     </item>
-    <item name="Summary by Object Code tab" id="79372">
+    <item name="Summary by Object Code tab" id="82749">
         <topics>
             <topic url="WordDocuments/summarybyobjectcodetab.htm" window="right">Summary by Object Code Tab</topic>
         </topics>
@@ -10433,17 +10433,17 @@
     </item>
     <item name="Taxable Ramification" id="79457">
         <topics />
-        <item name="Taxable Ramification Notice tab" id="79458">
+        <item name="Taxable Ramification Notice tab" id="82826">
             <topics>
                 <topic url="WordDocuments/taxableramificationnoticetab.htm" window="right">Taxable Ramification Notice Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Taxable Ramification document" id="79455">
+    <item name="Taxable Ramification document" id="82824">
         <topics>
             <topic url="WordDocuments/taxableramification.htm" window="right">Taxable Ramification</topic>
         </topics>
-        <item name="Document Overview tab" id="79456">
+        <item name="Document Overview tab" id="82825">
             <topics>
                 <topic url="WordDocuments/documentoverviewtab8.htm" window="right">Document Overview Tab</topic>
             </topics>
@@ -10451,70 +10451,70 @@
     </item>
     <item name="TEM" id="79354">
         <topics />
-        <item name="batch processes" id="79355">
+        <item name="batch processes" id="82734">
             <topics>
                 <topic url="WordDocuments/travelandentertainmentbatchprocesses.htm" window="right">Travel and Entertainment Batch Processes</topic>
             </topics>
         </item>
     </item>
-    <item name="TEM Card Holder Lookup" id="79576">
+    <item name="TEM Card Holder Lookup" id="82935">
         <topics>
             <topic url="WordDocuments/temcardholderlookup.htm" window="right">TEM Cardholder Lookup</topic>
         </topics>
     </item>
-    <item name="TEM Correction document" id="79590">
+    <item name="TEM Correction document" id="82948">
         <topics>
             <topic url="WordDocuments/travelagencyauditandcorrection.htm" window="right">Travel Agency Audit and Correction</topic>
         </topics>
     </item>
     <item name="TEM Profile" id="79578">
         <topics />
-        <item name="Administrator tab" id="79584">
+        <item name="Administrator tab" id="82942">
             <topics>
                 <topic url="WordDocuments/administratortab.htm" window="right">Administrator Tab</topic>
             </topics>
         </item>
-        <item name="Arrangers tab" id="79582">
+        <item name="Arrangers tab" id="82940">
             <topics>
                 <topic url="WordDocuments/arrangerstab.htm" window="right">Arrangers Tab</topic>
             </topics>
         </item>
-        <item name="creating a" id="79585">
+        <item name="creating a" id="82943">
             <topics>
                 <topic url="WordDocuments/creatingatemprofile.htm" window="right">Creating a TEM Profile</topic>
             </topics>
         </item>
-        <item name="Edit TEM Profile tab" id="79579">
+        <item name="Edit TEM Profile tab" id="82937">
             <topics>
                 <topic url="WordDocuments/temprofiletab2.htm" window="right">TEM Profile Tab</topic>
             </topics>
         </item>
-        <item name="Email Notification Preferences tab" id="79583">
+        <item name="Email Notification Preferences tab" id="82941">
             <topics>
                 <topic url="WordDocuments/emailnotificationpreferencestab.htm" window="right">Email Notification Preferences Tab</topic>
             </topics>
         </item>
-        <item name="Emergency Contacts tab" id="79580">
+        <item name="Emergency Contacts tab" id="82938">
             <topics>
                 <topic url="WordDocuments/emergencycontactstab.htm" window="right">Emergency Contacts Tab</topic>
             </topics>
         </item>
-        <item name="Payment Method tab" id="79581">
+        <item name="Payment Method tab" id="82939">
             <topics>
                 <topic url="WordDocuments/paymentmethodtab.htm" window="right">Payment Method Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="TEM Profile document" id="79577">
+    <item name="TEM Profile document" id="82936">
         <topics>
             <topic url="WordDocuments/temprofile.htm" window="right">TEM Profile</topic>
         </topics>
-        <item name="business rules" id="79586">
+        <item name="business rules" id="82944">
             <topics>
                 <topic url="WordDocuments/businessrules58.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="routing" id="79588">
+        <item name="routing" id="82946">
             <topics>
                 <topic url="WordDocuments/routing48.htm" window="right">Routing</topic>
             </topics>
@@ -10585,62 +10585,62 @@
             <topic url="WordDocuments/plantindebtedness.htm" window="right">Plant Indebtedness</topic>
         </topics>
     </item>
-    <item name="Transportation Mode document " id="79589">
+    <item name="Transportation Mode document " id="82947">
         <topics>
             <topic url="WordDocuments/transportationmode.htm" window="right">Transportation Mode</topic>
         </topics>
     </item>
     <item name="Travel Agency Audit and Correction document" id="79592">
         <topics />
-        <item name="Accounting Information tab" id="79597">
+        <item name="Accounting Information tab" id="82954">
             <topics>
                 <topic url="WordDocuments/accountinginformationtab.htm" window="right">Accounting Information Tab</topic>
             </topics>
         </item>
-        <item name="business rules " id="79598">
+        <item name="business rules " id="82955">
             <topics>
                 <topic url="WordDocuments/businessrules59.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="post-processing " id="79600">
+        <item name="post-processing " id="82957">
             <topics>
                 <topic url="WordDocuments/postprocessing11.htm" window="right">Post-Processing</topic>
             </topics>
         </item>
-        <item name="Ticket Itinerary tab" id="79596">
+        <item name="Ticket Itinerary tab" id="82953">
             <topics>
                 <topic url="WordDocuments/ticketitinerarytab.htm" window="right">Ticket Itinerary Tab</topic>
             </topics>
         </item>
-        <item name="Travel Agency Data tab" id="79593">
+        <item name="Travel Agency Data tab" id="82950">
             <topics>
                 <topic url="WordDocuments/travelagencydatatab.htm" window="right">Travel Agency Data Tab</topic>
             </topics>
         </item>
-        <item name="Traveler Data tab" id="79595">
+        <item name="Traveler Data tab" id="82952">
             <topics>
                 <topic url="WordDocuments/travelerdatatab.htm" window="right">Traveler Data Tab</topic>
             </topics>
         </item>
-        <item name="Trip Data tab" id="79594">
+        <item name="Trip Data tab" id="82951">
             <topics>
                 <topic url="WordDocuments/tripdatatab.htm" window="right">Trip Data Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Travel Agency Data Upload " id="79613">
+    <item name="Travel Agency Data Upload " id="82967">
         <topics>
             <topic url="WordDocuments/travelagencydataupload.htm" window="right">Travel Agency Data Upload</topic>
         </topics>
     </item>
     <item name="Travel and Entertainment" id="79356">
         <topics />
-        <item name="transaction documents" id="79357">
+        <item name="transaction documents" id="82735">
             <topics>
                 <topic url="WordDocuments/travelandentertainmenttransactiondocuments.htm" window="right">Travel and Entertainment Transaction Documents</topic>
             </topics>
         </item>
-        <item name="Travel Agency Audit and Correction document" id="79591">
+        <item name="Travel Agency Audit and Correction document" id="82949">
             <topics>
                 <topic url="WordDocuments/travelagencyauditandcorrection.htm" window="right">Travel Agency Audit and Correction</topic>
             </topics>
@@ -10653,32 +10653,32 @@
     </item>
     <item name="Travel and Entertainment transaction documents" id="79358">
         <topics />
-        <item name="common tabs in" id="79359">
+        <item name="common tabs in" id="82736">
             <topics>
                 <topic url="WordDocuments/commontabsintemtransactiondocuments.htm" window="right">Common Tabs in TEM Transaction documents</topic>
             </topics>
         </item>
     </item>
-    <item name="Travel Arranger document" id="79459">
+    <item name="Travel Arranger document" id="82827">
         <topics>
             <topic url="WordDocuments/travelarranger.htm" window="right">Travel Arranger</topic>
         </topics>
-        <item name="business rules " id="79462">
+        <item name="business rules " id="82830">
             <topics>
                 <topic url="WordDocuments/businessrules49.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Edit Request tab" id="79461">
+        <item name="Edit Request tab" id="82829">
             <topics>
                 <topic url="WordDocuments/editrequesttab.htm" window="right">Edit Request Tab</topic>
             </topics>
         </item>
-        <item name="routing " id="79464">
+        <item name="routing " id="82832">
             <topics>
                 <topic url="WordDocuments/routing43.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name="Traveler Section tab" id="79460">
+        <item name="Traveler Section tab" id="82828">
             <topics>
                 <topic url="WordDocuments/travelersectiontab.htm" window="right">Traveler Section Tab</topic>
             </topics>
@@ -10686,27 +10686,27 @@
     </item>
     <item name="Travel Authorization" id="79538">
         <topics />
-        <item name="custom document search)" id="79539">
+        <item name="custom document search)" id="82903">
             <topics>
                 <topic url="WordDocuments/travelauthorization1.htm" window="right">Travel Authorization</topic>
             </topics>
         </item>
     </item>
-    <item name="Travel Authorization Amendment document" id="79489">
+    <item name="Travel Authorization Amendment document" id="82856">
         <topics>
             <topic url="WordDocuments/travelauthorizationamendment.htm" window="right">Travel Authorization Amendment</topic>
         </topics>
-        <item name="business rules" id="79491">
+        <item name="business rules" id="82858">
             <topics>
                 <topic url="WordDocuments/businessrules51.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="post processing" id="79494">
+        <item name="post processing" id="82861">
             <topics>
                 <topic url="WordDocuments/postprocessing8.htm" window="right">Post Processing</topic>
             </topics>
         </item>
-        <item name="routing a" id="79493">
+        <item name="routing a" id="82860">
             <topics>
                 <topic url="WordDocuments/routing45.htm" window="right">Routing</topic>
             </topics>
@@ -10714,292 +10714,292 @@
     </item>
     <item name="Travel Authorization Close document" id="79497">
         <topics />
-        <item name="business rules " id="79498">
+        <item name="business rules " id="82864">
             <topics>
                 <topic url="WordDocuments/businessrules52.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="post processing" id="79501">
+        <item name="post processing" id="82867">
             <topics>
                 <topic url="WordDocuments/postprocessing9.htm" window="right">Post Processing</topic>
             </topics>
         </item>
-        <item name="routing" id="79500">
+        <item name="routing" id="82866">
             <topics>
                 <topic url="WordDocuments/routing46.htm" window="right">Routing</topic>
             </topics>
         </item>
     </item>
-    <item name="Travel Authorization Close document " id="79495">
+    <item name="Travel Authorization Close document " id="82862">
         <topics>
             <topic url="WordDocuments/travelauthorizationclose.htm" window="right">Travel Authorization Close</topic>
         </topics>
     </item>
-    <item name="Travel Authorization document" id="79465">
+    <item name="Travel Authorization document" id="82833">
         <topics>
             <topic url="WordDocuments/travelauthorization.htm" window="right">Travel Authorization</topic>
         </topics>
-        <item name=" Expenses tab" id="79476">
+        <item name=" Expenses tab" id="82844">
             <topics>
                 <topic url="WordDocuments/expensestab.htm" window="right">Expenses Tab</topic>
             </topics>
         </item>
-        <item name="Agency Links tab" id="79480">
+        <item name="Agency Links tab" id="82848">
             <topics>
                 <topic url="WordDocuments/agencylinkstab3.htm" window="right">Agency Links Tab</topic>
             </topics>
         </item>
-        <item name="All Advances tab" id="79471">
+        <item name="All Advances tab" id="82839">
             <topics>
                 <topic url="WordDocuments/alladvancestab.htm" window="right">All Advances Tab</topic>
             </topics>
         </item>
-        <item name="amending a" id="79490">
+        <item name="amending a" id="82857">
             <topics>
                 <topic url="WordDocuments/amendingatravelauthorization.htm" window="right">Amending a Travel Authorization</topic>
             </topics>
         </item>
-        <item name="business rules" id="79483">
+        <item name="business rules" id="82851">
             <topics>
                 <topic url="WordDocuments/businessrules50.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="closing a " id="79496">
+        <item name="closing a " id="82863">
             <topics>
                 <topic url="WordDocuments/closingatravelauthorization.htm" window="right">Closing a Travel Authorization</topic>
             </topics>
         </item>
-        <item name="Document Header" id="79466">
+        <item name="Document Header" id="82834">
             <topics>
                 <topic url="WordDocuments/documentheader7.htm" window="right">Document Header</topic>
             </topics>
         </item>
-        <item name="Emergency Contact Information tab" id="79472">
+        <item name="Emergency Contact Information tab" id="82840">
             <topics>
                 <topic url="WordDocuments/emergencycontactinformationtab.htm" window="right">Emergency Contact Information Tab</topic>
             </topics>
         </item>
-        <item name="Estimated Per Diem Expenses tab" id="79475">
+        <item name="Estimated Per Diem Expenses tab" id="82843">
             <topics>
                 <topic url="WordDocuments/estimatedperdiemexpensestab.htm" window="right">Estimated Per Diem Expenses Tab</topic>
             </topics>
         </item>
-        <item name="Grouptab" id="79474">
+        <item name="Grouptab" id="82842">
             <topics>
                 <topic url="WordDocuments/grouptab.htm" window="right">Group Tab</topic>
             </topics>
         </item>
-        <item name="initiating a" id="79488">
+        <item name="initiating a" id="82855">
             <topics>
                 <topic url="WordDocuments/initiatingatravelauthorizationrequest.htm" window="right">Initiating a Travel Authorization Request</topic>
             </topics>
         </item>
-        <item name="notes about standard Kuali Financials tabs in" id="79481">
+        <item name="notes about standard Kuali Financials tabs in" id="82849">
             <topics>
                 <topic url="WordDocuments/notesaboutstandardkualifinancialstabs2.htm" window="right">Notes about Standard Kuali Financials Tabs</topic>
             </topics>
         </item>
-        <item name="Payment Information for Travel Advance tab" id="79470">
+        <item name="Payment Information for Travel Advance tab" id="82838">
             <topics>
                 <topic url="WordDocuments/paymentinformationfortraveladvancetab.htm" window="right">Payment Information for Travel Advance Tab</topic>
             </topics>
         </item>
-        <item name="post-processing" id="79487">
+        <item name="post-processing" id="82854">
             <topics>
                 <topic url="WordDocuments/postprocessing7.htm" window="right">Post-Processing</topic>
             </topics>
         </item>
-        <item name="Pre-Disbursement Processor Status tab" id="79478">
+        <item name="Pre-Disbursement Processor Status tab" id="82846">
             <topics>
                 <topic url="WordDocuments/predisbursementprocessorstatustab4.htm" window="right">Pre-Disbursement Processor Status Tab</topic>
             </topics>
         </item>
-        <item name="Special Circumstances tab" id="79473">
+        <item name="Special Circumstances tab" id="82841">
             <topics>
                 <topic url="WordDocuments/specialcircumstancestab3.htm" window="right">Special Circumstances Tab</topic>
             </topics>
         </item>
-        <item name="Travel Advance Accounting Lines tab" id="79469">
+        <item name="Travel Advance Accounting Lines tab" id="82837">
             <topics>
                 <topic url="WordDocuments/traveladvanceaccountinglinestab.htm" window="right">Travel Advance Accounting Lines Tab</topic>
             </topics>
         </item>
-        <item name="Travel Advance tab" id="79468">
+        <item name="Travel Advance tab" id="82836">
             <topics>
                 <topic url="WordDocuments/traveladvancetab.htm" window="right">Travel Advance Tab</topic>
             </topics>
         </item>
-        <item name="Trip Detail Estimate Total tab" id="79477">
+        <item name="Trip Detail Estimate Total tab" id="82845">
             <topics>
                 <topic url="WordDocuments/tripdetailestimatetotaltab.htm" window="right">Trip Detail Estimate Total Tab</topic>
             </topics>
         </item>
-        <item name="Trip Overview tab" id="79467">
+        <item name="Trip Overview tab" id="82835">
             <topics>
                 <topic url="WordDocuments/tripoverviewtab.htm" window="right">Trip Overview Tab</topic>
             </topics>
         </item>
-        <item name="View Related Documents tab" id="79479">
+        <item name="View Related Documents tab" id="82847">
             <topics>
                 <topic url="WordDocuments/viewrelateddocumentstab7.htm" window="right">View Related Documents Tab</topic>
             </topics>
         </item>
-        <item name="workflow action buttons on" id="79482">
+        <item name="workflow action buttons on" id="82850">
             <topics>
                 <topic url="WordDocuments/workflowactionbuttons3.htm" window="right">Workflow Action Buttons</topic>
             </topics>
         </item>
     </item>
-    <item name="Travel Card Type document " id="79601">
+    <item name="Travel Card Type document " id="82958">
         <topics>
             <topic url="WordDocuments/travelcardtype.htm" window="right">Travel Card Type</topic>
         </topics>
     </item>
     <item name="Travel Reimbursement" id="79541">
         <topics />
-        <item name="custom document search)" id="79542">
+        <item name="custom document search)" id="82905">
             <topics>
                 <topic url="WordDocuments/travelreimbursement1.htm" window="right">Travel Reimbursement</topic>
             </topics>
         </item>
     </item>
-    <item name="Travel Reimbursement document" id="79502">
+    <item name="Travel Reimbursement document" id="82868">
         <topics>
             <topic url="WordDocuments/travelreimbursement.htm" window="right">Travel Reimbursement</topic>
         </topics>
-        <item name="Actual Expenses tab" id="79508">
+        <item name="Actual Expenses tab" id="82874">
             <topics>
                 <topic url="WordDocuments/actualexpensestab3.htm" window="right">Actual Expenses Tab</topic>
             </topics>
         </item>
-        <item name="Agency Links tab" id="79520">
+        <item name="Agency Links tab" id="82886">
             <topics>
                 <topic url="WordDocuments/agencylinkstab4.htm" window="right">Agency Links Tab</topic>
             </topics>
         </item>
-        <item name="Assign Accounts tab" id="79516">
+        <item name="Assign Accounts tab" id="82882">
             <topics>
                 <topic url="WordDocuments/assignaccountstab3.htm" window="right">Assign Accounts Tab</topic>
             </topics>
         </item>
-        <item name="business rules " id="79523">
+        <item name="business rules " id="82889">
             <topics>
                 <topic url="WordDocuments/businessrules53.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Contact Information tab" id="79513">
+        <item name="Contact Information tab" id="82879">
             <topics>
                 <topic url="WordDocuments/contactinformationtab1.htm" window="right">Contact Information Tab</topic>
             </topics>
         </item>
-        <item name="Document header" id="79503">
+        <item name="Document header" id="82869">
             <topics>
                 <topic url="WordDocuments/documentheader8.htm" window="right">Document Header</topic>
             </topics>
         </item>
-        <item name="Group Travel tab" id="79511">
+        <item name="Group Travel tab" id="82877">
             <topics>
                 <topic url="WordDocuments/grouptraveltab1.htm" window="right">Group Travel Tab</topic>
             </topics>
         </item>
-        <item name="initiating a reimbursement request" id="79527">
+        <item name="initiating a reimbursement request" id="82893">
             <topics>
                 <topic url="WordDocuments/initiatingareimbursementrequest.htm" window="right">Initiating a Reimbursement Request</topic>
             </topics>
         </item>
-        <item name="initiating from another TR or a TA" id="79528">
+        <item name="initiating from another TR or a TA" id="82894">
             <topics>
                 <topic url="WordDocuments/creatingatravelreimbursementdocumentfromanothertraveldocument.htm" window="right">Creating a Travel Reimbursement Document from another Travel Document</topic>
             </topics>
         </item>
-        <item name="notes about standard Kuali Financials tabs in" id="79521">
+        <item name="notes about standard Kuali Financials tabs in" id="82887">
             <topics>
                 <topic url="WordDocuments/notesaboutstandardkualifinancialstabs3.htm" window="right">Notes about Standard Kuali Financials Tabs</topic>
             </topics>
         </item>
-        <item name="Payment Information tab" id="79517">
+        <item name="Payment Information tab" id="82883">
             <topics>
                 <topic url="WordDocuments/paymentinformationtab4.htm" window="right">Payment Information Tab</topic>
             </topics>
         </item>
-        <item name="Per Diem Expenses tab" id="79507">
+        <item name="Per Diem Expenses tab" id="82873">
             <topics>
                 <topic url="WordDocuments/perdiemexpensestab1.htm" window="right">Per Diem Expenses Tab</topic>
             </topics>
         </item>
-        <item name="post-processing " id="79526">
+        <item name="post-processing " id="82892">
             <topics>
                 <topic url="WordDocuments/postprocessing10.htm" window="right">Post-Processing</topic>
             </topics>
         </item>
-        <item name="Pre-Disbursement Processor Status tab" id="79518">
+        <item name="Pre-Disbursement Processor Status tab" id="82884">
             <topics>
                 <topic url="WordDocuments/predisbursementprocessorstatustab5.htm" window="right">Pre-Disbursement Processor Status Tab</topic>
             </topics>
         </item>
-        <item name="Reports tab" id="79504">
+        <item name="Reports tab" id="82870">
             <topics>
                 <topic url="WordDocuments/reportstab3.htm" window="right">Reports Tab</topic>
             </topics>
         </item>
-        <item name="routing " id="79525">
+        <item name="routing " id="82891">
             <topics>
                 <topic url="WordDocuments/routing47.htm" window="right">Routing</topic>
                 <topic url="WordDocuments/routing49.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name="Special Circumstances tab" id="79510">
+        <item name="Special Circumstances tab" id="82876">
             <topics>
                 <topic url="WordDocuments/specialcircumstancestab4.htm" window="right">Special Circumstances Tab</topic>
             </topics>
         </item>
-        <item name="Summary by Object Code tab" id="79515">
+        <item name="Summary by Object Code tab" id="82881">
             <topics>
                 <topic url="WordDocuments/summarybyobjectcodetab3.htm" window="right">Summary by Object Code Tab</topic>
             </topics>
         </item>
-        <item name="Travel Advances tab" id="79506">
+        <item name="Travel Advances tab" id="82872">
             <topics>
                 <topic url="WordDocuments/traveladvancestab.htm" window="right">Travel Advances Tab</topic>
             </topics>
         </item>
-        <item name="Travel Expense Total tab" id="79509">
+        <item name="Travel Expense Total tab" id="82875">
             <topics>
                 <topic url="WordDocuments/travelexpensetotaltab.htm" window="right">Travel Expense Total Tab</topic>
             </topics>
         </item>
-        <item name="Traveler Certification tab" id="79514">
+        <item name="Traveler Certification tab" id="82880">
             <topics>
                 <topic url="WordDocuments/travelercertificationtab.htm" window="right">Traveler Certification Tab</topic>
             </topics>
         </item>
-        <item name="Trip Overview tab" id="79505">
+        <item name="Trip Overview tab" id="82871">
             <topics>
                 <topic url="WordDocuments/tripoverviewtab1.htm" window="right">Trip Overview Tab</topic>
             </topics>
         </item>
-        <item name="View Reimbursement History tab" id="79512">
+        <item name="View Reimbursement History tab" id="82878">
             <topics>
                 <topic url="WordDocuments/viewreimbursementhistorytab.htm" window="right">View Reimbursement History Tab</topic>
             </topics>
         </item>
-        <item name="View Related Documents tab" id="79519">
+        <item name="View Related Documents tab" id="82885">
             <topics>
                 <topic url="WordDocuments/viewrelateddocumentstab8.htm" window="right">View Related Documents Tab</topic>
             </topics>
         </item>
-        <item name="workflow action buttons on" id="79522">
+        <item name="workflow action buttons on" id="82888">
             <topics>
                 <topic url="WordDocuments/workflowactionbuttons4.htm" window="right">Workflow Action Buttons</topic>
             </topics>
         </item>
     </item>
-    <item name="traveler information, importing" id="79362">
+    <item name="traveler information, importing" id="82739">
         <topics>
             <topic url="WordDocuments/importingtravelerinformation.htm" window="right">Importing Traveler Information</topic>
         </topics>
     </item>
-    <item name="Traveler Type document " id="79602">
+    <item name="Traveler Type document " id="82959">
         <topics>
             <topic url="WordDocuments/travelertype.htm" window="right">Traveler Type</topic>
         </topics>
@@ -11009,7 +11009,7 @@
             <topic url="WordDocuments/trialbalance.htm" window="right">Trial Balance</topic>
         </topics>
     </item>
-    <item name="Trip Type document " id="79603">
+    <item name="Trip Type document " id="82960">
         <topics>
             <topic url="WordDocuments/triptype.htm" window="right">Trip Type</topic>
         </topics>
@@ -11203,7 +11203,7 @@
             <topic url="WordDocuments/viewassetseparatehistorytab.htm" window="right">View Asset Separate History Tab</topic>
         </topics>
     </item>
-    <item name="viewing payment history, Customer History Report" id="79388">
+    <item name="viewing payment history, Customer History Report" id="82763">
         <topics>
             <topic url="WordDocuments/viewingpaymenthistory.htm" window="right">Viewing Payment History</topic>
         </topics>
@@ -11237,7 +11237,7 @@
         <topics>
             <topic url="WordDocuments/paymentinformationtab.htm" window="right">Payment Information Tab</topic>
         </topics>
-        <item name="fields, list of" id="79378">
+        <item name="fields, list of" id="82754">
             <topics>
                 <topic url="WordDocuments/wiretransfertab1.htm" window="right">Wire Transfer Tab</topic>
             </topics>
