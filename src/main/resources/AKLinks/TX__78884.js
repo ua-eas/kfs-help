@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__78884", [["WordDocuments/editcriteriatab1.htm", "right", "Edit Criteria Tab"],["WordDocuments/loadingagroup.htm", "right", "Loading a Group"]]);

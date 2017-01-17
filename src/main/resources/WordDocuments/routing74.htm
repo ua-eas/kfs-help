@@ -92,10 +92,9 @@ Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt;
 <h5>Routing</h5>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">The Effort Certification report has several special routing 
-conditions. It also handles account review routing differently than other Kuali 
-Financials documents.</p>
+conditions. It also handles account review routing differently than other <a onclick="return d2hpopup(event, this.href)" id="popup_284507" href="gloss_kuali.htm">Kuali</a> Financials documents.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><em><a onclick="return d2hpopup(event, this.href)" id="popup_269022" href="gloss_projectdirector.htm"><em>Project director</em></a> routing:</em> 
+</span><em><a onclick="return d2hpopup(event, this.href)" id="popup_284505" href="gloss_projectdirector.htm"><em>Project director</em></a> routing:</em> 
 Project director routing is, in part, controlled by the FEDERAL_ONLY_ROUTE_IND 
 parameter. If the value of this parameter is 'N,' the document routes to project 
 directors for all accounts appearing on the document. If the parameter is set to 
@@ -115,26 +114,17 @@ no additional changes are made.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span><em>Account review</em>: Fiscal officers for all accounts appearing on 
 the document will receive an approval request. If changes are made to an 
-accounting line associated with a <a onclick="return d2hpopup(event, this.href)" id="popup_269023" href="gloss_fiscalofficer.htm">fiscal officer</a> that has 
-already approved the document then the effort report will route back to the 
-fiscal officer who has already taken an action for an additional approval. This 
-looping will continue until no additional changes have been made.</p>
+accounting line associated with a <a onclick="return d2hpopup(event, this.href)" id="popup_284506" href="gloss_fiscalofficer.htm">fiscal officer</a> that has 
+already approved the document the effort report will route back to the fiscal 
+officer who has already taken an action for an additional approval. This looping 
+will continue until no additional changes have been made.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span><em>Organization review</em><em><span style="FONT-STYLE: normal">:</span></em> This level of routing behaves as normal 
-throughout Kuali Financials, with the <a onclick="return d2hpopup(event, this.href)" id="popup_269024" href="gloss_exception.htm">exception</a> that approvers at this level may be 
-able to the edit the document. This is controlled by the 
-ORG_REVIEWER_ALLOW_EDITS parameter. If this parameter is set to 'N,' these 
-approvers can make no edits. If the value of this parameter is set to 'Y,' then 
-organization review approvers have the same edit capabilities as fiscal 
-officers. Any change in effort by these approvers will generate an FYI action 
-request back to the fiscal officer(s) of the modified account(s).</p>
+throughout Kuali Financials.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span><em>Award routing:</em> If effort has been modified, then the document 
 routes to the Contracts and Grants processors associated with all accounts 
-appearing on the document. In the default configuration, these users are allowed 
-to modify effort reports. This ability can be turned off by removing the KFS-EC 
-Use Transactional Document permission from this <a onclick="return d2hpopup(event, this.href)" id="popup_269025" href="gloss_role.htm">role</a>. If these users modify effort, then an FYI action 
-request is sent to the fiscal officer(s) of the modified account(s). </p>
+appearing on the document. </p>
 <div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
 <p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image343_3.png" />      For information 
 about the account review and organization review see <a href="routelevelsandworkflowrouting.htm">Route Levels and Workflow 

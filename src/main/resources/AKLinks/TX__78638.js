@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__78638", [["WordDocuments/specialhandlingtab.htm", "right", "Special Handling Tab"],["WordDocuments/specialhandlingtab1.htm", "right", "Special Handling Tab"]]);

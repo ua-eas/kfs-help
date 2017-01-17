@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__78813", [["WordDocuments/glaccountbalancepostingmainposter.htm", "right", "GL Account Balance Posting ('Main Poster'))"],["WordDocuments/glpostingposter.htm", "right", "GL Posting ('Poster')"]]);

@@ -88,7 +88,7 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="labordistribution.htm">Labor Distribution</a></div>
 <h2>Labor Distribution Batch Processes</h2>
-<p class="MsoBodyText">This section assumes that <a onclick="return d2hpopup(event, this.href)" id="popup_273435" href="gloss_laborledger.htm">Labor Ledger</a> processing takes place in a batch 
+<p class="MsoBodyText">This section assumes that <a onclick="return d2hpopup(event, this.href)" id="popup_288138" href="gloss_laborledger.htm">Labor Ledger</a> processing takes place in a batch 
 process prior to the General Ledger batch process because labor data eventually 
 needs to make its way into the General Ledger batch process.</p>
 <p class="MsoBodyText">The following diagram illustrates the Labor Ledger daily 
@@ -113,13 +113,13 @@ detailed below. </p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 317.9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="530">
       <p class="TableCells">This job clears entries from the Labor Pending Entries 
       table when transactions  created by Labor Distribution documents are 
-      processed by the labor <a onclick="return d2hpopup(event, this.href)" id="popup_273438" href="gloss_scrubber.htm">scrubber</a> and <a onclick="return d2hpopup(event, this.href)" id="popup_273439" href="gloss_poster.htm">poster</a>. </p></td></tr>
+      processed by the labor <a onclick="return d2hpopup(event, this.href)" id="popup_288141" href="gloss_scrubber.htm">scrubber</a> and <a onclick="return d2hpopup(event, this.href)" id="popup_288142" href="gloss_poster.htm">poster</a>. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="255">
       <p class="TableCells"><a href="laborbalanceforwardj.htm">laborBalanceForwardJob</a></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 317.9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="530">
       <p class="TableCells">The only year end job in Labor Distribution. This job 
-      brings labor balances forward into the new <a onclick="return d2hpopup(event, this.href)" id="popup_273436" href="gloss_fiscalyear.htm">fiscal year</a> to support inception-to-date 
+      brings labor balances forward into the new <a onclick="return d2hpopup(event, this.href)" id="popup_288139" href="gloss_fiscalyear.htm">fiscal year</a> to support inception-to-date 
       expense reporting for Contracts and Grants accounts. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="255">
@@ -132,10 +132,11 @@ detailed below. </p>
       require a refresh. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="255">
-      <p class="TableCells"><a href="laborautomatedbalanc.htm">laborBalancingJob</a></p></td>
+      <p class="TableCells"><a href="laborledgerautomated.htm">laborBalancingJob</a></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 317.9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="530">
       <p class="TableCells">This job helps verify balance and entry transactions 
-      processed through the Kuali Financials Labor Ledger.</p></td></tr>
+      processed through the <a onclick="return d2hpopup(event, this.href)" id="popup_288143" href="gloss_kuali.htm">Kuali</a> Financials Labor 
+      Ledger.</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="255">
       <p class="TableCells">laborEnterpriseFeedJob</p>
@@ -143,10 +144,10 @@ detailed below. </p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 317.9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="530">
       <p class="TableCells">This job processes files that are loaded into the 
       staging/laborEnterpriseFeed directory. Format of the file is described 
-      below in the Labor <a onclick="return d2hpopup(event, this.href)" id="popup_273434" href="gloss_enterprisefeed.htm">Enterprise Feed</a> 
+      below in the Labor <a onclick="return d2hpopup(event, this.href)" id="popup_288137" href="gloss_enterprisefeed.htm">Enterprise Feed</a> 
       Upload.</p>
       <p class="TableCells">This job will also create fringe benefit entries on 
-      salary and <a onclick="return d2hpopup(event, this.href)" id="popup_273437" href="gloss_encumbrance.htm">encumbrance</a> transactions similar to those 
+      salary and <a onclick="return d2hpopup(event, this.href)" id="popup_288140" href="gloss_encumbrance.htm">encumbrance</a> transactions similar to those 
       created by the Salary Expense Transfer if parameters 
       GENERATE_FRINGE_BENEFIT_ENCUMBRANCE_IND and/or GENERATE_FRINGE_BENEFIT_IND 
       = Y. </p></td></tr>
@@ -194,7 +195,7 @@ detailed below. </p>
   validity.</p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="laborbalanceforwardj.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Labor Balance Forward Job</a></p>
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="laborautomatedbalanc.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Labor Automated Balancing</a></p>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="laborledgerautomated.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Labor Ledger Automated Balancing</a></p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="laborscrubber.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Labor Scrubber</a></p>
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="laborposter.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Labor 
 Poster</a></p></span></div></div></body></html>

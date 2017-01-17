@@ -11,7 +11,6 @@
     <term name="Catalog of Federal Domestic Assistance (CFDA)" url="WordDocuments/gloss_catalogoffederaldomesticassistancecfda.htm" window="d2hWnd_SecondaryPopup" id="20279"><![CDATA[Catalog of Federal Domestic Assistance (CFDA)]]></term>
     <term name="Comma-Separated Value (CSV)" url="WordDocuments/gloss_commaseparatedvaluecsv.htm" window="d2hWnd_SecondaryPopup" id="20280"><![CDATA[Comma-Separated Value (CSV)]]></term>
     <term name="Contract Manager" url="WordDocuments/gloss_contractmanager.htm" window="d2hWnd_SecondaryPopup" id="20281"><![CDATA[Contract Manager]]></term>
-    <term name="CONUS" url="WordDocuments/gloss_conus.htm" window="d2hWnd_SecondaryPopup" id="20282"><![CDATA[CONUS]]></term>
     <term name="Cost Share" url="WordDocuments/gloss_costshare.htm" window="d2hWnd_SecondaryPopup" id="20283"><![CDATA[Cost Share]]></term>
     <term name="De-Merge" url="WordDocuments/gloss_demerge.htm" window="d2hWnd_SecondaryPopup" id="20284"><![CDATA[De-Merge]]></term>
     <term name="Depreciation" url="WordDocuments/gloss_depreciation.htm" window="d2hWnd_SecondaryPopup" id="20285"><![CDATA[Depreciation]]></term>
@@ -37,7 +36,6 @@
     <term name="Income Stream Account" url="WordDocuments/gloss_incomestreamaccount.htm" window="d2hWnd_SecondaryPopup" id="20305"><![CDATA[Income Stream Account]]></term>
     <term name="Indirect Cost Recovery" url="WordDocuments/gloss_indirectcostrecovery.htm" window="d2hWnd_SecondaryPopup" id="20306"><![CDATA[Indirect Cost Recovery]]></term>
     <term name="Kuali Foundation" url="WordDocuments/gloss_kualifoundation.htm" window="d2hWnd_SecondaryPopup" id="20307"><![CDATA[Kuali Foundation]]></term>
-    <term name="KualiCo" url="WordDocuments/gloss_kualico.htm" window="d2hWnd_SecondaryPopup" id="20308"><![CDATA[KualiCo]]></term>
     <term name="Labor Ledger" url="WordDocuments/gloss_laborledger.htm" window="d2hWnd_SecondaryPopup" id="20309"><![CDATA[Labor Ledger]]></term>
     <term name="Letter of Credit" url="WordDocuments/gloss_letterofcredit.htm" window="d2hWnd_SecondaryPopup" id="20310"><![CDATA[Letter of Credit]]></term>
     <term name="Lockbox" url="WordDocuments/gloss_lockbox.htm" window="d2hWnd_SecondaryPopup" id="20311"><![CDATA[Lockbox]]></term>
@@ -45,7 +43,6 @@
     <term name="NACUBO" url="WordDocuments/gloss_nacubo.htm" window="d2hWnd_SecondaryPopup" id="20313"><![CDATA[NACUBO]]></term>
     <term name="Namespace Code" url="WordDocuments/gloss_namespacecode.htm" window="d2hWnd_SecondaryPopup" id="20314"><![CDATA[Namespace Code]]></term>
     <term name="Non Resident Alien" url="WordDocuments/gloss_nonresidentalien.htm" window="d2hWnd_SecondaryPopup" id="20315"><![CDATA[Non Resident Alien]]></term>
-    <term name="OCONUS" url="WordDocuments/gloss_oconus.htm" window="d2hWnd_SecondaryPopup" id="20316"><![CDATA[OCONUS]]></term>
     <term name="Parent Document Type" url="WordDocuments/gloss_parentdocumenttype.htm" window="d2hWnd_SecondaryPopup" id="20317"><![CDATA[Parent Document Type]]></term>
     <term name="Post Processor" url="WordDocuments/gloss_postprocessor.htm" window="d2hWnd_SecondaryPopup" id="20318"><![CDATA[Post Processor]]></term>
     <term name="Poster" url="WordDocuments/gloss_poster.htm" window="d2hWnd_SecondaryPopup" id="20319"><![CDATA[Poster]]></term>
@@ -54,4 +51,5 @@
     <term name="Role" url="WordDocuments/gloss_role.htm" window="d2hWnd_SecondaryPopup" id="20322"><![CDATA[Role]]></term>
     <term name="Route Log" url="WordDocuments/gloss_routelog.htm" window="d2hWnd_SecondaryPopup" id="20323"><![CDATA[Route Log]]></term>
     <term name="Scrubber" url="WordDocuments/gloss_scrubber.htm" window="d2hWnd_SecondaryPopup" id="20324"><![CDATA[Scrubber]]></term>
+    <term name="Kuali" url="WordDocuments/gloss_kuali.htm" window="d2hWnd_SecondaryPopup" id="20969"><![CDATA[Kuali]]></term>
 </terms>
