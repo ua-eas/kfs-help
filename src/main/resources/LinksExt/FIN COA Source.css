@@ -8,6 +8,8 @@ P.Note {FONT-SIZE: 10pt;  BORDER-TOP: medium none;  FONT-FAMILY: "Verdana","sans
 
 SPAN.CaptionFigureText {FONT-FAMILY: "Arial Narrow","sans-serif"; }
 
+SPAN.TableCellsEmphasis {FONT-FAMILY: "Arial","sans-serif";  FONT-STYLE: italic; }
+
 SPAN.ColoredLetter-Black {FONT-FAMILY: "Arial Narrow","sans-serif";  FONT-WEIGHT: bold; }
 
 SPAN.NoteChar {FONT-FAMILY: "Verdana","sans-serif"; }
