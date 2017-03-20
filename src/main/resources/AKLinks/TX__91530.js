@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__91530", [["WordDocuments/searchcriteriaforman.htm", "right", "Search Criteria for Manual Edit Tab"],["WordDocuments/searchresultstab.htm", "right", "Search Results Tab"]]);

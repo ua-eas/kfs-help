@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__91557", [["WordDocuments/labordistributionbatchprocesses.htm", "right", "Labor Distribution Batch Processes"],["WordDocuments/overview1.htm", "right", "Overview"],["WordDocuments/routing18.htm", "right", "Routing"]]);
