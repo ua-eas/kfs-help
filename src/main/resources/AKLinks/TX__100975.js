@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__100975", [["WordDocuments/financialsparametercomponent.htm", "right", "Financials Parameter Component"],["WordDocuments/parametercomponent.htm", "right", "Parameter Component"]]);
