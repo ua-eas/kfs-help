@@ -158,7 +158,7 @@ function d2hSwitchPaneChanging(id)
 
 function d2hGetEMailAddress()
 {
-    return "support@mycompany.com";
+    return "kymber@kuali.co";
 }
 
 function d2hGetEMailSubjectTemplate()

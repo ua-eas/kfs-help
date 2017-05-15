@@ -91,19 +91,19 @@ Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d
 Depreciation Process</a></div>
 <h4>Overview</h4>
 <p class="MsoNormal"> </p>
-<p class="MsoNormal">The parameter <a onclick="return d2hpopup(event, this.href)" id="popup_318505" href="gloss_depreciation.htm">DEPRECIATION</a>_PERIOD is used to 
+<p class="MsoNormal">The parameter <a onclick="return d2hpopup(event, this.href)" id="popup_326877" href="gloss_depreciation.htm">DEPRECIATION</a>_PERIOD is used to 
 determine how frequently depreciation entries should be created and posted to 
 the General Ledger. Depreciation can be run monthly, quarterly, semi-annually or 
 annually. </p>
 <p class="MsoNormal"> </p>
 <p class="MsoBodyText">CAMS Depreciation is set to run on the third Thursday of 
-the month. Depreciation will be calculated if the <a onclick="return d2hpopup(event, this.href)" id="popup_318504" href="gloss_fiscalperiod.htm">fiscal period</a> is a multiple of the value in 
+the month. Depreciation will be calculated if the <a onclick="return d2hpopup(event, this.href)" id="popup_326876" href="gloss_fiscalperiod.htm">fiscal period</a> is a multiple of the value in 
 the DEPRECIATION_PERIOD parameter. For example, if you are running deprecation 
 quarterly, the value in the paramter will be set to 3. Each month the 
 calculation will check to see if the fiscal period is a multiple of 3 and if it 
 is, will calculate depreciation. </p>
 <p class="MsoNormal"> </p>
-<p class="MsoBodyText">Prior to the first scheduled run of the new <a onclick="return d2hpopup(event, this.href)" id="popup_318506" href="gloss_fiscalyear.htm">fiscal year</a>, the ResetAssetDepreciationJob must 
+<p class="MsoBodyText">Prior to the first scheduled run of the new <a onclick="return d2hpopup(event, this.href)" id="popup_326878" href="gloss_fiscalyear.htm">fiscal year</a>, the ResetAssetDepreciationJob must 
 be run in order to clear prior year depreciation. This job will sum the buckets 
 of depreciation and update the Previous Year Amount field. </p>
 <p class="MsoNormal"> </p>
@@ -128,7 +128,7 @@ running of the depreciation batch job during fiscal year end. </p>
 <p class="MsoBodyText">Dates for the blank-out period can be set as follows:</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
 DEPRECIATION_DATE to yyyy-mm-dd (for example, 2016-06-30). The system uses this 
-date to determine for which period to run depreciation.The <a onclick="return d2hpopup(event, this.href)" id="popup_318503" href="gloss_accountingperiod.htm">accounting period</a> associated with the date 
+date to determine for which period to run depreciation.The <a onclick="return d2hpopup(event, this.href)" id="popup_326875" href="gloss_accountingperiod.htm">accounting period</a> associated with the date 
 must be a multiple of the Depreciation period. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
 the BLANK_OUT_PERIOD_RUN_DATE  to mm/dd/yyyy (for example, 06/29/2012) to 
@@ -152,5 +152,7 @@ in-service date set to a date in the prior year, DEPRECIATION_DATE set to a day
 in the last accounting period of the fiscal year, blank out begin and end 
 parameters set to a date before and after the date deprecation will be run and 
 blank out period run date set to the day you will be running depreciation. </p>
+<hr size="1" noshade="" />
+
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="calculation.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Calculation</a></p></span></div></div></body></html>

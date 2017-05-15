@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__100587", [["WordDocuments/prescrubber1.htm", "right", "Pre-Scrubber"],["WordDocuments/prescrubber2.htm", "right", "Pre-Scrubber"]]);
