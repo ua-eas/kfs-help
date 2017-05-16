@@ -13,12 +13,22 @@
 function window_onload(evt)
 {
 
-    processQuery();
+    if (!verifyBrowser())
+    {
+        return;
+    }
+    setTimeout("processQuery()", 100);
 
 }
 
 function processQuery()
 {
+
+    var app = getElemById(document, "searchObj");
+    if (!accessibilityTest(window, app, errorHandler))
+    {
+        return;
+    }
 
     var strSearch = document.location.search;
     strSearch = strSearch.substring(1, strSearch.length);
@@ -44,8 +54,7 @@ function processQuery()
         return;
     }
 
-    var mainWindow = d2hGetMainWindow();
-    mainWindow.jSearch(document, valQuery);
+    jhSearch(document, app, valQuery);
 
 }
 
@@ -68,6 +77,14 @@ if (typeof d2hLoadWindows != "undefined")
             </noscript>
         </form>
         </td></tr></table>
+
+        <APPLET NAME="searchObj" id="searchObj" MAYSCRIPT CODEBASE="." CODE="c1search.class" ARCHIVE="web-inf/lib/c1searchengine.jar,web-inf/lib/jsearch.jar" HEIGHT="0" WIDTH="0" VIEWASTEXT>
+            <PARAM NAME="topicsnotfound" VALUE="No topics found.">
+            <PARAM NAME="onstart" VALUE="d2hAppletInitialized">
+
+            <PARAM NAME="frameset" VALUE="true">
+
+        </APPLET>
 
       </div>
     </div>
