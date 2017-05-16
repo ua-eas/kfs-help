@@ -1,10 +1,9 @@
 <%request.setCharacterEncoding("iso-8859-1");%>
-
 <%@page contentType="text/html;charset=iso-8859-1"%>
 <%@page import="java.util.*"%>
 <%@page import="java.net.URL"%>
-<%@page import="c1.search.c1searchengine.*"%>
-<%@page import="c1.search.C1SearchItem.*"%>
+<%@page import="c1.search.c1searchengine"%>
+<%@page import="c1.search.C1SearchItem"%>
 <%
 String strRep = "HTMLSearch";
 
@@ -12,15 +11,13 @@ boolean _bOpenLinkInRightWindow = true;
 
 %>
 <%
-
-
-class c1search
+class c1serversearch
 {
   private URL _baseURL;
   private String _strRepository;
   private Object[] _arrObj;
 
-  public c1search(URL baseuri, String strRepository)
+  public c1serversearch(URL baseuri, String strRepository)
   {
     _baseURL = baseuri;
     _strRepository = strRepository;
