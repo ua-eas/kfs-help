@@ -20,7 +20,7 @@ class c1search
   private String _strRepository;
   private Object[] _arrObj;
 
-  public c1serversearch(URL baseuri, String strRepository)
+  public c1search(URL baseuri, String strRepository)
   {
     _baseURL = baseuri;
     _strRepository = strRepository;
