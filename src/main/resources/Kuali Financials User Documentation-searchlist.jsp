@@ -4,7 +4,7 @@
 <%@page import="java.util.*"%>
 <%@page import="java.net.URL"%>
 <%@page import="c1.search.c1searchengine.*"%>
-<%@page import="c1.search.C1SearchItem"%>
+<%@page import="c1.search.C1SearchItem.*"%>
 <%
 String strRep = "HTMLSearch";
 
@@ -12,7 +12,9 @@ boolean _bOpenLinkInRightWindow = true;
 
 %>
 <%
-class c1serversearch
+
+
+class c1search
 {
   private URL _baseURL;
   private String _strRepository;
