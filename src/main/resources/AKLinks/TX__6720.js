@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__6720", [["WordDocuments/laborposterfiles.htm", "right", "Labor Poster Files"],["WordDocuments/posterfiles.htm", "right", "Poster Files"]]);

@@ -1,6 +1,6 @@
 
 <html><head><title>Business Rules</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN FP Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN Overview Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview1.htm"></a><a id="D2HNextAnchor" href="routing1.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="capitalassetforaccou.htm"></a><a id="D2HNextAnchor" href="process.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,39 +86,56 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="financialprocessing.htm">Financial Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="financialprocessingtransactiondocuments.htm">Financial Processing 
-Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="auxiliaryvoucher.htm">Auxiliary 
-Voucher</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview1.htm">Process 
-Overview</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="kualifinancialsdocum.htm">Kuali 
+Financials Document Fundamentals</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="standardtabs.htm">Standard 
+Tabs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="createcapitalassetst.htm">Create Capital 
+Assets Tab</a></div>
 <h5>Business Rules</h5>
-<p class="Definition"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
-active Accounting Periods are displayed in the <a onclick="return d2hpopup(event, this.href)" id="popup_332196" href="gloss_accountingperiod.htm">Accounting Period</a> dropdown. The parameter, 
-ACCOUNTING_PERIOD_GRACE_PERIOD, controls which prior period(s), if any, are 
-displayed.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>An 
+asset may be created only if the object code with the capital object sub type is 
+displayed on the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">To</span></strong> portion of the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Accounting 
+Lines</span></strong> tab. These documents cannot be used to create an asset 
+with negative value. Note that on the Procurement Card document all account 
+lines are expense (to).</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the AV type is Accrual Voucher, a reversal date is required. An accrual entry 
-may have a reversal date that reverses in the future, even the next <a onclick="return d2hpopup(event, this.href)" id="popup_332198" href="gloss_fiscalyear.htm">fiscal year</a>.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>There 
-must be at least one accounting line in the document.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>All 
-accounts must belong to the same chart and sub-fund.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>On an 
-accounting line, you must enter a credit or debit amount, but not both.</p>
+you specify a tag number, the system verifies that the number is not already 
+being used on an active asset.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">System Control 
+Remainder Amount</span></strong> is zero, the selected lines for processing are 
+grayed out in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Accounting Lines for 
+Capitalization</span></strong> tab.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Negative amounts are not allowed.</p>
+</span>Clicking<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"> 
+Clear</span></strong> button for an asset causes the system to clear the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset 
+Quantity</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset Type</span></strong>, 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Vendor</span></strong>, 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Manufacturer</span></strong>, 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Model</span></strong>, 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Amt Dist 
+Method</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Amt</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset Descriptio</span></strong>n, 
+and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Tag/Location 
+Information</span></strong> in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Create/Modify Capital 
+Assets</span></strong> tab. The system also resets the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">System Control Amount 
+</span></strong>and the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">System Control Remainder 
+Amount</span></strong> in that tab. (The tab remains open.). Additionally, this 
+action causes the system to uncheck the selected accounting lines in the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Accounting Lines for 
+Capitalization</span></strong> tab.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Debits must equal credits.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Certain object code sub-types may be restricted from being used on the 
-Auxiliary Voucher.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<a onclick="return d2hpopup(event, this.href)" id="popup_332197" href="gloss_fiscalofficer.htm">fiscal officer</a> for each account must 
-approve.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Additional approvals may be established within the review hierarchy.</p>
+</span>Clicking<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"> 
+Delete</span></strong> button for an asset causes the system to clear all asset 
+information, reset the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">System Control Amount 
+</span></strong>and the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">System Control Remainder 
+Amount</span></strong>, and close the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Create Capital 
+Assets</span></strong> tab. This action also causes the system to uncheck the 
+selected accounting lines in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Accounting Lines for 
+Capitalization</span></strong> tab.</p>
 <hr size="1" noshade="" />
 
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing1.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="process.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Process</a></p></span></div></div></body></html>

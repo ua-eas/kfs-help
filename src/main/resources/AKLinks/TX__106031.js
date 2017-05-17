@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__106031", [["WordDocuments/documentlayout384.htm", "right", "Document Layout"],["WordDocuments/labordistributionjournalvoucherdetailstab.htm", "right", "Labor Distribution Journal Voucher Details Tab"],["WordDocuments/scrubberjob1.htm", "right", "scrubberJob"]]);
