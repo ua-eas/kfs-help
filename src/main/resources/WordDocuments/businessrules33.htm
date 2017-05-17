@@ -1,6 +1,6 @@
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html><head><title>Business Rules</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN CAM Source.css" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML-new.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview25.htm"></a><a id="D2HNextAnchor" href="routing21.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview32.htm"></a><a id="D2HNextAnchor" href="routing27.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,35 +86,97 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme1.htm">Capital Asset Management</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme6.htm">Capital Asset Management Attribute Maintenance 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="assetpayment.htm">Asset Payment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="enterpayment.htm">Enter Payment</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview25.htm">Process Overview</a></div>
-<h6>Business Rules</h6>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">�</span>����� </span>The 
-asset must be an active asset. (The asset status must be in 
-CAPITAL_ASSET_STATUS_CODES and not in RETIRED_STATUS_CODES). If the asset is 
-retired, the user cannot select the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">payment </span></strong>action from 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Action 
-</span></strong>column.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">�</span>����� </span>The 
-asset status must be defined in parameter CAPITAL_ASSET_STATUS_CODES and not be 
-in RETIRED_STATUS_CODES. If the asset is retired, the user cannot select the 
-<b>Asset Payments</b> document from the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Action </span></strong>column.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">�</span>����� </span>A 
-payment document cannot be issued against an asset with a pending document, 
-including any of the following:</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o� </span>Financial documents: General 
-Error Correction, Year End General Error Corrections, Distribution of 
-Income/Expense, Year End Distribution of Income Expense, Procurement Card, Cash 
-Receipt, Service Billing, and the Internal Billing document.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o� </span>CAB/PURAP documents: Payment 
-Request, Credit Memo</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o� </span>Capital asset management 
-documents: Transfer, Retirement, Merge, Separate</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">�</span>����� </span>When 
-the object code on the payment is not in agreement with the object code of 
-previously processed payments, a warning alerts the user. Object codes should be 
-within the same asset category.</p>
-<hr size="1" noshade="" />
-
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayabletransactiondocuments.htm">Purchasing / Accounts 
+Payable Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="purchaseorder.htm">Purchase 
+Order</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview32.htm">Process 
+Overview</a></div>
+<h5>Business Rules</h5>
+<p class="Definition"> </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>All 
+required fields must be completed before the PO document can be submitted for 
+approval.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong>Unit of Measure</strong> must be completed if <strong>Item 
+Type</strong> is 'Qty'.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong>Description </strong>field on the <strong>Item</strong> tab must be 
+completed.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+PO generates encumbrances when <a onclick="return d2hpopup(event, this.href)" id="popup_358806" href="gloss_contractmanager.htm">Contract Manager</a> is 
+assigned. Encumbrances are updated as changes are made to the Purchase Order. 
+Encumbrances are created on the accounts and object codes entered in the item 
+sections and the appropriate offset object code(s). </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Expired and inactive contracts cannot be used on Purchase Orders.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Non-Capital Assets are not allowed on the Capital Asset tab.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If a 
+debarred vendor is used on a Purchase Order, a warning will be presented to the 
+user and a justification for using the vendor will be required if used. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>An 
+APO document may be created only under certain conditions, as specified in the 
+business rules set up by the institution. Examples of conditions that might 
+prevent an APO from being created are:</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition total is 
+greater than the APO limit.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition total is not 
+greater than zero.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition contains an 
+item that is marked as restricted.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The vendor was not selected 
+from the vendor database.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>An error occurred while 
+retrieving the vendor from the database.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The selected vendor is marked 
+as restricted or debarred.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The vendor contract selected 
+is expired.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition has no 
+contract selected, but a contract exists for the selected vendor.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition's payment type 
+is marked as recurring (<strong>Payment Info</strong> tab).</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The 'PO Total Cannot Exceed' 
+amount has been entered (<strong>Additional Institutional Info</strong> 
+tab).</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition contains 
+alternate vendor names.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition is set to 
+encumber during the next <a onclick="return d2hpopup(event, this.href)" id="popup_358808" href="gloss_fiscalyear.htm">fiscal year</a> (chosen from 
+<strong>Year</strong> in the <strong>Document Overview</strong> tab) and 
+approval is not within the APO allowed date range. The date range is determined 
+by the 'ALLOW APO NEXT FY DAYS' parameter.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The vendor is a B2B vendor and 
+the requisition source is not B2B.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition contains a 
+trade-in.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition contains a 
+full order discount.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition contains a 
+capital asset line item(s).</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The requisition contains 
+accounting strings with an object level in the 
+KFS-PURAPPURCHASING_ACCOUNTS_PAYABLE_OBJECT_LEVELS parameter (currently set to 
+CAP).</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Purchase Order numbers will be masked to all users until the Purchase 
+Order is Open, unless the user is authorized to view the Purchase Order number 
+before it’s Open. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+following rules apply for allowable accounts to be charged on a PO. These are 
+the same rules used for the REQS and PREQ. The specific codes for these rules 
+may be specified via parameters.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Only expense (EE, ES or EX 
+object types) or asset (AS object type) object codes are allowed. Asset object 
+codes must be in the INV or OASS object level.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes in the 
+consolidations of Compensation (CMPN), Financial Aid (SCHL), Reserves 
+(RSRX) and Assessments Expenditures (ASEX) are not allowed.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes in the 
+levels of <a onclick="return d2hpopup(event, this.href)" id="popup_358807" href="gloss_depreciation.htm">Depreciation</a> (DEPR), Indirect Cost Expense 
+(ICOE), Valuations and Adjustments (VADJ) and Taxes (TAX) are not allowed.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes with a 
+sub-type code for Transfers (TN) are allowed.</p>
+<p class="C1HBullet2A" style="MARGIN-LEFT: 18pt; TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing21.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>
+<p class="normal"><a style="TEXT-DECORATION: none" href="routing27.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>

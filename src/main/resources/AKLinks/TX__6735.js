@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__6735", [["WordDocuments/laborscrubberfiles.htm", "right", "Labor Scrubber Files"],["WordDocuments/scrubberfiles.htm", "right", "Scrubber Files"]]);

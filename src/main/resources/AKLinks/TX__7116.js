@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__7116", [["WordDocuments/financialsparametert.htm", "right", "Financials Parameter Type"],["WordDocuments/parametertype.htm", "right", "Parameter Type"]]);

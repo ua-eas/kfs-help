@@ -1,4 +1,4 @@
-var POPUP_COLOR = "LightYellow";
+﻿var POPUP_COLOR = "LightYellow";
 var POPUP_REPEAT = "no-repeat";
 var POPUP_IMAGE = "";
 var IMAGE_OPEN = "Images/Theme/ButtonsAndIcons/open_vista.gif";
@@ -168,5 +168,5 @@ function d2hGetEMailSubjectTemplate()
 
 function d2hGetProjectID()
 {
-    return "{B0690192-DE3B-4D70-810D-034C6211D96F}";
+    return "{B67F61D9-49B6-4885-B927-4156B805B1A1}";
 }

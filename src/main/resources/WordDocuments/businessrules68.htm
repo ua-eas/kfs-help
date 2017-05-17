@@ -1,6 +1,6 @@
-
+ï»¿<?xml version="1.0" encoding="utf-8"?>
 <html><head><title>Business Rules</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN FP Source.css" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML-new.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN CAM Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview55.htm"></a><a id="D2HNextAnchor" href="routing52.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview64.htm"></a><a id="D2HNextAnchor" href="routing56.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,36 +86,67 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="financialprocessing.htm">Financial Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="financialprocessingt.htm">Financial Processing Transaction 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="procurementcard.htm">Procurement Card</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview55.htm">Process Overview</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="capitalassetmanagement.htm">Capital Asset Management</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanagementtransactiondocuments.htm">Capital Asset Management 
+Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="assetfabrication.htm">Asset 
+Fabrication</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview64.htm">Process 
+Overview</a></div>
 <h5>Business Rules</h5>
-<p class="Definition"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Parameters OBJECT_CONSOLIDATIONS, OBJECT_SUB_TYPES and OBJECT_TYPES with 
-Component Procurement Card control allowed and disallowed object codes on the 
-Procurement Card. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Restrictions can also be based on the Merchant Category Code (MCC) 
-associated with the transaction.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Total 
-amount cannot be changed.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Negative amounts are allowed to accommodate credits given against prior 
-transactions.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-Procurement Card document can potentially create multiple accounting lines with 
-the same <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Chart</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Account</span></strong>, 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Sub-Account</span></strong>, 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Object</span></strong>, and 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Sub-Object</span></strong>. When 
-capital assets are affected, before submitting the document for processing the 
-user must either assign all identical lines together in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Accounting Lines for 
-Capitalization</span></strong> tab or distinguish the lines by adding/changing 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Project 
-Code</span></strong> or the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Org Ref ID</span></strong> in the 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Accounting 
-Lines</span></strong> tab. </p>
-<hr size="1" noshade="" />
-
+<p class="MsoNormal">Â </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">â€¢</span>Â Â Â Â Â  </span>To 
+initiate a fabrication request the user must complete the following:</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">oÂ  </span>Asset Detail Information (a 
+valid organization owner Chart of Accounts code, a valid and active organization 
+owner account number, an asset description, and a valid asset type code)</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">oÂ  </span>Asset Location (if the asset 
+will remain on campus, input a valid campus code, building code and building 
+room code; if the asset will be located off campus the user must input name, 
+address, city, state, postal code, and country; in addition the campus code is 
+required)</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">â€¢</span>Â Â Â Â Â  
+</span>Additionally, the Fabrication document uses the Asset Type Code table to 
+determine whether a building number and room number are required for the asset 
+type category.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">oÂ  </span>Any asset type code with the 
+'moving indicator' checked 'yes' requires a building code and room number, or an 
+off campus address. All asset type codes for movable equipment have this 
+indicator checked.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">oÂ  </span>Any asset type code with the 
+'required building indicator' checked 'yes' requires a building code. Asset type 
+codes for buildings have this indicator checked.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">oÂ  </span>Any asset type code with the 
+'moving indicator' and 'required building indicator' marked 'no' requires a 
+campus code, but no building or room number. Asset type codes for land, land 
+improvements, and leasehold improvements have the 'moving indicator' and 
+'required building indicator' marked 'no.'</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">â€¢</span>Â Â Â Â Â  
+</span>Fabrication Information is also required as follows:</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">oÂ  </span>An estimated fabrication 
+completion date is required.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">oÂ  </span>The total estimated cost is 
+required and must be numeric.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">oÂ  </span>The Years expected to retain 
+asset once fabrication is complete is required and must be numeric.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">â€¢</span>Â Â Â Â Â  </span>For 
+capital assets, the building code is the building in which the asset is located. 
+The asset category identified by the asset type determines whether a building 
+code, room number or off-campus information is required. For this reason, the 
+asset type must be entered before the building and room number.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">â€¢</span>Â Â Â Â Â  </span>For 
+non-capital assets, a building code or room number is not required. For this 
+reason, the asset status must be entered before the building code or room number 
+is entered. If these values are entered, they must be valid values.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">â€¢</span>Â Â Â Â Â  </span>Any 
+asset type code with the <strong>moving code</strong> indicator checked requires 
+a valid campus, building code, and room number combination, or an off-campus 
+address. All asset type codes for movable equipment have this code checked.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">â€¢</span>Â Â Â Â Â  </span>Any 
+asset type code with the <strong>reg bldg</strong> indicator checked requires a 
+building code. Asset type codes for buildings have this code checked.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">â€¢</span>Â Â Â Â Â  </span>Any 
+asset type code with both <strong>moving code</strong> and <strong>reg 
+bldg</strong> indicators unchecked requires a campus code but no building or 
+room number. Asset type codes for land, land improvements, and leasehold 
+improvements have these codes unchecked.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing52.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>
+<p class="normal"><a style="TEXT-DECORATION: none" href="routing56.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>

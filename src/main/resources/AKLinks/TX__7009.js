@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__7009", [["WordDocuments/purchasingaccountspa3.htm", "right", "Purchasing / Accounts Payable Batch Processes"],["WordDocuments/systembatchprocesses.htm", "right", "System Batch Processes"]]);

@@ -1,0 +1,1 @@
+﻿d2hStoreMenuItems("TX__116927", [["WordDocuments/laborposteroutputsum.htm", "right", "Labor Poster Output Summary"],["WordDocuments/posteroutputsummary.htm", "right", "Poster Output Summary"]]);

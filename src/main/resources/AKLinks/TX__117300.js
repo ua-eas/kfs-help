@@ -1,0 +1,1 @@
+﻿d2hStoreMenuItems("TX__117300", [["WordDocuments/kualiidentitymanagementkimconcepts.htm", "right", "Kuali Identity Management (KIM) Concepts"],["WordDocuments/routingidentitymanagementdocumenttypehierarchy.htm", "right", "Routing & Identity Management Document Type Hierarchy"]]);
