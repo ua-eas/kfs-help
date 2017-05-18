@@ -171,11 +171,9 @@
     <stopwords>
         <item>|</item>
         <item>-</item>
-        <item>_</item>
-        <item>"</item>
         <item>,</item>
+        <item>"</item>
         <item>.</item>
-        <item>?</item>
         <item>+</item>
         <item>--</item>
         <item>/</item>
