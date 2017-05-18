@@ -170,7 +170,6 @@
     </topics>
     <stopwords>
         <item>|</item>
-        <item>©</item>
         <item>-</item>
         <item>_</item>
         <item>"</item>
@@ -351,9 +350,7 @@
         <item>z</item>
         <item>Z</item>
         <item>xls</item>
-        <item>xlstemplate</item>
         <item>xlxs</item>
-        <item>xlxstemplate</item>
         <item>xyz</item>
         <item>yes</item>
         <item>yet</item>
