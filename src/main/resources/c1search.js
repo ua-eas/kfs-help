@@ -1,63 +1,11 @@
-﻿// global members
+// global members
 var _d2hSecondaryWindowsByTopics = null;
 function d2hInitSecondaryWindows()
 {
     if (_d2hSecondaryWindowsByTopics == null)
     {
         _d2hSecondaryWindowsByTopics = new Array();
-        _d2hSecondaryWindowsByTopics["worddocuments/gloss_accountmanager.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_accountsupervisor.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_accountingperiod.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_adhocrouting.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_autofr.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_automaticpurchaseorderapo.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_businessrule.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_carryforward.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_catalogoffederaldomesticassistancecfda.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_commaseparatedvaluecsv.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_contractmanager.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_costshare.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_demerge.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_depreciation.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_disencumbrance.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_documenttype.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_documenttypehierarchy.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_dunning.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_duns.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_encumbrance.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_enterprisefeed.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_exception.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_fasb.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_fein.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_fiscalofficer.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_fiscalperiod.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_fiscalyear.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_flexibleoffset.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_forceaction.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_fundmanager.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_fundingsource.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_gasb.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_incidentals.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_incomestreamaccount.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_indirectcostrecovery.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_kualifoundation.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_kuali.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_laborledger.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_letterofcredit.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_lockbox.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_maintenancedocument.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_nacubo.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_namespacecode.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_nonresidentalien.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_parentdocumenttype.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_postprocessor.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_poster.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_preencumbrance.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_projectdirector.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_role.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_routelog.htm"] = "d2hWnd_SecondaryPopup";
-_d2hSecondaryWindowsByTopics["worddocuments/gloss_scrubber.htm"] = "d2hWnd_SecondaryPopup";
-
+        
     }
 }
 

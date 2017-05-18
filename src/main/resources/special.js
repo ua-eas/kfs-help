@@ -1,4 +1,4 @@
-﻿var POPUP_COLOR = "LightYellow";
+var POPUP_COLOR = "LightYellow";
 var POPUP_REPEAT = "no-repeat";
 var POPUP_IMAGE = "";
 var IMAGE_OPEN = "Images/Theme/ButtonsAndIcons/open_vista.gif";
