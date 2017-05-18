@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__119793", [["WordDocuments/kualifinancials.htm", "right", "Kuali Financials"],["WordDocuments/vendorvnd.htm", "right", "Vendor (VND)"]]);
