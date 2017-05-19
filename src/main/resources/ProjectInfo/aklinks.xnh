@@ -104,6 +104,8 @@
                 <topic url="WordDocuments/businessrules5.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules6.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules7.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules48.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules49.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules21.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules27.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules8.htm" window="right"><![CDATA[Business Rules]]></topic>
@@ -111,6 +113,7 @@
                 <topic url="WordDocuments/businessrules44.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules9.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules34.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules50.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules25.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
@@ -699,6 +702,7 @@
                 <topic url="WordDocuments/routing19.htm" window="right"><![CDATA[Routing]]></topic>
                 <topic url="WordDocuments/routing16.htm" window="right"><![CDATA[Routing]]></topic>
                 <topic url="WordDocuments/routingadocument.htm" window="right"><![CDATA[Routing a Document]]></topic>
+                <topic url="WordDocuments/routing36.htm" window="right"><![CDATA[Routing]]></topic>
                 <topic url="WordDocuments/routing12.htm" window="right"><![CDATA[Routing]]></topic>
                 <topic url="WordDocuments/routing13.htm" window="right"><![CDATA[Routing]]></topic>
                 <topic url="WordDocuments/routing14.htm" window="right"><![CDATA[Routing]]></topic>
@@ -774,6 +778,8 @@
                 <topic url="WordDocuments/example4.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example5.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example6.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example19.htm" window="right"><![CDATA[Example]]></topic>
+                <topic url="WordDocuments/example20.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example9.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example7.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example8.htm" window="right"><![CDATA[Example]]></topic>
@@ -1288,6 +1294,16 @@
                 <topic url="WordDocuments/businessrules17.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
+        <keyword name="effort certification module:">
+            <topics>
+                <topic url="WordDocuments/businessrules48.htm" window="right"><![CDATA[Business Rules]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="effort certification recreate document">
+            <topics>
+                <topic url="WordDocuments/businessrules49.htm" window="right"><![CDATA[Business Rules]]></topic>
+            </topics>
+        </keyword>
         <keyword name="equipment loan renewal, equipment loan/return document">
             <topics>
                 <topic url="WordDocuments/businessrules22.htm" window="right"><![CDATA[Business Rules]]></topic>
@@ -1355,6 +1371,12 @@
                 <topic url="WordDocuments/businessrules34.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/preassettagging.htm" window="right"><![CDATA[Pre-Asset Tagging]]></topic>
                 <topic url="WordDocuments/preassettagging.htm" window="right"><![CDATA[Pre-Asset Tagging]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="report definition document">
+            <topics>
+                <topic url="WordDocuments/businessrules50.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/reportdefinition.htm" window="right"><![CDATA[Report Definition]]></topic>
             </topics>
         </keyword>
         <keyword name="sub-account">
@@ -1650,6 +1672,7 @@
         <keyword name=" batch processes ">
             <topics>
                 <topic url="WordDocuments/contractsandgrantsba.htm" window="right"><![CDATA[Contracts and Grants Batch Processes]]></topic>
+                <topic url="WordDocuments/effortcertificationb.htm" window="right"><![CDATA[Effort Certification Batch Processes]]></topic>
             </topics>
         </keyword>
         <keyword name="contracts &amp; grants aging report">
@@ -2213,6 +2236,7 @@
             <topics>
                 <topic url="WordDocuments/documentheader.htm" window="right"><![CDATA[Document Header]]></topic>
                 <topic url="WordDocuments/documentlayout52.htm" window="right"><![CDATA[Document Layout]]></topic>
+                <topic url="WordDocuments/documentheader1.htm" window="right"><![CDATA[Document Header]]></topic>
             </topics>
         </keyword>
         <keyword name="document layout">
@@ -2224,6 +2248,8 @@
         <keyword name="document overview tab">
             <topics>
                 <topic url="WordDocuments/documentoverviewtab1.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
+                <topic url="WordDocuments/documentoverviewtab.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
+                <topic url="WordDocuments/documentoverviewtab2.htm" window="right"><![CDATA[Document Overview Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="document search">
@@ -2299,6 +2325,12 @@
                 <topic url="WordDocuments/dunninglettertemplat1.htm" window="right"><![CDATA[Dunning Letter Template Tab]]></topic>
             </topics>
         </keyword>
+        <keyword name="duplicate certifications report">
+            <topics>
+                <topic url="WordDocuments/duplicatecertificati.htm" window="right"><![CDATA[Duplicate Certifications Report]]></topic>
+                <topic url="WordDocuments/duplicatecertificati.htm" window="right"><![CDATA[Duplicate Certifications Report]]></topic>
+            </topics>
+        </keyword>
         <keyword name="edit list of accounts tab">
             <topics>
                 <topic url="WordDocuments/editlistofaccountsta1.htm" window="right"><![CDATA[Edit List of Accounts Tab]]></topic>
@@ -2325,9 +2357,122 @@
                 <topic url="WordDocuments/editingamaintenancedocument.htm" window="right"><![CDATA[Editing a Maintenance Document]]></topic>
             </topics>
         </keyword>
+        <keyword name="effort certification">
+            <topics />
+        </keyword>
         <keyword name="effort certification (ec) module">
             <topics>
                 <topic url="WordDocuments/effortcertificationec.htm" window="right"><![CDATA[Effort Certification (EC)]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="effort certification document">
+            <topics>
+                <topic url="WordDocuments/effortcertificationd.htm" window="right"><![CDATA[Effort Certification Document]]></topic>
+                <topic url="WordDocuments/effortcertificationd.htm" window="right"><![CDATA[Effort Certification Document]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="adding an effort distribution to effort summary or effort detail section">
+            <topics>
+                <topic url="WordDocuments/addinganeffortdistri.htm" window="right"><![CDATA[Adding an Effort Distribution to the Effort Summary or Effort Detail Section]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="effort detail tab">
+            <topics>
+                <topic url="WordDocuments/effortdetailtab.htm" window="right"><![CDATA[Effort Detail Tab]]></topic>
+                <topic url="WordDocuments/effortdetailtab1.htm" window="right"><![CDATA[Effort Detail Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="effort summary tab">
+            <topics>
+                <topic url="WordDocuments/effortsummarytab.htm" window="right"><![CDATA[Effort Summary Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="modifying existing effort distribution line in effort detail section ">
+            <topics>
+                <topic url="WordDocuments/modifyinganexistinge1.htm" window="right"><![CDATA[Modifying an Existing Effort Distribution line in the Effort Detail section]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="modifying existing effort distribution line in effort summary section ">
+            <topics>
+                <topic url="WordDocuments/modifyinganexistinge.htm" window="right"><![CDATA[Modifying an Existing Effort Distribution line in the Effort Summary Section]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="report information tab">
+            <topics>
+                <topic url="WordDocuments/reportinformationtab.htm" window="right"><![CDATA[Report Information Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="effort certification documents">
+            <topics />
+        </keyword>
+        <keyword name="extracting effort data from the labor ledger">
+            <topics>
+                <topic url="WordDocuments/extractingeffortdata.htm" window="right"><![CDATA[Extracting Effort Data from the Labor Ledger]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="generating">
+            <topics>
+                <topic url="WordDocuments/generatingeffortcert.htm" window="right"><![CDATA[Generating Effort Certification documents]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="effort certification extract build report">
+            <topics>
+                <topic url="WordDocuments/effortcertificatione.htm" window="right"><![CDATA[Effort Certification Extract Build]]></topic>
+                <topic url="WordDocuments/effortcertificatione.htm" window="right"><![CDATA[Effort Certification Extract Build]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="effort certification module">
+            <topics />
+        </keyword>
+        <keyword name="outstanding certifications by chart/org/report">
+            <topics>
+                <topic url="WordDocuments/outstandingcertifica.htm" window="right"><![CDATA[Outstanding Certifications by Chart/Org/Report]]></topic>
+                <topic url="WordDocuments/outstandingcertifica.htm" window="right"><![CDATA[Outstanding Certifications by Chart/Org/Report]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="outstanding certifications by report">
+            <topics>
+                <topic url="WordDocuments/outstandingcertifica1.htm" window="right"><![CDATA[Outstanding Certifications By Report]]></topic>
+                <topic url="WordDocuments/outstandingcertifica1.htm" window="right"><![CDATA[Outstanding Certifications By Report]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="routing, report">
+            <topics>
+                <topic url="WordDocuments/routing35.htm" window="right"><![CDATA[Routing]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="salary expense transfer document">
+            <topics>
+                <topic url="WordDocuments/salaryexpensetransfe.htm" window="right"><![CDATA[Salary Expense Transfer Generation]]></topic>
+                <topic url="WordDocuments/salaryexpensetransfe.htm" window="right"><![CDATA[Salary Expense Transfer Generation]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="effort certification transaction documents">
+            <topics>
+                <topic url="WordDocuments/effortcertificationt.htm" window="right"><![CDATA[Effort Certification Transaction Documents]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="effort detail tab, effort certification document">
+            <topics>
+                <topic url="WordDocuments/effortdetailtab.htm" window="right"><![CDATA[Effort Detail Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="effort detail tab, effort certification recreate document">
+            <topics>
+                <topic url="WordDocuments/effortdetailtab1.htm" window="right"><![CDATA[Effort Detail Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="effort reports">
+            <topics />
+        </keyword>
+        <keyword name="creating from extracted data ">
+            <topics>
+                <topic url="WordDocuments/creatingeffortreport.htm" window="right"><![CDATA[Creating Effort Reports from Extracted Data]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="effort summary tab, effort certification document">
+            <topics>
+                <topic url="WordDocuments/effortsummarytab.htm" window="right"><![CDATA[Effort Summary Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="asset acquisition type tab ">
@@ -2403,6 +2548,14 @@
         <keyword name="external transfer or gift tab, asset retirement global document">
             <topics>
                 <topic url="WordDocuments/externaltransferorgi.htm" window="right"><![CDATA[External Transfer or Gift Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="extracted data">
+            <topics />
+        </keyword>
+        <keyword name="creating reports from">
+            <topics>
+                <topic url="WordDocuments/creatingeffortreport.htm" window="right"><![CDATA[Creating Effort Reports from Extracted Data]]></topic>
             </topics>
         </keyword>
         <keyword name="fabrication maintenance document">
@@ -3306,6 +3459,36 @@
                 <topic url="WordDocuments/repairhistorytab.htm" window="right"><![CDATA[Repair History Tab]]></topic>
             </topics>
         </keyword>
+        <keyword name="edit report position object group codes tab">
+            <topics>
+                <topic url="WordDocuments/editreportpositionob.htm" window="right"><![CDATA[Edit Report Position Object Group Codes Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="report definition tab">
+            <topics>
+                <topic url="WordDocuments/reportdefinitiontab.htm" window="right"><![CDATA[Report Definition Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="report earn paygroup document">
+            <topics>
+                <topic url="WordDocuments/reportearnpaygroup.htm" window="right"><![CDATA[Report Earn Paygroup]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="report information tab, effort certification document">
+            <topics>
+                <topic url="WordDocuments/reportinformationtab.htm" window="right"><![CDATA[Report Information Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="report period status code document">
+            <topics>
+                <topic url="WordDocuments/reportperiodstatusco.htm" window="right"><![CDATA[Report Period Status Code]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="report type document">
+            <topics>
+                <topic url="WordDocuments/reporttype.htm" window="right"><![CDATA[Report Type]]></topic>
+            </topics>
+        </keyword>
         <keyword name="requested of">
             <topics>
                 <topic url="WordDocuments/viewingpendingactions.htm" window="right"><![CDATA[Viewing Pending Actions]]></topic>
@@ -3390,6 +3573,11 @@
         <keyword name="routing, workflow ">
             <topics>
                 <topic url="WordDocuments/routelevelsandworkflowrouting.htm" window="right"><![CDATA[Route Levels and Workflow Routing]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="restrictions">
+            <topics>
+                <topic url="WordDocuments/salaryexpensetransfe1.htm" window="right"><![CDATA[Salary Expense Transfer Restrictions]]></topic>
             </topics>
         </keyword>
         <keyword name="sales tax">
