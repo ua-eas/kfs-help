@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__127469", [["WordDocuments/assetpayment.htm", "right", "Asset Payment"],["WordDocuments/assetpaymentlookup.htm", "right", "Asset Payment Lookup"]]);
