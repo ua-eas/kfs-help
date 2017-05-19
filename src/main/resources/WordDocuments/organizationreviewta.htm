@@ -132,26 +132,27 @@ in the Accounting Reviewer role, the Organization Review role or both.</p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
       <p class="TableCells">Required but may be display-only. This value 
       determines whether the document adds member information to the accounting 
-      reviewer role ('Organization Accounting Only'), the organization reviewer 
-      role ('Organization Only'), or both.</p>
+      reviewer role (Organization Accounting Only), the organization reviewer 
+      role (Organization Only), or both.</p>
       <p class="TableCells">After you select a document type, this system updates 
       this field with a default value based on the following rules:</p>
       <p class="TableCells">If the document type selected has a route node 
       associated with the organization reviewer or accounting reviewer role, 
       then review type is selected based on this value and cannot be edited.</p>
-      <p class="TableCells">If the document type selected is 'Kuali Financials' 
-      (Kuali Financials document at the top of the hierarchy), the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Review Type</span></strong> 
-      value defaults to 'both' but can be edited.</p>
-      <p class="TableCells">If the closest parent document type is 'Kuali 
-      FinancialsT' (Kuali Financials document to which all transactional 
-      documents answer), the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Review Type</span></strong> 
-      value defaults to 'Organization Accounting Only' and cannot be edited.</p>
-      <p class="TableCells">If the closest parent document type is 'Kuali 
-      FinancialsM' (Kuali Financials document to which all complex maintenance 
-      documents answer), the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Review Type 
-      </span></strong>value defaults to 'Organization Only' and cannot be 
+      <p class="TableCells">If the document type selected is KFS (Kuali Financials 
+      document at the top of the hierarchy), the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Review Type</span></strong> 
+      value defaults to both but can be edited.</p>
+      <p class="TableCells">If the closest parent document type is KFST (Kuali 
+      Financials document to which all transactional documents answer), the 
+      <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Review 
+      Type</span></strong> value defaults to Organization Accounting Only and 
+      cannot be edited.</p>
+      <p class="TableCells">If the closest parent document type is KFSM (Kuali 
+      Financials document to which all complex maintenance documents answer), 
+      the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Review Type 
+      </span></strong>value defaults to Organization Only and cannot be 
       edited.</p>
-      <p class="TableCells">If the closest parent document type is 'FSSM' (Kuali 
+      <p class="TableCells">If the closest parent document type is FSSM (Kuali 
       Financials document to which all simple maintenance document answer), the 
       document returns an error. These documents do not route for approval.</p>
       <p class="TableCells"> </p></td></tr></tbody></table>
