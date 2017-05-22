@@ -46,6 +46,8 @@
         <keyword name="file format">
             <topics>
                 <topic url="WordDocuments/customerxmluploadfor.htm" window="right"><![CDATA[Customer XML Upload Format]]></topic>
+                <topic url="WordDocuments/pdppaymentuploadfile.htm" window="right"><![CDATA[PDP Payment Upload File Format]]></topic>
+                <topic url="WordDocuments/paymentspreadsheetsa.htm" window="right"><![CDATA[Payment Spreadsheet Sample File Layout]]></topic>
                 <topic url="WordDocuments/collectorflatfileupl1.htm" window="right"><![CDATA[Collector Flat File Upload Format]]></topic>
                 <topic url="WordDocuments/collectorxmluploadfo.htm" window="right"><![CDATA[Collector XML Upload Format]]></topic>
                 <topic url="WordDocuments/customercsvuploadfor.htm" window="right"><![CDATA[Customer CSV Upload Format]]></topic>
@@ -172,6 +174,56 @@
         <keyword name=" overview tab">
             <topics>
                 <topic url="WordDocuments/organizationreviewta.htm" window="right"><![CDATA[Organization Review Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" payment detail lookup">
+            <topics>
+                <topic url="WordDocuments/searchforpayment.htm" window="right"><![CDATA[Search for Payment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" payment file">
+            <topics />
+        </keyword>
+        <keyword name="manually upload ">
+            <topics>
+                <topic url="WordDocuments/paymentfilebatchuplo.htm" window="right"><![CDATA[Payment File Batch Upload]]></topic>
+                <topic url="WordDocuments/paymentspreadsheetup.htm" window="right"><![CDATA[Payment Spreadsheet Upload]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" payment file batch upload">
+            <topics>
+                <topic url="WordDocuments/paymentfilebatchuplo.htm" window="right"><![CDATA[Payment File Batch Upload]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="uploading a file to the pdp ">
+            <topics>
+                <topic url="WordDocuments/uploadingafiletothep.htm" window="right"><![CDATA[Uploading a File to the PDP]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" payment spreadsheet">
+            <topics />
+        </keyword>
+        <keyword name=" payment spreadsheet upload">
+            <topics />
+        </keyword>
+        <keyword name="uploading a spreadsheet to pdp ">
+            <topics>
+                <topic url="WordDocuments/uploadingaspreadshee.htm" window="right"><![CDATA[Uploading a Spreadsheet to PDP]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" payment spreadshet upload">
+            <topics>
+                <topic url="WordDocuments/paymentspreadsheetup.htm" window="right"><![CDATA[Payment Spreadsheet Upload]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" payment, search for">
+            <topics>
+                <topic url="WordDocuments/searchforpayment.htm" window="right"><![CDATA[Search for Payment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name=" pre-disbursement processor batch processes">
+            <topics>
+                <topic url="WordDocuments/predisbursementproce2.htm" window="right"><![CDATA[Pre-Disbursement Processor Batch Processes]]></topic>
             </topics>
         </keyword>
         <keyword name=" proposal/award close document">
@@ -302,6 +354,11 @@
         <keyword name="account type document">
             <topics>
                 <topic url="WordDocuments/accounttype.htm" window="right"><![CDATA[Account Type]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="accounting change codedocument">
+            <topics>
+                <topic url="WordDocuments/accountingchangecode.htm" window="right"><![CDATA[Accounting Change Code]]></topic>
             </topics>
         </keyword>
         <keyword name="accounting line import templates ">
@@ -458,6 +515,39 @@
             <topics>
                 <topic url="WordDocuments/auxiliaryvoucher.htm" window="right"><![CDATA[Auxiliary Voucher]]></topic>
                 <topic url="WordDocuments/auxiliaryvoucher.htm" window="right"><![CDATA[Auxiliary Voucher]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ach bankdocument">
+            <topics>
+                <topic url="WordDocuments/achbank.htm" window="right"><![CDATA[ACH Bank]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ach transaction codedocument ">
+            <topics>
+                <topic url="WordDocuments/achtransactioncode.htm" window="right"><![CDATA[ACH Transaction Code]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ach transaction typedocument ">
+            <topics>
+                <topic url="WordDocuments/achtransactiontype.htm" window="right"><![CDATA[ACH Transaction Type]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="achc">
+            <topics>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="achd">
+            <topics>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="achr">
+            <topics>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
             </topics>
         </keyword>
         <keyword name="acknowledge">
@@ -1284,6 +1374,19 @@
                 <topic url="WordDocuments/balancingrules.htm" window="right"><![CDATA[Balancing Rules]]></topic>
             </topics>
         </keyword>
+        <keyword name="bank code">
+            <topics />
+        </keyword>
+        <keyword name="setting for a transaction">
+            <topics>
+                <topic url="WordDocuments/settingthebankcodefo.htm" window="right"><![CDATA[Setting the Bank Code for a Transaction]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="bank codesand pdp disbursements ">
+            <topics>
+                <topic url="WordDocuments/pdpdisbursementsandb.htm" window="right"><![CDATA[PDP Disbursements and Bank Codes]]></topic>
+            </topics>
+        </keyword>
         <keyword name="barcode inventory error document">
             <topics>
                 <topic url="WordDocuments/barcodeinventoryerro.htm" window="right"><![CDATA[Barcode Inventory Error Document]]></topic>
@@ -1509,6 +1612,11 @@
         <keyword name="closing encumbrances">
             <topics>
                 <topic url="WordDocuments/closingencumbrances.htm" window="right"><![CDATA[Closing Encumbrances]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="combining payments">
+            <topics>
+                <topic url="WordDocuments/businessrulesforcomb.htm" window="right"><![CDATA[Business Rules for Combining Payments]]></topic>
             </topics>
         </keyword>
         <keyword name="contracts &amp; grants invoice document">
@@ -1780,6 +1888,11 @@
         <keyword name="canceling a document">
             <topics>
                 <topic url="WordDocuments/cancelingadocument.htm" window="right"><![CDATA[Canceling a Document]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="canceling and re-issuing payments with flexible bank specification">
+            <topics>
+                <topic url="WordDocuments/cancelingandreissuin.htm" window="right"><![CDATA[Canceling and Re-Issuing Payments with Flexible Bank Offsets]]></topic>
             </topics>
         </keyword>
         <keyword name="capital asset builder">
@@ -2181,6 +2294,24 @@
                 <topic url="WordDocuments/chartofaccountsbatch.htm" window="right"><![CDATA[Chart of Accounts Batch Processes]]></topic>
             </topics>
         </keyword>
+        <keyword name="chkc">
+            <topics>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="chkd">
+            <topics>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="chkr">
+            <topics>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
+            </topics>
+        </keyword>
         <keyword name="closing a document">
             <topics>
                 <topic url="WordDocuments/closingadocument.htm" window="right"><![CDATA[Closing a Document]]></topic>
@@ -2519,6 +2650,16 @@
                 <topic url="WordDocuments/customeragingreport.htm" window="right"><![CDATA[Customer Aging Report]]></topic>
             </topics>
         </keyword>
+        <keyword name="customer bank tab">
+            <topics>
+                <topic url="WordDocuments/customerbanktab.htm" window="right"><![CDATA[Customer Bank Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="customer check/ach tab">
+            <topics>
+                <topic url="WordDocuments/customercheckachtab.htm" window="right"><![CDATA[Customer Check/ACH Tab]]></topic>
+            </topics>
+        </keyword>
         <keyword name="customer credit memo document">
             <topics>
                 <topic url="WordDocuments/customercreditmemo.htm" window="right"><![CDATA[Customer Credit Memo]]></topic>
@@ -2705,6 +2846,21 @@
                 <topic url="WordDocuments/customerinvoicesdocu.htm" window="right"><![CDATA[Customer Invoices Document Search]]></topic>
             </topics>
         </keyword>
+        <keyword name="customer processing tab">
+            <topics>
+                <topic url="WordDocuments/customerprocessingta.htm" window="right"><![CDATA[Customer Processing Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="customer profile document">
+            <topics>
+                <topic url="WordDocuments/customerprofile.htm" window="right"><![CDATA[Customer Profile]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="customer profile tab">
+            <topics>
+                <topic url="WordDocuments/customerprofiletab.htm" window="right"><![CDATA[Customer Profile Tab]]></topic>
+            </topics>
+        </keyword>
         <keyword name="customer type document">
             <topics>
                 <topic url="WordDocuments/customertype.htm" window="right"><![CDATA[Customer Type]]></topic>
@@ -2874,6 +3030,16 @@
         <keyword name="disapproving a document">
             <topics>
                 <topic url="WordDocuments/disapprovingadocument.htm" window="right"><![CDATA[Disapproving a Document]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="disbursement number range document ">
+            <topics>
+                <topic url="WordDocuments/disbursementnumberra.htm" window="right"><![CDATA[Disbursement Number Range]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="disbursement typedocument ">
+            <topics>
+                <topic url="WordDocuments/disbursementtype.htm" window="right"><![CDATA[Disbursement Type]]></topic>
             </topics>
         </keyword>
         <keyword name="destination section, non-employee travel expense tab">
@@ -3059,6 +3225,9 @@
             <topics>
                 <topic url="WordDocuments/advanceddocumentsearches.htm" window="right"><![CDATA[Advanced Document Searches]]></topic>
             </topics>
+        </keyword>
+        <keyword name="document types">
+            <topics />
         </keyword>
         <keyword name="document-specific searches">
             <topics>
@@ -3562,6 +3731,14 @@
                 <topic url="WordDocuments/fiscalyearmaker.htm" window="right"><![CDATA[Fiscal Year Maker]]></topic>
             </topics>
         </keyword>
+        <keyword name="flexible bank specification">
+            <topics />
+        </keyword>
+        <keyword name="pdp general ledger entries with">
+            <topics>
+                <topic url="WordDocuments/pdpgeneralledgerentr.htm" window="right"><![CDATA[PDP General Ledger Entries with Flexible Bank Offsets]]></topic>
+            </topics>
+        </keyword>
         <keyword name="flexible banking offsets">
             <topics>
                 <topic url="WordDocuments/flexiblebankingoffse.htm" window="right"><![CDATA[Flexible Banking Offsets]]></topic>
@@ -3578,6 +3755,49 @@
         <keyword name="foreign draft">
             <topics>
                 <topic url="WordDocuments/paymentinformationta.htm" window="right"><![CDATA[Payment Information Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="format checks/ach">
+            <topics>
+                <topic url="WordDocuments/formatchecksach.htm" window="right"><![CDATA[Format Checks/ACH]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="disbursement ranges tab">
+            <topics>
+                <topic url="WordDocuments/disbursementrangesta.htm" window="right"><![CDATA[Disbursement Ranges Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="format disbursements">
+            <topics>
+                <topic url="WordDocuments/formatchecksach.htm" window="right"><![CDATA[Format Checks/ACH]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="customers tab">
+            <topics>
+                <topic url="WordDocuments/customerstab.htm" window="right"><![CDATA[Customers Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="format options tab">
+            <topics>
+                <topic url="WordDocuments/formatoptionstab.htm" window="right"><![CDATA[Format Options Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="format reset">
+            <topics />
+        </keyword>
+        <keyword name="clearing a format process ">
+            <topics>
+                <topic url="WordDocuments/clearingaformatproce.htm" window="right"><![CDATA[Clearing a Format Process]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="format reset ">
+            <topics>
+                <topic url="WordDocuments/formatreset.htm" window="right"><![CDATA[Format Reset]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="format summarylookup">
+            <topics>
+                <topic url="WordDocuments/formatsummary.htm" window="right"><![CDATA[Format Summary]]></topic>
             </topics>
         </keyword>
         <keyword name="fp">
@@ -3662,6 +3882,11 @@
             <topics>
                 <topic url="WordDocuments/summarytab.htm" window="right"><![CDATA[Summary Tab]]></topic>
                 <topic url="WordDocuments/summarytab.htm" window="right"><![CDATA[Summary Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="general ledger entries generated by pdp">
+            <topics>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
             </topics>
         </keyword>
         <keyword name="general ledger entry">
@@ -4005,6 +4230,11 @@
         <keyword name="letter of credit fund group document">
             <topics>
                 <topic url="WordDocuments/letterofcreditfundgr.htm" window="right"><![CDATA[Letter of Credit Fund Group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="lexible bank specification parameters">
+            <topics>
+                <topic url="WordDocuments/flexiblebankoffsetsp.htm" window="right"><![CDATA[Flexible Bank Offsets Parameters]]></topic>
             </topics>
         </keyword>
         <keyword name="links">
@@ -4430,6 +4660,16 @@
                 <topic url="WordDocuments/salestax.htm" window="right"><![CDATA[Sales Tax]]></topic>
             </topics>
         </keyword>
+        <keyword name="payee ach accountdocument ">
+            <topics>
+                <topic url="WordDocuments/payeeachaccount.htm" window="right"><![CDATA[Payee ACH Account]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="payeetypelookup ">
+            <topics>
+                <topic url="WordDocuments/payeetype.htm" window="right"><![CDATA[Payee Type]]></topic>
+            </topics>
+        </keyword>
         <keyword name="payment application document">
             <topics>
                 <topic url="WordDocuments/paymentapplication.htm" window="right"><![CDATA[Payment Application]]></topic>
@@ -4463,6 +4703,16 @@
         <keyword name="payment applications">
             <topics />
         </keyword>
+        <keyword name="payment bank history lookup ">
+            <topics>
+                <topic url="WordDocuments/paymentbankhistory.htm" window="right"><![CDATA[Payment Bank History]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="payment change code document ">
+            <topics>
+                <topic url="WordDocuments/paymentchange.htm" window="right"><![CDATA[Payment Change]]></topic>
+            </topics>
+        </keyword>
         <keyword name="payment history report">
             <topics>
                 <topic url="WordDocuments/paymenthistoryreport.htm" window="right"><![CDATA[Payment History Report]]></topic>
@@ -4473,6 +4723,16 @@
                 <topic url="WordDocuments/paymentmedium.htm" window="right"><![CDATA[Payment Medium]]></topic>
             </topics>
         </keyword>
+        <keyword name="payment statusdocument ">
+            <topics>
+                <topic url="WordDocuments/paymentstatus.htm" window="right"><![CDATA[Payment Status]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="payment type document">
+            <topics>
+                <topic url="WordDocuments/paymenttype.htm" window="right"><![CDATA[Payment Type]]></topic>
+            </topics>
+        </keyword>
         <keyword name="payments lookup tab, asset document">
             <topics>
                 <topic url="WordDocuments/paymentslookuptab.htm" window="right"><![CDATA[Payments Lookup Tab]]></topic>
@@ -4481,6 +4741,34 @@
         <keyword name="payments tab, asset document">
             <topics>
                 <topic url="WordDocuments/paymentstab.htm" window="right"><![CDATA[Payments Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="payments with flexible bank specification">
+            <topics />
+        </keyword>
+        <keyword name="canceling and re-issuing">
+            <topics>
+                <topic url="WordDocuments/cancelingandreissuin.htm" window="right"><![CDATA[Canceling and Re-Issuing Payments with Flexible Bank Offsets]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="pdp and flexible bank offsets">
+            <topics>
+                <topic url="WordDocuments/flexiblebankoffsets.htm" window="right"><![CDATA[Flexible Bank Offsets]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="pdp disbursements and bank codes">
+            <topics>
+                <topic url="WordDocuments/pdpdisbursementsandb.htm" window="right"><![CDATA[PDP Disbursements and Bank Codes]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="pdp general ledger entries with flexible bank specification">
+            <topics>
+                <topic url="WordDocuments/pdpgeneralledgerentr.htm" window="right"><![CDATA[PDP General Ledger Entries with Flexible Bank Offsets]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="pdp-generated general ledger entries">
+            <topics>
+                <topic url="WordDocuments/generatedgeneralledg.htm" window="right"><![CDATA[Generated General Ledger Entries]]></topic>
             </topics>
         </keyword>
         <keyword name="pending action requests tab">
@@ -4536,6 +4824,7 @@
         </keyword>
         <keyword name="pre-disbursement processor (pdp)">
             <topics>
+                <topic url="WordDocuments/predisbursementproce1.htm" window="right"><![CDATA[Pre-Disbursement Processor]]></topic>
                 <topic url="WordDocuments/predisbursementprocessorpdp.htm" window="right"><![CDATA[Pre-Disbursement Processor (PDP)]]></topic>
             </topics>
         </keyword>
@@ -4859,6 +5148,66 @@
                 <topic url="WordDocuments/advanceddocumentsearches.htm" window="right"><![CDATA[Advanced Document Searches]]></topic>
             </topics>
         </keyword>
+        <keyword name="search for batch">
+            <topics>
+                <topic url="WordDocuments/searchforbatch.htm" window="right"><![CDATA[Search for Batch]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="search for payment (payment detail lookup)">
+            <topics>
+                <topic url="WordDocuments/searchforpayment.htm" window="right"><![CDATA[Search for Payment]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="account details tab, payment detail inquiry">
+            <topics>
+                <topic url="WordDocuments/accountdetailstab.htm" window="right"><![CDATA[Account Details Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="bank info tab, payment detail inquiry">
+            <topics>
+                <topic url="WordDocuments/bankinfotab.htm" window="right"><![CDATA[Bank Info Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="batch tab, payment detail inquiry">
+            <topics>
+                <topic url="WordDocuments/batchtab.htm" window="right"><![CDATA[Batch Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="history tab, payment detail inquiry">
+            <topics>
+                <topic url="WordDocuments/historytab.htm" window="right"><![CDATA[History Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="notes tab, payment detail inquiry">
+            <topics>
+                <topic url="WordDocuments/notestab.htm" window="right"><![CDATA[Notes Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="payee tab, payment detail inquiry">
+            <topics>
+                <topic url="WordDocuments/payeetab.htm" window="right"><![CDATA[Payee Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="payment detail inquiry">
+            <topics>
+                <topic url="WordDocuments/viewingpaymentdetail.htm" window="right"><![CDATA[Viewing Payment Details (Payment Detail Inquiry)]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="payment tab, payment detail inquiry">
+            <topics>
+                <topic url="WordDocuments/paymenttab.htm" window="right"><![CDATA[Payment Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="summary tab, payment detail inquiry">
+            <topics>
+                <topic url="WordDocuments/summarytab2.htm" window="right"><![CDATA[Summary Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="taking actions on payments">
+            <topics>
+                <topic url="WordDocuments/takingactionsonpayme.htm" window="right"><![CDATA[Taking Actions on Payments]]></topic>
+            </topics>
+        </keyword>
         <keyword name="search, named">
             <topics>
                 <topic url="WordDocuments/namedsearch.htm" window="right"><![CDATA[Named Search]]></topic>
@@ -4885,6 +5234,11 @@
         <keyword name=" super user vs. non-super user searches">
             <topics>
                 <topic url="WordDocuments/superuservsnonsuperusersearches.htm" window="right"><![CDATA[Super user vs. Non-Super user Searches]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="searching for a batch ">
+            <topics>
+                <topic url="WordDocuments/searchforbatch.htm" window="right"><![CDATA[Search for Batch]]></topic>
             </topics>
         </keyword>
         <keyword name="searching for a document">

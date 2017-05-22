@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Bank Codes on the Payments</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML-new.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PDP Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
+<meta name="D2HTheme" content="(Default) v.153" />
+</head>
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="pdpdisbursementsandb.htm"></a><a id="D2HNextAnchor" href="validbanksinthemaint.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="predisbursementproce1.htm">Pre-Disbursement Processor</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="flexiblebankoffsets.htm">Flexible Bank Offsets</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="pdpdisbursementsandb.htm">PDP Disbursements and Bank Codes</a></div>
+<h4>Bank Codes on the Payments</h4>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">When payments are formatted,the PDP attempts to use the 
+bank code specified on the payment unless it is deemed to be inappropriate for 
+this specific disbursement.</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">An example of an inappropriate bank code might be when an 
+ACH bank was specified on the payment but the PDP determines that the 
+disbursement will be made via check because the payment has been flagged as an 
+immediate print, requiring an attachment, or requiring special handling. In 
+these cases, the PDP must generate a check. Another example is when an ACH bank 
+was specified but there is no payee ACH Account record for the payee.</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">In the event that an ACH bank code is used but the PDP has 
+no ACH information for the payee, the system uses the default CHK bank code 
+instead. However, if the PDP contains ACH information for that payee, the system 
+still disburses a payment with a CHK bank code.</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">For payments for which no bank code is supplied, the PDP 
+will use the bank code associated with the appropriate disbursement type (ACH or 
+check) on the Customer Profile.</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">Bank code is also considered when the PDP attempts to 
+combine payments. Only payments being disbursed from the same bank are eligible 
+to be combined.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="normal"><a style="TEXT-DECORATION: none" href="validbanksinthemaint.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Valid Banks in the Maintenance 
+Setup</a></p></span></div></div></body></html>
