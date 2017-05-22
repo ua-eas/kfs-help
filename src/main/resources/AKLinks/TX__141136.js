@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__141136", [["WordDocuments/customerinformations.htm", "right", "Customer Information Section"],["WordDocuments/generaltab.htm", "right", "General Tab"]]);
