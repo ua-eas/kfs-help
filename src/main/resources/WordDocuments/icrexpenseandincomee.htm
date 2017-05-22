@@ -91,7 +91,8 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <h5>ICR Expense and Income Entries</h5>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">ICR expenses and income entries are generated using the 
-values defined on the Indirect Cost Recovery Rate table.</p>
+values defined on the <a onclick="return d2hpopup(event, this.href)" id="popup_398621" href="gloss_indirectcostrecovery.htm">Indirect Cost Recovery</a> 
+Rate table.</p>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">To generate indirect costs, transactions must have an 
 object type code that has the ICR Selection Type value set to Yes and the 
@@ -104,23 +105,23 @@ table.   Expenses may also be excluded by the Indirect Cost Recovery
 Type attribute assigned to the Account.  The exclusion lookup tables are 
 maintained via the Indirect Cost Recovery Exclusion by Account and Indirect Cost 
 Recovery Exclusion by Type maintenance documents.   The Indirect Cost 
-Recovery Type lookup table is maintained via the Indirect Cost Recovery Type 
-maintenance document. </p>
+Recovery Type lookup table is maintained via the Indirect Cost Recovery Type <a onclick="return d2hpopup(event, this.href)" id="popup_398622" href="gloss_maintenancedocument.htm">maintenance document</a>. </p>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">The Indirect Cost Rate table is then used to create the ICR 
-expense and income transactions. Transactions are created by referencing fiscal 
-year, balance type, and ICR percent on this table. The table contains the 
-accounting strings and the rates to use for each indirect cost rate.</p>
+expense and income transactions. Transactions are created by referencing <a onclick="return d2hpopup(event, this.href)" id="popup_398624" href="gloss_fiscalyear.htm">fiscal year</a>, balance type, and ICR percent on 
+this table. The table contains the accounting strings and the rates to use for 
+each indirect cost rate.</p>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">For generated entries, the document number is set to the 
 run date (YYYYMMDD), and the transaction identifies the item as a charge or 
 income with the ICR type, ICR percentage, object code of the original expense, 
-and direct cost amount. The document type is set to ICR (or the value your 
-institution defines in the INDIRECT_COST_RECOVERY_DOCUMENT_TYPE parameter.) The 
-chart, account number, sub-account, object code, sub-object code, and 
-debit/credit code are based on the values in the Indirect Cost Recovery Rate 
-table. The amount of the ICR transaction is set to the original direct cost 
-amount times the ICR percent identified on the table.</p>
+and direct cost amount. The <a onclick="return d2hpopup(event, this.href)" id="popup_398623" href="gloss_documenttype.htm">document type</a> is set to ICR 
+(or the value your institution defines in the 
+INDIRECT_COST_RECOVERY_DOCUMENT_TYPE parameter.) The chart, account number, 
+sub-account, object code, sub-object code, and debit/credit code are based on 
+the values in the Indirect Cost Recovery Rate table. The amount of the ICR 
+transaction is set to the original direct cost amount times the ICR percent 
+identified on the table.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="normal"><a style="TEXT-DECORATION: none" href="icrincomeandexpenset.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />ICR Income and Expense Transaction Business 
 Rules</a></p></span></div></div></body></html>
