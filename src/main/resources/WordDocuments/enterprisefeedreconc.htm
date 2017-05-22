@@ -102,16 +102,16 @@ Feed report.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 file will contain three types of rows as detailed below. Each element of each 
 row must be separated by a single space and each row ends with a semi-colon.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>A “c” row identifying the 
-table being impacted (gl_entry_t) and the row count of the data file. For 
-example: <strong>c gl_entry_t 0000000002</strong><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">;</span></span></p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>A c row identifying the table 
+being impacted (gl_entry_t) and the row count of the data file. For example: 
+<strong>c gl_entry_t 0000000002</strong><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">;</span></span></p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Courier New&quot;; FONT-WEIGHT: normal">o  
-</span></span>An “S” row identifying the field where the dollar amount is found 
+</span></span>An S row identifying the field where the dollar amount is found 
 (trn_ldgr_entr_amt) and the dollar amount of the data file. For example: 
 <strong>s trn_ldgr_entr_amt 00000000027680.00;</strong><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt; FONT-WEIGHT: normal"></span></span></p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><strong><span style="FONT-FAMILY: &quot;Courier New&quot;; FONT-WEIGHT: normal">o  
-</span></strong>An “e” row identifying the number of “c” and “s” rows found in 
-the reconciliation file (always 2 for GL files). For example<strong>: e 
+</span></strong>An e row identifying the number of c and s rows found in the 
+reconciliation file (always 2 for GL files). For example<strong>: e 
 02;</strong></p>
 <p class="C1HContinue">So an entire reconciliation made up of these rows would 
 contain the following:</p>
