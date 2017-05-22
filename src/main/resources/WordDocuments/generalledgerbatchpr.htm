@@ -115,8 +115,9 @@ on demand during testing or when needed. Unless noted, all jobs are scheduled.
       contains the next years beginning balances. Run this job after 
       nominalActivityClosingJob has been run and entries posted. The file is 
       placed in the staging/gl/OriginEntry directory and can be viewed via the 
-      <a>Batch File</a> and loaded for processing via the <a href="generalledgercorrect.htm">General Ledger Correction 
-    Process</a>.</p></td></tr>
+      <a href="batchfile.htm">Batch File</a> and loaded for processing via the 
+      <a href="generalledgercorrect.htm">General Ledger Correction 
+      Process</a>.</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 220.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="368">
       <p class="TableCells">clearPendingEntriesJob</p></td>
@@ -147,8 +148,9 @@ on demand during testing or when needed. Unless noted, all jobs are scheduled.
       forward specified encumbrances to the following year.  This job can 
       be run on the same day that nominalActivityClostingJob is run. The file is 
       placed in the staging/gl/OriginEntry directory and can be viewed via the 
-      <a>Batch File</a> and loaded for processing via the <a href="generalledgercorrect.htm">General Ledger Correction 
-    Process</a>.</p></td></tr>
+      <a href="batchfile.htm">Batch File</a> and loaded for processing via the 
+      <a href="generalledgercorrect.htm">General Ledger Correction 
+      Process</a>.</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 220.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="368">
       <p class="TableCells"><a href="enterprisefeedjob.htm">enterpriseFeedJob</a></p></td>
@@ -181,9 +183,9 @@ on demand during testing or when needed. Unless noted, all jobs are scheduled.
       <p class="TableCells">This unscheduled yearend job creates a file to close 
       revenues and expenses to fund balance. It should be run before 
       balanceForwardJob is run. The file is placed in the staging/gl/OriginEntry 
-      directory and can be viewed via the <a>Batch File</a> and loaded for 
-      processing via the <a href="generalledgercorrect.htm">General Ledger 
-      Correction Process</a>.</p></td></tr>
+      directory and can be viewed via the <a href="batchfile.htm">Batch File</a> 
+      and loaded for processing via the <a href="generalledgercorrect.htm">General Ledger Correction 
+    Process</a>.</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 220.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="368">
       <p class="TableCells"><a href="organizationreversio5.htm">organizationReversionCurrentYearAccountJob</a></p></td>
@@ -191,9 +193,9 @@ on demand during testing or when needed. Unless noted, all jobs are scheduled.
       <p class="TableCells">This unscheduled yearend job runs against the current 
       year account table to create organization reversion and carryforward 
       entries. The file is placed in the staging/gl/OriginEntry directory and 
-      can be viewed via the <a>Batch File</a> and loaded for processing via the 
-      <a href="generalledgercorrect.htm">General Ledger Correction Process</a>. 
-      Typically run prior to fiscal year end. </p></td></tr>
+      can be viewed via the <a href="batchfile.htm">Batch File</a> and loaded 
+      for processing via the <a href="generalledgercorrect.htm">General Ledger 
+      Correction Process</a>. Typically run prior to fiscal year end. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 220.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="368">
       <p class="TableCells"><a href="organizationreversio5.htm">organizationReversionPriorYearAccountJob</a></p></td>
@@ -201,9 +203,9 @@ on demand during testing or when needed. Unless noted, all jobs are scheduled.
       <p class="TableCells">This unscheduled yearend job runs against the prior 
       year account table to create organization reversion and carry forward 
       entries. The file is placed in the staging/gl/OriginEntry directory and 
-      can be viewed via the <a>Batch File</a> and loaded for processing via the 
-      <a href="generalledgercorrect.htm">General Ledger Correction Process</a>. 
-      Typically run after fiscal year end. </p></td></tr>
+      can be viewed via the <a href="batchfile.htm">Batch File</a> and loaded 
+      for processing via the <a href="generalledgercorrect.htm">General Ledger 
+      Correction Process</a>. Typically run after fiscal year end. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 220.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="368">
       <p class="TableCells">posterBalancingHistorySyncJob</p></td>
