@@ -1,0 +1,8 @@
+,Chart,Unit,Sub Unit,Date,,,Payment Date,,
+Payment Header,,,,,,,,,
+,COA,Account Number,Sub Account,Object Code,Sub Object Code,Project Code,Org Ref ID,,
+Accounting Line,,,,,,,,,
+GL Description,,,,,,,,,
+,Payee Name,Address line 1,Address line 2,Address Line 3,City,State,Zip,Check Stub Text,Amount
+Payment Detail,,,,,,,,,
+Payment Detail,,,,,,,,,
