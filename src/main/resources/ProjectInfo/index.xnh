@@ -13,7 +13,7 @@
             <topic url="WordDocuments/organizationreview.htm" window="right">Organization Review</topic>
         </topics>
     </item>
-    <item name=" common maintenance document operations, performing" id="145169">
+    <item name=" common maintenance document operations, performing" id="145438">
         <topics>
             <topic url="WordDocuments/performingcommonmaintenancedocumentoperations.htm" window="right">Performing Common Maintenance Document Operations</topic>
         </topics>
@@ -26,7 +26,7 @@
             </topics>
         </item>
     </item>
-    <item name=" copying a document" id="145175">
+    <item name=" copying a document" id="145444">
         <topics>
             <topic url="WordDocuments/copyingadocumentinitiatingadocumentbasedonanother.htm" window="right">Copying a Document (Initiating a Document Based on Another)</topic>
         </topics>
@@ -49,7 +49,7 @@
             <topic url="WordDocuments/editlistofaccountsta.htm" window="right">Edit List of Accounts Tab</topic>
         </topics>
     </item>
-    <item name=" electronic deposits, looking up and claiming " id="144068">
+    <item name=" electronic deposits, looking up and claiming " id="145490">
         <topics>
             <topic url="WordDocuments/electronicpaymentcla.htm" window="right">Electronic Payment Claim</topic>
         </topics>
@@ -79,20 +79,20 @@
     </item>
     <item name=" Group document" id="144098">
         <topics />
-        <item name="Overview tab" id="144099">
+        <item name="Overview tab" id="145519">
             <topics>
                 <topic url="WordDocuments/overviewtab.htm" window="right">Overview Tab</topic>
             </topics>
         </item>
     </item>
-    <item name=" initiating a maintenance document" id="145173">
+    <item name=" initiating a maintenance document" id="145442">
         <topics>
             <topic url="WordDocuments/initiatingamaintenancedocument.htm" window="right">Initiating a Maintenance Document</topic>
         </topics>
     </item>
     <item name=" maintenance documents" id="142726">
         <topics />
-        <item name=" other common tabs" id="145168">
+        <item name=" other common tabs" id="145437">
             <topics>
                 <topic url="WordDocuments/othercommontabs.htm" window="right">Other Common Tabs</topic>
             </topics>
@@ -200,14 +200,14 @@
             <topic url="WordDocuments/searchforpayment.htm" window="right">Search for Payment</topic>
         </topics>
     </item>
-    <item name=" payment,claiming a" id="144069">
+    <item name=" payment,claiming a" id="145491">
         <topics>
             <topic url="WordDocuments/electronicpaymentcla1.htm" window="right">Electronic Payment Claim Lookup</topic>
         </topics>
     </item>
     <item name=" Person document" id="144105">
         <topics />
-        <item name="Overview tab" id="144106">
+        <item name="Overview tab" id="145525">
             <topics>
                 <topic url="WordDocuments/overviewtab1.htm" window="right">Overview Tab</topic>
             </topics>
@@ -225,28 +225,28 @@
     </item>
     <item name=" Role document" id="144116">
         <topics />
-        <item name="Kim Type Lookup screen (creating new roles)" id="144117">
+        <item name="Kim Type Lookup screen (creating new roles)" id="145535">
             <topics>
                 <topic url="WordDocuments/creatingnewroles.htm" window="right">Creating New Roles</topic>
             </topics>
         </item>
     </item>
-    <item name=" routing details, viewing" id="145117">
+    <item name=" routing details, viewing" id="145386">
         <topics>
             <topic url="WordDocuments/viewingroutingdetails.htm" window="right">Viewing Routing Details</topic>
         </topics>
     </item>
-    <item name=" routing, account level (review hierarchy)" id="145190">
+    <item name=" routing, account level (review hierarchy)" id="145459">
         <topics>
             <topic url="WordDocuments/organizationreviewreviewhierarchyrouting.htm" window="right">Organization Review (Review Hierarchy) Routing</topic>
         </topics>
     </item>
-    <item name=" routing, special condition " id="145192">
+    <item name=" routing, special condition " id="145461">
         <topics>
             <topic url="WordDocuments/specialconditionsrouting.htm" window="right">Special Conditions Routing</topic>
         </topics>
     </item>
-    <item name=" searching for a document" id="145171">
+    <item name=" searching for a document" id="145440">
         <topics>
             <topic url="WordDocuments/searchingforadocument.htm" window="right">Searching for a Document</topic>
         </topics>
@@ -271,17 +271,17 @@
             <topic url="WordDocuments/routing33.htm" window="right">Routing</topic>
         </topics>
     </item>
-    <item name=" Wire Charge document" id="144137">
+    <item name=" Wire Charge document" id="145554">
         <topics>
             <topic url="WordDocuments/wirecharge.htm" window="right">Wire Charge</topic>
         </topics>
     </item>
-    <item name="Access Security" id="144076">
+    <item name="Access Security" id="145498">
         <topics>
             <topic url="WordDocuments/accesssecurity.htm" window="right">Access Security</topic>
         </topics>
     </item>
-    <item name="Access Security Simulation " id="144090">
+    <item name="Access Security Simulation " id="145511">
         <topics>
             <topic url="WordDocuments/accesssecuritysimula.htm" window="right">Access Security Simulation</topic>
         </topics>
@@ -351,7 +351,7 @@
             <topic url="WordDocuments/accountdescriptionta.htm" window="right">Account Description Tab</topic>
         </topics>
     </item>
-    <item name="account level routing (fiscal officer)" id="145187">
+    <item name="account level routing (fiscal officer)" id="145456">
         <topics>
             <topic url="WordDocuments/accountlevelroutingfiscalofficer.htm" window="right">Account Level Routing (Fiscal Officer)</topic>
         </topics>
@@ -381,51 +381,51 @@
             <topic url="WordDocuments/accountingchangecode.htm" window="right">Accounting Change Code</topic>
         </topics>
     </item>
-    <item name="accounting line import templates " id="145145">
+    <item name="accounting line import templates " id="145414">
         <topics>
             <topic url="WordDocuments/dataimporttemplates.htm" window="right">Data Import Templates</topic>
         </topics>
     </item>
-    <item name="Accounting Lines tab" id="145078">
+    <item name="Accounting Lines tab" id="145347">
         <topics>
             <topic url="WordDocuments/accountinglinestab1.htm" window="right">Accounting Lines Tab</topic>
         </topics>
-        <item name=" buttons" id="145088">
+        <item name=" buttons" id="145357">
             <topics>
                 <topic url="WordDocuments/accountinglinesbuttons.htm" window="right">Accounting Lines Buttons</topic>
             </topics>
         </item>
-        <item name=" debit/credit entries" id="145085">
+        <item name=" debit/credit entries" id="145354">
             <topics>
                 <topic url="WordDocuments/debitcreditentries.htm" window="right">Debit/Credit Entries</topic>
             </topics>
         </item>
-        <item name=" displaying account detail" id="145087">
+        <item name=" displaying account detail" id="145356">
             <topics>
                 <topic url="WordDocuments/displayingaccountdetail.htm" window="right">Displaying Account Detail</topic>
             </topics>
         </item>
-        <item name=" double-sided entries" id="145083">
+        <item name=" double-sided entries" id="145352">
             <topics>
                 <topic url="WordDocuments/doublesidedentries.htm" window="right">Double-Sided Entries</topic>
             </topics>
         </item>
-        <item name=" fields, list of" id="145086">
+        <item name=" fields, list of" id="145355">
             <topics>
                 <topic url="WordDocuments/debitcreditentries.htm" window="right">Debit/Credit Entries</topic>
             </topics>
         </item>
-        <item name=" import lines" id="145096">
+        <item name=" import lines" id="145365">
             <topics>
                 <topic url="WordDocuments/importlines.htm" window="right">Import Lines</topic>
             </topics>
         </item>
-        <item name=" sales tax" id="145090">
+        <item name=" sales tax" id="145359">
             <topics>
                 <topic url="WordDocuments/salestax.htm" window="right">Sales Tax</topic>
             </topics>
         </item>
-        <item name=" single-sided entry" id="145081">
+        <item name=" single-sided entry" id="145350">
             <topics>
                 <topic url="WordDocuments/singlesidedentry.htm" window="right">Single-Sided Entry</topic>
             </topics>
@@ -509,7 +509,7 @@
             </topics>
         </item>
     </item>
-    <item name="Accounts Receivable (AR)" id="145038">
+    <item name="Accounts Receivable (AR)" id="145307">
         <topics>
             <topic url="WordDocuments/accountsreceivablear.htm" window="right">Accounts Receivable (AR)</topic>
         </topics>
@@ -554,17 +554,17 @@
             <topic url="WordDocuments/generatedgeneralledg.htm" window="right">Generated General Ledger Entries</topic>
         </topics>
     </item>
-    <item name="Acknowledge" id="145137">
+    <item name="Acknowledge" id="145406">
         <topics>
             <topic url="WordDocuments/usingtheactionlist.htm" window="right">Using the Action List</topic>
         </topics>
     </item>
-    <item name="acknowledging a document" id="145199">
+    <item name="acknowledging a document" id="145468">
         <topics>
             <topic url="WordDocuments/acknowledgingadocument.htm" window="right">Acknowledging a Document</topic>
         </topics>
     </item>
-    <item name="action detail values, assigning" id="144120">
+    <item name="action detail values, assigning" id="145538">
         <topics>
             <topic url="WordDocuments/assigningactiondetai.htm" window="right">Assigning Action Detail Values</topic>
         </topics>
@@ -576,27 +576,27 @@
             <topic url="WordDocuments/usingtheactionlist.htm" window="right">Using the Action List</topic>
         </topics>
     </item>
-    <item name="action list, filtering the" id="145203">
+    <item name="action list, filtering the" id="145472">
         <topics>
             <topic url="WordDocuments/actionlistfilter.htm" window="right">Action List Filter</topic>
         </topics>
     </item>
-    <item name="Action Taken Tab" id="145074">
+    <item name="Action Taken Tab" id="145343">
         <topics>
             <topic url="WordDocuments/drilldown.htm" window="right">Drilldown</topic>
         </topics>
     </item>
-    <item name="Actions Taken tab" id="145114">
+    <item name="Actions Taken tab" id="145383">
         <topics>
             <topic url="WordDocuments/actionstakentab.htm" window="right">Actions Taken Tab</topic>
         </topics>
     </item>
-    <item name="Ad Hoc Recipients tab" id="145112">
+    <item name="Ad Hoc Recipients tab" id="145381">
         <topics>
             <topic url="WordDocuments/adhocrecipientstab.htm" window="right">Ad Hoc Recipients Tab</topic>
         </topics>
     </item>
-    <item name="ad hoc routing" id="145193">
+    <item name="ad hoc routing" id="145462">
         <topics>
             <topic url="WordDocuments/adhocrouting.htm" window="right">Ad Hoc Routing</topic>
         </topics>
@@ -629,7 +629,7 @@
             <topic url="WordDocuments/addresstype1.htm" window="right">Address Type</topic>
         </topics>
     </item>
-    <item name="Address Type Lookup" id="144138">
+    <item name="Address Type Lookup" id="145555">
         <topics>
             <topic url="WordDocuments/addresstype.htm" window="right">Address Type</topic>
         </topics>
@@ -664,7 +664,7 @@
             </topics>
         </item>
     </item>
-    <item name="Affiliation Type Lookup" id="144139">
+    <item name="Affiliation Type Lookup" id="145556">
         <topics>
             <topic url="WordDocuments/affiliationtype.htm" window="right">Affiliation Type</topic>
         </topics>
@@ -737,7 +737,7 @@
             <topic url="WordDocuments/amountviewoption.htm" window="right">Amount View Option</topic>
         </topics>
     </item>
-    <item name="apply default" id="145200">
+    <item name="apply default" id="145469">
         <topics>
             <topic url="WordDocuments/fyi.htm" window="right">FYI</topic>
         </topics>
@@ -747,7 +747,7 @@
             <topic url="WordDocuments/howtheopenadvancesar.htm" window="right">How the Open Advances are Tracked</topic>
         </topics>
     </item>
-    <item name="approve" id="145136">
+    <item name="approve" id="145405">
         <topics>
             <topic url="WordDocuments/usingtheactionlist.htm" window="right">Using the Action List</topic>
         </topics>
@@ -1269,7 +1269,7 @@
             <topic url="WordDocuments/assetstab.htm" window="right">Assets Tab</topic>
         </topics>
     </item>
-    <item name="asterisk" id="145054">
+    <item name="asterisk" id="145323">
         <topics>
             <topic url="WordDocuments/requiredfields.htm" window="right">Required Fields</topic>
         </topics>
@@ -1449,7 +1449,7 @@
             <topic url="WordDocuments/balancesbyconsolidat.htm" window="right">Balances by Consolidation</topic>
         </topics>
     </item>
-    <item name="balancing rules" id="145106">
+    <item name="balancing rules" id="145375">
         <topics>
             <topic url="WordDocuments/balancingrules.htm" window="right">Balancing Rules</topic>
         </topics>
@@ -1467,7 +1467,7 @@
             <topic url="WordDocuments/pdpdisbursementsandb.htm" window="right">PDP Disbursements and Bank Codes</topic>
         </topics>
     </item>
-    <item name="Bank Maintenance document" id="144091">
+    <item name="Bank Maintenance document" id="145512">
         <topics>
             <topic url="WordDocuments/bank.htm" window="right">Bank</topic>
         </topics>
@@ -1518,95 +1518,95 @@
             <topic url="WordDocuments/basicaccountingcateg.htm" window="right">Basic Accounting Category</topic>
         </topics>
     </item>
-    <item name="basic document operations" id="145120">
+    <item name="basic document operations" id="145389">
         <topics>
             <topic url="WordDocuments/basicdocumentoperations.htm" window="right">Basic Document Operations</topic>
         </topics>
-        <item name="canceling" id="145129">
+        <item name="canceling" id="145398">
             <topics>
                 <topic url="WordDocuments/cancelingadocument.htm" window="right">Canceling a Document</topic>
             </topics>
         </item>
-        <item name="closing" id="145131">
+        <item name="closing" id="145400">
             <topics>
                 <topic url="WordDocuments/closingadocument.htm" window="right">Closing a Document</topic>
             </topics>
         </item>
-        <item name="copying" id="145124">
+        <item name="copying" id="145393">
             <topics>
                 <topic url="WordDocuments/copyingadocumentinitiatingadocumentbasedonanotherdocument.htm" window="right">Copying a Document (initiating a document based on another document)</topic>
             </topics>
         </item>
-        <item name="initiating" id="145121">
+        <item name="initiating" id="145390">
             <topics>
                 <topic url="WordDocuments/initiatingadocument.htm" window="right">Initiating a Document</topic>
             </topics>
         </item>
-        <item name="performing custom document searches " id="145141">
+        <item name="performing custom document searches " id="145410">
             <topics>
                 <topic url="WordDocuments/performingcustomdocumentsearches.htm" window="right">Performing Custom Document Searches</topic>
             </topics>
         </item>
-        <item name="recall" id="145135">
+        <item name="recall" id="145404">
             <topics>
                 <topic url="WordDocuments/recalladocument.htm" window="right">Recall a Document</topic>
             </topics>
         </item>
-        <item name="routing" id="145133">
+        <item name="routing" id="145402">
             <topics>
                 <topic url="WordDocuments/routingadocument.htm" window="right">Routing a Document</topic>
             </topics>
         </item>
-        <item name="saving" id="145127">
+        <item name="saving" id="145396">
             <topics>
                 <topic url="WordDocuments/savingadocument.htm" window="right">Saving a Document</topic>
             </topics>
         </item>
-        <item name="searching" id="145140">
+        <item name="searching" id="145409">
             <topics>
                 <topic url="WordDocuments/usingdocumentsearchtofindadocument.htm" window="right">Using Document Search to Find a Document</topic>
             </topics>
         </item>
     </item>
-    <item name="Batch File Lookup" id="144179">
+    <item name="Batch File Lookup" id="145592">
         <topics>
             <topic url="WordDocuments/batchfile.htm" window="right">Batch File</topic>
         </topics>
     </item>
-    <item name="batch input file format specifications" id="145218">
+    <item name="batch input file format specifications" id="145487">
         <topics>
             <topic url="WordDocuments/batchinputfileformatspecifications.htm" window="right">Batch Input File Format Specifications</topic>
         </topics>
-        <item name=" general XML rules" id="145219">
+        <item name=" general XML rules" id="145488">
             <topics>
                 <topic url="WordDocuments/generalxmlrules.htm" window="right">General XML Rules</topic>
             </topics>
         </item>
     </item>
-    <item name="Batch input file format specifications " id="145217">
+    <item name="Batch input file format specifications " id="145486">
         <topics>
             <topic url="WordDocuments/batchinputfileformatspecifications.htm" window="right">Batch Input File Format Specifications</topic>
         </topics>
     </item>
-    <item name="Batch Job Lookup" id="144180">
+    <item name="Batch Job Lookup" id="145593">
         <topics>
             <topic url="WordDocuments/batchschedule.htm" window="right">Batch Schedule</topic>
         </topics>
     </item>
-    <item name="batch job, modify" id="144182">
+    <item name="batch job, modify" id="145595">
         <topics>
             <topic url="WordDocuments/batchschedule.htm" window="right">Batch Schedule</topic>
             <topic url="WordDocuments/documentlayout259.htm" window="right">Document Layout</topic>
         </topics>
     </item>
-    <item name="batch job, scheduling a" id="144186">
+    <item name="batch job, scheduling a" id="145598">
         <topics>
             <topic url="WordDocuments/runningsection.htm" window="right">Running Section</topic>
         </topics>
     </item>
     <item name="batch jobs" id="144183">
         <topics />
-        <item name="controlling" id="144184">
+        <item name="controlling" id="145596">
             <topics>
                 <topic url="WordDocuments/documentlayout259.htm" window="right">Document Layout</topic>
             </topics>
@@ -1639,7 +1639,7 @@
             <topic url="WordDocuments/billingstatement.htm" window="right">Billing Statement</topic>
         </topics>
     </item>
-    <item name="blanket approving a document" id="145197">
+    <item name="blanket approving a document" id="145466">
         <topics>
             <topic url="WordDocuments/blanketapprovingadocument.htm" window="right">Blanket Approving a Document</topic>
         </topics>
@@ -1709,7 +1709,7 @@
             <topic url="WordDocuments/organizationreversio5.htm" window="right">organizationReversionJobs</topic>
         </topics>
     </item>
-    <item name="Building document" id="144092">
+    <item name="Building document" id="145513">
         <topics>
             <topic url="WordDocuments/building.htm" window="right">Building</topic>
         </topics>
@@ -2056,7 +2056,7 @@
                 <topic url="WordDocuments/businessrules43.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Person document" id="144111">
+        <item name="Person document" id="145530">
             <topics>
                 <topic url="WordDocuments/businessrules96.htm" window="right">Business Rules</topic>
             </topics>
@@ -2175,17 +2175,17 @@
             <topic url="WordDocuments/campusparameter.htm" window="right">Campus Parameter</topic>
         </topics>
     </item>
-    <item name="Campus Type Lookup" id="144141">
+    <item name="Campus Type Lookup" id="145558">
         <topics>
             <topic url="WordDocuments/campustype.htm" window="right">Campus Type</topic>
         </topics>
     </item>
-    <item name="CampusMaintenanceDocument" id="144140">
+    <item name="CampusMaintenanceDocument" id="145557">
         <topics>
             <topic url="WordDocuments/campus.htm" window="right">Campus</topic>
         </topics>
     </item>
-    <item name="canceling a document" id="145128">
+    <item name="canceling a document" id="145397">
         <topics>
             <topic url="WordDocuments/cancelingadocument.htm" window="right">Canceling a Document</topic>
         </topics>
@@ -2401,7 +2401,7 @@
             </topics>
         </item>
     </item>
-    <item name="Capital Edit tab" id="145097">
+    <item name="Capital Edit tab" id="145366">
         <topics>
             <topic url="WordDocuments/accountinglinesforcapitalizationtab.htm" window="right">Accounting Lines for Capitalization Tab</topic>
         </topics>
@@ -2698,7 +2698,7 @@
             <topic url="WordDocuments/catalogoffederaldome.htm" window="right">Catalog of Federal Domestic Assistance</topic>
         </topics>
     </item>
-    <item name="caveats about using documentation" id="145030">
+    <item name="caveats about using documentation" id="145299">
         <topics>
             <topic url="WordDocuments/caveatsaboutusingthisdocumentation.htm" window="right">Caveats about using this documentation</topic>
         </topics>
@@ -2738,7 +2738,7 @@
             <topic url="WordDocuments/chart.htm" window="right">Chart</topic>
         </topics>
     </item>
-    <item name="Chart of Accounts (COA)" id="145032">
+    <item name="Chart of Accounts (COA)" id="145301">
         <topics>
             <topic url="WordDocuments/chartofaccountscoa.htm" window="right">Chart of Accounts (COA)</topic>
             <topic url="WordDocuments/kualifinancials.htm" window="right">Kuali Financials</topic>
@@ -2769,12 +2769,12 @@
             <topic url="WordDocuments/generatedgeneralledg.htm" window="right">Generated General Ledger Entries</topic>
         </topics>
     </item>
-    <item name="claiming electronic deposits" id="144067">
+    <item name="claiming electronic deposits" id="145489">
         <topics>
             <topic url="WordDocuments/electronicpaymentcla.htm" window="right">Electronic Payment Claim</topic>
         </topics>
     </item>
-    <item name="closing a document" id="145130">
+    <item name="closing a document" id="145399">
         <topics>
             <topic url="WordDocuments/closingadocument.htm" window="right">Closing a Document</topic>
         </topics>
@@ -2784,7 +2784,7 @@
             <topic url="WordDocuments/businessrules37.htm" window="right">Business Rules</topic>
         </topics>
     </item>
-    <item name="collapse all button" id="145051">
+    <item name="collapse all button" id="145320">
         <topics>
             <topic url="WordDocuments/expandallcollapseallbuttons.htm" window="right">Expand All /Collapse All Buttons</topic>
         </topics>
@@ -2860,7 +2860,7 @@
             <topic url="WordDocuments/componentstab.htm" window="right">Components Tab</topic>
         </topics>
     </item>
-    <item name="Configuring Non-Production Email Notifications" id="144073">
+    <item name="Configuring Non-Production Email Notifications" id="145495">
         <topics>
             <topic url="WordDocuments/configuringnonproduc.htm" window="right">Configuring Non-Production Email Notifications</topic>
         </topics>
@@ -3123,12 +3123,12 @@
             <topic url="WordDocuments/contractstab.htm" window="right">Contracts Tab</topic>
         </topics>
     </item>
-    <item name="Copied from Document ID" id="145125">
+    <item name="Copied from Document ID" id="145394">
         <topics>
             <topic url="WordDocuments/copyingadocumentinitiatingadocumentbasedonanotherdocument.htm" window="right">Copying a Document (initiating a document based on another document)</topic>
         </topics>
     </item>
-    <item name="copying a document" id="145123">
+    <item name="copying a document" id="145392">
         <topics>
             <topic url="WordDocuments/copyingadocumentinitiatingadocumentbasedonanotherdocument.htm" window="right">Copying a Document (initiating a document based on another document)</topic>
         </topics>
@@ -3176,12 +3176,12 @@
             <topic url="WordDocuments/costsharetransfers.htm" window="right">Cost Share Transfers</topic>
         </topics>
     </item>
-    <item name="CountryMaintenanceDocument" id="144142">
+    <item name="CountryMaintenanceDocument" id="145559">
         <topics>
             <topic url="WordDocuments/country.htm" window="right">Country</topic>
         </topics>
     </item>
-    <item name="CountyMaintenanceDocument" id="144143">
+    <item name="CountyMaintenanceDocument" id="145560">
         <topics>
             <topic url="WordDocuments/county.htm" window="right">County</topic>
         </topics>
@@ -3191,7 +3191,7 @@
             <topic url="WordDocuments/createanewfinaldepos.htm" window="right">Create a New Final Deposit Screen</topic>
         </topics>
     </item>
-    <item name="Create Capital Assets tab" id="145099">
+    <item name="Create Capital Assets tab" id="145368">
         <topics>
             <topic url="WordDocuments/createcapitalassetstab.htm" window="right">Create Capital Assets Tab</topic>
         </topics>
@@ -3201,7 +3201,7 @@
             <topic url="WordDocuments/createdivision.htm" window="right">Create Division</topic>
         </topics>
     </item>
-    <item name="creating a .csv file" id="145149">
+    <item name="creating a .csv file" id="145418">
         <topics>
             <topic url="WordDocuments/creatingacsvfile1.htm" window="right">Creating a .csv File</topic>
         </topics>
@@ -3251,7 +3251,7 @@
             <topic url="WordDocuments/creditmemostatus.htm" window="right">Credit Memo Status</topic>
         </topics>
     </item>
-    <item name="csv" id="145069">
+    <item name="csv" id="145338">
         <topics>
             <topic url="WordDocuments/exportoptionslinks.htm" window="right">Export Options Links</topic>
         </topics>
@@ -3289,12 +3289,12 @@
                 <topic url="WordDocuments/customercreditmemosd.htm" window="right">Customer Credit Memos Document Search</topic>
             </topics>
         </item>
-        <item name="common features and search options " id="145143">
+        <item name="common features and search options " id="145412">
             <topics>
                 <topic url="WordDocuments/commonfeaturesandsearchoptions.htm" window="right">Common Features and Search Options</topic>
             </topics>
         </item>
-        <item name="common search criteria " id="145142">
+        <item name="common search criteria " id="145411">
             <topics>
                 <topic url="WordDocuments/commonsearchcriteria.htm" window="right">Common Search Criteria</topic>
             </topics>
@@ -3644,14 +3644,14 @@
             <topic url="WordDocuments/customerxmlupload.htm" window="right">Customer XML Upload</topic>
         </topics>
     </item>
-    <item name="Data Entry Tips" id="145144">
+    <item name="Data Entry Tips" id="145413">
         <topics>
             <topic url="WordDocuments/dataentrytips.htm" window="right">Data Entry Tips</topic>
         </topics>
     </item>
     <item name="data import" id="142705">
         <topics />
-        <item name=" creating a .csv file" id="145150">
+        <item name=" creating a .csv file" id="145419">
             <topics>
                 <topic url="WordDocuments/creatingacsvfile1.htm" window="right">Creating a .csv File</topic>
             </topics>
@@ -3659,88 +3659,88 @@
     </item>
     <item name="Data import templates" id="142707">
         <topics />
-        <item name=" Attendee_List_Import.xlxs " id="145165">
+        <item name=" Attendee_List_Import.xlxs " id="145434">
             <topics>
                 <topic url="WordDocuments/arcustomeruploadxls.htm" window="right">AR_Customer_Upload.xls</topic>
             </topics>
         </item>
-        <item name=" BA_YEBA_Import.xlxs" id="145153">
+        <item name=" BA_YEBA_Import.xlxs" id="145422">
             <topics>
                 <topic url="WordDocuments/bayebaimportxlxs.htm" window="right">BA_YEBA_Import.xlxs</topic>
             </topics>
         </item>
-        <item name=" ICA_Import.xlxs" id="145155">
+        <item name=" ICA_Import.xlxs" id="145424">
             <topics>
                 <topic url="WordDocuments/icaimportxlxs.htm" window="right">ICA_Import.xlxs</topic>
             </topics>
         </item>
-        <item name=" JV_Ext_Encumbr_Import.xlxs" id="145156">
+        <item name=" JV_Ext_Encumbr_Import.xlxs" id="145425">
             <topics>
                 <topic url="WordDocuments/jvextencumbrimportxlxs.htm" window="right">JV_Ext_Encumbr_Import.xlxs</topic>
             </topics>
         </item>
-        <item name=" JV_NonOffset_Bal_Type_Import.xlxs" id="145157">
+        <item name=" JV_NonOffset_Bal_Type_Import.xlxs" id="145426">
             <topics>
                 <topic url="WordDocuments/jvnonoffsetbaltypeimportxlxs.htm" window="right">JV_NonOffset_Bal_Type_Import.xlxs</topic>
             </topics>
         </item>
-        <item name="AV_Import.xlxs" id="145152">
+        <item name="AV_Import.xlxs" id="145421">
             <topics>
                 <topic url="WordDocuments/avimportxlxs.htm" window="right">AV_Import.xlxs</topic>
             </topics>
         </item>
-        <item name="CAM_MPAY_Account_Import.xls " id="145164">
+        <item name="CAM_MPAY_Account_Import.xls " id="145433">
             <topics>
                 <topic url="WordDocuments/cammpayaccountimportxls.htm" window="right">CAM_MPAY_Account_Import.xls</topic>
             </topics>
         </item>
-        <item name="GEC_YEGEC_Import.xls" id="145154">
+        <item name="GEC_YEGEC_Import.xls" id="145423">
             <topics>
                 <topic url="WordDocuments/gecyegecimportxls.htm" window="right">GEC_YEGEC_Import.xls</topic>
             </topics>
         </item>
-        <item name="JV_Offset_Bal_Type_Import.xls" id="145158">
+        <item name="JV_Offset_Bal_Type_Import.xls" id="145427">
             <topics>
                 <topic url="WordDocuments/jvoffsetbaltypeimportxls.htm" window="right">JV_Offset_Bal_Type_Import.xls</topic>
             </topics>
         </item>
-        <item name="LLJV_Import.xls" id="145159">
+        <item name="LLJV_Import.xls" id="145428">
             <topics>
                 <topic url="WordDocuments/lljvimportxls.htm" window="right">LLJV_Import.xls</topic>
             </topics>
         </item>
-        <item name="ND_Import.xls" id="145160">
+        <item name="ND_Import.xls" id="145429">
             <topics>
                 <topic url="WordDocuments/ndimportxls.htm" window="right">ND_Import.xls</topic>
             </topics>
         </item>
-        <item name="PE_Disencumbrance_Only_Import.xls" id="145161">
+        <item name="PE_Disencumbrance_Only_Import.xls" id="145430">
             <topics>
                 <topic url="WordDocuments/pedisencumbranceonlyimportxls.htm" window="right">PE_Disencumbrance_Only_Import.xls</topic>
             </topics>
         </item>
-        <item name="PURAP_Account_Import.xls " id="145163">
+        <item name="PURAP_Account_Import.xls " id="145432">
             <topics>
                 <topic url="WordDocuments/purapaccountimportxls.htm" window="right">PURAP_Account_Import.xls</topic>
             </topics>
         </item>
-        <item name="PURAP_Item_Import.xls " id="145162">
+        <item name="PURAP_Item_Import.xls " id="145431">
             <topics>
                 <topic url="WordDocuments/purapitemimportxls.htm" window="right">PURAP_Item_Import.xls</topic>
             </topics>
         </item>
-        <item name="Standard_Import.xls" id="145151">
+        <item name="Standard_Import.xls" id="145420">
             <topics>
                 <topic url="WordDocuments/standardimportxls.htm" window="right">Standard_Import.xls</topic>
             </topics>
         </item>
     </item>
-    <item name="data import templates " id="145146">
+    <item name="data import templates " id="145415">
         <topics>
             <topic url="WordDocuments/dataimporttemplates.htm" window="right">Data Import Templates</topic>
         </topics>
     </item>
-    <item name="data import templates, links to default " id="145148">
+    <item name="data import templates, links to default " id="145417">
         <topics>
             <topic url="WordDocuments/linkstodefaultdataimporttemplates.htm" window="right">Links to Default Data Import Templates</topic>
         </topics>
@@ -3750,17 +3750,17 @@
             <topic url="WordDocuments/datavalidation.htm" window="right">Data Validation</topic>
         </topics>
     </item>
-    <item name="date fields" id="145055">
+    <item name="date fields" id="145324">
         <topics>
             <topic url="WordDocuments/datefields.htm" window="right">Date Fields</topic>
         </topics>
     </item>
-    <item name="debit/credit entries" id="145084">
+    <item name="debit/credit entries" id="145353">
         <topics>
             <topic url="WordDocuments/debitcreditentries.htm" window="right">Debit/Credit Entries</topic>
         </topics>
     </item>
-    <item name="Definition document" id="144078">
+    <item name="Definition document" id="145500">
         <topics>
             <topic url="WordDocuments/securitydefinition.htm" window="right">Security Definition</topic>
         </topics>
@@ -3805,7 +3805,7 @@
             <topic url="WordDocuments/capitalassetmanageme2.htm" window="right">Capital Asset Management Depreciation Process</topic>
         </topics>
     </item>
-    <item name="detailed vs. basic searches" id="145207">
+    <item name="detailed vs. basic searches" id="145476">
         <topics>
             <topic url="WordDocuments/detailedvsbasicsearches.htm" window="right">Detailed vs. Basic Searches</topic>
         </topics>
@@ -3815,7 +3815,7 @@
             <topic url="WordDocuments/detectmissingentries.htm" window="right">detectMissingEntriesJob</topic>
         </topics>
     </item>
-    <item name="disapproving a document" id="145198">
+    <item name="disapproving a document" id="145467">
         <topics>
             <topic url="WordDocuments/disapprovingadocument.htm" window="right">Disapproving a Document</topic>
         </topics>
@@ -4013,78 +4013,78 @@
             </topics>
         </item>
     </item>
-    <item name="Document Body" id="145050">
+    <item name="Document Body" id="145319">
         <topics>
             <topic url="WordDocuments/documentlayout52.htm" window="right">Document Layout</topic>
         </topics>
     </item>
     <item name="Document Configuration view" id="144174">
         <topics />
-        <item name="Document Information tab" id="144175">
+        <item name="Document Information tab" id="145588">
             <topics>
                 <topic url="WordDocuments/documentinformationt.htm" window="right">Document Information Tab</topic>
             </topics>
         </item>
-        <item name="Permissions tab" id="144176">
+        <item name="Permissions tab" id="145589">
             <topics>
                 <topic url="WordDocuments/permissionstab1.htm" window="right">Permissions Tab</topic>
             </topics>
         </item>
-        <item name="Workflow / Responsibilities tab" id="144177">
+        <item name="Workflow / Responsibilities tab" id="145590">
             <topics>
                 <topic url="WordDocuments/workflowresponsibili.htm" window="right">Workflow / Responsibilities Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Document Configuration view " id="144171">
+    <item name="Document Configuration view " id="145585">
         <topics>
             <topic url="WordDocuments/documentconfiguratio.htm" window="right">Document Configuration View</topic>
         </topics>
     </item>
-    <item name="document fundamentals" id="145047">
+    <item name="document fundamentals" id="145316">
         <topics>
             <topic url="WordDocuments/kualifinancialsdocumentfundamentals.htm" window="right">Kuali Financials Document Fundamentals</topic>
         </topics>
     </item>
-    <item name="Document Header" id="145049">
+    <item name="Document Header" id="145318">
         <topics>
             <topic url="WordDocuments/documentheader.htm" window="right">Document Header</topic>
             <topic url="WordDocuments/documentlayout52.htm" window="right">Document Layout</topic>
         </topics>
     </item>
-    <item name="document hierarchy view, KIM data " id="144164">
+    <item name="document hierarchy view, KIM data " id="145580">
         <topics>
             <topic url="WordDocuments/documenthierarchyvie.htm" window="right">Document Hierarchy View</topic>
         </topics>
     </item>
-    <item name="document layout" id="145048">
+    <item name="document layout" id="145317">
         <topics>
             <topic url="WordDocuments/documentlayout52.htm" window="right">Document Layout</topic>
         </topics>
     </item>
-    <item name="Document Overview tab" id="145077">
+    <item name="Document Overview tab" id="145346">
         <topics>
             <topic url="WordDocuments/documentoverviewtab1.htm" window="right">Document Overview Tab</topic>
         </topics>
     </item>
-    <item name="document search" id="145206">
+    <item name="document search" id="145475">
         <topics>
             <topic url="WordDocuments/advanceddocumentsearches.htm" window="right">Advanced Document Searches</topic>
         </topics>
     </item>
-    <item name="Document Type" id="144144">
+    <item name="Document Type" id="145561">
         <topics>
             <topic url="WordDocuments/documenttype.htm" window="right">Document Type</topic>
         </topics>
     </item>
     <item name="Document Type document" id="144145">
         <topics />
-        <item name="Document Type tab" id="144146">
+        <item name="Document Type tab" id="145562">
             <topics>
                 <topic url="WordDocuments/documenttypetab.htm" window="right">Document Type Tab</topic>
             </topics>
         </item>
-        <item name="Fields Available for Retroactive Application tab" id="144147">
+        <item name="Fields Available for Retroactive Application tab" id="145563">
             <topics>
                 <topic url="WordDocuments/fieldsavailableforre.htm" window="right">Fields Available for Retroactive Application Tab</topic>
             </topics>
@@ -4092,7 +4092,7 @@
     </item>
     <item name="Document Type Inquiry" id="144167">
         <topics />
-        <item name="displaying from document hierarchy view " id="144168">
+        <item name="displaying from document hierarchy view " id="145583">
             <topics>
                 <topic url="WordDocuments/documenthierarchyvie.htm" window="right">Document Hierarchy View</topic>
             </topics>
@@ -4138,22 +4138,22 @@
     </item>
     <item name="documents" id="142729">
         <topics />
-        <item name=" copying a document" id="145174">
+        <item name=" copying a document" id="145443">
             <topics>
                 <topic url="WordDocuments/copyingadocumentinitiatingadocumentbasedonanother.htm" window="right">Copying a Document (Initiating a Document Based on Another)</topic>
             </topics>
         </item>
-        <item name=" editing a document" id="145176">
+        <item name=" editing a document" id="145445">
             <topics>
                 <topic url="WordDocuments/editingamaintenancedocument.htm" window="right">Editing a Maintenance Document</topic>
             </topics>
         </item>
-        <item name=" initiating maintenance" id="145172">
+        <item name=" initiating maintenance" id="145441">
             <topics>
                 <topic url="WordDocuments/initiatingamaintenancedocument.htm" window="right">Initiating a Maintenance Document</topic>
             </topics>
         </item>
-        <item name=" searching for a document " id="145170">
+        <item name=" searching for a document " id="145439">
             <topics>
                 <topic url="WordDocuments/searchingforadocument.htm" window="right">Searching for a Document</topic>
             </topics>
@@ -4169,29 +4169,29 @@
             <topic url="WordDocuments/documentsinsystemtab.htm" window="right">Documents in System Tab</topic>
         </topics>
     </item>
-    <item name="document-specific searches" id="145212">
+    <item name="document-specific searches" id="145481">
         <topics>
             <topic url="WordDocuments/documentspecificsearches.htm" window="right">Document-Specific Searches</topic>
         </topics>
     </item>
     <item name="DocumentTypeMaintenanceDocument" id="144169">
         <topics />
-        <item name=" initiating from document hierarchy view " id="144170">
+        <item name=" initiating from document hierarchy view " id="145584">
             <topics>
                 <topic url="WordDocuments/documenthierarchyvie.htm" window="right">Document Hierarchy View</topic>
             </topics>
         </item>
     </item>
-    <item name="double-sided entries" id="145082">
+    <item name="double-sided entries" id="145351">
         <topics>
             <topic url="WordDocuments/doublesidedentries.htm" window="right">Double-Sided Entries</topic>
         </topics>
     </item>
-    <item name="drilldown" id="145071">
+    <item name="drilldown" id="145340">
         <topics>
             <topic url="WordDocuments/drilldown.htm" window="right">Drilldown</topic>
         </topics>
-        <item name=" document ID" id="145072">
+        <item name=" document ID" id="145341">
             <topics>
                 <topic url="WordDocuments/drilldown.htm" window="right">Drilldown</topic>
             </topics>
@@ -4267,7 +4267,7 @@
             <topic url="WordDocuments/editpreassettaggingt.htm" window="right">Edit Pre-Asset Tagging Tab</topic>
         </topics>
     </item>
-    <item name="editing a document" id="145177">
+    <item name="editing a document" id="145446">
         <topics>
             <topic url="WordDocuments/editingamaintenancedocument.htm" window="right">Editing a Maintenance Document</topic>
         </topics>
@@ -4280,7 +4280,7 @@
             </topics>
         </item>
     </item>
-    <item name="Effort Certification (EC) module" id="145039">
+    <item name="Effort Certification (EC) module" id="145308">
         <topics>
             <topic url="WordDocuments/effortcertificationec.htm" window="right">Effort Certification (EC)</topic>
         </topics>
@@ -4457,7 +4457,7 @@
             <topic url="WordDocuments/electronicinvoiceite1.htm" window="right">Electronic Invoice Item Mapping</topic>
         </topics>
     </item>
-    <item name="Email Type Lookup" id="144148">
+    <item name="Email Type Lookup" id="145564">
         <topics>
             <topic url="WordDocuments/emailtype.htm" window="right">Email Type</topic>
         </topics>
@@ -4467,12 +4467,12 @@
             <topic url="WordDocuments/paymentinformationta.htm" window="right">Payment Information Tab</topic>
         </topics>
     </item>
-    <item name="Employee Status Lookup" id="144149">
+    <item name="Employee Status Lookup" id="145565">
         <topics>
             <topic url="WordDocuments/employeestatus.htm" window="right">Employee Status</topic>
         </topics>
     </item>
-    <item name="Employee Type Lookup" id="144150">
+    <item name="Employee Type Lookup" id="145566">
         <topics>
             <topic url="WordDocuments/employeetype.htm" window="right">Employee Type</topic>
         </topics>
@@ -4505,12 +4505,12 @@
             <topic url="WordDocuments/enterprisefeedjob.htm" window="right">enterpriseFeedJob</topic>
         </topics>
     </item>
-    <item name="Entity Name Type Lookup" id="144153">
+    <item name="Entity Name Type Lookup" id="145569">
         <topics>
             <topic url="WordDocuments/nametype.htm" window="right">Name Type</topic>
         </topics>
     </item>
-    <item name="Entity Type Lookup" id="144151">
+    <item name="Entity Type Lookup" id="145567">
         <topics>
             <topic url="WordDocuments/entitytype.htm" window="right">Entity Type</topic>
         </topics>
@@ -4607,12 +4607,12 @@
             <topic url="WordDocuments/equipmentloanstab.htm" window="right">Equipment Loans Tab</topic>
         </topics>
     </item>
-    <item name="errors, correcting after approval" id="145201">
+    <item name="errors, correcting after approval" id="145470">
         <topics>
             <topic url="WordDocuments/correctingerrorsafterapproval.htm" window="right">Correcting Errors after Approval</topic>
         </topics>
     </item>
-    <item name="Excel" id="145068">
+    <item name="Excel" id="145337">
         <topics>
             <topic url="WordDocuments/exportoptionslinks.htm" window="right">Export Options Links</topic>
         </topics>
@@ -4622,7 +4622,7 @@
             <topic url="WordDocuments/paymentinformationta.htm" window="right">Payment Information Tab</topic>
         </topics>
     </item>
-    <item name="expand all button" id="145052">
+    <item name="expand all button" id="145321">
         <topics>
             <topic url="WordDocuments/expandallcollapseallbuttons.htm" window="right">Expand All /Collapse All Buttons</topic>
         </topics>
@@ -4633,17 +4633,17 @@
             <topic url="WordDocuments/businessrules69.htm" window="right">Business Rules</topic>
         </topics>
     </item>
-    <item name="export option" id="145066">
+    <item name="export option" id="145335">
         <topics>
             <topic url="WordDocuments/exportoptionslinks.htm" window="right">Export Options Links</topic>
         </topics>
     </item>
-    <item name="exporting data" id="145070">
+    <item name="exporting data" id="145339">
         <topics>
             <topic url="WordDocuments/exportoptionslinks.htm" window="right">Export Options Links</topic>
         </topics>
     </item>
-    <item name="External Identifier Type Lookup" id="144152">
+    <item name="External Identifier Type Lookup" id="145568">
         <topics>
             <topic url="WordDocuments/externalidentifierty.htm" window="right">External Identifier Type</topic>
         </topics>
@@ -4689,7 +4689,7 @@
             <topic url="WordDocuments/federalfundedcode.htm" window="right">Federal Funded Code</topic>
         </topics>
     </item>
-    <item name="Field Lookup" id="145059">
+    <item name="Field Lookup" id="145328">
         <topics>
             <topic url="WordDocuments/fieldlookup.htm" window="right">Field Lookup</topic>
         </topics>
@@ -4702,12 +4702,12 @@
             </topics>
         </item>
     </item>
-    <item name="Filter Options" id="145045">
+    <item name="Filter Options" id="145314">
         <topics>
             <topic url="WordDocuments/activitiesreferenceandadministration.htm" window="right">Activities, Reference and Administration</topic>
         </topics>
     </item>
-    <item name="filter, action list" id="145204">
+    <item name="filter, action list" id="145473">
         <topics>
             <topic url="WordDocuments/actionlistfilter.htm" window="right">Action List Filter</topic>
         </topics>
@@ -4830,7 +4830,7 @@
             </topics>
         </item>
     </item>
-    <item name="Financial Processing(FP)" id="145040">
+    <item name="Financial Processing(FP)" id="145309">
         <topics>
             <topic url="WordDocuments/financialprocessingfp.htm" window="right">Financial Processing(FP)</topic>
         </topics>
@@ -4847,27 +4847,27 @@
     </item>
     <item name="financial transaction document tabs" id="142627">
         <topics />
-        <item name=" Accounting Lines tab" id="145079">
+        <item name=" Accounting Lines tab" id="145348">
             <topics>
                 <topic url="WordDocuments/accountinglinestab1.htm" window="right">Accounting Lines Tab</topic>
             </topics>
         </item>
-        <item name=" Capital Edit tab" id="145098">
+        <item name=" Capital Edit tab" id="145367">
             <topics>
                 <topic url="WordDocuments/accountinglinesforcapitalizationtab.htm" window="right">Accounting Lines for Capitalization Tab</topic>
             </topics>
         </item>
-        <item name=" Create Capital Assets tab" id="145100">
+        <item name=" Create Capital Assets tab" id="145369">
             <topics>
                 <topic url="WordDocuments/createcapitalassetstab.htm" window="right">Create Capital Assets Tab</topic>
             </topics>
         </item>
-        <item name=" General Ledger Pending Entries tab" id="145104">
+        <item name=" General Ledger Pending Entries tab" id="145373">
             <topics>
                 <topic url="WordDocuments/generalledgerpendingentriestab.htm" window="right">General Ledger Pending Entries Tab</topic>
             </topics>
         </item>
-        <item name=" Modify Capital Assets tab" id="145102">
+        <item name=" Modify Capital Assets tab" id="145371">
             <topics>
                 <topic url="WordDocuments/modifycapitalassetstab.htm" window="right">Modify Capital Assets Tab</topic>
             </topics>
@@ -4875,7 +4875,7 @@
     </item>
     <item name="financial transaction documents" id="142657">
         <topics />
-        <item name=" balancing rules" id="145107">
+        <item name=" balancing rules" id="145376">
             <topics>
                 <topic url="WordDocuments/balancingrules.htm" window="right">Balancing Rules</topic>
             </topics>
@@ -4889,30 +4889,30 @@
             </topics>
         </item>
     </item>
-    <item name="Financial Transactions Processing" id="145033">
+    <item name="Financial Transactions Processing" id="145302">
         <topics>
             <topic url="WordDocuments/kualifinancials.htm" window="right">Kuali Financials</topic>
         </topics>
     </item>
-    <item name="Financials Namespace document" id="144093">
+    <item name="Financials Namespace document" id="145514">
         <topics>
             <topic url="WordDocuments/financialsnamespace.htm" window="right">Financials Namespace</topic>
             <topic url="WordDocuments/namespace.htm" window="right">Namespace</topic>
         </topics>
     </item>
-    <item name="Financials Parameter Component document" id="144095">
+    <item name="Financials Parameter Component document" id="145516">
         <topics>
             <topic url="WordDocuments/financialsparameterc.htm" window="right">Financials Parameter Component</topic>
             <topic url="WordDocuments/parametercomponent.htm" window="right">Parameter Component</topic>
         </topics>
     </item>
-    <item name="Financials Parameter document" id="144094">
+    <item name="Financials Parameter document" id="145515">
         <topics>
             <topic url="WordDocuments/financialsparameter.htm" window="right">Financials Parameter</topic>
             <topic url="WordDocuments/parameter.htm" window="right">Parameter</topic>
         </topics>
     </item>
-    <item name="Financials Parameter Type document" id="144096">
+    <item name="Financials Parameter Type document" id="145517">
         <topics>
             <topic url="WordDocuments/financialsparametert.htm" window="right">Financials Parameter Type</topic>
             <topic url="WordDocuments/parametertype.htm" window="right">Parameter Type</topic>
@@ -4933,7 +4933,7 @@
             <topic url="WordDocuments/fiscalyearfunctionco.htm" window="right">Fiscal Year Function Control</topic>
         </topics>
     </item>
-    <item name="Fiscal Year Maker" id="145179">
+    <item name="Fiscal Year Maker" id="145448">
         <topics>
             <topic url="WordDocuments/fiscalyearmaker.htm" window="right">Fiscal Year Maker</topic>
         </topics>
@@ -4951,14 +4951,14 @@
             </topics>
         </item>
     </item>
-    <item name="flexible banking offsets" id="145108">
+    <item name="flexible banking offsets" id="145377">
         <topics>
             <topic url="WordDocuments/flexiblebankingoffse.htm" window="right">Flexible Banking Offsets</topic>
         </topics>
     </item>
     <item name="flexible offset" id="142660">
         <topics />
-        <item name=" by account" id="145109">
+        <item name=" by account" id="145378">
             <topics>
                 <topic url="WordDocuments/flexibleoffsetsbyacc.htm" window="right">Flexible Offsets by Account</topic>
             </topics>
@@ -5050,7 +5050,7 @@
             <topic url="WordDocuments/fundingsource.htm" window="right">Funding Source</topic>
         </topics>
     </item>
-    <item name="Future Action Requests tab" id="145116">
+    <item name="Future Action Requests tab" id="145385">
         <topics>
             <topic url="WordDocuments/futureactionrequeststab.htm" window="right">Future Action Requests Tab</topic>
         </topics>
@@ -5060,7 +5060,7 @@
             <topic url="WordDocuments/futurereversalupdate.htm" window="right">Future Reversal Update</topic>
         </topics>
     </item>
-    <item name="FYI" id="145138">
+    <item name="FYI" id="145407">
         <topics>
             <topic url="WordDocuments/fyi.htm" window="right">FYI</topic>
             <topic url="WordDocuments/usingtheactionlist.htm" window="right">Using the Action List</topic>
@@ -5104,7 +5104,7 @@
             </topics>
         </item>
     </item>
-    <item name="General Ledger (GL)" id="145034">
+    <item name="General Ledger (GL)" id="145303">
         <topics>
             <topic url="WordDocuments/generalledgergl.htm" window="right">General Ledger (GL)</topic>
             <topic url="WordDocuments/kualifinancials.htm" window="right">Kuali Financials</topic>
@@ -5183,7 +5183,7 @@
             <topic url="WordDocuments/generalledgerovervie.htm" window="right">General Ledger Overview</topic>
         </topics>
     </item>
-    <item name="General Ledger Pending Entries tab" id="145103">
+    <item name="General Ledger Pending Entries tab" id="145372">
         <topics>
             <topic url="WordDocuments/generalledgerpendingentriestab.htm" window="right">General Ledger Pending Entries Tab</topic>
         </topics>
@@ -5389,11 +5389,11 @@
             <topic url="WordDocuments/grantdescription.htm" window="right">Grant Description</topic>
         </topics>
     </item>
-    <item name="Group document" id="144097">
+    <item name="Group document" id="145518">
         <topics>
             <topic url="WordDocuments/group.htm" window="right">Group</topic>
         </topics>
-        <item name="Assignees tab" id="144100">
+        <item name="Assignees tab" id="145520">
             <topics>
                 <topic url="WordDocuments/assigneestab.htm" window="right">Assignees Tab</topic>
             </topics>
@@ -5409,7 +5409,7 @@
             <topic url="WordDocuments/highereducationfunct.htm" window="right">Higher Education Function</topic>
         </topics>
     </item>
-    <item name="HRIS system" id="144104">
+    <item name="HRIS system" id="145524">
         <topics>
             <topic url="WordDocuments/person.htm" window="right">Person</topic>
         </topics>
@@ -5419,12 +5419,12 @@
             <topic url="WordDocuments/hrmsunittab.htm" window="right">HRMS Unit Tab</topic>
         </topics>
     </item>
-    <item name="icons" id="145058">
+    <item name="icons" id="145327">
         <topics>
             <topic url="WordDocuments/standardlinksandicons.htm" window="right">Standard Links and Icons</topic>
         </topics>
     </item>
-    <item name="icons and symbols, Kuali Financials user documentation" id="145028">
+    <item name="icons and symbols, Kuali Financials user documentation" id="145297">
         <topics>
             <topic url="WordDocuments/iconsandsymbols.htm" window="right">Icons and Symbols</topic>
         </topics>
@@ -5459,7 +5459,7 @@
             <topic url="WordDocuments/paymentinformationta.htm" window="right">Payment Information Tab</topic>
         </topics>
     </item>
-    <item name="import lines" id="145095">
+    <item name="import lines" id="145364">
         <topics>
             <topic url="WordDocuments/importlines.htm" window="right">Import Lines</topic>
         </topics>
@@ -5530,7 +5530,7 @@
             <topic url="WordDocuments/indirectcostrecovery4.htm" window="right">Indirect Cost Recovery Type</topic>
         </topics>
     </item>
-    <item name="initiating a document" id="145122">
+    <item name="initiating a document" id="145391">
         <topics>
             <topic url="WordDocuments/initiatingadocument.htm" window="right">Initiating a Document</topic>
         </topics>
@@ -5648,53 +5648,53 @@
             <topic url="WordDocuments/journalvoucherdetail.htm" window="right">Journal Voucher Details Tab</topic>
         </topics>
     </item>
-    <item name="KEW" id="145181">
+    <item name="KEW" id="145450">
         <topics>
             <topic url="WordDocuments/workflowoverviewandkeyconcepts.htm" window="right">Workflow: Overview and Key Concepts</topic>
         </topics>
     </item>
-    <item name="KIM Type Lookup screen" id="144115">
+    <item name="KIM Type Lookup screen" id="145534">
         <topics>
             <topic url="WordDocuments/creatingnewroles.htm" window="right">Creating New Roles</topic>
         </topics>
     </item>
-    <item name="Kuali Financials" id="145031">
+    <item name="Kuali Financials" id="145300">
         <topics>
             <topic url="WordDocuments/kualifinancials.htm" window="right">Kuali Financials</topic>
         </topics>
     </item>
-    <item name="Kuali financials dashboard" id="145044">
+    <item name="Kuali financials dashboard" id="145313">
         <topics>
             <topic url="WordDocuments/kualifinancialsdashboard.htm" window="right">Kuali Financials Dashboard</topic>
         </topics>
     </item>
-    <item name="Kuali Financials user documentation, about the" id="145026">
+    <item name="Kuali Financials user documentation, about the" id="145295">
         <topics>
             <topic url="WordDocuments/aboutthekualifinancialsuserdocumentation.htm" window="right">About the Kuali Financials User Documentation</topic>
         </topics>
     </item>
-    <item name="Kuali Identity Management (KIM)" id="144074">
+    <item name="Kuali Identity Management (KIM)" id="145496">
         <topics>
             <topic url="WordDocuments/kualiidentitymanagem.htm" window="right">Kuali Identity Management (KIM) Concepts</topic>
             <topic url="WordDocuments/routingandidentityma.htm" window="right">Routing and Identity Management Document Type Hierarchy</topic>
         </topics>
-        <item name=" basic concepts" id="144075">
+        <item name=" basic concepts" id="145497">
             <topics>
                 <topic url="WordDocuments/kualiidentitymanagem.htm" window="right">Kuali Identity Management (KIM) Concepts</topic>
             </topics>
         </item>
-        <item name="Document Configuration view, KIM data " id="144172">
+        <item name="Document Configuration view, KIM data " id="145586">
             <topics>
                 <topic url="WordDocuments/documentconfiguratio.htm" window="right">Document Configuration View</topic>
             </topics>
         </item>
-        <item name="document hierarchy view, KIM data " id="144165">
+        <item name="document hierarchy view, KIM data " id="145581">
             <topics>
                 <topic url="WordDocuments/documenthierarchyvie.htm" window="right">Document Hierarchy View</topic>
             </topics>
         </item>
     </item>
-    <item name="Labor Distribution (LD)module" id="145041">
+    <item name="Labor Distribution (LD)module" id="145310">
         <topics>
             <topic url="WordDocuments/labordistributionld.htm" window="right">Labor Distribution (LD)</topic>
         </topics>
@@ -5774,7 +5774,7 @@
             <topic url="WordDocuments/lineitemreceivingsta.htm" window="right">Line Item Receiving Status</topic>
         </topics>
     </item>
-    <item name="links" id="145057">
+    <item name="links" id="145326">
         <topics>
             <topic url="WordDocuments/standardlinksandicons.htm" window="right">Standard Links and Icons</topic>
         </topics>
@@ -5797,12 +5797,12 @@
             <topic url="WordDocuments/lockboxupload.htm" window="right">Lockbox Upload</topic>
         </topics>
     </item>
-    <item name="Log Action Message tab" id="145118">
+    <item name="Log Action Message tab" id="145387">
         <topics>
             <topic url="WordDocuments/logactionmessagetab.htm" window="right">Log Action Message Tab</topic>
         </topics>
     </item>
-    <item name="Logo Upload" id="144070">
+    <item name="Logo Upload" id="145492">
         <topics>
             <topic url="WordDocuments/logoupload.htm" window="right">Logo Upload</topic>
         </topics>
@@ -5830,30 +5830,30 @@
     </item>
     <item name="lookup" id="142607">
         <topics />
-        <item name=" add multiple lines" id="145062">
+        <item name=" add multiple lines" id="145331">
             <topics>
                 <topic url="WordDocuments/multiplevaluelookup.htm" window="right">Multiple Value Lookup</topic>
             </topics>
         </item>
-        <item name=" field" id="145060">
+        <item name=" field" id="145329">
             <topics>
                 <topic url="WordDocuments/fieldlookup.htm" window="right">Field Lookup</topic>
             </topics>
         </item>
     </item>
-    <item name="magnifying glass" id="145061">
+    <item name="magnifying glass" id="145330">
         <topics>
             <topic url="WordDocuments/fieldlookup.htm" window="right">Field Lookup</topic>
         </topics>
     </item>
     <item name="maintenance documents" id="142723">
         <topics />
-        <item name=" common tabs" id="145166">
+        <item name=" common tabs" id="145435">
             <topics>
                 <topic url="WordDocuments/commontabs.htm" window="right">Common Tabs</topic>
             </topics>
         </item>
-        <item name=" Edit tab" id="145167">
+        <item name=" Edit tab" id="145436">
             <topics>
                 <topic url="WordDocuments/edittab.htm" window="right">Edit Tab</topic>
             </topics>
@@ -5869,7 +5869,7 @@
             <topic url="WordDocuments/mandatorytransfereli.htm" window="right">Mandatory Transfer Elimination</topic>
         </topics>
     </item>
-    <item name="Menu Configuration" id="144071">
+    <item name="Menu Configuration" id="145493">
         <topics>
             <topic url="WordDocuments/menuconfiguration.htm" window="right">Menu Configuration</topic>
         </topics>
@@ -5879,7 +5879,7 @@
             <topic url="WordDocuments/businessrules68.htm" window="right">Business Rules</topic>
         </topics>
     </item>
-    <item name="Message of the Day" id="145046">
+    <item name="Message of the Day" id="145315">
         <topics>
             <topic url="WordDocuments/messageoftheday.htm" window="right">Message of the Day</topic>
         </topics>
@@ -5914,33 +5914,33 @@
             </topics>
         </item>
     </item>
-    <item name="Modify Batch Job screen" id="144181">
+    <item name="Modify Batch Job screen" id="145594">
         <topics>
             <topic url="WordDocuments/batchschedule.htm" window="right">Batch Schedule</topic>
             <topic url="WordDocuments/documentlayout259.htm" window="right">Document Layout</topic>
         </topics>
-        <item name="Dependencies tab" id="144188">
+        <item name="Dependencies tab" id="145600">
             <topics>
                 <topic url="WordDocuments/dependenciestab.htm" window="right">Dependencies Tab</topic>
             </topics>
         </item>
-        <item name="Job Info tab" id="144185">
+        <item name="Job Info tab" id="145597">
             <topics>
                 <topic url="WordDocuments/jobinfotab.htm" window="right">Job Info Tab</topic>
             </topics>
         </item>
-        <item name="Steps tab" id="144187">
+        <item name="Steps tab" id="145599">
             <topics>
                 <topic url="WordDocuments/stepstab.htm" window="right">Steps Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Modify Capital Assets tab" id="145101">
+    <item name="Modify Capital Assets tab" id="145370">
         <topics>
             <topic url="WordDocuments/modifycapitalassetstab.htm" window="right">Modify Capital Assets Tab</topic>
         </topics>
     </item>
-    <item name="modules, Kuali Financials" id="145037">
+    <item name="modules, Kuali Financials" id="145306">
         <topics>
             <topic url="WordDocuments/kualifinancialsmodules.htm" window="right">Kuali Financials Modules</topic>
         </topics>
@@ -5955,7 +5955,7 @@
             <topic url="WordDocuments/cashieringtransactio.htm" window="right">Cashiering Transactions Tab</topic>
         </topics>
     </item>
-    <item name="multiple value lookup" id="145063">
+    <item name="multiple value lookup" id="145332">
         <topics>
             <topic url="WordDocuments/multiplevaluelookup.htm" window="right">Multiple Value Lookup</topic>
         </topics>
@@ -5965,17 +5965,17 @@
             <topic url="WordDocuments/multipleyearandchart.htm" window="right">Multiple Year and Chart Tab</topic>
         </topics>
     </item>
-    <item name="named search" id="145215">
+    <item name="named search" id="145484">
         <topics>
             <topic url="WordDocuments/namedsearch.htm" window="right">Named Search</topic>
         </topics>
     </item>
-    <item name="Navigating through Kuali Financials" id="145043">
+    <item name="Navigating through Kuali Financials" id="145312">
         <topics>
             <topic url="WordDocuments/navigatingthroughkualifinancials.htm" window="right">Navigating through Kuali Financials</topic>
         </topics>
     </item>
-    <item name="Navigation Configuration" id="144072">
+    <item name="Navigation Configuration" id="145494">
         <topics>
             <topic url="WordDocuments/navigationconfigurat.htm" window="right">Navigation Configuration</topic>
         </topics>
@@ -5985,7 +5985,7 @@
             <topic url="WordDocuments/negativepaymentreque.htm" window="right">Negative Payment Request Approval Limit</topic>
         </topics>
     </item>
-    <item name="nesting roles" id="144123">
+    <item name="nesting roles" id="145541">
         <topics>
             <topic url="WordDocuments/assigneestab1.htm" window="right">Assignees Tab</topic>
         </topics>
@@ -6021,7 +6021,7 @@
             <topic url="WordDocuments/nonemployeetravelexp.htm" window="right">Non-Employee Travel Expense Tab</topic>
         </topics>
     </item>
-    <item name="non-identifying fields" id="145178">
+    <item name="non-identifying fields" id="145447">
         <topics>
             <topic url="WordDocuments/editingamaintenancedocument.htm" window="right">Editing a Maintenance Document</topic>
         </topics>
@@ -6036,7 +6036,7 @@
             <topic url="WordDocuments/nonresidentalientaxt.htm" window="right">Nonresident Alien Tax Tab</topic>
         </topics>
     </item>
-    <item name="Notes and Attachments tab" id="145111">
+    <item name="Notes and Attachments tab" id="145380">
         <topics>
             <topic url="WordDocuments/notesandattachmentstab.htm" window="right">Notes and Attachments Tab</topic>
         </topics>
@@ -6076,7 +6076,7 @@
             <topic url="WordDocuments/offsetaccount.htm" window="right">Offset Account</topic>
         </topics>
     </item>
-    <item name="Offset Definition" id="145110">
+    <item name="Offset Definition" id="145379">
         <topics>
             <topic url="WordDocuments/flexibleoffsetsbyacc.htm" window="right">Flexible Offsets by Account</topic>
         </topics>
@@ -6086,7 +6086,7 @@
             <topic url="WordDocuments/offsetdefinition.htm" window="right">Offset Definition</topic>
         </topics>
     </item>
-    <item name="Offset Definition Table" id="145105">
+    <item name="Offset Definition Table" id="145374">
         <topics>
             <topic url="WordDocuments/generalledgerpendingentriestab.htm" window="right">General Ledger Pending Entries Tab</topic>
         </topics>
@@ -6159,7 +6159,7 @@
             <topic url="WordDocuments/organizationaccounti.htm" window="right">Organization Accounting Default</topic>
         </topics>
     </item>
-    <item name="organization and conventions" id="145027">
+    <item name="organization and conventions" id="145296">
         <topics>
             <topic url="WordDocuments/organizationandconventions.htm" window="right">Organization and Conventions</topic>
         </topics>
@@ -6259,7 +6259,7 @@
             <topic url="WordDocuments/organizationreview.htm" window="right">Organization Review</topic>
         </topics>
     </item>
-    <item name="organization review (review hierarchy) routing" id="145189">
+    <item name="organization review (review hierarchy) routing" id="145458">
         <topics>
             <topic url="WordDocuments/organizationreviewreviewhierarchyrouting.htm" window="right">Organization Review (Review Hierarchy) Routing</topic>
         </topics>
@@ -6302,7 +6302,7 @@
             <topic url="WordDocuments/organizationstab1.htm" window="right">Organizations Tab</topic>
         </topics>
     </item>
-    <item name="Origination Code document" id="144101">
+    <item name="Origination Code document" id="145521">
         <topics>
             <topic url="WordDocuments/originationcode.htm" window="right">Origination Code</topic>
         </topics>
@@ -6334,12 +6334,12 @@
     </item>
     <item name="parameters" id="142640">
         <topics />
-        <item name=" SALES_TAX_APPLICABLE_ACCOUNTS_AND_OBJECT_CODES" id="145093">
+        <item name=" SALES_TAX_APPLICABLE_ACCOUNTS_AND_OBJECT_CODES" id="145362">
             <topics>
                 <topic url="WordDocuments/salestax.htm" window="right">Sales Tax</topic>
             </topics>
         </item>
-        <item name=" SALES_TAX_APPLICABLE_DOCUMENT_TYPES" id="145091">
+        <item name=" SALES_TAX_APPLICABLE_DOCUMENT_TYPES" id="145360">
             <topics>
                 <topic url="WordDocuments/salestax.htm" window="right">Sales Tax</topic>
             </topics>
@@ -6418,7 +6418,7 @@
             <topic url="WordDocuments/paymentchange.htm" window="right">Payment Change</topic>
         </topics>
     </item>
-    <item name="Payment Documentation Location document" id="144102">
+    <item name="Payment Documentation Location document" id="145522">
         <topics>
             <topic url="WordDocuments/paymentdocumentation.htm" window="right">Payment Documentation Location</topic>
         </topics>
@@ -6506,7 +6506,7 @@
             <topic url="WordDocuments/generatedgeneralledg.htm" window="right">Generated General Ledger Entries</topic>
         </topics>
     </item>
-    <item name="Pending Action Requests Tab" id="145075">
+    <item name="Pending Action Requests Tab" id="145344">
         <topics>
             <topic url="WordDocuments/drilldown.htm" window="right">Drilldown</topic>
             <topic url="WordDocuments/pendingactionrequeststab.htm" window="right">Pending Action Requests Tab</topic>
@@ -6517,41 +6517,41 @@
             <topic url="WordDocuments/financialprocessingy.htm" window="right">Financial Processing Year End Documents</topic>
         </topics>
     </item>
-    <item name="Permission document" id="144154">
+    <item name="Permission document" id="145570">
         <topics>
             <topic url="WordDocuments/permission.htm" window="right">Permission</topic>
         </topics>
-        <item name="Permission Details tab" id="144156">
+        <item name="Permission Details tab" id="145572">
             <topics>
                 <topic url="WordDocuments/permissiondetailstab.htm" window="right">Permission Details Tab</topic>
             </topics>
         </item>
-        <item name="Permission Info tab" id="144155">
+        <item name="Permission Info tab" id="145571">
             <topics>
                 <topic url="WordDocuments/permissioninfotab.htm" window="right">Permission Info Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Person document" id="144103">
+    <item name="Person document" id="145523">
         <topics>
             <topic url="WordDocuments/person.htm" window="right">Person</topic>
         </topics>
-        <item name="business rules" id="144110">
+        <item name="business rules" id="145529">
             <topics>
                 <topic url="WordDocuments/businessrules96.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Contact tab" id="144107">
+        <item name="Contact tab" id="145526">
             <topics>
                 <topic url="WordDocuments/contacttab.htm" window="right">Contact Tab</topic>
             </topics>
         </item>
-        <item name="Membership tab" id="144109">
+        <item name="Membership tab" id="145528">
             <topics>
                 <topic url="WordDocuments/membershiptab.htm" window="right">Membership Tab</topic>
             </topics>
         </item>
-        <item name="Privacy Preferences tab" id="144108">
+        <item name="Privacy Preferences tab" id="145527">
             <topics>
                 <topic url="WordDocuments/privacypreferencesta.htm" window="right">Privacy Preferences Tab</topic>
             </topics>
@@ -6562,7 +6562,7 @@
             <topic url="WordDocuments/phonetype1.htm" window="right">Phone Type</topic>
         </topics>
     </item>
-    <item name="Phone Type Lookup" id="144157">
+    <item name="Phone Type Lookup" id="145573">
         <topics>
             <topic url="WordDocuments/phonetype.htm" window="right">Phone Type</topic>
         </topics>
@@ -6577,7 +6577,7 @@
             <topic url="WordDocuments/plantindebtedness.htm" window="right">Plant Indebtedness</topic>
         </topics>
     </item>
-    <item name="PostalCodeMaintenanceDocument" id="144158">
+    <item name="PostalCodeMaintenanceDocument" id="145574">
         <topics>
             <topic url="WordDocuments/postalcode.htm" window="right">Postal Code</topic>
         </topics>
@@ -6662,7 +6662,7 @@
             </topics>
         </item>
     </item>
-    <item name="Pre-Disbursement Processor" id="145035">
+    <item name="Pre-Disbursement Processor" id="145304">
         <topics>
             <topic url="WordDocuments/kualifinancials.htm" window="right">Kuali Financials</topic>
         </topics>
@@ -6944,7 +6944,7 @@
             <topic url="WordDocuments/purchaseordervendorc.htm" window="right">Purchase Order Vendor Choice</topic>
         </topics>
     </item>
-    <item name="Purchasing &amp; AP Module" id="145042">
+    <item name="Purchasing &amp; AP Module" id="145311">
         <topics>
             <topic url="WordDocuments/purchasingandaccount.htm" window="right">Purchasing and Accounts Payable (PURAP)</topic>
         </topics>
@@ -6957,7 +6957,7 @@
             </topics>
         </item>
     </item>
-    <item name="recall a document" id="145134">
+    <item name="recall a document" id="145403">
         <topics>
             <topic url="WordDocuments/recalladocument.htm" window="right">Recall a Document</topic>
         </topics>
@@ -7047,12 +7047,12 @@
             <topic url="WordDocuments/reporttype.htm" window="right">Report Type</topic>
         </topics>
     </item>
-    <item name="Requested Of" id="145115">
+    <item name="Requested Of" id="145384">
         <topics>
             <topic url="WordDocuments/viewingpendingactions.htm" window="right">Viewing Pending Actions</topic>
         </topics>
     </item>
-    <item name="required fields" id="145053">
+    <item name="required fields" id="145322">
         <topics>
             <topic url="WordDocuments/requiredfields.htm" window="right">Required Fields</topic>
         </topics>
@@ -7127,16 +7127,16 @@
             <topic url="WordDocuments/responsibilitycenter.htm" window="right">Responsibility Center</topic>
         </topics>
     </item>
-    <item name="Responsibility document" id="144159">
+    <item name="Responsibility document" id="145575">
         <topics>
             <topic url="WordDocuments/responsibility.htm" window="right">Responsibility</topic>
         </topics>
-        <item name="Responsibility Details tab" id="144161">
+        <item name="Responsibility Details tab" id="145577">
             <topics>
                 <topic url="WordDocuments/responsibilitydetail.htm" window="right">Responsibility Details Tab</topic>
             </topics>
         </item>
-        <item name="Responsibility Info tab" id="144160">
+        <item name="Responsibility Info tab" id="145576">
             <topics>
                 <topic url="WordDocuments/responsibilityinfota.htm" window="right">Responsibility Info Tab</topic>
             </topics>
@@ -7168,82 +7168,82 @@
             </topics>
         </item>
     </item>
-    <item name="Role document" id="144112">
+    <item name="Role document" id="145531">
         <topics>
             <topic url="WordDocuments/role.htm" window="right">Role</topic>
         </topics>
-        <item name="Assignees tab" id="144122">
+        <item name="Assignees tab" id="145540">
             <topics>
                 <topic url="WordDocuments/assigneestab1.htm" window="right">Assignees Tab</topic>
             </topics>
         </item>
-        <item name="Delegations tab" id="144125">
+        <item name="Delegations tab" id="145543">
             <topics>
                 <topic url="WordDocuments/delegationstab.htm" window="right">Delegations Tab</topic>
             </topics>
         </item>
-        <item name="Overview tab" id="144113">
+        <item name="Overview tab" id="145532">
             <topics>
                 <topic url="WordDocuments/overviewtab2.htm" window="right">Overview Tab</topic>
             </topics>
         </item>
-        <item name="Permissions tab" id="144118">
+        <item name="Permissions tab" id="145536">
             <topics>
                 <topic url="WordDocuments/permissionstab.htm" window="right">Permissions Tab</topic>
             </topics>
         </item>
-        <item name="Responsibilities tab" id="144119">
+        <item name="Responsibilities tab" id="145537">
             <topics>
                 <topic url="WordDocuments/responsibilitiestab.htm" window="right">Responsibilities Tab</topic>
             </topics>
         </item>
-        <item name="Responsibility Action subsection" id="144121">
+        <item name="Responsibility Action subsection" id="145539">
             <topics>
                 <topic url="WordDocuments/assigningactiondetai.htm" window="right">Assigning Action Detail Values</topic>
             </topics>
         </item>
     </item>
-    <item name="Role/Group/Permission/Responsibility Type (KIM Types)" id="144162">
+    <item name="Role/Group/Permission/Responsibility Type (KIM Types)" id="145578">
         <topics>
             <topic url="WordDocuments/rolegrouppermissionr.htm" window="right">Role/Group/Permission/Responsibility Type</topic>
         </topics>
     </item>
-    <item name="roles, creating new" id="144114">
+    <item name="roles, creating new" id="145533">
         <topics>
             <topic url="WordDocuments/creatingnewroles.htm" window="right">Creating New Roles</topic>
         </topics>
     </item>
-    <item name="roles,nesting" id="144124">
+    <item name="roles,nesting" id="145542">
         <topics>
             <topic url="WordDocuments/assigneestab1.htm" window="right">Assignees Tab</topic>
         </topics>
     </item>
-    <item name="Room document" id="144126">
+    <item name="Room document" id="145544">
         <topics>
             <topic url="WordDocuments/room.htm" window="right">Room</topic>
         </topics>
     </item>
-    <item name="route levels" id="145184">
+    <item name="route levels" id="145453">
         <topics>
             <topic url="WordDocuments/routelevelsandworkflowrouting.htm" window="right">Route Levels and Workflow Routing</topic>
         </topics>
     </item>
-    <item name="route levels, typical" id="145186">
+    <item name="route levels, typical" id="145455">
         <topics>
             <topic url="WordDocuments/typicalroutelevels.htm" window="right">Typical Route Levels</topic>
         </topics>
     </item>
-    <item name="Route Log" id="145073">
+    <item name="Route Log" id="145342">
         <topics>
             <topic url="WordDocuments/drilldown.htm" window="right">Drilldown</topic>
         </topics>
     </item>
-    <item name="Route Log tab" id="145113">
+    <item name="Route Log tab" id="145382">
         <topics>
             <topic url="WordDocuments/routelogtab.htm" window="right">Route Log Tab</topic>
         </topics>
     </item>
-    <item name="route nodes" id="145185">
+    <item name="route nodes" id="145454">
         <topics>
             <topic url="WordDocuments/routelevelsandworkflowrouting.htm" window="right">Route Levels and Workflow Routing</topic>
         </topics>
@@ -7296,37 +7296,37 @@
             </topics>
         </item>
     </item>
-    <item name="Routing &amp; Authorization Document Type Hierarchy" id="144163">
+    <item name="Routing &amp; Authorization Document Type Hierarchy" id="145579">
         <topics>
             <topic url="WordDocuments/routingandidentityma.htm" window="right">Routing and Identity Management Document Type Hierarchy</topic>
         </topics>
-        <item name="Document Configuration view, KIM data " id="144173">
+        <item name="Document Configuration view, KIM data " id="145587">
             <topics>
                 <topic url="WordDocuments/documentconfiguratio.htm" window="right">Document Configuration View</topic>
             </topics>
         </item>
-        <item name="document hierarchy view, KIM data" id="144166">
+        <item name="document hierarchy view, KIM data" id="145582">
             <topics>
                 <topic url="WordDocuments/documenthierarchyvie.htm" window="right">Document Hierarchy View</topic>
             </topics>
         </item>
     </item>
-    <item name="Routing a Document" id="145132">
+    <item name="Routing a Document" id="145401">
         <topics>
             <topic url="WordDocuments/routingadocument.htm" window="right">Routing a Document</topic>
         </topics>
     </item>
-    <item name="routing, account level (fiscal officer)" id="145188">
+    <item name="routing, account level (fiscal officer)" id="145457">
         <topics>
             <topic url="WordDocuments/accountlevelroutingfiscalofficer.htm" window="right">Account Level Routing (Fiscal Officer)</topic>
         </topics>
     </item>
-    <item name="routing, ad hoc" id="145194">
+    <item name="routing, ad hoc" id="145463">
         <topics>
             <topic url="WordDocuments/adhocrouting.htm" window="right">Ad Hoc Routing</topic>
         </topics>
     </item>
-    <item name="routing, workflow " id="145183">
+    <item name="routing, workflow " id="145452">
         <topics>
             <topic url="WordDocuments/routelevelsandworkflowrouting.htm" window="right">Route Levels and Workflow Routing</topic>
         </topics>
@@ -7341,22 +7341,22 @@
             </topics>
         </item>
     </item>
-    <item name="sales tax" id="145089">
+    <item name="sales tax" id="145358">
         <topics>
             <topic url="WordDocuments/salestax.htm" window="right">Sales Tax</topic>
         </topics>
     </item>
-    <item name="SALES_TAX_APPLICABLE_ACCOUNTS_AND_OBJECT_CODES parameter" id="145094">
+    <item name="SALES_TAX_APPLICABLE_ACCOUNTS_AND_OBJECT_CODES parameter" id="145363">
         <topics>
             <topic url="WordDocuments/salestax.htm" window="right">Sales Tax</topic>
         </topics>
     </item>
-    <item name="SALES_TAX_APPLICABLE_DOCUMENT_TYPES parameter" id="145092">
+    <item name="SALES_TAX_APPLICABLE_DOCUMENT_TYPES parameter" id="145361">
         <topics>
             <topic url="WordDocuments/salestax.htm" window="right">Sales Tax</topic>
         </topics>
     </item>
-    <item name="saving a document" id="145126">
+    <item name="saving a document" id="145395">
         <topics>
             <topic url="WordDocuments/savingadocument.htm" window="right">Saving a Document</topic>
         </topics>
@@ -7377,7 +7377,7 @@
             <topic url="WordDocuments/scrubberoutputsummar.htm" window="right">Scrubber Output Summary</topic>
         </topics>
     </item>
-    <item name="search" id="145205">
+    <item name="search" id="145474">
         <topics>
             <topic url="WordDocuments/advanceddocumentsearches.htm" window="right">Advanced Document Searches</topic>
         </topics>
@@ -7457,29 +7457,29 @@
             <topic url="WordDocuments/searchresultstab.htm" window="right">Search Results Tab</topic>
         </topics>
     </item>
-    <item name="search, named" id="145214">
+    <item name="search, named" id="145483">
         <topics>
             <topic url="WordDocuments/namedsearch.htm" window="right">Named Search</topic>
         </topics>
     </item>
     <item name="searches" id="142768">
         <topics />
-        <item name=" detailed vs. basic searches" id="145208">
+        <item name=" detailed vs. basic searches" id="145477">
             <topics>
                 <topic url="WordDocuments/detailedvsbasicsearches.htm" window="right">Detailed vs. Basic Searches</topic>
             </topics>
         </item>
-        <item name=" document-specific searches" id="145211">
+        <item name=" document-specific searches" id="145480">
             <topics>
                 <topic url="WordDocuments/documentspecificsearches.htm" window="right">Document-Specific Searches</topic>
             </topics>
         </item>
-        <item name=" saving" id="145213">
+        <item name=" saving" id="145482">
             <topics>
                 <topic url="WordDocuments/namedsearch.htm" window="right">Named Search</topic>
             </topics>
         </item>
-        <item name=" super user vs. non-super user searches" id="145210">
+        <item name=" super user vs. non-super user searches" id="145479">
             <topics>
                 <topic url="WordDocuments/superuservsnonsuperusersearches.htm" window="right">Super user vs. Non-Super user Searches</topic>
             </topics>
@@ -7490,7 +7490,7 @@
             <topic url="WordDocuments/searchforbatch.htm" window="right">Search for Batch</topic>
         </topics>
     </item>
-    <item name="searching for a document" id="145139">
+    <item name="searching for a document" id="145408">
         <topics>
             <topic url="WordDocuments/usingdocumentsearchtofindadocument.htm" window="right">Using Document Search to Find a Document</topic>
         </topics>
@@ -7500,65 +7500,65 @@
             <topic url="WordDocuments/accountdelegate.htm" window="right">Account Delegate</topic>
         </topics>
     </item>
-    <item name="Security Attribute document" id="144077">
+    <item name="Security Attribute document" id="145499">
         <topics>
             <topic url="WordDocuments/securityattribute.htm" window="right">Security Attribute</topic>
         </topics>
     </item>
     <item name="Security Definition document" id="144079">
         <topics />
-        <item name=" Document Types tab" id="144081">
+        <item name=" Document Types tab" id="145502">
             <topics>
                 <topic url="WordDocuments/documenttypestab.htm" window="right">Document Types tab</topic>
             </topics>
         </item>
-        <item name="Security Definition tab" id="144080">
+        <item name="Security Definition tab" id="145501">
             <topics>
                 <topic url="WordDocuments/securitydefinitionta.htm" window="right">Security Definition tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Security Model document" id="144082">
+    <item name="Security Model document" id="145503">
         <topics>
             <topic url="WordDocuments/securitymodel.htm" window="right">Security Model</topic>
         </topics>
-        <item name=" Model Definitions tab" id="144084">
+        <item name=" Model Definitions tab" id="145505">
             <topics>
                 <topic url="WordDocuments/modeldefinitionstab.htm" window="right">Model Definitions tab</topic>
             </topics>
         </item>
-        <item name="Model Members tab" id="144085">
+        <item name="Model Members tab" id="145506">
             <topics>
                 <topic url="WordDocuments/modelmemberstab.htm" window="right">Model Members tab</topic>
             </topics>
         </item>
-        <item name="Security Model tab" id="144083">
+        <item name="Security Model tab" id="145504">
             <topics>
                 <topic url="WordDocuments/securitymodeltab.htm" window="right">Security Model tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Security Principal document" id="144086">
+    <item name="Security Principal document" id="145507">
         <topics>
             <topic url="WordDocuments/securityprincipal.htm" window="right">Security Principal</topic>
         </topics>
-        <item name=" Principal Models tab" id="144088">
+        <item name=" Principal Models tab" id="145509">
             <topics>
                 <topic url="WordDocuments/principalmodelstab.htm" window="right">Principal Models tab</topic>
             </topics>
         </item>
-        <item name="Principal Definitions tab" id="144089">
+        <item name="Principal Definitions tab" id="145510">
             <topics>
                 <topic url="WordDocuments/principaldefinitions.htm" window="right">Principal Definitions tab</topic>
             </topics>
         </item>
-        <item name="Security Principal tab" id="144087">
+        <item name="Security Principal tab" id="145508">
             <topics>
                 <topic url="WordDocuments/securityprincipaltab.htm" window="right">Security Principal tab</topic>
             </topics>
         </item>
     </item>
-    <item name="select all button" id="145064">
+    <item name="select all button" id="145333">
         <topics>
             <topic url="WordDocuments/multiplevaluelookup.htm" window="right">Multiple Value Lookup</topic>
         </topics>
@@ -7637,7 +7637,7 @@
             <topic url="WordDocuments/shippingtitle.htm" window="right">Shipping Title</topic>
         </topics>
     </item>
-    <item name="single-sided entry" id="145080">
+    <item name="single-sided entry" id="145349">
         <topics>
             <topic url="WordDocuments/singlesidedentry.htm" window="right">Single-Sided Entry</topic>
         </topics>
@@ -7652,7 +7652,7 @@
             <topic url="WordDocuments/sourceoffunds.htm" window="right">Source of Funds</topic>
         </topics>
     </item>
-    <item name="special condition routing" id="145191">
+    <item name="special condition routing" id="145460">
         <topics>
             <topic url="WordDocuments/specialconditionsrouting.htm" window="right">Special Conditions Routing</topic>
         </topics>
@@ -7672,17 +7672,17 @@
             <topic url="WordDocuments/specialnavigationfea.htm" window="right">Special Navigation Features</topic>
         </topics>
     </item>
-    <item name="standard links and icons" id="145056">
+    <item name="standard links and icons" id="145325">
         <topics>
             <topic url="WordDocuments/standardlinksandicons.htm" window="right">Standard Links and Icons</topic>
         </topics>
     </item>
-    <item name="standard tabs" id="145076">
+    <item name="standard tabs" id="145345">
         <topics>
             <topic url="WordDocuments/standardtabs.htm" window="right">Standard Tabs</topic>
         </topics>
     </item>
-    <item name="StateMaintenanceDocument" id="144178">
+    <item name="StateMaintenanceDocument" id="145591">
         <topics>
             <topic url="WordDocuments/state.htm" window="right">State</topic>
         </topics>
@@ -7773,17 +7773,17 @@
             <topic url="WordDocuments/summarytab.htm" window="right">Summary Tab</topic>
         </topics>
     </item>
-    <item name="super user action tab" id="145119">
+    <item name="super user action tab" id="145388">
         <topics>
             <topic url="WordDocuments/superuseractiontab.htm" window="right">Super User Action Tab</topic>
         </topics>
     </item>
-    <item name="super user functions" id="145216">
+    <item name="super user functions" id="145485">
         <topics>
             <topic url="WordDocuments/superuserfunctions.htm" window="right">Super user Functions</topic>
         </topics>
     </item>
-    <item name="super user vs. non-super user searches" id="145209">
+    <item name="super user vs. non-super user searches" id="145478">
         <topics>
             <topic url="WordDocuments/superuservsnonsuperusersearches.htm" window="right">Super user vs. Non-Super user Searches</topic>
         </topics>
@@ -7836,7 +7836,7 @@
             <topic url="WordDocuments/systeminformation.htm" window="right">System Information</topic>
         </topics>
     </item>
-    <item name="System Options document" id="144127">
+    <item name="System Options document" id="145545">
         <topics>
             <topic url="WordDocuments/systemoptions.htm" window="right">System Options</topic>
         </topics>
@@ -7847,32 +7847,32 @@
             <topic url="WordDocuments/targetassetinformati1.htm" window="right">Target Asset Information Tab</topic>
         </topics>
     </item>
-    <item name="Tax Region document" id="144128">
+    <item name="Tax Region document" id="145546">
         <topics>
             <topic url="WordDocuments/taxregion.htm" window="right">Tax Region</topic>
         </topics>
-        <item name="Create Tax Regions tab" id="144129">
+        <item name="Create Tax Regions tab" id="145547">
             <topics>
                 <topic url="WordDocuments/createtaxregionstab.htm" window="right">Create Tax Regions Tab</topic>
             </topics>
         </item>
-        <item name="Tax Region Counties tab" id="144131">
+        <item name="Tax Region Counties tab" id="145549">
             <topics>
                 <topic url="WordDocuments/taxregioncountiessta.htm" window="right">Tax Region[Counties, States, Postal Codes] Tab</topic>
             </topics>
         </item>
-        <item name="Tax Region Rates tab" id="144130">
+        <item name="Tax Region Rates tab" id="145548">
             <topics>
                 <topic url="WordDocuments/taxregionratestab.htm" window="right">Tax Region Rates Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Tax Region Type document" id="144132">
+    <item name="Tax Region Type document" id="145550">
         <topics>
             <topic url="WordDocuments/taxregiontype.htm" window="right">Tax Region Type</topic>
         </topics>
     </item>
-    <item name="templates, data import " id="145147">
+    <item name="templates, data import " id="145416">
         <topics>
             <topic url="WordDocuments/dataimporttemplates.htm" window="right">Data Import Templates</topic>
         </topics>
@@ -7922,12 +7922,12 @@
             <topic url="WordDocuments/trialbalance.htm" window="right">Trial Balance</topic>
         </topics>
     </item>
-    <item name="typographic conventions, Kuali Financials user documentation" id="145029">
+    <item name="typographic conventions, Kuali Financials user documentation" id="145298">
         <topics>
             <topic url="WordDocuments/typographicconventions.htm" window="right">Typographic Conventions</topic>
         </topics>
     </item>
-    <item name="Unit of Measure document" id="144133">
+    <item name="Unit of Measure document" id="145551">
         <topics>
             <topic url="WordDocuments/unitofmeasure.htm" window="right">Unit of Measure</topic>
         </topics>
@@ -7939,23 +7939,23 @@
     </item>
     <item name="University Date" id="144135">
         <topics />
-        <item name="Scrubber" id="144136">
+        <item name="Scrubber" id="145553">
             <topics>
                 <topic url="WordDocuments/documentlayout245.htm" window="right">Document Layout</topic>
             </topics>
         </item>
     </item>
-    <item name="University Date document" id="144134">
+    <item name="University Date document" id="145552">
         <topics>
             <topic url="WordDocuments/universitydate.htm" window="right">University Date</topic>
         </topics>
     </item>
-    <item name="unselect all button" id="145065">
+    <item name="unselect all button" id="145334">
         <topics>
             <topic url="WordDocuments/multiplevaluelookup.htm" window="right">Multiple Value Lookup</topic>
         </topics>
     </item>
-    <item name="Vendor" id="145036">
+    <item name="Vendor" id="145305">
         <topics>
             <topic url="WordDocuments/kualifinancials.htm" window="right">Kuali Financials</topic>
             <topic url="WordDocuments/vendorvnd.htm" window="right">Vendor (VND)</topic>
@@ -8126,32 +8126,32 @@
             <topic url="WordDocuments/wiretransfertab.htm" window="right">Wire Transfer Tab</topic>
         </topics>
     </item>
-    <item name="Workflow" id="145180">
+    <item name="Workflow" id="145449">
         <topics>
             <topic url="WordDocuments/workflowoverviewandkeyconcepts.htm" window="right">Workflow: Overview and Key Concepts</topic>
         </topics>
     </item>
-    <item name="Workflow action buttons" id="145196">
+    <item name="Workflow action buttons" id="145465">
         <topics>
             <topic url="WordDocuments/workflowactionbuttons.htm" window="right">Workflow Action Buttons</topic>
         </topics>
     </item>
-    <item name="workflow preferences, setting" id="145202">
+    <item name="workflow preferences, setting" id="145471">
         <topics>
             <topic url="WordDocuments/workflowpreferences.htm" window="right">Workflow Preferences</topic>
         </topics>
     </item>
-    <item name="Workflow responsibilities " id="145195">
+    <item name="Workflow responsibilities " id="145464">
         <topics>
             <topic url="WordDocuments/workflowresponsibilities.htm" window="right">Workflow Responsibilities</topic>
         </topics>
     </item>
-    <item name="workflow routing" id="145182">
+    <item name="workflow routing" id="145451">
         <topics>
             <topic url="WordDocuments/routelevelsandworkflowrouting.htm" window="right">Route Levels and Workflow Routing</topic>
         </topics>
     </item>
-    <item name="XML" id="145067">
+    <item name="XML" id="145336">
         <topics>
             <topic url="WordDocuments/exportoptionslinks.htm" window="right">Export Options Links</topic>
         </topics>
