@@ -618,7 +618,7 @@
     </item>
     <item name="adding new unordered item" id="147052">
         <topics />
-        <item name="Line Item Receiving document" id="147308">
+        <item name="Line Item Receiving document" id="147580">
             <topics>
                 <topic url="WordDocuments/addingnewunorderedit.htm" window="right">Adding New Unordered Item</topic>
             </topics>
@@ -1624,7 +1624,7 @@
             <topic url="WordDocuments/businessrules71.htm" window="right">Business Rules</topic>
         </topics>
     </item>
-    <item name="Billing Address document" id="147323">
+    <item name="Billing Address document" id="147595">
         <topics>
             <topic url="WordDocuments/billingaddress.htm" window="right">Billing Address</topic>
         </topics>
@@ -1714,46 +1714,46 @@
             <topic url="WordDocuments/building.htm" window="right">Building</topic>
         </topics>
     </item>
-    <item name="Bulk Receiving document" id="147281">
+    <item name="Bulk Receiving document" id="147553">
         <topics>
             <topic url="WordDocuments/bulkreceiving.htm" window="right">Bulk Receiving</topic>
         </topics>
-        <item name="Bulk Receiving Initiation tab" id="147282">
+        <item name="Bulk Receiving Initiation tab" id="147554">
             <topics>
                 <topic url="WordDocuments/bulkreceivinginitiat.htm" window="right">Bulk Receiving Initiation Tab</topic>
             </topics>
         </item>
-        <item name="business rules" id="147287">
+        <item name="business rules" id="147559">
             <topics>
                 <topic url="WordDocuments/businessrules80.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Delivery tab" id="147286">
+        <item name="Delivery tab" id="147558">
             <topics>
                 <topic url="WordDocuments/deliverytab.htm" window="right">Delivery Tab</topic>
             </topics>
         </item>
-        <item name="Document Overview tab" id="147284">
+        <item name="Document Overview tab" id="147556">
             <topics>
                 <topic url="WordDocuments/documentoverviewtab4.htm" window="right">Document Overview Tab</topic>
             </topics>
         </item>
-        <item name="main screen" id="147283">
+        <item name="main screen" id="147555">
             <topics>
                 <topic url="WordDocuments/bulkreceivingdocumen.htm" window="right">Bulk Receiving Document Main Screen</topic>
             </topics>
         </item>
-        <item name="printing" id="147290">
+        <item name="printing" id="147562">
             <topics>
                 <topic url="WordDocuments/printingbulkreceivin.htm" window="right">Printing Bulk Receiving Information</topic>
             </topics>
         </item>
-        <item name="routing" id="147289">
+        <item name="routing" id="147561">
             <topics>
                 <topic url="WordDocuments/routing58.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name="Vendor tab" id="147285">
+        <item name="Vendor tab" id="147557">
             <topics>
                 <topic url="WordDocuments/vendortab.htm" window="right">Vendor Tab</topic>
             </topics>
@@ -1881,7 +1881,7 @@
                 <topic url="WordDocuments/businessrules55.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Bulk Receiving document" id="147288">
+        <item name="Bulk Receiving document" id="147560">
             <topics>
                 <topic url="WordDocuments/businessrules80.htm" window="right">Business Rules</topic>
             </topics>
@@ -1911,7 +1911,7 @@
                 <topic url="WordDocuments/businessrulesforcomb.htm" window="right">Business Rules for Combining Payments</topic>
             </topics>
         </item>
-        <item name="Contract Manager Assignment (ACM) document" id="147295">
+        <item name="Contract Manager Assignment (ACM) document" id="147567">
             <topics>
                 <topic url="WordDocuments/businessrules81.htm" window="right">Business Rules</topic>
             </topics>
@@ -2036,7 +2036,7 @@
                 <topic url="WordDocuments/businessrules65.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Line Item Receiving document" id="147306">
+        <item name="Line Item Receiving document" id="147578">
             <topics>
                 <topic url="WordDocuments/businessrules84.htm" window="right">Business Rules</topic>
             </topics>
@@ -2267,12 +2267,12 @@
             </topics>
         </item>
     </item>
-    <item name="Capital Asset System State document" id="147324">
+    <item name="Capital Asset System State document" id="147596">
         <topics>
             <topic url="WordDocuments/capitalassetsystemst.htm" window="right">Capital Asset System State</topic>
         </topics>
     </item>
-    <item name="Capital Asset System Type document " id="147325">
+    <item name="Capital Asset System Type document " id="147597">
         <topics>
             <topic url="WordDocuments/capitalassetsystemty.htm" window="right">Capital Asset System Type</topic>
         </topics>
@@ -2411,7 +2411,7 @@
             <topic url="WordDocuments/capitalizationofasse.htm" window="right">Capitalization of Assets and Liabilities</topic>
         </topics>
     </item>
-    <item name="Carrier document " id="147326">
+    <item name="Carrier document " id="147598">
         <topics>
             <topic url="WordDocuments/carrier.htm" window="right">Carrier</topic>
         </topics>
@@ -2880,26 +2880,26 @@
             <topic url="WordDocuments/continuationaccount.htm" window="right">Continuation Account</topic>
         </topics>
     </item>
-    <item name="Contract Manager Assignment (ACM) document" id="147291">
+    <item name="Contract Manager Assignment (ACM) document" id="147563">
         <topics>
             <topic url="WordDocuments/contractmanagerassig.htm" window="right">Contract Manager Assignment</topic>
         </topics>
-        <item name="Assign a Contract Manager tab" id="147293">
+        <item name="Assign a Contract Manager tab" id="147565">
             <topics>
                 <topic url="WordDocuments/assignacontractmanag.htm" window="right">Assign a Contract Manager Tab</topic>
             </topics>
         </item>
-        <item name="business rules" id="147294">
+        <item name="business rules" id="147566">
             <topics>
                 <topic url="WordDocuments/businessrules81.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="example" id="147297">
+        <item name="example" id="147569">
             <topics>
                 <topic url="WordDocuments/example39.htm" window="right">Example</topic>
             </topics>
         </item>
-        <item name="routing" id="147296">
+        <item name="routing" id="147568">
             <topics>
                 <topic url="WordDocuments/routing59.htm" window="right">Routing</topic>
             </topics>
@@ -3246,7 +3246,7 @@
             <topic url="WordDocuments/creditcardvendor.htm" window="right">Credit Card Vendor</topic>
         </topics>
     </item>
-    <item name="Credit Memo Status document" id="147327">
+    <item name="Credit Memo Status document" id="147599">
         <topics>
             <topic url="WordDocuments/creditmemostatus.htm" window="right">Credit Memo Status</topic>
         </topics>
@@ -3775,7 +3775,7 @@
             <topic url="WordDocuments/delegatesformodeltab.htm" window="right">Delegates for Model Tab</topic>
         </topics>
     </item>
-    <item name="Delivery Required Date Reason document" id="147328">
+    <item name="Delivery Required Date Reason document" id="147600">
         <topics>
             <topic url="WordDocuments/deliveryrequireddate.htm" window="right">Delivery Required Date Reason</topic>
         </topics>
@@ -4452,7 +4452,7 @@
             <topic url="WordDocuments/effortsummarytab.htm" window="right">Effort Summary Tab</topic>
         </topics>
     </item>
-    <item name="Electronic Invoice Item Mapping document" id="147329">
+    <item name="Electronic Invoice Item Mapping document" id="147601">
         <topics>
             <topic url="WordDocuments/electronicinvoiceite1.htm" window="right">Electronic Invoice Item Mapping</topic>
         </topics>
@@ -5045,7 +5045,7 @@
             <topic url="WordDocuments/fundmanagerstab.htm" window="right">Fund Managers Tab</topic>
         </topics>
     </item>
-    <item name="Funding Source document" id="147330">
+    <item name="Funding Source document" id="147602">
         <topics>
             <topic url="WordDocuments/fundingsource.htm" window="right">Funding Source</topic>
         </topics>
@@ -5610,12 +5610,12 @@
             <topic url="WordDocuments/invoicingtab.htm" window="right">Invoicing Tab</topic>
         </topics>
     </item>
-    <item name="Item Reason Added document " id="147331">
+    <item name="Item Reason Added document " id="147603">
         <topics>
             <topic url="WordDocuments/itemreasonadded.htm" window="right">Item Reason Added</topic>
         </topics>
     </item>
-    <item name="Item Type document" id="147332">
+    <item name="Item Type document" id="147604">
         <topics>
             <topic url="WordDocuments/itemtype.htm" window="right">Item Type</topic>
         </topics>
@@ -5729,47 +5729,47 @@
             <topic url="WordDocuments/flexiblebankoffsetsp.htm" window="right">Flexible Bank Offsets Parameters</topic>
         </topics>
     </item>
-    <item name="Line Item Receiving document" id="147299">
+    <item name="Line Item Receiving document" id="147571">
         <topics>
             <topic url="WordDocuments/lineitemreceiving.htm" window="right">Line Item Receiving</topic>
         </topics>
-        <item name="adding new undordered item" id="147307">
+        <item name="adding new undordered item" id="147579">
             <topics>
                 <topic url="WordDocuments/addingnewunorderedit.htm" window="right">Adding New Unordered Item</topic>
             </topics>
         </item>
-        <item name="business rules" id="147305">
+        <item name="business rules" id="147577">
             <topics>
                 <topic url="WordDocuments/businessrules84.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Delivery tab" id="147304">
+        <item name="Delivery tab" id="147576">
             <topics>
                 <topic url="WordDocuments/deliverytab1.htm" window="right">Delivery Tab</topic>
             </topics>
         </item>
-        <item name="Document Overview tab" id="147301">
+        <item name="Document Overview tab" id="147573">
             <topics>
                 <topic url="WordDocuments/documentoverviewtab7.htm" window="right">Document Overview Tab</topic>
             </topics>
         </item>
-        <item name="Items tab" id="147303">
+        <item name="Items tab" id="147575">
             <topics>
                 <topic url="WordDocuments/itemstab3.htm" window="right">Items Tab</topic>
             </topics>
         </item>
-        <item name="Line Item Receiving Initiation tab" id="147300">
+        <item name="Line Item Receiving Initiation tab" id="147572">
             <topics>
                 <topic url="WordDocuments/lineitemreceivingini.htm" window="right">Line Item Receiving Initiation Tab</topic>
             </topics>
         </item>
-        <item name="Vendor tab" id="147302">
+        <item name="Vendor tab" id="147574">
             <topics>
                 <topic url="WordDocuments/vendortab2.htm" window="right">Vendor Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Line Item Receiving Status document " id="147333">
+    <item name="Line Item Receiving Status document " id="147605">
         <topics>
             <topic url="WordDocuments/lineitemreceivingsta.htm" window="right">Line Item Receiving Status</topic>
         </topics>
@@ -5889,7 +5889,7 @@
             <topic url="WordDocuments/methodofinvoicetrans.htm" window="right">Method of Invoice Transmission</topic>
         </topics>
     </item>
-    <item name="Method of PO Transmission document " id="147334">
+    <item name="Method of PO Transmission document " id="147606">
         <topics>
             <topic url="WordDocuments/methodofpotransmissi.htm" window="right">Method of PO Transmission</topic>
         </topics>
@@ -5980,7 +5980,7 @@
             <topic url="WordDocuments/navigationconfigurat.htm" window="right">Navigation Configuration</topic>
         </topics>
     </item>
-    <item name="Negative Payment Request Approval Limit document" id="147335">
+    <item name="Negative Payment Request Approval Limit document" id="147607">
         <topics>
             <topic url="WordDocuments/negativepaymentreque.htm" window="right">Negative Payment Request Approval Limit</topic>
         </topics>
@@ -6204,7 +6204,7 @@
             </topics>
         </item>
     </item>
-    <item name="Organization Parameter document" id="147336">
+    <item name="Organization Parameter document" id="147608">
         <topics>
             <topic url="WordDocuments/organizationparamete.htm" window="right">Organization Parameter</topic>
         </topics>
@@ -6438,17 +6438,17 @@
             <topic url="WordDocuments/paymentmedium.htm" window="right">Payment Medium</topic>
         </topics>
     </item>
-    <item name="Payment Request (PREQ) document" id="147298">
+    <item name="Payment Request (PREQ) document" id="147570">
         <topics>
             <topic url="WordDocuments/paymentrequest.htm" window="right">Payment Request</topic>
         </topics>
     </item>
-    <item name="Payment Request Auto Approve Exclusions document" id="147337">
+    <item name="Payment Request Auto Approve Exclusions document" id="147609">
         <topics>
             <topic url="WordDocuments/paymentrequestautoap.htm" window="right">Payment Request Auto Approve Exclusions</topic>
         </topics>
     </item>
-    <item name="Payment Request Status document" id="147338">
+    <item name="Payment Request Status document" id="147610">
         <topics>
             <topic url="WordDocuments/paymentrequeststatus.htm" window="right">Payment Request Status</topic>
         </topics>
@@ -6863,17 +6863,17 @@
     </item>
     <item name="Purchase Order (PO) document" id="147063">
         <topics />
-        <item name="Capital Asset tab" id="147318">
+        <item name="Capital Asset tab" id="147590">
             <topics>
                 <topic url="WordDocuments/documentlayout188.htm" window="right">Document Layout</topic>
             </topics>
         </item>
-        <item name="General Ledger Pending Entries" id="147320">
+        <item name="General Ledger Pending Entries" id="147592">
             <topics>
                 <topic url="WordDocuments/documentlayout188.htm" window="right">Document Layout</topic>
             </topics>
         </item>
-        <item name="Quotetab" id="147319">
+        <item name="Quotetab" id="147591">
             <topics>
                 <topic url="WordDocuments/documentlayout188.htm" window="right">Document Layout</topic>
             </topics>
@@ -6889,17 +6889,17 @@
             <topic url="WordDocuments/openandclosedencumbr.htm" window="right">Open and Closed Encumbrance Amounts</topic>
         </topics>
     </item>
-    <item name="Purchase Order Amend (POA) document" id="147321">
+    <item name="Purchase Order Amend (POA) document" id="147593">
         <topics>
             <topic url="WordDocuments/purchaseorderamend.htm" window="right">Purchase Order Amend</topic>
         </topics>
-        <item name="business rules" id="147322">
+        <item name="business rules" id="147594">
             <topics>
                 <topic url="WordDocuments/businessrules87.htm" window="right">Business Rules</topic>
             </topics>
         </item>
     </item>
-    <item name="Purchase Order Contract Language document" id="147339">
+    <item name="Purchase Order Contract Language document" id="147611">
         <topics>
             <topic url="WordDocuments/purchaseordercontrac.htm" window="right">Purchase Order Contract Language</topic>
         </topics>
@@ -6909,37 +6909,37 @@
             <topic url="WordDocuments/costsource.htm" window="right">Cost Source</topic>
         </topics>
     </item>
-    <item name="Purchase Order Quote Language document " id="147340">
+    <item name="Purchase Order Quote Language document " id="147612">
         <topics>
             <topic url="WordDocuments/purchaseorderquotela.htm" window="right">Purchase Order Quote Language</topic>
         </topics>
     </item>
-    <item name="Purchase Order Quote List document" id="147341">
+    <item name="Purchase Order Quote List document" id="147613">
         <topics>
             <topic url="WordDocuments/purchaseorderquoteli.htm" window="right">Purchase Order Quote List</topic>
         </topics>
-        <item name="Quote List tab" id="147342">
+        <item name="Quote List tab" id="147614">
             <topics>
                 <topic url="WordDocuments/quotelisttab.htm" window="right">Quote List Tab</topic>
             </topics>
         </item>
-        <item name="Vendors tab" id="147343">
+        <item name="Vendors tab" id="147615">
             <topics>
                 <topic url="WordDocuments/vendorstab.htm" window="right">Vendors Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Purchase Order Quote Status document " id="147344">
+    <item name="Purchase Order Quote Status document " id="147616">
         <topics>
             <topic url="WordDocuments/purchaseorderquotest.htm" window="right">Purchase Order Quote Status</topic>
         </topics>
     </item>
-    <item name="Purchase Order Status document" id="147345">
+    <item name="Purchase Order Status document" id="147617">
         <topics>
             <topic url="WordDocuments/purchaseorderstatus.htm" window="right">Purchase Order Status</topic>
         </topics>
     </item>
-    <item name="Purchase Order Vendor Choice document" id="147346">
+    <item name="Purchase Order Vendor Choice document" id="147618">
         <topics>
             <topic url="WordDocuments/purchaseordervendorc.htm" window="right">Purchase Order Vendor Choice</topic>
         </topics>
@@ -6951,7 +6951,7 @@
     </item>
     <item name="Purchasing/Accounts Payable" id="147035">
         <topics />
-        <item name="Contract Manager Assignment (ACM) document" id="147292">
+        <item name="Contract Manager Assignment (ACM) document" id="147564">
             <topics>
                 <topic url="WordDocuments/contractmanagerassig.htm" window="right">Contract Manager Assignment</topic>
             </topics>
@@ -6967,12 +6967,12 @@
             <topic url="WordDocuments/businessrules62.htm" window="right">Business Rules</topic>
         </topics>
     </item>
-    <item name="Receiving Address document " id="147347">
+    <item name="Receiving Address document " id="147619">
         <topics>
             <topic url="WordDocuments/receivingaddress.htm" window="right">Receiving Address</topic>
         </topics>
     </item>
-    <item name="Receiving Threshold document " id="147348">
+    <item name="Receiving Threshold document " id="147620">
         <topics>
             <topic url="WordDocuments/receivingthreshold.htm" window="right">Receiving Threshold</topic>
         </topics>
@@ -6987,12 +6987,12 @@
             <topic url="WordDocuments/auxiliaryvoucher.htm" window="right">Auxiliary Voucher</topic>
         </topics>
     </item>
-    <item name="Recurring Payment Frequency document" id="147349">
+    <item name="Recurring Payment Frequency document" id="147621">
         <topics>
             <topic url="WordDocuments/recurringpaymentfreq.htm" window="right">Recurring Payment Frequency</topic>
         </topics>
     </item>
-    <item name="Recurring Payment Type document" id="147350">
+    <item name="Recurring Payment Type document" id="147622">
         <topics>
             <topic url="WordDocuments/recurringpaymenttype.htm" window="right">Recurring Payment Type</topic>
         </topics>
@@ -7057,57 +7057,57 @@
             <topic url="WordDocuments/requiredfields.htm" window="right">Required Fields</topic>
         </topics>
     </item>
-    <item name="Requisition (REQS) document" id="147309">
+    <item name="Requisition (REQS) document" id="147581">
         <topics>
             <topic url="WordDocuments/requisition.htm" window="right">Requisition</topic>
         </topics>
-        <item name=" expand all accounts" id="147312">
+        <item name=" expand all accounts" id="147584">
             <topics>
                 <topic url="WordDocuments/expandingallaccounts.htm" window="right">Expanding All Accounts</topic>
             </topics>
         </item>
-        <item name="Capital Asset Items section, Capital Asset tab" id="147317">
+        <item name="Capital Asset Items section, Capital Asset tab" id="147589">
             <topics>
                 <topic url="WordDocuments/capitalassetitemssec.htm" window="right">Capital Asset Items Section</topic>
             </topics>
         </item>
-        <item name="Capital Asset tab" id="147314">
+        <item name="Capital Asset tab" id="147586">
             <topics>
                 <topic url="WordDocuments/capitalassettab.htm" window="right">Capital Asset Tab</topic>
             </topics>
         </item>
-        <item name="collapse all accounts" id="147313">
+        <item name="collapse all accounts" id="147585">
             <topics>
                 <topic url="WordDocuments/collapsingallaccount.htm" window="right">Collapsing All Accounts</topic>
             </topics>
         </item>
-        <item name="document header" id="147310">
+        <item name="document header" id="147582">
             <topics>
                 <topic url="WordDocuments/documentheader2.htm" window="right">Document Header</topic>
             </topics>
         </item>
-        <item name="Location section, Capital Asset tab" id="147316">
+        <item name="Location section, Capital Asset tab" id="147588">
             <topics>
                 <topic url="WordDocuments/locationsection.htm" window="right">Location Section</topic>
             </topics>
         </item>
-        <item name="remove commodity codes from all items" id="147311">
+        <item name="remove commodity codes from all items" id="147583">
             <topics>
                 <topic url="WordDocuments/removingcommoditycod.htm" window="right">Removing Commodity Codes from all Items</topic>
             </topics>
         </item>
-        <item name="System Detail section, Capital Asset tab" id="147315">
+        <item name="System Detail section, Capital Asset tab" id="147587">
             <topics>
                 <topic url="WordDocuments/systemdetailsection.htm" window="right">System Detail Section</topic>
             </topics>
         </item>
     </item>
-    <item name="Requisition Source document" id="147351">
+    <item name="Requisition Source document" id="147623">
         <topics>
             <topic url="WordDocuments/requisitionsource.htm" window="right">Requisition Source</topic>
         </topics>
     </item>
-    <item name="Requisition Status document" id="147352">
+    <item name="Requisition Status document" id="147624">
         <topics>
             <topic url="WordDocuments/requisitionstatus.htm" window="right">Requisition Status</topic>
         </topics>
@@ -7563,7 +7563,7 @@
             <topic url="WordDocuments/multiplevaluelookup.htm" window="right">Multiple Value Lookup</topic>
         </topics>
     </item>
-    <item name="Sensitive Data document " id="147353">
+    <item name="Sensitive Data document " id="147625">
         <topics>
             <topic url="WordDocuments/sensitivedata.htm" window="right">Sensitive Data</topic>
         </topics>
@@ -8076,7 +8076,7 @@
             <topic url="WordDocuments/vendorphonenumbertab.htm" window="right">Vendor Phone Number Tab</topic>
         </topics>
     </item>
-    <item name="Vendor Stipulation document" id="147354">
+    <item name="Vendor Stipulation document" id="147626">
         <topics>
             <topic url="WordDocuments/vendorstipulation.htm" window="right">Vendor Stipulation</topic>
         </topics>
