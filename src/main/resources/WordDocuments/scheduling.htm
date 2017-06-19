@@ -93,7 +93,7 @@ files.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>KFS-COA <a href="chartofaccountsbatch.htm">populatePriorYearDataJob</a>–This job needs to 
 run after the system is brought down on the night of June 30 (or at the point in 
-time you wish to capture <a onclick="return d2hpopup(event, this.href)" id="popup_405628" href="gloss_fiscalyear.htm">fiscal year</a> end account and 
+time you wish to capture <a onclick="return d2hpopup(event, this.href)" id="popup_420108" href="gloss_fiscalyear.htm">fiscal year</a> end account and 
 organization snapshots).  Scheduling allows for a clean cut-off of the 
 account and organization snapshots (off hours) when updates are not being 
 performed</p>
@@ -106,13 +106,14 @@ performed</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>KFS-GL <a href="balanceforwardjob.htm">balanceForwardJob</a></p>
 <p class="MsoBodyText">Files output by these jobs are <em>not</em> automatically 
-fed into the <a onclick="return d2hpopup(event, this.href)" id="popup_405629" href="gloss_scrubber.htm">scrubber</a>, so an administrator must review the 
+fed into the <a onclick="return d2hpopup(event, this.href)" id="popup_420109" href="gloss_scrubber.htm">scrubber</a>, so an administrator must review the 
 files to be sure the data seems valid and then use the GLCP to make the data 
 available for the next nightly batch processing.  </p>
 <p class="MsoBodyText">These four jobs may be run over a period of several days. 
 For example, after the final close, jobs might be run according to a schedule 
 like the following.</p>
-<p class="MsoBodyText"><strong>Day 1</strong></p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: Roboto">Day 
+1</span></strong></p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">1.    Schedule:</p>
 <p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>KFS-GL organizationReversionPriorYearAccountJob</p>
@@ -120,7 +121,8 @@ like the following.</p>
 </span>KFS-GL encumbranceForwardJob</p>
 <p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>KFS-LD <a href="laborbalanceforwardj.htm">laborBalanceForwardJob</a></p>
-<p class="MsoBodyText"><strong>Day 2</strong></p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: Roboto">Day 
+2</span></strong></p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">1.    Review output 
 from yesterday's:</p>
 <p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
@@ -136,7 +138,8 @@ Ledger Correction Process</a> documents to input the files into this evening's
 batch cycle.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">3.    Schedule 
 KFS-GL nominalActivityClosingJob.</p>
-<p class="MsoBodyText"><strong>Day 3</strong></p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: Roboto">Day 
+3</span></strong></p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">1.    Verify that 
 the entries from the following jobs posted:</p>
 <p class="C1HBullet2" style="TEXT-INDENT: -18.75pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
@@ -153,7 +156,8 @@ Correction Process</a> document to input the files into this evening's batch
 cycle.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">4.    Schedule 
 KFS-GL balanceForwardJob.</p>
-<p class="MsoBodyText"><strong>Day 4</strong></p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: Roboto">Day 
+4</span></strong></p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">1.    Verify that 
 the entries from yesterday's KFS-GL nominalActivityClosingJob posted without 
 incident.</p>
@@ -162,7 +166,8 @@ from KFS-GL balanceForwardJob.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">3.    For all valid 
 output, use the <a href="generalledgercorrect.htm">General Ledger Correction 
 Process</a> document to input the files into this evening's batch cycle.</p>
-<p class="MsoBodyText"><strong>Day 5</strong></p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: Roboto">Day 
+5</span></strong></p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">1.    Verify that 
 the entries from yesterday's Financials-GL balanceForwardJob posted.</p>
 <p class="MsoBodyText"> </p>

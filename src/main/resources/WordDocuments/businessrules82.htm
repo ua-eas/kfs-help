@@ -103,10 +103,10 @@ vendor, a warning notifies the initiator of the potential duplicate. Even so,
 the system allows the initiator to override the warning and continue.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Fiscal Officers are warned when a PREQ contains one or more expired 
-accounts that were not replaced by a continuation account. The <a onclick="return d2hpopup(event, this.href)" id="popup_408114" href="gloss_fiscalofficer.htm">Fiscal Officer</a> has the option to either check 
-the <strong>Expired Account Override</strong> box or change the account. AP 
-users are not warned about expired accounts that are not replaced by a 
-continuation account.</p>
+accounts that were not replaced by a continuation account. The <a onclick="return d2hpopup(event, this.href)" id="popup_420641" href="gloss_fiscalofficer.htm">Fiscal Officer</a> has the option to either check 
+the <strong><span style="FONT-FAMILY: Roboto">Expired Account 
+Override</span></strong> box or change the account. AP users are not warned 
+about expired accounts that are not replaced by a continuation account.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Based 
 on the setting of the SHOW_CONTINUATION_ACCOUNT_WARNING_AP_USERS_IND parameter, 
 AP users and Fiscal Officers are warned when one or more expired or closed 
@@ -127,13 +127,13 @@ and handling charges.</p>
 purchase order are allocated to accounting lines in proportion to the item 
 amounts on the purchase order.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong>Calculate</strong> button must be pressed prior to submitting the 
-payment request.</p>
+<strong><span style="FONT-FAMILY: Roboto">Calculate</span></strong> button must 
+be pressed prior to submitting the payment request.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>AP 
 has the ability to close a non-recurring payment PO at the time the PREQ is 
-submitted if they know that the order is complete, using the <strong>Close 
-PO</strong> checkbox. There is no validation to require that all lines and/or 
-below-the-line items on the PO are complete. The <strong>Close PO</strong> 
+submitted if they know that the order is complete, using the <strong><span style="FONT-FAMILY: Roboto">Close PO</span></strong> checkbox. There is no 
+validation to require that all lines and/or below-the-line items on the PO are 
+complete. The <strong><span style="FONT-FAMILY: Roboto">Close PO</span></strong> 
 checkbox is available only on non-recurring payment orders.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 following G/L entries are created when the payment request is submitted.</p>
@@ -152,7 +152,7 @@ officer/PREQ delegate may edit the accounts/sub-account/object codes and
 amounts. The existing account string is reversed. The new account string debits 
 the expense and credits object code 9041,the liability offset.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
-being canceled, the G/L entries are reversed, any <a onclick="return d2hpopup(event, this.href)" id="popup_408113" href="gloss_disencumbrance.htm">disencumbrance</a> created from AP submission of 
+being canceled, the G/L entries are reversed, any <a onclick="return d2hpopup(event, this.href)" id="popup_420640" href="gloss_disencumbrance.htm">disencumbrance</a> created from AP submission of 
 the payment request is reversed, and the PO open quantities that were 
 decremented from the creation of the payment request are increased. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
@@ -202,42 +202,49 @@ codes must be in the INV or OASS object level.</p>
 consolidations of Compensation (CMPN), Financial Aid (SCHL), Reserves 
 (RSRX) and Assessments Expenditures (ASEX) are not allowed.</p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes in the 
-levels of <a onclick="return d2hpopup(event, this.href)" id="popup_408115" href="gloss_depreciation.htm">Depreciation</a> (DEPR), Indirect Cost Expense 
+levels of <a onclick="return d2hpopup(event, this.href)" id="popup_420642" href="gloss_depreciation.htm">Depreciation</a> (DEPR), Indirect Cost Expense 
 (ICOE), Valuations and Adjustments (VADJ) and Taxes (TAX) are not allowed.</p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes with a 
 sub-type code for Transfers (TN) are allowed.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-the PREQ routes to the Tax Manager for review, the <strong>Income Class</strong> 
-field is required and the following rules apply, depending on what is 
-selected:</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If the <strong>Income 
-Class</strong> equals Non Reportable, all other fields should be blank.</p>
+the PREQ routes to the Tax Manager for review, the <strong><span style="FONT-FAMILY: Roboto">Income Class</span></strong> field is required and 
+the following rules apply, depending on what is selected:</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If the <strong><span style="FONT-FAMILY: Roboto">Income Class</span></strong> equals Non Reportable, 
+all other fields should be blank.</p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span><em><span style="FONT-STYLE: normal">For all other income classes</span></em>:</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18.75pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-<strong>Foreign Source</strong> is checked, <strong>Federal Tax Percent</strong> 
-and <strong>State Tax Percent</strong> must be 0.00. <strong>Treaty 
-Exempt</strong> and <strong>Gross Up</strong> cannot be checked.</p>
+<strong><span style="FONT-FAMILY: Roboto">Foreign Source</span></strong> is 
+checked, <strong><span style="FONT-FAMILY: Roboto">Federal Tax 
+Percent</span></strong> and <strong><span style="FONT-FAMILY: Roboto">State Tax 
+Percent</span></strong> must be 0.00. <strong><span style="FONT-FAMILY: Roboto">Treaty Exempt</span></strong> and <strong><span style="FONT-FAMILY: Roboto">Gross Up</span></strong> cannot be checked.</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18.75pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-<strong>Treaty Exempt</strong> is checked, <strong>Federal Tax Percent 
-</strong>and <strong>State Tax Percent</strong> must be 0.00. <strong>Foreign 
-Source</strong> and <strong>Gross Up Payment</strong> cannot be checked.</p>
+<strong><span style="FONT-FAMILY: Roboto">Treaty Exempt</span></strong> is 
+checked, <strong><span style="FONT-FAMILY: Roboto">Federal Tax Percent 
+</span></strong>and <strong><span style="FONT-FAMILY: Roboto">State Tax 
+Percent</span></strong> must be 0.00. <strong><span style="FONT-FAMILY: Roboto">Foreign Source</span></strong> and <strong><span style="FONT-FAMILY: Roboto">Gross Up Payment</span></strong> cannot be 
+checked.</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18.75pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-<strong>Exempt Under Other Code</strong> is checked, <strong>Federal Tax Percent 
-</strong>and <strong>State Tax Percent</strong> must be 0.00 and <strong>Treaty 
-Exempt</strong>, <strong>Foreign Source</strong> and <strong>Gross Up 
-Payment</strong> cannot be checked.</p>
+<strong><span style="FONT-FAMILY: Roboto">Exempt Under Other 
+Code</span></strong> is checked, <strong><span style="FONT-FAMILY: Roboto">Federal Tax Percent </span></strong>and 
+<strong><span style="FONT-FAMILY: Roboto">State Tax Percent</span></strong> must 
+be 0.00 and <strong><span style="FONT-FAMILY: Roboto">Treaty 
+Exempt</span></strong>, <strong><span style="FONT-FAMILY: Roboto">Foreign 
+Source</span></strong> and <strong><span style="FONT-FAMILY: Roboto">Gross Up 
+Payment</span></strong> cannot be checked.</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18.75pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-<strong>USAID Per Diem</strong> is checked, <strong>Income Class</strong> must 
-be Fellowship, <strong>Federal Tax Percent</strong> and <strong>State Tax 
-Percent</strong> must be 0.00 and <strong>Treaty Exempt</strong>,<strong> 
-Foreign Source</strong>, <strong>Gross Up Payment </strong>and <strong>Exempt 
-Under Other Code</strong> cannot be checked.</p>
+<strong><span style="FONT-FAMILY: Roboto">USAID Per Diem</span></strong> is 
+checked, <strong><span style="FONT-FAMILY: Roboto">Income Class</span></strong> 
+must be Fellowship, <strong><span style="FONT-FAMILY: Roboto">Federal Tax 
+Percent</span></strong> and <strong><span style="FONT-FAMILY: Roboto">State Tax 
+Percent</span></strong> must be 0.00 and <strong><span style="FONT-FAMILY: Roboto">Treaty Exempt</span></strong>,<strong><span style="FONT-FAMILY: Roboto"> Foreign Source</span></strong>, <strong><span style="FONT-FAMILY: Roboto">Gross Up Payment </span></strong>and <strong><span style="FONT-FAMILY: Roboto">Exempt Under Other Code</span></strong> cannot be 
+checked.</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18.75pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-<strong>Special W-4 Amount</strong> is completed, <strong>Income Class</strong> 
-must be Fellowship, <strong>Exempt Under Other Code</strong> must be checked, 
-<strong>Federal Tax Percent</strong> and <strong>State Tax Percent</strong> must 
-be 0.00 and <strong>Treaty Exempt</strong>, <strong>Foreign Source</strong>, 
-<strong>Gross Up Payment</strong> and <strong>USAID Per Diem</strong> cannot be 
+<strong><span style="FONT-FAMILY: Roboto">Special W-4 Amount</span></strong> is 
+completed, <strong><span style="FONT-FAMILY: Roboto">Income 
+Class</span></strong> must be Fellowship, <strong><span style="FONT-FAMILY: Roboto">Exempt Under Other Code</span></strong> must be 
+checked, <strong><span style="FONT-FAMILY: Roboto">Federal Tax 
+Percent</span></strong> and <strong><span style="FONT-FAMILY: Roboto">State Tax 
+Percent</span></strong> must be 0.00 and <strong><span style="FONT-FAMILY: Roboto">Treaty Exempt</span></strong>, <strong><span style="FONT-FAMILY: Roboto">Foreign Source</span></strong>, <strong><span style="FONT-FAMILY: Roboto">Gross Up Payment</span></strong> and <strong><span style="FONT-FAMILY: Roboto">USAID Per Diem</span></strong> cannot be 
 checked.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="normal"><a style="TEXT-DECORATION: none" href="yearendpostbackrules.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Year End Postback Rules</a></p></span></div></div></body></html>
