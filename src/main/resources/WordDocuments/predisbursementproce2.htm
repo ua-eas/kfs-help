@@ -96,9 +96,9 @@ these batch jobs in the general order that an institution may encounter
 them.</p>
 <p class="MsoBodyText"> </p>
 <div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
-<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="pencil-small" border="0" alt="pencil-small" src="../ImagesExt/image594_1.png" />          
+<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image594_1.png" />          
 Several of these jobs generate .xml files containing information about payments 
-processed via PDP. <a onclick="return d2hpopup(event, this.href)" id="popup_420500" href="gloss_kuali.htm">Kuali</a> Financials does not include a 
+processed via PDP. <a onclick="return d2hpopup(event, this.href)" id="popup_425378" href="gloss_kuali.htm">Kuali</a> Financials does not include a 
 check writer, so your institution needs to determine how best to utilize the 
 .xml files provided by PDP to generate checks and/or ACH entries to be sent to 
 your bank.</p></div>
@@ -124,7 +124,7 @@ your bank.</p></div>
       having a payment method of Check/ACH into PDP. The disbursement vouchers 
       appear as open payments in PDP.</p>
       <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
-      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img border="0" src="../ImagesExt/image594_2.gif" alt="" />    No separate batch job 
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img src="../ImagesExt/image594_2.gif" alt="" />    No separate batch job 
       exists for extracting immediate Disbursement Voucher payments to PDP 
       because these payments are automatically extracted into PDP when the 
       immediate DV reaches FINAL or PROCESSED status or when the Disbursement 
@@ -141,10 +141,10 @@ your bank.</p></div>
       Credit Memos are greater than zero. These will appear as Open payments in 
       PDP. </p>
       <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
-      <p class="Noteintable" style="MARGIN: 0pt 0pt 6pt 22.85pt"><img border="0" src="../ImagesExt/image594_2.gif" alt="" />    PREQs and Credit 
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 6pt 22.85pt"><img src="../ImagesExt/image594_2.gif" alt="" />    PREQs and Credit 
       Memos are bundled together when the PREQ is not marked immediate, special 
       handling or has attachments.</p>
-      <p class="Noteintable" style="MARGIN: 9pt 0pt 0pt 22.85pt"><img border="0" src="../ImagesExt/image594_2.gif" alt="" />    PREQs are bundled 
+      <p class="Noteintable" style="MARGIN: 9pt 0pt 0pt 22.85pt"><img src="../ImagesExt/image594_2.gif" alt="" />    PREQs are bundled 
       with Credit Memos when the campus, bank code, vendor, vendor division, 
       address 1, country and 5 digit zip code match.</p></div></td></tr>
   <tr>
@@ -271,7 +271,7 @@ your bank.</p></div>
       <p class="TableCells">Generates emails to ACH payees based on the values 
       defined as part of the PDP customer associated with the ACH payments.</p>
       <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
-      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img border="0" src="../ImagesExt/image594_2.gif" alt="" />    Parameter 
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img src="../ImagesExt/image594_2.gif" alt="" />    Parameter 
       ACH_SUMMARY_CC_EMAIL_ADDRESSES can be used to add a cc email address to 
       the notifications sent to payees.</p></div></td></tr>
   <tr>
@@ -284,7 +284,7 @@ your bank.</p></div>
       defined in the ACH_BANK_INPUT_FILE and FEDERAL_ACH_BANK_FILE_URL 
       parameters.</p>
       <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
-      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="exclaim" border="0" alt="exclaim" src="../ImagesExt/image594_3.png" />    Note that the system 
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="exclaim" alt="exclaim" src="../ImagesExt/image594_3.png" />    Note that the system 
       design assumes that your institution will <em>either</em> use this job to 
       populate the ACH Bank table <em>or</em> update the table manually. 
       <strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Doing both—that 
@@ -310,7 +310,7 @@ your bank.</p></div>
       The total number and amount of formatted checks and ACH are emailed to the 
       recipients defined in the FORMAT_SUMMARY_TO_EMAIL_ADDRESSES parameter.</p>
       <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
-      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img border="0" src="../ImagesExt/image594_2.gif" alt="" />    Payments that have 
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img src="../ImagesExt/image594_2.gif" alt="" />    Payments that have 
       the same vendor id/division number, address 1, country and 5 digit zip 
       will be combined into a single payment.</p></div></td></tr>
   <tr>
