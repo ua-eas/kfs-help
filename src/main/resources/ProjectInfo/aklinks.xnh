@@ -6273,6 +6273,11 @@
                 <topic url="WordDocuments/state.htm" window="right"><![CDATA[State]]></topic>
             </topics>
         </keyword>
+        <keyword name="stuck documents">
+            <topics>
+                <topic url="WordDocuments/stuckdocuments.htm" window="right"><![CDATA[Stuck Documents]]></topic>
+            </topics>
+        </keyword>
         <keyword name="sub-account ">
             <topics>
                 <topic url="WordDocuments/subaccount.htm" window="right"><![CDATA[Sub-Account]]></topic>

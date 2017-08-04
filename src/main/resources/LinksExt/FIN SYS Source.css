@@ -2,7 +2,7 @@ P.Noteintable {FONT-SIZE: 10pt;  BORDER-TOP: medium none;  FONT-FAMILY: "Arial",
 
 P.Illustration {FONT-SIZE: 10pt;  FONT-FAMILY: Roboto;  COLOR: black;  MARGIN: 12pt 0pt 18pt; }
 
-P.TableCells {FONT-SIZE: 10pt;  FONT-FAMILY: "Arial","sans-serif";  COLOR: black;  MARGIN: 0pt 0pt 6pt; }
+P.TableCells {FONT-SIZE: 10pt;  FONT-FAMILY: Roboto;  COLOR: black;  MARGIN: 0pt 0pt 6pt; }
 
 SPAN.apple-converted-space {}
 
@@ -10,7 +10,7 @@ P.Note {FONT-SIZE: 10pt;  BORDER-TOP: medium none;  FONT-FAMILY: Roboto;  BORDER
 
 P.Definition {FONT-SIZE: 10pt;  FONT-FAMILY: Roboto;  COLOR: black;  MARGIN: 0pt 0pt 6pt; }
 
-SPAN.TableCellsEmphasis {FONT-FAMILY: "Arial","sans-serif";  FONT-STYLE: italic; }
+SPAN.TableCellsEmphasis {FONT-FAMILY: "Arial","sans-serif";  COLOR: black;  FONT-STYLE: italic; }
 
 P.Noteindented {FONT-SIZE: 10pt;  BORDER-TOP: medium none;  FONT-FAMILY: Roboto;  BORDER-RIGHT: medium none;  BORDER-BOTTOM: medium none;  COLOR: black;  PADDING-BOTTOM: 0pt;  PADDING-TOP: 0pt;  PADDING-LEFT: 0pt;  BORDER-LEFT: medium none;  MARGIN: 9pt 0pt 9pt 63pt;  PADDING-RIGHT: 0pt;  TEXT-INDENT: -27pt;  tab-stops: 63.0pt; }
 
