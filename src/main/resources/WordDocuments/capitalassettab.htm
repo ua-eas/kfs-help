@@ -118,7 +118,7 @@ OBJECT LEVELS parameters.</p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="163">
       <p class="TableCells">Capital Asset System State</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 279pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="465">
-      <p class="TableCells">Optional. Select the system state from the list. For 
+      <p class="TableCells">Required. Select the system state from the list. For 
       example, the user may choose to modify an existing system by adding items 
       from this requisition or use this requisition to start a new 
   system.</p></td></tr>
@@ -126,8 +126,14 @@ OBJECT LEVELS parameters.</p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="163">
       <p class="TableCells">Capital Asset System Type</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 279pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="465">
-      <p class="TableCells">Optional. Select the type of system that the capital 
+      <p class="TableCells">Required. Select the type of system that the capital 
       asset belongs to.</p></td></tr></tbody></table>
+<p class="MsoBodyText"> </p>
+<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
+<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image597_3.png" />          
+Valid combinations of Capital Asset System State and Capital Asset System Type 
+are controlled by the Captial Asset System Type table Allowed Capital Asset 
+System State Codes field.</p></div>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">When there are qualifying items on the requisition, 
 clicking the <strong><span style="FONT-FAMILY: Roboto">Select</span></strong> 
@@ -135,9 +141,9 @@ button in the <strong><span style="FONT-FAMILY: Roboto">Action</span></strong>
 field displays a <strong><span style="FONT-FAMILY: Roboto">Capital Asset 
 Items</span></strong> section in the <strong><span style="FONT-FAMILY: Roboto">Capital Asset</span></strong> tab. Only qualifying 
 items appear here, and there may be multiple items. To qualify, each item's 
-total amount must exceed the institution's capital asset threshold (e.g., 5000) 
-and the object code used in the accounting line must be a capital asset object 
-code.</p>
+total amount must exceed the institution's capital asset threshold defined in 
+parameter CAPITALIZATION_LIMIT_AMOUNT and the object code used in the accounting 
+line must be a capital asset object code.</p>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">Initially the items are listed in this section with the 
 detail fields hidden. Clicking the <strong><span style="FONT-FAMILY: Roboto">Show</span></strong> button expands the display to 
