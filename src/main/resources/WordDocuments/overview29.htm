@@ -89,17 +89,17 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="labordistribution.htm">Labor Distribution</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="labordistributionbat.htm">Labor Distribution Batch Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="laborscrubberjob.htm">laborScrubberJob</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="laborledgerdemergerp.htm">Labor Ledger Demerger Process</a></div>
 <h5>Overview</h5>
 <p class="MsoBodyText">The Labor Demerger process is part of the laborScrubberJob 
-that is initiated after the entries are validated and prior to the Labor <a onclick="return d2hpopup(event, this.href)" id="popup_425162" href="gloss_poster.htm">Poster</a>. It serves a similar purpose to the GL 
+that is initiated after the entries are validated and prior to the Labor <a onclick="return d2hpopup(event, this.href)" id="popup_440199" href="gloss_poster.htm">Poster</a>. It serves a similar purpose to the GL 
 Demerger.</p>
 <p class="MsoBodyText"> </p>
-<p class="MsoBodyText">Using the errors identified by the labor <a onclick="return d2hpopup(event, this.href)" id="popup_425161" href="gloss_scrubber.htm">scrubber</a>, it locates all of the accounting entries 
+<p class="MsoBodyText">Using the errors identified by the labor <a onclick="return d2hpopup(event, this.href)" id="popup_440198" href="gloss_scrubber.htm">scrubber</a>, it locates all of the accounting entries 
 for each document number with a reported error and removes these transactions 
-from processing. This prevents <a onclick="return d2hpopup(event, this.href)" id="popup_425163" href="gloss_kuali.htm">Kuali</a> Financials from posting 
-unbalanced transactions to the <a onclick="return d2hpopup(event, this.href)" id="popup_425160" href="gloss_laborledger.htm">Labor Ledger</a>. Note that the 
+from processing. This prevents <a onclick="return d2hpopup(event, this.href)" id="popup_440200" href="gloss_kuali.htm">Kuali</a> Financials from posting 
+unbalanced transactions to the <a onclick="return d2hpopup(event, this.href)" id="popup_440197" href="gloss_laborledger.htm">Labor Ledger</a>. Note that the 
 Demerger will pull additional entries only for document types of ST (salary 
 expense transfer) and BT (benefit expense transfer) per parameter 
 DEMERGE_DOCUMENT_TYPES. This differs from the General Ledger Demerger where 
-entries are pulled regardless of <a onclick="return d2hpopup(event, this.href)" id="popup_425159" href="gloss_documenttype.htm">document type</a>. </p>
+entries are pulled regardless of <a onclick="return d2hpopup(event, this.href)" id="popup_440196" href="gloss_documenttype.htm">document type</a>. </p>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">The process creates a scrberr2 file in the origin entry 
 directory with all of the transactions for document numbers with errors (this is 

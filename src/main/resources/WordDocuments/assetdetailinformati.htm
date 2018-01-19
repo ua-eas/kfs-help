@@ -92,13 +92,6 @@ Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d
 Layout</a></div>
 <h6>Asset Detail Information Tab</h6>
 <p class="MsoNormal"> </p>
-<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
-<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><b><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image556_1.png" />           
-</b>Asset condition is not displayed for users assigned to the <a onclick="return d2hpopup(event, this.href)" id="popup_432882" href="gloss_role.htm">role</a> of KFS-CAM Processor. Also, the Organization 
-Owner Chart of Accounts Code, Organization Owner Account Number, and In-Service 
-Date fields are editable only for users assigned to the role of KFS-SYS Asset 
-Manager and KFS-Sys Plan Fund Accountant. </p></div>
-<p class="MsoNormal"> </p>
 <p class="TableHeading">Asset Detail Information tab field definitions</p>
 <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="765" border="0">
   <tbody>
@@ -124,8 +117,10 @@ Manager and KFS-Sys Plan Fund Accountant. </p></div>
       <p class="TableCells">Asset Condition</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 351pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="585">
       <p class="TableCells">Select the condition of the asset from the list (for 
-      example, Excellent, Good, Fair, and Poor). For the KFS-CAMS Processor 
-      role, this field is not displayed.</p></td></tr>
+      example, Excellent, Good, Fair, and Poor). For the KFS-CAMS Processor <a onclick="return d2hpopup(event, this.href)" id="popup_441400" href="gloss_role.htm">role</a>, this field is not displayed.</p>
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><b><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image556_1.png" />    </b>Permissions 
+      control view and edit access to this field.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
       <p class="TableCells">Asset Number</p></td>
@@ -155,7 +150,7 @@ Manager and KFS-Sys Plan Fund Accountant. </p></div>
       Correction is picked up by CAB.</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
-      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_432880" href="gloss_depreciation.htm">Depreciation</a> Date</p></td>
+      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_441398" href="gloss_depreciation.htm">Depreciation</a> Date</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 351pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="585">
       <p class="TableCells">Display-only. The date on which the asset depreciation 
       begins. When the in-service date is changed, the depreciation date is 
@@ -176,7 +171,9 @@ Manager and KFS-Sys Plan Fund Accountant. </p></div>
       <p class="TableCells">Federal Contribution</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 351pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="585">
       <p class="TableCells">Display-only. The amount the federal government has 
-      contributed towards the acquisition of the asset.</p></td></tr>
+      contributed towards the acquisition of the asset. </p>
+      <p class="TableCells">Parameter FEDERAL_CONTRIBUTIONS_OBJECT_SUB_TYPES 
+      determines which payments make up this amount. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
       <p class="TableCells">Financial Object Subtype Code</p></td>
@@ -193,7 +190,7 @@ Manager and KFS-Sys Plan Fund Accountant. </p></div>
       following roles may update this field: KFS-SYS Asset Manager, KFS-SYS 
       Plant Fund Accountant.</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180"><a onclick="return d2hpopup(event, this.href)" id="popup_432881" href="gloss_fiscalyear.htm">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180"><a onclick="return d2hpopup(event, this.href)" id="popup_441399" href="gloss_fiscalyear.htm">
       <p class="TableCells">Fiscal Year</p>
       <p class="TableCells"></p></a> </td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 351pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="585">
@@ -243,7 +240,10 @@ Manager and KFS-Sys Plan Fund Accountant. </p></div>
       <p class="TableCells">Old Tag Number</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 351pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="585">
       <p class="TableCells">Enter the identification number (if any) previously 
-      affixed to the asset.</p></td></tr>
+      affixed to the asset. </p>
+      <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><b><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image556_1.png" />    </b>Permissions 
+      control view and edit access to this field.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
       <p class="TableCells">Organization Owner Account Number</p></td>

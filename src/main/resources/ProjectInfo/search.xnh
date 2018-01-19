@@ -447,6 +447,13 @@
         <topic url="WordDocuments/asset.htm" window="right" />
         <topic url="WordDocuments/assetlookup.htm" window="right" />
         <topic url="WordDocuments/assetlookupresults.htm" window="right" />
+        <topic url="WordDocuments/assetinquiry.htm" window="right" />
+        <topic url="WordDocuments/documentlayout279.htm" window="right" />
+        <topic url="WordDocuments/paymentssummarytab.htm" window="right" />
+        <topic url="WordDocuments/viewassetmergehistor.htm" window="right" />
+        <topic url="WordDocuments/viewassetseparatehis2.htm" window="right" />
+        <topic url="WordDocuments/viewretirementinform.htm" window="right" />
+        <topic url="WordDocuments/viewequipmentloaninf.htm" window="right" />
         <topic url="WordDocuments/editasset.htm" window="right" />
         <topic url="WordDocuments/documentlayout48.htm" window="right" />
         <topic url="WordDocuments/assetdetailinformati.htm" window="right" />
@@ -464,7 +471,6 @@
         <topic url="WordDocuments/processoverview13.htm" window="right" />
         <topic url="WordDocuments/businessrules17.htm" window="right" />
         <topic url="WordDocuments/routing11.htm" window="right" />
-        <topic url="WordDocuments/permissions.htm" window="right" />
         <topic url="WordDocuments/equipmentloan.htm" window="right" />
         <topic url="WordDocuments/documentlayout49.htm" window="right" />
         <topic url="WordDocuments/assettab.htm" window="right" />
@@ -483,8 +489,6 @@
         <topic url="WordDocuments/processoverview16.htm" window="right" />
         <topic url="WordDocuments/businessrules23.htm" window="right" />
         <topic url="WordDocuments/routing14.htm" window="right" />
-        <topic url="WordDocuments/permissions1.htm" window="right" />
-        <topic url="WordDocuments/example9.htm" window="right" />
         <topic url="WordDocuments/equipmentmerge.htm" window="right" />
         <topic url="WordDocuments/documentlayout53.htm" window="right" />
         <topic url="WordDocuments/targetassetinformati.htm" window="right" />
@@ -493,8 +497,6 @@
         <topic url="WordDocuments/processoverview17.htm" window="right" />
         <topic url="WordDocuments/businessrules24.htm" window="right" />
         <topic url="WordDocuments/routing15.htm" window="right" />
-        <topic url="WordDocuments/permissions2.htm" window="right" />
-        <topic url="WordDocuments/example10.htm" window="right" />
         <topic url="WordDocuments/separateassets.htm" window="right" />
         <topic url="WordDocuments/documentlayout54.htm" window="right" />
         <topic url="WordDocuments/assetacquisitiontype.htm" window="right" />
@@ -505,8 +507,6 @@
         <topic url="WordDocuments/recalculatetotalamou.htm" window="right" />
         <topic url="WordDocuments/processoverview18.htm" window="right" />
         <topic url="WordDocuments/businessrules25.htm" window="right" />
-        <topic url="WordDocuments/permissions3.htm" window="right" />
-        <topic url="WordDocuments/example11.htm" window="right" />
         <topic url="WordDocuments/transferasset.htm" window="right" />
         <topic url="WordDocuments/documentlayout55.htm" window="right" />
         <topic url="WordDocuments/assettransferinforma.htm" window="right" />
@@ -515,16 +515,6 @@
         <topic url="WordDocuments/processoverview19.htm" window="right" />
         <topic url="WordDocuments/businessrules26.htm" window="right" />
         <topic url="WordDocuments/routing16.htm" window="right" />
-        <topic url="WordDocuments/permissions4.htm" window="right" />
-        <topic url="WordDocuments/example12.htm" window="right" />
-        <topic url="WordDocuments/viewasset.htm" window="right" />
-        <topic url="WordDocuments/documentlayout56.htm" window="right" />
-        <topic url="WordDocuments/viewassetmergehistor.htm" window="right" />
-        <topic url="WordDocuments/viewassetseparatehis1.htm" window="right" />
-        <topic url="WordDocuments/viewretirementinform.htm" window="right" />
-        <topic url="WordDocuments/viewequipmentloaninf.htm" window="right" />
-        <topic url="WordDocuments/paymentssummarytab.htm" window="right" />
-        <topic url="WordDocuments/example13.htm" window="right" />
         <topic url="WordDocuments/assetfabrication.htm" window="right" />
         <topic url="WordDocuments/documentlayout57.htm" window="right" />
         <topic url="WordDocuments/assetdetailinformati3.htm" window="right" />
@@ -554,9 +544,18 @@
         <topic url="WordDocuments/addinganassettotheed.htm" window="right" />
         <topic url="WordDocuments/processoverview23.htm" window="right" />
         <topic url="WordDocuments/businessrules29.htm" window="right" />
-        <topic url="WordDocuments/permissions5.htm" window="right" />
         <topic url="WordDocuments/assetmanualpayment.htm" window="right" />
-        <topic url="WordDocuments/businessrules30.htm" window="right" />
+        <topic url="WordDocuments/documentlayout280.htm" window="right" />
+        <topic url="WordDocuments/assetallocationtab.htm" window="right" />
+        <topic url="WordDocuments/assetstab.htm" window="right" />
+        <topic url="WordDocuments/assetinformationsect.htm" window="right" />
+        <topic url="WordDocuments/processedpaymentssec.htm" window="right" />
+        <topic url="WordDocuments/paymentslookuptab1.htm" window="right" />
+        <topic url="WordDocuments/inprocesspaymentssec.htm" window="right" />
+        <topic url="WordDocuments/accountinglinestab2.htm" window="right" />
+        <topic url="WordDocuments/inprocesspaymentsbya1.htm" window="right" />
+        <topic url="WordDocuments/processoverview81.htm" window="right" />
+        <topic url="WordDocuments/businessrules99.htm" window="right" />
         <topic url="WordDocuments/assetretirementgloba.htm" window="right" />
         <topic url="WordDocuments/assetretirementreaso.htm" window="right" />
         <topic url="WordDocuments/documentlayout60.htm" window="right" />
@@ -606,7 +605,6 @@
         <topic url="WordDocuments/processoverview27.htm" window="right" />
         <topic url="WordDocuments/businessrules35.htm" window="right" />
         <topic url="WordDocuments/routing22.htm" window="right" />
-        <topic url="WordDocuments/permissions6.htm" window="right" />
         <topic url="WordDocuments/allocatingcharges.htm" window="right" />
         <topic url="WordDocuments/addingassetinformati.htm" window="right" />
         <topic url="WordDocuments/mergingmultipleitems.htm" window="right" />
@@ -624,21 +622,8 @@
         <topic url="WordDocuments/documentlayout69.htm" window="right" />
         <topic url="WordDocuments/assetobjectcode.htm" window="right" />
         <topic url="WordDocuments/documentlayout70.htm" window="right" />
-        <topic url="WordDocuments/assetpayment.htm" window="right" />
-        <topic url="WordDocuments/assetpaymentlookup.htm" window="right" />
+        <topic url="WordDocuments/assetpaymentlookup1.htm" window="right" />
         <topic url="WordDocuments/assetpaymentlookupre.htm" window="right" />
-        <topic url="WordDocuments/enterpayment.htm" window="right" />
-        <topic url="WordDocuments/documentlayout71.htm" window="right" />
-        <topic url="WordDocuments/assetallocationtab.htm" window="right" />
-        <topic url="WordDocuments/assetstab.htm" window="right" />
-        <topic url="WordDocuments/assetinformationsect.htm" window="right" />
-        <topic url="WordDocuments/processedpaymentssec.htm" window="right" />
-        <topic url="WordDocuments/paymentslookuptab1.htm" window="right" />
-        <topic url="WordDocuments/accountinglinestab2.htm" window="right" />
-        <topic url="WordDocuments/processoverview28.htm" window="right" />
-        <topic url="WordDocuments/businessrules36.htm" window="right" />
-        <topic url="WordDocuments/routing23.htm" window="right" />
-        <topic url="WordDocuments/example18.htm" window="right" />
         <topic url="WordDocuments/assetpaymentdocument.htm" window="right" />
         <topic url="WordDocuments/documentlayout72.htm" window="right" />
         <topic url="WordDocuments/assetretirementreaso1.htm" window="right" />
@@ -1905,6 +1890,7 @@
         <topic url="WordDocuments/addingnewmenuitems.htm" window="right" />
         <topic url="WordDocuments/removingmenuitems1.htm" window="right" />
         <topic url="WordDocuments/savingnavigationconf.htm" window="right" />
+        <topic url="WordDocuments/myfavorites.htm" window="right" />
         <topic url="WordDocuments/configuringnonproduc.htm" window="right" />
         <topic url="WordDocuments/sidebarmenucacheconf.htm" window="right" />
         <topic url="WordDocuments/kualiidentitymanagem.htm" window="right" />
@@ -2137,6 +2123,7 @@
         <topic url="WordDocuments/w8ownershiptypestab.htm" window="right" />
         <topic url="WordDocuments/vendorbatchprocess.htm" window="right" />
         <topic url="WordDocuments/vendorbatchuploadfun.htm" window="right" />
+        <topic url="WordDocuments/vendortaxlookup.htm" window="right" />
         <topic url="WordDocuments/glossaryofterms.htm" window="right" />
         <topic url="WordDocuments/gloss_accountmanager.htm" window="d2hWnd_SecondaryPopup" />
         <topic url="WordDocuments/gloss_accountsupervisor.htm" window="d2hWnd_SecondaryPopup" />

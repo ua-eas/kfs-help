@@ -124,7 +124,7 @@
                 <topic url="WordDocuments/businessrules53.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules28.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules29.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/businessrules36.htm" window="right"><![CDATA[Business Rules]]></topic>
+                <topic url="WordDocuments/businessrules99.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules31.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules26.htm" window="right"><![CDATA[Business Rules]]></topic>
                 <topic url="WordDocuments/businessrules54.htm" window="right"><![CDATA[Business Rules]]></topic>
@@ -706,7 +706,6 @@
             <topics>
                 <topic url="WordDocuments/example21.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example14.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example18.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example15.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example22.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example.htm" window="right"><![CDATA[Example]]></topic>
@@ -723,7 +722,6 @@
                 <topic url="WordDocuments/example27.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example19.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example20.htm" window="right"><![CDATA[Example]]></topic>
-                <topic url="WordDocuments/example9.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example7.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example28.htm" window="right"><![CDATA[Example]]></topic>
                 <topic url="WordDocuments/example29.htm" window="right"><![CDATA[Example]]></topic>
@@ -746,7 +744,6 @@
                 <topic url="WordDocuments/routing11.htm" window="right"><![CDATA[Routing]]></topic>
                 <topic url="WordDocuments/routing17.htm" window="right"><![CDATA[Routing]]></topic>
                 <topic url="WordDocuments/routing18.htm" window="right"><![CDATA[Routing]]></topic>
-                <topic url="WordDocuments/routing23.htm" window="right"><![CDATA[Routing]]></topic>
                 <topic url="WordDocuments/routing15.htm" window="right"><![CDATA[Routing]]></topic>
                 <topic url="WordDocuments/routing19.htm" window="right"><![CDATA[Routing]]></topic>
                 <topic url="WordDocuments/routing16.htm" window="right"><![CDATA[Routing]]></topic>
@@ -996,17 +993,6 @@
                 <topic url="WordDocuments/paymentstab.htm" window="right"><![CDATA[Payments Tab]]></topic>
             </topics>
         </keyword>
-        <keyword name="permissions">
-            <topics>
-                <topic url="WordDocuments/permissions.htm" window="right"><![CDATA[Permissions]]></topic>
-                <topic url="WordDocuments/permissions5.htm" window="right"><![CDATA[Permissions]]></topic>
-                <topic url="WordDocuments/permissions2.htm" window="right"><![CDATA[Permissions]]></topic>
-                <topic url="WordDocuments/permissions3.htm" window="right"><![CDATA[Permissions]]></topic>
-                <topic url="WordDocuments/permissions4.htm" window="right"><![CDATA[Permissions]]></topic>
-                <topic url="WordDocuments/permissions6.htm" window="right"><![CDATA[Permissions]]></topic>
-                <topic url="WordDocuments/permissions1.htm" window="right"><![CDATA[Permissions]]></topic>
-            </topics>
-        </keyword>
         <keyword name="related document lookup tab">
             <topics>
                 <topic url="WordDocuments/lookuprelatedcapital.htm" window="right"><![CDATA[Lookup Related Capital Asset Documents Tab]]></topic>
@@ -1080,8 +1066,8 @@
         </keyword>
         <keyword name="asset inquiry">
             <topics>
-                <topic url="WordDocuments/viewasset.htm" window="right"><![CDATA[View Asset]]></topic>
-                <topic url="WordDocuments/viewasset.htm" window="right"><![CDATA[View Asset]]></topic>
+                <topic url="WordDocuments/assetinquiry.htm" window="right"><![CDATA[Asset Inquiry]]></topic>
+                <topic url="WordDocuments/assetinquiry.htm" window="right"><![CDATA[Asset Inquiry]]></topic>
             </topics>
         </keyword>
         <keyword name="view asset merge history tab">
@@ -1091,7 +1077,7 @@
         </keyword>
         <keyword name="view asset separate history tab ">
             <topics>
-                <topic url="WordDocuments/viewassetseparatehis1.htm" window="right"><![CDATA[View Asset Separate History Tab]]></topic>
+                <topic url="WordDocuments/viewassetseparatehis2.htm" window="right"><![CDATA[View Asset Separate History Tab]]></topic>
             </topics>
         </keyword>
         <keyword name="view retirement information tab">
@@ -1161,9 +1147,8 @@
         </keyword>
         <keyword name="asset payment lookup">
             <topics>
-                <topic url="WordDocuments/assetpayment.htm" window="right"><![CDATA[Asset Payment]]></topic>
-                <topic url="WordDocuments/assetpaymentlookup.htm" window="right"><![CDATA[Asset Payment Lookup]]></topic>
-                <topic url="WordDocuments/assetpayment.htm" window="right"><![CDATA[Asset Payment]]></topic>
+                <topic url="WordDocuments/assetpaymentlookup1.htm" window="right"><![CDATA[Asset Payment Lookup]]></topic>
+                <topic url="WordDocuments/assetpaymentlookup1.htm" window="right"><![CDATA[Asset Payment Lookup]]></topic>
             </topics>
         </keyword>
         <keyword name="lookup results table">
@@ -1173,13 +1158,17 @@
         </keyword>
         <keyword name="asset payments document">
             <topics>
-                <topic url="WordDocuments/businessrules36.htm" window="right"><![CDATA[Business Rules]]></topic>
-                <topic url="WordDocuments/enterpayment.htm" window="right"><![CDATA[Enter Payment]]></topic>
+                <topic url="WordDocuments/businessrules99.htm" window="right"><![CDATA[Business Rules]]></topic>
             </topics>
         </keyword>
         <keyword name="assets tab">
             <topics>
                 <topic url="WordDocuments/assetstab.htm" window="right"><![CDATA[Assets Tab]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="in process payments section">
+            <topics>
+                <topic url="WordDocuments/inprocesspaymentssec.htm" window="right"><![CDATA[In Process Payments section]]></topic>
             </topics>
         </keyword>
         <keyword name="processed payments section">
@@ -2198,16 +2187,6 @@
         <keyword name="asset location global">
             <topics>
                 <topic url="WordDocuments/assetlocationglobal.htm" window="right"><![CDATA[Asset Location Global]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="asset manual payment">
-            <topics>
-                <topic url="WordDocuments/assetmanualpayment.htm" window="right"><![CDATA[Asset Manual Payment]]></topic>
-            </topics>
-        </keyword>
-        <keyword name="asset payment option">
-            <topics>
-                <topic url="WordDocuments/assetpayment.htm" window="right"><![CDATA[Asset Payment]]></topic>
             </topics>
         </keyword>
         <keyword name="equipment loan renewal">
