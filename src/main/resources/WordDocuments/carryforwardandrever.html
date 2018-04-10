@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Carry Forward and Reversion Example</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.758" />
+<meta name="D2HTheme" content="(Default) v.155" />
+</head>
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="files.html"></a><a id="D2HNextAnchor" href="posterbalancingjob.html"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger.html">General Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerbatchpr.html">General Ledger Batch Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="organizationreversio5.html">organizationReversionJobs</a></div>
+<h4>Carry Forward and Reversion Example</h4>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">At the <a onclick="return d2hpopup(event, this.href)" id="popup_473143" href="gloss_fiscalyear.html">fiscal year</a>-end, the 
+Ichthyology Department (Org Code ICH) has an account 1234567 in chart BL. The 
+cash object code in the account's Chart of Accounts is 8000. The Organization 
+Reversion table for the department specifies that its</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>budget reversion account is 1023295.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>cash 
+reversion account is 1023299.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span></p>
+<p class="MsoBodyText">Reversion codes (rules) and carry forward object codes are 
+shown in the carry forward and reversion actions summarized in the following 
+table. </p>
+<p class="MsoBodyText"> </p>
+<p class="TableHeading">Carry forward/reversion actions (example)</p>
+<table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="780" border="0">
+  <tbody>
+  <tr>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="163">
+      <p class="TableCells">Category</p></td>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">Object Code</p></td>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">Rule</p></td>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">Budget Amt</p></td>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">Actual Amt</p></td>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">Budget Balance</p></td>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">Encumb- rances</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" rowspan="2" width="163">
+      <p class="TableCells">Org Wages</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">3000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">N2</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">6000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">5000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">1000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">100</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 284.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="475" colspan="6">
+      <p class="TableCells">Action: <a onclick="return d2hpopup(event, this.href)" id="popup_473144" href="gloss_encumbrance.html">Encumbrance</a> not covered; 
+      1000 reverted to 1023295</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" rowspan="2" width="163">
+      <p class="TableCells">Salary /Fringes</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">2004</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">R2</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">20000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">18000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">2000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">200</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 284.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="475" colspan="6">
+      <p class="TableCells">Action: Encumbrance not covered; 2000 reverted to 
+      1023295</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" rowspan="2" width="163">
+      <p class="TableCells">Financial Aid</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">5800</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">N1</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">3000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">4000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">-1000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">500</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 284.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="475" colspan="6">
+      <p class="TableCells">Action: Encumbrance not covered (- budget balance); 
+      -1000 carried forward to 1234567</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" rowspan="2" width="163">
+      <p class="TableCells">Capital Equipment</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">7000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">N1</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">1000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">800</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">200</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">300</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 284.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="475" colspan="6">
+      <p class="TableCells">Action: 200 carried forward to 1234567 to cover part 
+      of encumbrance</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" rowspan="2" width="163">
+      <p class="TableCells">Reserve</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">7900</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">N1</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">1000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">500</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">500</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">400</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 284.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="475" colspan="6">
+      <p class="TableCells">Action: 400 carried forward to 1234567 to cover 
+      encumbrance; 100 reverted to 1023295 for positive balance</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" rowspan="2" width="163">
+      <p class="TableCells">Transfer Out</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">5199</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">R2</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">500</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">500</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">0</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">200</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 284.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="475" colspan="6">
+      <p class="TableCells">Action: Encumbrance not covered; nothing reverted; 
+      nothing carried forward</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" rowspan="2" width="163">
+      <p class="TableCells">Transfer In (income)</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">1699</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">R2</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">300</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">500</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">200</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">300</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 284.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="475" colspan="6">
+      <p class="TableCells">Action: Encumbrance not covered; 200 reverted to 
+      1023295</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" rowspan="2" width="163">
+      <p class="TableCells">Travel</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">6000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">N1</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">1000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">900</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">100</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">100</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 284.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="475" colspan="6">
+      <p class="TableCells">Action: 100 carried forward to 1234567 to cover 
+      encumbrance; nothing else remains to revert or carry forward</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" rowspan="2" width="163">
+      <p class="TableCells">Other Expense</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">5000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">N1</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">500</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">500</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">0</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">200</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 284.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="475" colspan="6">
+      <p class="TableCells">Action: Encumbrance not covered (0 budget balance); 
+      nothing reverted; nothing carried forward.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" rowspan="2" width="163">
+      <p class="TableCells">Assess Expend</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">7900</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">C1</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">400</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">250</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">150</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">100</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 284.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="475" colspan="6">
+      <p class="TableCells">Action: 100 carried forward to 1234567 to cover 
+      encumbrance; 50 carried forward to 1234567 from positive balance; nothing 
+      reverted</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" rowspan="2" width="163">
+      <p class="TableCells">Revenue (income)</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">1800</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">N2</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">1200</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">1000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">-200</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">800</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 284.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="475" colspan="6">
+      <p class="TableCells">Action: Encumbrance not covered (- budget balance); 
+      -200 carried forward to 1234567</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 97.55pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" rowspan="2" width="163">
+      <p class="TableCells">Cash</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">8000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">n/a</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">10000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="75">
+      <p class="TableCells">4000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 50.95pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="85">
+      <p class="TableCells">6000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 54pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="90">
+      <p class="TableCells">n/a</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 284.95pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="475" colspan="6">
+      <p class="TableCells">Action: 6000 reverted to 
+1023299</p></td></tr></tbody></table>
+<p class="MsoBodyText"><a name="_Ref228853632" id="_Ref228853632"></a><a name="_Ref228853654" id="_Ref228853654"></a> </p>
+<p class="MsoBodyText">Note that the object code for each category is used only if 
+the Carry Forward by Object Code attribute of the Organization Reversion table 
+is set to Yes. The Transactions Generated table (see below) illustrates both 
+sets of results—one set when the Carry Forward by Object Code Indicator is Yes 
+and another set when it is No).</p>
+<p class="MsoBodyText"> </p>
+<p class="TableHeading">Transactions generated (example)</p>
+<table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 0.35pt" cellspacing="0" cellpadding="0" width="780" border="0">
+  <tbody>
+  <tr>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Transaction</p></td>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Account</p></td>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">CF by Obj/<br />Category</p></td>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Account</p></td>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">Object Code</p></td>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">Amount</p></td>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells">DrCr</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Reversion</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Any</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">7900</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">-3300</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Reversion</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Reversion</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Any</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1023295</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">7900</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">3300</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">No Consoli-<br />dated</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">0110</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">-350</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">No Consoli-<br />dated</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">7900</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">-350</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p>
+      <p class="TableCells">Fin Aid</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">0110</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">-1000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p>
+      <p class="TableCells">Fin Aid</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">5800</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">-1000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p>
+      <p class="TableCells">Cap Equip</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">0110</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">200</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p>
+      <p class="TableCells">Cap Equip</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">7000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">200</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p>
+      <p class="TableCells">Reserve</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">0110</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">400</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p>
+      <p class="TableCells">Reserve</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">7900</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">400</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p>
+      <p class="TableCells">Travel</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">0110</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">100</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p>
+      <p class="TableCells">Travel</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">6000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">100</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p>
+      <p class="TableCells">Assess Expend</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">0110</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">150</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p>
+      <p class="TableCells">Assess Expend</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">7900</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">150</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p>
+      <p class="TableCells">Revenue</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">0110</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">-200</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Budget Carry Forward</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p>
+      <p class="TableCells">Revenue</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">1800</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">-200</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Cash Reversion</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">8000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">6000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells">Cr</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Cash Reversion</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Reversion</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1023299</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">8000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">6000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells">Dr</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Fund Balance Reversion</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Actual</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1234567</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">9899</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">6000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells">Dr</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 90.35pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="151">
+      <p class="TableCells">Fund Balance Reversion</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Reversion</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 69.2pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="115">
+      <p class="TableCells">1023299</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 57.65pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="96">
+      <p class="TableCells">9899</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 71.05pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="118">
+      <p class="TableCells">6000</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.8pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 5.75pt; PADDING-TOP: 5.75pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.75pt" valign="top" width="93">
+      <p class="TableCells">Cr</p></td></tr></tbody></table>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="normal"><a style="TEXT-DECORATION: none" href="posterbalancingjob.html"><img border="0" alt="" src="../button.gif" align="absMiddle" />posterBalancingJob</a></p></span></div></div></body></html>

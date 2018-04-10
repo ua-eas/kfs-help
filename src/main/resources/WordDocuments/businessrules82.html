@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Business Rules</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.758" />
+<meta name="D2HTheme" content="(Default) v.155" />
+</head>
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview65.html"></a><a id="D2HNextAnchor" href="yearendpostbackrules.html"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspa1.html">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspa3.html">Purchasing / Accounts Payable Transaction 
+Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="paymentrequest.html">Payment Request</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview65.html">Process Overview</a></div>
+<h5>Business Rules</h5>
+<p class="Definition"> </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Every 
+payment request must be processed against a specific open PO document. This PO 
+must be specified when the payment request is initiated.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the vendor number and invoice number match values previously processed, a 
+warning notifies the initiator of the potential duplicate. Even so, the system 
+allows the initiator to override the warning and continue.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the invoice amount and invoice date match values previously processed for this 
+vendor, a warning notifies the initiator of the potential duplicate. Even so, 
+the system allows the initiator to override the warning and continue.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Fiscal Officers are warned when a PREQ contains one or more expired 
+accounts that were not replaced by a continuation account. The <a onclick="return d2hpopup(event, this.href)" id="popup_473853" href="gloss_fiscalofficer.html">Fiscal Officer</a> has the option to either 
+check the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Expired 
+Account Override</span></strong> box or change the account. AP users are not 
+warned about expired accounts that are not replaced by a continuation 
+account.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Based 
+on the setting of the SHOW_CONTINUATION_ACCOUNT_WARNING_AP_USERS_IND parameter, 
+AP users and Fiscal Officers are warned when one or more expired or closed 
+accounts on a PREQ are replaced by a continuation account. When the parameter 
+value is Y, a warning is presented. When an expired account is replaced by a 
+continuation account, the accounting line shows the current accounts being used 
+and includes a note indicating that the expired/closed account has been added to 
+the PREQ. Users can refer to either the notes or the original PO to see the 
+original accounts.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Pay 
+Date may not be a past date. If the pay date is more than 60 days in the future, 
+a warning is received.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Discounts applied from payment terms do not apply to freight or shipping 
+and handling charges.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Additional charges items that were not specifically funded on the 
+purchase order are allocated to accounting lines in proportion to the item 
+amounts on the purchase order.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Calculate</span></strong> button 
+must be pressed prior to submitting the payment request.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>AP 
+has the ability to close a non-recurring payment PO at the time the PREQ is 
+submitted if they know that the order is complete, using the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Close PO</span></strong> checkbox. 
+There is no validation to require that all lines and/or below-the-line items on 
+the PO are complete. The <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Close PO</span></strong> checkbox is 
+available only on non-recurring payment orders.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+following G/L entries are created when the payment request is submitted.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Debit entry:  The expense 
+accounts (full accounting string) on the payment request are debited in the G/L 
+when the initiator submits the document. The G/L entry is made in summary for 
+each accounting string. Consequently, if three line items on a payment request 
+use the same accounting string, only one debit (not three) is created in the G/L 
+for that accounting string.)</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Credit entry: One offset to 
+object code 9041 is created for each account/sub-account combination on a 
+payment request.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>During fiscal officer approval routing of the PREQ, the fiscal 
+officer/PREQ delegate may edit the accounts/sub-account/object codes and 
+amounts. The existing account string is reversed. The new account string debits 
+the expense and credits object code 9041,the liability offset.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
+being canceled, the G/L entries are reversed, any <a onclick="return d2hpopup(event, this.href)" id="popup_473852" href="gloss_disencumbrance.html">disencumbrance</a> created from AP submission 
+of the payment request is reversed, and the PO open quantities that were 
+decremented from the creation of the payment request are increased. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
+AP users may cancel a Payment Request document, and they may do so only if it 
+has not yet been extracted. AP Users may cancel a PREQ with or without a request 
+cancel if it is in saved or final status and if the PO is not closed. AP 
+Managers may cancel a PREQ when it is in enroute status. AP Processors may not 
+cancel a PREQ in enroute status if there is no request cancel on the doc, but 
+they may put the PREQ on hold.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
+AP users may modify a payment request's pay date, attachment flag, special 
+handling instructions, immediate pay flag, check stub notes and bank code. This 
+action may be taken at any point following AP submit and preceding extract to 
+PDP.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Payment request searches are available to all users.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A 
+payment request that is held or has a pending request cancel does not continue 
+through workflow routing and cannot be paid until the hold or request cancel is 
+removed.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+payment requests total less than the threshold established by the institution 
+and do not have any accounts requiring positive approval, they may be 
+automatically approved.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
+being extracted, a payment request cannot be put on hold.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A 
+payment request is extracted for payment if the following conditions are 
+met:</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The PREQ is 
+department-approved or auto-approved.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The Pay Date is today or a 
+prior date or immediate pay is indicated and the payment has departmental 
+approval.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The payment is not held.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If the payment request 
+includes accounts that are excluded from auto-approval, it must be 
+department-approved.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+following rules apply for allowable accounts to be charged on a PREQ. These are 
+the same rules used for the PO. The specific codes for these rules may be 
+specified via parameters.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Only expense (EE, ES or EX 
+object types) or asset (AS object type) object codes are allowed. Asset object 
+codes must be in the INV or OASS object level.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes in the 
+consolidations of Compensation (CMPN), Financial Aid (SCHL), Reserves 
+(RSRX) and Assessments Expenditures (ASEX) are not allowed.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes in the 
+levels of <a onclick="return d2hpopup(event, this.href)" id="popup_473854" href="gloss_depreciation.html">Depreciation</a> (DEPR), Indirect Cost Expense 
+(ICOE), Valuations and Adjustments (VADJ) and Taxes (TAX) are not allowed.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes with a 
+sub-type code for Transfers (TN) are allowed.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+the PREQ routes to the Tax Manager for review, the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Income Class</span></strong> field 
+is required and the following rules apply, depending on what is selected:</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Income Class</span></strong> equals 
+Non Reportable, all other fields should be blank.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span><em><span style="FONT-STYLE: normal">For all other income classes</span></em>:</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Foreign 
+Source</span></strong> is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal Tax Percent</span></strong> 
+and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">State Tax 
+Percent</span></strong> must be 0.00. <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Treaty Exempt</span></strong> and 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Gross 
+Up</span></strong> cannot be checked.</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Treaty 
+Exempt</span></strong> is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal Tax Percent 
+</span></strong>and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">State Tax Percent</span></strong> 
+must be 0.00. <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Foreign 
+Source</span></strong> and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Gross Up Payment</span></strong> 
+cannot be checked.</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Exempt Under Other 
+Code</span></strong> is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal Tax Percent 
+</span></strong>and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">State Tax Percent</span></strong> 
+must be 0.00 and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Treaty Exempt</span></strong>, 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Foreign 
+Source</span></strong> and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Gross Up Payment</span></strong> 
+cannot be checked.</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">USAID Per 
+Diem</span></strong> is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Income Class</span></strong> must be 
+Fellowship, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal 
+Tax Percent</span></strong> and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">State Tax Percent</span></strong> 
+must be 0.00 and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Treaty 
+Exempt</span></strong>,<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"> Foreign Source</span></strong>, 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Gross Up Payment 
+</span></strong>and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Exempt Under Other 
+Code</span></strong> cannot be checked.</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Special W-4 
+Amount</span></strong> is completed, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Income Class</span></strong> must be 
+Fellowship, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Exempt 
+Under Other Code</span></strong> must be checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal Tax Percent</span></strong> 
+and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">State Tax 
+Percent</span></strong> must be 0.00 and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Treaty Exempt</span></strong>, 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Foreign 
+Source</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Gross Up Payment</span></strong> and 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">USAID Per 
+Diem</span></strong> cannot be checked.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="normal"><a style="TEXT-DECORATION: none" href="yearendpostbackrules.html"><img border="0" alt="" src="../button.gif" align="absMiddle" />Year End Postback Rules</a></p></span></div></div></body></html>

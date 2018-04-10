@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__173970", [["WordDocuments/assetretirementgloba.html", "right", "Asset Retirement Global"],["WordDocuments/equipmentmerge.html", "right", "Equipment Merge"]]);

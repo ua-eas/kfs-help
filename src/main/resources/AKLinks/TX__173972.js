@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__173972", [["WordDocuments/targetassetinformati.html", "right", "Target Asset Information Tab"],["WordDocuments/targetassetinformati1.html", "right", "Target Asset Information Tab"]]);

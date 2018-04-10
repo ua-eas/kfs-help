@@ -30,13 +30,13 @@ var ALT_OPEN_BOOK_TOPIC = "Open book with topic";
 var ALT_TOPIC = "Topic";
 var TITLE_HOT_SPOT_JUMP = "link";
 var USE_SECTION_508 = "no";
-var g_DefaultURL = "index.html";
+var g_DefaultURL = "default.html";
 var g_TopicMargin = 7;
 var g_BorderMargin = 2;
 
 var g_ScrollNavigator = false;
 
-var d2hDefaultExtension = ".htm";
+var d2hDefaultExtension = ".html";
 
 function dhtml_nonscrolling_resize()
 {
@@ -120,7 +120,7 @@ function d2hSyncTOC(scrollByHorizontal)
 	if (frm)
 	{
 		var doc = getFrameDocument(frm);
-		if (doc && doc.location.href != "_d2hblank.htm")
+		if (doc && doc.location.href != "_d2hblank.html")
 			next = false;
 	}
 	if (next)
@@ -158,7 +158,7 @@ function d2hSwitchPaneChanging(id)
 
 function d2hGetEMailAddress()
 {
-    return "kymber@kuali.co";
+    return "kfs.analysts@kuali.co";
 }
 
 function d2hGetEMailSubjectTemplate()
