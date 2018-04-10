@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Fiscal Year Maker</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML-new.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN Overview Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN Overview Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -19,8 +19,8 @@ var _needIndentation = false;
 
 <script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
 
-<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
-<meta name="D2HTheme" content="(Default) v.153" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.758" />
+<meta name="D2HTheme" content="(Default) v.155" />
 </head>
 <body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
 <script language="javascript" type="text/javascript">
@@ -90,7 +90,7 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </span><a class="d2h_breadcrumbsNormal" href="maintenancedocumentfundamentals.htm">Maintenance Document 
 Fundamentals</a></div>
 <h3>Fiscal Year Maker</h3>
-<p class="MsoBodyText">The <a onclick="return d2hpopup(event, this.href)" id="popup_442119" href="gloss_fiscalyear.htm">Fiscal Year</a> Maker batch job 
+<p class="MsoBodyText">The <a onclick="return d2hpopup(event, this.href)" id="popup_466962" href="gloss_fiscalyear.htm">Fiscal Year</a> Maker batch job 
 copies table values that are specific to a fiscal year into another fiscal year. 
 Generally this job is used to copy values in maintenance tables from the current 
 fiscal year into the next fiscal year to prepare those tables for future use. 
@@ -102,8 +102,8 @@ process:</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 8.5pt; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>KFS-SYS SOURCE_FISCAL_YEAR controls the fiscal year for which the Fiscal 
 Year Maker batch process will copy certain maintenance table data to the next 
-sequential year.<span style="FONT-SIZE: 8.5pt; FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"></span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+sequential year.<span style="FONT-SIZE: 8.5pt"></span></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>KFS-SYS OVERRIDE_TARGET_YEAR_DATA_IND has a Y or N indicator that 
 controls the mode in which the Fiscal Year Makers batch process runs.</p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>N copies values to the new 
@@ -113,39 +113,40 @@ year.</p>
 fiscal year and overwrites any values that already exist in the new year.</p>
 <p class="MsoBodyText">Fiscal Year Maker impacts the following maintenance 
 tables.</p>
-<p class="C1HBullet" style="tab-stops: 36.0pt"><strong><span style="FONT-FAMILY: Roboto">Accounts Receivable tables:</span></strong></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="organizationaccounti.htm">Organization Accounting Default </a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="systeminformation.htm">System Information </a></p>
-<p class="C1HBullet" style="tab-stops: 36.0pt"><strong><span style="FONT-FAMILY: Roboto">Capital Assets tables:</span></strong></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="assetobjectcode.htm">Asset Object Code<span style="DISPLAY: none"> 
+<p class="C1HBullet" style="tab-stops: 36.0pt"><strong>Accounts Receivable 
+tables:</strong></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="organizationaccounti.htm">Organization Accounting Default </a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="systeminformation.htm">System Information </a></p>
+<p class="C1HBullet" style="tab-stops: 36.0pt"><strong>Capital Assets 
+tables:</strong></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="assetobjectcode.htm">Asset Object Code<span style="DISPLAY: none"> 
 </span></a></p>
-<p class="C1HBullet" style="tab-stops: 36.0pt"><strong><span style="FONT-FAMILY: Roboto">Chart of Accounts tables</span></strong>:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="accountingperiod.htm">Accounting Period </a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="indirectcostrecovery1.htm">Indirect Cost Recovery Rate </a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="indirectcostrecovery2.htm">Indirect Cost Recovery Rate Detail </a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="objectcode.htm">Object Code </a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="offsetdefinition.htm">Offset Definition </a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="organizationreversio.htm">Organization Reversion</a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="subobjectcode.htm">Sub-Object Code </a></p>
-<p class="C1HBullet" style="tab-stops: 36.0pt"><strong><span style="FONT-FAMILY: Roboto">Effort Certification tables:</span></strong></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="reportdefinition.htm">Report Definition </a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="reportearnpaygroup.htm">Report Earn Paygroup </a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="reportdefinition.htm">Report Position </a></p>
-<p class="C1HBullet" style="tab-stops: 36.0pt"><strong><span style="FONT-FAMILY: Roboto">Financial Processing tables:</span></strong></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="disbursementvouchert4.htm">Disbursement Voucher Travel Per Diem </a></p>
-<p class="C1HBullet" style="tab-stops: 36.0pt"><strong><span style="FONT-FAMILY: Roboto">Labor Distribution tables:</span></strong></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="laborbenefitscalcula.htm"><span>Labor Benefits 
-Calculation<span></span><span style="mso-bookmark: _Ref144779629"><span style="mso-bookmark: _Ref144779636"><span style="mso-bookmark: _Ref144862184"><span style="COLOR: windowtext"> 
-</span></span></span></span></span></a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="laborobjectcode.htm"><span>Labor Object Code<span></span><span style="mso-bookmark: _Ref144779629"><span style="mso-bookmark: _Ref144779636"><span style="mso-bookmark: _Ref144862184"><span style="COLOR: windowtext"> 
-</span></span></span></span></span></a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="laborobjectcodebenef.htm"><span>Labor Object Code 
-Benefits<span></span><span style="mso-bookmark: _Ref144779629"><span style="mso-bookmark: _Ref144779636"><span style="mso-bookmark: _Ref144862184"><span style="COLOR: windowtext"> 
-</span></span></span></span></span></a></p>
-<p class="C1HBullet" style="tab-stops: 36.0pt"><strong><span style="FONT-FAMILY: Roboto">System tables:</span></strong></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="systemoptions.htm">System Options </a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="universitydate.htm">University Date </a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="wirecharge.htm">Wire Charge </a>Wire Charge</p>
+<p class="C1HBullet" style="tab-stops: 36.0pt"><strong>Chart of Accounts 
+tables</strong>:</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="accountingperiod.htm">Accounting Period </a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="indirectcostrecovery1.htm">Indirect Cost Recovery Rate </a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="indirectcostrecovery2.htm">Indirect Cost Recovery Rate Detail </a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="objectcode.htm">Object Code </a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="offsetdefinition.htm">Offset Definition </a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="organizationreversio.htm">Organization Reversion</a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="subobjectcode.htm">Sub-Object Code </a></p>
+<p class="C1HBullet" style="tab-stops: 36.0pt"><strong>Effort Certification 
+tables:</strong></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="reportdefinition.htm">Report Definition </a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="reportearnpaygroup.htm">Report Earn Paygroup </a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="reportdefinition.htm">Report Position </a></p>
+<p class="C1HBullet" style="tab-stops: 36.0pt"><strong>Financial Processing 
+tables:</strong></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="disbursementvouchert4.htm">Disbursement Voucher Travel Per Diem </a></p>
+<p class="C1HBullet" style="tab-stops: 36.0pt"><strong>Labor Distribution 
+tables:</strong></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="laborbenefitscalcula.htm">Labor Benefits Calculation </a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="laborobjectcode.htm">Labor Object Code </a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="laborobjectcodebenef.htm">Labor Object Code Benefits </a></p>
+<p class="C1HBullet" style="tab-stops: 36.0pt"><strong>System tables:</strong></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="systemoptions.htm">System Options </a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="universitydate.htm">University Date </a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a href="wirecharge.htm">Wire Charge </a>Wire Charge</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="normal"><a style="TEXT-DECORATION: none" href="workflowoverviewandkeyconcepts.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Workflow: Overview and Key 
 Concepts</a></p></span></div></div></body></html>

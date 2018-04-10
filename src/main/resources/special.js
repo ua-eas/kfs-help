@@ -30,7 +30,7 @@ var ALT_OPEN_BOOK_TOPIC = "Open book with topic";
 var ALT_TOPIC = "Topic";
 var TITLE_HOT_SPOT_JUMP = "link";
 var USE_SECTION_508 = "no";
-var g_DefaultURL = "default.htm";
+var g_DefaultURL = "index.html";
 var g_TopicMargin = 7;
 var g_BorderMargin = 2;
 

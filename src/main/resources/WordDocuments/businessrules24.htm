@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML-new.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN CAM Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN CAM Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -19,8 +19,8 @@ var _needIndentation = false;
 
 <script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
 
-<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
-<meta name="D2HTheme" content="(Default) v.153" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.758" />
+<meta name="D2HTheme" content="(Default) v.155" />
 </head>
 <body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
 <script language="javascript" type="text/javascript">
@@ -90,24 +90,24 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="asset.htm">Asset</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="equipmentmerge.htm">Equipment Merge</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview17.htm">Process Overview</a></div>
 <h6>Business Rules</h6>
 <p class="MsoNormal"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-asset(s) in the <strong><span style="FONT-FAMILY: Roboto">Asset Detail 
-Information</span></strong> tab are flagged as retired, with the retirement 
-reason of M (Merged). The system creates a record in the CM_AST_DIST_T table. 
-This table keeps track of the asset number into which the retired asset was 
-merged and the date it was merged.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+asset(s) in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset 
+Detail Information</span></strong> tab are flagged as retired, with the 
+retirement reason of M (Merged). The system creates a record in the 
+CM_AST_DIST_T table. This table keeps track of the asset number into which the 
+retired asset was merged and the date it was merged.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 system moves payments from the retired asset(s) to the asset number in the 
-<strong><span style="FONT-FAMILY: Roboto">Target Asset Information 
-</span></strong>tab and adds offsetting payments to the merged asset. The 
-offsetting payments have a <a onclick="return d2hpopup(event, this.href)" id="popup_441490" href="gloss_documenttype.htm">document type</a> of ARG.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Target Asset 
+Information </span></strong>tab and adds offsetting payments to the merged 
+asset. The offsetting payments have a <a onclick="return d2hpopup(event, this.href)" id="popup_467659" href="gloss_documenttype.htm">document type</a> of ARG.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
 active capital assets can be merged.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
 an asset is retrieved the system checks to see if the asset is locked by another 
 transaction. A Transfer, Retirement, Asset Manual Payment, Financial Document, 
 or pending invoice in CAB will lock an asset. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>All 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>All 
 salvage amounts of the assets being retired are moved to the target asset as 
 well.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">

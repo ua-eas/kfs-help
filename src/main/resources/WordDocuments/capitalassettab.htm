@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Capital Asset Tab</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML-new.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -19,8 +19,8 @@ var _needIndentation = false;
 
 <script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
 
-<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
-<meta name="D2HTheme" content="(Default) v.153" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.758" />
+<meta name="D2HTheme" content="(Default) v.155" />
 </head>
 <body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
 <script language="javascript" type="text/javascript">
@@ -92,11 +92,13 @@ Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">The Capital Asset tab identifies high-value assets that 
 must be accounted for as capital investments. Initially, this tab contains a 
-single section—<strong><span style="FONT-FAMILY: Roboto">System 
-Selection</span></strong>. Whether or not asset information is required on a 
-requisition depends on the CHARTS REQUIRING … parameter. Qualifying items are 
-determined by the CAPITALIZATION LIMIT AMOUNT and PURCHASING ACCOUNTS PAYABLE 
-OBJECT LEVELS parameters.</p>
+single section—<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">System 
+Selection</span></strong>. </p>
+<p class="MsoBodyText" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -18pt; tab-stops: 18.0pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image597_8.png" />    The 
+CAPITALIZATION_LIMIT_AMOUNT, PURCHASING_ACCOUNTS_PAYABLE_OBJECT_LEVELS and 
+PURCHASING_OBJECT_SUB_TYPES parameters determine when asset information is 
+required to be collected in the Capital Asset tab if required by the 
+CHARTS_REQUIRING… parameters.</p>
 <p class="MsoBodyText"> </p>
 <p class="TableHeading">Capital Asset tab field definitions</p>
 <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="780" border="0">
@@ -130,43 +132,48 @@ OBJECT LEVELS parameters.</p>
       asset belongs to.</p></td></tr></tbody></table>
 <p class="MsoBodyText"> </p>
 <div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
-<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image597_3.png" />          
-Valid combinations of Capital Asset System State and Capital Asset System Type 
-are controlled by the Captial Asset System Type table Allowed Capital Asset 
-System State Codes field.</p></div>
+<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image597_3.png" />       Valid 
+combinations of Capital Asset System State and Capital Asset System Type are 
+controlled by the Capital Asset System Type table Allowed Capital Asset System 
+State Codes field.</p></div>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">When there are qualifying items on the requisition, 
-clicking the <strong><span style="FONT-FAMILY: Roboto">Select</span></strong> 
-button in the <strong><span style="FONT-FAMILY: Roboto">Action</span></strong> 
-field displays a <strong><span style="FONT-FAMILY: Roboto">Capital Asset 
-Items</span></strong> section in the <strong><span style="FONT-FAMILY: Roboto">Capital Asset</span></strong> tab. Only qualifying 
-items appear here, and there may be multiple items. To qualify, each item's 
-total amount must exceed the institution's capital asset threshold defined in 
-parameter CAPITALIZATION_LIMIT_AMOUNT and the object code used in the accounting 
-line must be a capital asset object code.</p>
+clicking the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Select</span></strong> button in the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Action</span></strong> 
+field displays a <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Capital Asset Items</span></strong> 
+section in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Capital 
+Asset</span></strong> tab. Only qualifying items appear here, and there may be 
+multiple items. To qualify, each item's total amount must exceed the 
+institution's capital asset threshold defined in parameter 
+CAPITALIZATION_LIMIT_AMOUNT and the object code used in the accounting line must 
+be a capital asset object code as determined by 
+PURCHASING_ACCOUNTS_PAYABLE_OBJECT_LEVELS and PURCHASING_OBJECT_SUB_TYPES.</p>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">Initially the items are listed in this section with the 
-detail fields hidden. Clicking the <strong><span style="FONT-FAMILY: Roboto">Show</span></strong> button expands the display to 
-show the available fields.</p>
+detail fields hidden. Clicking the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Show</span></strong> button expands 
+the display to show the available fields.</p>
 <p class="MsoBodyText"> </p>
-<p class="MsoBodyText">Two new buttons are displayed in the <strong><span style="FONT-FAMILY: Roboto">Action</span></strong> field of the <strong><span style="FONT-FAMILY: Roboto">System Selection</span></strong> 
-section—<strong><span style="FONT-FAMILY: Roboto">Update View</span></strong> 
-and <strong><span style="FONT-FAMILY: Roboto">Change</span></strong>. The 
-<strong><span style="FONT-FAMILY: Roboto">Change</span></strong> button displays 
-a new screen asking, If you continue, the Capital Asset System State, System 
-Type, and all information in the <strong><span style="FONT-FAMILY: Roboto">Capital Asset</span></strong> tab will be cleared. 
-Do you want to continue?<strong><span style="FONT-FAMILY: Roboto">Yes</span></strong> and <strong><span style="FONT-FAMILY: Roboto">No</span></strong> buttons follow. <strong><span style="FONT-FAMILY: Roboto">No</span></strong> returns the user to the 
-Requisition document. <strong><span style="FONT-FAMILY: Roboto">Yes</span></strong> clears the <strong><span style="FONT-FAMILY: Roboto">Capital Asset</span></strong> tab and then returns 
-you to the Requisition document.</p>
+<p class="MsoBodyText">Two new buttons are displayed in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Action</span></strong> field of the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">System 
+Selection</span></strong> section—<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Update View</span></strong> and 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Change</span></strong>. The 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Change</span></strong> 
+button displays a new screen asking, If you continue, the Capital Asset System 
+State, System Type, and all information in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Capital Asset</span></strong> tab 
+will be cleared. Do you want to continue?<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Yes</span></strong> and 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">No</span></strong> 
+buttons follow. <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">No</span></strong> returns the user 
+to the Requisition document. <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Yes</span></strong> clears the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Capital 
+Asset</span></strong> tab and then returns you to the Requisition document.</p>
 <p class="MsoBodyText"> </p>
-<p class="MsoBodyText">The <strong><span style="FONT-FAMILY: Roboto">Update 
-View</span></strong> button refreshes the <strong><span style="FONT-FAMILY: Roboto">Capital Asset</span></strong> tab. If, for example, 
-you went back to the <strong><span style="FONT-FAMILY: Roboto">Requisition 
-Items</span></strong> tab and added another capital item to the requisition, the 
-<strong><span style="FONT-FAMILY: Roboto">Update View</span></strong> button 
-would cause the new item to be displayed in the <strong><span style="FONT-FAMILY: Roboto">Capital Asset Items</span></strong> section of the 
-<strong><span style="FONT-FAMILY: Roboto">Capital Asset </span></strong>tab as 
-well.</p>
+<p class="MsoBodyText">The <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Update View</span></strong> button 
+refreshes the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Capital 
+Asset</span></strong> tab. If, for example, you went back to the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Requisition Items</span></strong> 
+tab and added another capital item to the requisition, the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Update View</span></strong> button 
+would cause the new item to be displayed in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Capital Asset Items</span></strong> 
+section of the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Capital 
+Asset </span></strong>tab as well.</p>
 <p class="MsoBodyText"> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="normal"><a style="TEXT-DECORATION: none" href="systemdetailsection.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />System Detail Section</a></p>

@@ -1317,6 +1317,8 @@ function d2h_before_print(doc)
 	{
 		nsText.style.overflow = "visible";
 		nsText.style.width = "100%";
+    if (!isIE())
+      nsText.style.padding = "5px 0px 0px 0px";
 	}
 	var nav = getElemById(doc, "ienav");
 	if (nav != null)
@@ -2787,13 +2789,13 @@ function d2hInitMainThemeHandlers(prev, next)
     if (isChrome() && window.location.protocol.toLowerCase() == "file:" && (wnd == null || wnd.g_mainLayout == undefined))
         alert("Due to security limitations, this version of Chrome browser does not work correctly with NetHelp stored in local files on your computer. You can use this Chrome version to view NetHelp deployed on the web without limitations, but for local files please use a different browser.");
 	d2hRegisterEventHandler(window, document.body, "onload", "d2hnsresize(event);d2hSetNavigatorState(" + prev + "," + next + ");d2hProcessTopicLinksForCSH();d2hProcessHighlight();");
-	d2hRegisterEventHandler(window, document.body, "onmousedown", "d2hpopup(event);");
+	d2hRegisterEventHandler(window, document.body, "onmouseup", "d2hpopup(event);");
 }
 
 function d2hInitSecThemeHandlers()
 {
 	d2hRegisterEventHandler(window, document.body, "onload", "d2hload();d2hProcessHighlight();");
-	d2hRegisterEventHandler(window, document.body, "onmousedown", "d2hpopup(event);");
+	d2hRegisterEventHandler(window, document.body, "onmouseup", "d2hpopup(event);");
 }
 
 function d2hGetMenuPanel(doc)
@@ -2867,8 +2869,9 @@ function d2hShowPopupMenu(evt, doc, menu, arrLinks)
 	menu.style.width = "auto";
 	menu.style.height = "auto";
 	d2hSetPopupMenuPos(doc, menu, pt.x, pt.y);
-	var isPopupObj = typeof window.createPopup != "undefined";
 	var ie = isIE();
+	var ievers = ie ? getIEVersionNumber() : 0;
+	var isPopupObj = typeof window.createPopup != "undefined" && ievers < 10;	
 	if (arrLinks != null)
 	{
 		for (var i = 0; i < arrLinks.length; i++)
@@ -4243,13 +4246,18 @@ function d2hSpecialCommand(id)
     }
     else if (id == "D2HPrint")
     {
-        if (isIE() || isOpera())
-            wnd.focus();
-        d2h_before_print(doc); 
-        _isPrinting = true;   
+      if (isOpera()) {
+          alert("Printing topics is not supported in the Opera browser. Please use another browser to print.")
+      }
+      else {
+        if (isIE())
+          wnd.focus();
+        d2h_before_print(doc);
+        _isPrinting = true;
         wnd.print();
         d2h_after_print(doc);
-        _isPrinting = false;   
+        _isPrinting = false;
+      }
     }
     else if (id == "D2HFavoritesAdd")
     {

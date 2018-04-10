@@ -14,7 +14,8 @@
             var elmSearch = getElemById(document, "query");
             if (elmSearch != null)
             {
-                var strVal = addSpacesBetweenWords(elmSearch);
+                var serverType = d2hGetServerType();
+                var strVal = ("asp" == serverType || "jsp" == serverType) ? elmSearch.value : addSpacesBetweenWords(elmSearch);
                 if (strVal.length > 0)
                 {
                     if ("jsp" != d2hGetServerType())
@@ -84,6 +85,9 @@
        
         function CheckLoadingScript()
         {
+            var serverType = d2hGetServerType();
+            if ("asp" == serverType || "jsp" == serverType)
+                return;
             var mainWindow = d2hGetMainWindow();
             var txt = getElemById(document, "query");
             var btn = getElemById(document, "searchSubmit");

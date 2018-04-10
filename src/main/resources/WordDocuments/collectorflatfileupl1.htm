@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Collector Flat File Upload Format</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML-new.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -19,8 +19,8 @@ var _needIndentation = false;
 
 <script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
 
-<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
-<meta name="D2HTheme" content="(Default) v.153" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.758" />
+<meta name="D2HTheme" content="(Default) v.155" />
 </head>
 <body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
 <script language="javascript" type="text/javascript">
@@ -92,22 +92,22 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <p class="MsoBodyText">In addition to the standard formatting rules that apply to 
 all batch upload file formats, keep the following points in mind about the flat 
 file format:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Each 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Each 
 Collector flat file must begin with a header record. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Any 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Any 
 number of GL entry records may follow the header. Optional detail entries, as 
 described in the XML Collector File Format section above, may also be added.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Each 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Each 
 Collector flat file must end with a trailer record summarizing the total number 
 of records in the file and the dollar amount of that file. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Multiple batches of entries may be submitted in a single file as long as 
 each batch of entries has its own header and trailer record. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
 parameter, PERFORM_DUPLICATE_HEADER_CHECK_IND, determines whether or not each 
 batch of collector entries must have a unique header (and duplicates are not 
 allowed).</p>
-<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span></p>
 <p class="TableHeading">Collector flat file format</p>
 <table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1">
   <tbody>
@@ -128,7 +128,7 @@ allowed).</p>
       <p class="TableCells" style="MARGIN-RIGHT: -0.9pt"><b>Header – 172 
       Characters</b></p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 171.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="287"><a onclick="return d2hpopup(event, this.href)" id="popup_440117" href="gloss_fiscalyear.htm">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 171.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="287"><a onclick="return d2hpopup(event, this.href)" id="popup_469426" href="gloss_fiscalyear.htm">
       <p class="TableCells">Fiscal Year</p>
       <p class="TableCells"></p></a> </td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 58.5pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="98">
@@ -311,7 +311,7 @@ allowed).</p>
       <p class="TableCells">Yes</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 135.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="227">
       <p class="TableCells" style="MARGIN-RIGHT: -0.9pt">Can be left blank if the 
-      GL Pre-<a onclick="return d2hpopup(event, this.href)" id="popup_440119" href="gloss_scrubber.htm">Scrubber</a> is used and accounts do not cross 
+      GL Pre-<a onclick="return d2hpopup(event, this.href)" id="popup_469428" href="gloss_scrubber.htm">Scrubber</a> is used and accounts do not cross 
       charts (Financials-SYS ACCOUNTS_CAN_CROSS_CHARTS_IND parameter must be set 
       to N)</p></td></tr>
   <tr>
@@ -382,7 +382,7 @@ allowed).</p>
       <p class="TableCells" style="MARGIN-RIGHT: -0.9pt"> </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 171.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="287">
-      <p class="TableCells">Fiscal <a onclick="return d2hpopup(event, this.href)" id="popup_440115" href="gloss_accountingperiod.htm">Accounting Period</a> 
+      <p class="TableCells">Fiscal <a onclick="return d2hpopup(event, this.href)" id="popup_469424" href="gloss_accountingperiod.htm">Accounting Period</a> 
       </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 58.5pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="98">
       <p class="TableCells">30</p></td>
@@ -393,7 +393,7 @@ allowed).</p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 135.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="227">
       <p class="TableCells" style="MARGIN-RIGHT: -0.9pt"> </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 171.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="287"><a onclick="return d2hpopup(event, this.href)" id="popup_440116" href="gloss_documenttype.htm">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 171.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="287"><a onclick="return d2hpopup(event, this.href)" id="popup_469425" href="gloss_documenttype.htm">
       <p class="TableCells">Document Type</p>
       <p class="TableCells"></p></a> </td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 58.5pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="98">
@@ -577,7 +577,7 @@ allowed).</p>
   format</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 171.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="287">
-      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_440118" href="gloss_encumbrance.htm">Encumbrance</a> Update 
+      <p class="TableCells"><a onclick="return d2hpopup(event, this.href)" id="popup_469427" href="gloss_encumbrance.htm">Encumbrance</a> Update 
       Code</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 58.5pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="98">
       <p class="TableCells">187</p></td>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Purchasing / Accounts Payable Batch Processes</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML-new.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN PURAP Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -19,8 +19,8 @@ var _needIndentation = false;
 
 <script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
 
-<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
-<meta name="D2HTheme" content="(Default) v.153" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.758" />
+<meta name="D2HTheme" content="(Default) v.155" />
 </head>
 <body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
 <script language="javascript" type="text/javascript">
@@ -89,7 +89,7 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspa1.htm">Purchasing/Accounts Payable</a></div>
 <h2>Purchasing / Accounts Payable Batch Processes</h2>
 <p class="MsoBodyText"> </p>
-<p class="MsoBodyText">Users do not interact directly with <a onclick="return d2hpopup(event, this.href)" id="popup_440506" href="gloss_kuali.htm">Kuali</a> Financials batch processes, but some users want 
+<p class="MsoBodyText">Users do not interact directly with <a onclick="return d2hpopup(event, this.href)" id="popup_469824" href="gloss_kuali.htm">Kuali</a> Financials batch processes, but some users want 
 to understand how these processes keep the data base up to date. For users who 
 are interested, the following table summarizes the functions of the system's 
 Purchasing/Accounts Payable batch processes. These processes, which are run 
@@ -126,7 +126,7 @@ adjustments.</p>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 184.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="308">
       <p class="TableCells">autoClosePurchaseOrdersJob</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 279pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="bottom" width="465">
-      <p class="TableCells">Closes open purchase orders with no remaining <a onclick="return d2hpopup(event, this.href)" id="popup_440505" href="gloss_encumbrance.htm">encumbrance</a>.</p></td></tr>
+      <p class="TableCells">Closes open purchase orders with no remaining <a onclick="return d2hpopup(event, this.href)" id="popup_469823" href="gloss_encumbrance.htm">encumbrance</a>.</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 184.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="308">
       <p class="TableCells">autoCloseRecurringOrdersJob</p></td>
@@ -136,13 +136,14 @@ adjustments.</p>
       date is less than or equal to the date defined in the 
       AUTO_CLOSE_RECURRING_PO_DATE parameter, it closes the purchase order and 
       disencumbers any outstanding amounts.</p>
-      <p class="C1HNumber" style="MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; tab-stops: 36.0pt"><strong><span style="FONT-FAMILY: Roboto">Testing Notes:</span></strong></p>
-      <p class="C1HNumber" style="tab-stops: 36.0pt">1.    There is 
-      a hard coded three month delay when determining which POs to pick up, 
-      therefore whcn testing,  the parameter and the recurring end date 
-      need to be three months prior to today in order for the job to pick them 
-      up for closing. </p>
-      <p class="C1HNumber" style="tab-stops: 36.0pt">2.    The 
+      <p class="C1HNumber" style="MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; tab-stops: 36.0pt"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Testing 
+      Notes:</span></strong></p>
+      <p class="C1HNumber" style="tab-stops: 36.0pt">1.  There is a hard 
+      coded three month delay when determining which POs to pick up, therefore 
+      whcn testing,  the parameter and the recurring end date need to be 
+      three months prior to today in order for the job to pick them up for 
+      closing. </p>
+      <p class="C1HNumber" style="tab-stops: 36.0pt">2.  The 
       AUTO_CLOSE_RECURRING_PO_DATE is reset to the current date when the job 
       runs. </p>
       <p class="TableCells"> </p></td></tr>
@@ -156,16 +157,16 @@ adjustments.</p>
       invoices. The following rules will cause an electronic invoice to reject 
       and create an <a href="electronicinvoicerej.htm">Electronic Invoice 
       Reject</a> Transaction (EIRT):</p>
-      <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-      </span><a onclick="return d2hpopup(event, this.href)" id="popup_440507" href="gloss_duns.htm">DUNS</a> number is not found in the vendor 
+      <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+      </span><a onclick="return d2hpopup(event, this.href)" id="popup_469825" href="gloss_duns.htm">DUNS</a> number is not found in the vendor 
 files.</p>
-      <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+      <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
       </span>Missing PO number.</p>
-      <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+      <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
       </span>Missing invoice number</p>
-      <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+      <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
       </span>Duplicate invoice number.</p>
-      <p class="C1HBullet" style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+      <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
       </span>Invalid or missing invoice date. </p>
       <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
       <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="exclaim" alt="exclaim" src="../ImagesExt/image597_1.png" />   
