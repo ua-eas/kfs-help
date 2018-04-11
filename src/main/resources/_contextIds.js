@@ -1,3 +1,3 @@
 
-var MAIN_HELP_PAGE = "default.html";
+var MAIN_HELP_PAGE = "default.htm";
 var g_d2hContextIds = new Array();
