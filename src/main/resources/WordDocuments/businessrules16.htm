@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="calculation.htm"></a><a id="D2HNextAnchor" href="postdepreciationtoas.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview28.htm"></a><a id="D2HNextAnchor" href="routing23.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,136 +86,73 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme.htm">Capital Asset Management</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme1.htm">Capital Asset Management Batch 
-Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme2.htm">Capital Asset 
-Management Depreciation Process</a><span class="d2h_breadcrumbsLinkSeparator"> 
-&gt; </span><a class="d2h_breadcrumbsNormal" href="calculation.htm">Calculation</a></div>
-<h5>Business Rules</h5>
-<p class="MsoBodyText"> </p>
-<p class="MsoBodyText">The following business rules govern the application of 
-these <a onclick="return d2hpopup(event, this.href)" id="popup_475477" href="gloss_depreciation.htm">depreciation</a> calculations:</p>
-<p class="MsoBodyText"> </p>
-<p class="TableHeading">Depreciation Calculation Business Rules and Error 
-Messages</p>
-<table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="785" border="0">
-  <tbody>
-  <tr style="HEIGHT: 22.55pt">
-    <td style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 22.55pt; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 31.5pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="53">
-      <p class="TableCells">No.</p></td>
-    <td style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 22.55pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 236.65pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="394">
-      <p class="TableCells">Rule</p></td>
-    <td style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 22.55pt; BORDER-RIGHT: medium none; WIDTH: 202.75pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="338">
-      <p class="TableCells">Action or Error Message</p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 31.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="53">
-      <p class="TableCells">1</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 236.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="394">
-      <p class="TableCells">When the Object Sub Type Code is in parameter 
-      NON_DEPRECIABLE_FEDERALLY_OWNED_OBJECT_SUB_TYPES, 
-      federally-owned/other-owned payments are excluded from 
-depreciation.</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 202.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="338">
-      <p class="TableCells">Error Message: <span style="TEXT-TRANSFORM: uppercase">There are X payments ineligible for 
-      depreciation, and will be removed.</span></p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 31.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="53">
-      <p class="TableCells">2</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 236.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="394">
-      <p class="TableCells">Assets that are identified as Construction in Progress 
-      are excluded from the depreciation calculation because the useful life is 
-      set to zero.</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 202.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="338">
-      <p class="TableCells">Action: Drop asset from calculation.</p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 31.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="53">
-      <p class="TableCells">3</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 236.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="394">
-      <p class="TableCells">Asset depreciation date must be valid.</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 202.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="338">
-      <p class="TableCells">Action: Drop asset from calculation.</p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 31.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="53">
-      <p class="TableCells">4</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 236.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="394">
-      <p class="TableCells">Only payments with an Asset Transfer Payment Code of 
-      N, blank or Null are eligible for depreciation.</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 202.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="338">
-      <p class="TableCells">Action: Continue with depreciation 
-  calculation.</p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 31.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="53">
-      <p class="TableCells">5</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 236.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="394">
-      <p class="TableCells">Only active (not retired) assets are eligible for 
-      depreciation.</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 202.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="338">
-      <p class="TableCells">Action: Continue with depreciation 
-  calculation.</p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 31.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="53">
-      <p class="TableCells">6</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 236.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="394">
-      <p class="TableCells">Non-capital assets are excluded from 
-    depreciation.</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 202.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="338">
-      <p class="TableCells">Action: Drop asset from calculation.</p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 31.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="53">
-      <p class="TableCells">7</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 236.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="394">
-      <p class="TableCells">The depreciation procedure calculates how many months 
-      of depreciation should have occurred (months elapsed). If the number of 
-      months elapsed is equal to or greater than the assets depreciation life, 
-      the procedure uses the asset base amount as the calculated accumulated 
-      depreciation.</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 202.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="338">
-      <p class="TableCells">Action: If the number of months elapsed is equal to or 
-      greater than the assets depreciation life, the procedure uses the asset 
-      base amount as the calculated accumulated depreciation. If the number of 
-      months elapsed is less than the assets depreciation life, the depreciation 
-      is calculated.</p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 31.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="53">
-      <p class="TableCells">8</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 236.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="394">
-      <p class="TableCells">Assets with a Pending Asset Transfer will be included 
-      in depreciation and will be added to the depreciation report in case a 
-      manual adjustment needs to be made.</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 202.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="338">
-      <p class="TableCells">Action: Continue with depreciation calculation and 
-      list the document number on the report for follow up.</p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 31.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="53">
-      <p class="TableCells">9</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 236.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="394">
-      <p class="TableCells">Assets with a Pending Asset Retirement document are 
-      eligible for retirement, if the Asset Retirement document is approved 
-      after depreciation has run, the general ledger pending entries and 
-      document will update to reflect the current state of the asset. .</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 202.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="338">
-      <p class="TableCells">Action: Continue with depreciation 
-  calculation.</p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 31.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="53">
-      <p class="TableCells">10</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 236.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="394">
-      <p class="TableCells">Assign the appropriate Plant Fund Chart Code and 
-      Account Number.</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 202.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="338">
-      <p class="TableCells">Action: When the Object Sub Type Code is in parameter 
-      PLANT_FUND_ORGANIZATION_OBJECT_SUB_TYPES, use the Organization Plant Fund 
-      Chart and Account numbers.<br />When the Object Sub Type Code is in 
-      parameter PLANT_FUND_CAMPUS_OBJECT_SUB_TYPES, use the Campus Plant Fund 
-      Chart and Account numbers.</p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 31.5pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="53">
-      <p class="TableCells">11</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 236.65pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="394">
-      <p class="TableCells">Determine if the <a onclick="return d2hpopup(event, this.href)" id="popup_475476" href="gloss_accountingperiod.htm">accounting period</a> when depreciation 
-      is run is a multiple of the value in the DEPRECIATION_PERIOD.</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 202.75pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="338">
-      <p class="TableCells">Error Message: Fiscal month of depreciation date must 
-      be a multiple of the depreciation period. </p></td></tr></tbody></table>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="capitalassetmanagement.htm">Capital Asset Management</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanagementtransactiondocuments.htm">Capital Asset Management 
+Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="asset1.htm">Asset</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="editasset1.htm">Edit Asset</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview28.htm">Process 
+Overview</a></div>
+<h6>Business Rules</h6>
+<p class="C1HBullet" style="tab-stops: 36.0pt"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset Information 
+Detail</span></strong> tab:</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-SYS Asset Manager and KFS-SYS Plant Fund Accountant can edit the 
+following fields: </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Organization 
+Owner Chart Of Accounts</span></strong> , <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Organization Owner Account 
+Number</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Owner</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Financial Object Subtype Code, 
+Government Tag</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">National Stock 
+Number</span></strong> and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">In-Service Date</span></strong> 
+fields.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 18.0pt 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>KFS-SYS Asset Processor, KFS-CAM Manager, KFS-SYS Asset Manager, KFS-SYS 
+Plant Fund Accountant can edit <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset Description</span></strong>, 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Tag 
+Number</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset Type Code</span></strong> and 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Vendor 
+Name</span></strong>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Parameter VALID_ASSET_STATUS_BY_PRIOR_ASSET_STATUS determines which 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset Status 
+Code</span></strong> can be changed to another. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the tag number has not been assigned, the KFS-CAM Processor can update 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Tag 
+Number</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset Type Code</span></strong> and 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset 
+Description</span></strong>. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the asset is tagged and the asset was created in the current <a onclick="return d2hpopup(event, this.href)" id="popup_479534" href="gloss_fiscalyear1.htm">fiscal year</a>, the KFS-CAM Processor can update 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset Type 
+Code</span></strong> and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset Description</span></strong>. 
+</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Last Inventory 
+Date</span></strong> is updated with a change to any of the following fields: 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Campus, Building, 
+Room, Sub Room, or Off Campus Address</span></strong>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Manufacturer is not required for non-capital assets.</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: 0pt; tab-stops: 36.0pt"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Asset Location</span></strong> tab: 
+</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Building code for capital assets:</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Asset type codes for movable 
+equipment that have the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Moving Indicator</span></strong> 
+marked Yes require a building code and a room number <b>or</b> an off campus 
+address that includes name, address, city, state, postal code, and country.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Asset type codes for buildings 
+have the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Required 
+Building Indicator</span></strong> field marked Yes require a building code. No 
+room number is required.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Any asset type code with both 
+the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Moving 
+Indicator</span></strong> and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Required Building 
+Indicator</span></strong> marked No require a campus code but no building or 
+room number. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Building code and room number for non-capital assets are not required, 
+but must be valid if used.</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="postdepreciationtoas.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Post Depreciation to 
-Assets</a></p></span></div></div></body></html>
+<p class="normal"><a style="TEXT-DECORATION: none" href="routing23.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>

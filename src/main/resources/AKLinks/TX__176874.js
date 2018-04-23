@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__176874", [["WordDocuments/copyingadocumentinitiatingadocumentbasedonanotherdocument1.htm", "right", "Copying a Document (initiating a document based on another document)"],["WordDocuments/copyingadocumentinitiatingadocumentbasedonanother1.htm", "right", "Copying a Document (Initiating a Document Based on Another)"]]);

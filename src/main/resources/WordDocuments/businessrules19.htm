@@ -86,23 +86,24 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="kualifinancialsdocumentfundamentals.htm">Kuali Financials Document 
-Fundamentals</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtabs.htm">Standard Tabs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="createcapitalassetstab.htm">Create Capital Assets Tab</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview30.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="kualifinancialsdocumentfundamentals1.htm">Kuali Financials Document 
+Fundamentals</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtabs1.htm">Standard Tabs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="modifycapitalassetstab1.htm">Modify Capital Assets Tab</a></div>
 <h5>Business Rules</h5>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>An 
-asset may be created only if the object code with the capital object sub type is 
-displayed on the <strong>To</strong> portion of the <strong>Accounting 
-Lines</strong> tab. These documents cannot be used to create an asset with 
-negative value. Note that on the Procurement Card document all account lines are 
-expense (to).</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-you specify a tag number, the system verifies that the number is not already 
-being used on an active asset.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-the <strong>System Control Remainder Amount</strong> is zero, the selected lines 
-for processing are grayed out in the <strong>Accounting Lines for 
-Capitalization</strong> tab.</p>
+existing asset may be modified only if the object code with the capital object 
+subtype is displayed on the From or To portion of the <strong>Accounting 
+Lines</strong> tab. For document types with only one section in the Accounting 
+Lines tab (such as the Cash Receipt), the documents themselves may also be used 
+to modify assets.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+asset number entered must identify an active valid asset. Active assets have an 
+inventory status code of a (active), c (active and non-accessible), s (surplus) 
+or u (university constructed).</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+asset number entered is locked until the financial document is approved, 
+canceled or disapproved or the object code on the document is changed to a 
+non-capital sub-type.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Clicking<strong> Clear</strong> button for an asset causes the system to 
 clear the <strong>Asset Quantity</strong>, <strong>Asset Type</strong>, 

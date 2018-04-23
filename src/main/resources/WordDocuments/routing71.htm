@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules94.htm"></a><a id="D2HNextAnchor" href="initiatingaposplit.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules94.htm"></a><a id="D2HNextAnchor" href="initiatingavendorcreditmemodocument.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,19 +86,41 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspa1.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspa3.htm">Purchasing / Accounts Payable Transaction 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchaseordersplit.htm">Purchase Order 
-Split</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview77.htm">Process 
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayabletransactiondocuments.htm">Purchasing / Accounts 
+Payable Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="vendorcreditmemo1.htm">Vendor Credit 
+Memo</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview78.htm">Process 
 Overview</a></div>
 <h5>Routing</h5>
-<p class="Definition"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-POSP document may be initiated only by the members of the Purchasing Processor 
-<a onclick="return d2hpopup(event, this.href)" id="popup_477988" href="gloss_role.htm">role</a>.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-document becomes FINAL when the POSP document is submitted.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-REQS initiator and the <a onclick="return d2hpopup(event, this.href)" id="popup_477987" href="gloss_fiscalofficer.htm">fiscal officer</a> (s) receives 
-an FYI.</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">The Vendor Credit Memo document is initiated by a member of 
+the Accounts Payable Processor <a onclick="return d2hpopup(event, this.href)" id="popup_481975" href="gloss_role1.htm">role</a>. Routing is dependent on whether 
+an image attachment is part of an institution's configuration.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><em><span style="FONT-FAMILY: Symbol; FONT-STYLE: normal"><span style="FONT-FAMILY: Verdana">•</span>      
+</span></em>An AP Processor clicks the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;; FONT-WEIGHT: normal">Submit</span></strong> 
+button to complete the processing of a Vendor Credit Memo document. The document 
+goes into Awaiting AP Review status if REQUIRE_ATTACHMENT_IND is set to Y. The 
+AP Review status may be satisfied by an image attachment or in another fashion 
+(configurable at your institution). After AP review, the document routes to the 
+<a onclick="return d2hpopup(event, this.href)" id="popup_481974" href="gloss_fiscalofficer1.htm">fiscal officer</a> or fiscal officer delegate as 
+an FYI. At the AP Review routing level, approvers are not permitted to change 
+content on the document. They may only add notes and attachments and approve or 
+cancel. <em><span style="FONT-STYLE: normal"></span></em></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><em><span style="FONT-FAMILY: Symbol; FONT-STYLE: normal"><span style="FONT-FAMILY: Verdana">•</span>      
+</span></em><em><span style="FONT-STYLE: normal">The document routes an FYI copy 
+to the fiscal officer associated with each account number that appears on the 
+vendor credit memo.</span></em></p>
+<p class="C1HBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
+<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
+<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="exclaim" alt="exclaim" src="../ImagesExt/image597_1.png" />       
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">The Timing of 
+G/L</span></strong><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"></span></strong><strong></strong><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"> Update: </span></strong>After 
+a CM document has been created and submitted, it updates the G/L the next time a 
+batch process runs. Note that this is different from most documents, which do 
+not update the G/L until the document receives all approvals. If accounting 
+entries on the document change before it reaches FINAL status, the G/L entries 
+are updated accordingly the next time a batch process runs.</p></div>
+<p class="Illustration"> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="initiatingaposplit.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Initiating a PO Split</a></p></span></div></div></body></html>
+<p class="normal"><a style="TEXT-DECORATION: none" href="initiatingavendorcreditmemodocument.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Initiating a Vendor Credit Memo 
+Document</a></p></span></div></div></body></html>

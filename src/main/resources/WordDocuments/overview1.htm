@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Overview</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN CAM Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="capitalassetmanageme2.htm"></a><a id="D2HNextAnchor" href="calculation.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="balanceforwardjob1.htm"></a><a id="D2HNextAnchor" href="businessrules70.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,71 +86,30 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme.htm">Capital Asset Management</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme1.htm">Capital Asset Management Batch 
-Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme2.htm">Capital Asset 
-Management Depreciation Process</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger1.htm">General Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerbatchprocesses.htm">General Ledger Batch Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="balanceforwardjob1.htm">balanceForwardJob</a></div>
 <h4>Overview</h4>
-<p class="MsoNormal"> </p>
-<p class="MsoNormal">The parameter <a onclick="return d2hpopup(event, this.href)" id="popup_475471" href="gloss_depreciation.htm">DEPRECIATION</a>_PERIOD is used to 
-determine how frequently depreciation entries should be created and posted to 
-the General Ledger. Depreciation can be run monthly, quarterly, semi-annually or 
-annually. </p>
-<p class="MsoNormal"> </p>
-<p class="MsoBodyText">CAMS Depreciation is set to run on the third Thursday of 
-the month. Depreciation will be calculated if the <a onclick="return d2hpopup(event, this.href)" id="popup_475470" href="gloss_fiscalperiod.htm">fiscal period</a> is a multiple of the value in 
-the DEPRECIATION_PERIOD parameter. For example, if you are running deprecation 
-quarterly, the value in the paramter will be set to 3. Each month the 
-calculation will check to see if the fiscal period is a multiple of 3 and if it 
-is, will calculate depreciation. </p>
-<p class="MsoNormal"> </p>
-<p class="MsoBodyText">Prior to the first scheduled run of the new <a onclick="return d2hpopup(event, this.href)" id="popup_475472" href="gloss_fiscalyear.htm">fiscal year</a>, the ResetAssetDepreciationJob must 
-be run in order to clear prior year depreciation. This job will sum the buckets 
-of depreciation and update the Previous Year Amount field. </p>
-<p class="MsoNormal"> </p>
-<p class="MsoBodyText">If the DEPRECIATION_DATE parameter is blank, the 
-depreciation job sets the date to the current date. The DEPRECIATION_DATE 
-parameter will most likely be set to the last day of the prior fiscal year in 
-order to run deprecation for assets that were created after year end that need 
-to be included in the prior year. It could also be set to a day in July if 
-depreciation needs to be run after the normal automatic running. When set to the 
-last day of the fiscal year, a full or half years amount will be calculated. Any 
-assets that had depreciation previously taken, will be excluded each time 
-depreciation is run for the specified period. </p>
-<p class="MsoNormal"> </p>
-<p class="MsoBodyText">When the depreciation job runs for the last month of the 
-fiscal year, it sets the asset depreciation date to the end of the fiscal year 
-for any moveable asset that has an asset depreciation date greater than the end 
-of the fiscal year. </p>
-<p class="MsoNormal"> </p>
-<p class="MsoBodyText">The Blank Out parameters can be used to turn off automatic 
-running of the depreciation batch job during fiscal year end. </p>
-<p class="MsoNormal"> </p>
-<p class="MsoBodyText">Dates for the blank-out period can be set as follows:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
-DEPRECIATION_DATE to yyyy-mm-dd (for example, 2016-06-30). The system uses this 
-date to determine for which period to run depreciation.The <a onclick="return d2hpopup(event, this.href)" id="popup_475469" href="gloss_accountingperiod.htm">accounting period</a> associated with the date 
-must be a multiple of the Depreciation period. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
-the BLANK_OUT_PERIOD_RUN_DATE  to mm/dd/yyyy (for example, 06/29/2012) to 
-specify the date on which the system is to run depreciation. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
-the BLANK_OUT_PERIOD_BEGIN paramter to mm/dd (for example, 06/01). This date 
-determines the beginning of the blank-out period where automatic runs will not 
-occur. The BLANK_OUT_PERIOD_BEGIN must be earlier in the calendar year than the 
-BLANK_OUT_PERIOD_END date and will normally be a date in June. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Set 
-the BLANK_OUT_PERIOD_END parameter to mm/dd (for example, 07/15). This date 
-determines the end of the blank-out period where automatic runs will not apply. 
-The BLANK_OUT_PERIOD_END must be later in the calendar year than the 
-BLANK_OUT_PERIOD_BEGIN.</p>
-<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; tab-stops: 36.0pt">Depreciation can 
-be run multiple times in the same period. It will only depreciate those assets 
-that have not been depreciated yet for this period. Assets created after year 
-end that need to be depreciated in the prior fiscal year will need to have their 
-in-service date set to a date in the prior year, DEPRECIATION_DATE set to a day 
-in the last accounting period of the fiscal year, blank out begin and end 
-parameters set to a date before and after the date deprecation will be run and 
-blank out period run date set to the day you will be running depreciation. </p>
+<p class="MsoNormal">This unscheduled yearend job has two purposes: </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Loads 
+the previous year’s balance sheet items ending balance into the new <a onclick="return d2hpopup(event, this.href)" id="popup_481031" href="gloss_fiscalyear1.htm">fiscal year</a> with a balance type of NB (Nominal 
+Balance) and <a onclick="return d2hpopup(event, this.href)" id="popup_481030" href="gloss_accountingperiod1.htm">accounting period</a> of BB (Beginning 
+Balance) </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Loads 
+year end balances of revenues, expenses actuals and budgets to facilitate 
+reporting project year to date balances. Transactions are loaded with a balance 
+type of CB (Contracts and Grants Beginning Balance) and accounting period of BB. 
+</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span></p>
+<p class="MsoNormal">Entries are summarized by Chart of Accounts code, account 
+number, sub-account number, object code, sub-object code, balance type, and 
+object type. Each combination is considered as a unit of work in the application 
+of the following business rules.</p>
+<p class="MsoBodyText"> </p>
+<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
+<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="exclaim" alt="exclaim" src="../ImagesExt/image584_2.png" />       Even 
+though the cumulative balances are called Contract and Grant Beginning Balances 
+any sub-fund can be identified as a project to date reporting sub-fund. 
+Typically, Contracts and Grants and construction projects.</p></div>
+<p class="MsoBodyText"> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="calculation.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Calculation</a></p></span></div></div></body></html>
+<p class="normal"><a style="TEXT-DECORATION: none" href="businessrules70.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Business 
+Rules</a></p></span></div></div></body></html>

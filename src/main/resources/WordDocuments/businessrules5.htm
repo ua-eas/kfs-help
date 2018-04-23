@@ -86,46 +86,24 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="accountsreceivable.htm">Accounts Receivable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="accountsreceivabletr.htm">Accounts Receivable Transaction 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="customerinvoice.htm">Customer Invoice</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview5.htm">Process Overview</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="accountsreceivable1.htm">Accounts Receivable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="accountsreceivabletransactiondocuments.htm">Accounts Receivable 
+Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="customerinvoicewriteoff.htm">Customer Invoice Writeoff</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview5.htm">Process Overview</a></div>
 <h5>Business Rules</h5>
 <p class="Definition"> </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-customer must be active.</p>
+invoice must have an open amount.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-customer must have at least one active address.</p>
+writeoff must include a note to describe why the invoice is to be written 
+off.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol; COLOR: #333333"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+parameter ALLOW_SALES_TAX_LIABILITY_ADJUSTMENT_IND=N, entries reverse the 
+receivable on the income account and the sales tax account, the offset is to 
+Fund Balance. The sales tax write off will post to the write off account listed 
+on Organization Account Defaults.<span style="COLOR: #333333"></span></p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-quantity must be greater than zero.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-item unit price must be greater than zero.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-due date has to be within allowable time frame as defined by your system 
-administrator.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Recurrence has a maximum set by your system administrator.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-object code must be on the list of allowable object codes set up by your system 
-administrator.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Restricted Object Codes in delivered code include 8160, 8116, 8118 and 
-5019.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Restricted Level Codes in delivered code include CASH, CSEQ and PLNT.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Restricted Object Consolidations in delivered code include CMPN, CPTL, 
-FDBL and SCHL.<b></b></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-following rules apply when sales tax is enabled in Accounts Receivable: </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-the Customer and the item are taxable, tax is calculated. </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the Customer is not taxable, tax is not calculated even if the item is 
-taxable.</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the Ship To address is blank, tax is calculated on the Organization Postal 
-Code.</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the Ship To address is not blank, tax is calculated based on the Ship To postal 
-code.</p>
+general ledger pending entries will post either to the accounting string listed 
+in the Organization Accounting Default Organization Writeoff Account Defaults; 
+or to the accounting string on the invoice. </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="normal"><a style="TEXT-DECORATION: none" href="routing4.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Cost Share Transfers</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN GL Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.758" />
+<meta name="D2HTheme" content="(Default) v.155" />
+</head>
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="parameters12.htm"></a><a id="D2HNextAnchor" href="parameters13.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger1.htm">General Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerbatchprocesses.htm">General Ledger Batch Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="scrubberjob1.htm">scrubberJob</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="transactiongeneration.htm">Transaction Generation</a></div>
+<h5>Cost Share Transfers </h5>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">Cost sharing allows for sharing of costs related to 
+Contracts and Grants accounts. Expenses associated with a grant or contract that 
+are not paid by the sponsoring agency are considered to be <a onclick="return d2hpopup(event, this.href)" id="popup_481226" href="gloss_costshare1.htm">cost share</a>, and Financials can track these 
+expenses in special cost share sub-accounts. A cost share sub-account is created 
+as part of the contract or grant account for which costs are being shared. The 
+sub-account is assigned a source account that identifies the account that bears 
+the expenses that are being shared.</p>
+<p class="MsoBodyText">Cost share transfers involve transferring of funds into a 
+Contracts and Grants cost share sub-account (to record income), from the source 
+account (to record the charge).</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">Any expense that occurs on a cost share sub-account is 
+eligible for this transfer of funds. Expenses occurring on selected document 
+types or that post to specific periods may be excluded from the generation of 
+cost share.</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">In order to qualify for cost share transfers, the 
+transaction must:</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>be 
+associated with an expense object code type specified in parameter 
+COST_SHARE_OBJECT_TYPES</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>have 
+a balance type of Actuals (AC) and</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>post 
+to a Contracts and Grants account and a cost share sub-account. Cost share 
+sub-accounts have a sub-account type of CS. </p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">Cost share transfers are posted at a summary level.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+income side of the transfer is created as follows:</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><a onclick="return d2hpopup(event, this.href)" id="popup_481225" href="gloss_documenttype1.htm">Document type</a> TF (Transfer of Funds)</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Object code specified in parameter COST_SHARE_OBJECT_CODE</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Origination code CS</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Document number is pre-fixed with CSHR </p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Transaction description is Generated Cost Share from account XXXXXXX 
+MM/DD</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Transaction date is the process run date </p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>With 
+an appropriate offset to cash for the income side of the transfer</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+expense side of the transfer is created as above for the income side, with the 
+following differences:</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+chart, account, and sub-account for the source account associated with the cost 
+share sub-account</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Transaction description is Generated Cost Share to account XXXXXXX 
+MM/DD.</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+object code is determined by the object code level specified in parameter 
+COST_SHARE_OBJECT_CODE_BY_OBJECT_LEVEL.</p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="normal"><a style="TEXT-DECORATION: none" href="parameters13.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Parameters</a></p></span></div></div></body></html>

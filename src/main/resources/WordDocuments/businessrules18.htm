@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="modifyingassets.htm"></a><a id="D2HNextAnchor" href="createcapitalassetstab.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="capitalassetforaccountinglinessection2.htm"></a><a id="D2HNextAnchor" href="process2.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,150 +86,40 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="kualifinancialsdocumentfundamentals.htm">Kuali Financials Document 
-Fundamentals</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtabs.htm">Standard Tabs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="accountinglinesforcapitalizationtab.htm">Accounting Lines for 
-Capitalization Tab</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="overview30.htm">Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="kualifinancialsdocumentfundamentals1.htm">Kuali Financials Document 
+Fundamentals</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardtabs1.htm">Standard Tabs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="createcapitalassetstab1.htm">Create Capital Assets Tab</a></div>
 <h5>Business Rules</h5>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Asset 
-information collection is required by financial object sub type codes specified 
-in system parameter FINANCIAL_PROCESSING_CAPITAL_OBJECT_SUB_TYPES. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
-selecting accounting lines, the user must click on either<strong> Create Asset 
-</strong>or <strong>Modify Asset</strong> buttons to populate information in the 
-appropriate tab. If a user has not selected at least one line before clicking 
-<strong>Create Asset</strong> o<strong>r Modify Asset</strong> buttons to 
-populate information in the appropriate tab, the system displays the message: At 
-least one accounting line should be selected to [modify|create] the capital 
-asset. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-a user deletes accounting lines in the <strong>Accounting Lines</strong> tab and 
-then saves the document, the system updates the accounting lines in the 
-<strong>Accounting Lines for Capitalization</strong> tab. If asset information 
-has been added via the <strong>Create Asset</strong> or <strong>Modify Existing 
-Asset</strong> tab, when the financial accounting line is deleted, the system 
-deletes the information in the <strong>Create Asset</strong> or <strong>Modify 
-Existing Asset</strong> tab, and unchecks the accounting lines for 
-capitalization.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-a user updates the accounting line in the <strong>Accounting Lines</strong> tab 
-and clicks<strong> Refresh</strong> button, the system deletes the asset 
-information and updates the <strong>Accounting Lines for Capitalization</strong> 
-tab. If the user does not use<strong> Refresh</strong> button to update the 
-accounting lines for capitalization but subsequently submits the document, the 
-system displays a message, such as: Capital Accounting Lines total amount has 
-not been completely distributed to Capital Assets. The user must either 
-click<strong> Refresh</strong> button or delete the asset information lines, 
-save and reload the document and re-enter the asset information. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>An 
+asset may be created only if the object code with the capital object sub type is 
+displayed on the <strong>To</strong> portion of the <strong>Accounting 
+Lines</strong> tab. These documents cannot be used to create an asset with 
+negative value. Note that on the Procurement Card document all account lines are 
+expense (to).</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the user selects multiple accounting lines for capitalization and if the 
-selected accounting lines cross asset categories, the system displays this 
-warning: Accounting lines have been selected where the object codes cross asset 
-categories per parameter OBJECT_SUB_TYPE_GROUPS (module: KFS-CAM/component: 
-AssetGlobal) . Do you want to continue? If the user clicks <strong>yes</strong>, 
-the system continues processing. If the user clicks <strong>no</strong>, the 
-system removes the asset information and de-selects the accounting lines.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-accounting lines in the <strong>Capital Asset for Accounting Line</strong> 
-sections of both the <strong>Create Capital Assets</strong> tab and the 
-<strong>Modify Capital Assets</strong> tab must agree with the accounting lines 
-in the <strong>Accounting Lines for Capitalization</strong> tab when 
-submitted.</p>
+you specify a tag number, the system verifies that the number is not already 
+being used on an active asset.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-moving expenses between accounts, the <strong>Amt</strong> entry must be the sum 
-of the target and source to be applied to the asset.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>    </span>The 
-<strong>System Control Amount</strong> is <span style="COLOR: black">used to 
-ensure that asset amounts are not greater than the sum of the amounts selected 
-for processing.</span><span style="FONT-SIZE: 11pt"> The system automatically 
-updates this field as lines are selected in the </span><strong>Accounting Lines 
-for Capital Assets</strong><span style="FONT-SIZE: 11pt"> tab.</span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>    </span>As amounts are 
-distributed to assets, the <strong>System Control Remainder Amount</strong> is 
-reduced. The following rules pertain to <strong>System Control Remainder 
-Amount</strong>.<span style="FONT-SIZE: 11pt"></span></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Courier New&quot;">o  </span>The system 
-sets the value to the sum of the accounting line amounts selected<span style="FONT-SIZE: 11pt">.</span></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The <strong>System Control 
-Amount</strong> and <strong>System Control Remainder Amount</strong> in the 
-<strong>Create Capital Assets</strong> tab are whole numbers (dollars and 
-cents).</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Courier New&quot;">o  </span>If the user 
-clicks<strong> Redistribute Total Amount</strong> button, the system reduces the 
-<strong>System Control Remainder Amount</strong> value until it is reaches 
-zero.<span style="FONT-SIZE: 11pt"></span></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Courier New&quot;">o  </span>When the 
-<strong>System Control Remainder Amount</strong> equals zero, no more assets 
-records can be inserted via the <strong>create asset</strong> and <strong>modify 
-asset</strong> buttons.<span style="FONT-SIZE: 11pt"></span></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Courier New&quot;">o  </span>When the 
-<strong>System Control Remainder Amount </strong>equals zero and all required 
-asset fields have been completed, the document can be submitted. <span style="FONT-SIZE: 11pt"></span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-following rules pertain to <strong>Distribution Method</strong>.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>A distribution method is 
-required. (The default is Distribute cost evenly.)</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If the Distribute cost by 
-amount option is selected, the user must enter the appropriate amount for each 
-asset being updated or created. </p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The distribution method 
-selected is saved on the FP Capital Asset Tab. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="COLOR: black">Clicking</span><strong> Redistribute Total Amount</strong> 
-button<span style="COLOR: black"> causes the system to distribute the cost to 
-the asset(s) and update the </span><strong>Amt</strong><span style="COLOR: black"> column in the </span><strong>Capital Asset for Accounting 
-Lines</strong><span style="COLOR: black"> section of the </span><strong>Create 
-Capital Assets</strong> or <strong>Modify Capital Assets</strong> tab<span style="COLOR: black">. </span>The following rules pertain to the 
-<strong>Redistribute Total Amount</strong> action:</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>When the user selects the 
-Distribute cost evenly, the system divides the cost by the number of assets and 
-assigns the amount.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>When the user selects the 
-Distribute cost by amount distribution method, the system calculates each 
-account line amount as a proportion of the total asset amount. If there are 
-multiple accounts, each account is prorated in proportion to the total 
-distribution for the assets (for example, if the proportion is 70/30, all 
-account lines are allocated 70/30).</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If the user submits the 
-document before all accounting lines have been distributed, the system displays 
-this message: Capital Accounting Lines total amount has not been completely 
-distributed to Capital Assets.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-system parameter VENDOR_REQUIRED_FOR_NON_MOVEABLE_ASSET_IND determines whether 
-<strong>Vendor</strong> is required for non-moveable assets. If the parameter is 
-set to N, no vendor is required in the <strong>Create Capital Assets</strong> 
-tab, nor is it required on the Add Asset Global document, regardless of the 
-asset type.</p>
+the <strong>System Control Remainder Amount</strong> is zero, the selected lines 
+for processing are grayed out in the <strong>Accounting Lines for 
+Capitalization</strong> tab.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>System parameter MANUFACTURER_REQUIRED_FOR_NON_MOVEABLE_ASSET_IND 
-determines whether manufacturer is required for non-moveable assets. If the 
-parameter is set to N, no manufacturer is required on the <strong>Create Capital 
-Assets</strong> tab, nor is it required on the Add Asset Global document. If the 
-parameter value is N, no manufacture is required regardless of the asset 
-type.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-asset number field in the <strong>Modify Capital Asset</strong> tab validates 
-against the Asset record table.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the user submits the document before processing all lines in this tab, the 
-system displays the message: <span style="FONT-SIZE: 11pt">All lines in the 
-</span>Accounting Lines for Capitalization<span style="FONT-SIZE: 11pt"> tab 
-must be processed before the document can be submitted.</span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the user submits a document in which one or more accounting lines in this tab do 
-not have asset information associated with them, the system displays a message 
-such as: <span style="FONT-SIZE: 11pt">Capital Accounting Lines with Sequence 
-number: 1 Line Type: Source chart:7000 does not have any Capital Asset 
-Information associated with it.</span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the user submits a document in which the account, sub account object code, 
-sub-object code, project, org ref ID and amount in the <strong>Accounting 
-Lines</strong> tab do not entirely agree with the information in the 
-<strong>Accounting Lines for Capitalization</strong> tab, the system forces the 
-user to click<strong> Refresh</strong> button in order to update the information 
-in the <strong>Accounting Lines for Capitalization</strong> tab.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-error correction option on the financial document will reverse asset amounts, 
-remove the serial number, and tag number, and keep other asset information.</p>
+</span>Clicking<strong> Clear</strong> button for an asset causes the system to 
+clear the <strong>Asset Quantity</strong>, <strong>Asset Type</strong>, 
+<strong>Vendor</strong>, <strong>Manufacturer</strong>, <strong>Model</strong>, 
+<strong>Amt Dist Method</strong>, <strong>Amt</strong>, <strong>Asset 
+Descriptio</strong>n, and <strong>Tag/Location Information</strong> in the 
+<strong>Create/Modify Capital Assets</strong> tab. The system also resets the 
+<strong>System Control Amount </strong>and the <strong>System Control Remainder 
+Amount</strong> in that tab. (The tab remains open.). Additionally, this action 
+causes the system to uncheck the selected accounting lines in the 
+<strong>Accounting Lines for Capitalization</strong> tab.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Clicking<strong> Delete</strong> button for an asset causes the system to 
+clear all asset information, reset the <strong>System Control Amount 
+</strong>and the <strong>System Control Remainder Amount</strong>, and close the 
+<strong>Create Capital Assets</strong> tab. This action also causes the system 
+to uncheck the selected accounting lines in the <strong>Accounting Lines for 
+Capitalization</strong> tab.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="createcapitalassetstab.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Create Capital Assets 
-Tab</a></p></span></div></div></body></html>
+<p class="normal"><a style="TEXT-DECORATION: none" href="process2.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Process</a></p></span></div></div></body></html>

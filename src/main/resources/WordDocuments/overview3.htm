@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="collectorjob.htm"></a><a id="D2HNextAnchor" href="parameters1.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="detectmissingentriesjob.htm"></a><a id="D2HNextAnchor" href="parameters1.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,21 +86,11 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger.htm">General Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerbatchpr.htm">General Ledger Batch Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="collectorjob.htm">collectorJob</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger1.htm">General Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerbatchprocesses.htm">General Ledger Batch Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="detectmissingentriesjob.htm">detectMissingEntriesJob</a></div>
 <h4>Overview</h4>
-<p class="Illustration">The collectorJob processes files uploaded into the 
-gl/collectorXML or gl/collector directory. These files usually come from 
-Interdepartmental Billing units. If the files pass validation, they are 
-converted to the General Ledger file format and placed in the 
-staging/gl/originEntry directory for processing by the scrubberJob. </p>
-<p class="MsoBodyText">Pending financial transactions are validated against the 
-Chart of Accounts (which is where the organizational structure and accounts and 
-the detailed categories of financial transactions are defined). The Chart of 
-Accounts provides options for assigning attributes for sorting, summarizing and 
-reporting financial activity. Collector files go through the same validation and 
-Pre-<a onclick="return d2hpopup(event, this.href)" id="popup_477066" href="gloss_scrubber.htm">Scrubber</a> processes described below for the <a href="scrubberjob.htm">scrubberJob</a>.</p>
-<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
-<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image584_4.png" />      For information 
-about using the file batch upload function, see <a href="generalledgeruploadf.htm">General Ledger Upload Functions</a>.</p></div>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">This job compares the entries in the General Ledger to 
+approved <a onclick="return d2hpopup(event, this.href)" id="popup_481054" href="gloss_kuali1.htm">Kuali</a> Financials documents, including <a onclick="return d2hpopup(event, this.href)" id="popup_481053" href="gloss_laborledger1.htm">Labor Ledger</a> documents, and notifies specified 
+individuals if entries are missing for the document.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="normal"><a style="TEXT-DECORATION: none" href="parameters1.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Parameters</a></p></span></div></div></body></html>

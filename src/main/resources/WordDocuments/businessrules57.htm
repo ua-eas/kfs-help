@@ -86,43 +86,38 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="financialprocessing.htm">Financial Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="financialprocessingt.htm">Financial Processing Transaction 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="cashreceipt.htm">Cash Receipt</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview45.htm">Process Overview</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="financialprocessing1.htm">Financial Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="financialprocessingtransactiondocuments.htm">Financial Processing 
+Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="creditcardreceipt1.htm">Credit Card 
+Receipt</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview45.htm">Process 
+Overview</a></div>
 <h5>Business Rules</h5>
-<p class="Definition"> </p>
+<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Check 
-Amount</span></strong>, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Total Currency</span></strong>, 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Amount</span></strong>, 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Total Coin Amount 
-</span></strong>and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Change Request Total 
-</span></strong>must be zero or greater.</p>
+credit cards receipts total must be greater than zero.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Reconciliation Net 
-Total</span></strong> must be equal to the total of the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Accounting Lines 
+credit card receipt total must be equal to the total of the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Accounting Lines 
 </span></strong>tab.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Cash 
-Receipts posted to a cash equivalent (investment), receivable, and expense 
-objects require a negative accounting line to balance the document. The result 
-of the cash receipt is a reduction in these objects and an increase in the cash 
-offset.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Negative accounting line amounts are allowed.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>There 
 must be at least one accounting line in the document.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-CR document is one-sided. <a onclick="return d2hpopup(event, this.href)" id="popup_476695" href="gloss_kuali.htm">Kuali</a> Financials automatically 
+CCR document is one-sided. <a onclick="return d2hpopup(event, this.href)" id="popup_480690" href="gloss_kuali1.htm">Kuali</a> Financials automatically 
 generates the other side of the entry affecting the cash account, as defined by 
-the data entered into the document.</p>
+data entered into the document.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Parameters with Component Cash Receipt control allowed and disallowed 
-object codes on the Cash Receipt. </p>
-<p class="C1HBullet" style="tab-stops: 36.0pt"> </p>
+</span>Parameters with Component Credit Card Receipt control allowed and 
+disallowed object codes on the Credit Card Receipt. </p>
+<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
 <div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
-<p class="Note" style="MARGIN-TOP: 0pt"><img title="lightbolb-small" alt="lightbolb-small" src="../ImagesExt/image571_7.png" />      <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Making Corrections: 
-</span></strong>If a CR has been initiated and approved, but the accounting line 
-information was incorrect, use the General Error Correction (GEC) document to 
-make corrections. If the total amount of a CR is incorrect, use the Advance 
-Deposit (AD) document to make the correction.</p>
-<p class="Note" style="MARGIN-BOTTOM: 0pt"><a name="OLE_LINK6" id="OLE_LINK6"></a><a name="OLE_LINK1" id="OLE_LINK1"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image571_2.png" />      For more 
-information about the GEC and AD documents, see <a href="generalerrorcorrecti.htm">General Error Correction</a> and <a href="advancedeposit.htm">Advance Deposit</a>.</a></p></div>
+<p class="Note" style="MARGIN-TOP: 0pt"><img title="lightbolb-small" alt="lightbolb-small" src="../ImagesExt/image571_9.png" />      <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Making Corrections: 
+</span></strong>If a Credit Card Receipt has been initiated and approved, but 
+the accounting line information was incorrect, use the GEC document to make the 
+correction. If the total amount of a Credit Card Receipt is incorrect, use the 
+AD document to make the correction. If a credit card refund is made, use the AD 
+document to record the transaction.</p>
+<p class="Note" style="MARGIN-BOTTOM: 0pt"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image571_8.png" />      For more 
+information about the GEC and AD documents, see <a href="generalerrorcorrection.htm">General Error Correction</a> and <a href="advancedeposit1.htm">Advance Deposit</a>.</p></div>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="normal"><a style="TEXT-DECORATION: none" href="routing41.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>

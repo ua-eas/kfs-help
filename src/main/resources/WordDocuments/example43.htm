@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="postprocessing8.htm"></a><a id="D2HNextAnchor" href="purchaseorder.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processingapodocument.htm"></a><a id="D2HNextAnchor" href="performingotheractivitiesonapo.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,33 +86,39 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspa1.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspa3.htm">Purchasing / Accounts Payable Transaction 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="requisition.htm">Requisition</a></div>
-<h4>Example</h4>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayabletransactiondocuments.htm">Purchasing / Accounts 
+Payable Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+</span><a class="d2h_breadcrumbsNormal" href="purchaseorder1.htm">Purchase 
+Order</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview68.htm">Process 
+Overview</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processingapodocument.htm">Processing a PO 
+Document</a></div>
+<h6>Example</h6>
 <p class="MsoBodyText"> </p>
-<p class="MsoBodyText">A departmental user wants to order cleaning supplies from a 
-vendor from whom he or she has ordered supplies in the past. The user would like 
-these supplies to be charged to account 1031400 and is using the catalog number 
-and price for the products from a previous order.</p>
+<p class="MsoBodyText">A departmental user created a requisition document which 
+was then assigned a <a onclick="return d2hpopup(event, this.href)" id="popup_481925" href="gloss_contractmanager1.htm">contract manager</a> using the 
+Contract Manager Assignment (ACM) document. Now the contract manager or 
+representative searches for the resulting PO and completes the processing of the 
+order.</p>
 <p class="MsoBodyText"> </p>
-<p class="MsoBodyText">The initiator searches for the vendor and completes the 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Items</span></strong> 
-section with the information on hand. Adjustments may need to be made to this 
-information when the requisition ultimately becomes a PO. The user indicates on 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Accounting 
-Lines</span></strong> section for the items that they are to be charged to 
-account 1031400 and object code 5000. The initiator also enters information 
-indicating where the goods are to be delivered on the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Delivery</span></strong> tab and 
-additional information about the user creating the requisition on 
-the<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"> Additional 
-Institutional Info </span></strong>tab.</p>
+<p class="MsoBodyText">When the contract manager initially opens the PO, the new 
+PO is in a PO status of In Process. The contract manager or representative 
+checks the information carefully, makes any needed changes, and indicates where 
+additional information is required. When all of the information passes 
+inspection, the contract manager assigns a value to the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Vendor Choice</span></strong> field 
+on the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Vendor 
+</span></strong>tab and submits the document. </p>
 <p class="MsoBodyText"> </p>
-<p class="MsoBodyText">The requisition is completed by user khuntley. Routing 
-workflow sends the requisition to a <a onclick="return d2hpopup(event, this.href)" id="popup_477902" href="gloss_fiscalofficer.htm">fiscal officer</a> for approval. After the fiscal 
-officer picks the requisition up from his or her action list and approves the 
-requisition, the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"><a onclick="return d2hpopup(event, this.href)" id="popup_477903" href="gloss_routelog.htm"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Route 
-Log</span></strong></a></span></strong> is updated to show that the actions 
-taken include the fiscal officer's approval.</p>
+<p class="MsoBodyText">The system updates G/L pending ledger entries after the 
+contract manager submits the PO document. These pending ledger entries include 
+the encumbrances for the transaction and the appropriate offsetting entry.</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">After the document routes for approval, it is in a PO 
+status of Pending Print or Open. Now the order may be selected again, in which 
+case the system displays new options, including the option to print the PO.</p>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">After the PO document has been submitted and has a document 
+status of FINAL, receiving documents, payment requests, and credit memos may be 
+processed against it.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="purchaseorder.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Purchase 
-Order</a></p></span></div></div></body></html>
+<p class="normal"><a style="TEXT-DECORATION: none" href="performingotheractivitiesonapo.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Performing Other Activities on a 
+PO</a></p></span></div></div></body></html>

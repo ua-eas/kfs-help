@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="accountingchangecode.htm"></a><a id="D2HNextAnchor" href="achbank.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="achbank1.htm"></a><a id="D2HNextAnchor" href="achtransactioncode1.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,32 +86,112 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="predisbursementproce1.htm">Pre-Disbursement Processor</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="predisbursementproce3.htm">Pre-Disbursement Processor Attribute 
-Maintenance Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="accountingchangecode.htm">Accounting 
-Change Code</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="predisbursementprocessor.htm">Pre-Disbursement Processor</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="predisbursementprocessorattributemaintenancedocuments.htm">Pre-Disbursement 
+Processor Attribute Maintenance Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="achbank1.htm">ACH Bank</a></div>
 <h4>Document Layout</h4>
 <p class="MsoBodyText"> </p>
-<p class="TableHeading">Accounting Change Code field definitions</p>
+<p class="TableHeading">ACH Bank field definitions</p>
 <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="780" border="0">
   <tbody>
   <tr>
     <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
       <p class="TableCells">Title </p></td>
-    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; WIDTH: 274.3pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="457">
-      <p class="TableCells">Description</p></td></tr>
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Description </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
-      <p class="TableCells">Accounting Change Code</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 274.3pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="457">
-      <p class="TableCells">Display-only. Displays the unique code that identifies 
-      this particular accounting change.</p></td></tr>
+      <p class="TableCells">Active Indicator</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Indicates whether this ACH bank code is active or 
+      inactive. Remove the check mark to deactivate code.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank City Name</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Required. The city associated with the street address 
+      for this bank.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank Data View Code</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Optional. The bank's data view code.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank Institution Status Code</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">The bank's institution status code.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank Name</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Required. The bank name.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank New Routing Number</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Required. The bank new routing number.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank Office Code</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Required. The bank office code for this bank. Existing 
+      codes may be retrieved from <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">the 
+    list.</span></strong></p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank Phone Area Code</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Required. The area code for the bank's phone 
+      number.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank Phone Prefix Number</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Required. The three-digit prefix of the bank's phone 
+      number.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank Phone Suffix Number</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Required. The four-digit suffix of the bank's phone 
+      number.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank Routing Number </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">The routing number for this bank.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank Service Number</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Required. The bank service number.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank Street Address</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Required. The street mailing address for this 
+    bank.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Bank Zip Code</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Required. The zip code associated with this bank's 
+      mailing address. Existing postal zip codes may be retrieved from 
+      the<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"> 
+      </span></strong>lookup icon.</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
+      <p class="TableCells">Record Type Code</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Required. The record type code for this bank. Existing 
+      codes may be retrieved from <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">the 
+    list.</span></strong></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="180">
-      <p class="TableCells">Accounting Change Name</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 274.3pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="457">
-      <p class="TableCells">Required. Enter a name that accurately describes this 
-      accounting change.</p></td></tr></tbody></table>
+      <p class="TableCells">State Abbreviation</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="448">
+      <p class="TableCells">Required. The state associated with this bank's 
+      mailing address. Existing state abbreviations may be retrieved by using 
+      the lookup icon.</p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="achbank.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />ACH 
-Bank</a></p></span></div></div></body></html>
+<p class="normal"><a style="TEXT-DECORATION: none" href="achtransactioncode1.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />ACH Transaction Code</a></p></span></div></div></body></html>

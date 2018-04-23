@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN CAM Source.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN COA Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -86,148 +86,41 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme.htm">Capital Asset Management</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="capitalassetmanageme3.htm">Capital Asset Management Transaction 
-Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspa.htm">Purchasing/Accounts 
-Payable Transactions Lookup</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="chartofaccounts1.htm">Chart of Accounts</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="chartofaccountsdocuments.htm">Chart of Accounts Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="account1.htm">Account</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
 </span><a class="d2h_breadcrumbsNormal" href="processoverview27.htm">Process 
 Overview</a></div>
 <h5>Business Rules</h5>
-<p class="MsoNormal"> </p>
+<p class="MsoBodyText">The Employee Type for the <a onclick="return d2hpopup(event, this.href)" id="popup_479938" href="gloss_fiscalofficer1.htm">Fiscal Officer</a>, <a onclick="return d2hpopup(event, this.href)" id="popup_479936" href="gloss_accountsupervisor1.htm">Account Supervisor</a>, and <a onclick="return d2hpopup(event, this.href)" id="popup_479937" href="gloss_accountmanager1.htm">Account Manager</a> must be P (Professional) 
+and the Employee Status must be A (Active).</p>
+<p class="MsoBodyText">The following rules apply to closing an account: </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>You 
+must select the account closed indicator.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Trade-in</span></strong></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The trade-in allowances are 
-applied only to line items whose <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Assigned to Trade In</span></strong> 
-indicator is set to Y.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Trade-in allowances must be 
-allocated before combining line items that have a trade-in indicator with those 
-that do not. A system edit stops the user if an attempt is made to combine line 
-items before the trade-in allowance is allocated.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If the payment request does 
-not have a trade-in allowance and does have a line item with the trade-in 
-indicator checked, an edit presents a warning asking if the user wants to 
-combine items that do/dont have a trade-in indicator. This warning is presented 
-because the trade-in allowance may have already been processed on another 
-invoice. The warning prompts the user to verify whether he or she is waiting for 
-a trade-in allowance before creating/modifying an existing asset.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Line items that have a 
-trade-in indicator set to N can be processed before the trade-in allowance is 
-allocated.</p>
+</span>Account expiration date must be equal to or greater than the current date 
+unless back dating is allowed by the EXPIRATION_DATE_BACKDATING_FUND_GROUPS 
+parameter.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Merging</span></strong></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If a trade-in allowance exists 
-on the purchase order, merge all cannot be used until the trade-in allowance is 
-allocated separately.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>A purchase order with lines 
-that have a trade-in indicator checked may be invoiced without a trade-in 
-allowance. When a payment request does not have a trade-in allowance, the CAB 
-processor is allowed to merge a line with a trade-in indicator. The user is 
-presented with a warning asking whether he or she wants to continue.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If no pre-asset tagging data 
-exists, line items can be merged.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If one line item is pre-asset 
-tagged, merge all is allowed. However, the pre-asset tagging information 
-overrides the PO information and is assigned to the target line.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If more than one line is 
-pre-asset tagged, line items cannot be merged.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>When merging line items, the 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;; FONT-WEIGHT: normal">Selected</span></strong> 
-box must be checked for the line items that are to be combined.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>When merging line items, a 
-quantity is required in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;; FONT-WEIGHT: normal">How many 
-assets</span></strong> field.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>When merging line items, a 
-system description is required.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The target line for the merge 
-is the first selected line item.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Split</span></strong></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The split quantity must be 
-less than the quantity invoiced. The system allows users to split a fractional 
-quantity.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Percent 
-Payment</span></strong></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Percent payment is displayed 
-on the line item only if this line item has a fractional quantity.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><strong><span style="FONT-FAMILY: Symbol; FONT-WEIGHT: normal"><span style="FONT-FAMILY: Verdana">•</span>      
-</span></strong><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Create 
-Asset</span></strong></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If Pre-asset tagging 
-information exists, the acquisition type code is set to the value defined in 
-parameter PRE_TAGGING_ACQUISITION_CODE. If Pre-asset tagging information does 
-not exist, the acquisition type code is set to the value defined in 
-NEW_ACQUISITION_CODE.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If the line item has been 
-pre-asset tagged, the asset type code is populated from the Pre-Asset Tagging 
-table. If no pre-asset tagging information exists and the Purchasing and 
-Accounts Payable <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Capital Asset System 
-Type</span></strong> is Individual or One System, the asset type is populated 
-from the capital asset information collected in the Purchasing and Accounts 
-Payable module. Pre-asset tagging information takes precedence over Purchasing 
-and Accounts Payable asset information. The asset type code is editable and is 
-required and validated. </p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>When creating an asset, the 
-system assigns the next asset number available. An asset number is required, and 
-the numeric format is validated. For assets created from CAB, the asset number 
-is assigned when the Global Asset (Add) document is opened.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The vendor is assigned from 
-the purchase order vendor.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The total cost is 
-system-assigned and view-only.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Apply Payment 
-validation</span></strong></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>The system compares the object 
-codes on the payments that have already been applied to the asset to those on 
-the payment being saved. If the object codes are not in the same asset category, 
-the system generates a warning message.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Lock</span></strong> (prevents other 
-actions from taking place until the payment is posted):</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>An active valid asset number 
-in CAB is locked until the line item is processed. Consequently, a transfer, 
-retirement, merge, add payment, or separate transaction cannot be processed 
-against the asset by the user until the line item has been fully processed in 
-CAB. A document is considered fully processed when the Add Payment or Asset 
-Global (Add) document has a status of processed or final.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Merging a line item with an 
-asset number unlocks the asset.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Creating an asset for a line 
-item with an asset number unlocks the asset.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Credit memo for 
-a payment request</span></strong></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>When a credit memo is for a 
-given payment request number, the credit memo number and the payment request 
-number are displayed in the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">PREQ</span></strong> field.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Apply 
-payment</span></strong></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>When the CAM transaction type 
-is modify existing or fabrication, the asset(s) number may be provided on the 
-requisition or purchase order. If asset numbers exist they will be loaded into 
-CAB and displayed on the processing document.</p>
-<div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 0pt 9pt 36pt; PADDING-RIGHT: 0pt">
-<p class="Noteindented" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt; MARGIN-LEFT: 27pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image556_1.png" />    Parameters starting with 
-CHART_REQUIRING determine if asset numbers are required on either the 
-Requisition and/or Purchase Order.</p></div>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>If an asset number is on the 
-processing document when the user adds a payment, the Asset Payment document 
-opens and is populated with information from the existing asset. In this case, 
-the user is simply adding a payment record to the asset. This function brings 
-the payment amount over from the financial record.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Nightly batch 
-processes that prepare transactions for the Capital Asset Builder 
-processes</span></strong></p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Nightly out collects the 
-documents.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span><a onclick="return d2hpopup(event, this.href)" id="popup_475834" href="gloss_scrubber.htm">Scrubber</a> creates the plant fund entries.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span><a onclick="return d2hpopup(event, this.href)" id="popup_475835" href="gloss_poster.htm">Poster</a> moves the pending entries, including plant 
-fund, to posted entries.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Clear pending entries clears 
-them from the various documents.</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>CAB extract creates the 
-entries for CAB.</p>
+</span>Account expiration date cannot be before the Account Effective Date. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A 
+continuation account number must be provided.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+account must meet all the following criteria:</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>expires on or before the 
+current date</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>has no budget balance</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>has no pending ledger 
+entries</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>has no pending labor 
+entries</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>PE encumbrances net to zero 
+for the account. </p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>IE and EX encumbrances net to 
+zero for the same reference number.</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>has no asset, liability, or 
+fund balances other than the fund balance object code defined for this accounts 
+chart and the process of closing income and expense into fund balance must take 
+the fund balance to zero.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
+roles with permission Edit Inactive Account can reopen a closed account.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="normal"><a style="TEXT-DECORATION: none" href="routing22.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Routing</a></p></span></div></div></body></html>

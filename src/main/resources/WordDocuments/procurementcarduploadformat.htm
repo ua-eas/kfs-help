@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html><head><title>Procurement Card Upload Format</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/FIN FP Source.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.758" />
+<meta name="D2HTheme" content="(Default) v.155" />
+</head>
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 7px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #535353" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="procurementcardupload.htm"></a><a id="D2HNextAnchor" href="generalledger1.htm"></a></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="financialprocessing1.htm">Financial Processing</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="financialprocessinguploadfunctions.htm">Financial Processing Upload 
+Functions</a></div>
+<h3>Procurement Card Upload Format</h3>
+<p class="MsoBodyText"> </p>
+<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
+<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image571_2.png" />      For information 
+on procedures and formatting rules that apply to all <a onclick="return d2hpopup(event, this.href)" id="popup_480989" href="gloss_kuali1.htm">Kuali</a> Financials batch uploads, see <a href="batchuploadbasics1.htm">Batch Upload Basics</a>.</p></div>
+<p class="MsoBodyText"> </p>
+<p class="MsoBodyText">Keep the following points in mind:</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+procurement card file must begin with the standard XML version line. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+root (first) tag for PCDO files must be the procurementCardTransactions tag, and 
+the file must contain only one procurementCardTransactions tag. This tag also 
+contains attributes that identify the schema to which the document adheres.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Following the procurementCardTransactions tag must be the transaction 
+ tag. This tag contains other identifier tags that describe a procurement 
+card transaction. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+sequence of  transaction tags can repeat one or more times. </p>
+<p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
+<p class="TableHeading" style="MARGIN-RIGHT: 0pt">Procurement card format</p>
+<table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; MARGIN-LEFT: 5.4pt; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1">
+  <tbody>
+  <tr>
+    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <p class="TableCells">Name</p></td>
+    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Type</p></td>
+    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">Max Size</p></td>
+    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">Required?</p></td>
+    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Special Formatting</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 473.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="789" colspan="5">
+      <p class="TableCells"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;">Transaction</span></strong></p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <p class="TableCells">transactionCreditCardNumber</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">16</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <p class="TableCells">financialDocumentTotalAmount</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Decimal</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Money format (2 decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionDebitCreditCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">1</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Must have value D or C</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">chartOfAccountsCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">2</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">accountNumber</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">7</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">financialObjectCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">4</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">financialSubObjectCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">3</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">projectCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionCycleStartDate</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">YYYY-MM-DD format</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionCycleEndDate</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">YYYY-MM-DD format</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardHolderName</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">35</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionDate</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">Yes</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">YYYY-MM-DD format</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionReferenceNumber</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">21</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionMerchantCategoryCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">4</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionPostingDate</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Date</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">YYYY-MM-DD format</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionOriginalCurrencyCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">3</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionBillingCurrencyCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">3</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionOriginalCurrencyAmount</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Decimal</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Money Format (2 decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionCurrencyExchangeRate</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Decimal</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Money Format (2 decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionSettlementAmount</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Decimal</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Money Format (2 decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionSalesTaxAmount</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Decimal</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Money Format (2 decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionTaxExemptIndicator</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">1</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Must have value Y or N</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionPurchaseIdentifierIndicator</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">1</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Must have value Y or N</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionPurchaseIdentifierDescription</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">25</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionUnitContactName</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">35</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionTravelAuthorizationCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">50</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">transactionPointOfSaleCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">25</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">vendorName</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">45</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">vendorLine1Address</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">45</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">vendorLine2Address</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">45</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">vendorCityName</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">45</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">vendorStateCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">2</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Must be 2 characters</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">vendorZipCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">20</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">vendorOrderNumber</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">12</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">visaVendorIdentifier</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">16</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardHolderAlternateName</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">45</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardHolderLine1Address</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">45</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr style="HEIGHT: 38.65pt">
+    <td style="BORDER-TOP: medium none; HEIGHT: 38.65pt; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardHolderLine2Address</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; HEIGHT: 38.65pt; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; HEIGHT: 38.65pt; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">45</p></td>
+    <td style="BORDER-TOP: medium none; HEIGHT: 38.65pt; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; HEIGHT: 38.65pt; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardHolderCityName</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">45</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardHolderStateCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">2</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Must be 2 characters</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardHolderZipCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">20</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardHolderWorkPhoneNumber</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">10</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardLimit</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Decimal</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Money format (2 decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardCycleAmountLimit</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Decimal</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Money format (2 decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardCycleVolumeLimit</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Decimal</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells"> </p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells">Money format (2 decimal places)</p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardStatusCode</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">2</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr>
+  <tr>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 236.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="394">
+      <table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr style="HEIGHT: 9pt">
+          <td style="HEIGHT: 9pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top">
+            <p class="TableCells">cardNoteText</p></td></tr></tbody></table>
+      <p class="TableCells"></p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 67.55pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="113">
+      <p class="TableCells">Characters</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 35.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="59">
+      <p class="TableCells">50</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 57pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="95">
+      <p class="TableCells">No</p></td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 77.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="129">
+      <p class="TableCells"> </p></td></tr></tbody></table>
+<p class="MsoBodyText"></p>
+<p class="RelatedHead">More:</p><span id="related-topics">
+<p class="normal"><a style="TEXT-DECORATION: none" href="generalledger1.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />General 
+Ledger</a></p></span></div></div></body></html>
