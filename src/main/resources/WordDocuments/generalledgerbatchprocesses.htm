@@ -124,7 +124,7 @@ on demand during testing or when needed. Unless noted, all jobs are scheduled.
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 250.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="417">
       <p class="TableCells">This job clears the general ledger pending entries 
       from the documents that are in an approved or processed state when this 
-      job is run. This job is run after the <a onclick="return d2hpopup(event, this.href)" id="popup_485016" href="gloss_poster1.htm">Poster</a> job. </p></td></tr>
+      job is run. This job is run after the <a onclick="return d2hpopup(event, this.href)" id="popup_491191" href="gloss_poster1.htm">Poster</a> job. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 220.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="368">
       <p class="TableCells"><a href="collectorjob1.htm">collectorJob</a></p></td>
@@ -138,7 +138,7 @@ on demand during testing or when needed. Unless noted, all jobs are scheduled.
       <p class="TableCells"><a href="detectmissingentriesjob.htm">detectMissingEntriesJob</a></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 250.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="417">
       <p class="TableCells">This job compares the entries in the General Ledger to 
-      approved <a onclick="return d2hpopup(event, this.href)" id="popup_485017" href="gloss_kuali1.htm">Kuali</a> Financials documents and notifies 
+      approved <a onclick="return d2hpopup(event, this.href)" id="popup_491192" href="gloss_kuali1.htm">Kuali</a> Financials documents and notifies 
       specified individuals if entries are missing for the document. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 220.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="368">
@@ -167,7 +167,7 @@ on demand during testing or when needed. Unless noted, all jobs are scheduled.
       <p class="TableCells">This unscheduled job purges data from the General 
       Ledger Account Balances, ID Billing Detail, Encumbrances, Entry and 
       Sufficient Funds Balances tables prior to the year listed in parameters 
-      PRIOR_TO_YEAR; <a onclick="return d2hpopup(event, this.href)" id="popup_485011" href="gloss_namespacecode1.htm">namespace code</a>  
+      PRIOR_TO_YEAR; <a onclick="return d2hpopup(event, this.href)" id="popup_491186" href="gloss_namespacecode1.htm">namespace code</a>  
       is KFS-GL.</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 220.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="368">
@@ -192,11 +192,11 @@ on demand during testing or when needed. Unless noted, all jobs are scheduled.
       <p class="TableCells"><a href="organizationreversionjobs.htm">organizationReversionCurrentYearAccountJob</a></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 250.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="417">
       <p class="TableCells">This unscheduled yearend job runs against the current 
-      year account table to create organization reversion and <a onclick="return d2hpopup(event, this.href)" id="popup_485012" href="gloss_carryforward1.htm">carryforward</a> entries. The file is 
+      year account table to create organization reversion and <a onclick="return d2hpopup(event, this.href)" id="popup_491187" href="gloss_carryforward1.htm">carryforward</a> entries. The file is 
       placed in the staging/gl/OriginEntry directory and can be viewed via the 
       <a href="batchfile1.htm">Batch File</a> and loaded for processing via the 
       <a href="generalledgercorrectionprocess.htm">General Ledger Correction 
-      Process</a>. Typically run prior to <a onclick="return d2hpopup(event, this.href)" id="popup_485013" href="gloss_fiscalyear1.htm">fiscal year</a> end. </p></td></tr>
+      Process</a>. Typically run prior to <a onclick="return d2hpopup(event, this.href)" id="popup_491188" href="gloss_fiscalyear1.htm">fiscal year</a> end. </p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 220.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="368">
       <p class="TableCells"><a href="organizationreversionjobs.htm">organizationReversionPriorYearAccountJob</a></p></td>
@@ -229,7 +229,7 @@ on demand during testing or when needed. Unless noted, all jobs are scheduled.
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 250.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="417">
       <p class="TableCells">This job performs a final validation, updates the 
       balance tables and posts the transactions to the General Ledger. 
-      Reversing, ICR actuals and <a onclick="return d2hpopup(event, this.href)" id="popup_485014" href="gloss_encumbrance1.htm">encumbrance</a>, and bank 
+      Reversing, ICR actuals and <a onclick="return d2hpopup(event, this.href)" id="popup_491189" href="gloss_encumbrance1.htm">encumbrance</a>, and bank 
       offset entries are created and posted. Invalid transactions are demerged 
       and are available for correcting via the <a href="generalledgercorrectionprocess.htm">General Ledger Correction 
       Process</a>.</p></td></tr>
@@ -239,7 +239,7 @@ on demand during testing or when needed. Unless noted, all jobs are scheduled.
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 250.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="417">
       <p class="TableCells">This job does an initital validation, posts entries to 
       continuation accounts, generates offsets, creates capitalization, plant 
-      indebtedness, <a onclick="return d2hpopup(event, this.href)" id="popup_485015" href="gloss_costshare1.htm">cost share</a> transfers 
+      indebtedness, <a onclick="return d2hpopup(event, this.href)" id="popup_491190" href="gloss_costshare1.htm">cost share</a> transfers 
       actuals and encumbrances. Invalid transactions are demerged and are 
       available for correcting via the <a href="generalledgercorrectionprocess.htm">General Ledger Correction 
       Process</a>.</p></td></tr>

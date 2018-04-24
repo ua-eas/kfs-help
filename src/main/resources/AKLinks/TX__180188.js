@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__180188", [["WordDocuments/searchingforadocument1.htm", "right", "Searching for a Document"],["WordDocuments/usingdocumentsearchtofindadocument1.htm", "right", "Using Document Search to Find a Document"]]);
