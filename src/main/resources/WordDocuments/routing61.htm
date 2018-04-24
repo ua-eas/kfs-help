@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules84.htm"></a><a id="D2HNextAnchor" href="postprocessing7.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="businessrules81.htm"></a><a id="D2HNextAnchor" href="initiatingapurchaseorderreopendocument.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -88,53 +88,15 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayable.htm">Purchasing/Accounts Payable</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="purchasingaccountspayabletransactiondocuments.htm">Purchasing / Accounts 
 Payable Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
-</span><a class="d2h_breadcrumbsNormal" href="requisition1.htm">Requisition</a><span class="d2h_breadcrumbsLinkSeparator"> 
-&gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview67.htm">Process 
+</span><a class="d2h_breadcrumbsNormal" href="purchaseorderreopen.htm">Purchase 
+Order Reopen</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview75.htm">Process 
 Overview</a></div>
 <h5>Routing</h5>
-<p class="MsoBodyText"> </p>
-<p class="MsoBodyText">The requisition document routing includes the following 
-special condition routing in addition to the regular account review and 
-organization review hierarchy:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Content 
-routing</span></strong><em>:</em> This type of routing allows the initiator of a 
-requisition to route an incomplete document and have it completed by another 
-user. Content routing is optional and rules are created based on the Chart and 
-Organization values in the requisition’s<b> Requisition Detail </b>section of 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Document 
-Overview</span></strong> tab. A user who receives a document via content routing 
-has a request type of Complete for the document in his or her action list. This 
-user may open the document, complete it and send it into normal routing. Content 
-routing is most commonly used for the completion of accounting information.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Sub-account 
-review</span></strong><em></em><em></em><em>:</em> The requisition allows for 
-approvers to be defined at the sub-account level. If the requisition uses a 
-sub-account on its accounting lines, Workflow checks to see whether there is a 
-specified routing rule for this sub-account. Users can only approve/disapprove 
-the document at this level. Approvers cannot change content.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><em><span style="FONT-FAMILY: Symbol; FONT-STYLE: normal"><span style="FONT-FAMILY: Verdana">•</span>      
-</span></em><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"><a onclick="return d2hpopup(event, this.href)" id="popup_492038" href="gloss_fiscalofficer1.htm"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Fiscal officer</span></strong></a> 
-routing</span></strong><em>: </em>Approvers can modify and/or add accounting 
-lines for accounts that they own; the only other content that can be modified at 
-this level is the Org Document Number field.<em><span style="FONT-STYLE: normal"></span></em></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><em><span style="FONT-FAMILY: Symbol; FONT-STYLE: normal"><span style="FONT-FAMILY: Verdana">•</span>      
-</span></em><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Organization review 
-routing</span></strong><em>: </em>Optional route level to organizations for the 
-accounts set-up on the document based on the requisition amount total and 
-charts/orgs in use<em>.</em><em><span style="FONT-STYLE: normal"></span></em></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><em><span style="FONT-FAMILY: Symbol; FONT-STYLE: normal"><span style="FONT-FAMILY: Verdana">•</span>      
-</span></em><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Commodity 
-code review</span></strong>:  This route level is triggered if a commodity 
-code on any line item has been added to the Commodity Reviewer <a onclick="return d2hpopup(event, this.href)" id="popup_492039" href="gloss_role1.htm">role</a>. <em><span style="FONT-STYLE: normal"></span></em></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Separation of 
-duties</span></strong><em>:</em> This rule routes a requisition to a defined 
-central approver if the amount of the document exceeds an institutionally 
-defined threshold and there have been no approvers other than the document 
-initiator. This routing ensures that requisitions above a specified dollar 
-amount are approved by at least two users. Approvers can only 
-approve/disapprove. Approvers cannot change requisition content.</p>
+<p class="Definition"> </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+POR document may be initiated only by the members of the Purchasing Processor <a onclick="return d2hpopup(event, this.href)" id="popup_16306" href="gloss_role.htm">role</a>.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+document becomes FINAL when the POR document is submitted.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="postprocessing7.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Post-Processing</a></p></span></div></div></body></html>
+<p class="normal"><a style="TEXT-DECORATION: none" href="initiatingapurchaseorderreopendocument.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Initiating a Purchase Order Reopen 
+Document</a></p></span></div></div></body></html>

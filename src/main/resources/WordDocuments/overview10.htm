@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="scrubberjob1.htm"></a><a id="D2HNextAnchor" href="datavalidation2.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="posterjob.htm"></a><a id="D2HNextAnchor" href="mainposter.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,80 +86,25 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger1.htm">General Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerbatchprocesses.htm">General Ledger Batch Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="scrubberjob1.htm">scrubberJob</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger.htm">General Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerbatchprocesses.htm">General Ledger Batch Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="posterjob.htm">posterJob</a></div>
 <h4>Overview</h4>
-<p class="MsoBodyText">The scrubberJob performs the following primary 
-functions.</p>
+<p class="MsoBodyText">This process applies the pending ledger entries, including 
+any Financials-generated entries, to the General Ledger. The posterJob is made 
+up of several processes that post and generate transactions. <span style="FONT-FAMILY: &quot;TimesNewRoman&quot;,&quot;serif&quot;">The posting process occurs in the 
+following distinct phases (or modes) with several steps within each phase. 
+</span></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Main 
+<a onclick="return d2hpopup(event, this.href)" id="popup_15448" href="gloss_poster.htm">Poster</a></p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Validation of data: Includes the addition of some missing values, 
-validation against the Chart of Accounts, and the application of continuation 
-account logic.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Offset and entry generation: Includes document balancing, capitalization 
-of assets and liabilities, plant indebtedness, <a onclick="return d2hpopup(event, this.href)" id="popup_491357" href="gloss_costshare1.htm">cost share</a> transfers, and cost share 
-encumbrances.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Error 
-handling after the batch process: Identifies and de-merges errors to be 
-corrected using the <a href="generalledgercorrectionprocess.htm">General Ledger 
-Correction Process</a> document.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span></p>
-<p class="MsoBodyText">The following table briefly describes the functionality 
-performed by the scrubberJob. Each function is described in detail below.</p>
+</span>Reversal Poster</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>ICR 
+Poster</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>ICR 
+<a onclick="return d2hpopup(event, this.href)" id="popup_15447" href="gloss_encumbrance.htm">Encumbrance</a> Poster</p>
+<p class="MsoBodyText">The GL Posting process is represented in the following 
+diagram. </p>
 <p class="MsoBodyText"> </p>
-<p class="TableHeading">scrubberJob </p>
-<table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="735" border="0">
-  <tbody>
-  <tr style="HEIGHT: 22.55pt">
-    <td style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 22.55pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
-      <p class="TableCells">Process</p></td>
-    <td style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 22.55pt; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
-      <p class="TableCells">Description</p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
-      <p class="TableCells"><a href="datavalidation2.htm">Data 
-    Validation</a></p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
-      <p class="TableCells">Validates that data is accurate and complete prior to 
-      posting into the General Ledger. Missing and invalid values may also be 
-      completed in this step.</p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
-      <p class="TableCells"><a href="continuationaccount2.htm">Continuation 
-      Account</a></p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
-      <p class="TableCells">Expired or closed accounts are replaced with a 
-      continuation account when certain situations apply. </p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
-      <p class="TableCells"><a href="prescrubber2.htm">Pre-Scrubber</a></p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
-      <p class="TableCells">If accounts cannot be the same across charts and the 
-      chart code is missing, the pre-<a onclick="return d2hpopup(event, this.href)" id="popup_491358" href="gloss_scrubber1.htm">scrubber</a> will fill in the chart code 
-      associated with the account. </p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
-      <p class="TableCells"><a href="offsetgeneration1.htm">Offset 
-      Generation</a></p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
-      <p class="TableCells">Offsets will be created for transactions if offsets 
-      haven’t already been created to ensure the system is balanced. </p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
-      <p class="TableCells"><a href="transactiongeneration.htm">Transaction 
-      Generation</a></p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
-      <p class="TableCells">The scrubber also creates generates transactions to 
-      capitalize assets and liabilities, post plant indebtedness, cost share 
-      transfers and cost share encumbrances. </p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
-      <p class="TableCells"><a href="demerger1.htm">Demerger</a></p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
-      <p class="TableCells">The demerger removes any entries or offsets that are 
-      related to transactions with the same document number that had errors. 
-      This prevents unbalanced transactions from posting to the General Ledger. 
-      </p></td></tr></tbody></table>
-<p class="MsoBodyText"> </p>
+<p class="Illustration"><img src="../ImagesExt/image20_5.jpg" alt="" /></p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="datavalidation2.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Data 
-Validation</a></p></span></div></div></body></html>
+<p class="normal"><a style="TEXT-DECORATION: none" href="mainposter.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Main 
+Poster</a></p></span></div></div></body></html>

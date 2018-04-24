@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="offsetgeneration1.htm"></a><a id="D2HNextAnchor" href="parameters10.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="prescrubber.htm"></a><a id="D2HNextAnchor" href="parameters10.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -86,50 +86,15 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 //]]></script>
 </div>
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
-<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger1.htm">General Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerbatchprocesses.htm">General Ledger Batch Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="scrubberjob1.htm">scrubberJob</a><span class="d2h_breadcrumbsLinkSeparator"> 
-&gt; </span><a class="d2h_breadcrumbsNormal" href="offsetgeneration1.htm">Offset 
-Generation</a></div>
+<div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="generalledger.htm">General Ledger</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgerbatchprocesses.htm">General Ledger Batch Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="scrubberjob.htm">scrubberJob</a><span class="d2h_breadcrumbsLinkSeparator"> 
+&gt; </span><a class="d2h_breadcrumbsNormal" href="prescrubber.htm">Pre-Scrubber</a></div>
 <h5>Overview</h5>
 <p class="MsoBodyText"> </p>
-<p class="MsoBodyText">The scrubberJob also ensures that all transactions are 
-balanced, and it generates required offsets with an offset generation 
-process.</p>
-<p class="MsoBodyText"> </p>
-<p class="MsoBodyText">For transactions created via Financials documents, offsets 
-should already be in place by automatically generating any required offsets when 
-each document is submitted for approval. Prior to the batch process running, the 
-offset transaction lines (such as offsets to cash) may be viewed within the 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">General Ledger Pending 
-Entries</span></strong> tab of a transaction document.</p>
-<p class="MsoBodyText"> </p>
-<p class="MsoBodyText">Financials uses the Offset Definition table to define how 
-offsets should be generated for unbalanced transactions. This table uses 
-information from the unbalanced transaction (such as the <a onclick="return d2hpopup(event, this.href)" id="popup_491383" href="gloss_fiscalyear1.htm">fiscal year</a> and chart the transaction is being 
-posted to and the balance type and <a onclick="return d2hpopup(event, this.href)" id="popup_491382" href="gloss_documenttype1.htm">document type</a> associated with the 
-transaction) to determine the object code to assign to offset entries. 
-Transactions created in other systems may need to have offsets generated to 
-ensure a balanced transaction. </p>
-<p class="MsoBodyText">Offset transactions are generated in the following 
-cases:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-document type is not in the OFFSET_GENERATION_DOCUMENT_TYPES parameter.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<a onclick="return d2hpopup(event, this.href)" id="popup_491381" href="gloss_fiscalperiod1.htm">fiscal period</a> is not included in the 
-OFFSET_GENERATION_FISCAL_PERIODS parameter.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-otherwise eligible and the offset generation attribute for the Balance Type of 
-the pending entry is Y.</p>
-<p class="MsoBodyText">Normally, offsets are applied to the same account as the 
-transaction that generated the offset. </p>
-<p class="MsoBodyText">If the USE_FLEXIBLE_OFFSET_IND parameter is set to Y, then 
-offset entries can be posted to another specified account in order to 
-accommodate tracking offsets such as cash or liabilities in central designated 
-accounts as opposed to tracking such offset entries in every account. The Offset 
-Account document identifies the offset account for an offset object code and 
-account number combination.</p>
-<div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
-<p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image584_4.png" />      For more 
-information about offsets by account, see  <a href="offsetaccount1.htm">Offset Account</a>.</p></div>
+<p class="MsoBodyText">The <a onclick="return d2hpopup(event, this.href)" id="popup_15556" href="gloss_scrubber.htm">scrubber</a> includes a pre-scrubber 
+step that is used to complete the Chart Code for entries that do not contain 
+them. This process is only used if the parameter ACCOUNTS_CAN_CROSS_CHARTS_IND 
+is set to N, which prevents the same account from being used in multiple 
+charts.</p>
 <p class="MsoBodyText"> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="normal"><a style="TEXT-DECORATION: none" href="parameters10.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Parameters</a></p></span></div></div></body></html>
