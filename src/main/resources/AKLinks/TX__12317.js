@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__12317", [["WordDocuments/currencyandcoindetailtab1.htm", "right", "Currency and Coin Detail Tab"],["WordDocuments/currencyandcoindetailtab.htm", "right", "Currency and Coin Detail Tab"]]);

@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__13957", [["WordDocuments/cashieringtransactioncheckstab.htm", "right", "Cashiering Transaction Checks Tab"],["WordDocuments/cashieringtransactioncheckstab1.htm", "right", "Cashiering Transaction Checks Tab"]]);
