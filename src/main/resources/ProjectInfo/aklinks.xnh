@@ -2399,9 +2399,6 @@
                 <topic url="WordDocuments/contractmanager.htm" window="right"><![CDATA[Contract Manager]]></topic>
             </topics>
         </keyword>
-        <keyword name="contracts &amp; grants">
-            <topics />
-        </keyword>
         <keyword name="contracts and grants">
             <topics>
                 <topic url="WordDocuments/contractsandgrantscg.htm" window="right"><![CDATA[Contracts and Grants (CG)]]></topic>
@@ -5790,14 +5787,14 @@
                 <topic url="WordDocuments/routing18.htm" window="right"><![CDATA[Routing]]></topic>
             </topics>
         </keyword>
-        <keyword name="routing &amp; authorization document type hierarchy">
-            <topics>
-                <topic url="WordDocuments/routingandidentitymanagementdocumenttypehierarchy.htm" window="right"><![CDATA[Routing and Identity Management Document Type Hierarchy]]></topic>
-            </topics>
-        </keyword>
         <keyword name="routing a document">
             <topics>
                 <topic url="WordDocuments/routingadocument.htm" window="right"><![CDATA[Routing a Document]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="routing and authorization document type hierarchy">
+            <topics>
+                <topic url="WordDocuments/routingandidentitymanagementdocumenttypehierarchy.htm" window="right"><![CDATA[Routing and Identity Management Document Type Hierarchy]]></topic>
             </topics>
         </keyword>
         <keyword name="routing details, viewing">
