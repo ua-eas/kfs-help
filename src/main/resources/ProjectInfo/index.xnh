@@ -177,67 +177,67 @@
     </item>
     <item name="Accounts Receivable" id="13169">
         <topics />
-        <item name=" Cash Control document" id="15891">
+        <item name=" Cash Control document" id="16095">
             <topics>
                 <topic url="WordDocuments/cashcontrol.htm" window="right">Cash Control</topic>
             </topics>
         </item>
-        <item name=" Contracts and Grants Collection Activity document" id="15899">
+        <item name=" Contracts and Grants Collection Activity document" id="16103">
             <topics>
                 <topic url="WordDocuments/contractsgrantscollectionactivity.htm" window="right">Contracts &amp; Grants Collection Activity</topic>
             </topics>
         </item>
-        <item name=" Contracts and Grants Invoice lookup" id="15909">
+        <item name=" Contracts and Grants Invoice lookup" id="16113">
             <topics>
                 <topic url="WordDocuments/contractsgrantsinvoice.htm" window="right">Contracts &amp; Grants Invoice</topic>
             </topics>
         </item>
-        <item name=" Contracts and Grants LOC Review document" id="15930">
+        <item name=" Contracts and Grants LOC Review document" id="16134">
             <topics>
                 <topic url="WordDocuments/contractsgrantslocreview.htm" window="right">Contracts &amp; Grants LOC Review</topic>
             </topics>
         </item>
-        <item name=" Customer Credit Memo document" id="15939">
+        <item name=" Customer Credit Memo document" id="16143">
             <topics>
                 <topic url="WordDocuments/customercreditmemo.htm" window="right">Customer Credit Memo</topic>
             </topics>
         </item>
-        <item name=" Customer CSV Upload" id="16084">
+        <item name=" Customer CSV Upload" id="16288">
             <topics>
                 <topic url="WordDocuments/customercsvupload.htm" window="right">Customer CSV Upload</topic>
             </topics>
         </item>
-        <item name=" Customer Invoice document" id="15947">
+        <item name=" Customer Invoice document" id="16151">
             <topics>
                 <topic url="WordDocuments/customerinvoice.htm" window="right">Customer Invoice</topic>
             </topics>
         </item>
-        <item name=" Customer Invoice Writeoff document" id="15962">
+        <item name=" Customer Invoice Writeoff document" id="16166">
             <topics>
                 <topic url="WordDocuments/customerinvoicewriteoff.htm" window="right">Customer Invoice Writeoff</topic>
             </topics>
         </item>
-        <item name=" Customer Invoice Writeoff Lookup document" id="15975">
+        <item name=" Customer Invoice Writeoff Lookup document" id="16179">
             <topics>
                 <topic url="WordDocuments/customerinvoicewriteofflookup.htm" window="right">Customer Invoice Writeoff Lookup</topic>
             </topics>
         </item>
-        <item name=" Customer XML Upload option" id="16087">
+        <item name=" Customer XML Upload option" id="16291">
             <topics>
                 <topic url="WordDocuments/customerxmlupload.htm" window="right">Customer XML Upload</topic>
             </topics>
         </item>
-        <item name=" Final Billed Indicator document" id="15983">
+        <item name=" Final Billed Indicator document" id="16187">
             <topics>
                 <topic url="WordDocuments/finalbilledindicator.htm" window="right">Final Billed Indicator</topic>
             </topics>
         </item>
-        <item name=" Lockbox Upload" id="16090">
+        <item name=" Lockbox Upload" id="16294">
             <topics>
                 <topic url="WordDocuments/lockboxupload.htm" window="right">Lockbox Upload</topic>
             </topics>
         </item>
-        <item name=" Payment Application document" id="15993">
+        <item name=" Payment Application document" id="16197">
             <topics>
                 <topic url="WordDocuments/paymentapplication.htm" window="right">Payment Application</topic>
             </topics>
@@ -1331,12 +1331,12 @@
             <topic url="WordDocuments/billingaddress.htm" window="right">Billing Address</topic>
         </topics>
     </item>
-    <item name="Billing Frequency document" id="16025">
+    <item name="Billing Frequency document" id="16229">
         <topics>
             <topic url="WordDocuments/billingfrequency.htm" window="right">Billing Frequency</topic>
         </topics>
     </item>
-    <item name="Billing Statement" id="16010">
+    <item name="Billing Statement" id="16214">
         <topics>
             <topic url="WordDocuments/billingstatement.htm" window="right">Billing Statement</topic>
         </topics>
@@ -1473,57 +1473,57 @@
                 <topic url="WordDocuments/businessrules34.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name=" Cash Control document" id="15895">
+        <item name=" Cash Control document" id="16099">
             <topics>
                 <topic url="WordDocuments/businessrules3.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name=" Contracts and Grants Collection Activity document" id="15905">
+        <item name=" Contracts and Grants Collection Activity document" id="16109">
             <topics>
                 <topic url="WordDocuments/businessrules4.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name=" Cost Category" id="16041">
+        <item name=" Cost Category" id="16245">
             <topics>
                 <topic url="WordDocuments/businessrules11.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name=" Customer Credit Memo document" id="15943">
+        <item name=" Customer Credit Memo document" id="16147">
             <topics>
                 <topic url="WordDocuments/businessrules5.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name=" Customer Invoice document" id="15958">
+        <item name=" Customer Invoice document" id="16162">
             <topics>
                 <topic url="WordDocuments/businessrules6.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name=" Customer Invoice Writeoff document" id="15970">
+        <item name=" Customer Invoice Writeoff document" id="16174">
             <topics>
                 <topic url="WordDocuments/businessrules7.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name=" Customer Invoice Writeoff Lookup document" id="15979">
+        <item name=" Customer Invoice Writeoff Lookup document" id="16183">
             <topics>
                 <topic url="WordDocuments/businessrules8.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name=" Dunning Letter Template" id="16054">
+        <item name=" Dunning Letter Template" id="16258">
             <topics>
                 <topic url="WordDocuments/businessrules12.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name=" Final Billed Indicator document" id="15986">
+        <item name=" Final Billed Indicator document" id="16190">
             <topics>
                 <topic url="WordDocuments/businessrules9.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name=" Invoice Template" id="16059">
+        <item name=" Invoice Template" id="16263">
             <topics>
                 <topic url="WordDocuments/businessrules13.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name=" Payment Application document" id="16000">
+        <item name=" Payment Application document" id="16204">
             <topics>
                 <topic url="WordDocuments/businessrules10.htm" window="right">Business Rules</topic>
             </topics>
@@ -1618,7 +1618,7 @@
                 <topic url="WordDocuments/businessrules69.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Contracts and Grants Invoice document" id="15926">
+        <item name="Contracts and Grants Invoice document" id="16130">
             <topics>
                 <topic url="WordDocuments/businessrules87.htm" window="right">Business Rules</topic>
             </topics>
@@ -2103,31 +2103,31 @@
             <topic url="WordDocuments/cashbalances.htm" window="right">Cash Balances</topic>
         </topics>
     </item>
-    <item name="Cash Control document" id="15890">
+    <item name="Cash Control document" id="16094">
         <topics>
             <topic url="WordDocuments/cashcontrol.htm" window="right">Cash Control</topic>
         </topics>
-        <item name=" Cash Control tab" id="15893">
+        <item name=" Cash Control tab" id="16097">
             <topics>
                 <topic url="WordDocuments/cashcontroltab.htm" window="right">Cash Control Tab</topic>
             </topics>
         </item>
-        <item name=" General Info tab" id="15892">
+        <item name=" General Info tab" id="16096">
             <topics>
                 <topic url="WordDocuments/generalinfotab.htm" window="right">General Info Tab</topic>
             </topics>
         </item>
-        <item name=" routing" id="15896">
+        <item name=" routing" id="16100">
             <topics>
                 <topic url="WordDocuments/routing.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name="business rules" id="15894">
+        <item name="business rules" id="16098">
             <topics>
                 <topic url="WordDocuments/businessrules3.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="example" id="15897">
+        <item name="example" id="16101">
             <topics>
                 <topic url="WordDocuments/example.htm" window="right">Example</topic>
             </topics>
@@ -2135,7 +2135,7 @@
     </item>
     <item name="Cash Controls" id="13290">
         <topics />
-        <item name=" custom document search)" id="16002">
+        <item name=" custom document search)" id="16206">
             <topics>
                 <topic url="WordDocuments/cashcontrolsdocumentsearch.htm" window="right">Cash Controls Document Search</topic>
             </topics>
@@ -2471,17 +2471,17 @@
             <topic url="WordDocuments/expandallcollapseallbuttons.htm" window="right">Expand All /Collapse All Buttons</topic>
         </topics>
     </item>
-    <item name="Collection Activity Report" id="16011">
+    <item name="Collection Activity Report" id="16215">
         <topics>
             <topic url="WordDocuments/collectionactivityreport.htm" window="right">Collection Activity Report</topic>
         </topics>
     </item>
-    <item name="Collection Activity Type document" id="16032">
+    <item name="Collection Activity Type document" id="16236">
         <topics>
             <topic url="WordDocuments/collectionactivitytype.htm" window="right">Collection Activity Type</topic>
         </topics>
     </item>
-    <item name="Collection Event document" id="16033">
+    <item name="Collection Event document" id="16237">
         <topics>
             <topic url="WordDocuments/collectionevent.htm" window="right">Collection Event</topic>
         </topics>
@@ -2617,44 +2617,44 @@
             </topics>
         </item>
     </item>
-    <item name="Contracts and Grants Aging Report" id="16012">
+    <item name="Contracts and Grants Aging Report" id="16216">
         <topics>
             <topic url="WordDocuments/contractsgrantsagingreport.htm" window="right">Contracts &amp; Grants Aging Report</topic>
         </topics>
     </item>
-    <item name="Contracts and Grants Collection Activity" id="15898">
+    <item name="Contracts and Grants Collection Activity" id="16102">
         <topics>
             <topic url="WordDocuments/contractsgrantscollectionactivity.htm" window="right">Contracts &amp; Grants Collection Activity</topic>
         </topics>
     </item>
     <item name="Contracts and Grants Collection Activity document" id="13180">
         <topics />
-        <item name=" Award Information tab" id="15900">
+        <item name=" Award Information tab" id="16104">
             <topics>
                 <topic url="WordDocuments/awardinformationtab.htm" window="right">Award Information Tab</topic>
             </topics>
         </item>
-        <item name=" business rules" id="15904">
+        <item name=" business rules" id="16108">
             <topics>
                 <topic url="WordDocuments/businessrules4.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name=" example" id="15907">
+        <item name=" example" id="16111">
             <topics>
                 <topic url="WordDocuments/example1.htm" window="right">Example</topic>
             </topics>
         </item>
-        <item name=" List of Invoices tab" id="15902">
+        <item name=" List of Invoices tab" id="16106">
             <topics>
                 <topic url="WordDocuments/listofinvoicestab.htm" window="right">List of Invoices Tab</topic>
             </topics>
         </item>
-        <item name=" routing" id="15906">
+        <item name=" routing" id="16110">
             <topics>
                 <topic url="WordDocuments/routing1.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name="Global Collection Event tab" id="15901">
+        <item name="Global Collection Event tab" id="16105">
             <topics>
                 <topic url="WordDocuments/globalcollectioneventtab.htm" window="right">Global Collection Event Tab</topic>
             </topics>
@@ -2662,90 +2662,90 @@
     </item>
     <item name="Contracts and Grants Invoice" id="13208">
         <topics />
-        <item name=" business rules" id="15925">
+        <item name=" business rules" id="16129">
             <topics>
                 <topic url="WordDocuments/businessrules87.htm" window="right">Business Rules</topic>
             </topics>
         </item>
     </item>
-    <item name="Contracts and Grants Invoice Document" id="15912">
+    <item name="Contracts and Grants Invoice Document" id="16116">
         <topics>
             <topic url="WordDocuments/contractsgrantsinvoicedocument.htm" window="right">Contracts &amp; Grants Invoice Document</topic>
         </topics>
-        <item name=" Account Summary tab" id="15922">
+        <item name=" Account Summary tab" id="16126">
             <topics>
                 <topic url="WordDocuments/accountsummary.htm" window="right">Account Summary</topic>
             </topics>
         </item>
-        <item name=" Bills tab" id="15921">
+        <item name=" Bills tab" id="16125">
             <topics>
                 <topic url="WordDocuments/invoicetab.htm" window="right">Invoice Tab</topic>
             </topics>
         </item>
-        <item name=" Contracts and Grants Invoice LOC Review Initiation tab" id="15931">
+        <item name=" Contracts and Grants Invoice LOC Review Initiation tab" id="16135">
             <topics>
                 <topic url="WordDocuments/contractsgrantslocreviewinitiationtab.htm" window="right">Contracts &amp; Grants LOC Review Initiation Tab</topic>
             </topics>
         </item>
-        <item name=" General tab" id="15914">
+        <item name=" General tab" id="16118">
             <topics>
                 <topic url="WordDocuments/generaltab2.htm" window="right">General Tab</topic>
             </topics>
         </item>
-        <item name=" Invoice Details Tab" id="15919">
+        <item name=" Invoice Details Tab" id="16123">
             <topics>
                 <topic url="WordDocuments/invoicetab.htm" window="right">Invoice Tab</topic>
             </topics>
         </item>
-        <item name=" Invoice Suspension Categories tab" id="15923">
+        <item name=" Invoice Suspension Categories tab" id="16127">
             <topics>
                 <topic url="WordDocuments/invoicesuspensioncategoriestab.htm" window="right">Invoice Suspension Categories Tab</topic>
             </topics>
         </item>
-        <item name=" Invoice tab" id="15918">
+        <item name=" Invoice tab" id="16122">
             <topics>
                 <topic url="WordDocuments/invoicetab.htm" window="right">Invoice Tab</topic>
             </topics>
         </item>
-        <item name=" Milestones tab" id="15920">
+        <item name=" Milestones tab" id="16124">
             <topics>
                 <topic url="WordDocuments/invoicetab.htm" window="right">Invoice Tab</topic>
             </topics>
         </item>
-        <item name=" Organization tab" id="15913">
+        <item name=" Organization tab" id="16117">
             <topics>
                 <topic url="WordDocuments/organizationtab4.htm" window="right">Organization Tab</topic>
             </topics>
         </item>
-        <item name=" routing" id="15927">
+        <item name=" routing" id="16131">
             <topics>
                 <topic url="WordDocuments/routing65.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name=" Transmission Details tab" id="15924">
+        <item name=" Transmission Details tab" id="16128">
             <topics>
                 <topic url="WordDocuments/transmissiondetailstab.htm" window="right">Transmission Details Tab</topic>
             </topics>
         </item>
-        <item name="example" id="15928">
+        <item name="example" id="16132">
             <topics>
                 <topic url="WordDocuments/examples.htm" window="right">Examples</topic>
             </topics>
         </item>
     </item>
-    <item name="Contracts and Grants Invoice Document Error Log Report" id="16013">
+    <item name="Contracts and Grants Invoice Document Error Log Report" id="16217">
         <topics>
             <topic url="WordDocuments/contractsgrantsinvoicedocumenterrorlogreport.htm" window="right">Contracts &amp; Grants Invoice Document Error Log Report</topic>
         </topics>
     </item>
-    <item name="Contracts and Grants Invoice lookup" id="15908">
+    <item name="Contracts and Grants Invoice lookup" id="16112">
         <topics>
             <topic url="WordDocuments/contractsgrantsinvoice.htm" window="right">Contracts &amp; Grants Invoice</topic>
         </topics>
     </item>
     <item name="Contracts and Grants Invoice Lookup Search Results" id="13191">
         <topics />
-        <item name=" search results" id="15910">
+        <item name=" search results" id="16114">
             <topics>
                 <topic url="WordDocuments/contractsgrantsinvoicelookupsearchresults.htm" window="right">Contracts &amp; Grants Invoice Lookup Search Results</topic>
             </topics>
@@ -2753,7 +2753,7 @@
     </item>
     <item name="Contracts and Grants Invoice Summary document" id="13193">
         <topics />
-        <item name=" Contracts and Grants Invoice Summary" id="15911">
+        <item name=" Contracts and Grants Invoice Summary" id="16115">
             <topics>
                 <topic url="WordDocuments/contractsgrantsinvoicesummary.htm" window="right">Contracts &amp; Grants Invoice Summary</topic>
             </topics>
@@ -2761,7 +2761,7 @@
     </item>
     <item name="Contracts and Grants Invoices" id="13293">
         <topics />
-        <item name=" custom document search)" id="16004">
+        <item name=" custom document search)" id="16208">
             <topics>
                 <topic url="WordDocuments/contractsgrantsinvoicesdocumentsearch.htm" window="right">Contracts &amp; Grants Invoices Document Search</topic>
             </topics>
@@ -2769,7 +2769,7 @@
     </item>
     <item name="Contracts and Grants Letter of Credit Review" id="13216">
         <topics />
-        <item name=" document" id="15932">
+        <item name=" document" id="16136">
             <topics>
                 <topic url="WordDocuments/contractsgrantsletterofcreditreviewdocument.htm" window="right">Contracts &amp; Grants Letter of Credit Review Document</topic>
             </topics>
@@ -2777,33 +2777,33 @@
     </item>
     <item name="Contracts and Grants Letter of Credit Review document" id="13218">
         <topics />
-        <item name=" Award Accounts tab" id="15934">
+        <item name=" Award Accounts tab" id="16138">
             <topics>
                 <topic url="WordDocuments/awardaccountstab.htm" window="right">Award Accounts Tab</topic>
             </topics>
         </item>
-        <item name=" General tab" id="15933">
+        <item name=" General tab" id="16137">
             <topics>
                 <topic url="WordDocuments/generaltab3.htm" window="right">General Tab</topic>
             </topics>
         </item>
-        <item name=" post processing" id="15936">
+        <item name=" post processing" id="16140">
             <topics>
                 <topic url="WordDocuments/postprocessing8.htm" window="right">Post Processing</topic>
             </topics>
         </item>
-        <item name="business rules" id="15935">
+        <item name="business rules" id="16139">
             <topics>
                 <topic url="WordDocuments/businessrules88.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="example" id="15937">
+        <item name="example" id="16141">
             <topics>
                 <topic url="WordDocuments/example2.htm" window="right">Example</topic>
             </topics>
         </item>
     </item>
-    <item name="Contracts and Grants LOC Review document" id="15929">
+    <item name="Contracts and Grants LOC Review document" id="16133">
         <topics>
             <topic url="WordDocuments/contractsgrantslocreview.htm" window="right">Contracts &amp; Grants LOC Review</topic>
         </topics>
@@ -2839,26 +2839,26 @@
             <topic url="WordDocuments/correctionprocesstab.htm" window="right">Correction Process Tab</topic>
         </topics>
     </item>
-    <item name="Cost Category document" id="16034">
+    <item name="Cost Category document" id="16238">
         <topics>
             <topic url="WordDocuments/costcategory.htm" window="right">Cost Category</topic>
         </topics>
-        <item name=" Cost Category tab" id="16035">
+        <item name=" Cost Category tab" id="16239">
             <topics>
                 <topic url="WordDocuments/costcategorytab.htm" window="right">Cost Category Tab</topic>
             </topics>
         </item>
-        <item name=" Object Codes tab" id="16036">
+        <item name=" Object Codes tab" id="16240">
             <topics>
                 <topic url="WordDocuments/objectcodestab.htm" window="right">Object Codes Tab</topic>
             </topics>
         </item>
-        <item name=" Object Consolidations tab" id="16039">
+        <item name=" Object Consolidations tab" id="16243">
             <topics>
                 <topic url="WordDocuments/objectconsolidationstab.htm" window="right">Object Consolidations Tab</topic>
             </topics>
         </item>
-        <item name=" Object Levels tab" id="16037">
+        <item name=" Object Levels tab" id="16241">
             <topics>
                 <topic url="WordDocuments/objectlevelstab.htm" window="right">Object Levels Tab</topic>
             </topics>
@@ -2977,12 +2977,12 @@
     </item>
     <item name="Custom Document Searches" id="13087">
         <topics />
-        <item name=" Cash Controls)" id="16003">
+        <item name=" Cash Controls)" id="16207">
             <topics>
                 <topic url="WordDocuments/cashcontrolsdocumentsearch.htm" window="right">Cash Controls Document Search</topic>
             </topics>
         </item>
-        <item name=" Customer Credit Memos)" id="16006">
+        <item name=" Customer Credit Memos)" id="16210">
             <topics>
                 <topic url="WordDocuments/customercreditmemosdocumentsearch.htm" window="right">Customer Credit Memos Document Search</topic>
             </topics>
@@ -2998,12 +2998,12 @@
             </topics>
         </item>
     </item>
-    <item name="Customer Address Type document" id="16042">
+    <item name="Customer Address Type document" id="16246">
         <topics>
             <topic url="WordDocuments/customeraddresstype.htm" window="right">Customer Address Type</topic>
         </topics>
     </item>
-    <item name="Customer Aging Report" id="16014">
+    <item name="Customer Aging Report" id="16218">
         <topics>
             <topic url="WordDocuments/customeragingreport.htm" window="right">Customer Aging Report</topic>
         </topics>
@@ -3018,36 +3018,36 @@
             <topic url="WordDocuments/customercheckachtab.htm" window="right">Customer Check/ACH Tab</topic>
         </topics>
     </item>
-    <item name="Customer Credit Memo document" id="15938">
+    <item name="Customer Credit Memo document" id="16142">
         <topics>
             <topic url="WordDocuments/customercreditmemo.htm" window="right">Customer Credit Memo</topic>
         </topics>
-        <item name=" General tab" id="15940">
+        <item name=" General tab" id="16144">
             <topics>
                 <topic url="WordDocuments/generaltab.htm" window="right">General Tab</topic>
             </topics>
         </item>
-        <item name=" Items tab" id="15941">
+        <item name=" Items tab" id="16145">
             <topics>
                 <topic url="WordDocuments/itemstab.htm" window="right">Items Tab</topic>
             </topics>
         </item>
-        <item name=" post-processing" id="15945">
+        <item name=" post-processing" id="16149">
             <topics>
                 <topic url="WordDocuments/postprocessing.htm" window="right">Post Processing</topic>
             </topics>
         </item>
-        <item name=" routing" id="15944">
+        <item name=" routing" id="16148">
             <topics>
                 <topic url="WordDocuments/routing2.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name="business rules" id="15942">
+        <item name="business rules" id="16146">
             <topics>
                 <topic url="WordDocuments/businessrules5.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="example" id="15946">
+        <item name="example" id="16150">
             <topics>
                 <topic url="WordDocuments/example3.htm" window="right">Example</topic>
             </topics>
@@ -3055,7 +3055,7 @@
     </item>
     <item name="Customer Credit Memos" id="13295">
         <topics />
-        <item name=" custom document search)" id="16005">
+        <item name=" custom document search)" id="16209">
             <topics>
                 <topic url="WordDocuments/customercreditmemosdocumentsearch.htm" window="right">Customer Credit Memos Document Search</topic>
             </topics>
@@ -3063,234 +3063,234 @@
     </item>
     <item name="Customer CSV Upload" id="13380">
         <topics />
-        <item name="file format" id="16085">
+        <item name="file format" id="16289">
             <topics>
                 <topic url="WordDocuments/customercsvuploadformat.htm" window="right">Customer CSV Upload Format</topic>
             </topics>
         </item>
     </item>
-    <item name="Customer CSV Upload function" id="16083">
+    <item name="Customer CSV Upload function" id="16287">
         <topics>
             <topic url="WordDocuments/customercsvupload.htm" window="right">Customer CSV Upload</topic>
         </topics>
     </item>
-    <item name="Customer document" id="16026">
+    <item name="Customer document" id="16230">
         <topics>
             <topic url="WordDocuments/customer.htm" window="right">Customer</topic>
         </topics>
-        <item name=" Addresses tab" id="16030">
+        <item name=" Addresses tab" id="16234">
             <topics>
                 <topic url="WordDocuments/addressestab.htm" window="right">Addresses Tab</topic>
             </topics>
         </item>
-        <item name=" Collections tab" id="16031">
+        <item name=" Collections tab" id="16235">
             <topics>
                 <topic url="WordDocuments/collectionstab.htm" window="right">Collections Tab</topic>
             </topics>
         </item>
-        <item name=" Contact Information tab" id="16029">
+        <item name=" Contact Information tab" id="16233">
             <topics>
                 <topic url="WordDocuments/contactinformationtab.htm" window="right">Contact Information Tab</topic>
             </topics>
         </item>
-        <item name=" Corporate Information tab" id="16028">
+        <item name=" Corporate Information tab" id="16232">
             <topics>
                 <topic url="WordDocuments/corporateinformationtab.htm" window="right">Corporate Information Tab</topic>
             </topics>
         </item>
-        <item name=" General Information tab" id="16027">
+        <item name=" General Information tab" id="16231">
             <topics>
                 <topic url="WordDocuments/generalinformationtab.htm" window="right">General Information Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Customer History Report" id="16015">
+    <item name="Customer History Report" id="16219">
         <topics>
             <topic url="WordDocuments/customerhistoryreport.htm" window="right">Customer History Report</topic>
         </topics>
     </item>
-    <item name="Customer Invoice document" id="15915">
+    <item name="Customer Invoice document" id="16119">
         <topics>
             <topic url="WordDocuments/customerinvoice.htm" window="right">Customer Invoice</topic>
         </topics>
-        <item name=" Bill To Address section, Billing/Shipping tab" id="15954">
+        <item name=" Bill To Address section, Billing/Shipping tab" id="16158">
             <topics>
                 <topic url="WordDocuments/billtoaddresssection.htm" window="right">Bill To Address Section</topic>
             </topics>
         </item>
-        <item name=" Billing Summary section, General tab" id="15916">
+        <item name=" Billing Summary section, General tab" id="16120">
             <topics>
                 <topic url="WordDocuments/generaltab2.htm" window="right">General Tab</topic>
             </topics>
         </item>
-        <item name=" Billing/Shipping tab" id="15953">
+        <item name=" Billing/Shipping tab" id="16157">
             <topics>
                 <topic url="WordDocuments/billingshippingtab.htm" window="right">Billing/Shipping Tab</topic>
             </topics>
         </item>
-        <item name=" Customer Information section, General tab" id="15917">
+        <item name=" Customer Information section, General tab" id="16121">
             <topics>
                 <topic url="WordDocuments/customerinformationsection.htm" window="right">Customer Information Section</topic>
                 <topic url="WordDocuments/generaltab2.htm" window="right">General Tab</topic>
             </topics>
         </item>
-        <item name=" Detail Information section, General tab" id="15951">
+        <item name=" Detail Information section, General tab" id="16155">
             <topics>
                 <topic url="WordDocuments/detailinformationsection.htm" window="right">Detail Information Section</topic>
             </topics>
         </item>
-        <item name=" General tab" id="15950">
+        <item name=" General tab" id="16154">
             <topics>
                 <topic url="WordDocuments/generaltab1.htm" window="right">General Tab</topic>
             </topics>
         </item>
-        <item name=" Organization tab" id="15948">
+        <item name=" Organization tab" id="16152">
             <topics>
                 <topic url="WordDocuments/organizationtab.htm" window="right">Organization Tab</topic>
             </topics>
         </item>
-        <item name=" Recurrence Details tab" id="15949">
+        <item name=" Recurrence Details tab" id="16153">
             <topics>
                 <topic url="WordDocuments/recurrencedetailstab.htm" window="right">Recurrence Details Tab</topic>
             </topics>
         </item>
-        <item name=" routing" id="15959">
+        <item name=" routing" id="16163">
             <topics>
                 <topic url="WordDocuments/routing3.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name=" Ship To Address section, Billing/Shipping tab" id="15955">
+        <item name=" Ship To Address section, Billing/Shipping tab" id="16159">
             <topics>
                 <topic url="WordDocuments/shiptoaddresssection.htm" window="right">Ship To Address Section</topic>
             </topics>
         </item>
-        <item name=" Statement Information section, General tab" id="15952">
+        <item name=" Statement Information section, General tab" id="16156">
             <topics>
                 <topic url="WordDocuments/statementinformationsection.htm" window="right">Statement Information Section</topic>
             </topics>
         </item>
-        <item name="Accounting Lines tab" id="15956">
+        <item name="Accounting Lines tab" id="16160">
             <topics>
                 <topic url="WordDocuments/accountinglinestab1.htm" window="right">Accounting Lines Tab</topic>
             </topics>
         </item>
-        <item name="business rules" id="15957">
+        <item name="business rules" id="16161">
             <topics>
                 <topic url="WordDocuments/businessrules6.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="example" id="15960">
+        <item name="example" id="16164">
             <topics>
                 <topic url="WordDocuments/example4.htm" window="right">Example</topic>
             </topics>
         </item>
     </item>
-    <item name="Customer Invoice Item Code document" id="16043">
+    <item name="Customer Invoice Item Code document" id="16247">
         <topics>
             <topic url="WordDocuments/customerinvoiceitemcode.htm" window="right">Customer Invoice Item Code</topic>
         </topics>
-        <item name=" Billing Organization tab" id="16044">
+        <item name=" Billing Organization tab" id="16248">
             <topics>
                 <topic url="WordDocuments/billingorganizationtab.htm" window="right">Billing Organization Tab</topic>
             </topics>
         </item>
-        <item name=" Invoice Item Code tab" id="16045">
+        <item name=" Invoice Item Code tab" id="16249">
             <topics>
                 <topic url="WordDocuments/invoiceitemcodetab.htm" window="right">Invoice Item Code Tab</topic>
             </topics>
         </item>
-        <item name=" Item Code Default Account tab" id="16046">
+        <item name=" Item Code Default Account tab" id="16250">
             <topics>
                 <topic url="WordDocuments/itemcodedefaultaccounttab.htm" window="right">Item Code Default Account Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Customer Invoice Report" id="16016">
+    <item name="Customer Invoice Report" id="16220">
         <topics>
             <topic url="WordDocuments/customerinvoicereport.htm" window="right">Customer Invoice Report</topic>
         </topics>
     </item>
-    <item name="Customer Invoice Writeoff document" id="15961">
+    <item name="Customer Invoice Writeoff document" id="16165">
         <topics>
             <topic url="WordDocuments/customerinvoicewriteoff.htm" window="right">Customer Invoice Writeoff</topic>
         </topics>
-        <item name=" Customer Information section, Customer Invoice Summary tab" id="15967">
+        <item name=" Customer Information section, Customer Invoice Summary tab" id="16171">
             <topics>
                 <topic url="WordDocuments/customerinformationsection1.htm" window="right">Customer Information Section</topic>
             </topics>
         </item>
-        <item name=" Customer Invoice Summary tab" id="15965">
+        <item name=" Customer Invoice Summary tab" id="16169">
             <topics>
                 <topic url="WordDocuments/customerinvoicesummarytab.htm" window="right">Customer Invoice Summary Tab</topic>
             </topics>
         </item>
-        <item name=" Customer Invoice Writeoff Initiation tab" id="15963">
+        <item name=" Customer Invoice Writeoff Initiation tab" id="16167">
             <topics>
                 <topic url="WordDocuments/customerinvoicewriteoffinitiationtab.htm" window="right">Customer Invoice Writeoff Initiation Tab</topic>
             </topics>
         </item>
-        <item name=" Invoice Information section, Customer Invoice Summary tab" id="15966">
+        <item name=" Invoice Information section, Customer Invoice Summary tab" id="16170">
             <topics>
                 <topic url="WordDocuments/invoiceinformationsection.htm" window="right">Invoice Information Section</topic>
             </topics>
         </item>
-        <item name=" Invoice Items tab" id="15968">
+        <item name=" Invoice Items tab" id="16172">
             <topics>
                 <topic url="WordDocuments/invoiceitemstab.htm" window="right">Invoice Items Tab</topic>
             </topics>
         </item>
-        <item name=" main screen" id="15964">
+        <item name=" main screen" id="16168">
             <topics>
                 <topic url="WordDocuments/customerinvoicewriteoffdocumentmainscreen.htm" window="right">Customer Invoice Writeoff Document, Main Screen</topic>
             </topics>
         </item>
-        <item name=" post-processing" id="15972">
+        <item name=" post-processing" id="16176">
             <topics>
                 <topic url="WordDocuments/postprocessing1.htm" window="right">Post Processing</topic>
                 <topic url="WordDocuments/postprocessing3.htm" window="right">Post Processing</topic>
             </topics>
         </item>
-        <item name=" routing" id="15971">
+        <item name=" routing" id="16175">
             <topics>
                 <topic url="WordDocuments/routing4.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name="business rules" id="15969">
+        <item name="business rules" id="16173">
             <topics>
                 <topic url="WordDocuments/businessrules7.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="example" id="15973">
+        <item name="example" id="16177">
             <topics>
                 <topic url="WordDocuments/example5.htm" window="right">Example</topic>
             </topics>
         </item>
     </item>
-    <item name="Customer Invoice Writeoff Lookup document" id="15974">
+    <item name="Customer Invoice Writeoff Lookup document" id="16178">
         <topics>
             <topic url="WordDocuments/customerinvoicewriteofflookup.htm" window="right">Customer Invoice Writeoff Lookup</topic>
         </topics>
-        <item name=" Customer Invoice Writeoff Summary" id="15977">
+        <item name=" Customer Invoice Writeoff Summary" id="16181">
             <topics>
                 <topic url="WordDocuments/customerinvoicewriteoffsummary.htm" window="right">Customer Invoice Writeoff Summary</topic>
             </topics>
         </item>
-        <item name=" routing" id="15980">
+        <item name=" routing" id="16184">
             <topics>
                 <topic url="WordDocuments/routing5.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name=" search results" id="15976">
+        <item name=" search results" id="16180">
             <topics>
                 <topic url="WordDocuments/customerinvoicewriteoffsearchresults.htm" window="right">Customer Invoice Writeoff Search Results</topic>
             </topics>
         </item>
-        <item name="business rules" id="15978">
+        <item name="business rules" id="16182">
             <topics>
                 <topic url="WordDocuments/businessrules8.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="example" id="15981">
+        <item name="example" id="16185">
             <topics>
                 <topic url="WordDocuments/example6.htm" window="right">Example</topic>
             </topics>
@@ -3298,7 +3298,7 @@
     </item>
     <item name="Customer Invoice Writeoffs" id="13300">
         <topics />
-        <item name=" custom document search)" id="16008">
+        <item name=" custom document search)" id="16212">
             <topics>
                 <topic url="WordDocuments/customerinvoicewriteoffsdocumentsearch.htm" window="right">Customer Invoice Writeoffs Document Search</topic>
             </topics>
@@ -3306,7 +3306,7 @@
     </item>
     <item name="Customer Invoices" id="13298">
         <topics />
-        <item name=" document search)" id="16007">
+        <item name=" document search)" id="16211">
             <topics>
                 <topic url="WordDocuments/customerinvoicesdocumentsearch.htm" window="right">Customer Invoices Document Search</topic>
             </topics>
@@ -3332,20 +3332,20 @@
             </topics>
         </item>
     </item>
-    <item name="Customer Type document" id="16047">
+    <item name="Customer Type document" id="16251">
         <topics>
             <topic url="WordDocuments/customertype.htm" window="right">Customer Type</topic>
         </topics>
     </item>
     <item name="Customer XML Upload" id="13384">
         <topics />
-        <item name="file format" id="16088">
+        <item name="file format" id="16292">
             <topics>
                 <topic url="WordDocuments/customerxmluploadformat.htm" window="right">Customer XML Upload Format</topic>
             </topics>
         </item>
     </item>
-    <item name="Customer XML Upload option" id="16086">
+    <item name="Customer XML Upload option" id="16290">
         <topics>
             <topic url="WordDocuments/customerxmlupload.htm" window="right">Customer XML Upload</topic>
         </topics>
@@ -3902,31 +3902,31 @@
             <topic url="WordDocuments/detailinformationsection1.htm" window="right">Detail Information Section</topic>
         </topics>
     </item>
-    <item name="Dunning Campaign document" id="16048">
+    <item name="Dunning Campaign document" id="16252">
         <topics>
             <topic url="WordDocuments/dunningcampaign.htm" window="right">Dunning Campaign</topic>
         </topics>
-        <item name=" Dunning Campaign tab" id="16049">
+        <item name=" Dunning Campaign tab" id="16253">
             <topics>
                 <topic url="WordDocuments/dunningcampaigntab.htm" window="right">Dunning Campaign Tab</topic>
             </topics>
         </item>
-        <item name=" Dunning Letter Distribution tab" id="16050">
+        <item name=" Dunning Letter Distribution tab" id="16254">
             <topics>
                 <topic url="WordDocuments/dunningletterdistributiontab.htm" window="right">Dunning Letter Distribution Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Dunning Letter Template document" id="16051">
+    <item name="Dunning Letter Template document" id="16255">
         <topics>
             <topic url="WordDocuments/dunninglettertemplate.htm" window="right">Dunning Letter Template</topic>
         </topics>
-        <item name=" Dunning Letter Template tab" id="16053">
+        <item name=" Dunning Letter Template tab" id="16257">
             <topics>
                 <topic url="WordDocuments/dunninglettertemplatetab.htm" window="right">Dunning Letter Template Tab</topic>
             </topics>
         </item>
-        <item name="Organization tab" id="16052">
+        <item name="Organization tab" id="16256">
             <topics>
                 <topic url="WordDocuments/organizationtab1.htm" window="right">Organization Tab</topic>
             </topics>
@@ -4370,7 +4370,7 @@
             </topics>
         </item>
     </item>
-    <item name="Federal Financial Report" id="16017">
+    <item name="Federal Financial Report" id="16221">
         <topics>
             <topic url="WordDocuments/federalfinancialreport.htm" window="right">Federal Financial Report</topic>
         </topics>
@@ -4408,31 +4408,31 @@
             <topic url="WordDocuments/actionlistfilter.htm" window="right">Action List Filter</topic>
         </topics>
     </item>
-    <item name="Final Billed Indicator document" id="15982">
+    <item name="Final Billed Indicator document" id="16186">
         <topics>
             <topic url="WordDocuments/finalbilledindicator.htm" window="right">Final Billed Indicator</topic>
         </topics>
-        <item name=" Final Billed Indicator Entries tab" id="15984">
+        <item name=" Final Billed Indicator Entries tab" id="16188">
             <topics>
                 <topic url="WordDocuments/finalbilledindicatorentriestab.htm" window="right">Final Billed Indicator Entries Tab</topic>
             </topics>
         </item>
-        <item name=" post-processing" id="15988">
+        <item name=" post-processing" id="16192">
             <topics>
                 <topic url="WordDocuments/postprocessing2.htm" window="right">Post Processing</topic>
             </topics>
         </item>
-        <item name=" routing" id="15987">
+        <item name=" routing" id="16191">
             <topics>
                 <topic url="WordDocuments/routing6.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name="business rules" id="15985">
+        <item name="business rules" id="16189">
             <topics>
                 <topic url="WordDocuments/businessrules9.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="example" id="15989">
+        <item name="example" id="16193">
             <topics>
                 <topic url="WordDocuments/example7.htm" window="right">Example</topic>
             </topics>
@@ -4909,7 +4909,7 @@
     </item>
     <item name="Generate Dunning Letters Lookup Search Results" id="13276">
         <topics />
-        <item name=" search results" id="15990">
+        <item name=" search results" id="16194">
             <topics>
                 <topic url="WordDocuments/generatedunningletterslookupsearchresults.htm" window="right">Generate Dunning Letters Lookup Search Results</topic>
             </topics>
@@ -4917,7 +4917,7 @@
     </item>
     <item name="Generate Dunning Letters Summary document" id="13278">
         <topics />
-        <item name=" Generate Dunning Letters Summary" id="15991">
+        <item name=" Generate Dunning Letters Summary" id="16195">
             <topics>
                 <topic url="WordDocuments/generatedunningletterssummary.htm" window="right">Generate Dunning Letters Summary</topic>
             </topics>
@@ -5306,21 +5306,21 @@
             </topics>
         </item>
     </item>
-    <item name="Invoice Recurrence document" id="16055">
+    <item name="Invoice Recurrence document" id="16259">
         <topics>
             <topic url="WordDocuments/invoicerecurrence.htm" window="right">Invoice Recurrence</topic>
         </topics>
     </item>
-    <item name="Invoice Template document" id="16056">
+    <item name="Invoice Template document" id="16260">
         <topics>
             <topic url="WordDocuments/invoicetemplate.htm" window="right">Invoice Template</topic>
         </topics>
-        <item name="Invoice Template tab" id="16058">
+        <item name="Invoice Template tab" id="16262">
             <topics>
                 <topic url="WordDocuments/invoicetemplatetab.htm" window="right">Invoice Template Tab</topic>
             </topics>
         </item>
-        <item name="Organization tab" id="16057">
+        <item name="Organization tab" id="16261">
             <topics>
                 <topic url="WordDocuments/organizationtab2.htm" window="right">Organization Tab</topic>
             </topics>
@@ -5430,7 +5430,7 @@
             <topic url="WordDocuments/organizationreversionjobs.htm" window="right">organizationReversionJobs</topic>
         </topics>
     </item>
-    <item name="Letter of Credit Draw Report" id="16018">
+    <item name="Letter of Credit Draw Report" id="16222">
         <topics>
             <topic url="WordDocuments/letterofcreditdrawreport.htm" window="right">Letter of Credit Draw Report</topic>
         </topics>
@@ -5507,13 +5507,13 @@
     </item>
     <item name="Lockbox Upload" id="13388">
         <topics />
-        <item name=" file format" id="16091">
+        <item name=" file format" id="16295">
             <topics>
                 <topic url="WordDocuments/lockboxuploadformat.htm" window="right">Lockbox Upload Format</topic>
             </topics>
         </item>
     </item>
-    <item name="Lockbox Upload option" id="16089">
+    <item name="Lockbox Upload option" id="16293">
         <topics>
             <topic url="WordDocuments/lockboxupload.htm" window="right">Lockbox Upload</topic>
         </topics>
@@ -5528,7 +5528,7 @@
             <topic url="WordDocuments/logoupload.htm" window="right">Logo Upload</topic>
         </topics>
     </item>
-    <item name="Look Up / Add Multiple Invoices" id="15903">
+    <item name="Look Up / Add Multiple Invoices" id="16107">
         <topics>
             <topic url="WordDocuments/listofinvoicestab.htm" window="right">List of Invoices Tab</topic>
         </topics>
@@ -5539,12 +5539,12 @@
             <topic url="WordDocuments/objectcodestab.htm" window="right">Object Codes Tab</topic>
         </topics>
     </item>
-    <item name="Look Up / Add Multiple Object Consolidation Lines" id="16040">
+    <item name="Look Up / Add Multiple Object Consolidation Lines" id="16244">
         <topics>
             <topic url="WordDocuments/objectconsolidationstab.htm" window="right">Object Consolidations Tab</topic>
         </topics>
     </item>
-    <item name="Look Up / Add Multiple Object Level Lines" id="16038">
+    <item name="Look Up / Add Multiple Object Level Lines" id="16242">
         <topics>
             <topic url="WordDocuments/objectlevelstab.htm" window="right">Object Levels Tab</topic>
         </topics>
@@ -5610,7 +5610,7 @@
             <topic url="WordDocuments/messageoftheday.htm" window="right">Message of the Day</topic>
         </topics>
     </item>
-    <item name="Method of Invoice Transmission document" id="16060">
+    <item name="Method of Invoice Transmission document" id="16264">
         <topics>
             <topic url="WordDocuments/methodofinvoicetransmission.htm" window="right">Method of Invoice Transmission</topic>
         </topics>
@@ -5620,21 +5620,21 @@
             <topic url="WordDocuments/methodofpotransmission.htm" window="right">Method of PO Transmission</topic>
         </topics>
     </item>
-    <item name="Milestone Report" id="16019">
+    <item name="Milestone Report" id="16223">
         <topics>
             <topic url="WordDocuments/milestonereport.htm" window="right">Milestone Report</topic>
         </topics>
     </item>
-    <item name="Milestone Schedule document" id="16061">
+    <item name="Milestone Schedule document" id="16265">
         <topics>
             <topic url="WordDocuments/milestoneschedule.htm" window="right">Milestone Schedule</topic>
         </topics>
-        <item name=" Milestone Schedule tab" id="16062">
+        <item name=" Milestone Schedule tab" id="16266">
             <topics>
                 <topic url="WordDocuments/milestonescheduletab.htm" window="right">Milestone Schedule Tab</topic>
             </topics>
         </item>
-        <item name=" Milestones tab" id="16063">
+        <item name=" Milestones tab" id="16267">
             <topics>
                 <topic url="WordDocuments/milestonestab.htm" window="right">Milestones Tab</topic>
             </topics>
@@ -5877,26 +5877,26 @@
             </topics>
         </item>
     </item>
-    <item name="Organization Accounting Default document" id="16064">
+    <item name="Organization Accounting Default document" id="16268">
         <topics>
             <topic url="WordDocuments/organizationaccountingdefault.htm" window="right">Organization Accounting Default</topic>
         </topics>
-        <item name=" Organization Accounting Defaults tab" id="16065">
+        <item name=" Organization Accounting Defaults tab" id="16269">
             <topics>
                 <topic url="WordDocuments/organizationaccountingdefaultstab.htm" window="right">Organization Accounting Defaults Tab</topic>
             </topics>
         </item>
-        <item name=" Organization Income Account Defaults tab" id="16066">
+        <item name=" Organization Income Account Defaults tab" id="16270">
             <topics>
                 <topic url="WordDocuments/organizationincomeaccountdefaultstab.htm" window="right">Organization Income Account Defaults Tab</topic>
             </topics>
         </item>
-        <item name=" Organization Receivable Account Defaults tab" id="16067">
+        <item name=" Organization Receivable Account Defaults tab" id="16271">
             <topics>
                 <topic url="WordDocuments/organizationreceivableaccountdefaultstab.htm" window="right">Organization Receivable Account Defaults Tab</topic>
             </topics>
         </item>
-        <item name=" Organization Writeoff Account Defaults tab" id="16068">
+        <item name=" Organization Writeoff Account Defaults tab" id="16272">
             <topics>
                 <topic url="WordDocuments/organizationwriteoffaccountdefaultstab.htm" window="right">Organization Writeoff Account Defaults Tab</topic>
             </topics>
@@ -5927,26 +5927,26 @@
             <topic url="WordDocuments/organizationinformationtab2.htm" window="right">Organization Information Tab</topic>
         </topics>
     </item>
-    <item name="Organization Options document" id="16069">
+    <item name="Organization Options document" id="16273">
         <topics>
             <topic url="WordDocuments/organizationoptions.htm" window="right">Organization Options</topic>
         </topics>
-        <item name=" Organization Invoice Information tab" id="16071">
+        <item name=" Organization Invoice Information tab" id="16275">
             <topics>
                 <topic url="WordDocuments/organizationinvoiceinformationtab.htm" window="right">Organization Invoice Information Tab</topic>
             </topics>
         </item>
-        <item name=" Organization Remit To Address tab" id="16072">
+        <item name=" Organization Remit To Address tab" id="16276">
             <topics>
                 <topic url="WordDocuments/organizationremittoaddresstab.htm" window="right">Organization Remit To Address Tab</topic>
             </topics>
         </item>
-        <item name="Organization Options tab" id="16070">
+        <item name="Organization Options tab" id="16274">
             <topics>
                 <topic url="WordDocuments/organizationoptionstab.htm" window="right">Organization Options Tab</topic>
             </topics>
         </item>
-        <item name="Organization Phone tab" id="16073">
+        <item name="Organization Phone tab" id="16277">
             <topics>
                 <topic url="WordDocuments/organizationphonetab.htm" window="right">Organization Phone Tab</topic>
             </topics>
@@ -6075,7 +6075,7 @@
             <topic url="WordDocuments/outstandingcertificationsbyreport.htm" window="right">Outstanding Certifications By Report</topic>
         </topics>
     </item>
-    <item name="Outstanding Invoice Report" id="16020">
+    <item name="Outstanding Invoice Report" id="16224">
         <topics>
             <topic url="WordDocuments/outstandinginvoicereport.htm" window="right">Outstanding Invoice Report</topic>
         </topics>
@@ -6123,41 +6123,41 @@
             <topic url="WordDocuments/payeetype.htm" window="right">Payee Type</topic>
         </topics>
     </item>
-    <item name="Payment Application document" id="15992">
+    <item name="Payment Application document" id="16196">
         <topics>
             <topic url="WordDocuments/paymentapplication.htm" window="right">Payment Application</topic>
         </topics>
-        <item name=" Apply to Invoice Detail tab" id="15997">
+        <item name=" Apply to Invoice Detail tab" id="16201">
             <topics>
                 <topic url="WordDocuments/applytoinvoicedetailtab.htm" window="right">Apply to Invoice Detail Tab</topic>
             </topics>
         </item>
-        <item name=" Control Information tab" id="15994">
+        <item name=" Control Information tab" id="16198">
             <topics>
                 <topic url="WordDocuments/controlinformationtab.htm" window="right">Control Information Tab</topic>
             </topics>
         </item>
-        <item name=" Non-AR tab" id="15998">
+        <item name=" Non-AR tab" id="16202">
             <topics>
                 <topic url="WordDocuments/nonartab.htm" window="right">Non-AR Tab</topic>
             </topics>
         </item>
-        <item name=" Summary of Applied Funds tab" id="15995">
+        <item name=" Summary of Applied Funds tab" id="16199">
             <topics>
                 <topic url="WordDocuments/summaryofappliedfundstab.htm" window="right">Summary of Applied Funds Tab</topic>
             </topics>
         </item>
-        <item name="business rules" id="15999">
+        <item name="business rules" id="16203">
             <topics>
                 <topic url="WordDocuments/businessrules10.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="example" id="16001">
+        <item name="example" id="16205">
             <topics>
                 <topic url="WordDocuments/example8.htm" window="right">Example</topic>
             </topics>
         </item>
-        <item name="Quick Apply to Invoice tab" id="15996">
+        <item name="Quick Apply to Invoice tab" id="16200">
             <topics>
                 <topic url="WordDocuments/quickapplytoinvoicetab.htm" window="right">Quick Apply to Invoice Tab</topic>
             </topics>
@@ -6165,7 +6165,7 @@
     </item>
     <item name="Payment Applications" id="13302">
         <topics />
-        <item name=" custom document search)" id="16009">
+        <item name=" custom document search)" id="16213">
             <topics>
                 <topic url="WordDocuments/paymentapplicationsdocumentsearch.htm" window="right">Payment Applications Document Search</topic>
             </topics>
@@ -6214,7 +6214,7 @@
             </topics>
         </item>
     </item>
-    <item name="Payment History Report" id="16021">
+    <item name="Payment History Report" id="16225">
         <topics>
             <topic url="WordDocuments/paymenthistoryreport.htm" window="right">Payment History Report</topic>
         </topics>
@@ -6224,7 +6224,7 @@
             <topic url="WordDocuments/paymentinformationtab.htm" window="right">Payment Information Tab</topic>
         </topics>
     </item>
-    <item name="Payment Medium document" id="16074">
+    <item name="Payment Medium document" id="16278">
         <topics>
             <topic url="WordDocuments/paymentmedium.htm" window="right">Payment Medium</topic>
         </topics>
@@ -6479,16 +6479,16 @@
             </topics>
         </item>
     </item>
-    <item name="Predetermined Billing Schedule document" id="16075">
+    <item name="Predetermined Billing Schedule document" id="16279">
         <topics>
             <topic url="WordDocuments/predeterminedbillingschedule.htm" window="right">Predetermined Billing Schedule</topic>
         </topics>
-        <item name=" Bills tab" id="16077">
+        <item name=" Bills tab" id="16281">
             <topics>
                 <topic url="WordDocuments/billstab.htm" window="right">Bills Tab</topic>
             </topics>
         </item>
-        <item name=" Predetermined Billing Schedule tab" id="16076">
+        <item name=" Predetermined Billing Schedule tab" id="16280">
             <topics>
                 <topic url="WordDocuments/predeterminedbillingscheduletab.htm" window="right">Predetermined Billing Schedule Tab</topic>
             </topics>
@@ -7673,36 +7673,36 @@
             <topic url="WordDocuments/supplierdiversitytab.htm" window="right">Supplier Diversity Tab</topic>
         </topics>
     </item>
-    <item name="Suspended Invoice Detail Report" id="16022">
+    <item name="Suspended Invoice Detail Report" id="16226">
         <topics>
             <topic url="WordDocuments/suspendedinvoicedetailreport.htm" window="right">Suspended Invoice Detail Report</topic>
         </topics>
     </item>
-    <item name="Suspended Invoice Summary Report" id="16023">
+    <item name="Suspended Invoice Summary Report" id="16227">
         <topics>
             <topic url="WordDocuments/suspendedinvoicesummaryreport.htm" window="right">Suspended Invoice Summary Report</topic>
         </topics>
     </item>
-    <item name="System Information document" id="16078">
+    <item name="System Information document" id="16282">
         <topics>
             <topic url="WordDocuments/systeminformation.htm" window="right">System Information</topic>
         </topics>
-        <item name=" Object Codes tab" id="16080">
+        <item name=" Object Codes tab" id="16284">
             <topics>
                 <topic url="WordDocuments/objectcodestab1.htm" window="right">Object Codes Tab</topic>
             </topics>
         </item>
-        <item name=" Remit To Information tab" id="16082">
+        <item name=" Remit To Information tab" id="16286">
             <topics>
                 <topic url="WordDocuments/remittoinformationtab.htm" window="right">Remit To Information Tab</topic>
             </topics>
         </item>
-        <item name=" University Clearing Account tab" id="16081">
+        <item name=" University Clearing Account tab" id="16285">
             <topics>
                 <topic url="WordDocuments/universityclearingaccounttab.htm" window="right">University Clearing Account Tab</topic>
             </topics>
         </item>
-        <item name="System Information tab" id="16079">
+        <item name="System Information tab" id="16283">
             <topics>
                 <topic url="WordDocuments/systeminformationtab.htm" window="right">System Information Tab</topic>
             </topics>
@@ -7759,7 +7759,7 @@
             <topic url="WordDocuments/thefttab.htm" window="right">Theft Tab</topic>
         </topics>
     </item>
-    <item name="Tickler Report" id="16024">
+    <item name="Tickler Report" id="16228">
         <topics>
             <topic url="WordDocuments/ticklerreport.htm" window="right">Tickler Report</topic>
         </topics>
