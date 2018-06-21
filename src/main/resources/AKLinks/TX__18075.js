@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__18075", [["WordDocuments/itemstab6.htm", "right", "Items Tab"],["WordDocuments/itemstab5.htm", "right", "Items Tab"]]);
