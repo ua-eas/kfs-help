@@ -88,7 +88,7 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div id="nstext" class="d2h_main_nstext" style="HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="accountsreceivable.htm">Accounts Receivable</a></div>
 <h2>Accounts Receivable Batch Processes</h2>
-<p class="MsoBodyText">Users do not interact directly with <a onclick="return d2hpopup(event, this.href)" id="popup_40172" href="gloss_kuali.htm">Kuali</a> Financials batch processes, but some users want 
+<p class="MsoBodyText">Users do not interact directly with <a onclick="return d2hpopup(event, this.href)" id="popup_45457" href="gloss_kuali.htm">Kuali</a> Financials batch processes, but some users want 
 to understand how these processes keep the database up to date. For users who 
 are interested, the following table summarizes the functions of the systems 
 Accounts Receivable batch processes. These processes, which are run according to 
@@ -106,12 +106,12 @@ adjustments.</p>
       <p class="TableCells">Description</p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 184.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="308">
-      <p class="TableCells">clearContractsGrantsInvoicDocumentumentErrorLogJob</p></td>
+      <p class="TableCells">clearContractsGrantsInvoiceDocumentErrorLogJob</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 279pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="465">
       <p class="TableCells">This job clears the Contracts &amp; Grants Error logs. 
-      The contractsGrantsInvoicDocumentumentJob, Contracts and Grants Invoice 
-      manual process and LOC Review process log errors in a file that can be 
-      retrieved via the <a href="contractsgrantsinvoicedocumenterrorlogreport.htm">Contracts &amp; 
+      The contractsGrantsInvoiceDocumentJob, Contracts and Grants Invoice manual 
+      process and LOC Review process log errors in a file that can be retrieved 
+      via the <a href="contractsgrantsinvoicedocumenterrorlogreport.htm">Contracts &amp; 
       Grants Invoice Document Error Log Report</a>.</p>
       <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
       <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="exclaim" alt="exclaim" src="../ImagesExt/image18_1.png" />   
@@ -119,12 +119,12 @@ adjustments.</p>
 on.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 184.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="308">
-      <p class="TableCells">contractsGrantsInvoicDocumentumentJob</p></td>
+      <p class="TableCells">contractsGrantsInvoiceDocumentJob</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 279pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="465">
       <p class="TableCells">This job creates Contracts &amp; Grants Invoices. 
       Invoices that are set to auto-approve and pass all validation and 
       suspension category checking will route to FINAL. Invoices that are 
-      suspended route to the <a onclick="return d2hpopup(event, this.href)" id="popup_40171" href="gloss_fundmanager.htm">Fund Manager</a> for the 
+      suspended route to the <a onclick="return d2hpopup(event, this.href)" id="popup_45456" href="gloss_fundmanager.htm">Fund Manager</a> for the 
       Award. Invoices that do not pass validation are not created and are logged 
       in the <a href="contractsgrantsinvoicedocumenterrorlogreport.htm">Contracts &amp; 
       Grants Invoice Document Error Log Report</a>.</p>
@@ -134,14 +134,7 @@ on.</p></div></td></tr>
 on.</p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 184.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="308">
-      <p class="TableCells">customerAgingReportNotificationJob</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 279pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="465">
-      <p class="TableCells">This job sends notifications to customers when an 
-      invoice is past due as determined by parameters with component 
-      CustomerAgingReportNotificationStep<span style="FONT-SIZE: 8.5pt; FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;; BACKGROUND: white">.</span></p></td></tr>
-  <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 184.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="308">
-      <p class="TableCells">customerInvoicDocumentumentBatchJob</p></td>
+      <p class="TableCells">customerInvoiceDocumentBatchJob</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 279pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="465">
       <p class="TableCells">This is not a production job. It is used in the test 
       environments to create AR Invoices for testing purposes.</p></td></tr>
@@ -172,7 +165,7 @@ on.</p></div></td></tr>
       <p class="TableCells">letterOfCreditJob</p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 279pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="465">
       <p class="TableCells">This job creates Payment Applications and Cash 
-      Controls for <a onclick="return d2hpopup(event, this.href)" id="popup_40170" href="gloss_letterofcredit.htm">Letter of Credit</a> Invoices that are in 
+      Controls for <a onclick="return d2hpopup(event, this.href)" id="popup_45455" href="gloss_letterofcredit.htm">Letter of Credit</a> Invoices that are in 
       final status. One Cash Control will be created each time the job runs and 
       a Payment Application will be created for each invoice. The Payment 
       Applications will route to FINAL. The Cash Control will be Enroute.</p>

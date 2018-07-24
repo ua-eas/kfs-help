@@ -97,6 +97,15 @@ Payee cannot be the same as the initiator.</p>
 Payee must be active.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Check 
 amount cannot be negative.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the Invoice Date or Invoice Number fields are completed, both must be 
+completed.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+the Payment Reason is included in parameter 
+PAYMENT_REASONS_REQUIRING_INVOICE_FIELDS, the Invoice Number and Invoice Date 
+fields are required. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+Invoice Date must be today or earlier. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>There 
 must be at least one accounting line.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
@@ -127,8 +136,8 @@ checked, and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-se
 W-4 Amount</span></strong> must be blank.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Treaty 
-Exempt</span></strong> is checked. no fields, dropdowns or checkboxes may be 
-entered/selected/checked</p>
+Exempt</span></strong> is checked, no fields, dropdowns or checkboxes may be 
+entered/selected/checked.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
 <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Exempt Under Other 
 Code</span></strong> is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal </span></strong>and 
@@ -167,8 +176,32 @@ Amoun</span></strong>t must be blank. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Parameters with Component Disbursement Voucher control allowed and 
 disallowed object codes on the Disbursement Voucher and other business rules, 
-such as restricting object codes or payees allowed based on payment reasons. 
+such as restricting object codes or payees allowed based on payment reasons.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+duplicate payment check is performed when the document is submitted and 
+parameters DUPLICATE_PAYMENT_CHECK_INCLUDE_DISBURSEMENT_VOUCHER_IND and / or 
+DUPLICATE_PAYMENT_CHECK_INCLUDE_PAYMENT_REQUEST_IND are set to Y. When 
+performing the duplicate payment check: </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+invoice number is stripped of special characters </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Disbursement Vouchers and Payment Requests will be checked if the above 
+configuration has been set to include them. </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+</span>Disapproved  documents are included in the check, canceled documents 
+are not. </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Do 
+you want to continue warnings, with a Yes / No selection display when:  
 </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+invoice number was used for the selected payee on other Disbursement Vouchers 
+and/or Payment Requests </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+invoice date and document total matches existing Disbursement Vouchers and/or 
+Payment Requests for the selected payee.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+invoice number and invoice date fields will be cleared when the Disbursement 
+Voucher is copied. </p>
 <p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
 <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 0pt 9pt 36pt; PADDING-RIGHT: 0pt">
 <p class="Noteindented" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt; MARGIN-LEFT: 27pt"><img title="exclaim" alt="exclaim" src="../ImagesExt/image21_1.png" />    
