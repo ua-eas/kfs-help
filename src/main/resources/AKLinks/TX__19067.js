@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__19067", [["WordDocuments/documentoverviewtab10.htm", "right", "Document Overview Tab"],["WordDocuments/documentoverviewtab9.htm", "right", "Document Overview Tab"]]);

@@ -96,17 +96,22 @@ Overview</a></div>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Every 
 payment request must be processed against a specific open PO document. This PO 
 must be specified when the payment request is initiated.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the vendor number and invoice number match values previously processed, a 
-warning notifies the initiator of the potential duplicate. Even so, the system 
-allows the initiator to override the warning and continue.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the invoice amount and invoice date match values previously processed for this 
-vendor, a warning notifies the initiator of the potential duplicate. Even so, 
-the system allows the initiator to override the warning and continue.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+duplicate payment check is performed on the Payment Request Initiation screen 
+and parameters DUPLICATE_PAYMENT_CHECK_INCLUDE_DISBURSEMENT_VOUCHER_IND and / or 
+DUPLICATE_PAYMENT_CHECK_INCLUDE_PAYMENT_REQUEST_IND are set to Y. A warning is 
+returned when: </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+vendor number and invoice number match values previously processed on other 
+Payment Requests and / or Disbursement Vouchers. </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+invoice amount and invoice date match values previously processed for this 
+vendor on other Payment Requests and / or Disbursement Vouchers. </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+warning only displays when the Payment Request is initiated. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
 </span>Fiscal Officers are warned when a PREQ contains one or more expired 
-accounts that were not replaced by a continuation account. The <a onclick="return d2hpopup(event, this.href)" id="popup_47025" href="gloss_fiscalofficer.htm">Fiscal Officer</a> has the option to either check 
+accounts that were not replaced by a continuation account. The <a onclick="return d2hpopup(event, this.href)" id="popup_48187" href="gloss_fiscalofficer.htm">Fiscal Officer</a> has the option to either check 
 the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Expired Account 
 Override</span></strong> box or change the account. AP users are not warned 
 about expired accounts that are not replaced by a continuation account.</p>
@@ -155,7 +160,7 @@ officer/PREQ delegate may edit the accounts/sub-account/object codes and
 amounts. The existing account string is reversed. The new account string debits 
 the expense and credits object code 9041,the liability offset.</p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>After 
-being canceled, the G/L entries are reversed, any <a onclick="return d2hpopup(event, this.href)" id="popup_47024" href="gloss_disencumbrance.htm">disencumbrance</a> created from AP submission of 
+being canceled, the G/L entries are reversed, any <a onclick="return d2hpopup(event, this.href)" id="popup_48186" href="gloss_disencumbrance.htm">disencumbrance</a> created from AP submission of 
 the payment request is reversed, and the PO open quantities that were 
 decremented from the creation of the payment request are increased. </p>
 <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Only 
@@ -205,7 +210,7 @@ codes must be in the INV or OASS object level.</p>
 consolidations of Compensation (CMPN), Financial Aid (SCHL), Reserves 
 (RSRX) and Assessments Expenditures (ASEX) are not allowed.</p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes in the 
-levels of <a onclick="return d2hpopup(event, this.href)" id="popup_47026" href="gloss_depreciation.htm">Depreciation</a> (DEPR), Indirect Cost Expense 
+levels of <a onclick="return d2hpopup(event, this.href)" id="popup_48188" href="gloss_depreciation.htm">Depreciation</a> (DEPR), Indirect Cost Expense 
 (ICOE), Valuations and Adjustments (VADJ) and Taxes (TAX) are not allowed.</p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Object codes with a 
 sub-type code for Transfers (TN) are allowed.</p>
