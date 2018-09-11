@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__19547", [["WordDocuments/documentheader.htm", "right", "Document Header"],["WordDocuments/documentlayout.htm", "right", "Document Layout"]]);
