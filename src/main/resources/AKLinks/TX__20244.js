@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__20244", [["WordDocuments/arcustomeruploadxls.htm", "right", "AR_Customer_Upload.xls"],["WordDocuments/milestoneimportxls.htm", "right", "Milestone_Import.xls"],["WordDocuments/predeterminedbillingimportxls.htm", "right", "Predetermined_Billing_Import.xls"]]);
