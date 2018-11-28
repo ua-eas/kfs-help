@@ -2964,8 +2964,8 @@
         <keyword name=" attendee_list_import.xlxs">
             <topics>
                 <topic url="WordDocuments/arcustomeruploadxls.htm" window="right"><![CDATA[AR_Customer_Upload.xls]]></topic>
-                <topic url="WordDocuments/milestoneimportxls.htm" window="right"><![CDATA[Milestone_Import.xls]]></topic>
-                <topic url="WordDocuments/predeterminedbillingimportxls.htm" window="right"><![CDATA[Predetermined_Billing_Import.xls]]></topic>
+                <topic url="WordDocuments/milestoneimportbulkimportxlxs.htm" window="right"><![CDATA[Milestone_Import_bulk_import.xlxs]]></topic>
+                <topic url="WordDocuments/predeterminedbillingimportbulktemplatexlxs.htm" window="right"><![CDATA[PredeterminedBilling_Import_bulk_template.xlxs]]></topic>
             </topics>
         </keyword>
         <keyword name=" ba_yeba_import.xlxs">
@@ -5359,9 +5359,7 @@
             </topics>
         </keyword>
         <keyword name="predetermined billing schedule document">
-            <topics>
-                <topic url="WordDocuments/predeterminedbillingschedule.htm" window="right"><![CDATA[Predetermined Billing Schedule]]></topic>
-            </topics>
+            <topics />
         </keyword>
         <keyword name=" predetermined billing schedule tab">
             <topics>
