@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__23045", [["WordDocuments/correctionreceiving.htm", "right", "Correction Receiving"],["WordDocuments/lineitemreceiving.htm", "right", "Line Item Receiving"]]);

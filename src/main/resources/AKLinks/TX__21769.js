@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__21769", [["WordDocuments/arcustomeruploadxls.htm", "right", "AR_Customer_Upload.xls"],["WordDocuments/milestoneimportbulktemplatexlxs.htm", "right", "Milestone_Import_bulk_template.xlxs"],["WordDocuments/predeterminedbillingimportbulktemplatexlxs.htm", "right", "PredeterminedBilling_Import_bulk_template.xlxs"]]);
