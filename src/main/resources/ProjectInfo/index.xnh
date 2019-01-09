@@ -1653,12 +1653,12 @@
                 <topic url="WordDocuments/businessrules89.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Effort Certification module:" id="22523">
+        <item name="Effort Certification module:" id="24350">
             <topics>
                 <topic url="WordDocuments/businessrules37.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Effort Certification Recreate document" id="22534">
+        <item name="Effort Certification Recreate document" id="24360">
             <topics>
                 <topic url="WordDocuments/businessrules38.htm" window="right">Business Rules</topic>
             </topics>
@@ -1778,7 +1778,7 @@
                 <topic url="WordDocuments/businessrules57.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Report Definition document" id="22550">
+        <item name="Report Definition document" id="24376">
             <topics>
                 <topic url="WordDocuments/businessrules39.htm" window="right">Business Rules</topic>
             </topics>
@@ -3934,7 +3934,7 @@
             </topics>
         </item>
     </item>
-    <item name="Duplicate Certifications report" id="22539">
+    <item name="Duplicate Certifications report" id="24365">
         <topics>
             <topic url="WordDocuments/duplicatecertificationsreport.htm" window="right">Duplicate Certifications Report</topic>
         </topics>
@@ -3977,7 +3977,7 @@
     </item>
     <item name="Effort Certification" id="22506">
         <topics />
-        <item name=" batch processes" id="22507">
+        <item name=" batch processes" id="24335">
             <topics>
                 <topic url="WordDocuments/effortcertificationbatchprocesses.htm" window="right">Effort Certification Batch Processes</topic>
             </topics>
@@ -3988,46 +3988,46 @@
             <topic url="WordDocuments/effortcertificationec.htm" window="right">Effort Certification (EC)</topic>
         </topics>
     </item>
-    <item name="Effort Certification document" id="22509">
+    <item name="Effort Certification document" id="24337">
         <topics>
             <topic url="WordDocuments/effortcertificationdocument.htm" window="right">Effort Certification Document</topic>
         </topics>
-        <item name="adding an effort distribution to Effort Summary or Effort Detail section" id="22520">
+        <item name="adding an effort distribution to Effort Summary or Effort Detail section" id="24347">
             <topics>
                 <topic url="WordDocuments/addinganeffortdistributiontotheeffortsummaryoreffortdetailsectio.htm" window="right">Adding an Effort Distribution to the Effort Summary or Effort Detail Section</topic>
             </topics>
         </item>
-        <item name="document header" id="22512">
+        <item name="document header" id="24339">
             <topics>
                 <topic url="WordDocuments/documentheader1.htm" window="right">Document Header</topic>
             </topics>
         </item>
-        <item name="Document Overview tab" id="22513">
+        <item name="Document Overview tab" id="24340">
             <topics>
                 <topic url="WordDocuments/documentoverviewtab1.htm" window="right">Document Overview Tab</topic>
             </topics>
         </item>
-        <item name="Effort Detail tab" id="22518">
+        <item name="Effort Detail tab" id="24345">
             <topics>
                 <topic url="WordDocuments/effortdetailtab.htm" window="right">Effort Detail Tab</topic>
             </topics>
         </item>
-        <item name="Effort Summary tab" id="22516">
+        <item name="Effort Summary tab" id="24343">
             <topics>
                 <topic url="WordDocuments/effortsummarytab.htm" window="right">Effort Summary Tab</topic>
             </topics>
         </item>
-        <item name="modifying existing effort distribution line in Effort Detail section" id="22522">
+        <item name="modifying existing effort distribution line in Effort Detail section" id="24349">
             <topics>
                 <topic url="WordDocuments/modifyinganexistingeffortdistributionlineintheeffortdetailsectio.htm" window="right">Modifying an Existing Effort Distribution line in the Effort Detail section</topic>
             </topics>
         </item>
-        <item name="modifying existing effort distribution line in Effort Summary section" id="22521">
+        <item name="modifying existing effort distribution line in Effort Summary section" id="24348">
             <topics>
                 <topic url="WordDocuments/modifyinganexistingeffortdistributionlineintheeffortsummarysecti.htm" window="right">Modifying an Existing Effort Distribution line in the Effort Summary Section</topic>
             </topics>
         </item>
-        <item name="Report Information tab" id="22514">
+        <item name="Report Information tab" id="24341">
             <topics>
                 <topic url="WordDocuments/reportinformationtab.htm" window="right">Report Information Tab</topic>
             </topics>
@@ -4035,65 +4035,65 @@
     </item>
     <item name="effort certification documents" id="22554">
         <topics />
-        <item name="extracting effort data from the Labor Ledger" id="22556">
+        <item name="extracting effort data from the Labor Ledger" id="24381">
             <topics>
                 <topic url="WordDocuments/extractingeffortdatafromthelaborledger.htm" window="right">Extracting Effort Data from the Labor Ledger</topic>
             </topics>
         </item>
-        <item name="generating" id="22555">
+        <item name="generating" id="24380">
             <topics>
                 <topic url="WordDocuments/generatingeffortcertificationdocuments.htm" window="right">Generating Effort Certification documents</topic>
             </topics>
         </item>
     </item>
-    <item name="Effort Certification Extract Build report" id="22540">
+    <item name="Effort Certification Extract Build report" id="24366">
         <topics>
             <topic url="WordDocuments/effortcertificationextractbuild.htm" window="right">Effort Certification Extract Build</topic>
         </topics>
     </item>
     <item name="Effort Certification module" id="22510">
         <topics />
-        <item name="business rules" id="22524">
+        <item name="business rules" id="24351">
             <topics>
                 <topic url="WordDocuments/businessrules37.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Duplicate Certifications report" id="22538">
+        <item name="Duplicate Certifications report" id="24364">
             <topics>
                 <topic url="WordDocuments/duplicatecertificationsreport.htm" window="right">Duplicate Certifications Report</topic>
             </topics>
         </item>
-        <item name="Effort Certification document" id="22511">
+        <item name="Effort Certification document" id="24338">
             <topics>
                 <topic url="WordDocuments/effortcertificationdocument.htm" window="right">Effort Certification Document</topic>
             </topics>
         </item>
-        <item name="Effort Certification Extract Build report" id="22541">
+        <item name="Effort Certification Extract Build report" id="24367">
             <topics>
                 <topic url="WordDocuments/effortcertificationextractbuild.htm" window="right">Effort Certification Extract Build</topic>
             </topics>
         </item>
-        <item name="example" id="22529">
+        <item name="example" id="24356">
             <topics>
                 <topic url="WordDocuments/example13.htm" window="right">Example</topic>
             </topics>
         </item>
-        <item name="Outstanding Certifications by Chart/Org/Report" id="22543">
+        <item name="Outstanding Certifications by Chart/Org/Report" id="24369">
             <topics>
                 <topic url="WordDocuments/outstandingcertificationsbychartorgreport.htm" window="right">Outstanding Certifications by Chart/Org/Report</topic>
             </topics>
         </item>
-        <item name="Outstanding Certifications By report" id="22545">
+        <item name="Outstanding Certifications By report" id="24371">
             <topics>
                 <topic url="WordDocuments/outstandingcertificationsbyreport.htm" window="right">Outstanding Certifications By Report</topic>
             </topics>
         </item>
-        <item name="routing, report" id="22525">
+        <item name="routing, report" id="24352">
             <topics>
                 <topic url="WordDocuments/routing26.htm" window="right">Routing</topic>
             </topics>
         </item>
-        <item name="Salary Expense Transfer document" id="22526">
+        <item name="Salary Expense Transfer document" id="24353">
             <topics>
                 <topic url="WordDocuments/salaryexpensetransfergeneration.htm" window="right">Salary Expense Transfer Generation</topic>
             </topics>
@@ -4101,56 +4101,56 @@
     </item>
     <item name="Effort Certification Recreate document" id="22530">
         <topics />
-        <item name="business rules" id="22535">
+        <item name="business rules" id="24361">
             <topics>
                 <topic url="WordDocuments/businessrules38.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Document Overview tab" id="22531">
+        <item name="Document Overview tab" id="24357">
             <topics>
                 <topic url="WordDocuments/documentoverviewtab2.htm" window="right">Document Overview Tab</topic>
             </topics>
         </item>
-        <item name="Effort Detail tab" id="22532">
+        <item name="Effort Detail tab" id="24358">
             <topics>
                 <topic url="WordDocuments/effortdetailtab1.htm" window="right">Effort Detail Tab</topic>
             </topics>
         </item>
-        <item name="example" id="22537">
+        <item name="example" id="24363">
             <topics>
                 <topic url="WordDocuments/example14.htm" window="right">Example</topic>
             </topics>
         </item>
-        <item name="routing" id="22536">
+        <item name="routing" id="24362">
             <topics>
                 <topic url="WordDocuments/routing27.htm" window="right">Routing</topic>
             </topics>
         </item>
     </item>
-    <item name="Effort Certification Transaction Documents" id="22508">
+    <item name="Effort Certification Transaction Documents" id="24336">
         <topics>
             <topic url="WordDocuments/effortcertificationtransactiondocuments.htm" window="right">Effort Certification Transaction Documents</topic>
         </topics>
     </item>
-    <item name="Effort Detail tab, Effort Certification document" id="22519">
+    <item name="Effort Detail tab, Effort Certification document" id="24346">
         <topics>
             <topic url="WordDocuments/effortdetailtab.htm" window="right">Effort Detail Tab</topic>
         </topics>
     </item>
-    <item name="Effort Detail tab, Effort Certification Recreate document" id="22533">
+    <item name="Effort Detail tab, Effort Certification Recreate document" id="24359">
         <topics>
             <topic url="WordDocuments/effortdetailtab1.htm" window="right">Effort Detail Tab</topic>
         </topics>
     </item>
     <item name="effort reports" id="22559">
         <topics />
-        <item name="creating from extracted data" id="22560">
+        <item name="creating from extracted data" id="24383">
             <topics>
                 <topic url="WordDocuments/creatingeffortreportsfromextracteddata.htm" window="right">Creating Effort Reports from Extracted Data</topic>
             </topics>
         </item>
     </item>
-    <item name="Effort Summary tab, Effort Certification document" id="22517">
+    <item name="Effort Summary tab, Effort Certification document" id="24344">
         <topics>
             <topic url="WordDocuments/effortsummarytab.htm" window="right">Effort Summary Tab</topic>
         </topics>
@@ -4353,7 +4353,7 @@
     </item>
     <item name="extracted data" id="22557">
         <topics />
-        <item name="creating reports from" id="22558">
+        <item name="creating reports from" id="24382">
             <topics>
                 <topic url="WordDocuments/creatingeffortreportsfromextracteddata.htm" window="right">Creating Effort Reports from Extracted Data</topic>
             </topics>
@@ -6072,12 +6072,12 @@
             <topic url="WordDocuments/originationcode.htm" window="right">Origination Code</topic>
         </topics>
     </item>
-    <item name="Outstanding Certifications by Chart/Org/Report" id="22542">
+    <item name="Outstanding Certifications by Chart/Org/Report" id="24368">
         <topics>
             <topic url="WordDocuments/outstandingcertificationsbychartorgreport.htm" window="right">Outstanding Certifications by Chart/Org/Report</topic>
         </topics>
     </item>
-    <item name="Outstanding Certifications By report" id="22544">
+    <item name="Outstanding Certifications By report" id="24370">
         <topics>
             <topic url="WordDocuments/outstandingcertificationsbyreport.htm" window="right">Outstanding Certifications By Report</topic>
         </topics>
@@ -6854,42 +6854,42 @@
             <topic url="WordDocuments/repairhistorytab.htm" window="right">Repair History Tab</topic>
         </topics>
     </item>
-    <item name="Report Definition document" id="22546">
+    <item name="Report Definition document" id="24372">
         <topics>
             <topic url="WordDocuments/reportdefinition.htm" window="right">Report Definition</topic>
         </topics>
-        <item name="business rules" id="22549">
+        <item name="business rules" id="24375">
             <topics>
                 <topic url="WordDocuments/businessrules39.htm" window="right">Business Rules</topic>
             </topics>
         </item>
-        <item name="Edit Report Position Object Group Codes tab" id="22548">
+        <item name="Edit Report Position Object Group Codes tab" id="24374">
             <topics>
                 <topic url="WordDocuments/editreportpositionobjectgroupcodestab.htm" window="right">Edit Report Position Object Group Codes Tab</topic>
             </topics>
         </item>
-        <item name="Report Definition tab" id="22547">
+        <item name="Report Definition tab" id="24373">
             <topics>
                 <topic url="WordDocuments/reportdefinitiontab.htm" window="right">Report Definition Tab</topic>
             </topics>
         </item>
     </item>
-    <item name="Report Earn Paygroup document" id="22551">
+    <item name="Report Earn Paygroup document" id="24377">
         <topics>
             <topic url="WordDocuments/reportearnpaygroup.htm" window="right">Report Earn Paygroup</topic>
         </topics>
     </item>
-    <item name="Report Information tab, Effort Certification document" id="22515">
+    <item name="Report Information tab, Effort Certification document" id="24342">
         <topics>
             <topic url="WordDocuments/reportinformationtab.htm" window="right">Report Information Tab</topic>
         </topics>
     </item>
-    <item name="Report Period Status Code document" id="22552">
+    <item name="Report Period Status Code document" id="24378">
         <topics>
             <topic url="WordDocuments/reportperiodstatuscode.htm" window="right">Report Period Status Code</topic>
         </topics>
     </item>
-    <item name="Report Type document" id="22553">
+    <item name="Report Type document" id="24379">
         <topics>
             <topic url="WordDocuments/reporttype.htm" window="right">Report Type</topic>
         </topics>
@@ -7188,11 +7188,11 @@
             <topic url="WordDocuments/routelevelsandworkflowrouting.htm" window="right">Route Levels and Workflow Routing</topic>
         </topics>
     </item>
-    <item name="Salary Expense Transfer document" id="22527">
+    <item name="Salary Expense Transfer document" id="24354">
         <topics>
             <topic url="WordDocuments/salaryexpensetransfergeneration.htm" window="right">Salary Expense Transfer Generation</topic>
         </topics>
-        <item name="restrictions" id="22528">
+        <item name="restrictions" id="24355">
             <topics>
                 <topic url="WordDocuments/salaryexpensetransferrestrictions.htm" window="right">Salary Expense Transfer Restrictions</topic>
             </topics>
