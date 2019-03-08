@@ -59,6 +59,4 @@
       <url>${dm.repository.url}</url>
     </repository>
   </distributionManagement>
-
-
 </project>
