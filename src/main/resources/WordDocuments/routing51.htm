@@ -93,15 +93,15 @@ Request</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h
 Overview</a></div>
 <h5>Routing</h5>
 <p class="Definition"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>An AP 
-Processor selects the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Submit</span></strong> button to 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>An AP 
+Processor selects the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Submit</span></strong> button to 
 complete the processing of a payment request document. The document routes to 
 Awaiting AP Review status if REQUIRE_ATTACHMENT_IND is set to Y. The AP Review 
 status may be satisfied by an image attachment or in another fashion 
-(configurable at your institution). After AP review, the document routes for <a onclick="return d2hpopup(event, this.href)" id="popup_56409" href="gloss_fiscalofficer.htm">fiscal officer</a> or fiscal officer delegate 
+(configurable at your institution). After AP review, the document routes for <a onclick="return d2hpopup(event, this.href)" id="popup_63155" href="gloss_fiscalofficer.htm">fiscal officer</a> or fiscal officer delegate 
 approval. At the AP Review routing level, approvers cannot change content on the 
 document. They may only add notes/attachments and approve or cancel.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If 
 receiving is required for the Purchase Order, the Payment Request routes to 
 Awaiting Receiving. A batch process will move the Payment Request to the next 
 route node once the receiving requirement has been met.</p>
@@ -113,10 +113,10 @@ about how Payment Requests are impacted by Receiving, see <a href="lineitemrecei
 For information about PURAP batch processes, see <a href="purchasingaccountspayablebatchprocesses.htm">Batch 
 Processes</a>.</p></div>
 <p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>In 
-addition to normal account review and organization review, the Payment Request 
-document includes the following special condition routing:</p>
-<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Sub-<a onclick="return d2hpopup(event, this.href)" id="popup_56408" href="gloss_accountmanager.htm">Account Manager</a>:  An optional <a onclick="return d2hpopup(event, this.href)" id="popup_56411" href="gloss_role.htm">role</a> that allows users to receive workflow action 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>In addition 
+to normal account review and organization review, the Payment Request document 
+includes the following special condition routing:</p>
+<p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>Sub-<a onclick="return d2hpopup(event, this.href)" id="popup_63154" href="gloss_accountmanager.htm">Account Manager</a>:  An optional <a onclick="return d2hpopup(event, this.href)" id="popup_63157" href="gloss_role.htm">role</a> that allows users to receive workflow action 
 requests for documents that involve a specific account number and sub-account 
 number. The role name is Sub-Account Reviewer. Approvers at this level may only 
 approve, request cancel, and hold the document. They cannot change content.</p>
@@ -136,14 +136,13 @@ documents.</p>
 <p class="C1HBullet2A" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
 <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 0pt 9pt 36pt; PADDING-RIGHT: 0pt">
 <p class="Noteindented" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt; MARGIN-LEFT: 27pt"><img title="exclaim" alt="exclaim" src="../ImagesExt/image12_1.png" />    
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">The Timing of 
-G/L</span></strong><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"></span></strong><strong></strong><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"> Update: </span></strong>After 
-a Payment Request document has been created and submitted, it updates the G/L 
-the next time a batch process runs. Note that this timing is different from that 
-of most <a onclick="return d2hpopup(event, this.href)" id="popup_56410" href="gloss_kuali.htm">Kuali</a> Financials documents, which do not update the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">The Timing of 
+G/L</span></strong><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif"></span></strong><strong></strong><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif"> Update: </span></strong>After a 
+Payment Request document has been created and submitted, it updates the G/L the 
+next time a batch process runs. Note that this timing is different from that of 
+most <a onclick="return d2hpopup(event, this.href)" id="popup_63156" href="gloss_kuali.htm">Kuali</a> Financials documents, which do not update the 
 G/L until the document receives all approvals. If accounting entries on the 
 document change before it reaches Final status, the G/L entries is updated 
 accordingly the next time a batch process runs.</p></div>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="postprocessing6.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Post 
-Processing</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="postprocessing6.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Post Processing</a></p></span></div></div></body></html>

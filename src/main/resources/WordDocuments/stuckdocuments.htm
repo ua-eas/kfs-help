@@ -92,18 +92,18 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <p class="MsoNormal"><span style="BACKGROUND: white">Stuck Documents is a 
 configuration page that controls two batch jobs designed to requeue documents 
 that are in Enroute status but do not appear in any action lists. </span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="BACKGROUND: white">The Autofix job will look for stuck documents and 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span><span style="BACKGROUND: white">The Autofix job will look for stuck documents and 
 attempt to move them along in the workflow. Requeuing these documents is the 
 same as using the Queue Document Refresh option on the Document Operations 
 screen. </span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="BACKGROUND: white">The Notification job will send an email with the list 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span><span style="BACKGROUND: white">The Notification job will send an email with the list 
 of the currently stuck documents. </span></p>
 <p class="MsoNormal"><span style="BACKGROUND: white"></span> </p>
 <p class="MsoNormal"><span style="BACKGROUND: white">There is an Autofix report 
 available to show users the attempts to fix stuck documents. </span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="BACKGROUND: white">Documents marked as FAILED were not able to be fixed 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span><span style="BACKGROUND: white">Documents marked as FAILED were not able to be fixed 
 by requeuing the document and will need to be researched further. </span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span><span style="BACKGROUND: white">Documents marked as FIXED were stuck and the autofix 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span><span style="BACKGROUND: white">Documents marked as FIXED were stuck and the autofix 
 job was able to requeue them. <br /><br /></span></p>
 <p class="MsoNormal"><span style="BACKGROUND: white">Users have the option to 
 manually run the notification job. This returns a list of documents which are 
@@ -115,127 +115,127 @@ Run Notification Now, View Stuck Documents Report and View Autofix Report</p>
 <p class="MsoBodyText"> </p>
 <p class="TableHeading" style="MARGIN-RIGHT: 0pt">Notification section 
 definition</p>
-<table class="MsoNormalTable" style="WIDTH: 468pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="780" border="0">
+<table class="MsoNormalTable" style="WIDTH: 468pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="624" border="0">
   <tbody>
   <tr>
-    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Title</p></td>
-    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Description</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Cron Expression</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Used by the quartz job to determine when and how often 
       to run.</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Enable</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Used to indicate if the Notification job should run 
       automatically at a scheduled time. </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">From</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">From email to be used when an email is generated by 
       the Notification or Autofix jobs. </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Subject</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Subject to be used when an email is generated by the 
       Notification job.</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">To</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">To email to be used when an email is generated by the 
       Notification or Autofix jobs.</p></td></tr></tbody></table>
 <p class="TableHeading" style="MARGIN-RIGHT: 0pt">Autofix section definition</p>
-<table class="MsoNormalTable" style="WIDTH: 468pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="780" border="0">
+<table class="MsoNormalTable" style="WIDTH: 468pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="624" border="0">
   <tbody>
   <tr>
-    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Title</p></td>
-    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Description</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Cron Expression</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Used by the quartz job to determine when and how often 
       to run.</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Enable</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Used to indicate if the Autofix job should run 
       automatically at a scheduled time. </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Max Attempts</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Number of times the AutoFix job should try to requeue 
       the document.</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Notify on Autofix Failure</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Used to indicate if an email should be sent when a 
       document cannot be requeued. From and To emails are set in the 
       Notification section. </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Quiet Period (sec)</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Number of seconds to wait between attempts. It may 
       take a document a minute or two to make it to the next route 
   node.</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Subject</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Subject to be used when an email is generated by the 
       AutoFix job.</p></td></tr></tbody></table>
 <p class="TableHeading" style="MARGIN-RIGHT: 0pt"> </p>
 <p class="TableHeading" style="MARGIN-RIGHT: 0pt">Stuck Document Actions 
 definition</p>
-<table class="MsoNormalTable" style="WIDTH: 468pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="780" border="0">
+<table class="MsoNormalTable" style="WIDTH: 468pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="624" border="0">
   <tbody>
   <tr>
-    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Action</p></td>
-    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Description</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Update</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Saves changes made to the Notification and Autofix 
       sections.</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">Run Notification Now</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Runs the Notification job on demand.</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">View Stuck Documents Report</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Generates a report of documents currently stuck in the 
       system.</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="224">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 134.25pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="179">
       <p class="TableCells">View Autofix Report</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="556">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 333.75pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="445">
       <p class="TableCells">Generates a report of the last 1000 documents that 
       were requeued by the AutoFix job.</p>
-      <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+      <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     
       </span>Failed means that the job was unable to requeue the document.</p>
-      <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-      </span>Fixed means the job was able to successfully requeue the document. 
-      </p></td></tr></tbody></table>
+      <p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Fixed 
+      means the job was able to successfully requeue the document. 
+  </p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="batchfile.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Batch 
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="batchfile.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Batch 
 File</a></p></span></div></div></body></html>

@@ -91,121 +91,118 @@ Transaction Documents</a><span class="d2h_breadcrumbsLinkSeparator"> &gt;
 </span><a class="d2h_breadcrumbsNormal" href="disbursementvoucher.htm">Disbursement Voucher</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview46.htm">Process Overview</a></div>
 <h5>Business Rules</h5>
 <p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>DV 
-Payee cannot be the same as the initiator.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>DV 
-Payee must be active.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Check 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>DV Payee 
+cannot be the same as the initiator.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>DV Payee 
+must be active.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Check 
 amount cannot be negative.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the Invoice Date or Invoice Number fields are completed, both must be 
-completed.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the Payment Reason is included in parameter 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+Invoice Date or Invoice Number fields are completed, both must be completed.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+Payment Reason is included in parameter 
 PAYMENT_REASONS_REQUIRING_INVOICE_FIELDS, the Invoice Number and Invoice Date 
 fields are required. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-Invoice Date must be today or earlier. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>There 
-must be at least one accounting line.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Account lines total must not be negative.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The Invoice 
+Date must be today or earlier. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>There must 
+be at least one accounting line.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Account 
+lines total must not be negative.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If 
 parameter NEGATIVE_ACCOUNTING_LINES_IND is set to Y, negative accounting lines 
 are allowed. If this parameter is set to N, negative accounting lines are not 
 allowed.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Total 
-of accounting lines must match the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Check Total 
-</span></strong>field.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal Tax 
-Percent</span></strong> is 0, the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">State Tax Percent</span></strong> 
-must be 0.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal Tax 
-Percent</span></strong> is greater than 0, the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">State Tax Percent</span></strong> 
-must be greater than 0 if the income class has an associated state tax percent. 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Total of 
+accounting lines must match the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Check Total </span></strong>field.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Federal Tax 
+Percent</span></strong> is 0, the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">State Tax Percent</span></strong> must 
+be 0.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Federal Tax 
+Percent</span></strong> is greater than 0, the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">State Tax Percent</span></strong> must 
+be greater than 0 if the income class has an associated state tax percent. 
 (Royalty and Independent Contractor do not have a state tax percent, so 0 is 
 allowed.)</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Foreign 
-Source</span></strong> is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal </span></strong>and 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">State Tax 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Foreign 
+Source</span></strong> is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Federal </span></strong>and 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">State Tax 
 Percent</span></strong> must be 0 (cannot be blank), no other boxes may be 
-checked, and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Special 
-W-4 Amount</span></strong> must be blank.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Treaty 
+checked, and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Special W-4 
+Amount</span></strong> must be blank.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Treaty 
 Exempt</span></strong> is checked, no fields, dropdowns or checkboxes may be 
 entered/selected/checked.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Exempt Under Other 
-Code</span></strong> is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal </span></strong>and 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">State Tax 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Exempt Under Other 
+Code</span></strong> is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Federal </span></strong>and 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">State Tax 
 Percent</span></strong> must be 0, no other boxes may be checked except for 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">USAID Per 
-Diem</span></strong>, and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Special W-4 Amount</span></strong> 
-may be blank or filled in.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">USAID Per Diem 
-</span></strong>is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Income class</span></strong> must be 
-Fellowship, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal 
-</span></strong>and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">State Tax Percent</span></strong> 
-must be 0 <span style="COLOR: black">(cannot be blank), </span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Exempt Under Other 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">USAID Per 
+Diem</span></strong>, and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Special W-4 Amount</span></strong> may 
+be blank or filled in.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">USAID Per Diem 
+</span></strong>is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Income class</span></strong> must be 
+Fellowship, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Federal 
+</span></strong>and <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">State Tax Percent</span></strong> must 
+be 0 <span style="COLOR: black">(cannot be blank), </span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Exempt Under Other 
 Code</span></strong> must be checked, no other boxes may be checked, and 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Special W-4 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Special W-4 
 Amount</span></strong> must be blank.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If an 
-amount is entered in <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Special W-4 Amount</span></strong>, 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Income Class 
-</span></strong>must be Fellowship, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal </span></strong>and 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">State Tax 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If an 
+amount is entered in <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Special W-4 Amount</span></strong>, 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Income Class 
+</span></strong>must be Fellowship, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Federal </span></strong>and 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">State Tax 
 Percent</span></strong> must be 0 <span style="COLOR: black">(cannot be blank), 
-</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Exempt Under 
+</span><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Exempt Under 
 Other Code</span></strong> must be checked, and no other boxes may be 
 checked.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-Gr<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">oss Up Payment 
-</span></strong>is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Federal Tax Percent 
-</span></strong><em>cannot</em> be 0, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">State Tax Percent 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If 
+Gr<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">oss Up Payment 
+</span></strong>is checked, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Federal Tax Percent 
+</span></strong><em>cannot</em> be 0, <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">State Tax Percent 
 </span></strong><em>cannot </em>be 0 <em>if</em> income class has an associated 
 state tax percent other than 0 (Royalty and Independent Contractor do not have a 
 state tax percent, so 0 is allowed), no other boxes may be checked, and 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Special W-4 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Special W-4 
 Amoun</span></strong>t must be blank. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Parameters with Component Disbursement Voucher control allowed and 
-disallowed object codes on the Disbursement Voucher and other business rules, 
-such as restricting object codes or payees allowed based on payment reasons.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Parameters 
+with Component Disbursement Voucher control allowed and disallowed object codes 
+on the Disbursement Voucher and other business rules, such as restricting object 
+codes or payees allowed based on payment reasons.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The 
 duplicate payment check is performed when the document is submitted and 
 parameters DUPLICATE_PAYMENT_CHECK_INCLUDE_DISBURSEMENT_VOUCHER_IND and / or 
 DUPLICATE_PAYMENT_CHECK_INCLUDE_PAYMENT_REQUEST_IND are set to Y. When 
 performing the duplicate payment check: </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-invoice number is stripped of special characters </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The invoice 
+number is stripped of special characters </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     
 </span>Disbursement Vouchers and Payment Requests will be checked if the above 
 configuration has been set to include them. </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Disapproved  documents are included in the check, canceled documents 
-are not. Separate warnings are displayed for disapproved documents.  </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Do 
-you want to continue warnings, with a Yes / No selection display when:  
-</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-invoice number was used for the selected payee on other Disbursement Vouchers 
-and/or Payment Requests </p>
-<p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-invoice date and document total matches existing Disbursement Vouchers and/or 
-Payment Requests for the selected payee.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-invoice number and invoice date fields will be cleared when the Disbursement 
-Voucher is copied. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Duplicate payment warnings will display on the document when the document 
-is saved and when enroute documents are opened. The warnings will no longer 
-display once the document is final or processed. </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Disapproved 
+ documents are included in the check, canceled documents are not. Separate 
+warnings are displayed for disapproved documents.  </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Do you want 
+to continue warnings, with a Yes / No selection display when:  </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The invoice 
+number was used for the selected payee on other Disbursement Vouchers and/or 
+Payment Requests </p>
+<p class="C1HBullet" style="MARGIN-LEFT: 72pt; TEXT-INDENT: -18pt; tab-stops: 72.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The invoice 
+date and document total matches existing Disbursement Vouchers and/or Payment 
+Requests for the selected payee.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The invoice 
+number and invoice date fields will be cleared when the Disbursement Voucher is 
+copied. </p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Duplicate 
+payment warnings will display on the document when the document is saved and 
+when enroute documents are opened. The warnings will no longer display once the 
+document is final or processed. </p>
 <p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
 <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 0pt 9pt 36pt; PADDING-RIGHT: 0pt">
 <p class="Noteindented" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt; MARGIN-LEFT: 27pt"><img title="exclaim" alt="exclaim" src="../ImagesExt/image21_1.png" />    
@@ -214,5 +211,4 @@ payment reason and while you can create new Vendor Types via the Vendor Type
 table and update the parameter, coding is required in order to recognize the new 
 payee type and rules. </p></div>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="paymentreasons.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Payment 
-Reasons</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="paymentreasons.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Payment Reasons</a></p></span></div></div></body></html>

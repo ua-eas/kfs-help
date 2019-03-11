@@ -91,7 +91,7 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 Poster</a></div>
 <h5>Business Rules</h5>
 <p class="MsoBodyText"> </p>
-<p class="MsoBodyText">This process derives the <a onclick="return d2hpopup(event, this.href)" id="popup_55733" href="gloss_fiscalyear.htm">fiscal year</a> and period code from the reversal 
+<p class="MsoBodyText">This process derives the <a onclick="return d2hpopup(event, this.href)" id="popup_62479" href="gloss_fiscalyear.htm">fiscal year</a> and period code from the reversal 
 date unless that period is closed, in which case the current period is used. It 
 reverses the debit/credit code of the original transaction, appends the prefix 
 AUTO-REVERSAL to the document description, and sets the reversal date to 
@@ -100,30 +100,30 @@ to the GL.</p>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">Additional validation is performed on the Reversal Date 
 value:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-this date is not found in the University Date table, the transaction is flagged 
-as an error (the message DATE FROM GL REVERSAL IS NOT IN THE UNIVERSITY DATE 
-TABLE is generated) and reversal processing stops for this transaction.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the reversal date is not in the <a onclick="return d2hpopup(event, this.href)" id="popup_55732" href="gloss_fiscalperiod.htm">Fiscal Period</a> table, the 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If this 
+date is not found in the University Date table, the transaction is flagged as an 
+error (the message DATE FROM GL REVERSAL IS NOT IN THE UNIVERSITY DATE TABLE is 
+generated) and reversal processing stops for this transaction.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+reversal date is not in the <a onclick="return d2hpopup(event, this.href)" id="popup_62478" href="gloss_fiscalperiod.htm">Fiscal Period</a> table, the 
 transaction is flagged as an error (the message REVERSAL DATE IS NOT IN FISCAL 
 PERIOD is generated) and reversal processing stops for this transaction.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the Fiscal Period has a status of CLOSED, use the current date and fiscal period 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+Fiscal Period has a status of CLOSED, use the current date and fiscal period 
 instead, unless the current date is not in the University Date table.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the current date is not in the University Date table, flag the transaction as an 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+current date is not in the University Date table, flag the transaction as an 
 error (the message CURRENT DATE IS NOT IN THE UNIVERSITY DATE TABLE is 
 generated) and reversal processing stops for this transaction.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Following the same business rules used in the main GL posting function, 
-the pending reversal entries (generated GL origin entries) are evaluated to 
-determine whether or not they should be included for ICR. For entries that 
-satisfy the business rules (below), GL expense transactions are generated.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Following 
+the same business rules used in the main GL posting function, the pending 
+reversal entries (generated GL origin entries) are evaluated to determine 
+whether or not they should be included for ICR. For entries that satisfy the 
+business rules (below), GL expense transactions are generated.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span></p>
 <p class="MsoBodyText">Following the same business rules used in the main GL 
 posting function, the pending reversal entries are evaluated to determine 
-whether or not they affect encumbrances. Entries that satisfy the GL <a onclick="return d2hpopup(event, this.href)" id="popup_55734" href="gloss_encumbrance.htm">encumbrance</a> business rules (above) update 
+whether or not they affect encumbrances. Entries that satisfy the GL <a onclick="return d2hpopup(event, this.href)" id="popup_62480" href="gloss_encumbrance.htm">encumbrance</a> business rules (above) update 
 encumbrances.</p>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">Similarly, pending reversal entries that satisfy the 
@@ -134,4 +134,4 @@ posting function) update sufficient funds balances.</p>
 balance business rules (the same business rules used in the main GL posting 
 function above) update GL account balances.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="reversalposterreport.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Reversal Poster Report</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="reversalposterreport.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Reversal Poster Report</a></p></span></div></div></body></html>

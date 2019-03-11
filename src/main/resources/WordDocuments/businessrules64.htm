@@ -95,60 +95,60 @@ against the lookup tables, setting defaults for blank values, and enforcing
 rules. The following summarizes the validation contained in the 
 laborScrubberJob.</p>
 <p class="MsoBodyText"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Validate the <a onclick="return d2hpopup(event, this.href)" id="popup_59679" href="gloss_fiscalyear.htm">fiscal year</a>, account, 
-sub-account, object code, sub-object code, balance type, <a onclick="return d2hpopup(event, this.href)" id="popup_59676" href="gloss_accountingperiod.htm">accounting period</a>, <a onclick="return d2hpopup(event, this.href)" id="popup_59678" href="gloss_documenttype.htm">document type</a>, origin code against the lookup 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Validate 
+the <a onclick="return d2hpopup(event, this.href)" id="popup_62760" href="gloss_fiscalyear.htm">fiscal year</a>, account, sub-account, object code, 
+sub-object code, balance type, <a onclick="return d2hpopup(event, this.href)" id="popup_62757" href="gloss_accountingperiod.htm">accounting period</a>, <a onclick="return d2hpopup(event, this.href)" id="popup_62759" href="gloss_documenttype.htm">document type</a>, origin code against the lookup 
 tables.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the Fiscal Year field is blank, assign the current fiscal year.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-fiscal year must exist in the System Options table and it must be open.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the account is closed, look for a continuation account.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the account is expired and the balance type is not an <a onclick="return d2hpopup(event, this.href)" id="popup_59680" href="gloss_encumbrance.htm">encumbrance</a> balance type defined in the Systems 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+Fiscal Year field is blank, assign the current fiscal year.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The fiscal 
+year must exist in the System Options table and it must be open.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+account is closed, look for a continuation account.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+account is expired and the balance type is not an <a onclick="return d2hpopup(event, this.href)" id="popup_62761" href="gloss_encumbrance.htm">encumbrance</a> balance type defined in the Systems 
 Options maintenance table, look for a continuation account.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Sub-Account</span></strong>, 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Sub-Object</span></strong>, or 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Project 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Sub-Account</span></strong>, 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Sub-Object</span></strong>, or 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Project 
 Code</span></strong> field is blank, set it to dashes.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Balance 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Balance 
 Type</span></strong> field is blank, set it to AC (actual).</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Object 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Object 
 Type</span></strong> field is blank, set it to the object type of the object 
 code.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;"><a onclick="return d2hpopup(event, this.href)" id="popup_59677" href="gloss_fiscalperiod.htm"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Fiscal 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif"><a onclick="return d2hpopup(event, this.href)" id="popup_62758" href="gloss_fiscalperiod.htm"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Fiscal 
 Period</span></strong></a></span></strong> field is blank, assign the period 
 code of the accounting period containing the run date.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Document 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Document 
 Number</span></strong> field must not be blank or zeroes.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Transaction 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Transaction 
 Description</span></strong> field must not be blank.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Amount</span></strong> 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Amount</span></strong> 
 field must be numeric.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Debit/Credit 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Debit/Credit 
 Code</span></strong> field must be D or C.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Transaction 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Transaction 
 Date</span></strong> field is blank, set it to the run date.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The 
 transaction date must exist in the Universal Date table.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the encumbrance update code is R, in the reference origin code, reference 
-document type and reference document number must not be blank.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the balance type is an encumbrance balance type and the object type is not a 
-fund balance object type, the encumbrance update code must be D (update the open 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+encumbrance update code is R, in the reference origin code, reference document 
+type and reference document number must not be blank.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+balance type is an encumbrance balance type and the object type is not a fund 
+balance object type, the encumbrance update code must be D (update the open 
 amount), R (update the closed amount), or N (None). In all other cases, the 
 encumbrance update code must be blank.</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="accountsnotacceptingfringelogic.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Accounts Not Accepting Fringe 
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="accountsnotacceptingfringelogic.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Accounts Not Accepting Fringe 
 Logic</a></p></span></div></div></body></html>

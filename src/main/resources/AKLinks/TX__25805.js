@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__25805", [["WordDocuments/deliverytab4.htm", "right", "Delivery Tab"],["WordDocuments/deliverytab3.htm", "right", "Delivery Tab"]]);

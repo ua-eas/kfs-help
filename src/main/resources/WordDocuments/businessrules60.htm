@@ -90,40 +90,40 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <h4>Business Rules</h4>
 <p class="MsoBodyText"> </p>
 <p class="MsoBodyText">For establishing beginning balances:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>From 
-a pre-established list of balance types, actual and close nominal balances are 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>From a 
+pre-established list of balance types, actual and close nominal balances are 
 eligible for beginning balances. The balance types are defined in the parameter 
 BALANCE_TYPES_TO_ROLL_FORWARD_FOR_BALANCE_SHEET.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Object types representing assets, liabilities, and fund balance defined 
-in the Systems Options table are eligible for beginning balances.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-annual balance amount plus the beginning balance amount that is not zero are 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Object 
+types representing assets, liabilities, and fund balance defined in the Systems 
+Options table are eligible for beginning balances.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The annual 
+balance amount plus the beginning balance amount that is not zero are 
 eligible.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the unit of work qualifies for establishing beginning balances, a beginning 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the unit 
+of work qualifies for establishing beginning balances, a beginning balance entry 
+is created in the gl_balance_forwards.data file, which is accessible from the 
+Batch File lookup staging/gl/originEntry file path and can be loaded into the 
+General Ledger via the <a href="generalledgercorrectionprocess.htm">General 
+Ledger Correction Process</a>. </p>
+<p class="MsoBodyText">For establishing cumulative balances:</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>From a 
+pre-established list of balance types, actual and current budget balances are 
+eligible for cumulative beginning balances. The balance types are defined in the 
+parameter BALANCE_TYPES_TO_ROLL_FORWARD_FOR_INCOME_EXPENSE.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>From a 
+pre-established list of fund groups or sub-fund groups, balances related to CG 
+accounts are eligible to be carried forward into the new <a onclick="return d2hpopup(event, this.href)" id="popup_62369" href="gloss_fiscalyear.htm">fiscal year</a>. The sub-funds and fund groups are 
+defined in parameters FUND_GROUPS_FOR_INCEPTION_TO_DATE_REPORTING and 
+SUB_FUND_GROUPS_FOR_INCEPTION_TO_DATE_REPORTING.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The annual 
+balance amount plus the Contracts &amp; Grants balance amount that is not zero 
+are eligible.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>If the 
+balance qualifies for establishing cumulative balances, a cumulative beginning 
 balance entry is created in the gl_balance_forwards.data file, which is 
 accessible from the Batch File lookup staging/gl/originEntry file path and can 
 be loaded into the General Ledger via the <a href="generalledgercorrectionprocess.htm">General Ledger Correction Process</a>. 
 </p>
-<p class="MsoBodyText">For establishing cumulative balances:</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>From 
-a pre-established list of balance types, actual and current budget balances are 
-eligible for cumulative beginning balances. The balance types are defined in the 
-parameter BALANCE_TYPES_TO_ROLL_FORWARD_FOR_INCOME_EXPENSE.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>From 
-a pre-established list of fund groups or sub-fund groups, balances related to CG 
-accounts are eligible to be carried forward into the new <a onclick="return d2hpopup(event, this.href)" id="popup_55623" href="gloss_fiscalyear.htm">fiscal year</a>. The sub-funds and fund groups are 
-defined in parameters FUND_GROUPS_FOR_INCEPTION_TO_DATE_REPORTING and 
-SUB_FUND_GROUPS_FOR_INCEPTION_TO_DATE_REPORTING.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-annual balance amount plus the Contracts &amp; Grants balance amount that is not 
-zero are eligible.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the balance qualifies for establishing cumulative balances, a cumulative 
-beginning balance entry is created in the gl_balance_forwards.data file, which 
-is accessible from the Batch File lookup staging/gl/originEntry file path and 
-can be loaded into the General Ledger via the <a href="generalledgercorrectionprocess.htm">General Ledger Correction Process</a>. 
-</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="parameters.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Parameters</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="parameters.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Parameters</a></p></span></div></div></body></html>

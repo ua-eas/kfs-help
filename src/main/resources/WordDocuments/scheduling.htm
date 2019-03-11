@@ -90,23 +90,18 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <h3>Scheduling</h3>
 <p class="MsoBodyText">Five year-end batch jobs generate General Ledger data 
 files.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-COA <a href="chartofaccountsbatchprocesses.htm">populatePriorYearDataJob</a>–This job 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-COA <a href="chartofaccountsbatchprocesses.htm">populatePriorYearDataJob</a>–This job 
 must be run prior to running the other year end jobs. Normally it’s run on June 
-30 after the last day of the <a onclick="return d2hpopup(event, this.href)" id="popup_55853" href="gloss_fiscalperiod.htm">fiscal period</a>. It adds all the 
-accounts that were created in the <a onclick="return d2hpopup(event, this.href)" id="popup_55854" href="gloss_fiscalyear.htm">fiscal year</a> to the prior year 
+30 after the last day of the <a onclick="return d2hpopup(event, this.href)" id="popup_62599" href="gloss_fiscalperiod.htm">fiscal period</a>. It adds all the 
+accounts that were created in the <a onclick="return d2hpopup(event, this.href)" id="popup_62600" href="gloss_fiscalyear.htm">fiscal year</a> to the prior year 
 account table that is used by the other jobs for processing. Parameter RUN_DATE 
 needs to be set to the date that this job needs to run. </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-GL <a href="organizationreversionjobs.htm">organizationReversionPriorYearAccountJob<span style="COLOR: black"></span></a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-GL <a href="encumbranceforwardjob.htm">encumbranceForwardJob</a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-GL <a href="nominalactivityclosingjob.htm">nominalActivityClosingJob</a></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-GL <a href="balanceforwardjob.htm">balanceForwardJob</a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-GL <a href="organizationreversionjobs.htm">organizationReversionPriorYearAccountJob<span style="COLOR: black"></span></a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-GL <a href="encumbranceforwardjob.htm">encumbranceForwardJob</a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-GL <a href="nominalactivityclosingjob.htm">nominalActivityClosingJob</a></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-GL <a href="balanceforwardjob.htm">balanceForwardJob</a></p>
 <p class="MsoBodyText">Files output by these jobs are <em>not</em> automatically 
-fed into the <a onclick="return d2hpopup(event, this.href)" id="popup_55855" href="gloss_scrubber.htm">scrubber</a>, so an administrator must review the 
+fed into the <a onclick="return d2hpopup(event, this.href)" id="popup_62601" href="gloss_scrubber.htm">scrubber</a>, so an administrator must review the 
 files to be sure the data seems valid and then use the GLCP to make the data 
 available for the next nightly batch processing.  </p>
 <p class="MsoBodyText">These four jobs may be run over a period of several days. 
@@ -117,23 +112,24 @@ like the following.</p>
 <span class="NoteChar">The populatePriorYearDataJob must be run prior to running 
 the following jobs. Set the RUN_DATE parameter to the date that this job should 
 run.</span></p></div>
-<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Day 1</span></strong></p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Day 
+1</span></strong></p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">1.  Schedule:</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-GL organizationReversionPriorYearAccountJob</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-GL encumbranceForwardJob</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-LD <a href="laborbalanceforwardjob.htm">laborBalanceForwardJob</a></p>
-<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Day 2</span></strong></p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-GL 
+organizationReversionPriorYearAccountJob</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-GL 
+encumbranceForwardJob</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-LD <a href="laborbalanceforwardjob.htm">laborBalanceForwardJob</a></p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Day 
+2</span></strong></p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">2.  Review output from 
 yesterday's:</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-GL organizationReversionPriorYearAccountJob</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-GL encumbranceForwardJob</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-LD laborBalanceForwardJob</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-GL 
+organizationReversionPriorYearAccountJob</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-GL 
+encumbranceForwardJob</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-LD 
+laborBalanceForwardJob</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">3.  For all valid output from 
 those jobs, use the <a href="generalledgercorrectionprocess.htm">General Ledger 
 Correction Process</a> and <a href="laborledgercorrectionprocess.htm">Labor 
@@ -141,15 +137,16 @@ Ledger Correction Process</a> documents to input the files into this evening's
 batch cycle.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">4.  Schedule KFS-GL 
 nominalActivityClosingJob.</p>
-<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Day 3</span></strong></p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Day 
+3</span></strong></p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">5.  Verify that the entries 
 from the following jobs posted:</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-GL organizationReversionPriorYearAccountJob</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-GL encumbranceForwardJob</p>
-<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>KFS-LD laborBalanceForwardJob</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-GL 
+organizationReversionPriorYearAccountJob</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-GL 
+encumbranceForwardJob</p>
+<p class="C1HBullet2" style="TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>KFS-LD 
+laborBalanceForwardJob</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">6.  Review output from 
 yesterday's KFS-GL nominalActivityClosingJob.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">7.  For all valid output from 
@@ -158,7 +155,8 @@ Correction Process</a> document to input the files into this evening's batch
 cycle.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">8.  Schedule KFS-GL 
 balanceForwardJob.</p>
-<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Day 4</span></strong></p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Day 
+4</span></strong></p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">9.  Verify that the entries 
 from yesterday's KFS-GL nominalActivityClosingJob posted without incident.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">10. Review output from KFS-GL 
@@ -166,7 +164,8 @@ balanceForwardJob.</p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">11. For all valid output, use the 
 <a href="generalledgercorrectionprocess.htm">General Ledger Correction 
 Process</a> document to input the files into this evening's batch cycle.</p>
-<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">Day 5</span></strong></p>
+<p class="MsoBodyText"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Day 
+5</span></strong></p>
 <p class="C1HNumber" style="tab-stops: 36.0pt">12. Verify that the entries from 
 yesterday's Financials-GL balanceForwardJob posted.</p>
 <p class="MsoBodyText"> </p>
@@ -180,4 +179,4 @@ delivery mechanism of these reports depends on the implementing
 institution.</p></div>
 <p class="MsoNormal"> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="parameters13.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Parameters</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="parameters13.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Parameters</a></p></span></div></div></body></html>

@@ -95,27 +95,26 @@ Enterprise Feed Upload</a></div>
 <p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image11_3.png" />      For information 
 on procedures that apply to all Financials batch uploads, see <a href="batchuploadbasics.htm">Batch Upload Basics</a>.</p></div>
 <p class="C1HBullet" style="TEXT-INDENT: 0pt; tab-stops: 36.0pt"> </p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-using the Labor Enterprise Batch Feed upload, you must submit a reconciliation 
-(recon) file along with the entry file. This file verifies the count of records 
-and the dollar amount of your entry file. If these files do not reconcile, 
-Financials will not process the file and will generate an error message on the 
-<a onclick="return d2hpopup(event, this.href)" id="popup_59877" href="gloss_enterprisefeed.htm">Enterprise Feed</a> report.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-file will contain three types of rows as detailed below. Each element of each 
-row must be separated by a single space and each row ends with a semi-colon.</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>A c 
-row identifying the table being impacted (gl_entry_t or ld_ldgr_entr_t) and the 
-row count of the data file. For example: c gl_entry_t  2 or c 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>When using 
+the Labor Enterprise Batch Feed upload, you must submit a reconciliation (recon) 
+file along with the entry file. This file verifies the count of records and the 
+dollar amount of your entry file. If these files do not reconcile, Financials 
+will not process the file and will generate an error message on the <a onclick="return d2hpopup(event, this.href)" id="popup_62958" href="gloss_enterprisefeed.htm">Enterprise Feed</a> report.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The file 
+will contain three types of rows as detailed below. Each element of each row 
+must be separated by a single space and each row ends with a semi-colon.</p>
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>A c row 
+identifying the table being impacted (gl_entry_t or ld_ldgr_entr_t) and the row 
+count of the data file. For example: c gl_entry_t  2 or c 
 ld_ldgr_entr_t  2;</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>An S 
-row identifying the field where the dollar amount is found (trn_ldgr_entr_amt) 
-and the dollar amount of the data file. For example: s trn_ldgr_entr_amt 
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>An S row 
+identifying the field where the dollar amount is found (trn_ldgr_entr_amt) and 
+the dollar amount of the data file. For example: s trn_ldgr_entr_amt 
 27680.00;</p>
-<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>An e 
-row identifying the number of c and s rows found in the reconciliation file 
-(always 2). For example: e 02;</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>So an 
+<p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: -18pt; tab-stops: 54.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>An e row 
+identifying the number of c and s rows found in the reconciliation file (always 
+2). For example: e 02;</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>So an 
 entire reconciliation made up of these rows would contain the following:</p>
 <p class="C1HBullet" style="MARGIN-LEFT: 54pt; TEXT-INDENT: 0pt; tab-stops: 36.0pt">c 
 ld_ldgr_entr_t   2;</p>
@@ -123,5 +122,5 @@ ld_ldgr_entr_t   2;</p>
 trn_ldgr_entr_amt   27680.00;</p>
 <p class="C1HBullet" style="TEXT-INDENT: 18pt; tab-stops: 36.0pt">e 02;</p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="predisbursementprocessor.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Pre-Disbursement 
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="predisbursementprocessor.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Pre-Disbursement 
 Processor</a></p></span></div></div></body></html>

@@ -90,76 +90,74 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <h4>Overview</h4>
 <p class="MsoBodyText">The scrubberJob performs the following primary 
 functions.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Validation of data: Includes the addition of some missing values, 
-validation against the Chart of Accounts, and the application of continuation 
-account logic.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Offset and entry generation: Includes document balancing, capitalization 
-of assets and liabilities, plant indebtedness, <a onclick="return d2hpopup(event, this.href)" id="popup_55782" href="gloss_costshare.htm">cost share</a> transfers, and cost share 
-encumbrances.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>Error 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Validation 
+of data: Includes the addition of some missing values, validation against the 
+Chart of Accounts, and the application of continuation account logic.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Offset and 
+entry generation: Includes document balancing, capitalization of assets and 
+liabilities, plant indebtedness, <a onclick="return d2hpopup(event, this.href)" id="popup_62528" href="gloss_costshare.htm">cost share</a> transfers, and cost 
+share encumbrances.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>Error 
 handling after the batch process: Identifies and de-merges errors to be 
 corrected using the <a href="generalledgercorrectionprocess.htm">General Ledger 
 Correction Process</a> document.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span></p>
 <p class="MsoBodyText">The following table briefly describes the functionality 
 performed by the scrubberJob. Each function is described in detail below.</p>
 <p class="MsoBodyText"> </p>
 <p class="TableHeading">scrubberJob </p>
-<table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="735" border="0">
+<table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 5.75pt" cellspacing="0" cellpadding="0" width="588" border="0">
   <tbody>
   <tr style="HEIGHT: 22.55pt">
-    <td style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 22.55pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
+    <td style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 22.55pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="312">
       <p class="TableCells">Process</p></td>
-    <td style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 22.55pt; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
+    <td style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 22.55pt; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="276">
       <p class="TableCells">Description</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="312">
       <p class="TableCells"><a href="datavalidation.htm">Data 
 Validation</a></p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="276">
       <p class="TableCells">Validates that data is accurate and complete prior to 
       posting into the General Ledger. Missing and invalid values may also be 
       completed in this step.</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="312">
       <p class="TableCells"><a href="continuationaccount.htm">Continuation 
       Account</a></p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="276">
       <p class="TableCells">Expired or closed accounts are replaced with a 
       continuation account when certain situations apply. </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="312">
       <p class="TableCells"><a href="prescrubber.htm">Pre-Scrubber</a></p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="276">
       <p class="TableCells">If accounts cannot be the same across charts and the 
-      chart code is missing, the pre-<a onclick="return d2hpopup(event, this.href)" id="popup_55783" href="gloss_scrubber.htm">scrubber</a> will fill in the chart code 
+      chart code is missing, the pre-<a onclick="return d2hpopup(event, this.href)" id="popup_62529" href="gloss_scrubber.htm">scrubber</a> will fill in the chart code 
       associated with the account. </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="312">
       <p class="TableCells"><a href="offsetgeneration.htm">Offset 
       Generation</a></p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="276">
       <p class="TableCells">Offsets will be created for transactions if offsets 
       haven’t already been created to ensure the system is balanced. </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="312">
       <p class="TableCells"><a href="transactiongeneration.htm">Transaction 
       Generation</a></p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="276">
       <p class="TableCells">The scrubber also creates generates transactions to 
       capitalize assets and liabilities, post plant indebtedness, cost share 
       transfers and cost share encumbrances. </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="390">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 234pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="312">
       <p class="TableCells"><a href="demerger.htm">Demerger</a></p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="345">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 207pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="276">
       <p class="TableCells">The demerger removes any entries or offsets that are 
       related to transactions with the same document number that had errors. 
       This prevents unbalanced transactions from posting to the General Ledger. 
       </p></td></tr></tbody></table>
 <p class="MsoBodyText"> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="datavalidation.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Data 
-Validation</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="datavalidation.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Data Validation</a></p></span></div></div></body></html>

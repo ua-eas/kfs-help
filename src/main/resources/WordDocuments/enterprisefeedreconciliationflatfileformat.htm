@@ -92,75 +92,75 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div style="MARGIN-BOTTOM: 9pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; MARGIN-TOP: 9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0pt">
 <p class="Note" style="MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt"><img title="go-arrow-red" alt="go-arrow-red" src="../ImagesExt/image20_4.png" />      For information 
 on procedures that apply to all Financials batch uploads, see <a href="batchuploadbasics.htm">Batch Upload Basics</a>.</p></div>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span></p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>When 
-using the Enterprise Batch Feed upload, you must submit a reconciliation (recon) 
-file along with the entry file. This file verifies the count of records and the 
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span></p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>When using 
+the Enterprise Batch Feed upload, you must submit a reconciliation (recon) file 
+along with the entry file. This file verifies the count of records and the 
 dollar amount of your entry file. If these files do not reconcile, Financials 
-will not process the file and will generate an error message on the <a onclick="return d2hpopup(event, this.href)" id="popup_55967" href="gloss_enterprisefeed.htm">Enterprise Feed</a> report.</p>
-<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-file will contain three types of rows as detailed below. Each element of each 
-row must be separated by a single space and each row ends with a semi-colon.</p>
+will not process the file and will generate an error message on the <a onclick="return d2hpopup(event, this.href)" id="popup_62713" href="gloss_enterprisefeed.htm">Enterprise Feed</a> report.</p>
+<p class="C1HBullet" style="TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>     </span>The file 
+will contain three types of rows as detailed below. Each element of each row 
+must be separated by a single space and each row ends with a semi-colon.</p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span style="FONT-FAMILY: &quot;Courier New&quot;">o  </span>A c row identifying the table 
 being impacted (gl_entry_t) and the row count of the data file. For example: 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">c gl_entry_t 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">c gl_entry_t 
 0000000002</span></strong><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt">;</span></span></p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Courier New&quot;; FONT-WEIGHT: normal">o  
 </span></span>An S row identifying the field where the dollar amount is found 
 (trn_ldgr_entr_amt) and the dollar amount of the data file. For example: 
-<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">s trn_ldgr_entr_amt 
+<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">s trn_ldgr_entr_amt 
 00000000027680.00;</span></strong><span class="ColoredLetter-Gray"><span style="FONT-SIZE: 11pt; FONT-WEIGHT: normal"></span></span></p>
 <p class="C1HBullet2A" style="tab-stops: 54.0pt"><strong><span style="FONT-FAMILY: &quot;Courier New&quot;; FONT-WEIGHT: normal">o  
 </span></strong>An e row identifying the number of c and s rows found in the 
-reconciliation file (always 2 for GL files). For example<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">: e 02;</span></strong></p>
+reconciliation file (always 2 for GL files). For example<strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">: e 02;</span></strong></p>
 <p class="C1HContinue">So an entire reconciliation made up of these rows would 
 contain the following:</p>
-<p class="C1HContinue"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">c 
+<p class="C1HContinue"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">c 
 gl_entry_t 0000000002;</span></strong></p>
-<p class="C1HContinue"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">s 
+<p class="C1HContinue"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">s 
 trn_ldgr_entr_amt 00000000027680.00;</span></strong></p>
-<p class="C1HContinue"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,&quot;sans-serif&quot;">e 
+<p class="C1HContinue"><strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">e 
 02;</span></strong></p>
 <p class="MsoNormal"> </p>
 <p class="TableHeading">Enterprise Feed Reconciliation flat file format</p>
 <table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; MARGIN-LEFT: 5.4pt; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1">
   <tbody>
   <tr>
-    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 201.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="335">
+    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 201.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="268">
       <p class="TableCells">Name</p></td>
-    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 49.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="83">
+    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 49.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="66">
       <p class="TableCells">Length</p></td>
-    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 72.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="120">
+    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 72.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="96">
       <p class="TableCells">Required?</p></td>
-    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 136pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="227">
+    <td style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; WIDTH: 136pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="181">
       <p class="TableCells">Special Formatting</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 201.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="335">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 201.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="268">
       <p class="TableCells">C row count</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 49.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="83">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 49.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="66">
       <p class="TableCells">10</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 72.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="120">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 72.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 136pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="227">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 136pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="181">
       <p class="TableCells"> </p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 201.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="335">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 201.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="268">
       <p class="TableCells">S row transaction ledger amount</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 49.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="83">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 49.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="66">
       <p class="TableCells">21</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 72.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="120">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 72.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 136pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="227">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 136pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="181">
       <p class="TableCells">Signed amount field with 2 decimal places</p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 201.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="335">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 201.1pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="268">
       <p class="TableCells">E row checksum total</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 49.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="83">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 49.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="66">
       <p class="TableCells">2</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 72.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="120">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 72.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="96">
       <p class="TableCells">Yes</p></td>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 136pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="227">
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; WIDTH: 136pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="181">
       <p class="TableCells"> </p></td></tr></tbody></table>
 <p class="MsoNormal"> </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="normal"><a style="TEXT-DECORATION: none" href="labordistribution.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Labor Distribution</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="labordistribution.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Labor Distribution</a></p></span></div></div></body></html>
