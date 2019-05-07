@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__24757", [["WordDocuments/objectcodetab.htm", "right", "Object Code Tab"],["WordDocuments/objectcodestab.htm", "right", "Object Codes Tab"]]);

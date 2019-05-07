@@ -90,7 +90,7 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <h5>Assignee/Delegation Tab</h5>
 <p class="MsoBodyText">The <strong><span style="FONT-FAMILY: &quot;Verdana&quot;,sans-serif">Assignee/Delegation 
 </span></strong>tab records any additional qualifying values needed for adding 
-users to the Accounting Reviewer <a onclick="return d2hpopup(event, this.href)" id="popup_61381" href="gloss_role.htm">role</a> and defines the person, group or 
+users to the Accounting Reviewer <a onclick="return d2hpopup(event, this.href)" id="popup_60503" href="gloss_role.htm">role</a> and defines the person, group or 
 role that should be assigned as a member or a delegate. This tab also collects 
 detailed information about the type of workflow request to be generated and how 
 workflow should handle that request.</p>
@@ -104,168 +104,193 @@ information about delegating via the Organization Review document, see <a href="
   <tbody>
   <tr>
     <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">Title </p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Title </span></p></td>
     <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Description</p></td></tr>
+      <p class="TableCells"><span style="COLOR: windowtext">Description</span></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">Accounting Line Override Code</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Accounting Line 
+      Override Code</span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Optional. Note that this field is available only if 
-      the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">Review 
+      <p class="TableCells"><span style="COLOR: windowtext">Optional. Note that 
+      this field is available only if the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; COLOR: windowtext">Review 
       Type</span></strong> value is either Organization Accounting Only or 
-      Both.</p>
-      <p class="TableCells">If you want action requests to be generated only when 
-      a transactional document includes an accounting line with a particular 
-      override code, select that override code here. If you want action requests 
-      to be generated whether or not an override code is present, leave this 
-      field blank.</p>
-      <p class="TableCells">None – only triggers if there are no overrides 
-      applicable to the accounting line.  It is important to note that this 
-      is different than the [blank] default value, which ignores override codes 
-      altogether.</p>
-      <p class="TableCells">EXP_ACCT – triggers if an account used on the document 
-      is expired.</p>
-      <p class="TableCells">NON_BDG_OBJ – triggers if an account used on the 
-      document uses Object Presence Control and there is no budget for an 
-      account and object code used on the document.</p>
-      <p class="TableCells">NON_FR_ACCT – triggers if an account used on the 
-      document does not accept Fringe Benefits and the object code being used is 
-      identified as a fringe benefit code in the Labor Object Code table.</p>
-      <p class="TableCells">TRAN_ECXD_REM_BDG – triggers if an account used on the 
-      document uses Object Presence Control and the amount on the document is 
-      greater than the remaining budget for the account and object code.</p>
-      <p class="TableCells">The remaining codes are combinations of the 
-    above.</p></td></tr>
+      Both.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">If you want action 
+      requests to be generated only when a transactional document includes an 
+      accounting line with a particular override code, select that override code 
+      here. If you want action requests to be generated whether or not an 
+      override code is present, leave this field blank.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">None – only triggers 
+      if there are no overrides applicable to the accounting line.  It is 
+      important to note that this is different than the [blank] default value, 
+      which ignores override codes altogether.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">EXP_ACCT – triggers if 
+      an account used on the document is expired.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">NON_BDG_OBJ – triggers 
+      if an account used on the document uses Object Presence Control and there 
+      is no budget for an account and object code used on the 
+      document.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">NON_FR_ACCT – triggers 
+      if an account used on the document does not accept Fringe Benefits and the 
+      object code being used is identified as a fringe benefit code in the Labor 
+      Object Code table.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">TRAN_ECXD_REM_BDG – 
+      triggers if an account used on the document uses Object Presence Control 
+      and the amount on the document is greater than the remaining budget for 
+      the account and object code.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">The remaining codes 
+      are combinations of the above.</span></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">Action Policy Code</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Action Policy 
+      Code</span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Required. This value determines what happens if 
-      multiple members of a role or group receive the same action request and 
-      one of them takes the requested action. For example, if a role has a group 
-      with three members assigned, all of these members receive the action 
-      request defined here; this code determines what the system does when one 
-      of them takes action on the document.</p>
-      <p class="TableCells">A value of FIRST indicates that the first member to 
-      take action on the document automatically clears all requests for this 
-      responsibility that may be in other group members action lists.</p>
-      <p class="TableCells">A value of ALL indicates that each group member must 
-      take individual action to clear his or her requests.</p>
+      <p class="TableCells"><span style="COLOR: windowtext">Required. This value 
+      determines what happens if multiple members of a role or group receive the 
+      same action request and one of them takes the requested action. For 
+      example, if a role has a group with three members assigned, all of these 
+      members receive the action request defined here; this code determines what 
+      the system does when one of them takes action on the document.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">A value of FIRST 
+      indicates that the first member to take action on the document 
+      automatically clears all requests for this responsibility that may be in 
+      other group members action lists.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">A value of ALL 
+      indicates that each group member must take individual action to clear his 
+      or her requests.</span></p>
       <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
-      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image19_3.png" />    This value impacts 
-      only a single action request. It has no impact on other requests that 
-      might be generated by workflow for the same chart, organization and <a onclick="return d2hpopup(event, this.href)" id="popup_61379" href="gloss_documenttype.htm">document type</a>.</p></div></td></tr>
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><span style="COLOR: windowtext"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image19_3.png" /></span><span style="COLOR: windowtext">    This value impacts only a 
+      single action request. It has no impact on other requests that might be 
+      generated by workflow for the same chart, organization and <a onclick="return d2hpopup(event, this.href)" id="popup_60501" href="gloss_documenttype.htm">document type</a>.</span></p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">Action Type Code</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Action Type 
+      Code</span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Required. Select the type of workflow action request 
-      that is to be generated. Choices include:</p>
-      <p class="TableCells">Approve<br />FYI<br />Acknowledge</p></td></tr>
+      <p class="TableCells"><span style="COLOR: windowtext">Required. Select the 
+      type of workflow action request that is to be generated. Choices 
+      include:</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">Approve<br />FYI<br />Acknowledge</span></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">Active From Date</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Active From 
+      Date</span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Optional. To begin generating these requests on a 
-      specific date, enter that date here. If no date is provided, the requests 
-      will be eligible for creation a soon as the Organization Review document 
-      is processed or final.</p></td></tr>
+      <p class="TableCells"><span style="COLOR: windowtext">Optional. To begin 
+      generating these requests on a specific date, enter that date here. If no 
+      date is provided, the requests will be eligible for creation a soon as the 
+      Organization Review document is processed or final.</span></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">Active To Date</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Active To 
+      Date</span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Optional. To stop generating these requests on a 
-      specific day, enter that date here. If no date is provided the requests 
-      will be generated indefinitely.</p></td></tr>
+      <p class="TableCells"><span style="COLOR: windowtext">Optional. To stop 
+      generating these requests on a specific day, enter that date here. If no 
+      date is provided the requests will be generated 
+  indefinitely.</span></p></td></tr>
   <tr>
-    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144"><a onclick="return d2hpopup(event, this.href)" id="popup_61380" href="gloss_forceaction.htm">
-      <p class="TableCells">Force Action</p>
-      <p class="TableCells"></p></a> </td>
+    <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144"><span style="COLOR: windowtext"><a onclick="return d2hpopup(event, this.href)" id="popup_60502" href="gloss_forceaction.htm">
+      <p class="TableCells"><span style="COLOR: windowtext">Force 
+Action</span></p>
+      <p class="TableCells"></p></a></span> </td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Check the box to indicate that the assignee must take 
-      the action for this request even if the user has already previously taken 
-      action on this document. Leaving the box unchecked allows a request to be 
-      immediately fulfilled if the assignee has previously taken action on this 
-      specific document.</p></td></tr>
+      <p class="TableCells"><span style="COLOR: windowtext">Check the box to 
+      indicate that the assignee must take the action for this request even if 
+      the user has already previously taken action on this document. Leaving the 
+      box unchecked allows a request to be immediately fulfilled if the assignee 
+      has previously taken action on this specific document.</span></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">From Amount</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">From 
+    Amount</span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Optional. This field is available only if the 
-      <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">Review 
+      <p class="TableCells"><span style="COLOR: windowtext">Optional. This field 
+      is available only if the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; COLOR: windowtext">Review 
       Type</span></strong> value is either Organization Accounting Only or 
-      Both.</p>
-      <p class="TableCells">Enter a minimum dollar amount for transactional 
-      documents below which you do not want to generate action requests. If you 
-      do not want to establish a minimum dollar amount, leave this field blank. 
-      </p></td></tr>
+      Both.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">Enter a minimum dollar 
+      amount for transactional documents below which you do not want to generate 
+      action requests. If you do not want to establish a minimum dollar amount, 
+      leave this field blank. </span></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">Group Name</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Group 
+    Name</span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Optional. Enter the name of the group that is to 
-      receive these workflow action requests or use the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">Group</span></strong> lookup to 
-      select a value.</p>
+      <p class="TableCells"><span style="COLOR: windowtext">Optional. Enter the 
+      name of the group that is to receive these workflow action requests or use 
+      the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; COLOR: windowtext">Group</span></strong> 
+      lookup to select a value.</span></p>
       <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
-      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image19_3.png" />    You must choose a 
-      principal name, role and/or group to receive this workflow request. You 
-      may not leave all these fields blank.</p></div></td></tr>
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><span style="COLOR: windowtext"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image19_3.png" /></span><span style="COLOR: windowtext">    You must choose a principal 
+      name, role and/or group to receive this workflow request. You may not 
+      leave all these fields blank.</span></p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">Group Namespace</p>
-      <p class="TableCells"> </p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Group 
+      Namespace</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext"></span> </p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Optional. If you want to generate workflow action 
-      requests to a particular group, select the namespace associated with that 
-      group.</p></td></tr>
+      <p class="TableCells"><span style="COLOR: windowtext">Optional. If you want 
+      to generate workflow action requests to a particular group, select the 
+      namespace associated with that group.</span></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">Namespace</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Namespace</span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Optional. To generate workflow action requests to a 
-      particular role, select the namespace associated with that role.</p></td></tr>
+      <p class="TableCells"><span style="COLOR: windowtext">Optional. To generate 
+      workflow action requests to a particular role, select the namespace 
+      associated with that role.</span></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">Priority Number</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Priority 
+      Number</span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Optional. Enter a priority number between 1 and 11. If 
-      multiple action requests are generated for this chart, organization and 
-      document type, requests with lower priorities are generated before those 
-      with higher priorities.</p></td></tr>
+      <p class="TableCells"><span style="COLOR: windowtext">Optional. Enter a 
+      priority number between 1 and 11. If multiple action requests are 
+      generated for this chart, organization and document type, requests with 
+      lower priorities are generated before those with higher 
+      priorities.</span></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">Principal Name</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Principal 
+      Name</span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Optional. Enter the principal name of the person who 
-      is to receive these workflow action requests or use the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">Person</span></strong> lookup to 
-      select a value.</p>
+      <p class="TableCells"><span style="COLOR: windowtext">Optional. Enter the 
+      principal name of the person who is to receive these workflow action 
+      requests or use the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; COLOR: windowtext">Person</span></strong> 
+      lookup to select a value.</span></p>
       <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
-      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image19_3.png" />    You must choose a 
-      principal name, role and/or group to receive this workflow request. You 
-      may not leave all these fields blank.</p></div></td></tr>
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><span style="COLOR: windowtext"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image19_3.png" /></span><span style="COLOR: windowtext">    You must choose a principal 
+      name, role and/or group to receive this workflow request. You may not 
+      leave all these fields blank.</span></p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">Role Name</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Role 
+Name</span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Optional. Enter the name of the role that is to 
-      receive these workflow action requests or use the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">Role</span></strong> lookup to 
-      select a value.</p>
+      <p class="TableCells"><span style="COLOR: windowtext">Optional. Enter the 
+      name of the role that is to receive these workflow action requests or use 
+      the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; COLOR: windowtext">Role</span></strong> 
+      lookup to select a value.</span></p>
       <div style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 1pt; PADDING-LEFT: 0pt; BORDER-LEFT: medium none; MARGIN: 9pt 3.6pt 6pt -1.6pt; PADDING-RIGHT: 0pt">
-      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image19_3.png" />    You must choose a 
-      principal name, role and/or group to receive this workflow request. You 
-      may not leave all these fields blank.</p></div></td></tr>
+      <p class="Noteintable" style="MARGIN: 0pt 0pt 0pt 22.85pt"><span style="COLOR: windowtext"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image19_3.png" /></span><span style="COLOR: windowtext">    You must choose a principal 
+      name, role and/or group to receive this workflow request. You may not 
+      leave all these fields blank.</span></p></div></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 108pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="144">
-      <p class="TableCells">To Amount</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">To 
+Amount</span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 268.55pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="358">
-      <p class="TableCells">Optional. This field is available only if the 
-      <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">Review 
+      <p class="TableCells"><span style="COLOR: windowtext">Optional. This field 
+      is available only if the <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; COLOR: windowtext">Review 
       Type</span></strong> value is either Organization Accounting Only or 
-      Both.</p>
-      <p class="TableCells">Enter a maximum dollar amount for transactional 
-      documents above which you do not want to generate action requests. If you 
-      do not want to establish a maximum dollar amount, leave this field blank. 
-      </p></td></tr></tbody></table>
+      Both.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">Enter a maximum dollar 
+      amount for transactional documents above which you do not want to generate 
+      action requests. If you do not want to establish a maximum dollar amount, 
+      leave this field blank. </span></p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="delegation.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Delegation</a></p></span></div></div></body></html>

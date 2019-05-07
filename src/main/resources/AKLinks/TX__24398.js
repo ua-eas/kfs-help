@@ -1,1 +1,1 @@
-d2hStoreMenuItems("TX__24398", [["WordDocuments/kualifinancials.htm", "right", "Kuali Financials"],["WordDocuments/vendorvnd.htm", "right", "Vendor (VND)"]]);
+d2hStoreMenuItems("TX__24398", [["WordDocuments/generalledgergl.htm", "right", "General Ledger (GL)"],["WordDocuments/kualifinancials.htm", "right", "Kuali Financials"]]);
