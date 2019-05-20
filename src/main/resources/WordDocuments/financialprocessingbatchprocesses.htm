@@ -98,51 +98,57 @@ Pre-Disbursement Processor.</p>
   <tbody>
   <tr>
     <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="204">
-      <p class="TableCells">Job Name</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">Job Name</span></p></td>
     <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: medium none; WIDTH: 317.9pt; BORDER-BOTTOM: windowtext 3pt double; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="424">
-      <p class="TableCells">Description</p></td></tr>
+      <p class="TableCells"><span style="COLOR: windowtext">Description</span></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="204">
-      <p class="TableCells">disbursementVoucherPreDisbursementProcessorExtractJob</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">disbursementVoucherPreDisbursementProcessorExtractJob</span><span style="COLOR: windowtext"></span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 317.9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="424">
-      <p class="TableCells">This job extracts Disbursement Vouchers into 
-      Pre-Disbursement Processor for payment. Only DVs with Payment Method 
-      Check/ACH are extracted.  </p></td></tr>
+      <p class="TableCells"><span style="COLOR: windowtext">This job extracts 
+      Disbursement Vouchers into Pre-Disbursement Processor for payment. Only 
+      DVs with Payment Method Check/ACH are extracted.  </span></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="204">
-      <p class="TableCells">procurementCardDocumentJob</p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">procurementCardDocumentJob</span><span style="COLOR: windowtext"></span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 317.9pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="424">
-      <p class="TableCells">This job does the following: </p>
-      <p class="TableCells">Creates Procurement Card Documents either by 
-      cardholder or for each individual transaction as specified with parameter 
-      SINGLE_TRANSACTION_IND. </p>
-      <p class="TableCells">Document Description will be the cardholders name, 
-      last 4 digits of the card number and the chart and account of the default 
-      account. </p>
-      <p class="TableCells">If parameter PROCUREMENT_CARD_ACCOUNTING_DEFAULT_IND 
-      is set to Y accounting line information on the Procurement Card document 
-      is populated from Procurement Card Document Default table. </p>
-      <p class="TableCells">If accounting information does not exist in the 
-      reference table for a given credit card, the ERROR_TRANSACTION* parameter 
-      values will be used. If the parameter is set to N, the accounting line 
-      information on the Procurement Card document is generated from the bank 
-      file.</p>
-      <p class="TableCells">Summary emails will be sent to the email addresses 
-      specified in PCARD_BATCH_SUMMARY_TO_EMAIL_ADDRESSES and use date formats 
-      specified in BATCH_SUMMARY date and timestamp parameters. The email 
-      provides a summary by posting date and includes transactions, documents 
-      created and total spend.</p>
-      <p class="TableCells">Procurement Card documents route to the <a onclick="return d2hpopup(event, this.href)" id="popup_61851" href="gloss_fiscalofficer.htm">Fiscal Officer</a>. </p>
-      <p class="TableCells">Procurement Cards are automatically approved if 
-      AUTO_APPROVE_IND is set to Y, the purchase is not capital and the number 
-      of days specified in AUTO_APPROVE_NUMBER_OF_DAYS has been exceeded. An FYI 
-      request is sent to the Fiscal Officer. </p></td></tr>
+      <p class="TableCells"><span style="COLOR: windowtext">This job does the 
+      following: </span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">Creates Procurement 
+      Card Documents either by cardholder or for each individual transaction as 
+      specified with parameter SINGLE_TRANSACTION_IND. </span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">Document Description 
+      will be the cardholders name, last 4 digits of the card number and the 
+      chart and account of the default account. </span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">If parameter 
+      PROCUREMENT_CARD_ACCOUNTING_DEFAULT_IND is set to Y accounting line 
+      information on the Procurement Card document is populated from Procurement 
+      Card Document Default table. </span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">If accounting 
+      information does not exist in the reference table for a given credit card, 
+      the ERROR_TRANSACTION* parameter values will be used. If the parameter is 
+      set to N, the accounting line information on the Procurement Card document 
+      is generated from the bank file.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">Summary emails will be 
+      sent to the email addresses specified in 
+      PCARD_BATCH_SUMMARY_TO_EMAIL_ADDRESSES and use date formats specified in 
+      BATCH_SUMMARY date and timestamp parameters. The email provides a summary 
+      by posting date and includes transactions, documents created and total 
+      spend.</span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">Procurement Card 
+      documents route to the <a onclick="return d2hpopup(event, this.href)" id="popup_60802" href="gloss_fiscalofficer.htm">Fiscal Officer</a>. 
+      </span></p>
+      <p class="TableCells"><span style="COLOR: windowtext">Procurement Cards are 
+      automatically approved if AUTO_APPROVE_IND is set to Y, the purchase is 
+      not capital and the number of days specified in 
+      AUTO_APPROVE_NUMBER_OF_DAYS has been exceeded. An FYI request is sent to 
+      the Fiscal Officer. </span></p></td></tr>
   <tr>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1.5pt double; WIDTH: 153pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="204">
-      <p class="TableCells">populateProcurementCardDefaultsJob </p></td>
+      <p class="TableCells"><span style="COLOR: windowtext">populateProcurementCardDefaultsJob</span><span style="COLOR: windowtext"> </span></p></td>
     <td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 317.9pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 2.9pt; PADDING-LEFT: 5.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.9pt" valign="top" width="424">
-      <p class="TableCells">This job populates the Procurement Card Holder 
-      Defaults table.</p></td></tr></tbody></table>
+      <p class="TableCells"><span style="COLOR: windowtext">This job populates the 
+      Procurement Card Holder Defaults table.</span></p></td></tr></tbody></table>
 <p class="RelatedHead">More:</p><span id="related-topics">
 <p class="MsoNormal"><a style="TEXT-DECORATION: none" href="financialprocessingtransactiondocuments.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Financial Processing Transaction 
 Documents</a></p></span></div></div></body></html>
